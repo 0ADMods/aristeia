@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <author>Blender User</author>
+      <authoring_tool>Blender 2.66.1 r55057</authoring_tool>
+    </contributor>
+    <created>2013-03-30T23:42:06</created>
+    <modified>2013-03-30T23:42:06</modified>
+    <unit name="meter" meter="1"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_images/>
+  <library_effects>
+    <effect id="Material-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <color sid="diffuse">0.64 0.64 0.64 1</color>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.5 0.5 0.5 1</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">50</float>
+            </shininess>
+            <index_of_refraction>
+              <float sid="index_of_refraction">1</float>
+            </index_of_refraction>
+          </phong>
+        </technique>
+        <extra>
+          <technique profile="GOOGLEEARTH">
+            <double_sided>1</double_sided>
+          </technique>
+        </extra>
+      </profile_COMMON>
+      <extra><technique profile="MAX3D"><double_sided>1</double_sided></technique></extra>
+    </effect>
+  </library_effects>
+  <library_materials>
+    <material id="Material-material" name="Material">
+      <instance_effect url="#Material-effect"/>
+    </material>
+  </library_materials>
+  <library_geometries>
+    <geometry id="E_tower-mesh" name="E_tower">
+      <mesh>
+        <source id="E_tower-mesh-positions">
+          <float_array id="E_tower-mesh-positions-array" count="48">1.682186 1.682186 -2.679838 1.682186 -1.682186 -2.679838 -1.682186 -1.682186 -2.679838 -1.682186 1.682187 -2.679838 1.558938 1.558937 6.13442 1.558936 -1.558938 6.13442 -1.558938 -1.558937 6.13442 -1.558937 1.558937 6.13442 1.808783 1.808781 7.2661 1.808781 -1.808783 7.2661 -1.808782 -1.808781 7.2661 -1.808781 1.808782 7.2661 1.808783 1.808781 7.407822 1.808781 -1.808783 7.407822 -1.808782 -1.808781 7.407822 -1.808781 1.808782 7.407822</float_array>
+          <technique_common>
+            <accessor source="#E_tower-mesh-positions-array" count="16" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="E_tower-mesh-normals">
+          <float_array id="E_tower-mesh-normals-array" count="39">0.9764857 -5.6887e-7 -0.2155817 0.9999023 -2.75379e-7 0.01398152 -2.94154e-7 -0.9999023 0.01398146 -0.9999023 2.39913e-7 0.01398146 2.02362e-7 0.9999023 0.01398158 1 -5.93152e-7 0 2.78708e-7 0.9764857 -0.2155818 -5.19237e-7 -0.9764858 -0.2155819 -0.9764859 2.06168e-7 -0.2155817 0 0 1 2.96576e-7 1 0 -5.602e-7 -1 0 -1 1.97718e-7 0</float_array>
+          <technique_common>
+            <accessor source="#E_tower-mesh-normals-array" count="13" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="E_tower-mesh-map-0">
+          <float_array id="E_tower-mesh-map-0-array" count="104">0.1809772 0.8727278 0.3694974 0.8727278 0.3694974 0.9640284 0.1809772 0.9640284 0.4414063 0.00390625 0.4414063 0.6679688 0.21875 0.6679688 0.21875 0.00390625 0.21875 0.00390625 0.21875 0.6679688 0 0.6679688 0 0.00390625 0.8789063 0.00390625 0.8789063 0.6679688 0.6601563 0.6679688 0.6601563 0.00390625 0.4414063 0.6679688 0.4414063 0.00390625 0.6601563 0.00390625 0.6601563 0.6679688 0.1809772 0.9640284 0.3694974 0.9640284 0.3694974 0.9755988 0.1809772 0.9755988 0.3694974 0.8727278 0.5657123 0.8727278 0.5657123 0.9640284 0.3694974 0.9640284 1.51798e-4 0.8727278 0.1809772 0.8727278 0.1809772 0.9640284 1.51798e-4 0.9640284 0.5657123 0.8727278 0.7503851 0.8727278 0.7503851 0.9640284 0.5657123 0.9640284 0.929369 0.5664063 0.6910878 0.5664063 0.6910878 0.3320313 0.929369 0.3320313 0.3694974 0.9640284 0.5657123 0.9640284 0.5657123 0.9755988 0.3694974 0.9755988 1.51798e-4 0.9640284 0.1809772 0.9640284 0.1809772 0.9755988 1.51798e-4 0.9755988 0.5657123 0.9640284 0.7503851 0.9640284 0.7503851 0.9755988 0.5657123 0.9755988</float_array>
+          <technique_common>
+            <accessor source="#E_tower-mesh-map-0-array" count="52" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="E_tower-mesh-vertices">
+          <input semantic="POSITION" source="#E_tower-mesh-positions"/>
+        </vertices>
+        <polylist material="Material-material" count="13">
+          <input semantic="VERTEX" source="#E_tower-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#E_tower-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#E_tower-mesh-map-0" offset="2" set="0"/>
+          <vcount>4 4 4 4 4 4 4 4 4 4 4 4 4 </vcount>
+          <p>5 0 0 4 0 1 8 0 2 9 0 3 0 1 4 4 1 5 5 1 6 1 1 7 1 2 8 5 2 9 6 2 10 2 2 11 2 3 12 6 3 13 7 3 14 3 3 15 4 4 16 0 4 17 3 4 18 7 4 19 9 5 20 8 5 21 12 5 22 13 5 23 4 6 24 7 6 25 11 6 26 8 6 27 6 7 28 5 7 29 9 7 30 10 7 31 7 8 32 6 8 33 10 8 34 11 8 35 12 9 36 15 9 37 14 9 38 13 9 39 8 10 40 11 10 41 15 10 42 12 10 43 10 11 44 9 11 45 13 11 46 14 11 47 11 12 48 10 12 49 14 12 50 15 12 51</p>
+        </polylist>
+      </mesh>
+      <extra><technique profile="MAYA"><double_sided>1</double_sided></technique></extra>
+    </geometry>
+  </library_geometries>
+  <library_controllers/>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="E_tower" name="E_tower" type="NODE">
+        <matrix sid="transform">0.9872886 0 0 0 0 0.9872886 0 0 0 0 0.9872886 0 0 0 0 1</matrix>
+        <instance_geometry url="#E_tower-mesh">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Material-material" target="#Material-material">
+                <bind_vertex_input semantic="UVMap" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene"/>
+  </scene>
+</COLLADA>

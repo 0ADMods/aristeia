@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<actor version="1">
+
+  <castshadow/>
+
+  <group>
+    <variant frequency="1" name="skeleton_1">
+      <mesh>props/skeleton_1.dae</mesh>
+      <textures><texture file="props/skeleton_1.dds" name="baseTex"/></textures>
+    </variant>
+    <variant frequency="1" name="skeleton_2">
+      <mesh>props/skeleton_2.dae</mesh>
+      <textures><texture file="props/skeleton_1.dds" name="baseTex"/></textures>
+    </variant>
+    <variant frequency="1" name="skeleton_3">
+      <mesh>props/skeleton_3.dae</mesh>
+      <textures><texture file="props/skeleton_1.dds" name="baseTex"/></textures>
+    </variant>
+  </group>
+
+</actor>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_civic_civil_centre">
+  <Identity>
+    <Civ>egypt</Civ>
+    <GenericName>Great House</GenericName>
+    <SpecificName>Per’Aa</SpecificName>
+    <History>The term used for Egyptian kings, “Pharaoh”, literally means “Great House”.</History>
+  </Identity>
+  <Health>
+    <SpawnEntityOnDeath>rubble/rubble_pers_cc</SpawnEntityOnDeath>
+  </Health>
+  <ProductionQueue>
+    <Entities datatype="tokens">
+      units/egypt_infantry_spearman_b
+      units/egypt_infantry_archer_b
+      units/egypt_infantry_swordsman_b
+      units/nubi_infantry_spearman_b
+    </Entities>
+    <Technologies datatype="tokens">
+      persians/persian_architecture
+    </Technologies>
+  </ProductionQueue>
+  <VisualActor>
+    <Actor>structures/egyptians/civil_centre.xml</Actor>
+  </VisualActor>
+</Entity>

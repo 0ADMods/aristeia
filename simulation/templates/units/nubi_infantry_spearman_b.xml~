@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- THIS IS A PLACEHOLDER
+ _________  ___      ___  _____       ___  _____       _______
+/___  ___/ /  /     /__/ /  ___\     /__/ /  ___\     /____   \ 
+   /  /   /  /__    ___ /  /__       ___ /  /__      ______/  /
+  /  /   /  _   \  /  / \___  \     /  / \___  \    /  ___   /  
+ /  /   /  / /  / /  / ____/  /    /  / ____/  /   /  /__/  / 
+/__/   /__/ /__/ /__/  \_____/    /__/  \_____/    \_______/  
+     ______     ___  _______             _______    ___                  ___        ___  _______    _____
+    /  __  \   /  / /____   \  ______   /  __   \  /  /      _______    /  /       /  / /  __   \  /  __ \
+   /  /_/  |  /  / ______/  / /  ____\ /  /__/  / /  /__    /  __   \  /  / ______/  / /  /__/  / /  /_| /
+  /  _____/  /  / /  ___   / /  /     /  ______/ /  _   \  /  /  /  / /  / /  ___   / /  ______/ /  __  /
+ /  /       /  / /  /__/  / /  /___  /  /____   /  / /  / /  /__/  / /  / /  /__/  / /  /____   /  /  | \
+/__/       /__/  \_______/  \_____/  \_______/ /__/ /__/  \_______/ /__/  \_______/  \_______/ /__/   |_|
+
+-->
+<Entity parent="template_unit_champion_infantry_spearman">
+  <Armour>
+    <Pierce>6.0</Pierce>
+  </Armour>
+  <Attack>
+    <Melee>
+      <Hack>12.0</Hack>
+    </Melee>
+    <Charge>
+      <Hack>24.0</Hack>
+    </Charge>
+  </Attack>
+  <Cost>
+    <Resources>
+      <metal>60</metal>
+    </Resources>
+  </Cost>
+  <Identity>
+    <Civ>nubi</Civ>
+	<SelectionGroupName>units/nubi_infantry_spearman_b</SelectionGroupName>
+	<GenericName>Nubian Spearman</GenericName>
+    <SpecificName>nubispearman</SpecificName>
+    <Icon>units/nubi_infantry_spearman.png</Icon>
+    <History>The hastati were the first line of heavy infantry in the early Republican Roman army. They used pila and gladii as their main weapons, throwing the former into the enemy formation and then closing with the sword. For defence they used a large shield called a scutum and wore the best armor they could afford. Hastati were recruited from the young men of Rome, a small part of the 700,000 troops Rome could bring to bear against its opponents.</History>
+  </Identity>
+  <VisualActor>
+    <Actor>units/nubians/infantry_spearman_b.xml</Actor>
+  </VisualActor>
+</Entity>

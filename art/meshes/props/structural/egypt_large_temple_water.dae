@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <author>Blender User</author>
+      <authoring_tool>Blender 2.66.1 r55057</authoring_tool>
+    </contributor>
+    <created>2013-03-31T15:12:36</created>
+    <modified>2013-03-31T15:12:36</modified>
+    <unit name="meter" meter="1"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_images/>
+  <library_effects/>
+  <library_geometries>
+    <geometry id="water-mesh" name="water">
+      <mesh>
+        <source id="water-mesh-positions">
+          <float_array id="water-mesh-positions-array" count="12">9 -7 0 -9 -7 0 9 7 0 -9 7 0</float_array>
+          <technique_common>
+            <accessor source="#water-mesh-positions-array" count="4" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="water-mesh-normals">
+          <float_array id="water-mesh-normals-array" count="3">0 0 1</float_array>
+          <technique_common>
+            <accessor source="#water-mesh-normals-array" count="1" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="water-mesh-map-0">
+          <float_array id="water-mesh-map-0-array" count="8">8.81762e-5 8.81762e-5 0.9999116 8.82821e-5 0.9999117 0.7777287 8.81762e-5 0.7777287</float_array>
+          <technique_common>
+            <accessor source="#water-mesh-map-0-array" count="4" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="water-mesh-vertices">
+          <input semantic="POSITION" source="#water-mesh-positions"/>
+        </vertices>
+        <polylist count="1">
+          <input semantic="VERTEX" source="#water-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#water-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#water-mesh-map-0" offset="2" set="0"/>
+          <vcount>4 </vcount>
+          <p>1 0 0 0 0 1 2 0 2 3 0 3</p>
+        </polylist>
+      </mesh>
+      <extra><technique profile="MAYA"><double_sided>1</double_sided></technique></extra>
+    </geometry>
+  </library_geometries>
+  <library_controllers/>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="water" name="water" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <instance_geometry url="#water-mesh"/>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene"/>
+  </scene>
+</COLLADA>

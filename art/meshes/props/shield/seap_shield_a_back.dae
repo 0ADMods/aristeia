@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <author>Blender User</author>
+      <authoring_tool>Blender 2.66.1 r55057</authoring_tool>
+    </contributor>
+    <created>2013-03-30T10:11:59</created>
+    <modified>2013-03-30T10:11:59</modified>
+    <unit name="centimeter" meter="0.01"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_images/>
+  <library_effects/>
+  <library_geometries>
+    <geometry id="seap_a_back-mesh" name="seap_a_back">
+      <mesh>
+        <source id="seap_a_back-mesh-positions">
+          <float_array id="seap_a_back-mesh-positions-array" count="48">0 1 0 -0.3826835 0.9238796 0 -0.7071068 0.7071068 0 -0.9238796 0.3826834 0 -1 0 0 -0.9238795 -0.3826835 0 -0.7071068 -0.7071068 0 -0.3826835 -0.9238795 0 -1.50996e-7 -1 0 0.3826832 -0.9238796 0 0.7071065 -0.707107 0 0.9238795 -0.3826836 0 1 0 0 0.9238795 0.3826836 0 0.7071065 0.707107 0 0.382683 0.9238798 0</float_array>
+          <technique_common>
+            <accessor source="#seap_a_back-mesh-positions-array" count="16" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="seap_a_back-mesh-normals">
+          <float_array id="seap_a_back-mesh-normals-array" count="48">0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1</float_array>
+          <technique_common>
+            <accessor source="#seap_a_back-mesh-normals-array" count="16" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="seap_a_back-mesh-map-0">
+          <float_array id="seap_a_back-mesh-map-0-array" count="84">0.3671875 0.08984375 0.546875 0.08984375 0.7148438 0.15625 0.3671875 0.08984375 0.7148438 0.15625 0.84375 0.2851563 0.1992187 0.15625 0.3671875 0.08984375 0.84375 0.2851563 0.1992187 0.15625 0.84375 0.2851563 0.9101563 0.453125 0.1992187 0.15625 0.9101563 0.453125 0.0703125 0.2851563 0.9101563 0.453125 0.9101563 0.6328125 0.0703125 0.2851563 0.9101563 0.6328125 0.00390625 0.453125 0.0703125 0.2851563 0.9101563 0.6328125 0.84375 0.8007813 0.00390625 0.453125 0.84375 0.8007813 0.00390625 0.6328125 0.00390625 0.453125 0.84375 0.8007813 0.0703125 0.8007813 0.00390625 0.6328125 0.84375 0.8007813 0.7148438 0.9296875 0.0703125 0.8007813 0.7148438 0.9296875 0.1992187 0.9296875 0.0703125 0.8007813 0.7148438 0.9296875 0.546875 0.9960938 0.1992187 0.9296875 0.546875 0.9960938 0.3671875 0.9960938 0.1992187 0.9296875</float_array>
+          <technique_common>
+            <accessor source="#seap_a_back-mesh-map-0-array" count="42" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="seap_a_back-mesh-vertices">
+          <input semantic="POSITION" source="#seap_a_back-mesh-positions"/>
+        </vertices>
+        <polylist count="14">
+          <input semantic="VERTEX" source="#seap_a_back-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#seap_a_back-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#seap_a_back-mesh-map-0" offset="2" set="0"/>
+          <vcount>3 3 3 3 3 3 3 3 3 3 3 3 3 3 </vcount>
+          <p>1 0 0 0 1 1 15 2 2 1 0 3 15 2 4 14 3 5 2 4 6 1 0 7 14 3 8 2 4 9 14 3 10 13 5 11 2 4 12 13 5 13 3 6 14 13 5 15 12 7 16 3 6 17 12 7 18 4 8 19 3 6 20 12 7 21 11 9 22 4 8 23 11 9 24 5 10 25 4 8 26 11 9 27 6 11 28 5 10 29 11 9 30 10 12 31 6 11 32 10 12 33 7 13 34 6 11 35 10 12 36 9 14 37 7 13 38 9 14 39 8 15 40 7 13 41</p>
+        </polylist>
+      </mesh>
+      <extra><technique profile="MAYA"><double_sided>1</double_sided></technique></extra>
+    </geometry>
+  </library_geometries>
+  <library_controllers/>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="seap_a_back" name="seap_a_back" type="NODE">
+        <matrix sid="transform">1 2.22045e-16 0 0 2.22045e-16 -4.37114e-8 -1 0 -2.22045e-16 1 -4.37114e-8 0 0 0 0 1</matrix>
+        <instance_geometry url="#seap_a_back-mesh"/>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene"/>
+  </scene>
+</COLLADA>

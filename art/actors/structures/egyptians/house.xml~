@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="2" name="House A">
+      <mesh>structural/egypt_house.dae</mesh>
+      <textures><texture file="structural/egypt_struct.dds" name="baseTex"/></textures>
+    </variant>
+    <variant frequency="2" name="House B">
+      <mesh>structural/egypt_house_b.dae</mesh>
+      <textures><texture file="structural/egypt_struct.dds" name="baseTex"/></textures>
+    </variant>
+    <variant frequency="1" name="House C">
+      <mesh>structural/egypt_house_c.dae</mesh>
+      <textures><texture file="structural/egypt_struct.dds" name="baseTex"/></textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="100" name="Idle"/>
+    <variant name="death">
+      <props>
+        <prop actor="particle/destruction_smoke_small.xml" attachpoint="root"/>
+        <prop actor="particle/destruction_dust_small.xml" attachpoint="root"/>
+        <prop actor="particle/destruction_dust_small_gray.xml" attachpoint="root"/>
+        <prop actor="props/structures/decals/dirt_small.xml" attachpoint="root"/>
+      </props>
+    </variant>
+  </group>
+  <material>player_trans.xml</material>
+</actor>

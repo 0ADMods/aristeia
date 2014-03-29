@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- THIS IS A PLACEHOLDER
+ _________  ___      ___  _____       ___  _____       _______
+/___  ___/ /  /     /__/ /  ___\     /__/ /  ___\     /____   \ 
+   /  /   /  /__    ___ /  /__       ___ /  /__      ______/  /
+  /  /   /  _   \  /  / \___  \     /  / \___  \    /  ___   /  
+ /  /   /  / /  / /  / ____/  /    /  / ____/  /   /  /__/  / 
+/__/   /__/ /__/ /__/  \_____/    /__/  \_____/    \_______/  
+     ______     ___  _______             _______    ___                  ___        ___  _______    _____
+    /  __  \   /  / /____   \  ______   /  __   \  /  /      _______    /  /       /  / /  __   \  /  __ \
+   /  /_/  |  /  / ______/  / /  ____\ /  /__/  / /  /__    /  __   \  /  / ______/  / /  /__/  / /  /_| /
+  /  _____/  /  / /  ___   / /  /     /  ______/ /  _   \  /  /  /  / /  / /  ___   / /  ______/ /  __  /
+ /  /       /  / /  /__/  / /  /___  /  /____   /  / /  / /  /__/  / /  / /  /__/  / /  /____   /  /  | \
+/__/       /__/  \_______/  \_____/  \_______/ /__/ /__/  \_______/ /__/  \_______/  \_______/ /__/   |_|
+
+-->
+<Entity parent="units/egypt_infantry_swordsman_b">
+  <Armour>
+    <Pierce>6.0</Pierce>
+  </Armour>
+  <Attack>
+    <Melee>
+      <Hack>16.0</Hack>
+    </Melee>
+    <Charge>
+      <Hack>34.0</Hack>
+    </Charge>
+  </Attack>
+  <Identity>
+    <Rank>Elite</Rank>
+  </Identity>
+  <Promotion disable=''/>
+  <ResourceGatherer>
+    <BaseSpeed>0.5</BaseSpeed>
+  </ResourceGatherer>
+  <VisualActor>
+    <Actor>units/egyptians/infantry_axeman_e.xml</Actor>
+  </VisualActor>
+</Entity>

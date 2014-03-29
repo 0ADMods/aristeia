@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <author>Blender User</author>
+      <authoring_tool>Blender 2.66.1 r55057</authoring_tool>
+    </contributor>
+    <created>2013-03-29T14:24:25</created>
+    <modified>2013-03-29T14:24:25</modified>
+    <unit name="centimeter" meter="0.01"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_images/>
+  <library_effects/>
+  <library_geometries>
+    <geometry id="c_back-mesh" name="c_back">
+      <mesh>
+        <source id="c_back-mesh-positions">
+          <float_array id="c_back-mesh-positions-array" count="42">73.60239 -175.5934 -8.205718 -73.60223 -175.5934 -8.205718 65.00589 128.303 -6.172313 -65.00588 128.303 -6.172313 8.43432e-6 205.7396 -1.831473 -21.66862 195.4372 -1.831473 -43.33725 178.7162 -1.831472 21.66864 195.4372 -1.831473 43.33726 178.7162 -1.831472 -56.67644 155.3158 -3.278419 56.67646 155.3158 -3.278419 -23.45983 -175.5934 -1.004636 23.45999 -175.5934 -1.004636 8.43432e-6 125.499 -1.004643</float_array>
+          <technique_common>
+            <accessor source="#c_back-mesh-positions-array" count="14" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="c_back-mesh-normals">
+          <float_array id="c_back-mesh-normals-array" count="42">0.03387552 0.01892143 -0.9992371 0 0.01181066 -0.9999085 0.08972442 0.0242927 -0.9956664 0.06936854 0.05590987 -0.9960021 0.006164729 -0.009887993 -0.9999085 0 -0.009887993 -0.999939 -0.03387552 0.01892143 -0.9992371 -0.006164729 -0.009887993 -0.9999085 -0.06936854 0.05590987 -0.9960021 -0.08972442 0.0242927 -0.9956664 -0.1067232 -0.002288877 -0.9942625 -0.05606245 -0.001190185 -0.998413 0.05606245 -0.001190185 -0.998413 0.1067232 -0.002288877 -0.9942625</float_array>
+          <technique_common>
+            <accessor source="#c_back-mesh-normals-array" count="14" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="c_back-mesh-map-0">
+          <float_array id="c_back-mesh-map-0-array" count="54">0.2773438 0.921875 0.5 0.7851563 0.1679687 0.7910156 0.2070312 0.859375 0.390625 0.9628906 0.5 0.9902344 0.5 0.7851563 0.2773438 0.921875 0.7226563 0.921875 0.5 0.7851563 0.5 0.9902344 0.609375 0.9628906 0.7929688 0.859375 0.8320313 0.7910156 0.5 0.7851563 0.7226563 0.921875 0.8789063 0.0078125 0.6210938 0.0078125 0.5 0.7851563 0.8320313 0.7910156 0.6210938 0.0078125 0.3789063 0.0078125 0.5 0.7851563 0.5 0.7851563 0.3789063 0.0078125 0.1210937 0.0078125 0.1679687 0.7910156</float_array>
+          <technique_common>
+            <accessor source="#c_back-mesh-map-0-array" count="27" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="c_back-mesh-vertices">
+          <input semantic="POSITION" source="#c_back-mesh-positions"/>
+        </vertices>
+        <polylist count="7">
+          <input semantic="VERTEX" source="#c_back-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#c_back-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#c_back-mesh-map-0" offset="2" set="0"/>
+          <vcount>4 4 4 4 4 3 4 </vcount>
+          <p>6 0 0 13 1 1 3 2 2 9 3 3 5 4 4 4 5 5 13 1 6 6 0 7 8 6 8 13 1 9 4 5 10 7 7 11 10 8 12 2 9 13 13 1 14 8 6 15 0 10 16 12 11 17 13 1 18 2 9 19 12 11 20 11 12 21 13 1 22 13 1 23 11 12 24 1 13 25 3 2 26</p>
+        </polylist>
+      </mesh>
+      <extra><technique profile="MAYA"><double_sided>1</double_sided></technique></extra>
+    </geometry>
+  </library_geometries>
+  <library_controllers/>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="c_back" name="c_back" type="NODE">
+        <matrix sid="transform">0.00999999 0 0 0 0 -4.37113e-10 -0.00999999 0 0 0.00999999 -4.37113e-10 0 0 0 0 1</matrix>
+        <instance_geometry url="#c_back-mesh"/>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene"/>
+  </scene>
+</COLLADA>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<actor version="1">
+	
+	<group>
+		<variant frequency="100" name="Base">
+			<animations/>
+			<mesh>temp/flyingsaucer_part2.dae</mesh>
+			<props/>
+			<textures>
+				<texture file="special/flyingsaucer.dds" name="baseTex"/>
+			</textures>
+		</variant>
+	</group>
+	<material>player_trans.xml</material>
+	
+</actor>

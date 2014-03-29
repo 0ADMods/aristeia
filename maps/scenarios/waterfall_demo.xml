@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Scenario version="5">
+	<Environment>
+		<SkySet>default</SkySet>
+		<SunColour r="0.74902" g="0.74902" b="0.74902"/>
+		<SunElevation angle="0.785398"/>
+		<SunRotation angle="-0.785396"/>
+		<TerrainAmbientColour r="0.501961" g="0.501961" b="0.501961"/>
+		<UnitsAmbientColour r="0.501961" g="0.501961" b="0.501961"/>
+		<Fog>
+			<FogFactor>0</FogFactor>
+			<FogThickness>0.5</FogThickness>
+			<FogColour r="0.8" g="0.8" b="0.894118"/>
+		</Fog>
+		<Water>
+			<WaterBody>
+				<Type>default</Type>
+				<Colour r="0.294118" g="0.34902" b="0.694118"/>
+				<Height>20.6689</Height>
+				<Shininess>150</Shininess>
+				<Waviness>8</Waviness>
+				<Murkiness>0.45</Murkiness>
+				<Tint r="0.27451" g="0.294118" b="0.584314"/>
+				<ReflectionTint r="0.27451" g="0.294118" b="0.584314"/>
+				<ReflectionTintStrength>0</ReflectionTintStrength>
+			</WaterBody>
+		</Water>
+		<Postproc>
+			<Brightness>0</Brightness>
+			<Contrast>1</Contrast>
+			<Saturation>0.99</Saturation>
+			<Bloom>0.1999</Bloom>
+			<PostEffect>default</PostEffect>
+		</Postproc>
+	</Environment>
+	<Camera>
+		<Position x="319.007" y="48.6966" z="330.193"/>
+		<Rotation angle="-0.264345"/>
+		<Declination angle="0.674374"/>
+	</Camera>
+	<ScriptSettings><![CDATA[
+{
+  "CircularMap": true,
+  "Description": "Give an interesting description of your map.",
+  "GameType": "conquest",
+  "Keywords": [
+    "demo"
+  ],
+  "LockTeams": false,
+  "Name": "Waterfall Demo",
+  "PlayerData": [
+    {
+      "AI": "",
+      "Civ": "athen",
+      "Colour": {
+        "b": 200,
+        "g": 46,
+        "r": 46
+      },
+      "Name": "Player 1",
+      "Team": -1
+    },
+    {
+      "AI": "qbot-wc",
+      "Civ": "cart",
+      "Colour": {
+        "b": 20,
+        "g": 20,
+        "r": 150
+      },
+      "Name": "Player 2",
+      "Team": -1
+    }
+  ],
+  "RevealMap": false
+}
+]]></ScriptSettings>
+	<Entities>
+		<Entity uid="11">
+			<Template>actor|temp/lake.xml</Template>
+			<Position x="293.2332" z="377.19941"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="17239"/>
+		</Entity>
+		<Entity uid="12">
+			<Template>actor|temp/waterfall.xml</Template>
+			<Position x="296.75623" z="367.62351"/>
+			<Orientation y="-0.62932"/>
+			<Actor seed="53291"/>
+		</Entity>
+		<Entity uid="13">
+			<Template>actor|geology/stone_granite_boulder.xml</Template>
+			<Position x="301.81955" z="370.84821"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="31857"/>
+		</Entity>
+		<Entity uid="14">
+			<Template>actor|geology/stone_granite_boulder.xml</Template>
+			<Position x="298.947" z="370.7751"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="15978"/>
+		</Entity>
+		<Entity uid="15">
+			<Template>actor|geology/stone_granite_boulder.xml</Template>
+			<Position x="293.31424" z="366.20234"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="40613"/>
+		</Entity>
+		<Entity uid="16">
+			<Template>actor|geology/stone_granite_boulder.xml</Template>
+			<Position x="292.87809" z="362.99936"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="28894"/>
+		</Entity>
+		<Entity uid="17">
+			<Template>actor|geology/stone_granite_boulder.xml</Template>
+			<Position x="292.45536" z="361.03962"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="1219"/>
+		</Entity>
+		<Entity uid="18">
+			<Template>actor|geology/stone_granite_boulder.xml</Template>
+			<Position x="294.33457" z="365.37055"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="26527"/>
+		</Entity>
+		<Entity uid="19">
+			<Template>actor|geology/stone_granite_boulder.xml</Template>
+			<Position x="295.3841" z="367.7888"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="10724"/>
+		</Entity>
+		<Entity uid="20">
+			<Template>actor|geology/stone_granite_boulder.xml</Template>
+			<Position x="304.27204" z="369.76337"/>
+			<Orientation y="-2.55193"/>
+			<Actor seed="39227"/>
+		</Entity>
+		<Entity uid="21">
+			<Template>actor|geology/stone_granite_boulder.xml</Template>
+			<Position x="299.73035" z="369.65336"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="39311"/>
+		</Entity>
+		<Entity uid="22">
+			<Template>actor|geology/stone_granite_boulder.xml</Template>
+			<Position x="302.87986" z="368.11033"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="31445"/>
+		</Entity>
+		<Entity uid="23">
+			<Template>actor|geology/stone_granite_boulder.xml</Template>
+			<Position x="298.96775" z="367.37568"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="22273"/>
+		</Entity>
+		<Entity uid="24">
+			<Template>actor|geology/stone_granite_boulder.xml</Template>
+			<Position x="305.77002" z="365.88941"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="27470"/>
+		</Entity>
+		<Entity uid="25">
+			<Template>actor|geology/stone_granite_boulder.xml</Template>
+			<Position x="295.48368" z="365.75373"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="50551"/>
+		</Entity>
+		<Entity uid="26">
+			<Template>actor|geology/stone_granite_boulder.xml</Template>
+			<Position x="294.33887" z="363.0376"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="35903"/>
+		</Entity>
+		<Entity uid="27">
+			<Template>actor|geology/stone_granite_boulder.xml</Template>
+			<Position x="293.69806" z="359.4394"/>
+			<Orientation y="-2.48951"/>
+			<Actor seed="20186"/>
+		</Entity>
+		<Entity uid="28">
+			<Template>actor|geology/stone_granite_boulder.xml</Template>
+			<Position x="301.67505" z="363.85273"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="4908"/>
+		</Entity>
+		<Entity uid="29">
+			<Template>actor|geology/stone_granite_boulder.xml</Template>
+			<Position x="297.70179" z="360.07813"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="36182"/>
+		</Entity>
+		<Entity uid="30">
+			<Template>actor|geology/stonemine_alpine_a.xml</Template>
+			<Position x="294.76694" z="369.47333"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="57448"/>
+		</Entity>
+		<Entity uid="31">
+			<Template>units/maur_ship_fishing</Template>
+			<Player>1</Player>
+			<Position x="306.17066" z="349.09537"/>
+			<Orientation y="1.1424"/>
+			<Actor seed="45297"/>
+		</Entity>
+		<Entity uid="35">
+			<Template>units/athen_infantry_slinger_b</Template>
+			<Player>2</Player>
+			<Position x="604.9734" z="690.01014"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="30529"/>
+		</Entity>
+		<Entity uid="36">
+			<Template>units/athen_infantry_slinger_b</Template>
+			<Player>2</Player>
+			<Position x="621.8625" z="554.30176"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="62349"/>
+		</Entity>
+		<Entity uid="37">
+			<Template>units/athen_infantry_slinger_b</Template>
+			<Player>2</Player>
+			<Position x="587.67109" z="607.25953"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="49340"/>
+		</Entity>
+		<Entity uid="38">
+			<Template>units/athen_infantry_slinger_b</Template>
+			<Player>2</Player>
+			<Position x="636.42627" z="659.25544"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="46245"/>
+		</Entity>
+	</Entities>
+	<Paths/>
+</Scenario>

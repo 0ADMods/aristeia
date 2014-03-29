@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <author>Blender User</author>
+      <authoring_tool>Blender 2.66.1 r55057</authoring_tool>
+    </contributor>
+    <created>2013-04-01T12:30:24</created>
+    <modified>2013-04-01T12:30:24</modified>
+    <unit name="meter" meter="1"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_images/>
+  <library_effects/>
+  <library_geometries>
+    <geometry id="civil_water-mesh" name="civil_water">
+      <mesh>
+        <source id="civil_water-mesh-positions">
+          <float_array id="civil_water-mesh-positions-array" count="24">-4.75 -10.875 1.75 -11 -10.875 1.75 -4.75 -4.625 1.75 -11 -4.625 1.75 11.125 -10.875 1.75 4.875 -10.875 1.75 11.125 -4.625 1.75 4.875 -4.625 1.75</float_array>
+          <technique_common>
+            <accessor source="#civil_water-mesh-positions-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="civil_water-mesh-normals">
+          <float_array id="civil_water-mesh-normals-array" count="6">0 0 1 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#civil_water-mesh-normals-array" count="2" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="civil_water-mesh-map-0">
+          <float_array id="civil_water-mesh-map-0-array" count="16">1.00048e-4 0.5001 0.4999001 0.5001 0.4999 0.9999001 9.996e-5 0.9999001 1.00048e-4 0.4999001 9.996e-5 1.00048e-4 0.4999002 9.996e-5 0.4999001 0.4999001</float_array>
+          <technique_common>
+            <accessor source="#civil_water-mesh-map-0-array" count="8" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="civil_water-mesh-vertices">
+          <input semantic="POSITION" source="#civil_water-mesh-positions"/>
+        </vertices>
+        <polylist count="2">
+          <input semantic="VERTEX" source="#civil_water-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#civil_water-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#civil_water-mesh-map-0" offset="2" set="0"/>
+          <vcount>4 4 </vcount>
+          <p>1 0 0 0 0 1 2 0 2 3 0 3 5 1 4 4 1 5 6 1 6 7 1 7</p>
+        </polylist>
+      </mesh>
+      <extra><technique profile="MAYA"><double_sided>1</double_sided></technique></extra>
+    </geometry>
+  </library_geometries>
+  <library_controllers/>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="civil_water" name="civil_water" type="NODE">
+        <matrix sid="transform">1.1 0 0 0 0 1.1 0 0 0 0 1.1 0 0 0 0 1</matrix>
+        <instance_geometry url="#civil_water-mesh"/>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene"/>
+  </scene>
+</COLLADA>

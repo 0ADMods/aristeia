@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- THIS IS A PLACEHOLDER
+ _________  ___      ___  _____       ___  _____       _______
+/___  ___/ /  /     /__/ /  ___\     /__/ /  ___\     /____   \ 
+   /  /   /  /__    ___ /  /__       ___ /  /__      ______/  /
+  /  /   /  _   \  /  / \___  \     /  / \___  \    /  ___   /  
+ /  /   /  / /  / /  / ____/  /    /  / ____/  /   /  /__/  / 
+/__/   /__/ /__/ /__/  \_____/    /__/  \_____/    \_______/  
+     ______     ___  _______             _______    ___                  ___        ___  _______    _____
+    /  __  \   /  / /____   \  ______   /  __   \  /  /      _______    /  /       /  / /  __   \  /  __ \
+   /  /_/  |  /  / ______/  / /  ____\ /  /__/  / /  /__    /  __   \  /  / ______/  / /  /__/  / /  /_| /
+  /  _____/  /  / /  ___   / /  /     /  ______/ /  _   \  /  /  /  / /  / /  ___   / /  ______/ /  __  /
+ /  /       /  / /  /__/  / /  /___  /  /____   /  / /  / /  /__/  / /  / /  /__/  / /  /____   /  /  | \
+/__/       /__/  \_______/  \_____/  \_______/ /__/ /__/  \_______/ /__/  \_______/  \_______/ /__/   |_|
+
+-->
+<Entity parent="template_unit_infantry_melee_swordsman">
+  <Armour>
+    <Pierce>6.0</Pierce>
+  </Armour>
+  <Attack>
+    <Melee>
+      <Hack>12.0</Hack>
+    </Melee>
+    <Charge>
+      <Hack>24.0</Hack>
+    </Charge>
+  </Attack>
+  <Builder>
+    <Entities datatype="tokens">
+	  -other/wallset_palisade
+      structures/rome_army_camp
+      structures/rome_wallset_siege
+    </Entities>
+  </Builder>
+  <Cost>
+    <Resources>
+      <metal>60</metal>
+    </Resources>
+  </Cost>
+  <Identity>
+    <Civ>egypt</Civ>
+	<SelectionGroupName>units/egypt_infantry_spearman_b</SelectionGroupName>
+	<GenericName>Egyptian Spearman</GenericName>
+    <SpecificName>Mawt Aha</SpecificName>
+    <Icon>units/egypt_infantry_spearman.png</Icon>
+    <History>The spear, originally used for hunting, was among the earliest weapons in the Egyptian arsenal. Wooden models carved in the shape of Egyptian spearmen were found in the Middle Kingdom tomb of Mesehti. Spears were also used by the chariotry when they ran out of arrows.</History>
+  </Identity>
+  <Promotion>
+    <Entity>units/egypt_infantry_spearman_a</Entity>
+  </Promotion>
+  <VisualActor>
+    <Actor>units/egyptians/infantry_spearman_b.xml</Actor>
+  </VisualActor>
+</Entity>
