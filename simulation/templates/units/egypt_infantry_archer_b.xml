@@ -11,6 +11,8 @@
     <Entities datatype="tokens">
       structures/pers_stables
       structures/pers_apadana
+      -structures/{civ}_blacksmith
+      structures/ptol_blacksmith
     </Entities>
   </Builder>
   <Cost>

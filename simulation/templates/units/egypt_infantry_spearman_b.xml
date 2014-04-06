@@ -31,6 +31,8 @@
 	  -other/wallset_palisade
       structures/rome_army_camp
       structures/rome_wallset_siege
+      -structures/{civ}_blacksmith
+      structures/ptol_blacksmith
     </Entities>
   </Builder>
   <Cost>
