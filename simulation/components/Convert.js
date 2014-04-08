@@ -42,7 +42,7 @@ Convert.prototype.GetTimers = function()
 	var prepare = 1000;
 	var repeat = +this.template.Rate;
 
-	repeat = ApplyTechModificationsToEntity("Heal/Rate", repeat, this.entity);
+	repeat = ApplyValueModificationsToEntity("Heal/Rate", repeat, this.entity);
 	
 	return { "prepare": prepare, "repeat": repeat };
 };
@@ -52,7 +52,7 @@ Convert.prototype.GetRange = function()
 	var min = 0;
 	var max = +this.template.Range;
 	
-	max = ApplyTechModificationsToEntity("Heal/Range", max, this.entity);
+	max = ApplyValueModificationsToEntity("Heal/Range", max, this.entity);
 
 	return { "max": max, "min": min };
 };
