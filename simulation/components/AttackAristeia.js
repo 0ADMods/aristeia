@@ -256,6 +256,7 @@ Attack.prototype.PerformAttack = function(type, target)
 		var playerId = Engine.QueryInterface(this.entity, IID_Ownership).GetOwner()
 		var cmpTimer = Engine.QueryInterface(SYSTEM_ENTITY, IID_Timer);
  		cmpTimer.SetTimeout(this.entity, IID_Attack, "MissileHit", timeToTarget*1000, {"type": type, "target": target, "position": realTargetPosition, "direction": missileDirection, "projectileId": id, "playerId":playerId});
+        }
 	// TODO: improve convert
 	else if (type == "Convert")
 	{
