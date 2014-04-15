@@ -86,17 +86,17 @@
 	],
 	"Formations":
 	[
-		"formations/Scatter",
-		"formations/Box",
-		"formations/Column Closed",
-		"formations/Line Closed",
-		"formations/Column Open",
-		"formations/Line Open",
-		"formations/Flank",
-		"formations/Skirmish",
-		"formations/Wedge",
-		"formations/Battle Line",
-		"formations/Phalanx"
+		"formations/scatter",
+		"formations/box",
+		"formations/column_closed",
+		"formations/line_closed",
+		"formations/column_open",
+		"formations/line_open",
+		"formations/flank",
+		"formations/skirmish",
+		"formations/wedge",
+		"formations/battle_line",
+		"formations/phalanx"
 	],
 	"SelectableInGameSetup": false
 }
