@@ -13,6 +13,8 @@
       structures/pers_apadana
       -structures/{civ}_blacksmith
       structures/ptol_blacksmith
+    -other/wallset_palisade
+    structures/wallset_small
     </Entities>
   </Builder>
   <Cost>
