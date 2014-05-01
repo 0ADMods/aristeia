@@ -1,7 +1,45 @@
-function Attack() {}
+/*
+
+var bonusesSchema = 
+	"<optional>" +
+		"<element name='Bonuses'>" +
+			"<zeroOrMore>" +
+				"<element>" +
+					"<anyName/>" +
+					"<interleave>" +
+						"<optional>" +
+							"<element name='Civ' a:help='If an entity has this civ then the bonus is applied'><text/></element>" +
+						"</optional>" +
+						"<element name='Classes' a:help='If an entity has all these classes then the bonus is applied'><text/></element>" +
+						"<element name='Multiplier' a:help='The attackers attack strength is multiplied by this'><ref name='nonNegativeDecimal'/></element>" +
+					"</interleave>" +
+				"</element>" +
+			"</zeroOrMore>" +
+		"</element>" +
+	"</optional>";
+
+var preferredClassesSchema =
+	"<optional>" +
+		"<element name='PreferredClasses' a:help='Space delimited list of classes preferred for attacking. If an entity has any of theses classes, it is preferred. The classes are in decending order of preference'>" +
+			"<attribute name='datatype'>" +
+				"<value>tokens</value>" +
+			"</attribute>" +
+			"<text/>" +
+		"</element>" +
+	"</optional>";
+
+var restrictedClassesSchema =
+	"<optional>" +
+		"<element name='RestrictedClasses' a:help='Space delimited list of classes that cannot be attacked by this entity. If target entity has any of these classes, it cannot be attacked'>" +
+			"<attribute name='datatype'>" +
+				"<value>tokens</value>" +
+			"</attribute>" +
+			"<text/>" +
+		"</element>" +
+	"</optional>";
 
 Attack.prototype.Schema =
-"<a:help>Controls the attack abilities and strengths of the unit.</a:help>" +
+    "<a:help>Controls the attack abilities and strengths of the unit.</a:help>" +
 	"<a:example>" +
 		"<Melee>" +
 			"<Hack>10.0</Hack>" +
@@ -146,9 +184,13 @@ Attack.prototype.Schema =
 				restrictedClassesSchema +
 			"</interleave>" +
 		"</element>" +
-	"</optional>"+
+	"</optional>"
+;
+
+
+Attack.prototype.Schema += +
 	// TODO: finish the convert attack
-	"<optional>" +
+  	"<optional>" +
 		"<element name='Convert'>" +
 			"<interleave>" +
 				"<element name='MaxRange' a:help='Maximum attack range (in metres)'><ref name='nonNegativeDecimal'/></element>" +
@@ -168,24 +210,28 @@ Attack.prototype.Schema =
 			"</interleave>" +
 		"</element>" +
 	"</optional>";
+warn(Attack.prototype.Schema);
 
 Attack.prototype.GetAttackTypes = function()
 {
+    warn('GetAttackTypes: this: ' + this + ' template: ' + this.template + '   is_convert_in_template: ' + this.template.Convert);
 	var ret = [];
+	if (this.template.Convert) ret.push("Convert");
 	if (this.template.Charge) ret.push("Charge");
 	if (this.template.Melee) ret.push("Melee");
 	if (this.template.Ranged) ret.push("Ranged");
-	if (this.template.Convert) ret.push("Convert");
 	return ret;
 };
+
 
 /**
  * Attack the target entity. This should only be called after a successful range check,
  * and should only be called after GetTimers().repeat msec has passed since the last
  * call to PerformAttack.
- */
+ *TODO/
 Attack.prototype.PerformAttack = function(type, target)
 {
+    warn('type: ' + type + '  target: ' + target);
 	// If this is a ranged attack, then launch a projectile
 	if (type == "Ranged")
 	{
@@ -256,26 +302,38 @@ Attack.prototype.PerformAttack = function(type, target)
 		var playerId = Engine.QueryInterface(this.entity, IID_Ownership).GetOwner()
 		var cmpTimer = Engine.QueryInterface(SYSTEM_ENTITY, IID_Timer);
  		cmpTimer.SetTimeout(this.entity, IID_Attack, "MissileHit", timeToTarget*1000, {"type": type, "target": target, "position": realTargetPosition, "direction": missileDirection, "projectileId": id, "playerId":playerId});
-        }
+    }
 	// TODO: improve convert
 	else if (type == "Convert")
 	{
+        
 		var cmpOwnership = Engine.QueryInterface(target, IID_Ownership);
 		if (!cmpOwnership)
 			return;
+        warn('Owner Target: ' + cmpOwnership);
 
 		var cmpOwnership2 = Engine.QueryInterface(this.entity, IID_Ownership);
 		if (!cmpOwnership2)
 			return;
+        warn('Owner Source: ' + cmpOwnership2);
+
 		cmpOwnership.SetOwner(cmpOwnership2.GetOwner());
+
 	}
 	else
 	{
 		// Melee attack - hurt the target immediately
-		this.CauseDamage({"type": type, "target": target});
+		Damage.CauseDamage({"strengths":this.GetAttackStrengths(type), "target":target, "attacker":this.entity, "multiplier":this.GetAttackBonus(type, target), "type":type});
 	}
 	// TODO: charge attacks (need to design how they work)
+
 };
+
+
+
+
+// Get nearby entities and define variables
+//var nearEnts = Damage.EntitiesNearPoint(data.origin, data.radius, data.playersToDamage);
 
 Attack.prototype.GetNearbyEntities = function(startEnt, range, friendlyFire)
 {
@@ -296,3 +354,4 @@ Attack.prototype.GetNearbyEntities = function(startEnt, range, friendlyFire)
 	var rangeManager = Engine.QueryInterface(SYSTEM_ENTITY, IID_RangeManager);
 	return rangeManager.ExecuteQuery(startEnt, 0, range, players, IID_DamageReceiver);
 }
+*/

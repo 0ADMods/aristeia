@@ -76,11 +76,23 @@ Heal.prototype.GetHealableClasses = function()
  */
 Heal.prototype.PerformHeal = function(target)
 {
-	var cmpOwnership = Engine.QueryInterface(target, IID_Ownership);
-	if (!cmpOwnership)
+	var cmpHealth = Engine.QueryInterface(target, IID_Health);
+	if (!cmpHealth)
 		return;
 
-	cmpOwnership.SetOwner(1);
+	var targetState = cmpHealth.Increase(ApplyValueModificationsToEntity("Heal/HP", +this.template.HP, this.entity));
+
+	// Add XP
+	var cmpLoot = Engine.QueryInterface(target, IID_Loot);
+	var cmpPromotion = Engine.QueryInterface(this.entity, IID_Promotion);
+	if (targetState !== undefined && cmpLoot && cmpPromotion)
+	{
+		// HP healed * XP per HP
+		cmpPromotion.IncreaseXp((targetState.new-targetState.old)*(cmpLoot.GetXp()/cmpHealth.GetMaxHitpoints()));
+	}
+	//TODO we need a sound file
+//	PlaySound("heal_impact", this.entity);
 };
 
 Engine.RegisterComponentType(IID_Heal, "Heal", Heal);
+Engine.RegisterGlobal("Heal", Heal);
