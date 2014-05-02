@@ -29,7 +29,7 @@
   <Builder>
     <Entities datatype="tokens">
 	  -other/wallset_palisade
-    structures/wallset_small
+    structures/egypt_wallset_small
       -structures/{civ}_blacksmith
       structures/ptol_blacksmith
     </Entities>
