@@ -15,6 +15,12 @@
   <Obstruction>
     <Static width="20.0" depth="40.0"/>
   </Obstruction>
+  <ProductionQueue>
+    <Entities datatype="tokens">
+      units/athen_support_converter_a
+      units/egypt_support_healer_b
+    </Entities>
+  </ProductionQueue>
   <VisualActor>
     <Actor>structures/egyptians/large_temple.xml</Actor>
     <FoundationActor>structures/fndn_4x4.xml</FoundationActor>
