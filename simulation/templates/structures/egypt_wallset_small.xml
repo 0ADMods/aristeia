@@ -9,7 +9,7 @@
   <WallSet>
     <Templates>
       <Tower>structures/egypt_small_wall_tower</Tower>
-      <Gate>structures/pers_wall_gate</Gate>
+      <Gate>structures/egypt_small_wall_gate</Gate>
       <WallLong>structures/egypt_small_wall_long</WallLong>
       <WallMedium>structures/egypt_small_wall_medium</WallMedium>
       <WallShort>structures/egypt_small_wall_short</WallShort>
