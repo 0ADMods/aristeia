@@ -33,7 +33,8 @@
   <Cost>
     <Resources>
       <food>0</food>
-      <metal>120</metal>
+      <wood>40</wood>
+      <metal>80</metal>
     </Resources>
   </Cost>
   <Identity>
