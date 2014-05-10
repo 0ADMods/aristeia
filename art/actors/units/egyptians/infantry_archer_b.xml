@@ -28,24 +28,25 @@
         <animation file="infantry/general/death/inf_04.psa" name="Death" speed="400"/>
         <animation file="infantry/general/death/inf_06.psa" name="Death" speed="500"/>
         <animation file="infantry/general/death/inf_07.psa" name="Death" speed="400"/>
-        <animation file="biped/inf_salute_c.psa" name="Promotion" speed="290"/>
+        <animation file="biped/inf_salute_c.psa" name="Promotion" speed="450"/>
       </animations>
-      <mesh>skeletal/m_tunic_short.dae</mesh>
+      <mesh>skeletal/m_tunic_long.dae</mesh>
       <props>
-        <prop actor="props/units/heads/head_pers_a.xml" attachpoint="head"/>
-        <prop actor="props/units/weapons/bow_recurve.xml" attachpoint="l_hand"/>
+        <prop actor="props/units/heads/head_african_1.xml" attachpoint="head"/>
+        <prop actor="props/units/weapons/bow_short.xml" attachpoint="l_hand"/>
         <prop actor="props/units/quiver_hip.xml" attachpoint="l_hip"/>
-        <prop actor="props/units/weapons/arrow_back.xml" attachpoint="loaded-r_hand"/>
-        <prop actor="props/units/weapons/arrow_front.xml" attachpoint="projectile"/>
       </props>
-      <textures><texture file="skeletal/pers_iar_b_1.dds" name="baseTex"/></textures>
+      <textures>
+        <texture file="skeletal/ptol_iar_01.png" name="baseTex"/>
+        <texture file="skeletal/ptol_iar_01_spec.png" name="specTex"/>
+      </textures>
     </variant>
   </group>
   <group>
     <variant frequency="100" name="Idle"/>
     <variant name="attack_ranged">
       <props>
-        <prop actor="props/units/weapons/bow_recurve.xml" attachpoint="l_hand"/>
+        <prop actor="props/units/weapons/bow_short.xml" attachpoint="l_hand"/>
         <prop actor="props/units/weapons/arrow_back.xml" attachpoint="loaded-r_hand"/>
         <prop actor="props/units/weapons/arrow_front.xml" attachpoint="projectile"/>
       </props>
@@ -145,6 +146,11 @@
         <prop attachpoint="shield"/>
       </props>
     </variant>
+    <variant name="death">
+      <props>
+        <prop actor="props/units/blood_01.xml" attachpoint="root"/>
+      </props>
+    </variant>
   </group>
-  <material>player_trans.xml</material>
+  <material>player_trans_spec.xml</material>
 </actor>
