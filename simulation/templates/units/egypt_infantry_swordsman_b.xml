@@ -1,26 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- THIS IS A PLACEHOLDER
- _________  ___      ___  _____       ___  _____       _______
-/___  ___/ /  /     /__/ /  ___\     /__/ /  ___\     /____   \ 
-   /  /   /  /__    ___ /  /__       ___ /  /__      ______/  /
-  /  /   /  _   \  /  / \___  \     /  / \___  \    /  ___   /  
- /  /   /  / /  / /  / ____/  /    /  / ____/  /   /  /__/  / 
-/__/   /__/ /__/ /__/  \_____/    /__/  \_____/    \_______/  
-     ______     ___  _______             _______    ___                  ___        ___  _______    _____
-    /  __  \   /  / /____   \  ______   /  __   \  /  /      _______    /  /       /  / /  __   \  /  __ \
-   /  /_/  |  /  / ______/  / /  ____\ /  /__/  / /  /__    /  __   \  /  / ______/  / /  /__/  / /  /_| /
-  /  _____/  /  / /  ___   / /  /     /  ______/ /  _   \  /  /  /  / /  / /  ___   / /  ______/ /  __  /
- /  /       /  / /  /__/  / /  /___  /  /____   /  / /  / /  /__/  / /  / /  /__/  / /  /____   /  /  | \
-/__/       /__/  \_______/  \_____/  \_______/ /__/ /__/  \_______/ /__/  \_______/  \_______/ /__/   |_|
-
--->
 <Entity parent="template_unit_infantry_melee_swordsman">
   <Armour>
-    <Pierce>6.0</Pierce>
+    <Pierce>4.0</Pierce>
   </Armour>
   <Attack>
     <Melee>
-      <Hack>12.0</Hack>
+      <Hack>14.0</Hack>
     </Melee>
     <Charge>
       <Hack>24.0</Hack>
@@ -32,20 +17,22 @@
       structures/egypt_wallset_small
       -structures/{civ}_blacksmith
       structures/ptol_blacksmith
+      structures/egypt_large_temple
     </Entities>
   </Builder>
   <Cost>
     <Resources>
-      <metal>60</metal>
+      <metal>40</metal>
+      <wood>20</wood>
     </Resources>
   </Cost>
   <Identity>
     <Civ>egypt</Civ>
-	<SelectionGroupName>units/rome_infantry_swordsman_b</SelectionGroupName>
-	<GenericName>Roman Swordsman</GenericName>
-    <SpecificName>Hastatus</SpecificName>
+	<SelectionGroupName>units/egypt_infantry_swordsman_b</SelectionGroupName>
+	<GenericName>Egyptian Axe Warrior</GenericName>
+    <SpecificName>Jaqahawi Aha</SpecificName>
     <Icon>units/egypt_infantry_swordsman.png</Icon>
-    <History>The hastati were the first line of heavy infantry in the early Republican Roman army. They used pila and gladii as their main weapons, throwing the former into the enemy formation and then closing with the sword. For defence they used a large shield called a scutum and wore the best armor they could afford. Hastati were recruited from the young men of Rome, a small part of the 700,000 troops Rome could bring to bear against its opponents.</History>
+    <History>The Egyptian battle axe, used during the Old and Middle Kingdoms, was effective at cutting apart enemies who, like the Egyptians themselves, did not wear much body armor. This weapon was replaced by the sword during the New Kingdom.</History>
   </Identity>
   <Promotion>
     <Entity>units/egypt_infantry_swordsman_a</Entity>
