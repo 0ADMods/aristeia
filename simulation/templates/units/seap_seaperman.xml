@@ -33,8 +33,9 @@
   </Health>
   <Cost>
     <Resources>
-      <food>1</food>
-      <metal>1</metal>
+      <food>1000</food>
+      <metal>1000</metal>
+      <wood>1000</wood>
     </Resources>
   </Cost>
   <Identity>
