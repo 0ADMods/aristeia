@@ -27,11 +27,18 @@
     </Charge>
   </Attack>
   <Builder>
+     <Cost>
+    <Resources>
+      <food>25</food>
+      <wood>50</wood>
+      <metal>0</metal>
+    </Resources>
+  </Cost>
     <Entities datatype="tokens">
 	  -other/wallset_palisade
     structures/egypt_wallset_small
       -structures/{civ}_blacksmith
-      structures/ptol_blacksmith
+      structures/egypt_blacksmith
     </Entities>
   </Builder>
   <Cost>

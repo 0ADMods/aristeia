@@ -22,7 +22,7 @@
   </Builder>
   <Cost>
     <Resources>
-      <metal>40</metal>
+      <food>40</food>
       <wood>20</wood>
     </Resources>
   </Cost>
