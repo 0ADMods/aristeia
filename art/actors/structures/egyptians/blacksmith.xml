@@ -3,7 +3,7 @@
   <castshadow/>
   <group>
     <variant frequency="100" name="blacksmith">
-      <mesh>structural/egypt_blacksm_bulding.dae</mesh>
+      <mesh>structural/egypt_blacksmith.dae</mesh>
       <props>
         <prop actor="props/structures/decals/dirt_4x4.xml" attachpoint="root"/>
         <prop actor="particle/flame.xml" attachpoint="fire"/>
@@ -13,17 +13,12 @@
         <texture file="structural/ptol_struct.png" name="baseTex"/>
         <texture file="structural/ptol_struct_norm.png" name="normTex"/>
         <texture file="structural/ptol_struct_spec.png" name="specTex"/>
-        <texture file="structural/ao/ptol_blacksmith.png" name="aoTex"/>
+        <texture file="structural/ao/egypt_blacksmith.png" name="aoTex"/>
       </textures>
     </variant>
   </group>
   <group>
-    <variant frequency="100" name="Idle"/>
-    <variant name="garrisoned">
-      <props>
-        <prop actor="props/special/common/garrison_flag_ptol.xml" attachpoint="garrisoned"/>
-      </props>
-    </variant>
+    <variant name="Idle"/>
     <variant name="death">
       <props>
         <prop attachpoint="garrisoned"/>
