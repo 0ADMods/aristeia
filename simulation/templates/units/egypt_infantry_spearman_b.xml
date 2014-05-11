@@ -27,13 +27,6 @@
     </Charge>
   </Attack>
   <Builder>
-     <Cost>
-    <Resources>
-      <food>25</food>
-      <wood>50</wood>
-      <metal>0</metal>
-    </Resources>
-  </Cost>
     <Entities datatype="tokens">
 	  -other/wallset_palisade
     structures/egypt_wallset_small
@@ -43,7 +36,9 @@
   </Builder>
   <Cost>
     <Resources>
-      <wood>60</wood>
+       <food>25</food>
+      <wood>50</wood>
+      <metal>0</metal>
     </Resources>
   </Cost>
   <Identity>
