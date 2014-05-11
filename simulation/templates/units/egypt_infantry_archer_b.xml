@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_ranged_archer">
+  <Attack>
+    <Ranged>
+      <MaxRange>60.0</MaxRange>
+      <MinRange>10.0</MinRange>
+      <ProjectileSpeed>65.0</ProjectileSpeed>
+    </Ranged>
+  </Attack>
+  <Builder>
+    <Entities datatype="tokens">
+    </Entities>
+  </Builder>
+  <Cost>
+    <BuildTime>7.5</BuildTime>
+  </Cost>
+  <Health>
+    <Max>75</Max>
+  </Health>
+  <Identity>
+    <Civ>egypt</Civ>
+	<SelectionGroupName>units/pers_infantry_archer_b</SelectionGroupName>
+	<GenericName>Egyptian Archer</GenericName>
+    <SpecificName>Jary Pedet</SpecificName>
+    <Icon>units/egypt_infantry_archer.png</Icon>
+    <History>Perhaps the favorite weapon of the ancient Egyptians was the bow and arrow. Egyptians typically began battles by showering their enemies with arrows to break up their ranks before attacking with melee infantry. The Nubians to the south of Egypt were even more proficient with the bow, so the Egyptians sometimes called their land “Ta Seti” (Land of the Bow).</History>
+  </Identity>
+  <Promotion>
+    <Entity>units/pers_infantry_archer_a</Entity>
+  </Promotion>
+  <VisualActor>
+    <Actor>units/egyptians/infantry_archer_b.xml</Actor>
+  </VisualActor>
+</Entity>
