@@ -18,6 +18,13 @@
     </Entities>
   </Builder>
   <Cost>
+    <Cost>
+    <Resources>
+      <food>25</food>
+      <wood>50</wood>
+      <metal>0</metal>
+    </Resources>
+  </Cost>
     <BuildTime>7.5</BuildTime>
   </Cost>
   <Health>
