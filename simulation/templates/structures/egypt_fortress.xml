@@ -10,6 +10,8 @@
     <Entities datatype="tokens">
       units/nubi_infantry_spearman_b
       units/pers_mechanical_siege_ram
+      units/egypt_champion_axeman
+      units/egypt_hero_RamsesII
     </Entities>
     <Technologies datatype="tokens">
       pair_siege_attack_cost
