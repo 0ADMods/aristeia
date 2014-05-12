@@ -13,6 +13,7 @@
       units/egypt_infantry_swordsman_b
       units/egypt_infantry_archer_b
       units/nubi_infantry_spearman_b
+      units/egypt_cavalry_javelinist_e
     </Entities>
     <Technologies datatype="tokens">
       pair_inf_01

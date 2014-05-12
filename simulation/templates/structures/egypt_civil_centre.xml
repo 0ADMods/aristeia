@@ -4,9 +4,6 @@
     <Square width="31.0" depth="51.0"/>
     <Height>12.0</Height>
   </Footprint>
-  <Gate>
-      <PassRange>8</PassRange> 
-  </Gate>    
   <Health>
     <SpawnEntityOnDeath>rubble/rubble_pers_cc</SpawnEntityOnDeath>
   </Health>
@@ -16,30 +13,15 @@
     <SpecificName>Per’Aa</SpecificName>
     <History>The term used for Egyptian kings, “Pharaoh”, literally means “Great House”.</History>
   </Identity>
-  <Obstruction><!-- override default values of 30mx30m -->
-   <Static disable="" />
-   <!--
+  <Obstruction>
    <Static width="30.0" depth="50.0"/>
-   -->
-   <!-- TODO position origin in the object's middle. -->
-    <Obstructions>
-      <Right width="11" depth="50" x="4"  z="5"/>
-      <Left width="11" depth="50" x="-4" z="5"/>
-      <Door width="8" depth="50" x="0" z="5"/>
-      <!-- 
-      <Edge width="30" depth="50" x="0" z="15"/> 
-      -->
-    </Obstructions>
   </Obstruction>
   <ProductionQueue>
     <Entities datatype="tokens">
       units/egypt_infantry_spearman_b
       units/egypt_infantry_archer_b
-      units/egypt_infantry_swordsman_b
+      units/egypt_cavalry_javelinist_e
     </Entities>
-    <Technologies datatype="tokens">
-      persians/persian_architecture
-    </Technologies>
   </ProductionQueue>
   <VisualActor>
       <Actor>structures/egyptians/civil_centre.xml</Actor>
