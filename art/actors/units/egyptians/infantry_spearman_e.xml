@@ -38,11 +38,11 @@
         <animation file="infantry/general/death/inf_07.psa" name="Death" speed="400"/>
         <animation file="biped/inf_salute_c.psa" name="Promotion" speed="288"/>
       </animations>
-      <mesh>skeletal/m_tunic_short.dae</mesh>
+      <mesh>skeletal/m_dress.dae</mesh>
       <props>
         <prop actor="props/units/helmet/egypt_helmet_a.xml" attachpoint="head"/>
         <prop actor="props/units/heads/head_hele_b.xml" attachpoint="head"/>
-	<prop actor="props/units/shields/egypt_shield_a.xml" attachpoint="shield"/>
+	<prop actor="props/units/shields/egypt_shield_c.xml" attachpoint="shield"/>
         <prop actor="props/units/weapons/spear_lance.xml" attachpoint="r_hand"/>
       </props>
     </variant>
@@ -50,7 +50,7 @@
   <group>
     <variant frequency="1" name="pectoral--plain">
       <textures>
-        <texture file="skeletal/egypt_hero_pharao.png" name="baseTex"/>>
+        <texture file="skeletal/egyp_marine2.png" name="baseTex"/>>
       </textures>
     </variant>
   </group>
