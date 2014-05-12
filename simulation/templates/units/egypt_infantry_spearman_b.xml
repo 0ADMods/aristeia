@@ -14,7 +14,7 @@
 /__/       /__/  \_______/  \_____/  \_______/ /__/ /__/  \_______/ /__/  \_______/  \_______/ /__/   |_|
 
 -->
-<Entity parent="template_unit_infantry_melee_swordsman">
+<Entity parent="template_unit_infantry_melee_spearman">
   <Armour>
     <Pierce>6.0</Pierce>
   </Armour>
