@@ -27,14 +27,6 @@
       <Hack>50.0</Hack>
     </Charge>
   </Attack>
-  <Builder>
-    <Entities datatype="tokens">
-	  -other/wallset_palisade
-      structures/rome_army_camp
-      structures/rome_wallset_siege
-      structures/egypt_wallset_small
-    </Entities>
-  </Builder>
   <Cost>
     <Resources>
       <wood>60</wood>
@@ -42,7 +34,7 @@
   </Cost>
   <Identity>
     <Civ>egypt</Civ>
-	<SelectionGroupName>units/rome_infantry_swordsman_b</SelectionGroupName>
+	<SelectionGroupName>units/egypt_champion_infantry_swordsman</SelectionGroupName>
 	<GenericName>Egyptian Guard</GenericName>
     <SpecificName>Khopesh Medjay</SpecificName>
     <Icon>units/egypt_infantry_swordsman.png</Icon>

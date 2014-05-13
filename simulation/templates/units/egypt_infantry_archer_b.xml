@@ -9,6 +9,8 @@
   </Attack>
   <Builder>
     <Entities datatype="tokens">
+    -other/wallset_palisade
+    structures/egypt_wallset_small
     </Entities>
   </Builder>
   <Cost>
