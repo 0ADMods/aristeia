@@ -71,7 +71,7 @@
       <mesh>skeletal/m_tunic_long.dae</mesh>
       <props>
         <prop actor="props/units/heads/thracian_mercenary.xml" attachpoint="helmet"/>
-        <prop actor="props/units/heads/head_hele_b.xml" attachpoint="head"/>
+        <prop actor="props/units/heads/head_egyptian_e.xml" attachpoint="head"/>
         <prop actor="props/units/weapons/rhomphaia.xml" attachpoint="r_hand"/>
         <prop actor="props/units/shields/egypt_shield_c.xml" attachpoint="shield"/>
         <prop actor="props/units/weapons/jav_ammo.xml" attachpoint="l_hand"/>
