@@ -20,7 +20,10 @@
       units/athen_support_converter_a
       units/egypt_support_healer_b
     </Entities>
-  </ProductionQueue>
+  </ProductionQueue> 
+  <RequiredTechnologies datatype="tokens">
+      structure_temple_large
+  </RequiredTechnologies>
   <VisualActor>
     <Actor>structures/egyptians/large_temple.xml</Actor>
     <FoundationActor>structures/fndn_4x4.xml</FoundationActor>
