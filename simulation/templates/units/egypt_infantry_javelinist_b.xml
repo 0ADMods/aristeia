@@ -14,7 +14,7 @@
     </Resources>
   </Cost>
   <Identity>
-    <Civ>cart</Civ>
+    <Civ>egypt</Civ>
     <SelectionGroupName>units/egypt_infantry_javelinist_b</SelectionGroupName>
     <GenericName>Egyptian Skirmisher</GenericName>
     <SpecificName>Skirmisher</SpecificName>
