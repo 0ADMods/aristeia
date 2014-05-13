@@ -56,7 +56,7 @@
   <group>
     <variant frequency="1" name="pectoral--plain">
       <textures>
-        <texture file="skeletal/egypt_hero_pharao.png" name="baseTex"/>
+        <texture file="skeletal/egypt_padded1.png" name="baseTex"/>
       </textures>
     </variant>
   </group>
