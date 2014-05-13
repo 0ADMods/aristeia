@@ -2,10 +2,6 @@
 <Entity parent="template_unit_infantry_ranged_javelinist">
   <Builder>
     <Entities datatype="tokens">
-      structures/cart_super_dock
-      structures/cart_embassy_celtic
-      structures/cart_embassy_iberian
-      structures/cart_embassy_italiote
       structures/{civ}_wonder
     </Entities>
   </Builder>
@@ -19,8 +15,8 @@
   <Identity>
     <Civ>cart</Civ>
     <SelectionGroupName>units/egypt_infantry_javelinist_b</SelectionGroupName>
-    <GenericName>Iberian Mercenary Skirmisher</GenericName>
-    <SpecificName>Sǝḫīr Kidōn</SpecificName>
+    <GenericName>Egyptian Skirmisher</GenericName>
+    <SpecificName>Skirmisher</SpecificName>
     <Classes datatype="tokens">Nubian Javaliner</Classes>
     <History>...</History>
     <Icon>units/cart_infantry_javelinist.png</Icon>
@@ -29,6 +25,6 @@
     <Entity>units/egypt_infantry_javelinist_a</Entity>
   </Promotion>
   <VisualActor>
-    <Actor>units/carthaginians/infantry_javelinist_b.xml</Actor>
+    <Actor>units/egyptians/infantry_javelinist_b.xml</Actor>
   </VisualActor>
 </Entity>
