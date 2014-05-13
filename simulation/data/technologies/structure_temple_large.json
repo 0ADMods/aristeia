@@ -1,0 +1,18 @@
+{
+	"pair": "",
+	"genericName": "Large Temple",
+	"description": "Collect enough wood and food to keep your monks healthy, so the gods favor is certain. Then you can construct a Large Temple in which you may train converting priests. Your healers will heal better but your females will gather less food for your city now that all those priests need to be fed. Also they are reluctant to gather meat because of spiritual enlightenment. Be aware.",
+	"cost": {"food": 500, "wood": 500, "stone": 0, "metal": 0 },
+	"requirements": {"tech": "phase_city"},
+	"requirementsTooltip": "Only cities can afford the large temple.",
+	"icon": "structures/temple.png",
+	"researchTime": 500,
+	"tooltip": "Collect enough wood and food to keep your monks healthy, so the gods favor is certain. Then you can construct a Large Temple in which you may train converting priests. Note that your females will gather less food for your city as too many priests need to be fed. Also they are reluctant to gather meat because of spiritual enlightenment. Be aware.",
+	"modifications": [
+        {"value": "ResourceGatherer/Rates/food.grain", "multiply": 0.9},
+        {"value": "ResourceGatherer/Rates/food.meat", "multiply": 0.1, "affects": "Female"},
+        {"value": "Heal/Rate", "multiply": 1.5, "affects": "Healer"}
+    ],
+	"affects": ["Healer", "Female", "CitizenSoldier Melee"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}
