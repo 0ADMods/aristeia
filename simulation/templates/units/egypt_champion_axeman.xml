@@ -41,7 +41,7 @@
   </Attack>
   <Identity>
     <Civ>maur</Civ>
-    <GenericName>Warrior</GenericName>
+    <GenericName>Royal Guard</GenericName>
     <SpecificName>Yōddha</SpecificName>
     <History>.</History>
     <Icon>units/maur_champion_maceman.png</Icon>
@@ -50,6 +50,6 @@ Counters: 2x vs. Structures, 1.25x vs. Spearmen and Elephants.
 Countered by: Archers and Cavalry Spearmen.</Tooltip>
   </Identity>
   <VisualActor>
-    <Actor>units/mauryans/champion_maceman.xml</Actor>
+    <Actor>units/egyptians/champion_maceman.xml</Actor>
   </VisualActor>
 </Entity>
