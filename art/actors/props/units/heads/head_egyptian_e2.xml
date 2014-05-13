@@ -9,7 +9,7 @@
   <group>
     <variant frequency="1" name="Egyptian Face 02">
       <textures>
-        <texture file="props/head/egypt_02.png" name="baseTex"/>
+        <texture file="props/heads/egypt_02.png" name="baseTex"/>
       </textures>
     </variant>
   </group>
