@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_cavalry_ranged_javelinist">
   <Identity>
-    <Civ>cart</Civ>
+    <Civ>egypt</Civ>
     <SelectionGroupName>units/egypt_cavalry_javelinist_b</SelectionGroupName>
     <GenericName>Nubian Cavalry</GenericName>
     <SpecificName>Ḥayyāl Raḫūv Masili</SpecificName>
-    <History>The Carthaginians possessed the greatest light cavalry of the ancient world in the Numidians. Tough and hardy like their mounts, the Numidians were famous for their ability to ride bareback and without bridles. Riders controlled their horses through a combination of voice commands, knee pressure, and a rope around the animals' necks. Used mostly for pursuing defeated opponents, the Numidians' favored weapon was a javelin that could be used for close combat if necessary.</History>
+    <History>Needs history</History>
     <Icon>units/egypt_cavalry_javelinist.png</Icon>
   </Identity>
   <Promotion>

@@ -10,7 +10,8 @@
   <Identity>
     <Civ>egypt</Civ>
     <SpecificName>Ara Per</SpecificName>
-    <History>Egyptians believed that their gods resided in temples, which along with tombs were the only buildings that could be built of stone.</History>
+    <GenericName>Large Temple</GenericName>
+    <History>Egyptians believed that their gods resided in temples, which along with tombs were the only buildings that could be built of stone. </History>
   </Identity>
   <Obstruction>
     <Static width="20.0" depth="40.0"/>
@@ -20,7 +21,10 @@
       units/athen_support_converter_a
       units/egypt_support_healer_b
     </Entities>
-  </ProductionQueue>
+  </ProductionQueue> 
+  <RequiredTechnologies datatype="tokens">
+      structure_temple_large
+  </RequiredTechnologies>
   <VisualActor>
     <Actor>structures/egyptians/large_temple.xml</Actor>
     <FoundationActor>structures/fndn_4x4.xml</FoundationActor>

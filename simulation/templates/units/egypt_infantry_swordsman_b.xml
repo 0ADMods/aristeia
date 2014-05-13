@@ -15,8 +15,6 @@
     <Entities datatype="tokens">
 	  -other/wallset_palisade
       structures/egypt_wallset_small
-      -structures/{civ}_blacksmith
-      structures/ptol_blacksmith
       structures/egypt_large_temple
     </Entities>
   </Builder>
