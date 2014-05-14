@@ -2,43 +2,36 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant frequency="1" name="Persian_Fortress_A">
-      <mesh>structural/pers_fortress.dae</mesh>
+    <variant frequency="100" name="Ptolemaic Fortress">
+      <mesh>structural/migdol2.dae</mesh>
       <props>
-        <prop actor="props/structures/persians/fortress.xml" attachpoint="root"/>
-        <prop actor="props/units/weapons/arrow_front.xml" attachpoint="loaded-projectile"/>
-        <prop actor="props/units/weapons/arrow_front.xml" attachpoint="projectile"/>
+<prop actor="props/units/weapons/arrow_front.xml" attachpoint="projectile"/>
       </props>
-    </variant>
-    <variant frequency="1" name="Persian_Fortress_B">
-      <mesh>structural/pers_fortress_b.dae</mesh>
-      <props>
-        <prop actor="props/structures/persians/fortress_b.xml" attachpoint="root"/>
-        <prop actor="props/units/weapons/arrow_front.xml" attachpoint="loaded-projectile"/>
-        <prop actor="props/units/weapons/arrow_front.xml" attachpoint="projectile"/>
-      </props>
-    </variant>
-  </group>
-  <group>
-    <variant>
-      <textures><texture file="structural/pers_struct.dds" name="baseTex"/></textures>
+      <textures>
+        <texture file="structural/ptol_struct.png" name="baseTex"/>
+		<texture file="structural/ptol_struct_norm.png" name="normTex"/>
+        <texture file="structural/ptol_struct_spec.png" name="specTex"/>
+		<texture file="structural/ao/ptol_fortress.png" name="aoTex"/>
+      </textures>
     </variant>
   </group>
   <group>
     <variant frequency="100" name="Idle"/>
     <variant name="garrisoned">
       <props>
-        <prop actor="props/special/common/garrison_flag_persians.xml" attachpoint="garrisoned"/>
+        <prop actor="props/special/common/garrison_flag_hele.xml" attachpoint="garrisoned"/>
       </props>
     </variant>
     <variant name="death">
       <props>
         <prop attachpoint="garrisoned"/>
-        <prop actor="particle/destruction_smoke_large.xml" attachpoint="death"/>
-        <prop actor="particle/destruction_dust_large.xml" attachpoint="death"/>
-        <prop actor="particle/destruction_dust_large_gray.xml" attachpoint="death"/>
+        <prop actor="particle/destruction_smoke_large.xml" attachpoint="root"/>
+        <prop actor="particle/destruction_dust_large.xml" attachpoint="root"/>
+        <prop actor="particle/destruction_dust_large_gray.xml" attachpoint="root"/>
+        <prop actor="props/structures/ptolemies/fortress_paintings.xml" attachpoint="root"/>
+        <prop actor="props/structures/decals/dirt_5x5.xml" attachpoint="root"/>
       </props>
     </variant>
   </group>
-  <material>player_trans.xml</material>
+  <material>player_trans_ao_parallax_spec.xml</material>
 </actor>
