@@ -70,10 +70,10 @@
       </animations>
       <mesh>skeletal/m_tunic_long.dae</mesh>
       <props>
-        <prop actor="props/units/heads/thracian_mercenary.xml" attachpoint="helmet"/>
-        <prop actor="props/units/heads/head_egyptian_e.xml" attachpoint="head"/>
+
+        <prop actor="props/units/heads/rgp_head.xml" attachpoint="head"/>
         <prop actor="props/units/weapons/rhomphaia.xml" attachpoint="r_hand"/>
-        <prop actor="props/units/shields/egypt_shield_a.xml" attachpoint="shield"/>
+        <prop actor="props/units/shields/egypt_shield_b.xml" attachpoint="shield"/>
           </props>
       <textures>
         <texture file="skeletal/ptol_thureophoros_a_1.png" name="baseTex"/>
