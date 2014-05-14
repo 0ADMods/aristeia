@@ -11,6 +11,7 @@
     <Entities datatype="tokens">
     -other/wallset_palisade
     structures/egypt_wallset_small
+      structures/egypt_large_temple
     </Entities>
   </Builder>
   <Cost>
