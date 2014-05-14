@@ -20,7 +20,7 @@
     <SpecificName>Skirmisher</SpecificName>
     <Classes datatype="tokens">Nubian Javaliner</Classes>
     <History>...</History>
-    <Icon>units/cart_infantry_javelinist.png</Icon>
+    <Icon>units/egypt_cavalry_javelinist.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/egypt_infantry_javelinist_a</Entity>
