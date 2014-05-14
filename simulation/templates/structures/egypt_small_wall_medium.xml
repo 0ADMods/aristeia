@@ -21,7 +21,7 @@
     <SpawnEntityOnDeath>rubble/rubble_1x3pal</SpawnEntityOnDeath>
   </Health>
   <Identity>
-    <Civ>gaia</Civ>
+    <Civ>egypt</Civ>
     <SelectionGroupName>other/wallset_palisade</SelectionGroupName>
     <SpecificName>Palisade</SpecificName>
     <GenericName>Small Wall</GenericName>
