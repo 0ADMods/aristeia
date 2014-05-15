@@ -8,10 +8,10 @@
     <Max>4400</Max>
   </Health>
   <Identity>
-    <Civ>pers</Civ>
+    <Civ>egypt</Civ>
     <GenericName>Special Structure</GenericName>
-    <SpecificName>Hanging Gardens of Babylon</SpecificName>
-    <History>A magnificent structure built in the 6th century BC by the Neo-Babylonian king Nebuchadnezzar II in order to please his wife Amytis of Media, who was homesick for the gardens and mountains of her homeland.</History>
+    <SpecificName>?</SpecificName>
+    <History>...</History>
     <Icon>structures/gardens.png</Icon>
   </Identity>
   <Loot>

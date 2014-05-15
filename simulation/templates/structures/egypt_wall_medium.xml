@@ -5,10 +5,10 @@
     <Height>9.0</Height>
   </Footprint>
   <Identity>
-    <Civ>pers</Civ>
+    <Civ>egypt</Civ>
 	<SelectionGroupName>structures/pers_wallset_stone</SelectionGroupName>
-    <SpecificName>Dida</SpecificName>
-    <History>Persepolis, the Persian royal capital, was constructed on an immense man-made terrace with strong defensive walls.</History>
+    <SpecificName>?</SpecificName>
+    <History>...</History>
   </Identity>
   <Obstruction>
     <Static width="24.0" depth="7.0"/>

@@ -15,9 +15,11 @@
   <Obstruction>
     <Static width="17.5" depth="17.5"/>
   </Obstruction>
-  <Technologies datatype="tokens">
-    structure_temple_large
-  </Technologies>    
+  <ProductionQueue>
+    <Technologies datatype="tokens">
+      structure_temple_large
+    </Technologies>  
+  </ProductionQueue>  
   <VisualActor>
     <Actor>structures/egyptians/temple.xml</Actor>
     <FoundationActor>structures/fndn_4x4.xml</FoundationActor>

@@ -5,10 +5,10 @@
     <Height>8.0</Height>
   </Footprint>
   <Identity>
-    <Civ>pers</Civ>
-	<GenericName>Ionian Trade Ship</GenericName>
-    <SpecificName>Yaunash Nav</SpecificName>
-    <History>Phoenician merchant ship used by the persians for trading over sea.</History>
+    <Civ>egypt</Civ>
+	<GenericName>Trade Ship</GenericName>
+    <SpecificName>?</SpecificName>
+    <History>...</History>
     <Icon>units/pers_ship_merchant.png</Icon>
   </Identity>
   <VisualActor>
