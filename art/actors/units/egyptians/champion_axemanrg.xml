@@ -72,7 +72,7 @@
       <props>
 
         <prop actor="props/units/heads/rgp_head.xml" attachpoint="head"/>
-        <prop actor="props/units/weapons/rhomphaia.xml" attachpoint="r_hand"/>
+        <prop actor="props/units/weapons/axe_twohanded_egypt.xml" attachpoint="r_hand"/>
         <prop actor="props/units/shields/egypt_shield_b_rgp.xml" attachpoint="shield"/>
           </props>
       <textures>
