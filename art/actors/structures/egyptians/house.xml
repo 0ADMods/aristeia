@@ -4,27 +4,57 @@
   <group>
     <variant frequency="2" name="House A">
       <mesh>structural/egypt_house.dae</mesh>
-      <textures><texture file="structural/egypt_struct.dds" name="baseTex"/></textures>
+      <textures>
+      	<texture file="structural/egypt_struct.png" name="baseTex"/>
+        <texture file="structural/egypt_struct_norm.png" name="normTex"/>
+        <texture file="structural/egypt_struct_spec.png" name="specTex"/>
+        <texture file="structural/ao/egypt_house.png" name="aoTex"/>
+	  </textures>
     </variant>
     <variant frequency="2" name="House A2">
       <mesh>structural/egypt_house_a2.dae</mesh>
-      <textures><texture file="structural/egypt_struct.dds" name="baseTex"/></textures>
+            <textures>
+      	<texture file="structural/egypt_struct.png" name="baseTex"/>
+        <texture file="structural/egypt_struct_norm.png" name="normTex"/>
+        <texture file="structural/egypt_struct_spec.png" name="specTex"/>
+        <texture file="structural/ao/egypt_house_a2.png" name="aoTex"/>
+	  </textures>
     </variant>
     <variant frequency="2" name="House B">
       <mesh>structural/egypt_house_b.dae</mesh>
-      <textures><texture file="structural/egypt_struct.dds" name="baseTex"/></textures>
+            <textures>
+      	<texture file="structural/egypt_struct.png" name="baseTex"/>
+        <texture file="structural/egypt_struct_norm.png" name="normTex"/>
+        <texture file="structural/egypt_struct_spec.png" name="specTex"/>
+        <texture file="structural/ao/egypt_house_b.png" name="aoTex"/>
+	  </textures>
     </variant>
     <variant frequency="2" name="House B2">
       <mesh>structural/egypt_house_b2.dae</mesh>
-      <textures><texture file="structural/egypt_struct.dds" name="baseTex"/></textures>
+            <textures>
+      	<texture file="structural/egypt_struct.png" name="baseTex"/>
+        <texture file="structural/egypt_struct_norm.png" name="normTex"/>
+        <texture file="structural/egypt_struct_spec.png" name="specTex"/>
+        <texture file="structural/ao/egypt_house_b2.png" name="aoTex"/>
+	  </textures>
     </variant>
     <variant frequency="1" name="House C">
       <mesh>structural/egypt_house_c.dae</mesh>
-      <textures><texture file="structural/egypt_struct.dds" name="baseTex"/></textures>
+            <textures>
+      	<texture file="structural/egypt_struct.png" name="baseTex"/>
+        <texture file="structural/egypt_struct_norm.png" name="normTex"/>
+        <texture file="structural/egypt_struct_spec.png" name="specTex"/>
+        <texture file="structural/ao/egypt_house_c.png" name="aoTex"/>
+	  </textures>
     </variant>
     <variant frequency="1" name="House C2">
       <mesh>structural/egypt_house_c2.dae</mesh>
-      <textures><texture file="structural/egypt_struct.dds" name="baseTex"/></textures>
+            <textures>
+      	<texture file="structural/egypt_struct.png" name="baseTex"/>
+        <texture file="structural/egypt_struct_norm.png" name="normTex"/>
+        <texture file="structural/egypt_struct_spec.png" name="specTex"/>
+        <texture file="structural/ao/egypt_house_c2.png" name="aoTex"/>
+	  </textures>
     </variant>
   </group>
   <group>
@@ -38,5 +68,5 @@
       </props>
     </variant>
   </group>
-  <material>player_trans.xml</material>
+  <material>player_trans_ao_parallax_spec.xml</material>
 </actor>
