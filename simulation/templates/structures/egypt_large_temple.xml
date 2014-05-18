@@ -13,7 +13,7 @@
     <GenericName>Large Temple</GenericName>
     <History>Egyptians believed that their gods resided in temples, which along with tombs were the only buildings that could be built of stone. </History>
     <RequiredTechnology>
-      structure_temple
+      structure_temple_large
     </RequiredTechnology>
   </Identity>
   <Obstruction>
