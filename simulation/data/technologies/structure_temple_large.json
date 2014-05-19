@@ -5,7 +5,7 @@
 	"cost": {"food": 500, "wood": 500, "stone": 0, "metal": 0 },
 	"requirements": {"tech": "phase_city"},
 	"requirementsTooltip": "Only cities can afford the large temple.",
-	"icon": "structures/temple.png",
+	"icon": "structure_temple_large.png",
 	"researchTime": 500,
 	"tooltip": "Collect enough wood and food to keep your monks healthy, so the gods favor is certain. Then you can construct a Large Temple in which you may train converting priests. Note that your females will gather less food for your city as too many priests need to be fed. Also they are reluctant to gather meat because of spiritual enlightenment. Be aware.",
 	"modifications": [
