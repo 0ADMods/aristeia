@@ -14,6 +14,7 @@
       units/egypt_infantry_archer_b
       units/egypt_cavalry_swordsman_b
       units/egypt_infantry_javelinist_b
+      units/egypt_cavalry_javelinist_b
     </Entities>
     <Technologies datatype="tokens">
       pair_inf_01
