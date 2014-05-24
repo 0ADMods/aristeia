@@ -3,7 +3,7 @@
   <castshadow/>
   <group>
     <variant frequency="100" name="Ptolemaic Fortress">
-      <mesh>structural/migdol3.dae</mesh>
+      <mesh>structural/migdol2.dae</mesh>
       <props>
 <prop actor="props/units/weapons/arrow_front.xml" attachpoint="projectile"/>
       </props>
