@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="100" name="Base">
+      <mesh>structural/pers_barracks.dae</mesh>
+      <props>
+        <prop actor="props/structures/decals/dirt_4x4.xml" attachpoint="root"/>
+        <prop actor="props/structures/persians/barracks.xml" attachpoint="root"/>
+        <prop actor="props/units/shields/pers_taka_a.xml" attachpoint="shieldright"/>
+        <prop actor="props/units/shields/pers_pelta_a.xml" attachpoint="shieldleft"/>
+        <prop actor="props/units/shields/pers_tower.xml" attachpoint="entranceshield"/>
+        <prop actor="props/units/shields/pers_round_kardakes.xml" attachpoint="tableside"/>
+        <prop actor="props/units/shields/pers_round_kardakes.xml" attachpoint="shieldtop"/>
+        <prop actor="props/units/shields/pers_round_kardakes.xml" attachpoint="shieldoutside"/>
+      </props>
+      <textures><texture file="structural/pers_struct.dds" name="baseTex"/></textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="100" name="Idle"/>
+    <variant name="garrisoned">
+      <props>
+        <prop actor="props/special/common/garrison_flag_persians.xml" attachpoint="garrisoned"/>
+      </props>
+    </variant>
+    <variant name="death">
+      <props>
+        <prop attachpoint="garrisoned"/>
+        <prop actor="particle/destruction_smoke_med.xml" attachpoint="root"/>
+        <prop actor="particle/destruction_dust_med.xml" attachpoint="root"/>
+        <prop actor="particle/destruction_dust_med_gray.xml" attachpoint="root"/>
+        <prop actor="props/structures/persians/barracks.xml" attachpoint="root"/>
+        <prop actor="props/structures/decals/dirt_4x4.xml" attachpoint="root"/>
+      </props>
+    </variant>
+  </group>
+  <material>player_trans.xml</material>
+</actor>
