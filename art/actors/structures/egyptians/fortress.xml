@@ -3,13 +3,13 @@
   <castshadow/>
   <group>
     <variant frequency="100" name="Ptolemaic Fortress">
-      <mesh>structural/migdol3.dae</mesh>
+      <mesh>structural/migdol2.dae</mesh>
       <props>
 <prop actor="props/units/weapons/arrow_front.xml" attachpoint="projectile"/>
       </props>
       <textures>
-        <texture file="structural/ptol_struct.png" name="baseTex"/>
-		<texture file="structural/ptol_struct_norm.png" name="normTex"/>
+        <texture file="structural/ptol_structmilitar_fortress.png" name="baseTex"/>
+		<texture file="structural/ptol_structmilitar_fortress.png" name="normTex"/>
         <texture file="structural/ptol_struct_spec.png" name="specTex"/>
 		<texture file="structural/ao/egypt_fortress.png" name="aoTex"/>
       </textures>
