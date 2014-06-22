@@ -13,23 +13,19 @@
       <mesh>skeletal/f_dress.dae</mesh>
       <props>
         <prop actor="props/units/heads/head_egypt_pharao.xml" attachpoint="head"/>
+        <prop actor="props/units/helmets/egypt_helmet_pharao.xml" attachpoint="helmet"/>
         <prop actor="props/units/weapons/arrow_back.xml" attachpoint="loaded-r_hand"/>
         <prop actor="props/units/weapons/arrow_front.xml" attachpoint="projectile"/>
         <prop actor="props/units/weapons/bow_recurve.xml" attachpoint="l_hand"/>
         <prop actor="props/units/quiver_back.xml" attachpoint="back"/>
       </props>
       <textures>
-        <texture file="skeletal/ptol_cleopatra.png" name="baseTex"/>
+        <texture file="skeletal/egypt_hero_pharao.png" name="baseTex"/>
       </textures>
     </variant>
   </group>
   <group>
     <variant frequency="100" name="Idle"/>
-    <variant name="Death">
-      <props>
-        <prop actor="props/units/blood_01.xml" attachpoint="root"/>
-      </props>
-    </variant>
   </group>
   <material>player_trans.xml</material>
 </actor>

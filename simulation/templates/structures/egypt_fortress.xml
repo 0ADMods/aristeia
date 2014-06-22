@@ -11,7 +11,7 @@
       units/nubi_infantry_spearman_b
       units/pers_mechanical_siege_ram
       units/egypt_champion_axeman
-      units/egypt_hero_RamsesII
+      units/egypt_hero_ramses_ii
       units/egypt_royal_guard_axe
     </Entities>
     <Technologies datatype="tokens">
