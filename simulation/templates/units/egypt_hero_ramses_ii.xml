@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_hero_infantry_archer">
+  <Identity>
+    <Civ>egypt</Civ>
+	<GenericName>Ramesses II</GenericName>
+    <SpecificName>Riʻmīsisu</SpecificName>
+    <Tooltip>Classes: Hero Infantry Archer.
+"Consort" Aura: Increased effectiveness of allied heroes in her vision. Decreased effectiveness for enemy heroes.
+"Patriot" Aura: Egyptian units fight harder when in vision of her.</Tooltip>
+    <History>Ramesses II, referred to as Ramesses the Great, was the third Egyptian pharaoh (reigned 1279 BC – 1213 BC) of the Nineteenth dynasty. He is often regarded as the greatest, most celebrated, and most powerful pharaoh of the Egyptian Empire.[7] His successors and later Egyptians called him the "Great Ancestor". Ramesses II led several military expeditions into the Levant, reasserting Egyptian control over Canaan. He also led expeditions to the south, into Nubia, commemorated in inscriptions at Beit el-Wali and Gerf Hussein.</History>
+    <Icon>units/celt_hero_boudicca.png</Icon>
+  </Identity>
+  <Sound>
+    <SoundGroups>
+      <select>voice/hellenes/civ/female/civ_female_select.xml</select>
+      <order_walk>voice/hellenes/civ/female/civ_female_walk.xml</order_walk>
+      <order_attack>voice/hellenes/civ/female/civ_female_go_out_against.xml</order_attack>
+      <order_gather>voice/hellenes/civ/female/civ_female_gather_together.xml</order_gather>
+      <order_repair>voice/hellenes/civ/female/civ_female_repair.xml</order_repair>
+      <order_garrison>voice/hellenes/civ/female/civ_female_garrison.xml</order_garrison>
+      <death>actor/human/death/female_death.xml</death>
+    </SoundGroups>
+  </Sound>
+  <VisualActor>
+    <Actor>units/egyptians/hero_pharao.xml</Actor>
+  </VisualActor>
+</Entity>
