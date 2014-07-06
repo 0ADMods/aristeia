@@ -2,8 +2,8 @@
     "name": "bronze_age",
     "version": "0.0.16",
     "label": "0 A.D. Bronze Age Extension",
-    "url": "github.com/0ADMods/Aristeia",
+    "url": "github.com/0ADMods/aristeia",
     "description": "Aristeia: 0A.D. Bronze Age Extension, adding basic converting priests.",
-    "dependencies": ["0ad 0.0.16", "functionality__convert_attack 0.0.16"],
+    "dependencies": ["0ad=0.0.16", "convert_attack=0.0.16"],
     "type": "mod-pack mixed"
 }

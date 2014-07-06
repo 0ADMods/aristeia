@@ -1,0 +1,157 @@
+{
+	"Code": "assyrian",
+	"Culture": "assyrian",
+	"Name": "Assyrians",
+	"Emblem": "session/portraits/emblems/emblem_assyrians.png",
+	"History": "The Assyrian empire began as a city-state occupying vital trade routes in the Tigris-Euphrates valley. Its economic underpinnings centered around three principal cities on the Tigris: Nimrud, Nieveh and Ashur.\nVulnerable to hostile powers, lacking many raw resources, and in great need of manpower to facilitate its agricultural irrigation systems, the state had little choice but to expand. Under the leadership of mighty kings such as Ashurnasirpal II, Tiglath-pileser II, Sargon II and Sennacherib, Assyria embarked on a cenuries-long rise to power via an increasingly vast war machine. It could be said that the Assyrians, later called the 'Romans of the East', possessed the first truly modern military, in terms of complexity, training, equipment, logistics, methods, and organization. And that Assyrian rulers were often preoccupied with war, expansion, conquest, subjugation, and deportation, creating in the process the largest empire the world had yet known. Internal problems and civil war eventually devastated the empire, however, and the doom of Assyria was sealed in 612 B.C., when the armies of the Medes and Babylonians sacked and destroyed Nineveh.\nWithin a few short years thereafter, remaining Assyrian resistance was stamped out.",
+	"Music":[
+			{"File":"Harsh_Lands_Rugged_People.ogg", "Type":"peace"}
+		],
+	"Factions":
+	[
+		{
+			"Name": "Neo-Assyrians",
+			"Description": "The Neo-Assyrian infantry was made up primarily of archers, spearmen and slingers in descending order of numerousness. Under Tiglath-pileser III's reforms, the central government and the provincial system were strengthened; a system of couriers kept the king in close contact with his governors, lords and vassals. The military was made up of four levels of organization: (1) the qurubuti ('household troops'), (2) the kisir sharruti (king's standing army), (3) the sab sharri ('king's men' or 'territorial army') and (4) the dikut-mati ('general levy').",
+			"Technologies":
+			[
+				{
+					"Name": "",
+					"History": "",
+					"Description": "" 
+				}
+			],
+			"Heroes":
+			[
+				{
+					"Name": "Ashurnasirpal II",
+					"Class": "",
+					"Armament": "",
+					"Emblem": "",
+					"History": "Ashurnasirpal II conquered his way o the Mediterranean coast."
+				},
+				{
+					"Name": "Shalmaneser III",
+					"Class": "",
+					"Armament": "",
+					"Emblem": "",
+					"History": "Campaigned in the Zagros mountains, Babylonia, Media and Aramaean/Neo-Hittite states. Fought against Levantine coalition at Karkar in 853 B.C."
+				},
+				{
+					"Name": "Tiglath-Pileser III",
+					"Class": "",
+					"Armament": "",
+					"Emblem": "",
+					"History": "Instituted major government and military reforms, including standing army."
+				},
+				{
+					"Name": "Sargon II",
+					"Class": "",
+					"Armament": "",
+					"Emblem": "",
+					"History": "Almost wholesale use of iron in army, conquered Israel, fought Babylonia."
+				},
+				{
+					"Name": "Sennacherib",
+					"Class": "",
+					"Armament": "",
+					"Emblem": "",
+					"History": "Building projects, wars with Babylonia and Judah."
+				},
+				{
+					"Name": "Ashurbanipal",
+					"Class": "",
+					"Armament": "",
+					"Emblem": "",
+					"History": "Ruled Assyrian Empire during its largest extent. War with Egypt and Kush."
+				} 
+			]
+		}
+	],
+	"CivBonuses":
+	[
+		{
+			"Name": "Military",
+			"History": "The Assyrians needed vast amounts of manpower for its irrigation system. Expansion was a focus of this civilization. Therefore mining and lumbering abilities were poorly developed, fishing abilities below-average.\nOne of her only strengths early on lies in her farming abilities.\nAssyria took some time to become a world power. Upon proceding development + conquers, Assyria then became well-nigh unstoppable.\nAdvanced siege needed a lot of wood, while its elite soldiers required vast amounts of metal.",
+			"Description": "Start out with a farm + in town phase."
+		}
+	],
+	"TeamBonuses":
+	[
+		{
+			"Name": "Team Bonus",
+			"History": "",
+			"Description": "Mercenary or forced conscripts?"
+		} 
+	],
+	"Structures":
+	[
+		{
+			"Name": "Most special structure: Channel",
+			"Class": "",
+			"Emblem": "",
+			"History": "Irrigation system played an important role in the Assyrian civilization, dictated by climate of the region it dwelled in.",
+			"Requirements": "",
+			"Phase": "",
+			"Special": "Construct channels to redirect rivers."
+		} 
+	],
+	"StartEntities":
+	[
+		{
+			"Template": "structures/assyrian_civil_centre"
+		},
+		{
+			"Template": "structures/assyrian_farmstead",
+			"Count": 1
+		},
+		{
+			"Template": "units/assyrian_support_female_citizen",
+			"Count": 4
+		},
+		{
+			"Template": "units/assyrian_infantry_swordsman_b",
+			"Count": 2
+		},
+		{
+			"Template": "units/assyrian_infantry_javelinist_b",
+			"Count": 2
+		},
+		{
+			"Template": "units/assyrian_cavalry_spearman_b"
+		}
+	],
+	"Formations":
+	[
+		"formations/scatter",
+		"formations/box",
+		"formations/column_closed",
+		"formations/line_closed",
+		"formations/column_open",
+		"formations/line_open",
+		"formations/flank",
+		"formations/skirmish",
+		"formations/wedge",
+		"formations/battle_line"
+	],
+	"AINames":
+	[
+		"Ashurnasirpla II",
+		"Shalmaneser III",
+		"Tiglath-Pileser III",
+		"Sargon II",
+		"Sennacherib",
+		"Ashurbanipal",
+		"Ashurbanipal"
+	],
+	"SkirmishReplacements":
+	{
+		"skirmish/units/default_infantry_melee_b": "units/assyrian_infantry_swordsman_b",
+		"skirmish/structures/default_house_5": "structures/{civ}_house",
+		"skirmish/structures/assyrian_wall_short": "structures/assyrian_wall_short",
+		"skirmish/structures/assyrian_wall_medium": "structures/assyrian_wall_medium",
+		"skirmish/structures/assyrian_wall_long": "structures/assyrian_wall_long",
+		"skirmish/structures/assyrian_wall_gate": "structures/_wall_gate",
+		"skirmish/structures/assyrian_wall_tower": "structures/assyrian_wall_tower"
+	},
+	"SelectableInGameSetup": true
+}
