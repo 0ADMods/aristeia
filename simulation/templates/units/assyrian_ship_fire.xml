@@ -7,6 +7,6 @@
     <Icon>units/assyrian_ship_fire.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>structures/assyrianians/fireship.xml</Actor>
+    <Actor>structures/assyrian/fireship.xml</Actor>
   </VisualActor>
 </Entity>

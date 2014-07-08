@@ -15,6 +15,6 @@
     <Entity>units/assyrian_cavalry_spearman_a</Entity>
   </Promotion>
   <VisualActor>
-    <Actor>units/assyrianians/cavalry_spearman_b.xml</Actor>
+    <Actor>units/assyrian/cavalry_spearman_b.xml</Actor>
   </VisualActor>
 </Entity>

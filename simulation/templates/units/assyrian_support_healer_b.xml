@@ -25,6 +25,6 @@
     </SoundGroups>
   </Sound>
   <VisualActor>
-    <Actor>units/assyrianians/healer.xml</Actor>
+    <Actor>units/assyrian/healer.xml</Actor>
   </VisualActor>
 </Entity>

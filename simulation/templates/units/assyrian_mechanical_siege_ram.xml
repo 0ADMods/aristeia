@@ -14,6 +14,6 @@
     <Unit radius="3"/>
   </Obstruction>
   <VisualActor>
-    <Actor>structures/assyrianians/siege_ram.xml</Actor>
+    <Actor>structures/assyrian/siege_ram.xml</Actor>
   </VisualActor>
 </Entity>

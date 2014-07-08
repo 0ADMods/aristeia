@@ -22,6 +22,6 @@
     <Max>160</Max>
   </Health>
   <VisualActor>
-    <Actor>units/assyrianians/cavalry_javelinist_e.xml</Actor>
+    <Actor>units/assyrian/cavalry_javelinist_e.xml</Actor>
   </VisualActor>
 </Entity>

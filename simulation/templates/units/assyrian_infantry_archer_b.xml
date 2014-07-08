@@ -19,6 +19,6 @@
     <Entity>units/assyrian_infantry_archer_a</Entity>
   </Promotion>
   <VisualActor>
-    <Actor>units/assyrianians/infantry_archer_b.xml</Actor>
+    <Actor>units/assyrian/infantry_archer_b.xml</Actor>
   </VisualActor>
 </Entity>

@@ -29,6 +29,6 @@
     </Run>
   </UnitMotion>
   <VisualActor>
-    <Actor>units/assyrianians/infantry_spearman_a.xml</Actor>
+    <Actor>units/assyrian/infantry_spearman_a.xml</Actor>
   </VisualActor>
 </Entity>

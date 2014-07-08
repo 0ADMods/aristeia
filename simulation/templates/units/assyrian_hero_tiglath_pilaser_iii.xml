@@ -61,6 +61,6 @@
     </Run>
   </UnitMotion>
   <VisualActor>
-    <Actor>units/assyrianians/hero_xerxes_chariot.xml</Actor>
+    <Actor>units/assyrian/hero_xerxes_chariot.xml</Actor>
   </VisualActor>
 </Entity>

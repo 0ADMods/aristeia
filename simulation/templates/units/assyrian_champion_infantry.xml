@@ -14,6 +14,6 @@
     </Run>
   </UnitMotion>
   <VisualActor>
-    <Actor>units/assyrianians/champion_unit_1.xml</Actor>
+    <Actor>units/assyrian/champion_unit_1.xml</Actor>
   </VisualActor>
 </Entity>

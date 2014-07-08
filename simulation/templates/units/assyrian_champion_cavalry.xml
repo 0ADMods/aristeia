@@ -47,6 +47,6 @@ Countered by: Spearmen and Elephants.</Tooltip>
     </Run>
   </UnitMotion>
   <VisualActor>
-    <Actor>units/assyrianians/champion_unit_2.xml</Actor>
+    <Actor>units/assyrian/champion_unit_2.xml</Actor>
   </VisualActor>
 </Entity>

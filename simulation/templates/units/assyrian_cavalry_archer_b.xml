@@ -65,6 +65,6 @@ Causes trample damage to enemy units.</Tooltip>
     </Run>
   </UnitMotion>
   <VisualActor>
-    <Actor>units/assyrianians/cavalry_archer_b.xml</Actor>
+    <Actor>units/assyrian/cavalry_archer_b.xml</Actor>
   </VisualActor>
 </Entity>

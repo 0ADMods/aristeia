@@ -20,7 +20,7 @@
     <Entity>units/assyrian_infantry_javelinist_a</Entity>
   </Promotion>
   <VisualActor>
-    <Actor>units/assyrianians/infantry_javelinist_b.xml</Actor>
+    <Actor>units/assyrian/infantry_javelinist_b.xml</Actor>
   </VisualActor>
   <!-- TODO create inventory component. check back IRC logs: irclogs.wildfiregames.com/2014-06-24-QuakeNet-%230ad-dev.log
        Basically init with the entities as defined in the inventory list below.
