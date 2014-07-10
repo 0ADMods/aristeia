@@ -10,10 +10,10 @@
         <animation file="female/f_death_01.dae" name="Death" speed="130"/>
         <animation event="0.84" file="biped/inf_arch_atk_a.psa" load="0.16" name="attack_ranged" speed="250"/>
       </animations>
-      <mesh>skeletal/f_dress.dae</mesh>
+      <mesh>skeletal/m_tunic_short.dae</mesh>
       <props>
-        <prop actor="props/units/heads/head_egypt_pharao.xml" attachpoint="head"/>
-        <prop actor="props/units/helmets/egypt_helmet_pharao.xml" attachpoint="helmet"/>
+        <prop actor="egyptian/head_pharao.xml" attachpoint="head"/>
+        <!--<prop actor="egyptian/crown_pharao.xml" attachpoint="helmet"/>-->
         <prop actor="props/units/weapons/arrow_back.xml" attachpoint="loaded-r_hand"/>
         <prop actor="props/units/weapons/arrow_front.xml" attachpoint="projectile"/>
         <prop actor="props/units/weapons/bow_recurve.xml" attachpoint="l_hand"/>
@@ -25,7 +25,31 @@
     </variant>
   </group>
   <group>
-    <variant frequency="100" name="Idle"/>
+    <variant frequency="100" name="Idle">
+      <!-- use base variant -->
+    </variant>
+    <variant name="attack_ranged">
+      <props>
+        <prop actor="props/units/weapons/bow_recurve.xml" attachpoint="l_hand"/>
+        <prop actor="props/units/weapons/arrow_back.xml" attachpoint="loaded-r_hand"/>
+        <prop actor="props/units/weapons/arrow_front.xml" attachpoint="projectile"/>
+      </props>
+    </variant>
+    <variant name="death">
+      <props>
+        <prop actor="props/units/blood_01.xml" attachpoint="root"/>
+      </props>
+    </variant>
+    <variant name="carry_meat">
+      <props>
+        <prop actor="props/units/shuttle_meat.xml" attachpoint="r_hand"/>
+		<!-- reset/remove some props/prop-points: -->
+        <prop attachpoint="l_hand"/>
+        <prop attachpoint="helmet"/>
+        <prop attachpoint="shield"/>
+      </props>
+    </variant>
+		  
   </group>
   <material>player_trans.xml</material>
 </actor>

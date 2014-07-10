@@ -254,7 +254,7 @@ UnitAI.prototype.CanConvert = function(target)
 
 
 
-UnitFsmSpec.INDIVIDUAL
+UnitAI.prototype.UnitFsmSpec.INDIVIDUAL
         .HEAL
             .HEALING
                 .Timer = function(msg) {

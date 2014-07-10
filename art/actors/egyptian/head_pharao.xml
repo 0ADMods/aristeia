@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="100" name="Base">
+      <colour>241 202 112</colour>
+      <mesh>egyptian/head_pharao.dae</mesh>
+      <textures><texture file="egyptian/head_pharao.png" name="baseTex"/></textures>
+	  
+	  <props>
+		  <prop actor="egyptian/beard_pharao.xml" attachpoint="chin"></prop>
+		  <prop actor="egyptian/crown_pharao.xml" attachpoint="helmet"></prop>
+	  </props>
+    </variant>
+  </group>
+  <material>player_trans.xml</material>
+</actor>
