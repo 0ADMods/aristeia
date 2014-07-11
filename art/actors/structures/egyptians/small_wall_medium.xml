@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<actor version="1">
+
+  <castshadow/>
+    
+  <group>
+    <variant>
+      <mesh>structural/egypt_small_wall_medium.dae</mesh>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="33" name="egyp small wall medium">
+      <animations/>
+      <textures><texture file="structural/egypt_small_wall.png" name="baseTex"/></textures>
+    </variant>
+  </group>
+
+  <material>player_trans.xml</material>
+
+</actor>

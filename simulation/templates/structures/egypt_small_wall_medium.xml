@@ -37,7 +37,7 @@
     <HeightOffset>9.0</HeightOffset>
   </StatusBars>
   <VisualActor>
-    <Actor>structures/egypt_small_wall_medium.xml</Actor>
+    <Actor>structures/egyptians/small_wall_medium.xml</Actor>
     <FoundationActor>structures/fndn_1x3pal.xml</FoundationActor>
   </VisualActor>
   <TerritoryInfluence disable=""/>
