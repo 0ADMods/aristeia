@@ -5,7 +5,7 @@
 
   <group>
     <variant frequency="50" name="Base">
-      <textures><texture file="props/weapon/egypt_axe_a.png" name="baseTex"/></textures>
+      <textures><texture file="bronze_age_materials.png" name="baseTex"/></textures>
     </variant>
   </group>
 

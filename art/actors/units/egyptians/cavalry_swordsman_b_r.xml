@@ -15,7 +15,7 @@
       <mesh>skeletal/m_tunic_short.dae</mesh>
       <props>
         <prop actor="props/units/heads/head_egyptian_e.xml" attachpoint="head"/>
-        <prop actor="props/units/heads/hele_hood_priest.xml" attachpoint="helmet"/>
+        <prop actor="props/units/helmet/egypt_nemes.xml" attachpoint="helmet"/>
         <prop actor="props/units/weapons/egypt_khopesh.xml" attachpoint="r_hand"/>
         <prop actor="props/units/shields/egypt_shield_be.xml" attachpoint="shield"/>
       </props>

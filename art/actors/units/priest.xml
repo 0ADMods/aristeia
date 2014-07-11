@@ -22,7 +22,7 @@
   <group>
     <variant frequency="1" name="healer-robe-1">
       <props>
-        <prop actor="props/units/heads/hele_hood_priest.xml" attachpoint="helmet"/>
+        <prop actor="props/units/heads/egypt_h.xml" attachpoint="helmet"/>
       </props>
       <textures><texture file="skeletal/hele_healer_1.dds" name="baseTex"/></textures>
     </variant>
