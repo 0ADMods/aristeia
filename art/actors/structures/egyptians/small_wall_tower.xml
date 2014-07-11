@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<actor version="1">
+
+  <castshadow/>
+    
+  <group>
+    <variant frequency="33" name="egyp small wall tower">
+      <animations/>
+      <mesh>structural/egypt_small_wall_tower.dae</mesh>
+      <textures><texture file="structural/egypt_small_wall.png" name="baseTex"/></textures>
+    </variant>
+    <variant frequency="33" name="egyp small wall tower">
+      <animations/>
+      <mesh>structural/egypt_small_wall_tower.dae</mesh>
+      <textures><texture file="structural/egypt_small_wall2.png" name="baseTex"/></textures>
+    </variant>
+    <variant frequency="33" name="egyp small wall tower">
+      <animations/>
+      <mesh>structural/egypt_small_wall_tower.dae</mesh>
+      <textures><texture file="structural/egypt_small_wall3.png" name="baseTex"/></textures>
+    </variant>
+  </group>
+
+  <material>player_trans.xml</material>
+
+</actor>
