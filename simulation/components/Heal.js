@@ -95,6 +95,5 @@ Heal.prototype.PerformHeal = function(target)
 //	PlaySound("heal_impact", this.entity);
 };
 Engine.RegisterComponentType(IID_Heal, "Heal", Heal);
-Engine.RegisterGlobal("Heal", Heal);
 
 
