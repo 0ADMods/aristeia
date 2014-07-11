@@ -4,7 +4,7 @@
 	<group>
 		<variant frequency="100" name="Base">
 			<animations/>
-			<mesh>temp/flyingsaucer_crashed.dae</mesh>
+			<mesh>props/flyingsaucer_crashed.dae</mesh>
 			<props>
         <prop actor="particle/destruction_smoke_large.xml" attachpoint="smoke1"/>
         <prop actor="particle/flame_large.xml" attachpoint="smoke1"/>

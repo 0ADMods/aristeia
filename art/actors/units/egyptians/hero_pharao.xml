@@ -12,8 +12,7 @@
       </animations>
       <mesh>skeletal/m_tunic_short.dae</mesh>
       <props>
-        <prop actor="egyptian/head_pharao.xml" attachpoint="head"/>
-        <!--<prop actor="egyptian/crown_pharao.xml" attachpoint="helmet"/>-->
+        <prop actor="props/units/heads/egypt_head_pharao.xml" attachpoint="head"/>
         <prop actor="props/units/weapons/arrow_back.xml" attachpoint="loaded-r_hand"/>
         <prop actor="props/units/weapons/arrow_front.xml" attachpoint="projectile"/>
         <prop actor="props/units/weapons/bow_recurve.xml" attachpoint="l_hand"/>

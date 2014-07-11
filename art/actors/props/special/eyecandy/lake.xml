@@ -4,13 +4,13 @@
 	<group>
 		<variant frequency="100" name="Base">
 			<animations/>
-			<mesh>temp/flyingsaucer_part3.dae</mesh>
+			<mesh>props/lake.dae</mesh>
 			<props/>
 			<textures>
-				<texture file="special/flyingsaucer.dds" name="baseTex"/>
+				<texture file="structural/rome_struct.png" name="baseTex"/>
 			</textures>
 		</variant>
 	</group>
-	<material>player_trans.xml</material>
+	<material>player_water.xml</material>
 	
 </actor>
