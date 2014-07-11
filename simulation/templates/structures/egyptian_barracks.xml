@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_military_barracks">
+  <Identity>
+    <Civ>egypt</Civ>
+    <SpecificName>Tepeg</SpecificName>
+    <History>Egyptian Barracks</History>
+    <Tooltip>Levy citizen-infantry units.</Tooltip>
+    <Icon>structures/pers_barracks.png</Icon>
+  </Identity>
+  <ProductionQueue>
+    <Entities datatype="tokens">
+      units/egyptian_infantry_spearman_b
+      units/egyptian_infantry_swordsman_b
+      units/egyptian_infantry_archer_b
+      units/egyptian_cavalry_swordsman_b
+      units/egyptian_infantry_javelinist_b
+      units/egyptian_cavalry_javelinist_b
+    </Entities>
+    <Technologies datatype="tokens">
+      pair_inf_01
+      pair_inf_02
+    </Technologies>
+  </ProductionQueue>
+  <VisualActor>
+    <Actor>structures/egyptians/barracks.xml</Actor>
+  </VisualActor>
+</Entity>
