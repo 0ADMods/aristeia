@@ -1,3 +1,4 @@
+
 function Heal() {}
 
 Heal.prototype.Schema = 
@@ -93,6 +94,7 @@ Heal.prototype.PerformHeal = function(target)
 	//TODO we need a sound file
 //	PlaySound("heal_impact", this.entity);
 };
-
 Engine.RegisterComponentType(IID_Heal, "Heal", Heal);
 Engine.RegisterGlobal("Heal", Heal);
+
+
