@@ -153,5 +153,5 @@
 		"skirmish/structures/assyrian_wall_gate": "structures/_wall_gate",
 		"skirmish/structures/assyrian_wall_tower": "structures/assyrian_wall_tower"
 	},
-	"SelectableInGameSetup": true
+	"SelectableInGameSetup": false
 }
