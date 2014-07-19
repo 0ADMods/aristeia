@@ -114,5 +114,5 @@
 		"formations/battle_line",
 		"formations/phalanx"
 	],
-	"SelectableInGameSetup": false
+	"SelectableInGameSetup": true
 }
