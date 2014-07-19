@@ -8,11 +8,11 @@
   </Identity>
   <ProductionQueue>
     <Entities datatype="tokens">
-      units/nubi_infantry_spearman_b
-      units/pers_mechanical_siege_ram
-      units/egyptian_champion_axeman
-      units/egyptian_hero_ramses_ii
-      units/egyptian_royal_guard_axe
+      nubianinfantry_spearman_b
+      pers_mechanical_siege_ram
+      egyptian_champion_axeman
+      egyptian_hero_ramses_ii
+      egyptian_royal_guard_axe
     </Entities>
     <Technologies datatype="tokens">
       pair_siege_attack_cost
@@ -20,6 +20,6 @@
     </Technologies>
   </ProductionQueue>
   <VisualActor>
-    <Actor>structures/egyptians/fortress.xml</Actor>
+    <Actor>structural/egyptian/fortress.xml</Actor>
   </VisualActor>
 </Entity>

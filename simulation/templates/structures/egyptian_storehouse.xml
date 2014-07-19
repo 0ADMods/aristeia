@@ -6,6 +6,6 @@
     <History>...</History>
   </Identity>
   <VisualActor>
-    <Actor>structures/ptolemies/storehouse.xml</Actor>
+    <Actor>structural/ptolemies/storehouse.xml</Actor>
   </VisualActor>
 </Entity>

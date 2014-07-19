@@ -9,10 +9,10 @@
 	<GenericName>?</GenericName>
     <SpecificName>?</SpecificName>
     <History>...</History>
-    <Icon>units/pers_ship_trireme.png</Icon>
+    <Icon>pers_ship_trireme.png</Icon>
 	<Tooltip>Medium Warship</Tooltip>
   </Identity>
   <VisualActor>
-    <Actor>structures/persians/trireme.xml</Actor>
+    <Actor>structural/persians/trireme.xml</Actor>
   </VisualActor>
 </Entity>

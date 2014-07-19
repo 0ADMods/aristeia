@@ -22,7 +22,7 @@
     <GenericName>Small Wall Gate</GenericName>
     <Classes datatype="tokens">-StoneWall Palisade</Classes>
     <History>A cheap, quick wooden gate</History>
-	<Icon>structures/wooden_gate.png</Icon>
+	<Icon>structural/wooden_gate.png</Icon>
 	<RequiredTechnology>phase_village</RequiredTechnology>
   </Identity>
   <Obstruction>
@@ -36,8 +36,8 @@
     <HeightOffset>9.0</HeightOffset>
   </StatusBars>
   <VisualActor>
-    <FoundationActor>structures/fndn_1x3pal.xml</FoundationActor>
-    <Actor>props/special/palisade_rocks_gate.xml</Actor>
+    <FoundationActor>structural/fndn_1x3pal.xml</FoundationActor>
+    <Actor>special/palisade_rocks_gate.xml</Actor>
   </VisualActor>
   <TerritoryInfluence disable=""/>
   <WallPiece>

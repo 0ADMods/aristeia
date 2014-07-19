@@ -21,12 +21,12 @@
   </Obstruction>
   <ProductionQueue>
     <Entities datatype="tokens">
-      units/athen_support_converter_a
-      units/egyptian_support_healer_b
+      athen_support_converter_a
+      egyptian_support_healer_b
     </Entities>
   </ProductionQueue> 
   <VisualActor>
-    <Actor>structures/egyptians/large_temple.xml</Actor>
-    <FoundationActor>structures/fndn_4x4.xml</FoundationActor>
+    <Actor>structural/egyptian/large_temple.xml</Actor>
+    <FoundationActor>structural/fndn_4x4.xml</FoundationActor>
   </VisualActor>
 </Entity>

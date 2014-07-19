@@ -28,6 +28,6 @@
     </Run>
   </UnitMotion>
   <VisualActor>
-    <Actor>units/egyptian/infantry_javelinist_e.xml</Actor>
+    <Actor>egyptian/infantry_javelinist_e.xml</Actor>
   </VisualActor>
 </Entity>

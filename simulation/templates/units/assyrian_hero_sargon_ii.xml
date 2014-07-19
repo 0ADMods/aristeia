@@ -45,7 +45,7 @@
     <Classes datatype="tokens">Chariot</Classes>
 	<GenericName>Darius The Great</GenericName>
     <SpecificName>Darayavahush I</SpecificName>
-    <Icon>units/assyrian_hero_darius.png</Icon>
+    <Icon>assyrian_hero_darius.png</Icon>
 	<Tooltip>Hero Scythe Chariot Archer.
 Hero Aura: "Merchant of the Empire." Boosts profitablity of trade during his lifetime (TBD).
 Ranged attack 2x vs. spearmen. Ranged attack 1.5x vs. Swordsmen.</Tooltip>
@@ -68,6 +68,6 @@ Ranged attack 2x vs. spearmen. Ranged attack 1.5x vs. Swordsmen.</Tooltip>
     </Run>
   </UnitMotion>
   <VisualActor>
-    <Actor>units/assyrian/hero_darius_chariot.xml</Actor>
+    <Actor>assyrian/hero_darius_chariot.xml</Actor>
   </VisualActor>
 </Entity>

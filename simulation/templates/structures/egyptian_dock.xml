@@ -22,6 +22,6 @@
     </Entities>
   </ProductionQueue>
   <VisualActor>
-    <Actor>structures/egyptians/dock.xml</Actor>
+    <Actor>structural/egyptian/dock.xml</Actor>
   </VisualActor>
 </Entity>

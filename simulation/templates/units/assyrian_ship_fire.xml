@@ -4,9 +4,9 @@
     <Civ>assyrian</Civ>
     <SpecificName>Iberian Fire Ship</SpecificName>
     <History>Need History.</History>
-    <Icon>units/assyrian_ship_fire.png</Icon>
+    <Icon>assyrian_ship_fire.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>structures/assyrian/fireship.xml</Actor>
+    <Actor>structural/assyrian/fireship.xml</Actor>
   </VisualActor>
 </Entity>

@@ -6,6 +6,6 @@
     <History>?</History>
   </Identity>
   <VisualActor>
-    <Actor>structures/egyptians/blacksmith.xml</Actor>
+    <Actor>structural/egyptian/blacksmith.xml</Actor>
   </VisualActor>
 </Entity>

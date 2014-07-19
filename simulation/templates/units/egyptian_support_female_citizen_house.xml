@@ -5,6 +5,6 @@
   </Cost>
   <Identity>
     <RequiredTechnology>unlock_females_house</RequiredTechnology>
-  <SelectionGroupName>units/egyptian_support_female_citizen</SelectionGroupName>
+  <SelectionGroupName>egyptian_support_female_citizen</SelectionGroupName>
   </Identity>
 </Entity>

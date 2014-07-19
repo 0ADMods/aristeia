@@ -13,7 +13,7 @@
     <Static width="8.5" depth="8.5"/>
   </Obstruction>
   <VisualActor>
-    <Actor>structures/persians/wall_tower.xml</Actor>
+    <Actor>structural/persians/wall_tower.xml</Actor>
   </VisualActor>
   <WallPiece>
   	<Length>8.5</Length>

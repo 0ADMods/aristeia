@@ -44,12 +44,12 @@
     <GenericName>Royal Guard Maceman</GenericName>
     <SpecificName>Yōddha</SpecificName>
     <History>.</History>
-    <Icon>units/egyptian_infantry_royalguard.png</Icon>
+    <Icon>egyptian_infantry_royalguard.png</Icon>
 	<Tooltip>Classes: Champion Melee Infantry Swordsman.
 Counters: 2x vs. Structures, 1.25x vs. Spearmen and Elephants.
 Countered by: Archers and Cavalry Spearmen.</Tooltip>
   </Identity>
   <VisualActor>
-    <Actor>units/egyptian/champion_maceman.xml</Actor>
+    <Actor>egyptian/champion_maceman.xml</Actor>
   </VisualActor>
 </Entity>

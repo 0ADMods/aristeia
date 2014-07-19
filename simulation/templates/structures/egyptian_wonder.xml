@@ -12,7 +12,7 @@
     <GenericName>Special Structure</GenericName>
     <SpecificName>?</SpecificName>
     <History>...</History>
-    <Icon>structures/gardens.png</Icon>
+    <Icon>structural/gardens.png</Icon>
   </Identity>
   <Loot>
     <xp>200</xp>
@@ -39,6 +39,6 @@
     <RetainInFog>true</RetainInFog>
   </Vision>
   <VisualActor>
-    <Actor>structures/persians/gardens_struct.xml</Actor>
+    <Actor>structural/persians/gardens_struct.xml</Actor>
   </VisualActor>
 </Entity>

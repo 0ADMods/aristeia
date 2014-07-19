@@ -34,16 +34,16 @@
   </Cost>
   <Identity>
     <Civ>egypt</Civ>
-	<SelectionGroupName>units/egyptian_champion_infantry_swordsman</SelectionGroupName>
+	<SelectionGroupName>egyptian_champion_infantry_swordsman</SelectionGroupName>
 	<GenericName>Egyptian Guard</GenericName>
     <SpecificName>Khopesh Medjay</SpecificName>
-    <Icon>units/egyptian_infantry_swordsman.png</Icon>
+    <Icon>egyptian_infantry_swordsman.png</Icon>
     <History></History>
   </Identity>
   <Promotion>
     <Entity>units/egyptian_infantry_swordsman_a</Entity>
   </Promotion>
   <VisualActor>
-    <Actor>units/egyptian/infantry_swordsman.xml</Actor>
+    <Actor>egyptian/infantry_swordsman.xml</Actor>
   </VisualActor>
 </Entity>

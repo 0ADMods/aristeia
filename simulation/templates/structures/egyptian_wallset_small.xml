@@ -8,11 +8,11 @@
   </Identity>
   <WallSet>
     <Templates>
-      <Tower>structures/egyptian_small_wall_tower</Tower>
-      <Gate>structures/egyptian_small_wall_gate</Gate>
-      <WallLong>structures/egyptian_small_wall_long</WallLong>
-      <WallMedium>structures/egyptian_small_wall_medium</WallMedium>
-      <WallShort>structures/egyptian_small_wall_short</WallShort>
+      <Tower>structural/egyptian_small_wall_tower</Tower>
+      <Gate>structural/egyptian_small_wall_gate</Gate>
+      <WallLong>structural/egyptian_small_wall_long</WallLong>
+      <WallMedium>structural/egyptian_small_wall_medium</WallMedium>
+      <WallShort>structural/egyptian_small_wall_short</WallShort>
     </Templates>
   </WallSet>
 </Entity>

@@ -21,7 +21,7 @@
     </Technologies>  
   </ProductionQueue>  
   <VisualActor>
-    <Actor>structures/egyptians/temple.xml</Actor>
-    <FoundationActor>structures/fndn_4x4.xml</FoundationActor>
+    <Actor>structural/egyptian/temple.xml</Actor>
+    <FoundationActor>structural/fndn_4x4.xml</FoundationActor>
   </VisualActor>
 </Entity>

@@ -5,13 +5,13 @@
   </Health>
   <Identity>
     <Civ>athen</Civ>
-    <SelectionGroupName>units/athen_support_healer_b</SelectionGroupName>
+    <SelectionGroupName>athen_support_healer_b</SelectionGroupName>
     <SpecificName>Hiereús</SpecificName>
     <History>The art of medicine was widely practised in Classical Greece. Hippocrates was the first physician to separate religion and superstition from actual medicine, and many others followed his lead.</History>
-    <Icon>units/hele_support_healer.png</Icon>
+    <Icon>hele_support_healer.png</Icon>
   </Identity>
   <Promotion disable=""/>
   <VisualActor>
-    <Actor>units/priest.xml</Actor>
+    <Actor>priest.xml</Actor>
   </VisualActor>
 </Entity>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<actor version="1">
+	
+	<group>
+		<variant frequency="1" name="Base">
+			<animations/>
+			<mesh>gaia/egyptian_civil_flora.dae</mesh>
+			<>
+			<textures>
+				<texture file="structural/egyptian_struct.png" name="baseTex"/>
+			</textures>
+		</variant>
+		<variant frequency="1" name="Base2">
+			<animations/>
+			<mesh>gaia/egyptian_civil_flora2.dae</mesh>
+			<>
+			<textures>
+				<texture file="structural/egyptian_struct.png" name="baseTex"/>
+			</textures>
+		</variant>
+	</group>
+	<material>player_trans.xml</material>
+	
+</actor>

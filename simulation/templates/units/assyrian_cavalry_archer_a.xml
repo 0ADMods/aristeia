@@ -29,6 +29,6 @@
     <BaseSpeed>0.75</BaseSpeed>
   </ResourceGatherer>
   <VisualActor>
-    <Actor>units/assyrian/cavalry_archer_a.xml</Actor>
+    <Actor>assyrian/cavalry_archer_a.xml</Actor>
   </VisualActor>
 </Entity>

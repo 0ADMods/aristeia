@@ -6,7 +6,7 @@
   </Footprint>
   <Identity>
     <Civ>egypt</Civ>
-	<SelectionGroupName>structures/pers_wallset_stone</SelectionGroupName>
+	<SelectionGroupName>structural/pers_wallset_stone</SelectionGroupName>
     <SpecificName>?</SpecificName>
     <History>...</History>
   </Identity>
@@ -14,7 +14,7 @@
     <Static width="13.0" depth="7.0"/>
   </Obstruction>
   <VisualActor>
-    <Actor>structures/persians/wall_short.xml</Actor>
+    <Actor>structural/persians/wall_short.xml</Actor>
   </VisualActor>
   <WallPiece>
   	<Length>13.0</Length>

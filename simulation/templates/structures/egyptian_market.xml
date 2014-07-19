@@ -16,7 +16,7 @@
     <Static width="24.0" depth="24.0"/>
   </Obstruction>
   <VisualActor>
-    <Actor>structures/egyptians/market.xml</Actor>
-    <FoundationActor>structures/fndn_5x5.xml</FoundationActor>
+    <Actor>structural/egyptian/market.xml</Actor>
+    <FoundationActor>structural/fndn_5x5.xml</FoundationActor>
   </VisualActor>
 </Entity>

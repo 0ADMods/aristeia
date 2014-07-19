@@ -2,25 +2,25 @@
 <Entity parent="template_unit_infantry_ranged_javelinist">
   <Builder>
     <Entities datatype="tokens">
-      structures/assyrian_monument
+      structural/assyrian_monument
     </Entities>
   </Builder>
   <Identity>
     <Civ>assyrian</Civ>
-    <SelectionGroupName>units/assyrian_infantry_javelinist_b</SelectionGroupName>
+    <SelectionGroupName>assyrian_infantry_javelinist_b</SelectionGroupName>
     <GenericName>Chaldean Skirmisher</GenericName>
     <SpecificName>Nērāru (lit., "Auxiliary")
     </SpecificName>
     <History>
         Sennacherib described a battle with the Elamites: "At the command of the god Ashur, the great Lord, I rushed upon the enemy like the approach of a hurricane... I put them to rout and turned them back. I trasfixed the troops of the enemy with javelins and arrows." (Note: That a ruler talking only about himself and omitting the others that took part, was a typical characteristic for emperors over the course of history.) 
     </History>
-	<Icon>units/assyrian_infantry_javelinist.png</Icon>
+	<Icon>assyrian_infantry_javelinist.png</Icon>
   </Identity>
   <Promotion disable="">
     <Entity>units/assyrian_infantry_javelinist_a</Entity>
   </Promotion>
   <VisualActor>
-    <Actor>units/assyrian/infantry_javelinist_b.xml</Actor>
+    <Actor>assyrian/infantry_javelinist_b.xml</Actor>
   </VisualActor>
   <!-- TODO create inventory component. check back IRC logs: irclogs.wildfiregames.com/2014-06-24-QuakeNet-%230ad-dev.log
        Basically init with the entities as defined in the inventory list below.

@@ -30,6 +30,6 @@
     </Run>
   </UnitMotion>
   <VisualActor>
-    <Actor>units/egyptian/infantry_javelinist_a.xml</Actor>
+    <Actor>egyptian/infantry_javelinist_a.xml</Actor>
   </VisualActor>
 </Entity>

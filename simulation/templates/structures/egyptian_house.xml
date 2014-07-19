@@ -23,6 +23,6 @@
     <Static width="13.5" depth="13.5"/>
   </Obstruction>
   <VisualActor>
-    <Actor>structures/egyptians/house.xml</Actor>
+    <Actor>structural/egyptian/house.xml</Actor>
   </VisualActor>
 </Entity>

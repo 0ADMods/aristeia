@@ -25,6 +25,6 @@
     <Range>70</Range>
   </Vision>
   <VisualActor>
-    <Actor>units/assyrian/infantry_archer_e.xml</Actor>
+    <Actor>assyrian/infantry_archer_e.xml</Actor>
   </VisualActor>
 </Entity>

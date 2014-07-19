@@ -4,10 +4,10 @@
     <Civ>assyrian</Civ>
     <GenericName>Cardaces Hoplite</GenericName>
     <SpecificName>Hoplites Kardakes</SpecificName>
-    <Icon>units/assyrian_kardakes.png</Icon>
+    <Icon>assyrian_kardakes.png</Icon>
     <History>The Kardakes were the Persian answer to the Greek hoplite. They were fielded in large numbers by Darius III in a bid to resist Alexander the Great's invasion.</History>
   </Identity>
   <VisualActor>
-    <Actor>units/assyrian/kardakes_hoplite.xml</Actor>
+    <Actor>assyrian/kardakes_hoplite.xml</Actor>
   </VisualActor>
 </Entity>

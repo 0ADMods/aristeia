@@ -9,9 +9,9 @@
 	<GenericName>Trade Ship</GenericName>
     <SpecificName>?</SpecificName>
     <History>...</History>
-    <Icon>units/pers_ship_merchant.png</Icon>
+    <Icon>pers_ship_merchant.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>structures/persians/merchant.xml</Actor>
+    <Actor>structural/persians/merchant.xml</Actor>
   </VisualActor>
 </Entity>

@@ -2,10 +2,10 @@
 <Entity parent="template_unit_cavalry_ranged_javelinist">
   <Identity>
     <Civ>assyrian</Civ>
-	<SelectionGroupName>units/assyrian_cavalry_javelinist_b</SelectionGroupName>
+	<SelectionGroupName>assyrian_cavalry_javelinist_b</SelectionGroupName>
     <SpecificName>Kantabriako Zaldun</SpecificName>
     <History></History>
-    <Icon>units/assyrian_cavalry_javelinist.png</Icon>
+    <Icon>assyrian_cavalry_javelinist.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/assyrian_cavalry_javelinist_a</Entity>
@@ -14,6 +14,6 @@
     <Hack>2.0</Hack>
   </Armour>
   <VisualActor>
-    <Actor>units/assyrian/cavalry_javelinist_b.xml</Actor>
+    <Actor>assyrian/cavalry_javelinist_b.xml</Actor>
   </VisualActor>
 </Entity>
