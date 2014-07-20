@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_defense_wallset">
+  <Identity>
+    <Civ>egypt</Civ>
+    <SpecificName>?</SpecificName>
+    <History>...</History>
+  </Identity>
+  <WallSet>
+    <Templates>
+      <Tower>structural/pers_wall_tower</Tower>
+      <Gate>structural/pers_wall_gate</Gate>
+      <WallLong>structural/pers_wall_long</WallLong>
+      <WallMedium>structural/pers_wall_medium</WallMedium>
+      <WallShort>structural/pers_wall_short</WallShort>
+    </Templates>
+  </WallSet>
+</Entity>

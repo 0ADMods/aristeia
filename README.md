@@ -1,10 +1,12 @@
 There are several ways to contact us and find more information:
 
-  Web site: http://fallen-empires.hol.es/
+  Web site: http://fallenempiresstudio.wordpress.com/
 
-  Sourceforge: https://sourceforge.net/p/aristeia/wiki/Home/
+  Fallen Empire Studio ModDB page: http://www.moddb.com/company/fallen-empires-studio
 
-  Forums: http://www.wildfiregames.com/forum/index.php?showforum=420
+  Bronze Age ModDB page: http://www.moddb.com/mods/aristeia-civilization-bronze-pack
+
+  0AD Extended Forum: http://www.wildfiregames.com/forum/index.php?showforum=420
 
 ------------------------------------------------------------
 HOWTO

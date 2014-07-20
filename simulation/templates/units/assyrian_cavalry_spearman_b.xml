@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_cavalry_melee_spearman">
+  <Identity>
+    <Civ>assyrian</Civ>
+    <SelectionGroupName>assyrian_cavalry_spearman_b</SelectionGroupName>
+    <GenericName>Lusitanian Lancer</GenericName>
+    <SpecificName>Lantzari</SpecificName>
+    <Icon>assyrian_cavalry_spearman.png</Icon>
+    <History>
+        The Lusitanian cavalry was renowned as the best of the old world, able to climb the most steepest slopes, Pliny said: "the Lusitanian mares were impregnated by the wind Zephyrus". The Lusitanian horses were trained to "go down" in order to be better hidden ambushes in which armed enemies. Taking the enemy by surprise as lay in ambush, 2 riders a single horse, when he jumped and went to fight on foot, and to then return quickly to evade the battlefield, in this interregnum the horse stood still waiting for her knight back.
+    </History>
+    <RequiredTechnology>phase_town</RequiredTechnology>
+  </Identity>
+  <Promotion>
+    <Entity>units/assyrian_cavalry_spearman_a</Entity>
+  </Promotion>
+  <VisualActor>
+    <Actor>assyrian/cavalry_spearman_b.xml</Actor>
+  </VisualActor>
+</Entity>

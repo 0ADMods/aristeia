@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<actor version="1">
+	
+	<group>
+		<variant frequency="100" name="Base">
+			<animations/>
+			<mesh>flyingsaucer_crashed.dae</mesh>
+			<props>
+        <prop actor="particle/destruction_smoke_large.xml" attachpoint="smoke1"/>
+        <prop actor="particle/flame_large.xml" attachpoint="smoke1"/>
+        <prop actor="particle/smoke.xml" attachpoint="smoke2"/>
+        <prop actor="particle/smoke.xml" attachpoint="smoke3"/>
+			</props>
+			<textures>
+				<texture file="special/flyingsaucer.dds" name="baseTex"/>
+			</textures>
+		</variant>
+	</group>
+	<material>player_trans.xml</material>
+	
+</actor>

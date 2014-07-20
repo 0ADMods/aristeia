@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_mechanical_ship_merchant">
+  <Footprint>
+    <Square width="6.0" depth="25.0"/>
+    <Height>8.0</Height>
+  </Footprint>
+  <Identity>
+    <Civ>assyrian</Civ>
+	<GenericName>Ionian Trade Ship</GenericName>
+    <SpecificName>Yaunash Nav</SpecificName>
+    <History>Phoenician merchant ship used by the assyrian for trading over sea.</History>
+    <Icon>assyrian_ship_merchant.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>structural/assyrian/merchant.xml</Actor>
+  </VisualActor>
+</Entity>

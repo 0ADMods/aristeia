@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="helmet-01">
+      <!--<mesh>helmets/egyptian_helmet_pharao.dae</mesh>-->
+	  <mesh>helmets/egyptian_crown_pharao.dae</mesh>
+      <textures>
+        <texture file="bronze_age_materials.png" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <material>player_trans.xml</material>
+</actor>

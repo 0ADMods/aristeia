@@ -1,0 +1,118 @@
+{
+	"Code":"egyptian",
+	"Culture":"egyptian",
+	"Name":"Egyptians",
+	"Emblem":"session/portraits/emblems/emblem_egyptians.png",
+	"History":"The great power of Central Greece and leader of the Boeotian confederacy, Thebes is a force to be reckoned with. It is a major rival of ancient Athens, and sided with the Persians during the 480 BC invasion under Xerxes. Theban forces ended the power of Sparta at the Battle of Leuctra in 371 BC under the command of Epaminondas. The Sacred Band of Thebes (an elite military unit) famously fell at the battle of Chaeronea in 338 BC against Philip II and Alexander the Great. Prior to its destruction by Alexander in 335 BC, Thebes was a major force in Greek history, and was the most dominant city-state at the time of the Macedonian conquest of Greece.",
+	"Music":[
+			{"File":"Forging_a_City-State.ogg", "Type":"peace"}
+		],
+	"Factions":
+	[
+		{
+			"Name":"Egyptians",
+			"Description":"TBI ...",
+			"Technologies":
+			[
+				{
+					"Name":"Unknown.",
+					"History":"Unknown.",
+					"Description":"Unknown."
+				},
+				{
+					"Name":"Unknown",
+					"History":"Unknown.",
+					"Description":"Unknown."
+				}
+			],
+			"Heroes":
+			[
+				{
+					"Name":"Unknown",
+					"Class":"",
+					"Armament":"",
+					"Emblem":"",
+					"History":"."
+				},
+				{
+					"Name":"Unknown",
+					"Class":"",
+					"Armament":"",
+					"Emblem":"",
+					"History":"."
+				}
+			]
+		}
+	],
+	"CivBonuses":
+	[
+		{
+			"Name":"Unknown",
+			"History":"Unknown.",
+			"Description":"Unknown."
+		},
+		{
+			"Name":"Unknown",
+			"History":"Unknown.",
+			"Description":"Unknown."
+		}
+	],
+	"TeamBonuses":
+	[
+		{
+			"Name":"Unknown",
+			"History":"Unknown.",
+			"Description":"Unknown."
+		}
+	],
+	"Structures":
+	[
+		{
+			"Name":"Unknown",
+			"Class":"",
+			"Emblem":"",
+			"History":"",
+			"Requirements":".",
+			"Phase":"",
+			"Special":"."
+		}
+	],
+	"StartEntities":
+	[
+		{
+			"Template": "structures/egypt_civil_centre",
+			"Count": 1
+		},
+		{
+			"Template": "units/egypt_support_female_citizen",
+			"Count": 4
+		},
+		{
+			"Template": "units/egypt_infantry_spearman_b",
+			"Count": 1
+		},
+		{
+			"Template": "units/egypt_infantry_spearman_a",
+			"Count": 1
+		},
+		{
+			"Template": "units/egypt_infantry_spearman_e",
+			"Count": 1
+		}
+	],
+	"Formations":
+	[
+		"formations/scatter",
+		"formations/box",
+		"formations/column_closed",
+		"formations/line_closed",
+		"formations/column_open",
+		"formations/line_open",
+		"formations/flank",
+		"formations/skirmish",
+		"formations/wedge",
+		"formations/battle_line",
+		"formations/phalanx"
+	],
+	"SelectableInGameSetup": true
+}

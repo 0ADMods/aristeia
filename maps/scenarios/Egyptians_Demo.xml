@@ -8591,175 +8591,175 @@
 			<Actor seed="0"/>
 		</Entity>
 		<Entity uid="4354">
-			<Template>actor|structures/egypt_small_wall_tower.xml</Template>
+			<Template>actor|structures/egyptian_small_wall_tower.xml</Template>
 			<Position x="130.03571" z="464.43662"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="44498"/>
 		</Entity>
 		<Entity uid="4355">
-			<Template>actor|structures/egypt_small_wall_tower.xml</Template>
+			<Template>actor|structures/egyptian_small_wall_tower.xml</Template>
 			<Position x="139.2115" z="472.39216"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="64048"/>
 		</Entity>
 		<Entity uid="4356">
-			<Template>actor|structures/egypt_small_wall_tower.xml</Template>
+			<Template>actor|structures/egyptian_small_wall_tower.xml</Template>
 			<Position x="141.61777" z="482.95057"/>
 			<Orientation y="1.28713"/>
 			<Actor seed="29110"/>
 		</Entity>
 		<Entity uid="4357">
-			<Template>actor|structures/egypt_small_wall_tower.xml</Template>
+			<Template>actor|structures/egyptian_small_wall_tower.xml</Template>
 			<Position x="119.47912" z="464.66303"/>
 			<Orientation y="-3.07224"/>
 			<Actor seed="12112"/>
 		</Entity>
 		<Entity uid="4358">
-			<Template>actor|structures/egypt_small_wall_tower.xml</Template>
+			<Template>actor|structures/egyptian_small_wall_tower.xml</Template>
 			<Position x="135.7085" z="494.80405"/>
 			<Orientation y="0.96171"/>
 			<Actor seed="30717"/>
 		</Entity>
 		<Entity uid="4359">
-			<Template>actor|structures/egypt_small_wall_tower.xml</Template>
+			<Template>actor|structures/egyptian_small_wall_tower.xml</Template>
 			<Position x="125.69655" z="504.19999"/>
 			<Orientation y="0.58544"/>
 			<Actor seed="64815"/>
 		</Entity>
 		<Entity uid="4360">
-			<Template>actor|structures/egypt_small_wall_tower.xml</Template>
+			<Template>actor|structures/egyptian_small_wall_tower.xml</Template>
 			<Position x="111.25988" z="471.69306"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="11940"/>
 		</Entity>
 		<Entity uid="4361">
-			<Template>actor|structures/egypt_small_wall_tower.xml</Template>
+			<Template>actor|structures/egyptian_small_wall_tower.xml</Template>
 			<Position x="100.60041" z="482.91068"/>
 			<Orientation y="0.85001"/>
 			<Actor seed="37966"/>
 		</Entity>
 		<Entity uid="4362">
-			<Template>actor|structures/egypt_small_wall_tower.xml</Template>
+			<Template>actor|structures/egyptian_small_wall_tower.xml</Template>
 			<Position x="96.67183" z="497.31363"/>
 			<Orientation y="1.8037"/>
 			<Actor seed="50192"/>
 		</Entity>
 		<Entity uid="4363">
-			<Template>actor|structures/egypt_small_wall_tower.xml</Template>
+			<Template>actor|structures/egyptian_small_wall_tower.xml</Template>
 			<Position x="100.89937" z="506.69608"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="41548"/>
 		</Entity>
 		<Entity uid="4364">
-			<Template>actor|structures/egypt_small_wall_tower.xml</Template>
+			<Template>actor|structures/egyptian_small_wall_tower.xml</Template>
 			<Position x="111.3768" z="510.73325"/>
 			<Orientation y="-3.12111"/>
 			<Actor seed="65481"/>
 		</Entity>
 		<Entity uid="4365">
-			<Template>actor|structures/egypt_small_wall_medium.xml</Template>
+			<Template>actor|structures/egyptian_small_wall_medium.xml</Template>
 			<Position x="124.80907" z="464.4748"/>
 			<Orientation y="-3.13859"/>
 			<Actor seed="64223"/>
 		</Entity>
 		<Entity uid="4366">
-			<Template>actor|structures/egypt_small_wall_medium.xml</Template>
+			<Template>actor|structures/egyptian_small_wall_medium.xml</Template>
 			<Position x="140.629" z="477.38236"/>
 			<Orientation y="1.81513"/>
 			<Actor seed="147"/>
 		</Entity>
 		<Entity uid="4368">
-			<Template>actor|structures/egypt_small_wall_medium.xml</Template>
+			<Template>actor|structures/egyptian_small_wall_medium.xml</Template>
 			<Position x="115.23656" z="467.98792"/>
 			<Orientation y="0.70748"/>
 			<Actor seed="27211"/>
 		</Entity>
 		<Entity uid="4369">
-			<Template>actor|structures/egypt_small_wall_long.xml</Template>
+			<Template>actor|structures/egyptian_small_wall_long.xml</Template>
 			<Position x="105.80945" z="477.48914"/>
 			<Orientation y="-2.34211"/>
 			<Actor seed="65233"/>
 		</Entity>
 		<Entity uid="4370">
-			<Template>actor|structures/egypt_small_wall_long.xml</Template>
+			<Template>actor|structures/egyptian_small_wall_long.xml</Template>
 			<Position x="130.77945" z="499.7191"/>
 			<Orientation y="0.75315"/>
 			<Actor seed="39135"/>
 		</Entity>
 		<Entity uid="4373">
-			<Template>actor|structures/egypt_small_wall_long.xml</Template>
+			<Template>actor|structures/egyptian_small_wall_long.xml</Template>
 			<Position x="98.30083" z="490.53235"/>
 			<Orientation y="1.29546"/>
 			<Actor seed="23925"/>
 		</Entity>
 		<Entity uid="4374">
-			<Template>actor|structures/egypt_small_wall_long.xml</Template>
+			<Template>actor|structures/egyptian_small_wall_long.xml</Template>
 			<Position x="118.68044" z="507.6967"/>
 			<Orientation y="0.45168"/>
 			<Actor seed="37545"/>
 		</Entity>
 		<Entity uid="4375">
-			<Template>actor|structures/egypt_small_wall_medium.xml</Template>
+			<Template>actor|structures/egyptian_small_wall_medium.xml</Template>
 			<Position x="98.42054" z="502.0634"/>
 			<Orientation y="1.99776"/>
 			<Actor seed="43345"/>
 		</Entity>
 		<Entity uid="4376">
-			<Template>actor|structures/egypt_small_wall_medium.xml</Template>
+			<Template>actor|structures/egyptian_small_wall_medium.xml</Template>
 			<Position x="106.14974" z="509.12372"/>
 			<Orientation y="2.78876"/>
 			<Actor seed="9249"/>
 		</Entity>
 		<Entity uid="4377">
-			<Template>actor|structures/egypt_small_wall_long.xml</Template>
+			<Template>actor|structures/egyptian_small_wall_long.xml</Template>
 			<Position x="138.7154" z="488.93476"/>
 			<Orientation y="1.10293"/>
 			<Actor seed="16117"/>
 		</Entity>
 		<Entity uid="4378">
-			<Template>units/egypt_infantry_swordsman_b</Template>
+			<Template>units/egyptian_infantry_swordsman_b</Template>
 			<Player>0</Player>
 			<Position x="109.5991" z="491.67521"/>
 			<Orientation y="2.96883"/>
 			<Actor seed="40195"/>
 		</Entity>
 		<Entity uid="4379">
-			<Template>units/egypt_infantry_swordsman_b</Template>
+			<Template>units/egyptian_infantry_swordsman_b</Template>
 			<Player>0</Player>
 			<Position x="116.21731" z="474.76435"/>
 			<Orientation y="1.96648"/>
 			<Actor seed="24834"/>
 		</Entity>
 		<Entity uid="4380">
-			<Template>units/egypt_infantry_swordsman_b</Template>
+			<Template>units/egyptian_infantry_swordsman_b</Template>
 			<Player>0</Player>
 			<Position x="122.52916" z="494.53241"/>
 			<Orientation y="2.56037"/>
 			<Actor seed="17887"/>
 		</Entity>
 		<Entity uid="4381">
-			<Template>units/egypt_infantry_swordsman_b</Template>
+			<Template>units/egyptian_infantry_swordsman_b</Template>
 			<Player>0</Player>
 			<Position x="125.66205" z="471.53657"/>
 			<Orientation y="1.06521"/>
 			<Actor seed="16308"/>
 		</Entity>
 		<Entity uid="4382">
-			<Template>units/egypt_infantry_swordsman_b</Template>
+			<Template>units/egyptian_infantry_swordsman_b</Template>
 			<Player>0</Player>
 			<Position x="132.84644" z="482.00379"/>
 			<Orientation y="-2.50814"/>
 			<Actor seed="1369"/>
 		</Entity>
 		<Entity uid="4393">
-			<Template>structures/egypt_small_wall_tower</Template>
+			<Template>structures/egyptian_small_wall_tower</Template>
 			<Player>1</Player>
 			<Position x="562.86506" z="306.89142"/>
 			<Orientation y="1.94388"/>
 			<Actor seed="22401"/>
 		</Entity>
 		<Entity uid="4394">
-			<Template>structures/egypt_small_wall_short</Template>
+			<Template>structures/egyptian_small_wall_short</Template>
 			<Player>1</Player>
 			<Position x="562.43415" z="303.81986"/>
 			<Orientation y="1.58405"/>
@@ -8767,28 +8767,28 @@
 			<Actor seed="57795"/>
 		</Entity>
 		<Entity uid="4395">
-			<Template>structures/egypt_small_wall_tower</Template>
+			<Template>structures/egyptian_small_wall_tower</Template>
 			<Player>1</Player>
 			<Position x="562.602" z="300.68882"/>
 			<Orientation y="1.30991"/>
 			<Actor seed="29451"/>
 		</Entity>
 		<Entity uid="4397">
-			<Template>structures/egypt_small_wall_tower</Template>
+			<Template>structures/egyptian_small_wall_tower</Template>
 			<Player>1</Player>
 			<Position x="570.39307" z="289.69532"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="52608"/>
 		</Entity>
 		<Entity uid="4399">
-			<Template>structures/egypt_small_wall_tower</Template>
+			<Template>structures/egyptian_small_wall_tower</Template>
 			<Player>1</Player>
 			<Position x="580.41926" z="279.62394"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="53825"/>
 		</Entity>
 		<Entity uid="4400">
-			<Template>structures/egypt_small_wall_short</Template>
+			<Template>structures/egyptian_small_wall_short</Template>
 			<Player>1</Player>
 			<Position x="582.9217" z="278.67728"/>
 			<Orientation y="0.22094"/>
@@ -8796,7 +8796,7 @@
 			<Actor seed="41694"/>
 		</Entity>
 		<Entity uid="4401">
-			<Template>structures/egypt_small_wall_short</Template>
+			<Template>structures/egyptian_small_wall_short</Template>
 			<Player>1</Player>
 			<Position x="588.7422" z="279.36713"/>
 			<Orientation y="-0.49221"/>
@@ -8804,84 +8804,84 @@
 			<Actor seed="53094"/>
 		</Entity>
 		<Entity uid="4402">
-			<Template>structures/egypt_small_wall_tower</Template>
+			<Template>structures/egyptian_small_wall_tower</Template>
 			<Player>1</Player>
 			<Position x="585.96662" z="278.25794"/>
 			<Orientation y="-0.17042"/>
 			<Actor seed="26426"/>
 		</Entity>
 		<Entity uid="4403">
-			<Template>structures/egypt_small_wall_tower</Template>
+			<Template>structures/egyptian_small_wall_tower</Template>
 			<Player>1</Player>
 			<Position x="591.05726" z="280.98435"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="63157"/>
 		</Entity>
 		<Entity uid="4405">
-			<Template>structures/egypt_house</Template>
+			<Template>structures/egyptian_house</Template>
 			<Player>1</Player>
 			<Position x="632.76453" z="361.46402"/>
 			<Orientation y="-0.76095"/>
 			<Actor seed="57737"/>
 		</Entity>
 		<Entity uid="4407">
-			<Template>structures/egypt_house</Template>
+			<Template>structures/egyptian_house</Template>
 			<Player>1</Player>
 			<Position x="641.19452" z="369.46854"/>
 			<Orientation y="2.38685"/>
 			<Actor seed="23326"/>
 		</Entity>
 		<Entity uid="4408">
-			<Template>structures/egypt_house</Template>
+			<Template>structures/egyptian_house</Template>
 			<Player>1</Player>
 			<Position x="667.16688" z="361.4838"/>
 			<Orientation y="-0.75019"/>
 			<Actor seed="49287"/>
 		</Entity>
 		<Entity uid="4411">
-			<Template>structures/egypt_small_wall_tower</Template>
+			<Template>structures/egyptian_small_wall_tower</Template>
 			<Player>1</Player>
 			<Position x="628.09357" z="369.84519"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="51952"/>
 		</Entity>
 		<Entity uid="4412">
-			<Template>structures/egypt_small_wall_tower</Template>
+			<Template>structures/egyptian_small_wall_tower</Template>
 			<Player>1</Player>
 			<Position x="638.0019" z="379.20716"/>
 			<Orientation y="2.60573"/>
 			<Actor seed="27355"/>
 		</Entity>
 		<Entity uid="4416">
-			<Template>structures/egypt_small_wall_tower</Template>
+			<Template>structures/egyptian_small_wall_tower</Template>
 			<Player>1</Player>
 			<Position x="663.53064" z="379.83957"/>
 			<Orientation y="0.45861"/>
 			<Actor seed="45524"/>
 		</Entity>
 		<Entity uid="4418">
-			<Template>structures/egypt_small_wall_tower</Template>
+			<Template>structures/egyptian_small_wall_tower</Template>
 			<Player>1</Player>
 			<Position x="672.67353" z="370.20041"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="21857"/>
 		</Entity>
 		<Entity uid="4429">
-			<Template>structures/egypt_small_wall_tower</Template>
+			<Template>structures/egyptian_small_wall_tower</Template>
 			<Player>1</Player>
 			<Position x="598.70716" z="289.39826"/>
 			<Orientation y="2.35126"/>
 			<Actor seed="264"/>
 		</Entity>
 		<Entity uid="4444">
-			<Template>structures/egypt_small_wall_tower</Template>
+			<Template>structures/egyptian_small_wall_tower</Template>
 			<Player>1</Player>
 			<Position x="623.0929" z="293.49332"/>
 			<Orientation y="-2.32569"/>
 			<Actor seed="13488"/>
 		</Entity>
 		<Entity uid="4445">
-			<Template>structures/egypt_small_wall_medium</Template>
+			<Template>structures/egyptian_small_wall_medium</Template>
 			<Player>1</Player>
 			<Position x="626.5636" z="289.62488"/>
 			<Orientation y="-2.29944"/>
@@ -8889,154 +8889,154 @@
 			<Actor seed="3834"/>
 		</Entity>
 		<Entity uid="4446">
-			<Template>structures/egypt_small_wall_tower</Template>
+			<Template>structures/egyptian_small_wall_tower</Template>
 			<Player>1</Player>
 			<Position x="630.34272" z="285.34308"/>
 			<Orientation y="0.8958"/>
 			<Actor seed="30782"/>
 		</Entity>
 		<Entity uid="4447">
-			<Template>units/egypt_infantry_swordsman_b</Template>
+			<Template>units/egyptian_infantry_swordsman_b</Template>
 			<Player>1</Player>
 			<Position x="637.21442" z="261.17048"/>
 			<Orientation y="-3.06624"/>
 			<Actor seed="4824"/>
 		</Entity>
 		<Entity uid="4448">
-			<Template>units/egypt_infantry_swordsman_b</Template>
+			<Template>units/egyptian_infantry_swordsman_b</Template>
 			<Player>1</Player>
 			<Position x="651.89948" z="266.71833"/>
 			<Orientation y="-2.91141"/>
 			<Actor seed="31339"/>
 		</Entity>
 		<Entity uid="4449">
-			<Template>units/egypt_infantry_swordsman_b</Template>
+			<Template>units/egyptian_infantry_swordsman_b</Template>
 			<Player>1</Player>
 			<Position x="656.73157" z="261.00178"/>
 			<Orientation y="-1.71106"/>
 			<Actor seed="26677"/>
 		</Entity>
 		<Entity uid="4450">
-			<Template>units/egypt_infantry_swordsman_b</Template>
+			<Template>units/egyptian_infantry_swordsman_b</Template>
 			<Player>1</Player>
 			<Position x="638.49622" z="256.17048"/>
 			<Orientation y="-2.67573"/>
 			<Actor seed="6343"/>
 		</Entity>
 		<Entity uid="4451">
-			<Template>units/egypt_infantry_swordsman_b</Template>
+			<Template>units/egyptian_infantry_swordsman_b</Template>
 			<Player>1</Player>
 			<Position x="653.41553" z="255.22077"/>
 			<Orientation y="-2.5286"/>
 			<Actor seed="61221"/>
 		</Entity>
 		<Entity uid="4452">
-			<Template>units/egypt_infantry_swordsman_b</Template>
+			<Template>units/egyptian_infantry_swordsman_b</Template>
 			<Player>1</Player>
 			<Position x="631.74006" z="324.95652"/>
 			<Orientation y="-0.57651"/>
 			<Actor seed="29484"/>
 		</Entity>
 		<Entity uid="4453">
-			<Template>units/egypt_infantry_swordsman_b</Template>
+			<Template>units/egyptian_infantry_swordsman_b</Template>
 			<Player>1</Player>
 			<Position x="634.64393" z="327.76417"/>
 			<Orientation y="-0.87732"/>
 			<Actor seed="4124"/>
 		</Entity>
 		<Entity uid="4454">
-			<Template>units/egypt_infantry_swordsman_b</Template>
+			<Template>units/egyptian_infantry_swordsman_b</Template>
 			<Player>1</Player>
 			<Position x="637.79828" z="331.22779"/>
 			<Orientation y="-0.51804"/>
 			<Actor seed="20217"/>
 		</Entity>
 		<Entity uid="4455">
-			<Template>units/egypt_infantry_swordsman_b</Template>
+			<Template>units/egyptian_infantry_swordsman_b</Template>
 			<Player>1</Player>
 			<Position x="641.77991" z="335.7363"/>
 			<Orientation y="-0.58945"/>
 			<Actor seed="63061"/>
 		</Entity>
 		<Entity uid="4457">
-			<Template>units/egypt_infantry_swordsman_b</Template>
+			<Template>units/egyptian_infantry_swordsman_b</Template>
 			<Player>1</Player>
 			<Position x="623.98023" z="349.84638"/>
 			<Orientation y="-0.70284"/>
 			<Actor seed="19373"/>
 		</Entity>
 		<Entity uid="4460">
-			<Template>units/egypt_infantry_swordsman_b</Template>
+			<Template>units/egyptian_infantry_swordsman_b</Template>
 			<Player>1</Player>
 			<Position x="611.82966" z="338.27408"/>
 			<Orientation y="-0.82874"/>
 			<Actor seed="57991"/>
 		</Entity>
 		<Entity uid="4461">
-			<Template>units/egypt_infantry_swordsman_b</Template>
+			<Template>units/egyptian_infantry_swordsman_b</Template>
 			<Player>1</Player>
 			<Position x="648.76679" z="260.30375"/>
 			<Orientation y="-1.74621"/>
 			<Actor seed="64647"/>
 		</Entity>
 		<Entity uid="4462">
-			<Template>units/nubi_infantry_spearman_b</Template>
+			<Template>units/nubianinfantry_spearman_b</Template>
 			<Player>1</Player>
 			<Position x="617.60389" z="351.02814"/>
 			<Orientation y="-0.97121"/>
 			<Actor seed="22819"/>
 		</Entity>
 		<Entity uid="4463">
-			<Template>units/nubi_infantry_spearman_b</Template>
+			<Template>units/nubianinfantry_spearman_b</Template>
 			<Player>1</Player>
 			<Position x="614.9762" z="348.43073"/>
 			<Orientation y="-0.67701"/>
 			<Actor seed="46019"/>
 		</Entity>
 		<Entity uid="4464">
-			<Template>units/nubi_infantry_spearman_b</Template>
+			<Template>units/nubianinfantry_spearman_b</Template>
 			<Player>1</Player>
 			<Position x="610.20588" z="343.87034"/>
 			<Orientation y="-0.81379"/>
 			<Actor seed="12614"/>
 		</Entity>
 		<Entity uid="4465">
-			<Template>units/egypt_infantry_spearman_b</Template>
+			<Template>units/egyptian_infantry_spearman_b</Template>
 			<Player>1</Player>
 			<Position x="626.74708" z="340.21155"/>
 			<Orientation y="-0.71016"/>
 			<Actor seed="41396"/>
 		</Entity>
 		<Entity uid="4466">
-			<Template>units/egypt_infantry_spearman_b</Template>
+			<Template>units/egyptian_infantry_spearman_b</Template>
 			<Player>1</Player>
 			<Position x="622.44977" z="337.33933"/>
 			<Orientation y="-0.67376"/>
 			<Actor seed="30883"/>
 		</Entity>
 		<Entity uid="4469">
-			<Template>units/egypt_infantry_spearman_b</Template>
+			<Template>units/egyptian_infantry_spearman_b</Template>
 			<Player>1</Player>
 			<Position x="618.99854" z="333.39533"/>
 			<Orientation y="-0.48182"/>
 			<Actor seed="30024"/>
 		</Entity>
 		<Entity uid="4470">
-			<Template>units/egypt_infantry_spearman_b</Template>
+			<Template>units/egyptian_infantry_spearman_b</Template>
 			<Player>1</Player>
 			<Position x="629.30933" z="343.74042"/>
 			<Orientation y="-0.94599"/>
 			<Actor seed="64679"/>
 		</Entity>
 		<Entity uid="4471">
-			<Template>structures/egypt_civil_centre</Template>
+			<Template>structures/egyptian_civil_centre</Template>
 			<Player>1</Player>
 			<Position x="653.78199" z="320.52933"/>
 			<Orientation y="-0.79105"/>
 			<Actor seed="35295"/>
 		</Entity>
 		<Entity uid="4472">
-			<Template>structures/egypt_barracks</Template>
+			<Template>structures/egyptian_barracks</Template>
 			<Player>1</Player>
 			<Position x="720.29786" z="309.01182"/>
 			<Orientation y="-0.85482"/>
@@ -9044,21 +9044,21 @@
 			<Actor seed="15286"/>
 		</Entity>
 		<Entity uid="4473">
-			<Template>structures/egypt_small_wall_tower</Template>
+			<Template>structures/egyptian_small_wall_tower</Template>
 			<Player>1</Player>
 			<Position x="611.6844" z="299.32294"/>
 			<Orientation y="-3.11707"/>
 			<Actor seed="57467"/>
 		</Entity>
 		<Entity uid="4474">
-			<Template>structures/egypt_small_wall_tower</Template>
+			<Template>structures/egyptian_small_wall_tower</Template>
 			<Player>1</Player>
 			<Position x="605.9657" z="297.19175"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="47231"/>
 		</Entity>
 		<Entity uid="4475">
-			<Template>structures/egypt_small_wall_short</Template>
+			<Template>structures/egyptian_small_wall_short</Template>
 			<Player>1</Player>
 			<Position x="620.63318" z="295.42884"/>
 			<Orientation y="0.63883"/>
@@ -9066,7 +9066,7 @@
 			<Actor seed="41062"/>
 		</Entity>
 		<Entity uid="4476">
-			<Template>structures/egypt_small_wall_short</Template>
+			<Template>structures/egyptian_small_wall_short</Template>
 			<Player>1</Player>
 			<Position x="614.64362" z="298.64414"/>
 			<Orientation y="-2.8523"/>
@@ -9074,7 +9074,7 @@
 			<Actor seed="23713"/>
 		</Entity>
 		<Entity uid="4477">
-			<Template>structures/egypt_small_wall_short</Template>
+			<Template>structures/egyptian_small_wall_short</Template>
 			<Player>1</Player>
 			<Position x="608.67737" z="298.59702"/>
 			<Orientation y="2.75298"/>
@@ -9082,49 +9082,49 @@
 			<Actor seed="29805"/>
 		</Entity>
 		<Entity uid="4478">
-			<Template>structures/egypt_small_wall_tower</Template>
+			<Template>structures/egyptian_small_wall_tower</Template>
 			<Player>1</Player>
 			<Position x="617.89081" z="297.31489"/>
 			<Orientation y="-2.7261"/>
 			<Actor seed="57923"/>
 		</Entity>
 		<Entity uid="4482">
-			<Template>structures/egypt_small_wall_tower</Template>
+			<Template>structures/egyptian_small_wall_tower</Template>
 			<Player>1</Player>
 			<Position x="586.95539" z="330.54032"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="65063"/>
 		</Entity>
 		<Entity uid="4483">
-			<Template>structures/egypt_small_wall_tower</Template>
+			<Template>structures/egyptian_small_wall_tower</Template>
 			<Player>1</Player>
 			<Position x="576.8324" z="321.19703"/>
 			<Orientation y="-2.34063"/>
 			<Actor seed="4180"/>
 		</Entity>
 		<Entity uid="4485">
-			<Template>structures/egypt_dock</Template>
+			<Template>structures/egyptian_dock</Template>
 			<Player>1</Player>
 			<Position x="550.95173" z="394.23996"/>
 			<Orientation y="-0.94845"/>
 			<Actor seed="40599"/>
 		</Entity>
 		<Entity uid="4486">
-			<Template>structures/egypt_mill</Template>
+			<Template>structures/egyptian_mill</Template>
 			<Player>1</Player>
 			<Position x="670.30097" z="261.40568"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="23838"/>
 		</Entity>
 		<Entity uid="4487">
-			<Template>structures/egypt_fortress</Template>
+			<Template>structures/egyptian_fortress</Template>
 			<Player>1</Player>
 			<Position x="718.73823" z="346.00852"/>
 			<Orientation y="-2.38181"/>
 			<Actor seed="29248"/>
 		</Entity>
 		<Entity uid="4489">
-			<Template>structures/egypt_small_wall_long</Template>
+			<Template>structures/egyptian_small_wall_long</Template>
 			<Player>1</Player>
 			<Position x="574.85279" z="284.77186"/>
 			<Orientation y="-2.35613"/>
@@ -9132,7 +9132,7 @@
 			<Actor seed="18123"/>
 		</Entity>
 		<Entity uid="4490">
-			<Template>structures/egypt_small_wall_long</Template>
+			<Template>structures/egyptian_small_wall_long</Template>
 			<Player>1</Player>
 			<Position x="566.18744" z="295.26124"/>
 			<Orientation y="-2.22387"/>
@@ -9140,7 +9140,7 @@
 			<Actor seed="40049"/>
 		</Entity>
 		<Entity uid="4491">
-			<Template>structures/egypt_small_wall_short</Template>
+			<Template>structures/egyptian_small_wall_short</Template>
 			<Player>1</Player>
 			<Position x="564.35724" z="309.67478"/>
 			<Orientation y="2.14061"/>
@@ -9148,14 +9148,14 @@
 			<Actor seed="46121"/>
 		</Entity>
 		<Entity uid="4492">
-			<Template>structures/egypt_small_wall_tower</Template>
+			<Template>structures/egyptian_small_wall_tower</Template>
 			<Player>1</Player>
 			<Position x="566.19617" z="312.2429"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="62894"/>
 		</Entity>
 		<Entity uid="4494">
-			<Template>structures/egypt_small_wall_long</Template>
+			<Template>structures/egyptian_small_wall_long</Template>
 			<Player>1</Player>
 			<Position x="571.72626" z="316.779"/>
 			<Orientation y="-0.73014"/>
@@ -9163,7 +9163,7 @@
 			<Actor seed="17187"/>
 		</Entity>
 		<Entity uid="4495">
-			<Template>structures/egypt_small_wall_long</Template>
+			<Template>structures/egyptian_small_wall_long</Template>
 			<Player>1</Player>
 			<Position x="581.75684" z="325.91874"/>
 			<Orientation y="-0.76937"/>
@@ -9171,7 +9171,7 @@
 			<Actor seed="1528"/>
 		</Entity>
 		<Entity uid="4497">
-			<Template>structures/egypt_small_wall_long</Template>
+			<Template>structures/egyptian_small_wall_long</Template>
 			<Player>1</Player>
 			<Position x="623.18018" z="365.28614"/>
 			<Orientation y="2.35621"/>
@@ -9179,7 +9179,7 @@
 			<Actor seed="49277"/>
 		</Entity>
 		<Entity uid="4498">
-			<Template>structures/egypt_small_wall_long</Template>
+			<Template>structures/egyptian_small_wall_long</Template>
 			<Player>1</Player>
 			<Position x="632.91901" z="374.76868"/>
 			<Orientation y="2.35621"/>
@@ -9187,7 +9187,7 @@
 			<Actor seed="31480"/>
 		</Entity>
 		<Entity uid="4504">
-			<Template>structures/egypt_small_wall_long</Template>
+			<Template>structures/egyptian_small_wall_long</Template>
 			<Player>1</Player>
 			<Position x="668.21558" z="375.02002"/>
 			<Orientation y="0.80602"/>
@@ -9195,7 +9195,7 @@
 			<Actor seed="41211"/>
 		</Entity>
 		<Entity uid="4505">
-			<Template>structures/egypt_small_wall_long</Template>
+			<Template>structures/egyptian_small_wall_long</Template>
 			<Player>1</Player>
 			<Position x="676.03046" z="366.27067"/>
 			<Orientation y="0.82715"/>
@@ -9203,14 +9203,14 @@
 			<Actor seed="36007"/>
 		</Entity>
 		<Entity uid="4506">
-			<Template>structures/egypt_small_wall_tower</Template>
+			<Template>structures/egyptian_small_wall_tower</Template>
 			<Player>1</Player>
 			<Position x="680.47516" z="361.03534"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="11852"/>
 		</Entity>
 		<Entity uid="4507">
-			<Template>structures/egypt_small_wall_long</Template>
+			<Template>structures/egyptian_small_wall_long</Template>
 			<Player>1</Player>
 			<Position x="581.73237" z="315.86576"/>
 			<Orientation y="-2.31592"/>
@@ -9218,21 +9218,21 @@
 			<Actor seed="53987"/>
 		</Entity>
 		<Entity uid="4509">
-			<Template>structures/egypt_small_wall_tower</Template>
+			<Template>structures/egyptian_small_wall_tower</Template>
 			<Player>1</Player>
 			<Position x="586.56885" z="310.89127"/>
 			<Orientation y="-2.36071"/>
 			<Actor seed="61993"/>
 		</Entity>
 		<Entity uid="4510">
-			<Template>structures/egypt_small_wall_tower</Template>
+			<Template>structures/egyptian_small_wall_tower</Template>
 			<Player>1</Player>
 			<Position x="592.925" z="303.60431"/>
 			<Orientation y="-2.3851"/>
 			<Actor seed="15901"/>
 		</Entity>
 		<Entity uid="4511">
-			<Template>structures/egypt_small_wall_medium</Template>
+			<Template>structures/egyptian_small_wall_medium</Template>
 			<Player>1</Player>
 			<Position x="589.86561" z="306.78998"/>
 			<Orientation y="-2.31916"/>
@@ -9240,7 +9240,7 @@
 			<Actor seed="39349"/>
 		</Entity>
 		<Entity uid="4513">
-			<Template>structures/egypt_small_wall_long</Template>
+			<Template>structures/egyptian_small_wall_long</Template>
 			<Player>1</Player>
 			<Position x="594.35688" z="284.75669"/>
 			<Orientation y="2.32393"/>
@@ -9248,7 +9248,7 @@
 			<Actor seed="35132"/>
 		</Entity>
 		<Entity uid="4514">
-			<Template>structures/egypt_small_wall_long</Template>
+			<Template>structures/egyptian_small_wall_long</Template>
 			<Player>1</Player>
 			<Position x="601.58606" z="292.44172"/>
 			<Orientation y="2.33126"/>
@@ -9256,49 +9256,49 @@
 			<Actor seed="46147"/>
 		</Entity>
 		<Entity uid="4515">
-			<Template>structures/egypt_small_wall_tower</Template>
+			<Template>structures/egyptian_small_wall_tower</Template>
 			<Player>1</Player>
 			<Position x="694.89234" z="258.20429"/>
 			<Orientation y="-0.06528"/>
 			<Actor seed="61348"/>
 		</Entity>
 		<Entity uid="4516">
-			<Template>structures/egypt_small_wall_tower</Template>
+			<Template>structures/egyptian_small_wall_tower</Template>
 			<Player>1</Player>
 			<Position x="702.60566" z="259.19416"/>
 			<Orientation y="-0.28064"/>
 			<Actor seed="13633"/>
 		</Entity>
 		<Entity uid="4517">
-			<Template>structures/egypt_small_wall_tower</Template>
+			<Template>structures/egyptian_small_wall_tower</Template>
 			<Player>1</Player>
 			<Position x="708.82978" z="263.10495"/>
 			<Orientation y="-0.86471"/>
 			<Actor seed="39463"/>
 		</Entity>
 		<Entity uid="4518">
-			<Template>structures/egypt_small_wall_tower</Template>
+			<Template>structures/egyptian_small_wall_tower</Template>
 			<Player>1</Player>
 			<Position x="711.2016" z="270.75013"/>
 			<Orientation y="-1.51886"/>
 			<Actor seed="17927"/>
 		</Entity>
 		<Entity uid="4519">
-			<Template>structures/egypt_small_wall_tower</Template>
+			<Template>structures/egyptian_small_wall_tower</Template>
 			<Player>1</Player>
 			<Position x="709.60383" z="280.20563"/>
 			<Orientation y="1.16822"/>
 			<Actor seed="54114"/>
 		</Entity>
 		<Entity uid="4520">
-			<Template>structures/egypt_small_wall_tower</Template>
+			<Template>structures/egyptian_small_wall_tower</Template>
 			<Player>1</Player>
 			<Position x="718.7995" z="288.99167"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="55660"/>
 		</Entity>
 		<Entity uid="4521">
-			<Template>structures/egypt_small_wall_medium</Template>
+			<Template>structures/egyptian_small_wall_medium</Template>
 			<Player>1</Player>
 			<Position x="698.62537" z="258.42603"/>
 			<Orientation y="2.91897"/>
@@ -9306,7 +9306,7 @@
 			<Actor seed="37758"/>
 		</Entity>
 		<Entity uid="4522">
-			<Template>structures/egypt_small_wall_medium</Template>
+			<Template>structures/egyptian_small_wall_medium</Template>
 			<Player>1</Player>
 			<Position x="705.8379" z="260.85532"/>
 			<Orientation y="2.51368"/>
@@ -9314,7 +9314,7 @@
 			<Actor seed="21263"/>
 		</Entity>
 		<Entity uid="4523">
-			<Template>structures/egypt_small_wall_medium</Template>
+			<Template>structures/egyptian_small_wall_medium</Template>
 			<Player>1</Player>
 			<Position x="710.49164" z="267.45554"/>
 			<Orientation y="1.90185"/>
@@ -9322,7 +9322,7 @@
 			<Actor seed="15556"/>
 		</Entity>
 		<Entity uid="4524">
-			<Template>structures/egypt_small_wall_medium</Template>
+			<Template>structures/egyptian_small_wall_medium</Template>
 			<Player>1</Player>
 			<Position x="710.67188" z="275.38141"/>
 			<Orientation y="1.34096"/>
@@ -9330,7 +9330,7 @@
 			<Actor seed="36118"/>
 		</Entity>
 		<Entity uid="4525">
-			<Template>structures/egypt_small_wall_long</Template>
+			<Template>structures/egyptian_small_wall_long</Template>
 			<Player>1</Player>
 			<Position x="714.79651" z="284.95508"/>
 			<Orientation y="2.35621"/>
@@ -9338,7 +9338,7 @@
 			<Actor seed="14202"/>
 		</Entity>
 		<Entity uid="4526">
-			<Template>structures/egypt_small_wall_long</Template>
+			<Template>structures/egyptian_small_wall_long</Template>
 			<Player>1</Player>
 			<Position x="723.73444" z="294.04883"/>
 			<Orientation y="2.29073"/>
@@ -9346,21 +9346,21 @@
 			<Actor seed="3770"/>
 		</Entity>
 		<Entity uid="4527">
-			<Template>structures/egypt_small_wall_tower</Template>
+			<Template>structures/egyptian_small_wall_tower</Template>
 			<Player>1</Player>
 			<Position x="728.06269" z="299.36408"/>
 			<Orientation y="2.25075"/>
 			<Actor seed="53916"/>
 		</Entity>
 		<Entity uid="4528">
-			<Template>structures/egypt_small_wall_tower</Template>
+			<Template>structures/egyptian_small_wall_tower</Template>
 			<Player>1</Player>
 			<Position x="728.56855" z="326.18738"/>
 			<Orientation y="1.62377"/>
 			<Actor seed="25961"/>
 		</Entity>
 		<Entity uid="4530">
-			<Template>structures/egypt_small_wall_long</Template>
+			<Template>structures/egyptian_small_wall_long</Template>
 			<Player>1</Player>
 			<Position x="736.90296" z="338.04786"/>
 			<Orientation y="2.35621"/>
@@ -9368,21 +9368,21 @@
 			<Actor seed="56069"/>
 		</Entity>
 		<Entity uid="4531">
-			<Template>structures/egypt_small_wall_tower</Template>
+			<Template>structures/egyptian_small_wall_tower</Template>
 			<Player>1</Player>
 			<Position x="731.98395" z="333.51899"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="26168"/>
 		</Entity>
 		<Entity uid="4532">
-			<Template>structures/egypt_small_wall_tower</Template>
+			<Template>structures/egyptian_small_wall_tower</Template>
 			<Player>1</Player>
 			<Position x="740.93287" z="343.10294"/>
 			<Orientation y="1.95815"/>
 			<Actor seed="50246"/>
 		</Entity>
 		<Entity uid="4534">
-			<Template>structures/egypt_small_wall_medium</Template>
+			<Template>structures/egyptian_small_wall_medium</Template>
 			<Player>1</Player>
 			<Position x="741.06495" z="347.27683"/>
 			<Orientation y="1.47031"/>
@@ -9390,7 +9390,7 @@
 			<Actor seed="46998"/>
 		</Entity>
 		<Entity uid="4535">
-			<Template>structures/egypt_small_wall_long</Template>
+			<Template>structures/egyptian_small_wall_long</Template>
 			<Player>1</Player>
 			<Position x="736.48145" z="355.90809"/>
 			<Orientation y="0.77817"/>
@@ -9398,7 +9398,7 @@
 			<Actor seed="20072"/>
 		</Entity>
 		<Entity uid="4536">
-			<Template>structures/egypt_small_wall_long</Template>
+			<Template>structures/egyptian_small_wall_long</Template>
 			<Player>1</Player>
 			<Position x="729.01453" z="363.03357"/>
 			<Orientation y="0.77584"/>
@@ -9406,56 +9406,56 @@
 			<Actor seed="11951"/>
 		</Entity>
 		<Entity uid="4537">
-			<Template>structures/egypt_small_wall_tower</Template>
+			<Template>structures/egyptian_small_wall_tower</Template>
 			<Player>1</Player>
 			<Position x="740.36701" z="351.38712"/>
 			<Orientation y="1.19329"/>
 			<Actor seed="37954"/>
 		</Entity>
 		<Entity uid="4538">
-			<Template>structures/egypt_small_wall_tower</Template>
+			<Template>structures/egyptian_small_wall_tower</Template>
 			<Player>1</Player>
 			<Position x="732.26362" z="360.13947"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="63446"/>
 		</Entity>
 		<Entity uid="4539">
-			<Template>structures/egypt_small_wall_tower</Template>
+			<Template>structures/egyptian_small_wall_tower</Template>
 			<Player>1</Player>
 			<Position x="724.29572" z="367.39695"/>
 			<Orientation y="0.38967"/>
 			<Actor seed="62160"/>
 		</Entity>
 		<Entity uid="4540">
-			<Template>structures/egypt_small_wall_tower</Template>
+			<Template>structures/egyptian_small_wall_tower</Template>
 			<Player>1</Player>
 			<Position x="716.7151" z="368.90497"/>
 			<Orientation y="0.00585"/>
 			<Actor seed="13202"/>
 		</Entity>
 		<Entity uid="4541">
-			<Template>structures/egypt_small_wall_tower</Template>
+			<Template>structures/egyptian_small_wall_tower</Template>
 			<Player>1</Player>
 			<Position x="708.33869" z="365.39295"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="4122"/>
 		</Entity>
 		<Entity uid="4542">
-			<Template>structures/egypt_small_wall_tower</Template>
+			<Template>structures/egyptian_small_wall_tower</Template>
 			<Player>1</Player>
 			<Position x="699.50568" z="356.81098"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="16005"/>
 		</Entity>
 		<Entity uid="4543">
-			<Template>structures/egypt_small_wall_tower</Template>
+			<Template>structures/egyptian_small_wall_tower</Template>
 			<Player>1</Player>
 			<Position x="693.00104" z="349.88495"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="54981"/>
 		</Entity>
 		<Entity uid="4544">
-			<Template>structures/egypt_small_wall_medium</Template>
+			<Template>structures/egyptian_small_wall_medium</Template>
 			<Player>1</Player>
 			<Position x="721.23047" z="368.03931"/>
 			<Orientation y="0.25445"/>
@@ -9463,7 +9463,7 @@
 			<Actor seed="10222"/>
 		</Entity>
 		<Entity uid="4545">
-			<Template>structures/egypt_small_wall_medium</Template>
+			<Template>structures/egyptian_small_wall_medium</Template>
 			<Player>1</Player>
 			<Position x="711.97486" z="367.69733"/>
 			<Orientation y="-0.37385"/>
@@ -9471,7 +9471,7 @@
 			<Actor seed="38825"/>
 		</Entity>
 		<Entity uid="4546">
-			<Template>structures/egypt_small_wall_long</Template>
+			<Template>structures/egyptian_small_wall_long</Template>
 			<Player>1</Player>
 			<Position x="704.43793" z="361.38224"/>
 			<Orientation y="2.35621"/>
@@ -9479,7 +9479,7 @@
 			<Actor seed="33712"/>
 		</Entity>
 		<Entity uid="4547">
-			<Template>structures/egypt_small_wall_medium</Template>
+			<Template>structures/egyptian_small_wall_medium</Template>
 			<Player>1</Player>
 			<Position x="696.25312" z="353.47165"/>
 			<Orientation y="2.35621"/>
@@ -9487,7 +9487,7 @@
 			<Actor seed="58254"/>
 		</Entity>
 		<Entity uid="4548">
-			<Template>structures/egypt_house</Template>
+			<Template>structures/egyptian_house</Template>
 			<Player>1</Player>
 			<Position x="623.68274" z="303.62156"/>
 			<Orientation y="0.75895"/>
@@ -9495,28 +9495,28 @@
 			<Actor seed="26371"/>
 		</Entity>
 		<Entity uid="4549">
-			<Template>structures/egypt_house</Template>
+			<Template>structures/egyptian_house</Template>
 			<Player>1</Player>
 			<Position x="634.05732" z="295.58875"/>
 			<Orientation y="2.3759"/>
 			<Actor seed="16521"/>
 		</Entity>
 		<Entity uid="4550">
-			<Template>structures/egypt_house</Template>
+			<Template>structures/egyptian_house</Template>
 			<Player>1</Player>
 			<Position x="689.53101" z="327.83286"/>
 			<Orientation y="-0.78606"/>
 			<Actor seed="49575"/>
 		</Entity>
 		<Entity uid="4551">
-			<Template>structures/egypt_house</Template>
+			<Template>structures/egyptian_house</Template>
 			<Player>1</Player>
 			<Position x="641.6825" z="354.69651"/>
 			<Orientation y="-2.32485"/>
 			<Actor seed="4132"/>
 		</Entity>
 		<Entity uid="4552">
-			<Template>structures/egypt_house</Template>
+			<Template>structures/egyptian_house</Template>
 			<Player>1</Player>
 			<Position x="660.33118" z="370.05466"/>
 			<Orientation y="-2.3225"/>
@@ -9524,21 +9524,21 @@
 			<Actor seed="61566"/>
 		</Entity>
 		<Entity uid="4553">
-			<Template>structures/egypt_small_wall_tower</Template>
+			<Template>structures/egyptian_small_wall_tower</Template>
 			<Player>1</Player>
 			<Position x="737.70087" z="310.57792"/>
 			<Orientation y="2.31215"/>
 			<Actor seed="29271"/>
 		</Entity>
 		<Entity uid="4554">
-			<Template>structures/egypt_small_wall_tower</Template>
+			<Template>structures/egyptian_small_wall_tower</Template>
 			<Player>1</Player>
 			<Position x="730.72706" z="317.44483"/>
 			<Orientation y="0.92536"/>
 			<Actor seed="43817"/>
 		</Entity>
 		<Entity uid="4555">
-			<Template>structures/egypt_small_wall_medium</Template>
+			<Template>structures/egyptian_small_wall_medium</Template>
 			<Player>1</Player>
 			<Position x="729.99244" z="329.75406"/>
 			<Orientation y="-1.168"/>
@@ -9546,7 +9546,7 @@
 			<Actor seed="39256"/>
 		</Entity>
 		<Entity uid="4556">
-			<Template>structures/egypt_small_wall_medium</Template>
+			<Template>structures/egyptian_small_wall_medium</Template>
 			<Player>1</Player>
 			<Position x="729.41852" z="321.6323"/>
 			<Orientation y="1.34095"/>
@@ -9554,7 +9554,7 @@
 			<Actor seed="49006"/>
 		</Entity>
 		<Entity uid="4557">
-			<Template>structures/egypt_small_wall_medium</Template>
+			<Template>structures/egyptian_small_wall_medium</Template>
 			<Player>1</Player>
 			<Position x="734.1548" z="313.91941"/>
 			<Orientation y="0.78876"/>
@@ -9562,7 +9562,7 @@
 			<Actor seed="38804"/>
 		</Entity>
 		<Entity uid="4558">
-			<Template>structures/egypt_small_wall_long</Template>
+			<Template>structures/egyptian_small_wall_long</Template>
 			<Player>1</Player>
 			<Position x="732.87629" z="305.09278"/>
 			<Orientation y="2.2936"/>
@@ -9570,98 +9570,98 @@
 			<Actor seed="56577"/>
 		</Entity>
 		<Entity uid="4559">
-			<Template>structures/egypt_field</Template>
+			<Template>structures/egyptian_field</Template>
 			<Player>1</Player>
 			<Position x="582.54255" z="254.88111"/>
 			<Orientation y="2.8545"/>
 			<Actor seed="1890"/>
 		</Entity>
 		<Entity uid="4560">
-			<Template>structures/egypt_field</Template>
+			<Template>structures/egyptian_field</Template>
 			<Player>1</Player>
 			<Position x="594.81824" z="226.19141"/>
 			<Orientation y="2.75567"/>
 			<Actor seed="27388"/>
 		</Entity>
 		<Entity uid="4561">
-			<Template>structures/egypt_field</Template>
+			<Template>structures/egyptian_field</Template>
 			<Player>1</Player>
 			<Position x="606.93384" z="198.64371"/>
 			<Orientation y="2.73797"/>
 			<Actor seed="11078"/>
 		</Entity>
 		<Entity uid="4562">
-			<Template>structures/egypt_field</Template>
+			<Template>structures/egyptian_field</Template>
 			<Player>1</Player>
 			<Position x="630.1067" z="216.75306"/>
 			<Orientation y="2.73198"/>
 			<Actor seed="61318"/>
 		</Entity>
 		<Entity uid="4563">
-			<Template>structures/egypt_field</Template>
+			<Template>structures/egyptian_field</Template>
 			<Player>1</Player>
 			<Position x="641.076" z="192.35645"/>
 			<Orientation y="2.68191"/>
 			<Actor seed="33992"/>
 		</Entity>
 		<Entity uid="4564">
-			<Template>structures/egypt_field</Template>
+			<Template>structures/egyptian_field</Template>
 			<Player>1</Player>
 			<Position x="656.2754" z="227.54181"/>
 			<Orientation y="2.70626"/>
 			<Actor seed="38367"/>
 		</Entity>
 		<Entity uid="4565">
-			<Template>structures/egypt_field</Template>
+			<Template>structures/egyptian_field</Template>
 			<Player>0</Player>
 			<Position x="617.35645" z="427.63852"/>
 			<Orientation y="-2.06057"/>
 			<Actor seed="56097"/>
 		</Entity>
 		<Entity uid="4566">
-			<Template>structures/egypt_field</Template>
+			<Template>structures/egyptian_field</Template>
 			<Player>0</Player>
 			<Position x="620.26294" z="401.9272"/>
 			<Orientation y="-1.9928"/>
 			<Actor seed="42621"/>
 		</Entity>
 		<Entity uid="4567">
-			<Template>structures/egypt_field</Template>
+			<Template>structures/egyptian_field</Template>
 			<Player>0</Player>
 			<Position x="595.06592" z="416.7331"/>
 			<Orientation y="-2.29227"/>
 			<Actor seed="9525"/>
 		</Entity>
 		<Entity uid="4569">
-			<Template>structures/egypt_outpost</Template>
+			<Template>structures/egyptian_outpost</Template>
 			<Player>1</Player>
 			<Position x="657.40107" z="205.7638"/>
 			<Orientation y="-0.55552"/>
 			<Actor seed="47475"/>
 		</Entity>
 		<Entity uid="4570">
-			<Template>structures/egypt_farmstead</Template>
+			<Template>structures/egyptian_farmstead</Template>
 			<Player>1</Player>
 			<Position x="615.09003" z="234.16724"/>
 			<Orientation y="-2.56485"/>
 			<Actor seed="47387"/>
 		</Entity>
 		<Entity uid="4571">
-			<Template>structures/egypt_market</Template>
+			<Template>structures/egyptian_market</Template>
 			<Player>1</Player>
 			<Position x="605.61902" z="322.14454"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="54253"/>
 		</Entity>
 		<Entity uid="4573">
-			<Template>structures/egypt_small_wall_tower</Template>
+			<Template>structures/egyptian_small_wall_tower</Template>
 			<Player>1</Player>
 			<Position x="728.50434" z="431.96363"/>
 			<Orientation y="2.31063"/>
 			<Actor seed="3297"/>
 		</Entity>
 		<Entity uid="4574">
-			<Template>structures/egypt_small_wall_long</Template>
+			<Template>structures/egyptian_small_wall_long</Template>
 			<Player>1</Player>
 			<Position x="732.92945" z="427.4751"/>
 			<Orientation y="-2.41723"/>
@@ -9669,7 +9669,7 @@
 			<Actor seed="7533"/>
 		</Entity>
 		<Entity uid="4575">
-			<Template>structures/egypt_small_wall_long</Template>
+			<Template>structures/egyptian_small_wall_long</Template>
 			<Player>1</Player>
 			<Position x="732.20124" z="436.81788"/>
 			<Orientation y="2.30544"/>
@@ -9677,7 +9677,7 @@
 			<Actor seed="33706"/>
 		</Entity>
 		<Entity uid="4576">
-			<Template>structures/egypt_small_wall_long</Template>
+			<Template>structures/egyptian_small_wall_long</Template>
 			<Player>1</Player>
 			<Position x="741.22345" z="446.55381"/>
 			<Orientation y="2.29499"/>
@@ -9685,7 +9685,7 @@
 			<Actor seed="37135"/>
 		</Entity>
 		<Entity uid="4577">
-			<Template>structures/egypt_small_wall_long</Template>
+			<Template>structures/egyptian_small_wall_long</Template>
 			<Player>1</Player>
 			<Position x="751.41755" z="447.50669"/>
 			<Orientation y="0.67031"/>
@@ -9693,7 +9693,7 @@
 			<Actor seed="39632"/>
 		</Entity>
 		<Entity uid="4578">
-			<Template>structures/egypt_small_wall_long</Template>
+			<Template>structures/egyptian_small_wall_long</Template>
 			<Player>1</Player>
 			<Position x="761.11567" z="439.10782"/>
 			<Orientation y="-2.4027"/>
@@ -9701,7 +9701,7 @@
 			<Actor seed="30686"/>
 		</Entity>
 		<Entity uid="4579">
-			<Template>structures/egypt_small_wall_long</Template>
+			<Template>structures/egyptian_small_wall_long</Template>
 			<Player>1</Player>
 			<Position x="770.55121" z="430.22995"/>
 			<Orientation y="-2.40023"/>
@@ -9709,77 +9709,77 @@
 			<Actor seed="52854"/>
 		</Entity>
 		<Entity uid="4580">
-			<Template>structures/egypt_small_wall_tower</Template>
+			<Template>structures/egyptian_small_wall_tower</Template>
 			<Player>1</Player>
 			<Position x="736.8946" z="441.72358"/>
 			<Orientation y="2.30965"/>
 			<Actor seed="1804"/>
 		</Entity>
 		<Entity uid="4581">
-			<Template>structures/egypt_small_wall_tower</Template>
+			<Template>structures/egyptian_small_wall_tower</Template>
 			<Player>1</Player>
 			<Position x="746.05329" z="451.28306"/>
 			<Orientation y="2.30315"/>
 			<Actor seed="48989"/>
 		</Entity>
 		<Entity uid="4582">
-			<Template>structures/egypt_small_wall_tower</Template>
+			<Template>structures/egyptian_small_wall_tower</Template>
 			<Player>1</Player>
 			<Position x="755.97278" z="443.12385"/>
 			<Orientation y="2.30495"/>
 			<Actor seed="9308"/>
 		</Entity>
 		<Entity uid="4583">
-			<Template>structures/egypt_small_wall_tower</Template>
+			<Template>structures/egyptian_small_wall_tower</Template>
 			<Player>1</Player>
 			<Position x="765.4314" z="434.37256"/>
 			<Orientation y="2.28933"/>
 			<Actor seed="7256"/>
 		</Entity>
 		<Entity uid="4584">
-			<Template>structures/egypt_small_wall_tower</Template>
+			<Template>structures/egyptian_small_wall_tower</Template>
 			<Player>1</Player>
 			<Position x="775.37061" z="425.78956"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="8113"/>
 		</Entity>
 		<Entity uid="4585">
-			<Template>structures/egypt_small_wall_tower</Template>
+			<Template>structures/egyptian_small_wall_tower</Template>
 			<Player>1</Player>
 			<Position x="778.9599" z="419.67927"/>
 			<Orientation y="1.29029"/>
 			<Actor seed="54583"/>
 		</Entity>
 		<Entity uid="4586">
-			<Template>structures/egypt_small_wall_tower</Template>
+			<Template>structures/egyptian_small_wall_tower</Template>
 			<Player>1</Player>
 			<Position x="775.44819" z="406.75458"/>
 			<Orientation y="2.21346"/>
 			<Actor seed="24723"/>
 		</Entity>
 		<Entity uid="4587">
-			<Template>structures/egypt_small_wall_tower</Template>
+			<Template>structures/egyptian_small_wall_tower</Template>
 			<Player>1</Player>
 			<Position x="779.05567" z="413.06739"/>
 			<Orientation y="1.88619"/>
 			<Actor seed="50419"/>
 		</Entity>
 		<Entity uid="4590">
-			<Template>structures/egypt_small_wall_tower</Template>
+			<Template>structures/egyptian_small_wall_tower</Template>
 			<Player>1</Player>
 			<Position x="756.85547" z="406.24878"/>
 			<Orientation y="-2.3966"/>
 			<Actor seed="19332"/>
 		</Entity>
 		<Entity uid="4591">
-			<Template>structures/egypt_small_wall_tower</Template>
+			<Template>structures/egyptian_small_wall_tower</Template>
 			<Player>1</Player>
 			<Position x="766.95136" z="397.54035"/>
 			<Orientation y="-2.41924"/>
 			<Actor seed="22356"/>
 		</Entity>
 		<Entity uid="4592">
-			<Template>structures/egypt_small_wall_long</Template>
+			<Template>structures/egyptian_small_wall_long</Template>
 			<Player>1</Player>
 			<Position x="752.17042" z="410.09028"/>
 			<Orientation y="-2.40423"/>
@@ -9787,7 +9787,7 @@
 			<Actor seed="59209"/>
 		</Entity>
 		<Entity uid="4593">
-			<Template>structures/egypt_small_wall_long</Template>
+			<Template>structures/egyptian_small_wall_long</Template>
 			<Player>1</Player>
 			<Position x="761.98481" z="401.3892"/>
 			<Orientation y="-2.41027"/>
@@ -9795,7 +9795,7 @@
 			<Actor seed="12239"/>
 		</Entity>
 		<Entity uid="4594">
-			<Template>structures/egypt_small_wall_long</Template>
+			<Template>structures/egyptian_small_wall_long</Template>
 			<Player>1</Player>
 			<Position x="771.2248" z="402.13822"/>
 			<Orientation y="2.31032"/>
@@ -9803,7 +9803,7 @@
 			<Actor seed="210"/>
 		</Entity>
 		<Entity uid="4595">
-			<Template>structures/egypt_small_wall_medium</Template>
+			<Template>structures/egyptian_small_wall_medium</Template>
 			<Player>1</Player>
 			<Position x="777.52228" z="423.09095"/>
 			<Orientation y="-2.18944"/>
@@ -9811,7 +9811,7 @@
 			<Actor seed="51402"/>
 		</Entity>
 		<Entity uid="4596">
-			<Template>structures/egypt_small_wall_medium</Template>
+			<Template>structures/egyptian_small_wall_medium</Template>
 			<Player>1</Player>
 			<Position x="779.35981" z="416.40894"/>
 			<Orientation y="-1.63259"/>
@@ -9819,7 +9819,7 @@
 			<Actor seed="6379"/>
 		</Entity>
 		<Entity uid="4597">
-			<Template>structures/egypt_small_wall_medium</Template>
+			<Template>structures/egyptian_small_wall_medium</Template>
 			<Player>1</Player>
 			<Position x="777.37708" z="409.34147"/>
 			<Orientation y="-1.03486"/>
@@ -9932,35 +9932,35 @@
 			<Actor seed="15484"/>
 		</Entity>
 		<Entity uid="4620">
-			<Template>units/seap_infantry_swordsman_b</Template>
+			<Template>units/seapeople_infantry_swordsman_b</Template>
 			<Player>2</Player>
 			<Position x="652.68201" z="916.92634"/>
 			<Orientation y="2.35584"/>
 			<Actor seed="21336"/>
 		</Entity>
 		<Entity uid="4621">
-			<Template>units/seap_infantry_swordsman_b</Template>
+			<Template>units/seapeople_infantry_swordsman_b</Template>
 			<Player>2</Player>
 			<Position x="655.38337" z="919.56391"/>
 			<Orientation y="2.37711"/>
 			<Actor seed="59608"/>
 		</Entity>
 		<Entity uid="4622">
-			<Template>units/seap_infantry_swordsman_b</Template>
+			<Template>units/seapeople_infantry_swordsman_b</Template>
 			<Player>2</Player>
 			<Position x="657.84815" z="922.52051"/>
 			<Orientation y="2.41478"/>
 			<Actor seed="50550"/>
 		</Entity>
 		<Entity uid="4623">
-			<Template>units/seap_infantry_swordsman_b</Template>
+			<Template>units/seapeople_infantry_swordsman_b</Template>
 			<Player>2</Player>
 			<Position x="659.9314" z="924.99946"/>
 			<Orientation y="2.41137"/>
 			<Actor seed="16969"/>
 		</Entity>
 		<Entity uid="4629">
-			<Template>units/seap_infantry_swordsman_b</Template>
+			<Template>units/seapeople_infantry_swordsman_b</Template>
 			<Player>2</Player>
 			<Position x="662.30536" z="927.14783"/>
 			<Orientation y="2.5012"/>
@@ -10115,49 +10115,49 @@
 			<Actor seed="52364"/>
 		</Entity>
 		<Entity uid="4652">
-			<Template>units/egypt_support_female_citizen</Template>
+			<Template>units/egyptian_support_female_citizen</Template>
 			<Player>1</Player>
 			<Position x="574.01465" z="299.61561"/>
 			<Orientation y="-1.95832"/>
 			<Actor seed="28828"/>
 		</Entity>
 		<Entity uid="4653">
-			<Template>units/egypt_support_female_citizen</Template>
+			<Template>units/egyptian_support_female_citizen</Template>
 			<Player>1</Player>
 			<Position x="576.68866" z="296.098"/>
 			<Orientation y="-2.50156"/>
 			<Actor seed="44727"/>
 		</Entity>
 		<Entity uid="4654">
-			<Template>units/egypt_support_female_citizen</Template>
+			<Template>units/egyptian_support_female_citizen</Template>
 			<Player>1</Player>
 			<Position x="579.84852" z="292.73884"/>
 			<Orientation y="-2.56307"/>
 			<Actor seed="26491"/>
 		</Entity>
 		<Entity uid="4655">
-			<Template>units/egypt_support_female_citizen</Template>
+			<Template>units/egyptian_support_female_citizen</Template>
 			<Player>1</Player>
 			<Position x="580.05134" z="305.08783"/>
 			<Orientation y="-2.18975"/>
 			<Actor seed="41686"/>
 		</Entity>
 		<Entity uid="4656">
-			<Template>units/egypt_support_female_citizen</Template>
+			<Template>units/egyptian_support_female_citizen</Template>
 			<Player>1</Player>
 			<Position x="582.75812" z="301.39451"/>
 			<Orientation y="-2.59267"/>
 			<Actor seed="60752"/>
 		</Entity>
 		<Entity uid="4657">
-			<Template>units/egypt_support_female_citizen</Template>
+			<Template>units/egyptian_support_female_citizen</Template>
 			<Player>1</Player>
 			<Position x="584.94062" z="298.54996"/>
 			<Orientation y="-2.20051"/>
 			<Actor seed="24418"/>
 		</Entity>
 		<Entity uid="4658">
-			<Template>structures/egypt_small_wall_long</Template>
+			<Template>structures/egyptian_small_wall_long</Template>
 			<Player>1</Player>
 			<Position x="591.74732" z="335.60923"/>
 			<Orientation y="2.35621"/>
@@ -10172,56 +10172,56 @@
 			<Actor seed="55499"/>
 		</Entity>
 		<Entity uid="4660">
-			<Template>structures/egypt_large_temple</Template>
+			<Template>structures/egyptian_large_temple</Template>
 			<Player>1</Player>
 			<Position x="740.43757" z="417.06272"/>
 			<Orientation y="-2.41845"/>
 			<Actor seed="12004"/>
 		</Entity>
 		<Entity uid="4664">
-			<Template>units/nubi_infantry_spearman_b</Template>
+			<Template>units/nubianinfantry_spearman_b</Template>
 			<Player>1</Player>
 			<Position x="612.55927" z="346.0735"/>
 			<Orientation y="-0.85837"/>
 			<Actor seed="23068"/>
 		</Entity>
 		<Entity uid="4665">
-			<Template>units/egypt_infantry_swordsman_a</Template>
+			<Template>units/egyptian_infantry_swordsman_a</Template>
 			<Player>1</Player>
 			<Position x="620.90491" z="348.0131"/>
 			<Orientation y="-0.63988"/>
 			<Actor seed="32898"/>
 		</Entity>
 		<Entity uid="4666">
-			<Template>units/egypt_infantry_swordsman_a</Template>
+			<Template>units/egyptian_infantry_swordsman_a</Template>
 			<Player>1</Player>
 			<Position x="614.17945" z="341.84598"/>
 			<Orientation y="-0.68982"/>
 			<Actor seed="62286"/>
 		</Entity>
 		<Entity uid="4667">
-			<Template>units/egypt_infantry_swordsman_e</Template>
+			<Template>units/egyptian_infantry_swordsman_e</Template>
 			<Player>1</Player>
 			<Position x="617.18616" z="345.46302"/>
 			<Orientation y="-0.67103"/>
 			<Actor seed="43582"/>
 		</Entity>
 		<Entity uid="4668">
-			<Template>units/egypt_infantry_spearman_a</Template>
+			<Template>units/egyptian_infantry_spearman_a</Template>
 			<Player>1</Player>
 			<Position x="623.30085" z="343.5742"/>
 			<Orientation y="-0.79328"/>
 			<Actor seed="19803"/>
 		</Entity>
 		<Entity uid="4669">
-			<Template>units/egypt_infantry_spearman_e</Template>
+			<Template>units/egyptian_infantry_spearman_e</Template>
 			<Player>1</Player>
 			<Position x="619.28205" z="340.7411"/>
 			<Orientation y="-0.79352"/>
 			<Actor seed="15218"/>
 		</Entity>
 		<Entity uid="4670">
-			<Template>structures/egypt_corral</Template>
+			<Template>structures/egyptian_corral</Template>
 			<Player>1</Player>
 			<Position x="576.69196" z="345.25672"/>
 			<Orientation y="-0.8031"/>
@@ -10235,42 +10235,42 @@
 			<Actor seed="64584"/>
 		</Entity>
 		<Entity uid="4672">
-			<Template>structures/egypt_house</Template>
+			<Template>structures/egyptian_house</Template>
 			<Player>0</Player>
 			<Position x="709.14502" z="291.88624"/>
 			<Orientation y="0.7885"/>
 			<Actor seed="46055"/>
 		</Entity>
 		<Entity uid="4673">
-			<Template>structures/egypt_house</Template>
+			<Template>structures/egyptian_house</Template>
 			<Player>0</Player>
 			<Position x="683.74732" z="336.58329"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="57584"/>
 		</Entity>
 		<Entity uid="4674">
-			<Template>structures/egypt_defense_tower</Template>
+			<Template>structures/egyptian_defense_tower</Template>
 			<Player>1</Player>
 			<Position x="651.06672" z="382.43027"/>
 			<Orientation y="3.0802"/>
 			<Actor seed="37478"/>
 		</Entity>
 		<Entity uid="4675">
-			<Template>structures/egypt_defense_tower</Template>
+			<Template>structures/egyptian_defense_tower</Template>
 			<Player>1</Player>
 			<Position x="620.28187" z="361.64396"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="10166"/>
 		</Entity>
 		<Entity uid="4676">
-			<Template>structures/egypt_defense_tower</Template>
+			<Template>structures/egyptian_defense_tower</Template>
 			<Player>1</Player>
 			<Position x="597.16272" z="340.20792"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="41369"/>
 		</Entity>
 		<Entity uid="4677">
-			<Template>structures/egypt_small_wall_long</Template>
+			<Template>structures/egyptian_small_wall_long</Template>
 			<Player>1</Player>
 			<Position x="658.3075" z="381.69446"/>
 			<Orientation y="0.2154"/>
@@ -10278,7 +10278,7 @@
 			<Actor seed="53662"/>
 		</Entity>
 		<Entity uid="4678">
-			<Template>structures/egypt_small_wall_long</Template>
+			<Template>structures/egyptian_small_wall_long</Template>
 			<Player>1</Player>
 			<Position x="644.11866" z="381.52945"/>
 			<Orientation y="-0.24166"/>
@@ -10286,301 +10286,301 @@
 			<Actor seed="32859"/>
 		</Entity>
 		<Entity uid="4679">
-			<Template>units/seap_infantry_swordsman_b</Template>
+			<Template>units/seapeople_infantry_swordsman_b</Template>
 			<Player>2</Player>
 			<Position x="571.35071" z="416.15391"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="22734"/>
 		</Entity>
 		<Entity uid="4680">
-			<Template>units/seap_infantry_swordsman_b</Template>
+			<Template>units/seapeople_infantry_swordsman_b</Template>
 			<Player>2</Player>
 			<Position x="569.3979" z="414.33765"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="32697"/>
 		</Entity>
 		<Entity uid="4681">
-			<Template>units/seap_infantry_swordsman_b</Template>
+			<Template>units/seapeople_infantry_swordsman_b</Template>
 			<Player>2</Player>
 			<Position x="572.1377" z="411.94465"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="48296"/>
 		</Entity>
 		<Entity uid="4682">
-			<Template>units/seap_infantry_swordsman_b</Template>
+			<Template>units/seapeople_infantry_swordsman_b</Template>
 			<Player>2</Player>
 			<Position x="567.68042" z="410.14908"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="28106"/>
 		</Entity>
 		<Entity uid="4683">
-			<Template>units/seap_infantry_swordsman_b</Template>
+			<Template>units/seapeople_infantry_swordsman_b</Template>
 			<Player>2</Player>
 			<Position x="566.13306" z="412.01227"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="25445"/>
 		</Entity>
 		<Entity uid="4684">
-			<Template>units/seap_infantry_swordsman_b</Template>
+			<Template>units/seapeople_infantry_swordsman_b</Template>
 			<Player>2</Player>
 			<Position x="569.3548" z="419.35557"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="54736"/>
 		</Entity>
 		<Entity uid="4685">
-			<Template>units/seap_infantry_swordsman_b</Template>
+			<Template>units/seapeople_infantry_swordsman_b</Template>
 			<Player>2</Player>
 			<Position x="577.43335" z="429.44214"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="41514"/>
 		</Entity>
 		<Entity uid="4686">
-			<Template>units/seap_infantry_swordsman_b</Template>
+			<Template>units/seapeople_infantry_swordsman_b</Template>
 			<Player>2</Player>
 			<Position x="573.9311" z="421.05146"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="57987"/>
 		</Entity>
 		<Entity uid="4687">
-			<Template>units/seap_infantry_swordsman_b</Template>
+			<Template>units/seapeople_infantry_swordsman_b</Template>
 			<Player>2</Player>
 			<Position x="575.0282" z="418.76944"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="19015"/>
 		</Entity>
 		<Entity uid="4688">
-			<Template>units/seap_infantry_swordsman_b</Template>
+			<Template>units/seapeople_infantry_swordsman_b</Template>
 			<Player>2</Player>
 			<Position x="584.95173" z="422.69678"/>
 			<Orientation y="0.8405"/>
 			<Actor seed="8348"/>
 		</Entity>
 		<Entity uid="4689">
-			<Template>units/seap_infantry_swordsman_b</Template>
+			<Template>units/seapeople_infantry_swordsman_b</Template>
 			<Player>2</Player>
 			<Position x="585.22632" z="426.87098"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="51014"/>
 		</Entity>
 		<Entity uid="4690">
-			<Template>units/seap_infantry_swordsman_b</Template>
+			<Template>units/seapeople_infantry_swordsman_b</Template>
 			<Player>2</Player>
 			<Position x="578.65271" z="423.8712"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="19529"/>
 		</Entity>
 		<Entity uid="4691">
-			<Template>units/seap_infantry_swordsman_b</Template>
+			<Template>units/seapeople_infantry_swordsman_b</Template>
 			<Player>2</Player>
 			<Position x="573.7881" z="423.5605"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="8251"/>
 		</Entity>
 		<Entity uid="4692">
-			<Template>units/seap_infantry_swordsman_b</Template>
+			<Template>units/seapeople_infantry_swordsman_b</Template>
 			<Player>2</Player>
 			<Position x="590.82203" z="413.02686"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="57262"/>
 		</Entity>
 		<Entity uid="4693">
-			<Template>units/seap_infantry_swordsman_b</Template>
+			<Template>units/seapeople_infantry_swordsman_b</Template>
 			<Player>2</Player>
 			<Position x="588.91181" z="412.00757"/>
 			<Orientation y="-1.51722"/>
 			<Actor seed="48274"/>
 		</Entity>
 		<Entity uid="4694">
-			<Template>units/seap_infantry_swordsman_b</Template>
+			<Template>units/seapeople_infantry_swordsman_b</Template>
 			<Player>2</Player>
 			<Position x="582.45807" z="411.88926"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="25162"/>
 		</Entity>
 		<Entity uid="4695">
-			<Template>units/seap_infantry_swordsman_b</Template>
+			<Template>units/seapeople_infantry_swordsman_b</Template>
 			<Player>2</Player>
 			<Position x="581.46753" z="415.53415"/>
 			<Orientation y="0.26592"/>
 			<Actor seed="6248"/>
 		</Entity>
 		<Entity uid="4696">
-			<Template>units/seap_infantry_swordsman_b</Template>
+			<Template>units/seapeople_infantry_swordsman_b</Template>
 			<Player>2</Player>
 			<Position x="582.39271" z="420.01307"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="11119"/>
 		</Entity>
 		<Entity uid="4697">
-			<Template>units/seap_infantry_swordsman_b</Template>
+			<Template>units/seapeople_infantry_swordsman_b</Template>
 			<Player>2</Player>
 			<Position x="575.02985" z="410.83323"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="3352"/>
 		</Entity>
 		<Entity uid="4698">
-			<Template>units/seap_infantry_swordsman_b</Template>
+			<Template>units/seapeople_infantry_swordsman_b</Template>
 			<Player>2</Player>
 			<Position x="575.90796" z="408.55188"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="43952"/>
 		</Entity>
 		<Entity uid="4699">
-			<Template>units/seap_infantry_swordsman_b</Template>
+			<Template>units/seapeople_infantry_swordsman_b</Template>
 			<Player>2</Player>
 			<Position x="580.3047" z="406.88645"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="11928"/>
 		</Entity>
 		<Entity uid="4700">
-			<Template>units/seap_infantry_swordsman_b</Template>
+			<Template>units/seapeople_infantry_swordsman_b</Template>
 			<Player>2</Player>
 			<Position x="581.44477" z="405.83152"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="37990"/>
 		</Entity>
 		<Entity uid="4701">
-			<Template>units/seap_infantry_swordsman_b</Template>
+			<Template>units/seapeople_infantry_swordsman_b</Template>
 			<Player>2</Player>
 			<Position x="573.20923" z="399.76587"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="10052"/>
 		</Entity>
 		<Entity uid="4702">
-			<Template>units/seap_infantry_swordsman_b</Template>
+			<Template>units/seapeople_infantry_swordsman_b</Template>
 			<Player>2</Player>
 			<Position x="571.76075" z="402.72135"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="46422"/>
 		</Entity>
 		<Entity uid="4703">
-			<Template>units/seap_infantry_swordsman_b</Template>
+			<Template>units/seapeople_infantry_swordsman_b</Template>
 			<Player>2</Player>
 			<Position x="571.12934" z="405.80774"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="16507"/>
 		</Entity>
 		<Entity uid="4704">
-			<Template>units/seap_infantry_swordsman_b</Template>
+			<Template>units/seapeople_infantry_swordsman_b</Template>
 			<Player>2</Player>
 			<Position x="570.42481" z="406.44422"/>
 			<Orientation y="1.76571"/>
 			<Actor seed="22565"/>
 		</Entity>
 		<Entity uid="4705">
-			<Template>units/seap_infantry_swordsman_b</Template>
+			<Template>units/seapeople_infantry_swordsman_b</Template>
 			<Player>2</Player>
 			<Position x="579.50702" z="403.63581"/>
 			<Orientation y="-2.29499"/>
 			<Actor seed="45130"/>
 		</Entity>
 		<Entity uid="4706">
-			<Template>units/seap_infantry_swordsman_b</Template>
+			<Template>units/seapeople_infantry_swordsman_b</Template>
 			<Player>2</Player>
 			<Position x="568.53199" z="394.154"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="48332"/>
 		</Entity>
 		<Entity uid="4707">
-			<Template>units/seap_infantry_swordsman_b</Template>
+			<Template>units/seapeople_infantry_swordsman_b</Template>
 			<Player>2</Player>
 			<Position x="566.42762" z="398.0448"/>
 			<Orientation y="-0.0388"/>
 			<Actor seed="23625"/>
 		</Entity>
 		<Entity uid="4708">
-			<Template>units/seap_infantry_swordsman_b</Template>
+			<Template>units/seapeople_infantry_swordsman_b</Template>
 			<Player>2</Player>
 			<Position x="565.17841" z="403.24332"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="32212"/>
 		</Entity>
 		<Entity uid="4709">
-			<Template>units/seap_infantry_swordsman_b</Template>
+			<Template>units/seapeople_infantry_swordsman_b</Template>
 			<Player>2</Player>
 			<Position x="563.94886" z="406.55393"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="42775"/>
 		</Entity>
 		<Entity uid="4710">
-			<Template>units/seap_infantry_swordsman_b</Template>
+			<Template>units/seapeople_infantry_swordsman_b</Template>
 			<Player>2</Player>
 			<Position x="563.61353" z="410.41749"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="62668"/>
 		</Entity>
 		<Entity uid="4711">
-			<Template>units/seap_infantry_swordsman_b</Template>
+			<Template>units/seapeople_infantry_swordsman_b</Template>
 			<Player>2</Player>
 			<Position x="563.86255" z="411.44996"/>
 			<Orientation y="0.27132"/>
 			<Actor seed="18384"/>
 		</Entity>
 		<Entity uid="4712">
-			<Template>units/seap_infantry_swordsman_b</Template>
+			<Template>units/seapeople_infantry_swordsman_b</Template>
 			<Player>2</Player>
 			<Position x="565.5807" z="415.57316"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="12118"/>
 		</Entity>
 		<Entity uid="4713">
-			<Template>units/seap_infantry_swordsman_b</Template>
+			<Template>units/seapeople_infantry_swordsman_b</Template>
 			<Player>2</Player>
 			<Position x="570.45765" z="420.81714"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="16727"/>
 		</Entity>
 		<Entity uid="4714">
-			<Template>units/seap_infantry_swordsman_b</Template>
+			<Template>units/seapeople_infantry_swordsman_b</Template>
 			<Player>2</Player>
 			<Position x="568.76215" z="421.66602"/>
 			<Orientation y="0.60296"/>
 			<Actor seed="28502"/>
 		</Entity>
 		<Entity uid="4715">
-			<Template>units/seap_infantry_swordsman_b</Template>
+			<Template>units/seapeople_infantry_swordsman_b</Template>
 			<Player>2</Player>
 			<Position x="573.99994" z="427.72226"/>
 			<Orientation y="0.94822"/>
 			<Actor seed="52770"/>
 		</Entity>
 		<Entity uid="4716">
-			<Template>units/seap_infantry_swordsman_b</Template>
+			<Template>units/seapeople_infantry_swordsman_b</Template>
 			<Player>2</Player>
 			<Position x="578.77967" z="430.27924"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="14249"/>
 		</Entity>
 		<Entity uid="4717">
-			<Template>units/seap_infantry_swordsman_b</Template>
+			<Template>units/seapeople_infantry_swordsman_b</Template>
 			<Player>2</Player>
 			<Position x="579.27332" z="426.2415"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="23288"/>
 		</Entity>
 		<Entity uid="4718">
-			<Template>units/egypt_champion_infantry_swordsman</Template>
+			<Template>units/egyptian_champion_infantry_swordsman</Template>
 			<Player>1</Player>
 			<Position x="627.19147" z="347.78144"/>
 			<Orientation y="-0.80573"/>
 			<Actor seed="18237"/>
 		</Entity>
 		<Entity uid="4719">
-			<Template>units/egypt_champion_infantry_swordsman</Template>
+			<Template>units/egyptian_champion_infantry_swordsman</Template>
 			<Player>1</Player>
 			<Position x="616.28827" z="337.49393"/>
 			<Orientation y="-0.55106"/>
 			<Actor seed="54999"/>
 		</Entity>
 		<Entity uid="4720">
-			<Template>units/egypt_champion_infantry_swordsman</Template>
+			<Template>units/egyptian_champion_infantry_swordsman</Template>
 			<Player>1</Player>
 			<Position x="614.13569" z="335.54737"/>
 			<Orientation y="-0.65336"/>
 			<Actor seed="22910"/>
 		</Entity>
 		<Entity uid="4721">
-			<Template>units/egypt_champion_infantry_swordsman</Template>
+			<Template>units/egyptian_champion_infantry_swordsman</Template>
 			<Player>1</Player>
 			<Position x="629.20356" z="350.41636"/>
 			<Orientation y="-0.85064"/>

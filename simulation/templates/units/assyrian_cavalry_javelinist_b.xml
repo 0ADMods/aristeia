@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_cavalry_ranged_javelinist">
+  <Identity>
+    <Civ>assyrian</Civ>
+	<SelectionGroupName>assyrian_cavalry_javelinist_b</SelectionGroupName>
+    <SpecificName>Kantabriako Zaldun</SpecificName>
+    <History></History>
+    <Icon>assyrian_cavalry_javelinist.png</Icon>
+  </Identity>
+  <Promotion>
+    <Entity>units/assyrian_cavalry_javelinist_a</Entity>
+  </Promotion>
+  <Armour>
+    <Hack>2.0</Hack>
+  </Armour>
+  <VisualActor>
+    <Actor>assyrian/cavalry_javelinist_b.xml</Actor>
+  </VisualActor>
+</Entity>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_cavalry_ranged_javelinist">
+  <Identity>
+    <Civ>egypt</Civ>
+    <SelectionGroupName>egyptian_cavalry_javelinist_b</SelectionGroupName>
+    <GenericName>Nubian Cavalry</GenericName>
+    <SpecificName>Ḥayyāl Raḫūv Masili</SpecificName>
+    <History>Needs history</History>
+    <Icon>egyptian_cavalry_javelinist.png</Icon>
+  </Identity>
+  <Promotion>
+    <Entity>units/egyptian_cavalry_javelinist_a</Entity>
+  </Promotion>
+  <UnitMotion>
+    <WalkSpeed>13.0</WalkSpeed>
+    <Run>
+      <Speed>36</Speed>
+    </Run>
+  </UnitMotion>
+  <VisualActor>
+    <Actor>egyptian/cavalry_javelinist_b.xml</Actor>
+  </VisualActor>
+</Entity>

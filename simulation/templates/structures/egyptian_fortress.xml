@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_military_fortress">
+  <Identity>
+    <Civ>egypt</Civ>
+    <SpecificName>Jetahi</SpecificName>
+    <History>The Egyptians built numerous fortresses along their borders to protect their country against invaders.</History>
+    <Tooltip>Train Champion Units and Construct Siege Rams.</Tooltip>
+  </Identity>
+  <ProductionQueue>
+    <Entities datatype="tokens">
+      nubianinfantry_spearman_b
+      pers_mechanical_siege_ram
+      egyptian_champion_axeman
+      egyptian_hero_ramses_ii
+      egyptian_royal_guard_axe
+    </Entities>
+    <Technologies datatype="tokens">
+      pair_siege_attack_cost
+      pair_siege_cost_armor
+    </Technologies>
+  </ProductionQueue>
+  <VisualActor>
+    <Actor>structural/egyptian/fortress.xml</Actor>
+  </VisualActor>
+</Entity>

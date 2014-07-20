@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<actor version="1">
+	
+	<group>
+		<variant frequency="1" name="Base">
+			<animations/>
+			<mesh>gaia/egyptian_civil_flora3.dae</mesh>
+			<>
+			<textures>
+				<texture file="gaia/egyptian_civil_plant.png" name="baseTex"/>
+			</textures>
+		</variant>
+	</group>
+  <material>basic_trans_wind.xml</material>
+	
+</actor>

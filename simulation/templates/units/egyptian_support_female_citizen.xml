@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_support_female_citizen">
+  <Identity>
+    <Civ>egypt</Civ>
+    <SpecificName>Sit</SpecificName>
+    <GenericName>Egyptian Woman</GenericName>
+    <History>Although ancient Egypt was male-dominated, women enjoyed more rights than in some other early civilizations. They could own property, borrow money, and sign contracts, initiate divorce, appear in court as a witness, were regarded as equal before the law, and were often referred to as “mistress of the house”. On a few occasions, women even became Pharaohs, although for the most part government jobs were held by men.</History>
+    <Icon>hele_support_female_citizen.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>ptolemies/female_citizen.xml</Actor>
+  </VisualActor>
+</Entity>
