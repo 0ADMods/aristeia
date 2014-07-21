@@ -7,7 +7,7 @@
       <props>
         <prop actor="props/structures/decals/iber_corral_mud.xml" attachpoint="root"/>
         <prop actor="props/structures/decals/celt_corral_mud.xml" attachpoint="root"/>
-        <prop actor="structural/egyptian/corral_water.xml" attachpoint="root"/>
+        <prop actor="water/corral_water.xml" attachpoint="root"/>
       </props>
       <textures><texture file="structural/egyptian_struct.png" name="baseTex"/>
         <texture file="structural/egyptian_struct_norm.png" name="normTex"/>

@@ -9,7 +9,8 @@
         <prop actor="structural/egyptian/barracks_shields.xml" attachpoint="root"/>
         <prop actor="structural/egyptian/barracks_cloth.xml" attachpoint="root"/>
       </props>
-<textures><texture file="structural/egyptian_struct.png" name="baseTex"/>
+	<textures>
+		<texture file="structural/egyptian_struct.png" name="baseTex"/>
         <texture file="structural/egyptian_struct_norm.png" name="normTex"/>
         <texture file="structural/egyptian_struct_spec.png" name="specTex"/>
         <texture file="structural/ao/egyptian_barracks.png" name="aoTex"/>
