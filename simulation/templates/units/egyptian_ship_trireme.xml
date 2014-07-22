@@ -13,6 +13,6 @@
 	<Tooltip>Medium Warship</Tooltip>
   </Identity>
   <VisualActor>
-    <Actor>structural/persians/trireme.xml</Actor>
+    <Actor>structures/persians/trireme.xml</Actor>
   </VisualActor>
 </Entity>

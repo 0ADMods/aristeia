@@ -18,7 +18,7 @@
     <variant frequency="100" name="Idle"/>
     <variant name="garrisoned">
       <props>
-        <prop actor="props/special/common/garrison_flag_persians.xml" attachpoint="garrisoned"/>
+        <prop actor="special/common/garrison_flag_persians.xml" attachpoint="garrisoned"/>
       </props>
     </variant>
     <variant name="death">
@@ -27,7 +27,7 @@
         <prop actor="particle/destruction_smoke_med.xml" attachpoint="root"/>
         <prop actor="particle/destruction_dust_med.xml" attachpoint="root"/>
         <prop actor="particle/destruction_dust_med_gray.xml" attachpoint="root"/>
-        <prop actor="structural/persians/temple.xml" attachpoint="root"/>
+        <prop actor="structures/persians/temple.xml" attachpoint="root"/>
       </props>
     </variant>
   </group>

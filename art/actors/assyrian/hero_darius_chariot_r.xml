@@ -26,8 +26,8 @@
         <prop actor="cape_hd.xml" attachpoint="shoulders"/>
         <prop actor="weapons/bow_recurve.xml" attachpoint="l_hand"/>
         <prop actor="quiver_hip.xml" attachpoint="l_hip"/>
-        <prop actor="weapons/arrow_back.xml" attachpoint="loaded-r_hand"/>
-        <prop actor="weapons/arrow_front.xml" attachpoint="projectile"/>
+        <prop actor="props/weapons/arrow_back.xml" attachpoint="loaded-r_hand"/>
+        <prop actor="props/weapons/arrow_front.xml" attachpoint="projectile"/>
       </props>
       <textures><texture file="skeletal/pers_champ_cav_r_1.png" name="baseTex"/></textures>
     </variant>
@@ -37,8 +37,8 @@
     <variant name="attack_ranged">
       <props>
         <prop actor="weapons/bow_recurve.xml" attachpoint="l_hand"/>
-        <prop actor="weapons/arrow_back.xml" attachpoint="loaded-r_hand"/>
-        <prop actor="weapons/arrow_front.xml" attachpoint="projectile"/>
+        <prop actor="props/weapons/arrow_back.xml" attachpoint="loaded-r_hand"/>
+        <prop actor="props/weapons/arrow_front.xml" attachpoint="projectile"/>
       </props>
     </variant>
   </group>

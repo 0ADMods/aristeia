@@ -19,10 +19,10 @@
         <prop actor="heads/pers_conical_plume.xml" attachpoint="helmet"/>
         <prop actor="heads/pers_hair.xml" attachpoint="helmet"/>
         <prop actor="shields/pers_pelta_a_b_reverse.xml" attachpoint="back"/>
-        <prop actor="weapons/jav.xml" attachpoint="r_hand"/>
-        <prop actor="weapons/jav_ammo.xml" attachpoint="l_hand"/>
-        <prop actor="weapons/jav_loaded.xml" attachpoint="loaded-r_hand"/>
-        <prop actor="weapons/jav_projectile.xml" attachpoint="projectile"/>
+        <prop actor="props/weapons/jav.xml" attachpoint="r_hand"/>
+        <prop actor="props/weapons/jav_ammo.xml" attachpoint="l_hand"/>
+        <prop actor="props/weapons/jav_loaded.xml" attachpoint="loaded-r_hand"/>
+        <prop actor="props/weapons/jav_projectile.xml" attachpoint="projectile"/>
       </props>
     </variant>
   </group>

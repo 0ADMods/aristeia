@@ -14,7 +14,7 @@
     <Static width="13.0" depth="7.0"/>
   </Obstruction>
   <VisualActor>
-    <Actor>structural/persians/wall_short.xml</Actor>
+    <Actor>structures/persians/wall_short.xml</Actor>
   </VisualActor>
   <WallPiece>
   	<Length>13.0</Length>

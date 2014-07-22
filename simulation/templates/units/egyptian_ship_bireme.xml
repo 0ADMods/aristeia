@@ -12,6 +12,6 @@
     <Icon>pers_ship_bireme.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>structural/persians/bireme.xml</Actor>
+    <Actor>structures/persians/bireme.xml</Actor>
   </VisualActor>
 </Entity>
