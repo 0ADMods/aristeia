@@ -5,7 +5,8 @@
     <variant frequency="100" name="Ptolemaic Fortress">
       <mesh>structural/migdol1.dae</mesh>
       <props>
-<prop actor="weapons/arrow_front.xml" attachpoint="projectile"/>
+        <prop actor="props/units/weapons/arrow_front.xml" attachpoint="loaded-projectile"/>
+        <prop actor="props/units/weapons/arrow_front.xml" attachpoint="projectile"/>
       </props>
       <textures>
         <texture file="structural/ptol_struct.png" name="baseTex"/>
@@ -19,7 +20,7 @@
     <variant frequency="100" name="Idle"/>
     <variant name="garrisoned">
       <props>
-        <prop actor="special/common/garrison_flag_hele.xml" attachpoint="garrisoned"/>
+         <prop actor="props/special/common/garrison_flag_persians.xml" attachpoint="garrisoned"/>
       </props>
     </variant>
     <variant name="death">

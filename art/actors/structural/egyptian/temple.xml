@@ -5,7 +5,7 @@
     <variant frequency="100" name="Base">
       <mesh>structural/egyptian_temple.dae</mesh>
       <props>
-        <prop actor="structural/egyptian/temple_water.xml" attachpoint="water"/>
+        <prop actor="water/temple_water.xml" attachpoint="water"/>
       </props>
             <textures><texture file="structural/egyptian_struct.png" name="baseTex"/>
         <texture file="structural/egyptian_struct_norm.png" name="normTex"/>
@@ -18,7 +18,7 @@
     <variant frequency="100" name="Idle"/>
     <variant name="garrisoned">
       <props>
-        <prop actor="special/common/garrison_flag_persians.xml" attachpoint="garrisoned"/>
+        <prop actor="props/special/common/garrison_flag_persians.xml" attachpoint="garrisoned"/>
       </props>
     </variant>
     <variant name="death">

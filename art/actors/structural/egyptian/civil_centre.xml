@@ -7,8 +7,8 @@
       <props>
         <prop actor="props/special/eyecandy/obelisk.xml" attachpoint="obelisk001"/>
         <prop actor="props/special/eyecandy/obelisk.xml" attachpoint="obelisk002"/>
-        <prop actor="weapons/arrow_front.xml" attachpoint="loaded-projectile"/>
-        <prop actor="weapons/arrow_front.xml" attachpoint="projectile"/>
+        <prop actor="props/units/weapons/arrow_front.xml" attachpoint="loaded-projectile"/>
+        <prop actor="props/units/weapons/arrow_front.xml" attachpoint="projectile"/>
         <prop actor="structural/egyptian/civil_dogs.xml" attachpoint="sittingDog001"/>
         <prop actor="structural/egyptian/civil_dogs.xml" attachpoint="sittingDog002"/>
         <prop actor="structural/egyptian/civil_dogs.xml" attachpoint="sittingDog003"/>
@@ -34,7 +34,7 @@
     <variant name="Idle"/>
     <variant name="garrisoned">
       <props>
-        <prop actor="props/special/common/garrison_flag_persian.xml" attachpoint="garrisoned"/>
+        <prop actor="props/special/common/garrison_flag_persians.xml" attachpoint="garrisoned"/>
       </props>
     </variant>
     <variant name="death">
