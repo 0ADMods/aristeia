@@ -15,7 +15,7 @@
     </Resources>
   </Cost>
   <Identity>
-    <Civ>egypt</Civ>
+    <Civ>egyptian</Civ>
     <SelectionGroupName>egyptian_infantry_javelinist_b</SelectionGroupName>
     <GenericName>Egyptian Skirmisher</GenericName>
     <SpecificName>Skirmisher</SpecificName>

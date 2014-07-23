@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_cavalry_ranged_javelinist">
   <Identity>
-    <Civ>egypt</Civ>
+    <Civ>egyptian</Civ>
     <SelectionGroupName>egyptian_cavalry_javelinist_b</SelectionGroupName>
     <GenericName>Nubian Cavalry</GenericName>
     <SpecificName>Ḥayyāl Raḫūv Masili</SpecificName>

@@ -21,7 +21,7 @@
     <SpawnEntityOnDeath>rubble/rubble_1x1pal</SpawnEntityOnDeath>
   </Health>
   <Identity>
-    <Civ>egypt</Civ>
+    <Civ>egyptian</Civ>
     <SelectionGroupName>other/wallset_palisade</SelectionGroupName>
     <SpecificName>Wall</SpecificName>
     <GenericName>Stone Wall</GenericName>

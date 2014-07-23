@@ -8,7 +8,7 @@
     <SpawnEntityOnDeath>rubble/rubble_pers_cc</SpawnEntityOnDeath>
   </Health>
   <Identity>
-    <Civ>egypt</Civ>
+    <Civ>egyptian</Civ>
     <GenericName>Great House</GenericName>
     <SpecificName>Per’Aa</SpecificName>
     <History>The term used for Egyptian kings, “Pharaoh”, literally means “Great House”.</History>

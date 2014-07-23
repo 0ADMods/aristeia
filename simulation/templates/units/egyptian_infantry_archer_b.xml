@@ -21,7 +21,7 @@
     <Max>75</Max>
   </Health>
   <Identity>
-    <Civ>egypt</Civ>
+    <Civ>egyptian</Civ>
 	<SelectionGroupName>egyptian_infantry_archer_b</SelectionGroupName>
 	<GenericName>Egyptian Archer</GenericName>
     <SpecificName>Jary Pedet</SpecificName>

@@ -33,7 +33,7 @@
     </Resources>
   </Cost>
   <Identity>
-    <Civ>egypt</Civ>
+    <Civ>egyptian</Civ>
 	<SelectionGroupName>egyptian_champion_infantry_swordsman</SelectionGroupName>
 	<GenericName>Egyptian Guard</GenericName>
     <SpecificName>Khopesh Medjay</SpecificName>
