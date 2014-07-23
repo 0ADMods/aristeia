@@ -13,8 +13,8 @@
       <mesh>skeletal/m_tunic_short.dae</mesh>
       <props>
         <prop actor="heads/egyptian_head_pharao.xml" attachpoint="head"/>
-        <prop actor="weapons/arrow_back.xml" attachpoint="loaded-r_hand"/>
-        <prop actor="weapons/arrow_front.xml" attachpoint="projectile"/>
+        <prop actor="props/weapons/arrow_back.xml" attachpoint="loaded-r_hand"/>
+        <prop actor="props/weapons/arrow_front.xml" attachpoint="projectile"/>
         <prop actor="weapons/bow_recurve.xml" attachpoint="l_hand"/>
         <prop actor="quiver_back.xml" attachpoint="back"/>
       </props>
@@ -30,8 +30,8 @@
     <variant name="attack_ranged">
       <props>
         <prop actor="weapons/bow_recurve.xml" attachpoint="l_hand"/>
-        <prop actor="weapons/arrow_back.xml" attachpoint="loaded-r_hand"/>
-        <prop actor="weapons/arrow_front.xml" attachpoint="projectile"/>
+        <prop actor="props/weapons/arrow_back.xml" attachpoint="loaded-r_hand"/>
+        <prop actor="props/weapons/arrow_front.xml" attachpoint="projectile"/>
       </props>
     </variant>
     <variant name="death">

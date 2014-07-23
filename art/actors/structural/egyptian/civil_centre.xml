@@ -34,7 +34,7 @@
     <variant name="Idle"/>
     <variant name="garrisoned">
       <props>
-        <prop actor="props/special/common/garrison_flag_persians.xml" attachpoint="garrisoned"/>
+        <prop actor="special/common/garrison_flag.xml" attachpoint="garrisoned"/>
       </props>
     </variant>
     <variant name="death">

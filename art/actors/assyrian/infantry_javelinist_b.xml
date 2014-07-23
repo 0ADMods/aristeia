@@ -43,8 +43,8 @@
       <props>
         <prop actor="heads/head_pers_a.xml" attachpoint="head"/>
         <prop actor="shields/pers_taka_b.xml" attachpoint="shield"/>
-        <prop actor="weapons/jav.xml" attachpoint="r_hand"/>
-        <prop actor="weapons/jav_ammo.xml" attachpoint="l_hand"/>
+        <prop actor="props/weapons/jav.xml" attachpoint="r_hand"/>
+        <prop actor="props/weapons/jav_ammo.xml" attachpoint="l_hand"/>
         <prop actor="cape_hd.xml" attachpoint="shoulders"/>
       </props>
       <textures><texture file="skeletal/pers_ijv_a_1.dds" name="baseTex"/></textures>
@@ -55,8 +55,8 @@
     <variant name="attack_ranged">
       <props>
         <prop attachpoint="r_hand"/>
-        <prop actor="weapons/jav_loaded.xml" attachpoint="loaded-r_hand"/>
-        <prop actor="weapons/jav_projectile.xml" attachpoint="projectile"/>
+        <prop actor="props/weapons/jav_loaded.xml" attachpoint="loaded-r_hand"/>
+        <prop actor="props/weapons/jav_projectile.xml" attachpoint="projectile"/>
       </props>
     </variant>
     <variant name="attack_slaughter">

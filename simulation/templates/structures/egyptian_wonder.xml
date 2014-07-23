@@ -39,6 +39,6 @@
     <RetainInFog>true</RetainInFog>
   </Vision>
   <VisualActor>
-    <Actor>structural/persians/gardens_struct.xml</Actor>
+    <Actor>structures/persians/gardens_struct.xml</Actor>
   </VisualActor>
 </Entity>

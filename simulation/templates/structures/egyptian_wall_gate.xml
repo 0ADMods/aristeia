@@ -17,7 +17,7 @@
     </Obstructions>
   </Obstruction>
   <VisualActor>
-    <Actor>structural/persians/wall_gate.xml</Actor>
+    <Actor>structures/persians/wall_gate.xml</Actor>
   </VisualActor>
   <WallPiece>
   	<Length>37.0</Length>

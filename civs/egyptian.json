@@ -80,23 +80,23 @@
 	"StartEntities":
 	[
 		{
-			"Template": "structures/egypt_civil_centre",
+			"Template": "structures/egyptian_civil_centre",
 			"Count": 1
 		},
 		{
-			"Template": "units/egypt_support_female_citizen",
+			"Template": "units/egyptian_support_female_citizen",
 			"Count": 4
 		},
 		{
-			"Template": "units/egypt_infantry_spearman_b",
+			"Template": "units/egyptian_infantry_spearman_b",
 			"Count": 1
 		},
 		{
-			"Template": "units/egypt_infantry_spearman_a",
+			"Template": "units/egyptian_infantry_spearman_a",
 			"Count": 1
 		},
 		{
-			"Template": "units/egypt_infantry_spearman_e",
+			"Template": "units/egyptian_infantry_spearman_e",
 			"Count": 1
 		}
 	],
