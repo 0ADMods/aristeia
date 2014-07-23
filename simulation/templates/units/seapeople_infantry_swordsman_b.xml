@@ -38,7 +38,7 @@
     </Resources>
   </Cost>
   <Identity>
-    <Civ>seap</Civ>
+    <Civ>seapeople</Civ>
 	<SelectionGroupName>seapeople_champion_infantry_swordsman</SelectionGroupName>
 	<GenericName>Sea People Swordsman</GenericName>
     <SpecificName>Phasgana</SpecificName>

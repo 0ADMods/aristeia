@@ -25,7 +25,7 @@
     </Resources>
   </Cost>
   <Identity>
-    <Civ>egypt</Civ>
+    <Civ>egyptian</Civ>
 	<SelectionGroupName>egyptian_infantry_swordsman_b</SelectionGroupName>
 	<GenericName>Egyptian Axe Warrior</GenericName>
     <SpecificName>Jaqahawi Aha</SpecificName>

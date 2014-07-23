@@ -41,7 +41,7 @@
     </Resources>
   </Cost>
   <Identity>
-    <Civ>egypt</Civ>
+    <Civ>egyptian</Civ>
 	<SelectionGroupName>egyptian_infantry_spearman_b</SelectionGroupName>
 	<GenericName>Egyptian Spearman</GenericName>
     <SpecificName>Mawt Aha</SpecificName>

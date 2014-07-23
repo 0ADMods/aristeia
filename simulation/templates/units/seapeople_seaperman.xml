@@ -39,7 +39,7 @@
     </Resources>
   </Cost>
   <Identity>
-    <Civ>seap</Civ>
+    <Civ>seapeople</Civ>
 	<SelectionGroupName>seapeople_seaperman</SelectionGroupName>
 	<GenericName>Sea People Superhero</GenericName>
     <SpecificName>Seaperman!!!</SpecificName>

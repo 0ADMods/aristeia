@@ -8,7 +8,7 @@
     <SpawnEntityOnDeath>rubble/rubble_pers_dock</SpawnEntityOnDeath>
   </Health>
   <Identity>
-    <Civ>egypt</Civ>
+    <Civ>egyptian</Civ>
     <SpecificName>Jedeb</SpecificName>
     <History>Builds ships.</History>
   </Identity>
