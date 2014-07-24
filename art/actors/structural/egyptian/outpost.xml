@@ -9,8 +9,8 @@
       <mesh>palisade_rocks_outpost.dae</mesh>
       <props>
         <prop actor="special/palisade_rocks_outpost_banners.xml" attachpoint="root"/>
-        <prop actor="props/weapons/arrow_front.xml" attachpoint="loaded-projectile"/>
-        <prop actor="props/weapons/arrow_front.xml" attachpoint="projectile"/>
+        <prop actor="props/units/weapons/arrow_front.xml" attachpoint="loaded-projectile"/>
+        <prop actor="props/units/weapons/arrow_front.xml" attachpoint="projectile"/>
       </props>
       <textures><texture file="palisade_main.png" name="baseTex"/></textures>
     </variant>
