@@ -5,10 +5,10 @@
       <metal>100</metal>
     </Resources>
   </Cost>
-  <Attack>
+<Attack>
     <Convert>
-    	<MaxRange>16</MaxRange>
-    	<MinRange>0</MinRange>
+     <MaxRange>16</MaxRange>
+     <MinRange>0</MinRange>
       <PrepareTime>1000</PrepareTime>
       <RepeatTime>20000</RepeatTime>
     </Convert>
