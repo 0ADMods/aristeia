@@ -13,7 +13,7 @@
             	<texture file="structural/ptol_statues_dog_spec.png" name="specTex"/>
 				<texture file="structural/ao/ptol_statue_dog.png" name="aoTex"/>
 	  		</textures>
-    	</variant>
+    		</variant>
   	</group>
   	<material>player_trans_ao_parallax_spec.xml</material>
 </actor>

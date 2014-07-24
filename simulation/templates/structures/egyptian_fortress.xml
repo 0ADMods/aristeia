@@ -8,7 +8,7 @@
   </Identity>
   <ProductionQueue>
     <Entities datatype="tokens">
-      units/nubianinfantry_spearman_b
+      units/egyptian_infantry_spearman_b
       units/pers_mechanical_siege_ram
       units/egyptian_champion_axeman
       units/egyptian_hero_ramses_ii
