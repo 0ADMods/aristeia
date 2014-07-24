@@ -46,11 +46,8 @@
     <variant frequency="100" name="Idle"/>
     <variant name="attack_ranged">
       <props>
-<<<<<<< HEAD
         <prop actor="weapons/bow_short.xml" attachpoint="l_hand"/>
-=======
         <prop actor="props/units/weapons/bow_short.xml" attachpoint="l_hand"/>
->>>>>>> 7e7658816d8a0514775fb798fd0e1355a31925dd
         <prop actor="props/units/weapons/arrow_back.xml" attachpoint="loaded-r_hand"/>
         <prop actor="props/units/weapons/arrow_front.xml" attachpoint="projectile"/>
       </props>
