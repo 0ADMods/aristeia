@@ -7,7 +7,7 @@
       <animations>
         <animation file="mechanical/waypoint_flag_idle.dae" name="Idle" speed="30"/>
       </animations>
-      <mesh>waypoint_flag.dae</mesh>
+      <mesh>props/waypoint_flag.dae</mesh>
     </variant>
   </group>
   <group>
@@ -47,7 +47,7 @@
     <variant name="maur">
       <textures><texture file="banner_mauryans.png" name="baseTex"/></textures>
     </variant>
-    <variant name="egypt">
+    <variant name="egyptian">
       <textures><texture file="banner_egyptian.png" name="baseTex"/></textures>
     </variant>
   </group>
