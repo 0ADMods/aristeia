@@ -35,8 +35,8 @@
         <prop actor="heads/head_pers_a.xml" attachpoint="head"/>
         <prop actor="weapons/bow_recurve.xml" attachpoint="l_hand"/>
         <prop actor="quiver_hip.xml" attachpoint="l_hip"/>
-        <prop actor="props/weapons/arrow_back.xml" attachpoint="loaded-r_hand"/>
-        <prop actor="props/weapons/arrow_front.xml" attachpoint="projectile"/>
+        <prop actor="props/units/weapons/arrow_back.xml" attachpoint="loaded-r_hand"/>
+        <prop actor="props/units/weapons/arrow_front.xml" attachpoint="projectile"/>
       </props>
       <textures><texture file="skeletal/pers_iar_b_1.dds" name="baseTex"/></textures>
     </variant>
@@ -46,8 +46,8 @@
     <variant name="attack_ranged">
       <props>
         <prop actor="weapons/bow_recurve.xml" attachpoint="l_hand"/>
-        <prop actor="props/weapons/arrow_back.xml" attachpoint="loaded-r_hand"/>
-        <prop actor="props/weapons/arrow_front.xml" attachpoint="projectile"/>
+        <prop actor="props/units/weapons/arrow_back.xml" attachpoint="loaded-r_hand"/>
+        <prop actor="props/units/weapons/arrow_front.xml" attachpoint="projectile"/>
       </props>
     </variant>
     <variant name="attack_slaughter">

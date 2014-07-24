@@ -17,8 +17,8 @@
     <Max>85</Max>
   </Health>
   <Identity>
-    <Classes datatype="tokens">Healer</Classes>
-    <GenericName>Healer</GenericName>
+    <Classes datatype="tokens">Priest</Classes>
+    <GenericName>Priest</GenericName>
     <Tooltip>Heal units.</Tooltip>
     <Rank>Basic</Rank>
   </Identity>

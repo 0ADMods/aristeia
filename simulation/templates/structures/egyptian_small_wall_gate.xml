@@ -37,7 +37,7 @@
   </StatusBars>
   <VisualActor>
     <FoundationActor>structural/fndn_1x3pal.xml</FoundationActor>
-    <Actor>special/palisade_rocks_gate.xml</Actor>
+    <Actor>props/special/palisade_rocks_gate.xml</Actor>
   </VisualActor>
   <TerritoryInfluence disable=""/>
   <WallPiece>

@@ -23,8 +23,8 @@
         <prop actor="heads/head_pers_b.xml" attachpoint="head"/>
         <prop actor="weapons/bow_recurve.xml" attachpoint="l_hand"/>
         <prop actor="quiver_hip.xml" attachpoint="l_hip"/>
-        <prop actor="props/weapons/arrow_back.xml" attachpoint="loaded-r_hand"/>
-        <prop actor="props/weapons/arrow_front.xml" attachpoint="projectile"/>
+        <prop actor="props/units/weapons/arrow_back.xml" attachpoint="loaded-r_hand"/>
+        <prop actor="props/units/weapons/arrow_front.xml" attachpoint="projectile"/>
         <prop actor="shields/pers_pelta_a_b_reverse.xml" attachpoint="back"/>
         <prop actor="heads/pers_conical_plume.xml" attachpoint="helmet"/>
         <prop actor="heads/pers_neckguard.xml" attachpoint="head"/>
@@ -37,8 +37,8 @@
     <variant name="attack_ranged">
       <props>
         <prop actor="weapons/bow_recurve.xml" attachpoint="l_hand"/>
-        <prop actor="props/weapons/arrow_back.xml" attachpoint="loaded-r_hand"/>
-        <prop actor="props/weapons/arrow_front.xml" attachpoint="projectile"/>
+        <prop actor="props/units/weapons/arrow_back.xml" attachpoint="loaded-r_hand"/>
+        <prop actor="props/units/weapons/arrow_front.xml" attachpoint="projectile"/>
       </props>
     </variant>
   </group>
