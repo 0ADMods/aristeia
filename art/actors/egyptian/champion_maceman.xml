@@ -24,7 +24,7 @@
       <mesh>skeletal/m_tunic_long.dae</mesh>
       <props>
        <prop actor="shields/egyptian_shield_c.xml" attachpoint="shield"/>
-        <prop actor="heads/head_egyptian_e.xml" attachpoint="head"/>
+        <prop actor="props/units/heads/head_egyptian_e.xml" attachpoint="head"/>
         <prop actor="heads/pers_conical.xml" attachpoint="helmet"/>
         <prop actor="props/weapons/mace_mauryan.xml" attachpoint="r_hand"/>
       </props>
