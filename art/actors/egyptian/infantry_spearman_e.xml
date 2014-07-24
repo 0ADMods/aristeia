@@ -50,7 +50,7 @@
   <group>
     <variant frequency="1" name="pectoral--plain">
       <textures>
-        <texture file="skeletal/egyp_marine2.png" name="baseTex"/>>
+        <texture file="skeletal/egyptian_marine2.png" name="baseTex"/>>
       </textures>
     </variant>
   </group>

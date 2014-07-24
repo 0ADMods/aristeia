@@ -11,6 +11,6 @@
     <HeightOffset>19.0</HeightOffset>
   </StatusBars>
   <VisualActor>
-    <Actor>structural/egyptian/defence_tower.xml</Actor>
+    <Actor>structural/egyptian/defense_tower.xml</Actor>
   </VisualActor>
 </Entity>

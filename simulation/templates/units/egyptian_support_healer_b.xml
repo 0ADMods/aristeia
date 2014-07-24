@@ -13,6 +13,6 @@
     <Entity>units/pers_support_healer_a</Entity>
   </Promotion>
   <VisualActor>
-    <Actor>persians/healer.xml</Actor>
+    <Actor>units/persians/healer.xml</Actor>
   </VisualActor>
 </Entity>

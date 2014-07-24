@@ -24,6 +24,6 @@
     <GainMultiplier>1.25</GainMultiplier>
   </Trader>
   <VisualActor>
-    <Actor>persians/trader.xml</Actor>
+    <Actor>units/persians/trader.xml</Actor>
   </VisualActor>
 </Entity>

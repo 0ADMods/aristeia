@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_support_converter">
+  <Identity>
+    <Civ>egyptian</Civ>
+    <SelectionGroupName>pers_support_healer_b</SelectionGroupName>
+    <GenericName>Unit Converter</GenericName>
+    <SpecificName>Maguš Mada</SpecificName>
+    <History>Throughout history priests tried to convert other people to their own belief. It must not have been purely religious, it couuld also have served military purposes.</History>
+    <Icon>egyptian_support_healer.png</Icon>
+    <Rank>Basic</Rank>
+  </Identity>
+  <Heal>
+    <Range>15</Range>
+    <HP>7</HP>
+  </Heal>
+  <Health>
+    <Max>95</Max>
+  </Health>
+  <Promotion disable=""/>
+  <VisualActor>
+    <Actor>egyptian/priest.xml</Actor>
+  </VisualActor>
+</Entity>
+
+
