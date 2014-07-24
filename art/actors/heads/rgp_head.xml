@@ -6,7 +6,7 @@
 			<mesh>props/dude_head.dae</mesh>
 			<textures>
 					<texture file="heads/royal_guard.png" name="baseTex"/>
-					<texture file="head/ptol_healer_spec.png" name="specTex"/>
+					<texture file="skeletal/ptol_healer_spec.png" name="specTex"/>
 			</textures>
 		</variant>
 	</group>
