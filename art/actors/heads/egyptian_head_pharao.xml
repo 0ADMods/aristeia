@@ -4,7 +4,7 @@
   <group>
     <variant frequency="100" name="Base">
       <colour>241 202 112</colour>
-      <mesh>egyptian_head_pharao.dae</mesh>
+      <mesh>heads/egyptian_head_pharao.dae</mesh>
       <textures><texture file="heads/head_pharao.png" name="baseTex"/></textures>
 	  <props>
 		  <prop actor="heads/egyptian_beard_pharao.xml" attachpoint="chin"></prop>

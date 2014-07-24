@@ -58,7 +58,7 @@
       <mesh>skeletal/m_tunic_long.dae</mesh>
       <props>
         <prop actor="heads/rgp_head.xml" attachpoint="head"/>
-        <prop actor="weapons/axe_twohanded_egypt.xml" attachpoint="r_hand"/>
+        <prop actor="weapons/egyptian_axe_twohanded.xml" attachpoint="r_hand"/>
         <prop actor="shields/egyptian_shield_b_rgp.xml" attachpoint="shield"/>
           </props>
       <textures>
