@@ -33,7 +33,7 @@
     <History>The Egyptian battle axe, used during the Old and Middle Kingdoms, was effective at cutting apart enemies who, like the Egyptians themselves, did not wear much body armor. This weapon was replaced by the sword during the New Kingdom.</History>
   </Identity>
   <Promotion>
-    <Entity>units/egyptian_infantry_swordsman_a</Entity>
+    <Entity>units/egyptian_infantry_axeman_a</Entity>
   </Promotion>
   <VisualActor>
     <Actor>egyptian/infantry_axeman_b.xml</Actor>

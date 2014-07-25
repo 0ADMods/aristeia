@@ -49,7 +49,7 @@
       <props>
         <prop actor="helmets/egyptian_hair_a.xml" attachpoint="head"/>
         <prop actor="heads/egyptian_head_e.xml" attachpoint="head"/>
-	<prop actor="shields/egyptian_shield_b.xml" attachpoint="shield"/>
+		<prop actor="shields/egyptian_shield_b.xml" attachpoint="shield"/>
         <prop actor="weapons/egyptian_axe_a.xml" attachpoint="r_hand"/>
       </props>
     </variant>

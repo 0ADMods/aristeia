@@ -49,7 +49,8 @@
 Counters: 2x vs. Structures, 1.25x vs. Spearmen and Elephants.
 Countered by: Archers and Cavalry Spearmen.</Tooltip>
   </Identity>
+   <Promotion disable=''/>
   <VisualActor>
-    <Actor>egyptian/champion_maceman.xml</Actor>
+    <Actor>egyptian/champion_infantry_maceman.xml</Actor>
   </VisualActor>
 </Entity>

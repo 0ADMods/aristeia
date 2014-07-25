@@ -26,7 +26,6 @@
        <prop actor="shields/egyptian_shield_c.xml" attachpoint="shield"/>
         <prop actor="heads/egyptian_head_e.xml" attachpoint="head"/>
         <prop actor="props/units/heads/pers_conical.xml" attachpoint="helmet"/>
-        <prop actor="props/units/heads/egyptian_head_e.xml" attachpoint="head"/>
         <prop actor="props/units/heads/pers_conical.xml" attachpoint="helmet"/>
         <prop actor="props/units/weapons/mace_mauryan.xml" attachpoint="r_hand"/>
       </props>
@@ -43,7 +42,7 @@
     <variant frequency="1" name="Idle"/>
     <variant name="death">
       <props>
-        <prop actor="blood_01.xml" attachpoint="root"/>
+        <prop actor="props/units/blood_01.xml" attachpoint="root"/>
       </props>
     </variant>
   </group>

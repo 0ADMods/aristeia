@@ -39,10 +39,12 @@ Los Medjais estaban asentados en la Baja Nubia, entre el río Nilo y el Mar Rojo
       <Speed>18.0</Speed>
     </Run>
   </UnitMotion>
+     <Promotion disable=''/>
   <Vision>
+
     <Range>88</Range>
   </Vision>
   <VisualActor>
-    <Actor>egyptian/champion_axemanrg</Actor>
+    <Actor>egyptian/champion_infantry_royal_guard.xml</Actor>
   </VisualActor>
 </Entity>

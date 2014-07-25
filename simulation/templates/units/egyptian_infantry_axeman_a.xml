@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="units/egyptian_infantry_swordsman_b">
+<Entity parent="units/egyptian_infantry_axeman_b">
   <Armour>
     <Pierce>6.0</Pierce>
   </Armour>
@@ -15,7 +15,7 @@
     <Rank>Advanced</Rank>
   </Identity>
   <Promotion>
-    <Entity>units/egyptian_infantry_swordsman_e</Entity>
+    <Entity>units/egyptian_infantry_axeman_e</Entity>
   </Promotion>
   <ResourceGatherer>
     <BaseSpeed>0.75</BaseSpeed>

@@ -40,10 +40,8 @@
     <Icon>egyptian_infantry_swordsman.png</Icon>
     <History></History>
   </Identity>
-  <Promotion>
-    <Entity>units/egyptian_infantry_swordsman_a</Entity>
-  </Promotion>
+  <Promotion disable=''/>
   <VisualActor>
-    <Actor>egyptian/infantry_swordsman.xml</Actor>
+    <Actor>egyptian/champion_infantry_swordsman.xml</Actor>
   </VisualActor>
 </Entity>

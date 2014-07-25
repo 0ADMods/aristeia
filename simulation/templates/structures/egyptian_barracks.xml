@@ -10,10 +10,10 @@
   <ProductionQueue>
     <Entities datatype="tokens">
       units/egyptian_infantry_spearman_b
-      units/egyptian_infantry_swordsman_b
+      units/egyptian_infantry_axeman_b
       units/egyptian_infantry_archer_b
-      units/egyptian_cavalry_swordsman_b
       units/egyptian_infantry_javelinist_b
+      units/egyptian_cavalry_swordsman_b
       units/egyptian_cavalry_javelinist_b
     </Entities>
     <Technologies datatype="tokens">

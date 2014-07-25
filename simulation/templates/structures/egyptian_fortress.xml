@@ -8,11 +8,12 @@
   </Identity>
   <ProductionQueue>
     <Entities datatype="tokens">
-      units/egyptian_infantry_spearman_b
+
       units/pers_mechanical_siege_ram
-      units/egyptian_champion_axeman
+      units/egyptian_champion_infantry_maceman
+      units/egyptian_champion_infantry_swordsman	  
       units/egyptian_hero_ramses_ii
-      units/egyptian_royal_guard_axe
+      units/egyptian_champion_infantry_royal_guard
     </Entities>
     <Technologies datatype="tokens">
       pair_siege_attack_cost
