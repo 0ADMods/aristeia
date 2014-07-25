@@ -22,7 +22,7 @@
         <prop actor="heads/head_pers_xerxes.xml" attachpoint="head"/>
         <prop actor="heads/pers_crown.xml" attachpoint="helmet"/>
         <prop actor="heads/pers_hair_xerxes.xml" attachpoint="helmet"/>
-        <prop actor="weapons/bow_recurve.xml" attachpoint="l_hand"/>
+        <prop actor="props/units/weapons/bow_recurve.xml" attachpoint="l_hand"/>
         <prop actor="props/units/weapons/arrow_back.xml" attachpoint="loaded-r_hand"/>
         <prop actor="props/units/weapons/arrow_front.xml" attachpoint="projectile"/>
         <prop actor="pers_quiver_xerxes.xml" attachpoint="back"/>
@@ -34,7 +34,7 @@
     <variant frequency="100" name="Idle"/>
     <variant name="attack_ranged">
       <props>
-        <prop actor="weapons/bow_recurve.xml" attachpoint="l_hand"/>
+        <prop actor="props/units/weapons/bow_recurve.xml" attachpoint="l_hand"/>
         <prop actor="props/units/weapons/arrow_back.xml" attachpoint="loaded-r_hand"/>
         <prop actor="props/units/weapons/arrow_front.xml" attachpoint="projectile"/>
       </props>

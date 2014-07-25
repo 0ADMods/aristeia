@@ -34,7 +34,7 @@
       <props>
         <prop actor="heads/head_pers_a.xml" attachpoint="head"/>
         <prop actor="heads/pers_kidaris_loose_all.xml" attachpoint="helmet"/>
-        <prop actor="weapons/bow_recurve.xml" attachpoint="l_hand"/>
+        <prop actor="props/units/weapons/bow_recurve.xml" attachpoint="l_hand"/>
         <prop actor="quiver_hip.xml" attachpoint="l_hip"/>
         <prop actor="props/units/weapons/arrow_back.xml" attachpoint="loaded-r_hand"/>
         <prop actor="props/units/weapons/arrow_front.xml" attachpoint="projectile"/>
@@ -57,31 +57,31 @@
     <variant frequency="100" name="Idle"/>
     <variant name="attack_ranged">
       <props>
-        <prop actor="weapons/bow_recurve.xml" attachpoint="l_hand"/>
+        <prop actor="props/units/weapons/bow_recurve.xml" attachpoint="l_hand"/>
         <prop actor="props/units/weapons/arrow_back.xml" attachpoint="loaded-r_hand"/>
         <prop actor="props/units/weapons/arrow_front.xml" attachpoint="projectile"/>
       </props>
     </variant>
     <variant name="attack_slaughter">
       <props>
-        <prop actor="weapons/knife.xml" attachpoint="r_hand"/>
+        <prop actor="props/units/weapons/knife.xml" attachpoint="r_hand"/>
       </props>
     </variant>
     <variant name="gather_tree">
       <props>
-        <prop actor="tools/axe.xml" attachpoint="l_hand"/>
+        <prop actor="props/units/tools/axe.xml" attachpoint="l_hand"/>
         <prop attachpoint="r_hand"/>
       </props>
     </variant>
     <variant name="gather_grain">
       <props>
-        <prop actor="tools/hoe.xml" attachpoint="l_hand"/>
+        <prop actor="props/units/tools/hoe.xml" attachpoint="l_hand"/>
         <prop attachpoint="r_hand"/>
       </props>
     </variant>
     <variant name="gather_fruit">
       <props>
-        <prop actor="tools/basket.xml" attachpoint="l_leg"/>
+        <prop actor="props/units/tools/basket.xml" attachpoint="l_leg"/>
         <prop attachpoint="l_hand"/>
         <prop attachpoint="r_hand"/>
       </props>
@@ -90,30 +90,30 @@
       <props>
         <prop attachpoint="r_hand"/>
         <prop attachpoint="l_hand"/>
-        <prop actor="tools/basket.xml" attachpoint="l_leg"/>
+        <prop actor="props/units/tools/basket.xml" attachpoint="l_leg"/>
       </props>
     </variant>
     <variant name="gather_rock">
       <props>
-        <prop actor="tools/pick.xml" attachpoint="l_hand"/>
+        <prop actor="props/units/tools/pick.xml" attachpoint="l_hand"/>
         <prop attachpoint="r_hand"/>
       </props>
     </variant>
     <variant name="gather_ore">
       <props>
-        <prop actor="tools/pick.xml" attachpoint="l_hand"/>
+        <prop actor="props/units/tools/pick.xml" attachpoint="l_hand"/>
         <prop attachpoint="r_hand"/>
       </props>
     </variant>
     <variant name="gather_ruins">
       <props>
-        <prop actor="tools/pick.xml" attachpoint="l_hand"/>
+        <prop actor="props/units/tools/pick.xml" attachpoint="l_hand"/>
         <prop attachpoint="r_hand"/>
       </props>
     </variant>
     <variant name="Build">
       <props>
-        <prop actor="tools/mallet.xml" attachpoint="r_hand"/>
+        <prop actor="props/units/tools/mallet.xml" attachpoint="r_hand"/>
         <prop attachpoint="l_hand"/>
       </props>
     </variant>

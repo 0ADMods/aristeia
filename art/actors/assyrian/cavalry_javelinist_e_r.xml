@@ -41,7 +41,7 @@
     <variant frequency="100" name="Idle"/>
     <variant name="attack_slaughter">
       <props>
-        <prop actor="weapons/akin.xml" attachpoint="r_hand"/>
+        <prop actor="props/units/weapons/akin.xml" attachpoint="r_hand"/>
       </props>
     </variant>
     <variant name="carry_meat">
@@ -53,7 +53,7 @@
     </variant>
     <variant name="gather_meat">
       <props>
-        <prop actor="weapons/akin.xml" attachpoint="r_hand"/>
+        <prop actor="props/units/weapons/akin.xml" attachpoint="r_hand"/>
       </props>
     </variant>
   </group>

@@ -62,21 +62,21 @@
     </variant>
     <variant name="attack_slaughter">
       <props>
-        <prop actor="weapons/knife.xml" attachpoint="r_hand"/>
+        <prop actor="props/units/weapons/knife.xml" attachpoint="r_hand"/>
       </props>
     </variant>
     <variant name="gather_tree">
       <props>
         <prop attachpoint="shield"/>
         <prop attachpoint="r_hand"/>
-        <prop actor="tools/axe.xml" attachpoint="l_hand"/>
+        <prop actor="props/units/tools/axe.xml" attachpoint="l_hand"/>
       </props>
     </variant>
     <variant name="gather_grain">
       <props>
         <prop attachpoint="shield"/>
         <prop attachpoint="r_hand"/>
-        <prop actor="tools/hoe.xml" attachpoint="l_hand"/>
+        <prop actor="props/units/tools/hoe.xml" attachpoint="l_hand"/>
       </props>
     </variant>
     <variant name="gather_fruit">
@@ -84,7 +84,7 @@
         <prop attachpoint="shield"/>
         <prop attachpoint="r_hand"/>
         <prop attachpoint="l_hand"/>
-        <prop actor="tools/basket.xml" attachpoint="l_leg"/>
+        <prop actor="props/units/tools/basket.xml" attachpoint="l_leg"/>
       </props>
     </variant>
     <variant name="gather_meat">
@@ -92,35 +92,35 @@
         <prop attachpoint="shield"/>
         <prop attachpoint="r_hand"/>
         <prop attachpoint="l_hand"/>
-        <prop actor="tools/basket.xml" attachpoint="l_leg"/>
+        <prop actor="props/units/tools/basket.xml" attachpoint="l_leg"/>
       </props>
     </variant>
     <variant name="gather_rock">
       <props>
         <prop attachpoint="shield"/>
         <prop attachpoint="r_hand"/>
-        <prop actor="tools/pick.xml" attachpoint="l_hand"/>
+        <prop actor="props/units/tools/pick.xml" attachpoint="l_hand"/>
       </props>
     </variant>
     <variant name="gather_ore">
       <props>
         <prop attachpoint="shield"/>
         <prop attachpoint="r_hand"/>
-        <prop actor="tools/pick.xml" attachpoint="l_hand"/>
+        <prop actor="props/units/tools/pick.xml" attachpoint="l_hand"/>
       </props>
     </variant>
     <variant name="gather_ruins">
       <props>
         <prop attachpoint="shield"/>
         <prop attachpoint="r_hand"/>
-        <prop actor="tools/pick.xml" attachpoint="l_hand"/>
+        <prop actor="props/units/tools/pick.xml" attachpoint="l_hand"/>
       </props>
     </variant>
     <variant name="Build">
       <props>
         <prop attachpoint="shield"/>
         <prop attachpoint="l_hand"/>
-        <prop actor="tools/mallet.xml" attachpoint="r_hand"/>
+        <prop actor="props/units/tools/mallet.xml" attachpoint="r_hand"/>
       </props>
     </variant>
     <variant name="carry_food">

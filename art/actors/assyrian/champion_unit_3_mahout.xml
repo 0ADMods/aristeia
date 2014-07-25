@@ -12,7 +12,7 @@
       <mesh>skeletal/m_tights.dae</mesh>
       <props>
         <prop actor="heads/head_indian_a.xml" attachpoint="head"/>
-        <prop actor="weapons/axe_single.xml" attachpoint="r_hand"/>
+        <prop actor="props/units/weapons/axe_single.xml" attachpoint="r_hand"/>
         <prop actor="shields/pers_buckler_1.xml" attachpoint="shield"/>
       </props>
     </variant>
