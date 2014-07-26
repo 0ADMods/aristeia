@@ -10,7 +10,7 @@
       </animations>
       <mesh>structures/pers_chariot_e.dae</mesh>
       <props>
-        <prop actor="pers_chariot_e_emblem.xml" attachpoint="root"/>
+        <prop actor="props/units/pers_chariot_e_emblem.xml" attachpoint="root"/>
         <prop actor="persians/pers_chariot_archer_e_h1.xml" attachpoint="horse1"/>
         <prop actor="persians/pers_chariot_archer_e_h2.xml" attachpoint="horse2"/>
         <prop actor="persians/pers_chariot_archer_e_h3.xml" attachpoint="horse3"/>

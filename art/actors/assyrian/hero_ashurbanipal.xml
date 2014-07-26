@@ -19,13 +19,13 @@
       </animations>
       <mesh>skeletal/m_dress_cuffs.dae</mesh>
       <props>
-        <prop actor="heads/head_pers_xerxes.xml" attachpoint="head"/>
-        <prop actor="heads/pers_crown.xml" attachpoint="helmet"/>
-        <prop actor="heads/pers_hair_xerxes.xml" attachpoint="helmet"/>
+        <prop actor="props/units/heads/head_pers_xerxes.xml" attachpoint="head"/>
+        <prop actor="helmets/assyrian_nimrud_tiara.xml" attachpoint="helmet"/>
+        <prop actor="props/units/heads/pers_hair_xerxes.xml" attachpoint="helmet"/>
         <prop actor="props/units/weapons/bow_recurve.xml" attachpoint="l_hand"/>
         <prop actor="props/units/weapons/arrow_back.xml" attachpoint="loaded-r_hand"/>
         <prop actor="props/units/weapons/arrow_front.xml" attachpoint="projectile"/>
-        <prop actor="pers_quiver_xerxes.xml" attachpoint="back"/>
+        <prop actor="props/units/pers_quiver_xerxes.xml" attachpoint="back"/>
       </props>
       <textures><texture file="skeletal/pers_hero_xerxes.png" name="baseTex"/></textures>
     </variant>
