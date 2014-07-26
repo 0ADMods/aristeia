@@ -39,7 +39,7 @@
   </Cost>
   <Identity>
     <Civ>seapeople</Civ>
-	<SelectionGroupName>seapeople_champion_infantry_swordsman</SelectionGroupName>
+	<SelectionGroupName>units/seapeople_champion_infantry_swordsman</SelectionGroupName>
 	<GenericName>Sea People Swordsman</GenericName>
     <SpecificName>Phasgana</SpecificName>
     <Icon>units/egyptianinfantry_swordsman.png</Icon>

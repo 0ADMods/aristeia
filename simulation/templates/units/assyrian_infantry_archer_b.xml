@@ -2,14 +2,14 @@
 <Entity parent="template_unit_infantry_ranged_archer">
   <Builder>
     <Entities datatype="tokens">
-      structural/assyrian_stables
-      structural/assyrian_apadana
-      structural/{civ}_wonder
+      structures/assyrian_stables
+      structures/assyrian_apadana
+      structures/{civ}_wonder
     </Entities>
   </Builder>
   <Identity>
     <Civ>assyrian</Civ>
-	<SelectionGroupName>assyrian_infantry_archer_b</SelectionGroupName>
+	<SelectionGroupName>units/assyrian_infantry_archer_b</SelectionGroupName>
 	<GenericName>Sogdian Archer</GenericName>
     <SpecificName>Sugda Vaçabara</SpecificName>
     <Icon>units/assyrian_infantry_archer.png</Icon>

@@ -10,8 +10,8 @@
   <Builder>
     <Entities datatype="tokens">
     -other/wallset_palisade
-    structural/egyptian_wallset_small
-      structural/egyptian_large_temple
+    structures/egyptian_wallset_small
+      structures/egyptian_large_temple
     </Entities>
   </Builder>
   <Cost>
@@ -22,7 +22,7 @@
   </Health>
   <Identity>
     <Civ>egyptian</Civ>
-	<SelectionGroupName>egyptian_infantry_archer_b</SelectionGroupName>
+	<SelectionGroupName>units/egyptian_infantry_archer_b</SelectionGroupName>
 	<GenericName>Egyptian Archer</GenericName>
     <SpecificName>Jary Pedet</SpecificName>
     <Icon>units/egyptian_infantry_archer.png</Icon>

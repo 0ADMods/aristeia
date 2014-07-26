@@ -40,7 +40,7 @@
   </Cost>
   <Identity>
     <Civ>seapeople</Civ>
-	<SelectionGroupName>seapeople_seaperman</SelectionGroupName>
+	<SelectionGroupName>units/seapeople_seaperman</SelectionGroupName>
 	<GenericName>Sea People Superhero</GenericName>
     <SpecificName>Seaperman!!!</SpecificName>
     <Icon>units/egyptianinfantry_swordsman.png</Icon>

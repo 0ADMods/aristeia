@@ -26,7 +26,7 @@
       <mesh>skeletal/horse.pmd</mesh>
       <props>
         <prop actor="persians/cavalry_swordsman_e_r.xml" attachpoint="rider"/>
-        <prop actor="horse/pers_peytral_iron.xml" attachpoint="chest"/>
+        <prop actor="props/units/pers_peytral_iron.xml" attachpoint="chest"/>
       </props>
     </variant>
   </group>

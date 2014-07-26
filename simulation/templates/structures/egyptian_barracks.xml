@@ -5,7 +5,7 @@
     <SpecificName>Tepeg</SpecificName>
     <History>Egyptian Barracks</History>
     <Tooltip>Levy citizen-infantry units.</Tooltip>
-    <Icon>structural/pers_barracks.png</Icon>
+    <Icon>structures/pers_barracks.png</Icon>
   </Identity>
   <ProductionQueue>
     <Entities datatype="tokens">

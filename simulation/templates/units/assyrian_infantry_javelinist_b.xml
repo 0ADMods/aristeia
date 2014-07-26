@@ -2,12 +2,12 @@
 <Entity parent="template_unit_infantry_ranged_javelinist">
   <Builder>
     <Entities datatype="tokens">
-      structural/assyrian_monument
+      structures/assyrian_monument
     </Entities>
   </Builder>
   <Identity>
     <Civ>assyrian</Civ>
-    <SelectionGroupName>assyrian_infantry_javelinist_b</SelectionGroupName>
+    <SelectionGroupName>units/assyrian_infantry_javelinist_b</SelectionGroupName>
     <GenericName>Chaldean Skirmisher</GenericName>
     <SpecificName>Nērāru (lit., "Auxiliary")
     </SpecificName>

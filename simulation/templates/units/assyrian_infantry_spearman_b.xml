@@ -2,12 +2,12 @@
 <Entity parent="template_unit_infantry_melee_spearman">
   <Builder>
     <Entities datatype="tokens">
-      structural/assyrian_monument
+      structures/assyrian_monument
     </Entities>
   </Builder>
   <Identity>
     <Civ>assyrian</Civ>
-    <SelectionGroupName>assyrian_infantry_spearman_b</SelectionGroupName>
+    <SelectionGroupName>units/assyrian_infantry_spearman_b</SelectionGroupName>
     <GenericName>Neo-Hittite Spearman</GenericName>
     <SpecificName>Ša-arīti
     </SpecificName>

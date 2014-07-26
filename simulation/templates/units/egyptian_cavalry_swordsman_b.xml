@@ -2,7 +2,7 @@
 <Entity parent="template_unit_cavalry_melee_swordsman">
   <Identity>
     <Civ>egyptian</Civ>
-	<SelectionGroupName>egyptian_cavalry_swordsman_b</SelectionGroupName>
+	<SelectionGroupName>units/egyptian_cavalry_swordsman_b</SelectionGroupName>
     <GenericName>Egyptian Raiding Cavalry</GenericName>
     <SpecificName>Aśvārohagaṇaḥ</SpecificName>
     <History/>

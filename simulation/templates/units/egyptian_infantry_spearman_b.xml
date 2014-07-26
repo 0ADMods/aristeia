@@ -29,8 +29,8 @@
   <Builder>
     <Entities datatype="tokens">
 	  -other/wallset_palisade
-    structural/egyptian_wallset_small
-      structural/egyptian_large_temple
+    structures/egyptian_wallset_small
+      structures/egyptian_large_temple
     </Entities>
   </Builder>
   <Cost>
@@ -42,7 +42,7 @@
   </Cost>
   <Identity>
     <Civ>egyptian</Civ>
-	<SelectionGroupName>egyptian_infantry_spearman_b</SelectionGroupName>
+	<SelectionGroupName>units/egyptian_infantry_spearman_b</SelectionGroupName>
 	<GenericName>Egyptian Spearman</GenericName>
     <SpecificName>Mawt Aha</SpecificName>
     <Icon>units/egyptian_infantry_spearman.png</Icon>
