@@ -25,7 +25,9 @@ Heal.prototype.ConvertHeal = function(target, source)
         //warn[(]'Unit ' + target + ' from Player '+ prevOwner +'  converted to Player ' + source_cmpOwnership.GetOwner() + ' by Healer: ' + source);//1); //<-- TODO make dynamic, add to converting player.
     }
     else
+	{
         //warn[(]'Unit ' + target + ' already belongs to Player ' + prevOwner);
+    }
 
 };
 
