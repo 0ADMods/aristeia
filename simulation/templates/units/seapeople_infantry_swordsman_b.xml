@@ -42,7 +42,7 @@
 	<SelectionGroupName>seapeople_champion_infantry_swordsman</SelectionGroupName>
 	<GenericName>Sea People Swordsman</GenericName>
     <SpecificName>Phasgana</SpecificName>
-    <Icon>egyptianinfantry_swordsman.png</Icon>
+    <Icon>units/egyptianinfantry_swordsman.png</Icon>
     <History></History>
   </Identity>
   <VisualActor>

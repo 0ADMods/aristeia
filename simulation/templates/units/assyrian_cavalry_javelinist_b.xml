@@ -5,7 +5,7 @@
 	<SelectionGroupName>assyrian_cavalry_javelinist_b</SelectionGroupName>
     <SpecificName>Kantabriako Zaldun</SpecificName>
     <History></History>
-    <Icon>assyrian_cavalry_javelinist.png</Icon>
+    <Icon>units/assyrian_cavalry_javelinist.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/assyrian_cavalry_javelinist_a</Entity>

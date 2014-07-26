@@ -43,7 +43,7 @@
 	<SelectionGroupName>seapeople_seaperman</SelectionGroupName>
 	<GenericName>Sea People Superhero</GenericName>
     <SpecificName>Seaperman!!!</SpecificName>
-    <Icon>egyptianinfantry_swordsman.png</Icon>
+    <Icon>units/egyptianinfantry_swordsman.png</Icon>
     <History></History>
   </Identity>
   <UnitMotion>

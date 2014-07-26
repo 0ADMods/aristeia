@@ -4,7 +4,7 @@
     <Civ>egyptian</Civ>
     <SpecificName>?</SpecificName>
     <History>...</History>
-    <Icon>pers_ship_fishing.png</Icon>
+    <Icon>units/pers_ship_fishing.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>structures/persians/fishship.xml</Actor>

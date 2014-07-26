@@ -6,7 +6,7 @@
     <GenericName>Nubian Cavalry</GenericName>
     <SpecificName>Ḥayyāl Raḫūv Masili</SpecificName>
     <History>Needs history</History>
-    <Icon>egyptian_cavalry_javelinist.png</Icon>
+    <Icon>units/egyptian_cavalry_javelinist.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/egyptian_cavalry_javelinist_a</Entity>

@@ -12,7 +12,7 @@
     <Civ>assyrian</Civ>
     <GenericName>Cardaces Skirmisher</GenericName>
     <SpecificName>Peltastes Kardakes</SpecificName>
-    <Icon>assyrian_kardakes_skirmisher.png</Icon>
+    <Icon>units/assyrian_kardakes_skirmisher.png</Icon>
     <History>The Kardakes were the Persian answer to the Greek hoplite. They were fielded in large numbers by Darius III in a bid to resist Alexander the Great's invasion.</History>
   </Identity>
   <VisualActor>

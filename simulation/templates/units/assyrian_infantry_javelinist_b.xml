@@ -14,7 +14,7 @@
     <History>
         Sennacherib described a battle with the Elamites: "At the command of the god Ashur, the great Lord, I rushed upon the enemy like the approach of a hurricane... I put them to rout and turned them back. I trasfixed the troops of the enemy with javelins and arrows." (Note: That a ruler talking only about himself and omitting the others that took part, was a typical characteristic for emperors over the course of history.) 
     </History>
-	<Icon>assyrian_infantry_javelinist.png</Icon>
+	<Icon>units/assyrian_infantry_javelinist.png</Icon>
   </Identity>
   <Promotion disable="">
     <Entity>units/assyrian_infantry_javelinist_a</Entity>

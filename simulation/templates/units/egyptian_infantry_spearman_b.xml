@@ -45,7 +45,7 @@
 	<SelectionGroupName>egyptian_infantry_spearman_b</SelectionGroupName>
 	<GenericName>Egyptian Spearman</GenericName>
     <SpecificName>Mawt Aha</SpecificName>
-    <Icon>egyptian_infantry_spearman.png</Icon>
+    <Icon>units/egyptian_infantry_spearman.png</Icon>
     <History>The spear, originally used for hunting, was among the earliest weapons in the Egyptian arsenal. Wooden models carved in the shape of Egyptian spearmen were found in the Middle Kingdom tomb of Mesehti. Spears were also used by the chariotry when they ran out of arrows.</History>
   </Identity>
   <Promotion>

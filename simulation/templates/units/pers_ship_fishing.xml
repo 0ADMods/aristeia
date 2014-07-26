@@ -4,7 +4,7 @@
     <Civ>assyrian</Civ>
     <SpecificName>Masiyakara</SpecificName>
     <History>Not much is known about Persian fishing. We do known fishing was important in Egypt as well as in the Iranian provinces bordering the Persian Gulf and in India.</History>
-    <Icon>assyrian_ship_fishing.png</Icon>
+    <Icon>units/assyrian_ship_fishing.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>structural/assyrian/fishship.xml</Actor>

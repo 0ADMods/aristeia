@@ -9,7 +9,7 @@
 	<GenericName>Cypriot Galley</GenericName>
     <SpecificName>Hamaraniyanava</SpecificName>
     <History>Cypriot galleys comprised a substantial part of Xerxes' navy which invaded Greece in 480 BC. While generally considered inferior to the ships of the Phoenicians, these were still very good.</History>
-    <Icon>assyrian_ship_bireme.png</Icon>
+    <Icon>units/assyrian_ship_bireme.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>structural/assyrian/bireme.xml</Actor>
