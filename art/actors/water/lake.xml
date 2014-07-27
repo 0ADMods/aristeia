@@ -5,7 +5,6 @@
 		<variant frequency="100" name="Base">
 			<animations/>
 			<mesh>lake.dae</mesh>
-			<>
 			<textures>
 				<texture file="structural/rome_struct.png" name="baseTex"/>
 			</textures>
