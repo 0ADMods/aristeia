@@ -17,6 +17,6 @@
   </Obstruction>
   <VisualActor>
     <Actor>structural/egyptian/farmstead.xml</Actor>
-    <FoundationActor>structural/fndn_4x4.xml</FoundationActor>
+    <FoundationActor>structures/fndn_4x4.xml</FoundationActor>
   </VisualActor>
 </Entity>

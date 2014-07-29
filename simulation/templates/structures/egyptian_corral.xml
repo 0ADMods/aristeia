@@ -17,6 +17,6 @@
   </Obstruction>
   <VisualActor>
     <Actor>structural/egyptian/corral.xml</Actor>
-    <FoundationActor>structural/fndn_4x2.xml</FoundationActor>
+    <FoundationActor>structures/fndn_4x2.xml</FoundationActor>
   </VisualActor>
 </Entity>

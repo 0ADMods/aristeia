@@ -117,35 +117,35 @@
     </variant>
     <variant name="carry_food">
       <props>
-        <prop actor="shuttle_basket_back.xml" attachpoint="back"/>
+        <prop actor="props/units/shuttle_basket_back.xml" attachpoint="back"/>
         <prop attachpoint="l_hand"/>
         <prop attachpoint="r_hand"/>
       </props>
     </variant>
     <variant name="carry_meat">
       <props>
-        <prop actor="shuttle_basket_back.xml" attachpoint="back"/>
+        <prop actor="props/units/shuttle_basket_back.xml" attachpoint="back"/>
         <prop attachpoint="l_hand"/>
         <prop attachpoint="r_hand"/>
       </props>
     </variant>
     <variant name="carry_wood">
       <props>
-        <prop actor="shuttle_basket_back.xml" attachpoint="back"/>
+        <prop actor="props/units/shuttle_basket_back.xml" attachpoint="back"/>
         <prop attachpoint="l_hand"/>
         <prop attachpoint="r_hand"/>
       </props>
     </variant>
     <variant name="carry_stone">
       <props>
-        <prop actor="shuttle_basket_back.xml" attachpoint="back"/>
+        <prop actor="props/units/shuttle_basket_back.xml" attachpoint="back"/>
         <prop attachpoint="l_hand"/>
         <prop attachpoint="r_hand"/>
       </props>
     </variant>
     <variant name="carry_metal">
       <props>
-        <prop actor="shuttle_basket_back.xml" attachpoint="back"/>
+        <prop actor="props/units/shuttle_basket_back.xml" attachpoint="back"/>
         <prop attachpoint="l_hand"/>
         <prop attachpoint="r_hand"/>
       </props>

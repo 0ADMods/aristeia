@@ -46,7 +46,7 @@
     </variant>
     <variant name="carry_meat">
       <props>
-        <prop actor="shuttle_meat.xml" attachpoint="r_hand"/>
+        <prop actor="props/units/shuttle_meat.xml" attachpoint="r_hand"/>
         <prop attachpoint="l_hand"/>
         <prop attachpoint="helmet"/>
         <prop attachpoint="shield"/>
