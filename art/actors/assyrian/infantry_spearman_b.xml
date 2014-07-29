@@ -48,40 +48,40 @@
   <group>
     <variant frequency="1" name="Clothing-red-stripes">
       <props>
-        <prop actor="heads/head_pers_tiara_y.xml" attachpoint="head"/>
-        <prop actor="heads/pers_kidaris_tied_yellow.xml" attachpoint="helmet"/>
+        <prop actor="props/units/heads/head_pers_tiara_y.xml" attachpoint="head"/>
+        <prop actor="props/units/heads/pers_kidaris_tied_yellow.xml" attachpoint="helmet"/>
       </props>
       <textures><texture file="skeletal/assy_isp_a_1.dds" name="baseTex"/></textures>
     </variant>
     <variant frequency="1" name="Clothing-blue-stripes">
       <props>
-        <prop actor="heads/head_pers_tiara_y.xml" attachpoint="head"/>
+        <prop actor="props/units/heads/head_pers_tiara_y.xml" attachpoint="head"/>
       </props>
       <textures><texture file="skeletal/assy_isp_a_2.dds" name="baseTex"/></textures>
     </variant>
     <variant frequency="1" name="Clothing-gold-stripes">
       <props>
-        <prop actor="heads/head_pers_tiara_y.xml" attachpoint="head"/>
+        <prop actor="props/units/heads/head_pers_tiara_y.xml" attachpoint="head"/>
       </props>
       <textures><texture file="skeletal/assy_isp_a_3.dds" name="baseTex"/></textures>
     </variant>
     <variant frequency="1" name="Clothing-emerald">
       <props>
-        <prop actor="heads/head_pers_tiara.xml" attachpoint="head"/>
-        <prop actor="heads/pers_kidaris_tied.xml" attachpoint="helmet"/>
+        <prop actor="props/units/heads/head_pers_tiara.xml" attachpoint="head"/>
+        <prop actor="props/units/heads/pers_kidaris_tied.xml" attachpoint="helmet"/>
       </props>
       <textures><texture file="skeletal/assy_isp_e_1.dds" name="baseTex"/></textures>
     </variant>
     <variant frequency="1" name="Clothing-gold">
       <props>
-        <prop actor="heads/head_pers_tiara.xml" attachpoint="head"/>
+        <prop actor="props/units/heads/head_pers_tiara.xml" attachpoint="head"/>
       </props>
       <textures><texture file="skeletal/pers_isp_e_2.dds" name="baseTex"/></textures>
     </variant>
     <variant frequency="2" name="Clothing-brown-stripes">
       <props>
-        <prop actor="heads/head_pers_tiara_y.xml" attachpoint="head"/>
-        <prop actor="heads/pers_kidaris_tied_yellow.xml" attachpoint="helmet"/>
+        <prop actor="props/units/heads/head_pers_tiara_y.xml" attachpoint="head"/>
+        <prop actor="props/units/heads/pers_kidaris_tied_yellow.xml" attachpoint="helmet"/>
       </props>
       <textures><texture file="skeletal/assy_isp_b_1.dds" name="baseTex"/></textures>
     </variant>
@@ -90,7 +90,7 @@
     <variant frequency="1" name="Idle"/>
     <variant name="gather_tree">
       <props>
-        <prop actor="tools/axe.xml" attachpoint="l_hand"/>
+        <prop actor="props/units/tools/axe.xml" attachpoint="l_hand"/>
         <prop attachpoint="r_hand"/>
         <prop attachpoint="shield"/>
         <prop attachpoint="helmet"/>
@@ -98,7 +98,7 @@
     </variant>
     <variant name="gather_grain">
       <props>
-        <prop actor="tools/hoe.xml" attachpoint="l_hand"/>
+        <prop actor="props/units/tools/hoe.xml" attachpoint="l_hand"/>
         <prop attachpoint="r_hand"/>
         <prop attachpoint="shield"/>
         <prop attachpoint="helmet"/>
@@ -106,7 +106,7 @@
     </variant>
     <variant name="gather_fruit">
       <props>
-        <prop actor="tools/basket.xml" attachpoint="l_leg"/>
+        <prop actor="props/units/tools/basket.xml" attachpoint="l_leg"/>
         <prop attachpoint="r_hand"/>
         <prop attachpoint="shield"/>
         <prop attachpoint="helmet"/>
@@ -117,12 +117,12 @@
         <prop attachpoint="helmet"/>
         <prop attachpoint="r_hand"/>
         <prop attachpoint="shield"/>
-        <prop actor="tools/basket.xml" attachpoint="l_leg"/>
+        <prop actor="props/units/tools/basket.xml" attachpoint="l_leg"/>
       </props>
     </variant>
     <variant name="gather_rock">
       <props>
-        <prop actor="tools/pick.xml" attachpoint="l_hand"/>
+        <prop actor="props/units/tools/pick.xml" attachpoint="l_hand"/>
         <prop attachpoint="r_hand"/>
         <prop attachpoint="shield"/>
         <prop attachpoint="helmet"/>
@@ -130,7 +130,7 @@
     </variant>
     <variant name="gather_ore">
       <props>
-        <prop actor="tools/pick.xml" attachpoint="l_hand"/>
+        <prop actor="props/units/tools/pick.xml" attachpoint="l_hand"/>
         <prop attachpoint="r_hand"/>
         <prop attachpoint="shield"/>
         <prop attachpoint="helmet"/>
@@ -138,7 +138,7 @@
     </variant>
     <variant name="gather_ruins">
       <props>
-        <prop actor="tools/pick.xml" attachpoint="l_hand"/>
+        <prop actor="props/units/tools/pick.xml" attachpoint="l_hand"/>
         <prop attachpoint="r_hand"/>
         <prop attachpoint="shield"/>
         <prop attachpoint="helmet"/>
@@ -146,7 +146,7 @@
     </variant>
     <variant name="Build">
       <props>
-        <prop actor="tools/mallet.xml" attachpoint="r_hand"/>
+        <prop actor="props/units/tools/mallet.xml" attachpoint="r_hand"/>
         <prop attachpoint="l_hand"/>
         <prop attachpoint="shield"/>
         <prop attachpoint="helmet"/>

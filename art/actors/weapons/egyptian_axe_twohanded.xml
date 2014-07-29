@@ -5,7 +5,7 @@
     <variant frequency="1">
       <mesh>weapons/egyptian_axe_2.dae</mesh>
       <textures>
-        <texture file="weapons/axefaraohrg.png" name="baseTex"/>
+        <texture file="weapons/axepharaohrg.png" name="baseTex"/>
       </textures>
     </variant>
   </group>

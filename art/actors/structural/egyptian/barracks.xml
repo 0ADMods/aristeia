@@ -21,7 +21,7 @@
     <variant frequency="100" name="Idle"/>
     <variant name="garrisoned">
       <props>
-        <prop actor="special/common/garrison_flag.xml" attachpoint="garrisoned"/>
+        <prop actor="flags/egyptian_garrison_flag.xml" attachpoint="garrisoned"/>
       </props>
     </variant>
     <variant name="death">

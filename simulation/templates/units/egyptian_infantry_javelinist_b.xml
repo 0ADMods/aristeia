@@ -3,8 +3,8 @@
   <Builder>
     <Entities datatype="tokens">
           -other/wallset_palisade
-    structural/egyptian_wallset_small
-      structural/egyptian_large_temple
+    structures/egyptian_wallset_small
+      structures/egyptian_large_temple
     </Entities>
   </Builder>
   <Cost>
@@ -16,12 +16,12 @@
   </Cost>
   <Identity>
     <Civ>egyptian</Civ>
-    <SelectionGroupName>egyptian_infantry_javelinist_b</SelectionGroupName>
+    <SelectionGroupName>units/egyptian_infantry_javelinist_b</SelectionGroupName>
     <GenericName>Egyptian Skirmisher</GenericName>
     <SpecificName>Skirmisher</SpecificName>
     <Classes datatype="tokens">Nubian Javaliner</Classes>
     <History>...</History>
-    <Icon>egyptian_infantry_javelinist.png</Icon>
+    <Icon>units/egyptian_infantry_javelinist.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/egyptian_infantry_javelinist_a</Entity>

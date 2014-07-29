@@ -9,7 +9,7 @@
 	<GenericName>?</GenericName>
     <SpecificName>?</SpecificName>
     <History>...</History>
-    <Icon>pers_ship_bireme.png</Icon>
+    <Icon>units/pers_ship_bireme.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>structures/persians/bireme.xml</Actor>

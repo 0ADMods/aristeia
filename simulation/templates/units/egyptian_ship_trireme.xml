@@ -9,7 +9,7 @@
 	<GenericName>?</GenericName>
     <SpecificName>?</SpecificName>
     <History>...</History>
-    <Icon>pers_ship_trireme.png</Icon>
+    <Icon>units/pers_ship_trireme.png</Icon>
 	<Tooltip>Medium Warship</Tooltip>
   </Identity>
   <VisualActor>

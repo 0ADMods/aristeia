@@ -1,25 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_support_converter">
-  <Identity>
-    <Civ>egyptian</Civ>
-    <SelectionGroupName>pers_support_healer_b</SelectionGroupName>
-    <GenericName>Unit Converter</GenericName>
-    <SpecificName>Maguš Mada</SpecificName>
-    <History>Throughout history priests tried to convert other people to their own belief. It must not have been purely religious, it could also have served military purposes.</History>
-    <Icon>egyptian_support_healer.png</Icon>
-    <Rank>Basic</Rank>
-  </Identity>
-  <Heal>
-    <Range>15</Range>
-    <HP>7</HP>
-  </Heal>
-  <Health>
-    <Max>95</Max>
-  </Health>
-  <Promotion disable=""/>
-  <VisualActor>
-    <Actor>egyptian/priest.xml</Actor>
-  </VisualActor>
+	<Identity>
+    	<Civ>egyptian</Civ>
+    	<SelectionGroupName>units/egyptian_support_converter</SelectionGroupName>
+	    <GenericName>Egyptian Converting Priest</GenericName>
+	    <SpecificName>?</SpecificName>
+	    <History>Throughout history priests tried to convert other people to their own belief. It must not have been purely religious, it could also have served military purposes.</History>
+	    <Icon>units/egyptian_support_priest.png</Icon>
+	</Identity>
+	<!-- Enable when ready.
+	<Convert>
+		<Range>15</Range>
+		<Persuasiveness>100</Persuasiveness>
+		<Persuasion>1</Persuasion>
+	</Convert>
+	-->
+	<Health>
+		<Max>95</Max>
+	</Health>
+	<Promotion disable=""/>
+	<VisualActor>
+		<Actor>egyptian/priest.xml</Actor>
+	</VisualActor>
 </Entity>
-
 

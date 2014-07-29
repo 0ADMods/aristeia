@@ -25,12 +25,12 @@
       </animations>
       <mesh>skeletal/m_dress_cuffs.dae</mesh>
       <props>
-        <prop actor="heads/head_pers_a.xml" attachpoint="head"/>
-        <prop actor="heads/pers_hair_xerxes.xml" attachpoint="helmet"/>
-        <prop actor="heads/headband_color.xml" attachpoint="helmet"/>
+        <prop actor="props/units/heads/head_pers_a.xml" attachpoint="head"/>
+        <prop actor="props/units/heads/pers_hair_xerxes.xml" attachpoint="helmet"/>
+        <prop actor="props/units/heads/headband_color.xml" attachpoint="helmet"/>
         <prop actor="shields/gerron_plain.xml" attachpoint="shield"/>
         <prop actor="props/units/weapons/spear_ball.xml" attachpoint="r_hand"/>
-        <prop actor="pers_quiver_back.xml" attachpoint="back"/>
+        <prop actor="props/units/pers_quiver_back.xml" attachpoint="back"/>
       </props>
       <textures><texture file="skeletal/pers_hero_xerxes.png" name="baseTex"/></textures>
     </variant>

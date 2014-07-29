@@ -14,8 +14,8 @@
       </animations>
       <mesh>skeletal/m_pants.dae</mesh>
       <props>
-        <prop actor="heads/head_pers_a.xml" attachpoint="head"/>
-        <prop actor="heads/pers_conical.xml" attachpoint="helmet"/>
+        <prop actor="props/units/heads/head_pers_a.xml" attachpoint="head"/>
+        <prop actor="props/units/heads/pers_conical.xml" attachpoint="helmet"/>
         <prop actor="props/units/weapons/spear_ball.xml" attachpoint="r_hand"/>
         <prop actor="cape_hd_cav.xml" attachpoint="shoulders"/>
         <prop actor="shields/pers_buckler_1.xml" attachpoint="shield"/>

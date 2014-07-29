@@ -136,7 +136,7 @@ UnitAI.prototype.SetupConversionRangeQuery = function()
 
 UnitAI.prototype.CanConvert = function(target)
 {
-    warn('Wrong CanConvert reached. ');
+    //warn[(]'Wrong CanConvert reached. ');
     
     // The healthier the capturing unit the easier for it to capture a target. 
 	var cmpHealth = Engine.QueryInterface(this.entity, IID_Health);
@@ -191,7 +191,7 @@ UnitAI.prototype.CanConvert = function(target)
         easyCatchBonus = 10;
     }
     var base_chance = 50;
-    warn(friendlyToEnemyWithinRangeRatio + ' * distance: ' + distance + '  health_normalized: ' + health_normalized + ' - ' + target_health_normalized + ' target_health_normalized');
+    //warn[(]friendlyToEnemyWithinRangeRatio + ' * distance: ' + distance + '  health_normalized: ' + health_normalized + ' - ' + target_health_normalized + ' target_health_normalized');
     // Is this all enough to capture the unit and make it prisoner of the unit that captured it? (use Guard function for this in the meantime, but only for units)
     var chanceForConversionSuccess = friendlyToEnemyWithinRangeRatio * (base_chance + (health_normalized - target_health_normalized) * 100 - distance + easyCatchBonus);
     /*
@@ -200,7 +200,7 @@ UnitAI.prototype.CanConvert = function(target)
     if (toBeCapturedLuck > 90) {
     }
     */   
-    warn('Chance for Conversion Success: ' + chanceForConversionSuccess);
+    //warn[(]'Chance for Conversion Success: ' + chanceForConversionSuccess);
     var chanceIncreaseByRandomLastHopeOppositionBoost = 5; //TODO randomize.
     var chanceMinimumForConversionSuccess = 30;
     if (chanceForConversionSuccess < (chanceMinimumForConversionSuccess + chanceIncreaseByRandomLastHopeOppositionBoost)) {
@@ -242,7 +242,7 @@ UnitAI.prototype.CanConvert = function(target)
 		return false;
 
 
-    warn('Conversion was successful.');
+    //warn[(]'Conversion was successful.');
 	return true;
 
 };
@@ -277,12 +277,12 @@ UnitAI.prototype.UnitFsmSpec.INDIVIDUAL
                              // An enemy entity?
                              if (!(IsOwnedByPlayer(cmpOwnership.GetOwner(), target) || IsOwnedByAllyOfPlayer(cmpOwnership.GetOwner(), target))) {
                                  // => enemy
-                                 warn('Enemy: ' + target + ' . Trying to convert.');
+                                 //warn[(]'Enemy: ' + target + ' . Trying to convert.');
                                  cmpHeal.ConvertHeal(target, this.entity);
                              }
                              else {     
                                  // => friendly unit.
-                                 warn('Friendly: ' + target + ' . Trying to heal.');
+                                 //warn[(]'Friendly: ' + target + ' . Trying to heal.');
                                  cmpHeal.PerformHeal(target);
                              }
  

@@ -8,9 +8,9 @@
         <animation file="mechanical/pers_chariot_e_move.dae" name="Walk" speed="12"/>
         <animation file="mechanical/pers_chariot_e_move.dae" name="Run" speed="20"/>
       </animations>
-      <mesh>structural/pers_chariot_e.dae</mesh>
+      <mesh>structures/pers_chariot_e.dae</mesh>
       <props>
-        <prop actor="pers_chariot_e_emblem.xml" attachpoint="root"/>
+        <prop actor="props/units/pers_chariot_e_emblem.xml" attachpoint="root"/>
         <prop actor="persians/pers_chariot_archer_e_h1.xml" attachpoint="horse1"/>
         <prop actor="persians/pers_chariot_archer_e_h2.xml" attachpoint="horse2"/>
         <prop actor="persians/pers_chariot_archer_e_h3.xml" attachpoint="horse3"/>
@@ -18,7 +18,7 @@
         <prop actor="persians/cavalry_archer_e_r.xml" attachpoint="rider1"/>
         <prop actor="persians/cavalry_archer_e_d.xml" attachpoint="rider2"/>
       </props>
-      <textures><texture file="structural/pers_chariot_e.png" name="baseTex"/></textures>
+      <textures><texture file="structures/pers_chariot_e.png" name="baseTex"/></textures>
     </variant>
   </group>
   <group>

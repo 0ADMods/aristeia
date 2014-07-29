@@ -41,7 +41,7 @@
     </variant>
     <variant name="gather_meat">
       <props>
-        <prop actor="weapons/spartan_sword.xml" attachpoint="r_hand"/>
+        <prop actor="props/units/weapons/spartan_sword.xml" attachpoint="r_hand"/>
       </props>
     </variant>
   </group>

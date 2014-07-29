@@ -12,8 +12,8 @@
       </animations>
       <mesh>skeletal/m_dress_cuffs.dae</mesh>
       <props>
-        <prop actor="heads/head_pers_tiara_mouth.xml" attachpoint="head"/>
-        <prop actor="heads/pers_kidaris_tied.xml" attachpoint="helmet"/>
+        <prop actor="props/units/heads/head_pers_tiara_mouth.xml" attachpoint="head"/>
+        <prop actor="props/units/heads/pers_kidaris_tied.xml" attachpoint="helmet"/>
         <prop actor="staff.xml" attachpoint="r_hand"/>
       </props>
       <textures>

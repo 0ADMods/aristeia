@@ -24,8 +24,8 @@
       <mesh>skeletal/horse.pmd</mesh>
       <props>
         <prop actor="persians/hero_cyrus_r.xml" attachpoint="rider"/>
-        <prop actor="horse/pers_peytral.xml" attachpoint="chest"/>
-        <prop actor="heads/pers_cav_knot.xml" attachpoint="head"/>
+        <prop actor="props/units/pers_peytral.xml" attachpoint="chest"/>
+        <prop actor="props/units/heads/pers_cav_knot.xml" attachpoint="head"/>
       </props>
       <textures><texture file="skeletal/horse_pers_cyrus.png" name="baseTex"/></textures>
     </variant>

@@ -80,7 +80,7 @@ Convert.prototype.PerformHeal = function(target)
 	var cmpOwnership = Engine.QueryInterface(target, IID_Ownership);
 	if (!cmpOwnership)
 		return;
-    warn('PerformHeal: ' + cmpOwnership);
+    //warn[(]'PerformHeal: ' + cmpOwnership);
 	cmpOwnership.SetOwner(1);
 };
 

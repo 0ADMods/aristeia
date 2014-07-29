@@ -6,7 +6,7 @@
   </Footprint>
   <Identity>
     <Civ>egyptian</Civ>
-	<SelectionGroupName>structural/pers_wallset_stone</SelectionGroupName>
+	<SelectionGroupName>structures/ptol_wallset_stone</SelectionGroupName>
     <SpecificName>?</SpecificName>
     <History>...</History>
   </Identity>

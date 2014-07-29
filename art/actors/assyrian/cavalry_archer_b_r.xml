@@ -20,9 +20,9 @@
       </animations>
       <mesh>skeletal/m_pants_celt.dae</mesh>
       <props>
-        <prop actor="heads/head_pers_tiara.xml" attachpoint="head"/>
-        <prop actor="heads/pers_kidaris_tied.xml" attachpoint="helmet"/>
-        <prop actor="weapons/bow_recurve.xml" attachpoint="l_hand"/>
+        <prop actor="props/units/heads/head_pers_tiara.xml" attachpoint="head"/>
+        <prop actor="props/units/heads/pers_kidaris_tied.xml" attachpoint="helmet"/>
+        <prop actor="props/units/weapons/bow_recurve.xml" attachpoint="l_hand"/>
         <prop actor="quiver_hip.xml" attachpoint="l_hip"/>
         <prop actor="props/units/weapons/arrow_back.xml" attachpoint="loaded-r_hand"/>
         <prop actor="props/units/weapons/arrow_front.xml" attachpoint="projectile"/>
@@ -34,7 +34,7 @@
     <variant frequency="100" name="Idle"/>
     <variant name="attack_ranged">
       <props>
-        <prop actor="weapons/bow_recurve.xml" attachpoint="l_hand"/>
+        <prop actor="props/units/weapons/bow_recurve.xml" attachpoint="l_hand"/>
         <prop actor="props/units/weapons/arrow_back.xml" attachpoint="loaded-r_hand"/>
         <prop actor="props/units/weapons/arrow_front.xml" attachpoint="projectile"/>
       </props>

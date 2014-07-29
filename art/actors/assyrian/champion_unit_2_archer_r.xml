@@ -12,13 +12,13 @@
       </animations>
       <mesh>skeletal/m_pants_armor.dae</mesh>
       <props>
-        <prop actor="heads/head_pers_b.xml" attachpoint="head"/>
-        <prop actor="heads/pers_conical_champcav.xml" attachpoint="helmet"/>
-        <prop actor="heads/pers_neckguard_champ.xml" attachpoint="helmet"/>
-        <prop actor="pers_quiver_back.xml" attachpoint="back"/>
+        <prop actor="props/units/heads/head_pers_b.xml" attachpoint="head"/>
+        <prop actor="props/units/heads/pers_conical_champcav.xml" attachpoint="helmet"/>
+        <prop actor="props/units/heads/pers_neckguard_champ.xml" attachpoint="helmet"/>
+        <prop actor="props/units/pers_quiver_back.xml" attachpoint="back"/>
         <prop actor="props/units/weapons/arrow_back.xml" attachpoint="loaded-r_hand"/>
         <prop actor="props/units/weapons/arrow_front.xml" attachpoint="projectile"/>
-        <prop actor="weapons/bow_recurve.xml" attachpoint="l_hand"/>
+        <prop actor="props/units/weapons/bow_recurve.xml" attachpoint="l_hand"/>
       </props>
     </variant>
   </group>
@@ -39,14 +39,14 @@
   <group>
     <variant frequency="1" name="Arm Guards Iron">
       <props>
-        <prop actor="pers_bactrian_arm_left_iron.xml" attachpoint="l_shoulder"/>
-        <prop actor="pers_bactrian_arm_right_iron.xml" attachpoint="r_shoulder"/>
+        <prop actor="props/units/pers_bactrian_arm_left_iron.xml" attachpoint="l_shoulder"/>
+        <prop actor="props/units/pers_bactrian_arm_right_iron.xml" attachpoint="r_shoulder"/>
       </props>
     </variant>
     <variant frequency="1" name="Arm Guards Bronze">
       <props>
-        <prop actor="pers_bactrian_arm_left_bronze.xml" attachpoint="l_shoulder"/>
-        <prop actor="pers_bactrian_arm_right_bronze.xml" attachpoint="r_shoulder"/>
+        <prop actor="props/units/pers_bactrian_arm_left_bronze.xml" attachpoint="l_shoulder"/>
+        <prop actor="props/units/pers_bactrian_arm_right_bronze.xml" attachpoint="r_shoulder"/>
       </props>
     </variant>
   </group>

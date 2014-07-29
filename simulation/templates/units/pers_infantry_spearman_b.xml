@@ -2,9 +2,9 @@
 <Entity parent="template_unit_infantry_melee_spearman">
   <Builder>
     <Entities datatype="tokens">
-      structural/assyrian_stables
-      structural/assyrian_apadana
-      structural/{civ}_wonder
+      structures/assyrian_stables
+      structures/assyrian_apadana
+      structures/{civ}_wonder
     </Entities>
   </Builder>
   <Cost>
@@ -15,10 +15,10 @@
   </Health>
   <Identity>
     <Civ>assyrian</Civ>
-    <SelectionGroupName>assyrian_infantry_spearman_b</SelectionGroupName>
+    <SelectionGroupName>units/assyrian_infantry_spearman_b</SelectionGroupName>
     <GenericName>Shieldbearer</GenericName>
     <SpecificName>Sparabara</SpecificName>
-    <Icon>assyrian_infantry_spearman.png</Icon>
+    <Icon>units/assyrian_infantry_spearman.png</Icon>
     <History>Median and Persian shieldbearers comprised the main infantry regiment of the Persians during this period, especially in the reign of Xerxes. First under the Medes and later the Achaemenid Persians these soldiers were the bread and butter infantry for hand-to-hand engagement. Within the Satabam, the basic tactical unit of the Achamenid army, the shieldbearers formed the first two ranks, protecting the arhcers and also serving as a way to keep the enemy pinned down until the cavalry could act. While well known for tenacity the shieldbearers were not equipped to last long in an extended melee with heavy infantry, like hoplites. </History>
   </Identity>
   <Promotion>

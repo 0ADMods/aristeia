@@ -8,7 +8,7 @@
 "Consort" Aura: Increased effectiveness of allied heroes in her vision. Decreased effectiveness for enemy heroes.
 "Patriot" Aura: Egyptian units fight harder when in vision of her.</Tooltip>
     <History>Ramesses II, referred to as Ramesses the Great, was the third Egyptian pharaoh (reigned 1279 BC – 1213 BC) of the Nineteenth dynasty. He is often regarded as the greatest, most celebrated, and most powerful pharaoh of the Egyptian Empire.[7] His successors and later Egyptians called him the "Great Ancestor". Ramesses II led several military expeditions into the Levant, reasserting Egyptian control over Canaan. He also led expeditions to the south, into Nubia, commemorated in inscriptions at Beit el-Wali and Gerf Hussein.</History>
-    <Icon>egyptian_hero_pharao.png</Icon>
+    <Icon>units/egyptian_hero_pharao.png</Icon>
   </Identity>
   <Sound>
     <SoundGroups>

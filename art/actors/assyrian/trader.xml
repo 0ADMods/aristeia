@@ -12,7 +12,7 @@
       </animations>
       <mesh>skeletal/camel_1.dae</mesh>
       <props>
-        <prop actor="pers_camel_props.xml" attachpoint="props_main"/>
+        <prop actor="props/units/pers_camel_props.xml" attachpoint="props_main"/>
       </props>
     </variant>
   </group>

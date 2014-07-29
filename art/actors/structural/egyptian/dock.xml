@@ -5,8 +5,8 @@
 
   <group>
     <variant frequency="100" name="Base">
-      <mesh>structural/pers_dock.dae</mesh>
-      <textures><texture file="structural/pers_struct.dds" name="baseTex"/></textures>
+      <mesh>structures/ptol_dock.dae</mesh>
+      <textures><texture file="structures/ptol_struct.dds" name="baseTex"/></textures>
     </variant>
   </group>
 

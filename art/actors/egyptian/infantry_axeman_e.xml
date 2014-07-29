@@ -47,8 +47,8 @@
       <mesh>skeletal/m_tunic_short.dae</mesh>
       <props>
         <prop actor="helmets/egyptian_helmet_a.xml" attachpoint="head"/>
-        <prop actor="heads/head_egyptian_e.xml" attachpoint="head"/>
-	<prop actor="shields/egyptian_shield_be.xml" attachpoint="shield"/>
+        <prop actor="heads/egyptian_head_e.xml" attachpoint="head"/>
+		<prop actor="shields/egyptian_shield_be.xml" attachpoint="shield"/>
         <prop actor="weapons/egyptian_axe_b.xml" attachpoint="r_hand"/>
       </props>
     </variant>
@@ -64,7 +64,7 @@
     <variant frequency="1" name="Idle"/>
     <variant name="gather_tree">
       <props>
-        <prop actor="tools/axe.xml" attachpoint="l_hand"/>
+        <prop actor="props/units/tools/axe.xml" attachpoint="l_hand"/>
         <prop attachpoint="r_hand"/>
         <prop attachpoint="shield"/>
         <prop attachpoint="helmet"/>
@@ -72,7 +72,7 @@
     </variant>
     <variant name="gather_grain">
       <props>
-        <prop actor="tools/hoe.xml" attachpoint="l_hand"/>
+        <prop actor="props/units/tools/hoe.xml" attachpoint="l_hand"/>
         <prop attachpoint="r_hand"/>
         <prop attachpoint="shield"/>
         <prop attachpoint="helmet"/>
@@ -80,7 +80,7 @@
     </variant>
     <variant name="gather_fruit">
       <props>
-        <prop actor="tools/basket.xml" attachpoint="l_leg"/>
+        <prop actor="props/units/tools/basket.xml" attachpoint="l_leg"/>
         <prop attachpoint="r_hand"/>
         <prop attachpoint="shield"/>
         <prop attachpoint="helmet"/>
@@ -91,12 +91,12 @@
         <prop attachpoint="helmet"/>
         <prop attachpoint="r_hand"/>
         <prop attachpoint="shield"/>
-        <prop actor="tools/basket.xml" attachpoint="l_leg"/>
+        <prop actor="props/units/tools/basket.xml" attachpoint="l_leg"/>
       </props>
     </variant>
     <variant name="gather_rock">
       <props>
-        <prop actor="tools/pick.xml" attachpoint="l_hand"/>
+        <prop actor="props/units/tools/pick.xml" attachpoint="l_hand"/>
         <prop attachpoint="r_hand"/>
         <prop attachpoint="shield"/>
         <prop attachpoint="helmet"/>
@@ -104,7 +104,7 @@
     </variant>
     <variant name="gather_ore">
       <props>
-        <prop actor="tools/pick.xml" attachpoint="l_hand"/>
+        <prop actor="props/units/tools/pick.xml" attachpoint="l_hand"/>
         <prop attachpoint="r_hand"/>
         <prop attachpoint="shield"/>
         <prop attachpoint="helmet"/>
@@ -112,7 +112,7 @@
     </variant>
     <variant name="gather_ruins">
       <props>
-        <prop actor="tools/pick.xml" attachpoint="l_hand"/>
+        <prop actor="props/units/tools/pick.xml" attachpoint="l_hand"/>
         <prop attachpoint="r_hand"/>
         <prop attachpoint="shield"/>
         <prop attachpoint="helmet"/>
@@ -120,7 +120,7 @@
     </variant>
     <variant name="Build">
       <props>
-        <prop actor="tools/mallet.xml" attachpoint="r_hand"/>
+        <prop actor="props/units/tools/mallet.xml" attachpoint="r_hand"/>
         <prop attachpoint="l_hand"/>
         <prop attachpoint="shield"/>
         <prop attachpoint="helmet"/>
