@@ -3,7 +3,7 @@
   <castshadow/>
   <group>
     <variant>
-      <mesh>structures/ptol_gardens_struct.dae</mesh>
+      <mesh>structural/ptol_gardens_struct.dae</mesh>
       <props>
         <prop actor="props/structures/persians/gardens_bush_dese_a.xml" attachpoint="root"/>
         <prop actor="props/structures/persians/gardens_bush_desert_c.xml" attachpoint="root"/>
@@ -32,7 +32,7 @@
         <prop actor="props/units/weapons/arrow_front.xml" attachpoint="projectile"/>
       </props>
       <textures>
-        <texture file="structures/ptol_struct.dds" name="baseTex"/>
+        <texture file="structural/ptol_struct.png" name="baseTex"/>
         <texture file="structural/ao/pers_gardens_ao.png" name="aoTex"/>
       </textures>
     </variant>

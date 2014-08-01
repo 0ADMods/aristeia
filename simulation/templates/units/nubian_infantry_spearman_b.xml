@@ -22,10 +22,10 @@
 	<SelectionGroupName>units/nubian_infantry_spearman_b</SelectionGroupName>
 	<GenericName>Nubian Spearman</GenericName>
     <SpecificName>nubispearman</SpecificName>
-    <Icon>nubianinfantry_spearman.png</Icon>
+    <Icon>nubian_infantry_spearman.png</Icon>
     <History>Nubian</History>
   </Identity>
   <VisualActor>
-    <Actor>nubians/infantry_spearman_b.xml</Actor>
+    <Actor>nubian/infantry_spearman_b.xml</Actor>
   </VisualActor>
 </Entity>

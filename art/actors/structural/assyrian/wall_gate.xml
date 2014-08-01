@@ -9,8 +9,8 @@
         <animation file="mechanical/pers_wall_gate_open.dae" name="gate_open" speed="65"/>
         <animation file="mechanical/pers_wall_gate_closing.dae" name="gate_closing" speed="65"/>
       </animations>
-      <mesh>structures/ptol_wall_gate.dae</mesh>
-      <textures><texture file="structures/ptol_struct.dds" name="baseTex"/></textures>
+      <mesh>structural/ptol_wall_gate.dae</mesh>
+      <textures><texture file="structural/ptol_struct.png" name="baseTex"/></textures>
     </variant>
   </group>
   <group>

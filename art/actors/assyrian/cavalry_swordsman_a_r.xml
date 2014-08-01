@@ -16,9 +16,9 @@
       <props>
         <prop actor="props/units/heads/head_pers_a.xml" attachpoint="head"/>
         <prop actor="props/units/heads/pers_kidaris_loose_yellow.xml" attachpoint="helmet"/>
-        <prop actor="shields/pers_pelta_e_reverse.xml" attachpoint="back"/>
+        <prop actor="props/units/shields/pers_pelta_e_reverse.xml" attachpoint="back"/>
         <prop actor="props/units/weapons/axe_sagaris.xml" attachpoint="r_hand"/>
-        <prop actor="shields/pers_buckler_1.xml" attachpoint="shield"/>
+        <prop actor="props/units/shields/pers_buckler_1.xml" attachpoint="shield"/>
       </props>
     </variant>
   </group>

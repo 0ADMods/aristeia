@@ -3,32 +3,32 @@
   <castshadow/>
   <group>
     <variant frequency="1" name="House A">
-      <mesh>structures/ptol_house_a.dae</mesh>
+      <mesh>structural/ptol_house_a.dae</mesh>
       <props>
         <prop actor="props/structures/decals/dirt_small.xml" attachpoint="root"/>
       </props>
-      <textures><texture file="structures/ptol_struct.dds" name="baseTex"/></textures>
+      <textures><texture file="structural/ptol_struct.png" name="baseTex"/></textures>
     </variant>
     <variant frequency="1" name="House B">
-      <mesh>structures/ptol_house_b.dae</mesh>
+      <mesh>structural/ptol_house_b.dae</mesh>
       <props>
         <prop actor="props/structures/decals/dirt_small.xml" attachpoint="root"/>
       </props>
-      <textures><texture file="structures/ptol_struct.dds" name="baseTex"/></textures>
+      <textures><texture file="structural/ptol_struct.png" name="baseTex"/></textures>
     </variant>
     <variant frequency="1" name="House C">
-      <mesh>structures/ptol_house_c.dae</mesh>
+      <mesh>structural/ptol_house_c.dae</mesh>
       <props>
         <prop actor="props/structures/decals/dirt_small.xml" attachpoint="root"/>
       </props>
-      <textures><texture file="structures/ptol_struct.dds" name="baseTex"/></textures>
+      <textures><texture file="structural/ptol_struct.png" name="baseTex"/></textures>
     </variant>
     <variant frequency="1" name="House D">
-      <mesh>structures/ptol_house_d.dae</mesh>
+      <mesh>structural/ptol_house_d.dae</mesh>
       <props>
         <prop actor="props/structures/decals/dirt_small.xml" attachpoint="root"/>
       </props>
-      <textures><texture file="structures/ptol_struct.dds" name="baseTex"/></textures>
+      <textures><texture file="structural/ptol_struct.png" name="baseTex"/></textures>
     </variant>
   </group>
   <group>

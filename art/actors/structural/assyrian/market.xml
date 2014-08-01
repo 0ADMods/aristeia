@@ -6,15 +6,15 @@
       <props>
         <prop actor="props/structures/decals/dirt_5x5.xml" attachpoint="root"/>
       </props>
-      <textures><texture file="structures/ptol_struct.dds" name="baseTex"/></textures>
+      <textures><texture file="structural/ptol_struct.png" name="baseTex"/></textures>
     </variant>
   </group>
   <group>
     <variant frequency="1" name="Bazaar A">
-      <mesh>structures/ptol_market_a.dae</mesh>
+      <mesh>structural/ptol_market.dae</mesh>
     </variant>
     <variant frequency="1" name="Bazaar B">
-      <mesh>structures/ptol_market_b.dae</mesh>
+      <mesh>structural/ptol_market.dae</mesh>
     </variant>
   </group>
   <group>

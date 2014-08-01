@@ -4,10 +4,9 @@
 	<group>
 		<variant frequency="100" name="Base">
 			<animations/>
-			<mesh>flyingsaucer.dae</mesh>
-			<>
+			<mesh>structural/flyingsaucer.dae</mesh>
 			<textures>
-				<texture file="special/flyingsaucer.dds" name="baseTex"/>
+				<texture file="structural/flyingsaucer.dds" name="baseTex"/>
 			</textures>
 		</variant>
 	</group>

@@ -3,11 +3,11 @@
   <castshadow/>
   <group>
     <variant frequency="100" name="sb2">
-      <mesh>structures/ptol_sb2.dae</mesh>
+      <mesh>structural/ptol_sb2.dae</mesh>
       <props>
         <prop actor="fauna/elephant_asian.xml" attachpoint="root"/>
       </props>
-      <textures><texture file="structures/ptol_struct.dds" name="baseTex"/></textures>
+      <textures><texture file="structural/ptol_struct.png" name="baseTex"/></textures>
     </variant>
   </group>
   <group>

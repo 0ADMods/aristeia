@@ -6,23 +6,23 @@
       <animations>
         <animation event="0.5" load="0" name="attack_ranged" speed="100"/>
       </animations>
-      <mesh>structures/ptol_scout_tower_a.dae</mesh>
+      <mesh>structural/ptol_scout_tower_a.dae</mesh>
       <props>
         <prop actor="props/units/weapons/arrow_front.xml" attachpoint="loaded-projectile"/>
         <prop actor="props/units/weapons/arrow_front.xml" attachpoint="projectile"/>
       </props>
-      <textures><texture file="structures/ptol_struct.dds" name="baseTex"/></textures>
+      <textures><texture file="structural/ptol_struct.png" name="baseTex"/></textures>
     </variant>
     <variant frequency="1" name="scouttowerb">
       <animations>
         <animation event="0.5" load="0" name="attack_ranged" speed="100"/>
       </animations>
-      <mesh>structures/ptol_scout_tower_b.dae</mesh>
+      <mesh>structural/ptol_scout_tower_b.dae</mesh>
       <props>
         <prop actor="props/units/weapons/arrow_front.xml" attachpoint="loaded-projectile"/>
         <prop actor="props/units/weapons/arrow_front.xml" attachpoint="projectile"/>
       </props>
-      <textures><texture file="structures/ptol_struct.dds" name="baseTex"/></textures>
+      <textures><texture file="structural/ptol_struct.png" name="baseTex"/></textures>
     </variant>
   </group>
   <group>

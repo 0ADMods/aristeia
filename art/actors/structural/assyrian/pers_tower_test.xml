@@ -4,7 +4,7 @@
   <group>
     <variant>
       <mesh>temp/test_tower.dae</mesh>
-      <textures><texture file="structures/ptol_tower_01.dds" name="baseTex"/></textures>
+      <textures><texture file="structural/ptol_tower_01.dds" name="baseTex"/></textures>
     </variant>
   </group>
   <group>

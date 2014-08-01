@@ -26,10 +26,10 @@
   </Cost>
   <Identity>
     <Civ>egyptian</Civ>
-	<SelectionGroupName>units/egyptian_infantry_swordsman_b</SelectionGroupName>
+	<SelectionGroupName>units/egyptian_infantry_axeman_b</SelectionGroupName>
 	<GenericName>Egyptian Axe Warrior</GenericName>
     <SpecificName>Jaqahawi Aha</SpecificName>
-    <Icon>units/egyptian_infantry_swordsman.png</Icon>
+    <Icon>units/egyptian_infantry_axeman.png</Icon>
     <History>The Egyptian battle axe, used during the Old and Middle Kingdoms, was effective at cutting apart enemies who, like the Egyptians themselves, did not wear much body armor. This weapon was replaced by the sword during the New Kingdom.</History>
   </Identity>
   <Promotion>

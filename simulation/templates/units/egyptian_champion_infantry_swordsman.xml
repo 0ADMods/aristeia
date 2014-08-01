@@ -37,7 +37,7 @@
 	<SelectionGroupName>units/egyptian_champion_infantry_swordsman</SelectionGroupName>
 	<GenericName>Egyptian Guard</GenericName>
     <SpecificName>Khopesh Medjay</SpecificName>
-    <Icon>units/egyptian_infantry_swordsman.png</Icon>
+    <Icon>units/egyptian_infantry_axeman.png</Icon>
     <History></History>
   </Identity>
   <Promotion disable=''/>

@@ -3,7 +3,7 @@
   <castshadow/>
   <group>
     <variant frequency="100" name="Base">
-      <mesh>structures/ptol_barracks.dae</mesh>
+      <mesh>structural/ptol_barracks.dae</mesh>
       <props>
         <prop actor="props/structures/decals/dirt_4x4.xml" attachpoint="root"/>
         <prop actor="props/structures/persians/barracks.xml" attachpoint="root"/>
@@ -14,7 +14,7 @@
         <prop actor="props/units/shields/pers_round_kardakes.xml" attachpoint="shieldtop"/>
         <prop actor="props/units/shields/pers_round_kardakes.xml" attachpoint="shieldoutside"/>
       </props>
-      <textures><texture file="structures/ptol_struct.dds" name="baseTex"/></textures>
+      <textures><texture file="structural/ptol_struct.png" name="baseTex"/></textures>
     </variant>
   </group>
   <group>

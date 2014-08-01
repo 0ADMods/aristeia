@@ -3,7 +3,7 @@
   <castshadow/>
   <group>
     <variant frequency="100" name="Stables">
-      <mesh>structures/ptol_stables.dae</mesh>
+      <mesh>structural/ptol_stables.dae</mesh>
       <props>
         <prop actor="props/structures/decals/dirt_4x4.xml" attachpoint="root"/>
         <prop actor="props/structures/decals/celt_sb1_mud.xml" attachpoint="root"/>
@@ -11,7 +11,7 @@
         <prop actor="props/structures/persians/stable_horse_b.xml" attachpoint="horseb" minheight="-20" maxheight="1.7"/>
         <prop actor="props/structures/persians/stable_horse_c.xml" attachpoint="horsec" minheight="-20" maxheight="1.7"/>
       </props>
-      <textures><texture file="structures/ptol_struct.dds" name="baseTex"/></textures>
+      <textures><texture file="structural/ptol_struct.png" name="baseTex"/></textures>
     </variant>
   </group>
   <group>

@@ -48,7 +48,7 @@
       <mesh>skeletal/m_tunic_short.dae</mesh>
       <props>
         <prop actor="helmets/seapeople_helmet_a.xml" attachpoint="helmet"/>
-        <prop actor="heads/head_hele_b.xml" attachpoint="head"/>
+        <prop actor="props/units/heads/head_hele_b.xml" attachpoint="head"/>
 	<prop actor="shields/seapeople_shield_a.xml" attachpoint="shield"/>
         <prop actor="props/units/weapons/gladus.xml" attachpoint="r_hand"/>
       </props>

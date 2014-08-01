@@ -8,7 +8,7 @@
         <animation file="mechanical/pers_siege_ram_move.dae" name="run" speed="25"/>
         <animation event="0.85" file="mechanical/pers_siege_ram_attack.dae" name="attack_melee" speed="50"/>
       </animations>
-      <mesh>structures/ptol_siege_ram.dae</mesh>
+      <mesh>structural/ptol_siege_ram.dae</mesh>
       <textures><texture file="structural/assyrian_ram.png" name="baseTex"/></textures>
     </variant>
   </group>

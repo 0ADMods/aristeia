@@ -3,7 +3,7 @@
   <castshadow/>
   <group>
     <variant frequency="1" name="Persian_Fortress_A">
-      <mesh>structures/ptol_fortress.dae</mesh>
+      <mesh>structural/ptol_fortress.dae</mesh>
       <props>
         <prop actor="props/structures/persians/fortress.xml" attachpoint="root"/>
         <prop actor="props/units/weapons/arrow_front.xml" attachpoint="loaded-projectile"/>
@@ -12,7 +12,7 @@
       </props>
     </variant>
     <variant frequency="1" name="Persian_Fortress_B">
-      <mesh>structures/ptol_fortress_b.dae</mesh>
+      <mesh>structural/ptol_fortress_b.dae</mesh>
       <props>
         <prop actor="props/structures/persians/fortress_b.xml" attachpoint="root"/>
         <prop actor="props/units/weapons/arrow_front.xml" attachpoint="loaded-projectile"/>
@@ -23,7 +23,7 @@
   </group>
   <group>
     <variant>
-      <textures><texture file="structures/ptol_struct.dds" name="baseTex"/></textures>
+      <textures><texture file="structural/ptol_struct.png" name="baseTex"/></textures>
     </variant>
   </group>
   <group>
