@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_cavalry_horse">
+  <Identity>
+    <Rank>Champion</Rank>
+  </Identity>
+  <Promotion disable="">
+  </Promotion>
+  <VisualActor>
+    <Actor>assyrian/cavalry_archer_horse.xml</Actor>
+  </VisualActor>
+</Entity>

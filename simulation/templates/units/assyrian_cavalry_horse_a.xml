@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_cavalry_horse">
+  <Identity>
+    <Rank>Advanced</Rank>
+  </Identity>
+  <Promotion>
+    <Entity>units/assyrian_cavalry_horse_veteran</Entity>
+  </Promotion>
+  <VisualActor>
+    <Actor>assyrian/cavalry_archer_horse.xml</Actor>
+  </VisualActor>
+</Entity>
