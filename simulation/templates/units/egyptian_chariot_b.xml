@@ -26,7 +26,7 @@
     <Civ>egyptian</Civ>
 	<GenericName>War Chariot</GenericName>
     <SpecificName>?</SpecificName>
-	<SelectionGroupName>units/egyptian_chariot</SelectionGroupName>
+	<SelectionGroupName>units/egyptian_chariot_b</SelectionGroupName>
     <History>The Egyptians were known for their chariots. The biggest battle between chariots was when the New Kingdom Egyptians fought the Hittites in the Battle of Kadesh around 1300BC.</History>
 	<Icon>units/maur_champion_chariot.png</Icon>
   </Identity>

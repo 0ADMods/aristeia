@@ -4,6 +4,9 @@
     <Rank>Advanced</Rank>
   </Identity>
   <Promotion>
+    <!-- <RequiredXp>200</RequiredXp>
+    now defined in the promotion boni via tech repository.
+    -->
     <Entity>units/assyrian_cavalry_horse_veteran</Entity>
   </Promotion>
   <VisualActor>
