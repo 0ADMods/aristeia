@@ -4,16 +4,14 @@
 	<group>
 		<variant frequency="1" name="Base">
 			<animations/>
-			<mesh>gaia/egyptian_civil_flora.dae</mesh>
-			<>
+			<mesh>flora/egyptian_civil_flora.dae</mesh>
 			<textures>
 				<texture file="structural/egyptian_struct.png" name="baseTex"/>
 			</textures>
 		</variant>
 		<variant frequency="1" name="Base2">
 			<animations/>
-			<mesh>gaia/egyptian_civil_flora2.dae</mesh>
-			<>
+			<mesh>flora/egyptian_civil_flora2.dae</mesh>
 			<textures>
 				<texture file="structural/egyptian_struct.png" name="baseTex"/>
 			</textures>
