@@ -42,9 +42,9 @@
   </Footprint>
   <GarrisonHolder>
     <Max>9</Max><!-- 2 horses + 2 soldiers on each horse -->
-    <List datatype="tokens">Ranged+Infantry Civil</List>
+    <List datatype="tokens">Ranged+Infantry Civil Structure</List>
     <EjectHealth>0.5</EjectHealth>
-    <EjectClassesOnDestroy datatype="tokens">Unit</EjectClassesOnDestroy>
+    <EjectClassesOnDestroy datatype="tokens">Unit Structure</EjectClassesOnDestroy>
     <BuffHeal>0</BuffHeal>
     <LoadingRange>2</LoadingRange>
 	<!--
