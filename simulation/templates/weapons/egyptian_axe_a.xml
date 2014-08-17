@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="weapons/egyptian_axe_b">
+	<Armour>
+    	<Hack>4.0</Hack> <!-- simulating blocking chance -->
+	</Armour>
+	<Attack>
+		<Melee>
+			<Hack>20.0</Hack>
+		</Melee>
+		<Charge>
+			<Hack>30.0</Hack>
+		</Charge>
+	</Attack>
+	<Cost>
+		<Resources>
+			<metal>50</metal>
+			<wood>30</wood>
+		</Resources>
+	</Cost>
+	<Promotion disable="">
+	</Promotion>
+	<VisualActor>
+    	<Actor>weapons/egyptian_axe_a.xml</Actor>
+	</VisualActor>
+</Entity>
