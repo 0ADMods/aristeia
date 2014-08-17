@@ -5,6 +5,18 @@
     <SpecificName>?</SpecificName>
     <History>?</History>
   </Identity>
+  <ProductionQueue>
+    <Entities datatype="tokens">
+      structures/egyptian_blacksmith
+      units/egyptian_axe_b
+      units/egyptian_axe_a
+    </Entities>
+    <Technologies datatype="tokens">
+	  -pair_inf_armor_03
+	  -pair_inf_armor_04
+	  attack_steel_working
+    </Technologies>
+  </ProductionQueue>
   <VisualActor>
     <Actor>structural/egyptian/blacksmith.xml</Actor>
   </VisualActor>
