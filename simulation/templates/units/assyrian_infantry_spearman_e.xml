@@ -6,7 +6,8 @@
 		</SpecificName>
 		<Rank>Elite</Rank>
 	</Identity>
-	<Promotion disable="">
+	<Promotion>
+		<Entity>units/assyrian_infantry_spearman_champion</Entity>
 	</Promotion>
 	<VisualActor>
 		<Actor>persians/infantry_spearman_e.xml</Actor><!-- TODO Significant enough difference to create a new actor for the Assyrian epoch? -->

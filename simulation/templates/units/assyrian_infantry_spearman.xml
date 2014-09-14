@@ -5,7 +5,13 @@
         Spearmen were the second most numerous arm of the Assyrian infantry service; many of these soldiers were called up from conquered Neo-Hittite states.
     </History>
     <RequiredTechnology>phase_village</RequiredTechnology>
+	
 	<SelectionGroupName>units/assyrian_infantry_spearman</SelectionGroupName>
+	<Tooltip>
+		Heavy melee infantry constituting the main battle line.
+		Counters: {Counters}
+		Countered by: {Countered_by}
+	</Tooltip>
   </Identity>
   <Promotion>
     <Entity>units/assyrian_infantry_spearman_a</Entity>
