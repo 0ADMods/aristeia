@@ -1,10 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- <Entity parent="template_unit_champion_cavalry_archer"> -->
-<!-- <Entity parent="template_unit_infantry_cavalry_archer"> -->
-<Entity parent="units/maur_champion_chariot">
+<!-- <Entity parent="template_unit_infantry_cavalry_archer">
+      defines e.g. the overlay that indicates if it's selected or not
+ -->
+<Entity parent="template_unit_champion_cavalry_archer">
 	<!-- Note that the components + its values defined here should only be related to the chariot as is - i.e. wihout rider + attachments and such. -->
   <Auras>
-    <Aura1>
+    <TrampleDamageAura>
+      <Type>range</Type>
+	  <Range>2</Range>
+      <Affects>Unit</Affects>
+      <Modifications>
+        <Health.RegenRate> <Multiply>0</Multiply> </Health.RegenRate>
+        <Health.RegenRate> <Add>-3</Add> </Health.RegenRate>
+        <Vision.Range> <Add>-5</Add> </Vision.Range>
+      </Modifications>
+      <AuraName>Trample damage</AuraName>
+      <AuraDescription>Chariots deal trample damage to any units that come too close.</AuraDescription>
+    </TrampleDamageAura>
+    <ProtectionAura>
       <Type>garrisonedUnits</Type>
       <Affects>Unit</Affects>
       <Modifications>
@@ -15,7 +28,7 @@
       </Modifications>
       <AuraName>Wall Protection</AuraName>
       <AuraDescription>Units in chariots have 3 extra Armor levels</AuraDescription>
-    </Aura1>
+    </ProtectionAura>
   </Auras>
   <Armour>
     <Crush>4.0</Crush>
@@ -93,7 +106,8 @@
     <Max>190</Max>
   </Health>
   <Identity>
-    <Classes datatype="tokens">Chariot GarrisonHolder</Classes>
+    <VisibleClasses datatype="tokens">Chariot</VisibleClasses>
+    <Classes datatype="tokens">Vehicle GarrisonHolder</Classes>
 	<GenericName>Chariot</GenericName>
 	<SelectionGroupName>template_unit_chariot_garrisonholder</SelectionGroupName>
     <History>The chariot was once drawn by bulls and oxen, later by horses and other animals. The successor of the chariot is the modern four-wheeled engine-drawn vehicle. Noone knows what future will bring, what about anti-gravity star-chariots.</History>
