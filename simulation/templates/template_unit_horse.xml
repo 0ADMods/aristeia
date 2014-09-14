@@ -130,7 +130,7 @@
 	<GenericName>Cavalry Horse</GenericName>
 	<History>Horses have spread on this planet millennia ago.</History>
     <Rank>Base</Rank>
-	<Icon>fauna/fauna_horse.png</Icon>
+	<Icon>gaia/fauna_horse.png</Icon>
     <Tooltip>Classes: {Classes}.
 Counters: {Counters}.
 Countered by: {CounterCounters}.
