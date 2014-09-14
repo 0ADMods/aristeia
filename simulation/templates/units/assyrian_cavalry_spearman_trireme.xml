@@ -3,10 +3,4 @@
   <Identity>
     <RequiredTechnology>assyrian/special_equine_transports</RequiredTechnology>
   </Identity>
-  <Promotion>
-    <Entity>units/assyrian_cavalry_spearman_a</Entity>
-  </Promotion>
-  <VisualActor>
-    <Actor>assyrian/cavalry_spearman.xml</Actor>
-  </VisualActor>
 </Entity>

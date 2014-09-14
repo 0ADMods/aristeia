@@ -3,13 +3,18 @@
   <Identity>
     <Civ>assyrian</Civ>
     <SelectionGroupName>units/assyrian_cavalry_spearman</SelectionGroupName>
-    <GenericName>Lusitanian Lancer</GenericName>
-    <SpecificName>Lantzari</SpecificName>
-    <Icon>units/assyrian_cavalry_spearman.png</Icon>
+    <GenericName>Aramaean Horseman</GenericName>
+    <SpecificName>Ša Pētḫalli 
+	</SpecificName>
+    <Icon>units/assyrian_cavalry.png</Icon>
     <History>
-        The Lusitanian cavalry was renowned as the best of the old world, able to climb the most steepest slopes, Pliny said: "the Lusitanian mares were impregnated by the wind Zephyrus". The Lusitanian horses were trained to "go down" in order to be better hidden ambushes in which armed enemies. Taking the enemy by surprise as lay in ambush, 2 riders a single horse, when he jumped and went to fight on foot, and to then return quickly to evade the battlefield, in this interregnum the horse stood still waiting for her knight back.
+		Worked in lancer/archer cavalry pairs for much of Assyria's timeframe, but later became more tactically proficient, multi-talented, self-sufficient, self-contained, and mobile due in part to improved cavalry methods, training, organization, and equipment.
     </History>
-    <RequiredTechnology>phase_town</RequiredTechnology>
+	<Tooltip>
+		Rapid shock attacks; should wield spear overarm-style.
+ 	   	Special: Can rank up to the elite Royal Bodyguard Cavalry once gained enough experience. 
+		Trained at the Civ Centre and Cavalry Stables.
+	</Tooltip>
   </Identity>
   <Promotion>
     <Entity>units/assyrian_cavalry_spearman_a</Entity>
