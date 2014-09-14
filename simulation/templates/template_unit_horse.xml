@@ -126,11 +126,11 @@
   </Health>
   <Identity>
     <Classes datatype="tokens">Horse Cavalry</Classes>
-	<SelectionGroupName>template_unit_cavalry_horse</SelectionGroupName>
+	<SelectionGroupName>template_unit_horse</SelectionGroupName>
 	<GenericName>Cavalry Horse</GenericName>
 	<History>Horses have spread on this planet millennia ago.</History>
     <Rank>Base</Rank>
-	<Icon>units/cavalry_horse.png</Icon>
+	<Icon>fauna/fauna_horse.png</Icon>
     <Tooltip>Classes: {Classes}.
 Counters: {Counters}.
 Countered by: {CounterCounters}.

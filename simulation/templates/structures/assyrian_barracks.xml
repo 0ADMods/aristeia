@@ -1,25 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_military_barracks">
   <Identity>
-    <Civ>egyptian</Civ>
-    <SpecificName>Tepeg</SpecificName>
-    <History>Egyptian Barracks</History>
-    <Tooltip>Levy citizen-infantry units.</Tooltip>
+    <Civ>assyrian</Civ>
+    <SpecificName>Bēt Napt ṭarti
+    </SpecificName>
+    <!-- <History></History> -->
+    <Tooltip>
+		Train infantry citizen-soldiers. 
+		Research Mobilisation, as well as Iron-tipped Arrows or Quiver innovations.
+	</Tooltip>
     <Icon>structures/pers_barracks.png</Icon>
   </Identity>
   <ProductionQueue>
     <Entities datatype="tokens">
-      units/egyptian_infantry_spearman_b
-      units/egyptian_infantry_axeman_b
-      units/egyptian_infantry_archer_b
-      units/egyptian_infantry_javelinist_b
-      units/egyptian_cavalry_swordsman_b
-      units/egyptian_cavalry_javelinist_b
+      units/assyrian_infantry_archer_b
+      units/assyrian_infantry_javelinist_b
+      units/assyrian_infantry_slinger_b
+      units/assyrian_infantry_spearman_b
     </Entities>
-    <Technologies datatype="tokens">
-      pair_inf_01
-      pair_inf_02
-    </Technologies>
+    <!-- Technologies are inherited from the parent template. -->
   </ProductionQueue>
   <VisualActor>
     <Actor>structural/assyrian/barracks.xml</Actor>

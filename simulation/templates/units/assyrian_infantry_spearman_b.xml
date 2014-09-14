@@ -1,33 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_infantry_melee_spearman">
-  <Builder>
-    <Entities datatype="tokens">
-      structures/assyrian_monument
-    </Entities>
-  </Builder>
+<Entity parent="units/neohittite_infantry_spearman">
   <Identity>
-    <Civ>assyrian</Civ>
-    <SelectionGroupName>units/assyrian_infantry_spearman_b</SelectionGroupName>
-    <GenericName>Neo-Hittite Spearman</GenericName>
-    <SpecificName>Ša-arīti
-    </SpecificName>
-    <Icon>hittite_infantry_spearman.png</Icon>
     <History>
-        Spearmen were the second most numerous arm of the Assyrian infantry service; many of these
-        soldiers were called up from conquered Neo-Hittite states.
+        Spearmen were the second most numerous arm of the Assyrian infantry service; many of these soldiers were called up from conquered Neo-Hittite states.
     </History>
     <RequiredTechnology>phase_village</RequiredTechnology>
+	<SelectionGroupName>units/assyrian_infantry_spearman</SelectionGroupName>
   </Identity>
   <Promotion>
     <Entity>units/assyrian_infantry_spearman_a</Entity>
   </Promotion>
-  <UnitMotion>
-    <WalkSpeed>8.0</WalkSpeed>
-    <Run>
-      <Speed>24.0</Speed>
-    </Run>
-  </UnitMotion>
-  <VisualActor>
-    <Actor>hittite/infantry_spearman_b.xml</Actor>
-  </VisualActor>
+  <!-- VisualActor is inherited from parent template (hittite). -->
 </Entity>

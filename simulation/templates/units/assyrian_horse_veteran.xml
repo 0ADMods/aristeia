@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_cavalry_horse">
+<Entity parent="template_unit_horse">
   <Identity>
     <Rank>Veteran</Rank>
   </Identity>
   <Promotion>
-    <Entity>units/assyrian_cavalry_horse_champion</Entity>
+    <Entity>units/assyrian_horse_champion</Entity>
   </Promotion>
   <VisualActor>
     <Actor>assyrian/cavalry_archer_horse.xml</Actor>

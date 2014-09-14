@@ -3,16 +3,15 @@
   <Identity>
     <Civ>assyrian</Civ>
 	<SelectionGroupName>units/assyrian_cavalry_javelinist_b</SelectionGroupName>
-    <SpecificName>Kantabriako Zaldun</SpecificName>
-    <History></History>
+	<GenericName>Median Light Cavalry</GenericName>
+    <!-- <SpecificName>Kantabriako Zaldun</SpecificName> -->
+    <SpecificName>Mada Asabara</SpecificName>
+    <History>Just as the archers were the rock of the Persian infantry, the Persian cavalry was formed around the light cavalryman, or Asabari. Armed with javelins for long-ranged combat or close-quarter fighting, Asabari were also equipped with swords and axes. Since they were recruited from the upper classes many wore armor and helmets and their horses could also be fitted with light armor.</History>
     <Icon>units/assyrian_cavalry_javelinist.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/assyrian_cavalry_javelinist_a</Entity>
   </Promotion>
-  <Armour>
-    <Hack>2.0</Hack>
-  </Armour>
   <VisualActor>
     <Actor>assyrian/cavalry_javelinist_b.xml</Actor>
   </VisualActor>

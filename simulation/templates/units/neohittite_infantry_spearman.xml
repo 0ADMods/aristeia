@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_melee_spearman">
+  <Identity>
+    <Civ>neohittite</Civ>
+    <SelectionGroupName>units/neohittite_infantry_spearman</SelectionGroupName>
+    <GenericName>Neo-Hittite Spearman</GenericName>
+    <SpecificName>Ša-arīti
+    </SpecificName>
+    <Icon>hittite_infantry_spearman.png</Icon>
+    <History>
+        Spearmen were the second most numerous arm of the Assyrian infantry service; many of these
+        soldiers were called up from conquered Neo-Hittite states.
+    </History>
+    <RequiredTechnology>phase_village</RequiredTechnology>
+  </Identity>
+  <Promotion>
+    <Entity>units/neohittite_infantry_spearman_a</Entity>
+  </Promotion>
+  <VisualActor>
+    <Actor>neohittite/infantry_spearman.xml</Actor>
+  </VisualActor>
+</Entity>

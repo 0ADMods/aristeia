@@ -12,7 +12,7 @@ Convert.prototype.Schema =
 	"<element name='Range' a:help='Range (in metres) where converting is possible'>" +
 		"<ref name='nonNegativeDecimal'/>" +
 	"</element>" +
-	"<element name='LP' a:help='Loyalty points reduced per Rate (conversion strength, e.g. how convincing your priest's arguments are)'>" +
+	"<element name='LP' a:help='Loyalty points reduced per Rate (conversion strength, e.g. how convincing your priests are)'>" +
 		"<ref name='nonNegativeDecimal'/>" +
 	"</element>" +
 	"<element name='Rate' a:help='A heal is performed every Rate ms'>" +
@@ -85,3 +85,4 @@ Convert.prototype.PerformConvert = function(target)
 };
 
 Engine.RegisterComponentType(IID_Convert, "Convert", Convert);
+
