@@ -53,6 +53,6 @@
     </Run>
   </UnitMotion>
   <VisualActor>
-    <Actor>sea_people/infantry_swordsman_b.xml</Actor>
+    <Actor>sea_people/infantry_swordsman.xml</Actor>
   </VisualActor>
 </Entity>

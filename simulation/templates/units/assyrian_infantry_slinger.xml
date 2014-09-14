@@ -7,7 +7,7 @@
   </Builder>
   <Identity>
     <Civ>assyrian</Civ>
-    <SelectionGroupName>units/assyrian_infantry_slinger_b</SelectionGroupName>
+    <SelectionGroupName>units/assyrian_infantry_slinger</SelectionGroupName>
     <GenericName>Israelite Slinger</GenericName>
     <SpecificName>Sādiu
     </SpecificName>
@@ -21,6 +21,6 @@
     <Entity>units/assyrian_infantry_slinger_a</Entity>
   </Promotion>
   <VisualActor>
-    <Actor>israelite/infantry_slinger_b.xml</Actor>
+    <Actor>israelite/infantry_slinger.xml</Actor>
   </VisualActor>
 </Entity>

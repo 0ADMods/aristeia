@@ -9,7 +9,7 @@
   </Builder>
   <Identity>
     <Civ>assyrian</Civ>
-	<SelectionGroupName>units/assyrian_infantry_archer_b</SelectionGroupName>
+	<SelectionGroupName>units/assyrian_infantry_archer</SelectionGroupName>
 	<GenericName>Sogdian Archer</GenericName>
     <SpecificName>Sugda Vaçabara</SpecificName>
     <Icon>units/assyrian_infantry_archer.png</Icon>
@@ -19,6 +19,6 @@
     <Entity>units/assyrian_infantry_archer_a</Entity>
   </Promotion>
   <VisualActor>
-    <Actor>assyrian/infantry_archer_b.xml</Actor>
+    <Actor>assyrian/infantry_archer.xml</Actor>
   </VisualActor>
 </Entity>

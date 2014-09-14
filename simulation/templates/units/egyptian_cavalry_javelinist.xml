@@ -2,7 +2,7 @@
 <Entity parent="template_unit_cavalry_ranged_javelinist">
   <Identity>
     <Civ>egyptian</Civ>
-    <SelectionGroupName>units/egyptian_cavalry_javelinist_b</SelectionGroupName>
+    <SelectionGroupName>units/egyptian_cavalry_javelinist</SelectionGroupName>
     <GenericName>Nubian Cavalry</GenericName>
     <SpecificName>Ḥayyāl Raḫūv Masili</SpecificName>
     <History>Needs history</History>
@@ -18,6 +18,6 @@
     </Run>
   </UnitMotion>
   <VisualActor>
-    <Actor>egyptian/cavalry_javelinist_b.xml</Actor>
+    <Actor>egyptian/cavalry_javelinist.xml</Actor>
   </VisualActor>
 </Entity>

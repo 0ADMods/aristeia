@@ -14,8 +14,8 @@
   <ProductionQueue>
     <BatchTimeModifier>0.8</BatchTimeModifier>
     <Entities datatype="tokens">
-      assyrian_cavalry_swordsman_b_trireme
-      assyrian_cavalry_javelinist_b_trireme
+      assyrian_cavalry_swordsman_trireme
+      assyrian_cavalry_javelinist_trireme
     </Entities>
   </ProductionQueue>
   <VisualActor>

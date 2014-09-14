@@ -2,7 +2,7 @@
 <Entity parent="template_unit_cavalry_melee_spearman">
   <Identity>
     <Civ>assyrian</Civ>
-    <SelectionGroupName>units/assyrian_cavalry_spearman_b</SelectionGroupName>
+    <SelectionGroupName>units/assyrian_cavalry_spearman</SelectionGroupName>
     <GenericName>Lusitanian Lancer</GenericName>
     <SpecificName>Lantzari</SpecificName>
     <Icon>units/assyrian_cavalry_spearman.png</Icon>
@@ -15,6 +15,6 @@
     <Entity>units/assyrian_cavalry_spearman_a</Entity>
   </Promotion>
   <VisualActor>
-    <Actor>assyrian/cavalry_spearman_b.xml</Actor>
+    <Actor>assyrian/cavalry_spearman.xml</Actor>
   </VisualActor>
 </Entity>

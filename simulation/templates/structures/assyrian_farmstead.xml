@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_economic_farmstead">
+  <Identity>
+    <Civ>assyrian</Civ>
+    <SipecificName>
+      Arû
+	</SpecificName>
+    <History>
+	  Assyria contained some good farmland, particularly in the Tigris-Euphrates confluence area.
+    </History>
+  </Identity>
+  <ProductionQueue>
+	  <Entities type="tokens">
+		  units/assyrian_horse.xml
+	  </Entities>
+  </ProductionQueue>
+  <VisualActor>
+    <Actor>structures/persians/farmstead.xml</Actor>
+  </VisualActor>
+</Entity>

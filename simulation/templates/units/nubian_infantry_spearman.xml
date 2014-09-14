@@ -19,13 +19,13 @@
   </Cost>
   <Identity>
     <Civ>nubian</Civ>
-	<SelectionGroupName>units/nubian_infantry_spearman_b</SelectionGroupName>
+	<SelectionGroupName>units/nubian_infantry_spearman</SelectionGroupName>
 	<GenericName>Nubian Spearman</GenericName>
     <SpecificName>nubispearman</SpecificName>
     <Icon>nubian_infantry_spearman.png</Icon>
     <History>Nubian</History>
   </Identity>
   <VisualActor>
-    <Actor>nubian/infantry_spearman_b.xml</Actor>
+    <Actor>nubian/infantry_spearman.xml</Actor>
   </VisualActor>
 </Entity>

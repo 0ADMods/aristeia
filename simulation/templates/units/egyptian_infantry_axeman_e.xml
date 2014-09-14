@@ -14,7 +14,7 @@
 /__/       /__/  \_______/  \_____/  \_______/ /__/ /__/  \_______/ /__/  \_______/  \_______/ /__/   |_|
 
 -->
-<Entity parent="units/egyptian_infantry_axeman_b">
+<Entity parent="units/egyptian_infantry_axeman">
   <Armour>
     <Pierce>6.0</Pierce>
   </Armour>

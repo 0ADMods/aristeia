@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="units/assyrian_infantry_javelinist_b">
+<Entity parent="units/assyrian_infantry_javelinist">
   <Armour>
     <Hack>2</Hack>
     <Pierce>3</Pierce>

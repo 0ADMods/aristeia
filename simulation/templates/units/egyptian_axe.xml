@@ -20,16 +20,16 @@
 	<Identity>
 		<Civ>egyptian</Civ>
 		<Classes>egyptian</Classes>
-		<SelectionGroupName>weapons/egyptian_axe_b</SelectionGroupName>
+		<SelectionGroupName>weapons/egyptian_axe</SelectionGroupName>
 		<GenericName>Egyptian Axe</GenericName>
 		<SpecificName>Aha</SpecificName>
-		<Icon>units/egyptian_infantry_axeman_b_256x256.png</Icon>
+		<Icon>units/egyptian_infantry_axeman_256x256.png</Icon>
 		<History>The Egyptian battle axe, used during the Old and Middle Kingdoms, was effective at cutting apart enemies who, like the Egyptians themselves, did not wear much body armor. This weapon was replaced by the sword during the New Kingdom.</History>
 	</Identity>
 	<Promotion>
 		<Entity>units/egyptian_axe_a</Entity>
 	</Promotion>
 	<VisualActor>
-    	<Actor>weapons/egyptian_axe_b.xml</Actor>
+    	<Actor>weapons/egyptian_axe.xml</Actor>
 	</VisualActor>
 </Entity>

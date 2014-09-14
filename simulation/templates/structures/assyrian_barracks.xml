@@ -13,10 +13,10 @@
   </Identity>
   <ProductionQueue>
     <Entities datatype="tokens">
-      units/assyrian_infantry_archer_b
-      units/assyrian_infantry_javelinist_b
-      units/assyrian_infantry_slinger_b
-      units/assyrian_infantry_spearman_b
+      units/assyrian_infantry_archer
+      units/assyrian_infantry_javelinist
+      units/assyrian_infantry_slinger
+      units/assyrian_infantry_spearman
     </Entities>
     <!-- Technologies are inherited from the parent template. -->
   </ProductionQueue>
