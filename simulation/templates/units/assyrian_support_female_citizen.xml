@@ -2,13 +2,16 @@
 <Entity parent="template_unit_support_female_citizen">
   <Identity>
     <Civ>assyrian</Civ>
-    <SpecificName>Emazteki</SpecificName>
-    <GenericName>Iberian Woman</GenericName>
-    <Icon>units/assyrian_support_female_citizen.png</Icon>
-	<SelectionGroupName>units/assyrian_support_female_citizen</SelectionGroupName>
-    <History>Iberian women were privileged members of society, equal in rank to men and superior in some areas. For instance a woman would inherit her father's wealth and then distribute it among male family members, in addition to finding wives for her brothers. Manual labor was a common activity, including farming and ditch digging, for which women received pay. Marriage and other commitments to individuals were fervently embraced by both genders. Iberian women were also capable of slaying their own children to prevent them from being captured.</History>
+    <SpecificName>Awīltu
+	</SpecificName>
+    <GenericName>{Civ} Woman</GenericName>
+    <Icon>units/{Civ}_female_citizen.png</Icon>
+	<SelectionGroupName>units/{Civ}_support_female_citizen</SelectionGroupName>
+    <History>
+		Both native and assimilated Assyrian women experienced a wide range of stations and conditions in life. Generally speaking, upper-class Assyrian women enjoyed a relatively fine, well-to-do lifestyle, in contrast to the rustic labouring existence of many peasant women.
+	</History>
   </Identity>
   <VisualActor>
-    <Actor>assyrian/female_citizen.xml</Actor>
+    <Actor>units/persians/female_citizen.xml</Actor>
   </VisualActor>
 </Entity>
