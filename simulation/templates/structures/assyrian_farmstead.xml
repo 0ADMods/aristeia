@@ -2,7 +2,7 @@
 <Entity parent="template_structure_economic_farmstead">
   <Identity>
     <Civ>assyrian</Civ>
-    <SipecificName>
+    <SpecificName>
       Arû
 	</SpecificName>
     <History>
