@@ -3,28 +3,9 @@
 <!-- <Entity parent="template_unit_infantry_cavalry_archer"> -->
 <Entity parent="template_unit_chariot_garrisonholder">
 	<!-- Note that the components + its values defined here should only be related to the chariot as is - i.e. wihout rider + attachments and such. -->
-  <Armour>
-    <Crush>4.0</Crush>
-    <Hack>6.0</Hack>
-    <Pierce>2.0</Pierce>
-  </Armour>
-  <Attack>
-    <Melee>
-      	<Crush>70.0</Crush><!-- An impact of a chariot might break the chariot, but it does significant damage. -->
-    </Melee>
-  </Attack>
-  <Cost>
-    <BuildTime>19</BuildTime>
-	<!-- <Population>1</Population> more than 1 no longer required as we use Sander's garrisoning, see our garrison points below. -->
-    <Resources>
-      <food>200</food>
-      <wood>200</wood>
-      <metal>50</metal>
-    </Resources>
-  </Cost>
   <Identity>
     <Civ>egyptian</Civ>
-	<GenericName>War Chariot</GenericName>
+	<GenericName>Egyptian War Chariot</GenericName>
     <SpecificName>?</SpecificName>
 	<SelectionGroupName>units/egyptian_chariot</SelectionGroupName>
     <History>The Egyptians were known for their chariots. The biggest battle between chariots was when the New Kingdom Egyptians fought the Hittites in the Battle of Kadesh around 1300BC.</History>

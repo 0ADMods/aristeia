@@ -5,26 +5,14 @@
 <Entity parent="template_unit_champion_cavalry_archer">
 	<!-- Note that the components + its values defined here should only be related to the chariot as is - i.e. wihout rider + attachments and such. -->
   <Auras>
-    <TrampleDamageAura>
-      <Type>range</Type>
-	  <Range>2</Range>
-      <Affects>Unit</Affects>
-      <Modifications>
-        <Health.RegenRate> <Multiply>0</Multiply> </Health.RegenRate>
-        <Health.RegenRate> <Add>-3</Add> </Health.RegenRate>
-        <Vision.Range> <Add>-5</Add> </Vision.Range>
-      </Modifications>
-      <AuraName>Trample damage</AuraName>
-      <AuraDescription>Chariots deal trample damage to any units that come too close.</AuraDescription>
-    </TrampleDamageAura>
     <ProtectionAura>
       <Type>garrisonedUnits</Type>
       <Affects>Unit</Affects>
       <Modifications>
-        <Armour.Pierce> <Add>3</Add> </Armour.Pierce>
-        <Armour.Hack> <Add>3</Add> </Armour.Hack>
-        <Armour.Crush> <Add>3</Add> </Armour.Crush>
-        <Vision.Range> <Add>5</Add> </Vision.Range>
+        <Armour.Pierce> <Multiply>2</Multiply> </Armour.Pierce>
+        <Armour.Hack> <Multiply>2</Multiply> </Armour.Hack>
+        <Armour.Crush> <Multiply>3</Multiply> </Armour.Crush>
+        <Vision.Range> <Multiply>2</Multiply> </Vision.Range>
       </Modifications>
       <AuraName>Wall Protection</AuraName>
       <AuraDescription>Units in chariots have 3 extra Armor levels</AuraDescription>
@@ -35,11 +23,6 @@
     <Hack>6.0</Hack>
     <Pierce>2.0</Pierce>
   </Armour>
-  <Attack>
-    <Melee>
-      	<Crush>70.0</Crush><!-- An impact of a chariot might break the chariot, but it does significant damage. -->
-    </Melee>
-  </Attack>
   <Cost>
     <BuildTime>19</BuildTime>
 	<!-- <Population>1</Population> more than 1 no longer required as we use Sander's garrisoning, see our garrison points below. -->
