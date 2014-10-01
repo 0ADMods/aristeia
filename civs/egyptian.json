@@ -116,8 +116,8 @@
 	],
 	"SkirmishReplacements":
 	{
-		"skirmish/units/default_infantry_ranged_b": "units/egyptian_infantry_archer_b_b",
-		"skirmish/units/default_cavalry": "units/egyptian_cavalry_javelinist_b",
+		"skirmish/units/default_infantry_ranged_b": "units/egyptian_infantry_archer",
+		"skirmish/units/default_cavalry": "units/egyptian_cavalry_javelinist",
 		"skirmish/structures/default_house_5": "structures/{civ}_house"
 	},
 	"SelectableInGameSetup": true
