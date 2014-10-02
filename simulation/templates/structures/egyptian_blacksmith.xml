@@ -9,7 +9,7 @@
     <Entities datatype="tokens">
       structures/egyptian_blacksmith
       structures/egyptian_outpost
-      units/egyptian_axe_b
+      units/egyptian_axe
       units/egyptian_axe_a
     </Entities>
     <Technologies datatype="tokens">
