@@ -50,7 +50,7 @@
         <prop actor="helmets/egyptian_hairband_a.xml" attachpoint="head"/>
         <prop actor="heads/egyptian_head_e.xml" attachpoint="head"/>
 		<prop actor="shields/egyptian_shield_b.xml" attachpoint="shield"/>
-        <prop actor="weapons/egyptian_axe_b.xml" attachpoint="r_hand"/>
+        <prop actor="weapons/egyptian_axe.xml" attachpoint="r_hand"/>
       </props>
     </variant>
   </group>
