@@ -17,7 +17,7 @@
         <prop actor="heads/egyptian_head_e.xml" attachpoint="head"/>
         <prop actor="heads/ptol_quilted_a.xml" attachpoint="helmet"/>
         <prop actor="weapons/egyptian_khopesh.xml" attachpoint="r_hand"/>
-        <prop actor="shields/egyptian_shield_be.xml" attachpoint="shield"/>
+        <prop actor="shields/egyptian_shield_b.xml" attachpoint="shield"/>
       </props>
     </variant>
   </group>

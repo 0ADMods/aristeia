@@ -13,8 +13,14 @@
   </group>
 
   <group>
-    <variant name="Texture-4">
-      <textures><texture file="shields/egyptian_shield_b4.png" name="baseTex"/></textures>
+    <variant name="Texture-1">
+      <textures><texture file="shields/egyptian_shield_b.png" name="baseTex"/></textures>
+    </variant>
+    <variant name="Texture-2">
+      <textures><texture file="shields/egyptian_shield_b2.png" name="baseTex"/></textures>
+    </variant>
+    <variant name="Texture-3">
+      <textures><texture file="shields/egyptian_shield_b3.png" name="baseTex"/></textures>
     </variant>
   </group>
 
