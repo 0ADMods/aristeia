@@ -9,14 +9,30 @@
     <Entities datatype="tokens">
       structures/egyptian_blacksmith
       structures/egyptian_outpost
-      units/egyptian_axe_b
+      units/egyptian_axe
       units/egyptian_axe_a
     </Entities>
     <Technologies datatype="tokens">
-	  -pair_inf_armor_03
-	  -pair_inf_armor_04
-	  attack_steel_working
+      attack_steel_working
     </Technologies>
+    <!-- move one of the following techs into the Technologies element and
+       add a minus if you want to deactivate a tech.
+       These techs are defined in the parent template and may be overridden
+       here (i.e. removed or others added).
+      attack_infantry_melee_01
+      attack_infantry_melee_02
+      attack_infantry_ranged_01
+      attack_infantry_ranged_02
+      attack_cavalry_melee_01
+      attack_cavalry_melee_02
+      attack_cavalry_ranged_01
+      attack_cavalry_ranged_02
+      armor_infantry_01
+      armor_infantry_02
+      armor_cav_01
+      armor_cav_02
+      armor_hero_01
+    -->
   </ProductionQueue>
   <VisualActor>
     <Actor>structural/egyptian/blacksmith.xml</Actor>
