@@ -21,7 +21,6 @@
   </Obstruction>
   <ProductionQueue>
     <Entities datatype="tokens">
-      units/egyptian_priest
       units/egyptian_support_healer
     </Entities>
   </ProductionQueue> 
