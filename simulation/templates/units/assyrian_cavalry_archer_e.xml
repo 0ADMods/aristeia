@@ -17,10 +17,8 @@
 	<Icon>units/assyrian_cavalry.png</Icon>
 	<Rank>Elite</Rank>
   </Identity>
-  <Promotion disable="">
-      <!-- <Entity>units/assyrian_cavalry_archer_a</Entity> -->
-  </Promotion>
+  <Promotion disable=""/>
   <VisualActor>
-    <Actor>persians/cavalry_archer_b.xml</Actor><!-- TODO -->
+    <Actor>persians/cavalry_archer_b.xml</Actor>
   </VisualActor>
 </Entity>

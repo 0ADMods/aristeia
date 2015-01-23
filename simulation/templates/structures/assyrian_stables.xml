@@ -36,7 +36,7 @@
   <ProductionQueue>
     <Entities datatype="tokens">
       units/assyrian_cavalry_spearman
-      units/assyrian_cavalry_archer
+      units/assyrian_cavalry_archer_e
 	  units/assyrian_horse
     </Entities>
     <Technologies datatype="tokens">

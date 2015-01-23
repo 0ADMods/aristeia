@@ -3,7 +3,6 @@
   <!-- All these values target the horse's stats as each civ may have used different grade of horses for different unit types. -->
   <Identity>
     <Civ>assyrian</Civ>
-    <Rank>Base</Rank>
   </Identity>
   <Promotion>
     <Entity>units/assyrian_horse_a</Entity>

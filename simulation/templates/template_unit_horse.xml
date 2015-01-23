@@ -129,7 +129,6 @@
 	<SelectionGroupName>template_unit_horse</SelectionGroupName>
 	<GenericName>Cavalry Horse</GenericName>
 	<History>Horses have spread on this planet millennia ago.</History>
-    <Rank>Base</Rank>
 	<Icon>gaia/fauna_horse.png</Icon>
     <Tooltip>Classes: {Classes}.
 Counters: {Counters}.
