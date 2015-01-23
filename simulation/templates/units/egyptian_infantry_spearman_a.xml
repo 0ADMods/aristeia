@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="units/egyptian_infantry_spearman">
-	<Promotion>
-		<Entity>units/egyptian_infantry_spearman_e</Entity>
-	</Promotion>
+<Entity parent="units/egyptian_infantry_spearman_b">
+  <Promotion>
+    <Entity>units/egyptian_infantry_spearman_e</Entity>
+  </Promotion>
   <Identity>
     <Rank>Advanced</Rank>
   </Identity>

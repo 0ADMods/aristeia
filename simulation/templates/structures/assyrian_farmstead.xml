@@ -10,8 +10,8 @@
     </History>
   </Identity>
   <ProductionQueue>
-	  <Entities type="tokens">
-		  units/assyrian_horse.xml
+	  <Entities datatype="tokens">
+		  units/assyrian_horse_b
 	  </Entities>
   </ProductionQueue>
   <VisualActor>

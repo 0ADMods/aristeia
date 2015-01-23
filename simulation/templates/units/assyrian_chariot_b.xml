@@ -5,7 +5,7 @@
   </GarrisonHolder>
   <Identity>
     <Civ>assyrian</Civ>
-	<SelectionGroupName>units/assyrian_chariot</SelectionGroupName>
+	<SelectionGroupName>units/assyrian_chariot_b</SelectionGroupName>
 	<GenericName>Assyrian Chariot</GenericName>
     <SpecificName>Magarru
 	</SpecificName>

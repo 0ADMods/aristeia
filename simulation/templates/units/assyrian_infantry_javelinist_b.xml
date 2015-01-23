@@ -18,7 +18,7 @@
   </Cost>
   <Identity>
     <Civ>assyrian</Civ>
-    <SelectionGroupName>units/assyrian_infantry_javelinist</SelectionGroupName>
+    <SelectionGroupName>units/assyrian_infantry_javelinist_b</SelectionGroupName>
     <GenericName>Chaldean Skirmisher</GenericName>
     <SpecificName>Nērāru (lit., "Auxiliary")
     </SpecificName>
@@ -40,7 +40,7 @@
     </Run>
   </UnitMotion>
   <VisualActor>
-    <Actor>units/assyrian/infantry_javelinist.xml</Actor>
+    <Actor>units/assyrian/infantry_javelinist_b.xml</Actor>
   </VisualActor>
 </Entity>
 

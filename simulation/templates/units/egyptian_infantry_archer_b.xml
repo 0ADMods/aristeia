@@ -22,7 +22,7 @@
   </Health>
   <Identity>
     <Civ>egyptian</Civ>
-	<SelectionGroupName>units/egyptian_infantry_archer</SelectionGroupName>
+	<SelectionGroupName>units/egyptian_infantry_archer_b</SelectionGroupName>
 	<GenericName>Egyptian Archer</GenericName>
     <SpecificName>Jary Pedet</SpecificName>
     <Icon>units/egyptian_infantry_archer.png</Icon>
@@ -32,6 +32,6 @@
     <Entity>units/egyptian_infantry_archer_a</Entity>
   </Promotion>
   <VisualActor>
-    <Actor>units/egyptian/infantry_archer.xml</Actor>
+    <Actor>units/egyptian/infantry_archer_b.xml</Actor>
   </VisualActor>
 </Entity>

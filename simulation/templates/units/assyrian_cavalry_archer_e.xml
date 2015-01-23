@@ -2,7 +2,7 @@
 <Entity parent="template_unit_cavalry_ranged_archer">
   <Identity>
     <Civ>assyrian</Civ>
-	<SelectionGroupName>units/assyrian_cavalry_archer</SelectionGroupName>
+	<SelectionGroupName>units/assyrian_cavalry_archer_b</SelectionGroupName>
 	<GenericName>Scythian Horse Archer</GenericName>
     <SpecificName>Pētḫallu Qaštu (?) (lit., "bow horseman")
 	</SpecificName>

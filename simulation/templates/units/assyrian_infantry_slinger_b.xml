@@ -7,7 +7,7 @@
   </Builder>
   <Identity>
     <Civ>assyrian</Civ>
-    <SelectionGroupName>units/assyrian_infantry_slinger</SelectionGroupName>
+    <SelectionGroupName>units/assyrian_infantry_slinger_b</SelectionGroupName>
     <GenericName>Israelite Slinger</GenericName>
     <SpecificName>Sādiu
     </SpecificName>
@@ -17,9 +17,7 @@
     </History>
     <RequiredTechnology>phase_town</RequiredTechnology>
   </Identity>
-  <Promotion>
-    <Entity>units/assyrian_infantry_slinger_a</Entity>
-  </Promotion>
+  <Promotion disable=""/>
   <VisualActor>
     <!--<Actor>units/israelite/infantry_slinger.xml</Actor>-->
   </VisualActor>

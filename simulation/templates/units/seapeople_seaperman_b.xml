@@ -16,35 +16,42 @@
 -->
 <Entity parent="template_unit_champion_infantry_swordsman">
   <Armour>
-    <Hack>5.0</Hack>
-    <Pierce>9.0</Pierce>
+    <Hack>999999999.0</Hack>
+    <Pierce>999999999.0</Pierce>
+    <Crush>999999999.0</Crush>
   </Armour>
   <Attack>
     <Melee>
-      <Hack>20.0</Hack>
+      <Hack>1000.0</Hack>
     </Melee>
     <Charge>
-      <Hack>45.0</Hack>
+      <Hack>10000.0</Hack>
     </Charge>
   </Attack>
   <Health>
-    <Max>120</Max>
+    <Max>314</Max>
   </Health>
   <Cost>
     <Resources>
-      <food>0</food>
-      <wood>40</wood>
-      <metal>80</metal>
+      <food>1000</food>
+      <metal>1000</metal>
+      <wood>1000</wood>
     </Resources>
   </Cost>
   <Identity>
     <Civ>seapeople</Civ>
-	<SelectionGroupName>units/seapeople_champion_infantry_swordsman</SelectionGroupName>
-	<GenericName>Sea People Swordsman</GenericName>
-    <SpecificName>Phasgana</SpecificName>
+	<SelectionGroupName>units/seapeople_seaperman_b</SelectionGroupName>
+	<GenericName>Sea People Superhero</GenericName>
+    <SpecificName>Seaperman!!!</SpecificName>
     <Icon>units/egyptianinfantry_swordsman.png</Icon>
     <History></History>
   </Identity>
+  <UnitMotion>
+    <WalkSpeed>10000.0</WalkSpeed>
+    <Run>
+      <Speed>25000.0</Speed>
+    </Run>
+  </UnitMotion>
   <VisualActor>
     <Actor>units/sea_people/infantry_swordsman.xml</Actor>
   </VisualActor>

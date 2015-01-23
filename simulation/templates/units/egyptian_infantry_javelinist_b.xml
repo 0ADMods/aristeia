@@ -16,7 +16,7 @@
   </Cost>
   <Identity>
     <Civ>egyptian</Civ>
-    <SelectionGroupName>units/egyptian_infantry_javelinist</SelectionGroupName>
+    <SelectionGroupName>units/egyptian_infantry_javelinist_b</SelectionGroupName>
     <GenericName>Egyptian Skirmisher</GenericName>
     <SpecificName>Skirmisher</SpecificName>
     <Classes datatype="tokens">Nubian Javaliner</Classes>
@@ -27,6 +27,6 @@
     <Entity>units/egyptian_infantry_javelinist_a</Entity>
   </Promotion>
   <VisualActor>
-    <Actor>units/egyptian/infantry_javelinist.xml</Actor>
+    <Actor>units/egyptian/infantry_javelinist_b.xml</Actor>
   </VisualActor>
 </Entity>
