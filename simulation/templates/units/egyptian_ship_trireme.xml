@@ -6,11 +6,11 @@
   </Footprint>
   <Identity>
     <Civ>egyptian</Civ>
-	<GenericName>?</GenericName>
+    <GenericName>?</GenericName>
     <SpecificName>?</SpecificName>
     <History>...</History>
     <Icon>units/pers_ship_trireme.png</Icon>
-	<Tooltip>Medium Warship</Tooltip>
+    <Tooltip>Medium Warship</Tooltip>
   </Identity>
   <VisualActor>
     <Actor>structures/persians/trireme.xml</Actor>

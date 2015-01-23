@@ -17,7 +17,7 @@
     <Max>160</Max>
   </Health>
   <Identity>
-	<Rank>Advanced</Rank>
+    <Rank>Advanced</Rank>
   </Identity>
   <Promotion>
     <Entity>units/egyptian_cavalry_swordsman_e</Entity>

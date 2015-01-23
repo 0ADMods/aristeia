@@ -19,8 +19,8 @@
   </Cost>
   <Identity>
     <Civ>nubian</Civ>
-	<SelectionGroupName>units/nubian_infantry_spearman_b</SelectionGroupName>
-	<GenericName>Nubian Spearman</GenericName>
+    <SelectionGroupName>units/nubian_infantry_spearman_b</SelectionGroupName>
+    <GenericName>Nubian Spearman</GenericName>
     <SpecificName>nubispearman</SpecificName>
     <Icon>nubian_infantry_spearman.png</Icon>
     <History>Nubian</History>

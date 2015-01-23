@@ -2,16 +2,16 @@
 <Entity parent="template_unit_infantry_ranged_javelinist">
   <Builder>
     <Entities datatype="tokens">
-          -other/wallset_palisade
+    -other/wallset_palisade
     structures/egyptian_wallset_small
-      structures/egyptian_large_temple
+    structures/egyptian_large_temple
     </Entities>
   </Builder>
   <Cost>
     <Resources>
       <food>0</food>
-	  <wood>50</wood>
-	  <metal>50</metal>
+      <wood>50</wood>
+      <metal>50</metal>
     </Resources>
   </Cost>
   <Identity>
@@ -19,7 +19,7 @@
     <SelectionGroupName>units/egyptian_infantry_javelinist_b</SelectionGroupName>
     <GenericName>Egyptian Skirmisher</GenericName>
     <SpecificName>Skirmisher</SpecificName>
-    <Classes datatype="tokens">Nubian Javaliner</Classes>
+    <Classes datatype="tokens">Nubian Javalinist</Classes>
     <History>...</History>
     <Icon>units/egyptian_infantry_javelinist.png</Icon>
   </Identity>

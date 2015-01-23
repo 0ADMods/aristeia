@@ -4,11 +4,10 @@
     <Civ>assyrian</Civ>
     <SpecificName>Bēt Napt ṭarti
     </SpecificName>
-    <!-- <History></History> -->
     <Tooltip>
-		Train infantry citizen-soldiers. 
-		Research Mobilisation, as well as Iron-tipped Arrows or Quiver innovations.
-	</Tooltip>
+      Train infantry citizen-soldiers. 
+      Research Mobilisation, as well as Iron-tipped Arrows or Quiver innovations.
+    </Tooltip>
     <Icon>structures/pers_barracks.png</Icon>
   </Identity>
   <ProductionQueue>

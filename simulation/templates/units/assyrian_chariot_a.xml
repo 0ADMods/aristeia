@@ -4,23 +4,21 @@
     <Max>4</Max>
   </GarrisonHolder>
   <Identity>
-	<SelectionGroupName>units/assyrian_chariot_a</SelectionGroupName>
-	<GenericName>Assyrian Heavy Chariot</GenericName>
-    <SpecificName>Attartu
-	</SpecificName>
-	<Rank>Advanced</Rank><!-- to increase not Aura, but at least armor and attack stats. -->
+    <SelectionGroupName>units/assyrian_chariot_a</SelectionGroupName>
+    <GenericName>Assyrian Heavy Chariot</GenericName>
+    <SpecificName>Attartu</SpecificName>
+    <Rank>Advanced</Rank>
     <History>
-	This type of chariot was introduced by the time of Ashurbanipal; new features included a fourth crewman, two additional horses, more armour, and greater size.	
-	</History>
-	<Tooltip>
-		Mobile firing platform, delivers shock attack vs infantry.
- 	   	Special: Trample damage aura (greater than for normal Assyrian chariot). High attack and armour. The player can gain these types of chariots by selecting “Heavy Chariots” from a Cavalry Stables tech tree option: “Heavy Chariots” vs “Siege Shields”. “Heavy Chariots” immediately and permanently upgrades all existing chariots, and any chariots trained thereafter, to the larger 4-man vehicles from the period of Ashurbanipal. Trained at the Cavalry Stables.
-	</Tooltip>
-	<Icon>units/assyrian_chariot_heavy.png</Icon>
-	<RequiredTechnology>assyrian/chariot_heavy</RequiredTechnology>
+      This type of chariot was introduced by the time of Ashurbanipal; new features included a fourth crewman, two additional horses, more armour, and greater size.	
+    </History>
+    <Tooltip>
+      Mobile firing platform, delivers shock attack vs infantry.
+      Special: Trample damage aura (greater than for normal Assyrian chariot). High attack and armour. The player can gain these types of chariots by selecting “Heavy Chariots” from a Cavalry Stables tech tree option: “Heavy Chariots” vs “Siege Shields”. “Heavy Chariots” immediately and permanently upgrades all existing chariots, and any chariots trained thereafter, to the larger 4-man vehicles from the period of Ashurbanipal. Trained at the Cavalry Stables.
+    </Tooltip>
+    <Icon>units/assyrian_chariot_heavy.png</Icon>
+    <RequiredTechnology>assyrian/chariot_heavy</RequiredTechnology>
   </Identity>
-  <Promotion disable="">
-  </Promotion>
+  <Promotion disable=""/>
   <VisualActor>
     <Actor>units/persians/cavalry_archer_e.xml</Actor>
   </VisualActor>

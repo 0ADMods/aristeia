@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_horse">
-  <!-- All these values target the horse's stats as each civ may have used different grade of horses for different unit types. -->
   <Identity>
     <Civ>assyrian</Civ>
   </Identity>

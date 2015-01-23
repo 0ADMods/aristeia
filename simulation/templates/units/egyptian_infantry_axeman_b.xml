@@ -13,7 +13,7 @@
   </Attack>
   <Builder>
     <Entities datatype="tokens">
-	  -other/wallset_palisade
+      -other/wallset_palisade
       structures/egyptian_wallset_small
       structures/egyptian_large_temple
     </Entities>
@@ -26,10 +26,10 @@
   </Cost>
   <Identity>
     <Civ>egyptian</Civ>
-	<SelectionGroupName>units/egyptian_infantry_axeman_b</SelectionGroupName>
-	<GenericName>Egyptian Axe Warrior</GenericName>
+    <SelectionGroupName>units/egyptian_infantry_axeman_b</SelectionGroupName>
+    <GenericName>Egyptian Axe Warrior</GenericName>
     <SpecificName>Jaqahawi Aha</SpecificName>
-    <Icon>units/egyptian_infantry_axeman_256x256.png</Icon>
+    <Icon>units/egyptian_infantry_axeman_b_256x256.png</Icon>
     <History>The Egyptian battle axe, used during the Old and Middle Kingdoms, was effective at cutting apart enemies who, like the Egyptians themselves, did not wear much body armor. This weapon was replaced by the sword during the New Kingdom.</History>
   </Identity>
   <Promotion>

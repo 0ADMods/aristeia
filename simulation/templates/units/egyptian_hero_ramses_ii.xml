@@ -2,7 +2,7 @@
 <Entity parent="template_unit_hero_infantry_archer">
   <Identity>
     <Civ>egyptian</Civ>
-	<GenericName>Ramesses II</GenericName>
+    <GenericName>Ramesses II</GenericName>
     <SpecificName>Riʻmīsisu</SpecificName>
     <Tooltip>Classes: Hero Infantry Archer.
 "Consort" Aura: Increased effectiveness of allied heroes in her vision. Decreased effectiveness for enemy heroes.

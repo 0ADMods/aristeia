@@ -18,7 +18,7 @@
     <Rank>Advanced</Rank>
   </Identity>
   <Promotion>
-    <Entity>units/egyptian_cavalry_javelinist_a</Entity>
+    <Entity>units/egyptian_cavalry_javelinist_e</Entity>
   </Promotion>
   <ResourceGatherer>
     <BaseSpeed>0.75</BaseSpeed>

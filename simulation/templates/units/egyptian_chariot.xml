@@ -2,14 +2,14 @@
 <!-- <Entity parent="template_unit_champion_cavalry_archer"> -->
 <!-- <Entity parent="template_unit_infantry_cavalry_archer"> -->
 <Entity parent="template_unit_chariot_garrisonholder">
-	<!-- Note that the components + its values defined here should only be related to the chariot as is - i.e. wihout rider + attachments and such. -->
+  <!-- Note that the components + its values defined here should only be related to the chariot as is - i.e. wihout rider + attachments and such. -->
   <Identity>
     <Civ>egyptian</Civ>
-	<GenericName>Egyptian War Chariot</GenericName>
+    <GenericName>Egyptian War Chariot</GenericName>
     <SpecificName>?</SpecificName>
-	<SelectionGroupName>units/egyptian_chariot</SelectionGroupName>
+    <SelectionGroupName>units/egyptian_chariot</SelectionGroupName>
     <History>The Egyptians were known for their chariots. The biggest battle between chariots was when the New Kingdom Egyptians fought the Hittites in the Battle of Kadesh around 1300BC.</History>
-	<Icon>units/maur_champion_chariot.png</Icon>
+    <Icon>units/maur_champion_chariot.png</Icon>
   </Identity>
   <UnitMotion>
     <WalkSpeed>16.0</WalkSpeed>

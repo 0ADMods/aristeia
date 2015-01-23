@@ -7,13 +7,13 @@
     <SpecificName>Ša Pētḫalli</SpecificName>
     <Icon>units/assyrian_cavalry.png</Icon>
     <History>
-		Worked in lancer/archer cavalry pairs for much of Assyria's timeframe, but later became more tactically proficient, multi-talented, self-sufficient, self-contained, and mobile due in part to improved cavalry methods, training, organization, and equipment.
+      Worked in lancer/archer cavalry pairs for much of Assyria's timeframe, but later became more tactically proficient, multi-talented, self-sufficient, self-contained, and mobile due in part to improved cavalry methods, training, organization, and equipment.
     </History>
-	<Tooltip>
-		Rapid shock attacks; should wield spear overarm-style.
- 	   	Special: Can rank up to the elite Royal Bodyguard Cavalry once gained enough experience. 
-		Trained at the Civ Centre and Cavalry Stables.
-	</Tooltip>
+    <Tooltip>
+      Rapid shock attacks; should wield spear overarm-style.
+      Special: Can rank up to the elite Royal Bodyguard Cavalry once gained enough experience. 
+      Trained at the Civ Centre and Cavalry Stables.
+    </Tooltip>
   </Identity>
   <Promotion>
     <Entity>units/assyrian_cavalry_spearman_a</Entity>

@@ -2,9 +2,10 @@
 <Entity parent="template_structure_resource_field">
   <Identity>
     <Civ>assyrian</Civ>
-    <SpecificName>Eršu
-	</SpecificName>
-    <History>Assyria contains some good farmland, particularly in the Tigris-Euphrates confluence area.</History>
+    <SpecificName>Eršu</SpecificName>
+    <History>
+      Assyria contains some good farmland, particularly in the Tigris-Euphrates confluence area.
+    </History>
   </Identity>
   <VisualActor>
     <Actor>structures/egyptian/field.xml</Actor>

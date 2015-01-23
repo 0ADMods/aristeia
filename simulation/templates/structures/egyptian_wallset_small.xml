@@ -4,7 +4,7 @@
     <Civ>egyptian</Civ>
     <SpecificName>Wall</SpecificName>
     <History></History>
-	<RequiredTechnology>phase_village</RequiredTechnology>
+    <RequiredTechnology>phase_village</RequiredTechnology>
   </Identity>
   <WallSet>
     <Templates>

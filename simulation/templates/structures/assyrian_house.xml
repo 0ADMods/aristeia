@@ -2,14 +2,12 @@
 <Entity parent="template_structure_civic_house">
   <Identity>
     <Civ>assyrian</Civ>
-    <SpecificName>
-		Bītu
-	</SpecificName>
+    <SpecificName>Bītu</SpecificName>
     <History>
-		No windows; based on the historical data, most houses seem to have had domed rather than flat roofs.
-	</History>
+      No windows; based on the historical data, most houses seem to have had domed rather than flat roofs.
+    </History>
   </Identity>
   <VisualActor>
-      <Actor>structures/persians/house.xml</Actor>
+    <Actor>structures/persians/house.xml</Actor>
   </VisualActor>
 </Entity>
