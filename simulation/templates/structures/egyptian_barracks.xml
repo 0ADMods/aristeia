@@ -22,6 +22,6 @@
     </Technologies>
   </ProductionQueue>
   <VisualActor>
-    <Actor>structural/egyptian/barracks.xml</Actor>
+    <Actor>structures/egyptian/barracks.xml</Actor>
   </VisualActor>
 </Entity>

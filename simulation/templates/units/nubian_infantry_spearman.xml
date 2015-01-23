@@ -26,6 +26,6 @@
     <History>Nubian</History>
   </Identity>
   <VisualActor>
-    <Actor>nubian/infantry_spearman.xml</Actor>
+    <Actor>units/nubian/infantry_spearman.xml</Actor>
   </VisualActor>
 </Entity>

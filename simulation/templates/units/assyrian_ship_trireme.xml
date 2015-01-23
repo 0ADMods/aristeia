@@ -19,6 +19,6 @@
     </Entities>
   </ProductionQueue>
   <VisualActor>
-    <Actor>structural/assyrian/trireme.xml</Actor>
+    <Actor>structures/assyrian/trireme.xml</Actor>
   </VisualActor>
 </Entity>

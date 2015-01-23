@@ -22,6 +22,6 @@
     </SoundGroups>
   </Sound>
   <VisualActor>
-    <Actor>egyptian/hero_pharao.xml</Actor>
+    <Actor>units/egyptian/hero_pharao.xml</Actor>
   </VisualActor>
 </Entity>

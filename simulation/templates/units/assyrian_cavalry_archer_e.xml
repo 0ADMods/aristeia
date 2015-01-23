@@ -19,6 +19,6 @@
   </Identity>
   <Promotion disable=""/>
   <VisualActor>
-    <Actor>persians/cavalry_archer_b.xml</Actor>
+    <Actor>units/persians/cavalry_archer_b.xml</Actor>
   </VisualActor>
 </Entity>

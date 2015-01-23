@@ -21,6 +21,6 @@
     <!-- Technologies are inherited from the parent template. -->
   </ProductionQueue>
   <VisualActor>
-    <Actor>structural/assyrian/barracks.xml</Actor>
+    <Actor>structures/assyrian/barracks.xml</Actor>
   </VisualActor>
 </Entity>

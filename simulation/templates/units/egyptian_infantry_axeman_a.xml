@@ -21,6 +21,6 @@
     <BaseSpeed>0.75</BaseSpeed>
   </ResourceGatherer>
   <VisualActor>
-    <Actor>egyptian/infantry_axeman_a.xml</Actor>
+    <Actor>units/egyptian/infantry_axeman_a.xml</Actor>
   </VisualActor>
 </Entity>

@@ -32,6 +32,6 @@
     <Entity>units/egyptian_infantry_archer_a</Entity>
   </Promotion>
   <VisualActor>
-    <Actor>egyptian/infantry_archer.xml</Actor>
+    <Actor>units/egyptian/infantry_archer.xml</Actor>
   </VisualActor>
 </Entity>

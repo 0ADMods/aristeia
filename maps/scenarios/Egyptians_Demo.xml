@@ -8591,127 +8591,127 @@
 			<Actor seed="0"/>
 		</Entity>
 		<Entity uid="4354">
-			<Template>actor|structural/egyptian/small_wall_tower.xml</Template>
+			<Template>actor|structures/egyptian/small_wall_tower.xml</Template>
 			<Position x="130.03571" z="464.43662"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="44498"/>
 		</Entity>
 		<Entity uid="4355">
-			<Template>actor|structural/egyptian/small_wall_tower.xml</Template>
+			<Template>actor|structures/egyptian/small_wall_tower.xml</Template>
 			<Position x="139.2115" z="472.39216"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="64048"/>
 		</Entity>
 		<Entity uid="4356">
-			<Template>actor|structural/egyptian/small_wall_tower.xml</Template>
+			<Template>actor|structures/egyptian/small_wall_tower.xml</Template>
 			<Position x="141.61777" z="482.95057"/>
 			<Orientation y="1.28713"/>
 			<Actor seed="29110"/>
 		</Entity>
 		<Entity uid="4357">
-			<Template>actor|structural/egyptian/small_wall_tower.xml</Template>
+			<Template>actor|structures/egyptian/small_wall_tower.xml</Template>
 			<Position x="119.47912" z="464.66303"/>
 			<Orientation y="-3.07224"/>
 			<Actor seed="12112"/>
 		</Entity>
 		<Entity uid="4358">
-			<Template>actor|structural/egyptian/small_wall_tower.xml</Template>
+			<Template>actor|structures/egyptian/small_wall_tower.xml</Template>
 			<Position x="135.7085" z="494.80405"/>
 			<Orientation y="0.96171"/>
 			<Actor seed="30717"/>
 		</Entity>
 		<Entity uid="4359">
-			<Template>actor|structural/egyptian/small_wall_tower.xml</Template>
+			<Template>actor|structures/egyptian/small_wall_tower.xml</Template>
 			<Position x="125.69655" z="504.19999"/>
 			<Orientation y="0.58544"/>
 			<Actor seed="64815"/>
 		</Entity>
 		<Entity uid="4360">
-			<Template>actor|structural/egyptian/small_wall_tower.xml</Template>
+			<Template>actor|structures/egyptian/small_wall_tower.xml</Template>
 			<Position x="111.25988" z="471.69306"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="11940"/>
 		</Entity>
 		<Entity uid="4361">
-			<Template>actor|structural/egyptian/small_wall_tower.xml</Template>
+			<Template>actor|structures/egyptian/small_wall_tower.xml</Template>
 			<Position x="100.60041" z="482.91068"/>
 			<Orientation y="0.85001"/>
 			<Actor seed="37966"/>
 		</Entity>
 		<Entity uid="4362">
-			<Template>actor|structural/egyptian/small_wall_tower.xml</Template>
+			<Template>actor|structures/egyptian/small_wall_tower.xml</Template>
 			<Position x="96.67183" z="497.31363"/>
 			<Orientation y="1.8037"/>
 			<Actor seed="50192"/>
 		</Entity>
 		<Entity uid="4363">
-			<Template>actor|structural/egyptian/small_wall_tower.xml</Template>
+			<Template>actor|structures/egyptian/small_wall_tower.xml</Template>
 			<Position x="100.89937" z="506.69608"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="41548"/>
 		</Entity>
 		<Entity uid="4364">
-			<Template>actor|structural/egyptian/small_wall_tower.xml</Template>
+			<Template>actor|structures/egyptian/small_wall_tower.xml</Template>
 			<Position x="111.3768" z="510.73325"/>
 			<Orientation y="-3.12111"/>
 			<Actor seed="65481"/>
 		</Entity>
 		<Entity uid="4365">
-			<Template>actor|structural/egyptian/small_wall_medium.xml</Template>
+			<Template>actor|structures/egyptian/small_wall_medium.xml</Template>
 			<Position x="124.80907" z="464.4748"/>
 			<Orientation y="-3.13859"/>
 			<Actor seed="64223"/>
 		</Entity>
 		<Entity uid="4366">
-			<Template>actor|structural/egyptian/small_wall_medium.xml</Template>
+			<Template>actor|structures/egyptian/small_wall_medium.xml</Template>
 			<Position x="140.629" z="477.38236"/>
 			<Orientation y="1.81513"/>
 			<Actor seed="147"/>
 		</Entity>
 		<Entity uid="4368">
-			<Template>actor|structural/egyptian/small_wall_medium.xml</Template>
+			<Template>actor|structures/egyptian/small_wall_medium.xml</Template>
 			<Position x="115.23656" z="467.98792"/>
 			<Orientation y="0.70748"/>
 			<Actor seed="27211"/>
 		</Entity>
 		<Entity uid="4369">
-			<Template>actor|structural/egyptian/small_wall_long.xml</Template>
+			<Template>actor|structures/egyptian/small_wall_long.xml</Template>
 			<Position x="105.80945" z="477.48914"/>
 			<Orientation y="-2.34211"/>
 			<Actor seed="65233"/>
 		</Entity>
 		<Entity uid="4370">
-			<Template>actor|structural/egyptian/small_wall_long.xml</Template>
+			<Template>actor|structures/egyptian/small_wall_long.xml</Template>
 			<Position x="130.77945" z="499.7191"/>
 			<Orientation y="0.75315"/>
 			<Actor seed="39135"/>
 		</Entity>
 		<Entity uid="4373">
-			<Template>actor|structural/egyptian/small_wall_long.xml</Template>
+			<Template>actor|structures/egyptian/small_wall_long.xml</Template>
 			<Position x="98.30083" z="490.53235"/>
 			<Orientation y="1.29546"/>
 			<Actor seed="23925"/>
 		</Entity>
 		<Entity uid="4374">
-			<Template>actor|structural/egyptian/small_wall_long.xml</Template>
+			<Template>actor|structures/egyptian/small_wall_long.xml</Template>
 			<Position x="118.68044" z="507.6967"/>
 			<Orientation y="0.45168"/>
 			<Actor seed="37545"/>
 		</Entity>
 		<Entity uid="4375">
-			<Template>actor|structural/egyptian/small_wall_medium.xml</Template>
+			<Template>actor|structures/egyptian/small_wall_medium.xml</Template>
 			<Position x="98.42054" z="502.0634"/>
 			<Orientation y="1.99776"/>
 			<Actor seed="43345"/>
 		</Entity>
 		<Entity uid="4376">
-			<Template>actor|structural/egyptian/small_wall_medium.xml</Template>
+			<Template>actor|structures/egyptian/small_wall_medium.xml</Template>
 			<Position x="106.14974" z="509.12372"/>
 			<Orientation y="2.78876"/>
 			<Actor seed="9249"/>
 		</Entity>
 		<Entity uid="4377">
-			<Template>actor|structural/egyptian/small_wall_long.xml</Template>
+			<Template>actor|structures/egyptian/small_wall_long.xml</Template>
 			<Position x="138.7154" z="488.93476"/>
 			<Orientation y="1.10293"/>
 			<Actor seed="16117"/>
@@ -10587,7 +10587,7 @@
 			<Actor seed="12295"/>
 		</Entity>
 		<Entity uid="4722">
-			<Template>actor|structural/flyingsaucer_crashed.xml</Template>
+			<Template>actor|structures/flyingsaucer_crashed.xml</Template>
 			<Position x="547.32703" z="777.76978"/>
 			<Orientation y="-2.2671"/>
 			<Actor seed="37807"/>
@@ -10737,67 +10737,67 @@
 			<Actor seed="63848"/>
 		</Entity>
 		<Entity uid="4747">
-			<Template>actor|structural/flyingsaucer_part.xml</Template>
+			<Template>actor|structures/flyingsaucer_part.xml</Template>
 			<Position x="543.18573" z="790.5669"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="10087"/>
 		</Entity>
 		<Entity uid="4748">
-			<Template>actor|structural/flyingsaucer_part.xml</Template>
+			<Template>actor|structures/flyingsaucer_part.xml</Template>
 			<Position x="535.54584" z="809.06458"/>
 			<Orientation y="2.15365"/>
 			<Actor seed="12053"/>
 		</Entity>
 		<Entity uid="4749">
-			<Template>actor|structural/flyingsaucer_part.xml</Template>
+			<Template>actor|structures/flyingsaucer_part.xml</Template>
 			<Position x="534.40503" z="794.55616"/>
 			<Orientation y="-1.89956"/>
 			<Actor seed="52377"/>
 		</Entity>
 		<Entity uid="4750">
-			<Template>actor|structural/flyingsaucer_part.xml</Template>
+			<Template>actor|structures/flyingsaucer_part.xml</Template>
 			<Position x="542.08655" z="782.61274"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="10011"/>
 		</Entity>
 		<Entity uid="4751">
-			<Template>actor|structural/flyingsaucer_part.xml</Template>
+			<Template>actor|structures/flyingsaucer_part.xml</Template>
 			<Position x="545.8498" z="771.18952"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="48612"/>
 		</Entity>
 		<Entity uid="4752">
-			<Template>actor|structural/flyingsaucer_part.xml</Template>
+			<Template>actor|structures/flyingsaucer_part.xml</Template>
 			<Position x="553.82703" z="781.3183"/>
 			<Orientation y="-0.50702"/>
 			<Actor seed="8598"/>
 		</Entity>
 		<Entity uid="4753">
-			<Template>actor|structural/flyingsaucer_part2.xml</Template>
+			<Template>actor|structures/flyingsaucer_part2.xml</Template>
 			<Position x="547.09089" z="774.16175"/>
 			<Orientation y="1.7965"/>
 			<Actor seed="9904"/>
 		</Entity>
 		<Entity uid="4754">
-			<Template>actor|structural/flyingsaucer_part3.xml</Template>
+			<Template>actor|structures/flyingsaucer_part3.xml</Template>
 			<Position x="539.77619" z="774.00733"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="41003"/>
 		</Entity>
 		<Entity uid="4755">
-			<Template>actor|structural/flyingsaucer_part3.xml</Template>
+			<Template>actor|structures/flyingsaucer_part3.xml</Template>
 			<Position x="555.78718" z="776.32789"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="24440"/>
 		</Entity>
 		<Entity uid="4756">
-			<Template>actor|structural/flyingsaucer_part3.xml</Template>
+			<Template>actor|structures/flyingsaucer_part3.xml</Template>
 			<Position x="552.6139" z="766.19837"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="867"/>
 		</Entity>
 		<Entity uid="4757">
-			<Template>actor|structural/flyingsaucer_part.xml</Template>
+			<Template>actor|structures/flyingsaucer_part.xml</Template>
 			<Position x="556.38074" z="763.6233"/>
 			<Orientation y="-1.51401"/>
 			<Actor seed="34519"/>

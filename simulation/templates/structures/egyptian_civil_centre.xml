@@ -24,7 +24,7 @@
     </Entities>
   </ProductionQueue>
   <VisualActor>
-      <Actor>structural/egyptian/civil_centre.xml</Actor>
+      <Actor>structures/egyptian/civil_centre.xml</Actor>
       <FoundationActor>structures/fndn_6x4_dock.xml</FoundationActor>
   </VisualActor>
 </Entity>

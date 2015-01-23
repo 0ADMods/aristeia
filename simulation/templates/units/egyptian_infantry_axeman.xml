@@ -36,6 +36,6 @@
     <Entity>units/egyptian_infantry_axeman_a</Entity>
   </Promotion>
   <VisualActor>
-    <Actor>egyptian/infantry_axeman.xml</Actor>
+    <Actor>units/egyptian/infantry_axeman.xml</Actor>
   </VisualActor>
 </Entity>

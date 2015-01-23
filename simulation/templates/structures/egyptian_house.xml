@@ -10,6 +10,6 @@
     <History>Most Egyptians lived in mudbrick houses with flat, thatched roofs.</History>
   </Identity>
   <VisualActor>
-    <Actor>structural/egyptian/house.xml</Actor>
+    <Actor>structures/egyptian/house.xml</Actor>
   </VisualActor>
 </Entity>

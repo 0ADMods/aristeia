@@ -68,6 +68,6 @@ Ranged attack 2x vs. spearmen. Ranged attack 1.5x vs. Swordsmen.</Tooltip>
     </Run>
   </UnitMotion>
   <VisualActor>
-    <Actor>assyrian/hero_darius_chariot.xml</Actor>
+    <Actor>units/assyrian/hero_darius_chariot.xml</Actor>
   </VisualActor>
 </Entity>

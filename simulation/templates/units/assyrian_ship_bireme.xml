@@ -12,6 +12,6 @@
     <Icon>units/assyrian_ship_bireme.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>structural/assyrian/bireme.xml</Actor>
+    <Actor>structures/assyrian/bireme.xml</Actor>
   </VisualActor>
 </Entity>

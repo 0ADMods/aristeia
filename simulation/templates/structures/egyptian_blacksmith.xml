@@ -11,6 +11,6 @@
     </Technologies>
   </ProductionQueue>
   <VisualActor>
-    <Actor>structural/egyptian/blacksmith.xml</Actor>
+    <Actor>structures/egyptian/blacksmith.xml</Actor>
   </VisualActor>
 </Entity>

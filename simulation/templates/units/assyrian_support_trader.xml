@@ -11,6 +11,6 @@
 	</History>
   </Identity>
   <VisualActor>
-    <Actor>assyrian/trader.xml</Actor>
+    <Actor>units/assyrian/trader.xml</Actor>
   </VisualActor>
 </Entity>

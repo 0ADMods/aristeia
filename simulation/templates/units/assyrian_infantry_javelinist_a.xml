@@ -27,6 +27,6 @@
     </Run>
   </UnitMotion>
   <VisualActor>
-    <Actor>assyrian/infantry_javelinist_a.xml</Actor>
+    <Actor>units/assyrian/infantry_javelinist_a.xml</Actor>
   </VisualActor>
 </Entity>

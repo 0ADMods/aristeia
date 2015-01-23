@@ -11,6 +11,6 @@
     <Rank>Advanced</Rank>
   </Identity>
   <Promotion>
-    <Entity>units/assyrian_support_healer_e</Entity>
+    <Entity>units/assyrian/assyrian_support_healer_e</Entity>
   </Promotion>
 </Entity>

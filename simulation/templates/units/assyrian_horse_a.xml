@@ -7,6 +7,6 @@
     <Entity>units/assyrian_horse_e</Entity>
   </Promotion>
   <VisualActor>
-    <Actor>assyrian/cavalry_archer_horse.xml</Actor>
+    <Actor>units/assyrian/cavalry_archer_horse.xml</Actor>
   </VisualActor>
 </Entity>

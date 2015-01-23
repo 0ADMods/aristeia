@@ -7,6 +7,6 @@
     <Rank>Advanced</Rank>
   </Identity>
   <VisualActor>
-    <Actor>egyptian/infantry_spearman_a.xml</Actor>
+    <Actor>units/egyptian/infantry_spearman_a.xml</Actor>
   </VisualActor>
 </Entity>

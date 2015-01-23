@@ -20,6 +20,6 @@
     <Rank>Elite</Rank>
   </Identity>
   <VisualActor>
-    <Actor>egyptian/infantry_spearman_e.xml</Actor>
+    <Actor>units/egyptian/infantry_spearman_e.xml</Actor>
   </VisualActor>
 </Entity>

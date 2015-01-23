@@ -48,6 +48,6 @@
   </Identity>
    <Promotion disable=''/>
   <VisualActor>
-    <Actor>egyptian/champion_infantry_maceman.xml</Actor>
+    <Actor>units/egyptian/champion_infantry_maceman.xml</Actor>
   </VisualActor>
 </Entity>

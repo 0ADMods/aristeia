@@ -39,7 +39,7 @@
   </StatusBars>
   <TerritoryInfluence disable=""/>
   <VisualActor>
-    <Actor>structural/egyptian/small_wall_tower.xml</Actor>
+    <Actor>structures/egyptian/small_wall_tower.xml</Actor>
     <FoundationActor>structures/fndn_1x1pal.xml</FoundationActor>
   </VisualActor>
   <WallPiece>

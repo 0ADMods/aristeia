@@ -24,6 +24,6 @@
     <BaseSpeed>0.75</BaseSpeed>
   </ResourceGatherer>
   <VisualActor>
-    <Actor>egyptian/cavalry_javelinist_a.xml</Actor>
+    <Actor>units/egyptian/cavalry_javelinist_a.xml</Actor>
   </VisualActor>
 </Entity>

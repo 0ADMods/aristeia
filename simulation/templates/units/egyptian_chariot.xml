@@ -18,6 +18,6 @@
     </Run>
   </UnitMotion>
   <VisualActor>
-    <Actor>egyptian/chariot.xml</Actor>
+    <Actor>units/egyptian/chariot.xml</Actor>
   </VisualActor>
 </Entity>
