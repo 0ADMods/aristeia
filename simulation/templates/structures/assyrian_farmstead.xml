@@ -7,11 +7,6 @@
       Assyria contained some good farmland, particularly in the Tigris-Euphrates confluence area.
     </History>
   </Identity>
-  <ProductionQueue>
-    <Entities datatype="tokens">
-      units/assyrian_horse_b
-    </Entities>
-  </ProductionQueue>
   <VisualActor>
     <Actor>structures/persians/farmstead.xml</Actor>
   </VisualActor>

@@ -36,7 +36,6 @@
     <Entities datatype="tokens">
       units/assyrian_cavalry_spearman_b
       units/assyrian_cavalry_archer_e
-      units/assyrian_horse_b
     </Entities>
     <Technologies datatype="tokens">
       -heal_barracks
