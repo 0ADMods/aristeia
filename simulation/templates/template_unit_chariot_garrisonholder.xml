@@ -110,8 +110,7 @@ Countered by: {CounteredBy}.</Tooltip>
     <Unit radius="1.3"/>
   </Obstruction>
   <ResourceDropsite>
-    <Types>food</Types>
-    <Types>metal</Types>
+    <Types>food metal</Types>
     <!-- wood, i.e. timber is not transportable that easily with a chariot, but that might be incorrect. -->
   </ResourceDropsite>
   <ResourceGatherer>

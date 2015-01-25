@@ -5,7 +5,7 @@
     <GenericName>Infantry Guardsman</GenericName>
     <SpecificName>Zuk Shepe</SpecificName>
     <Icon>units/infantry_guardsman.png</Icon>
-    <SelectionGroupName>units/assyrian_infantry_spearman_champion</SelectionGroupName>
+    <SelectionGroupName>units/assyrian_champion_infantry</SelectionGroupName>
     <History>
       Using a 5.5 to 6 inch long spear the infantry guardsmen were an elite unit that served both as guards for the Assyrian ruler and as a core of professional soldiers within the standing army.
       Around the time of Esarhaddon, guardsmen were equipped with very large shields, perhaps as part of the increasing emphasis on combat protection and well-being for Assyria's soldiers.

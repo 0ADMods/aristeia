@@ -70,7 +70,7 @@
     </variant>
     <variant name="death">
       <props>
-        <prop actor="blood_01.xml" attachpoint="root"/>
+        <prop actor="props/units/blood_01.xml" attachpoint="root"/>
       </props>
     </variant>
     <variant name="gather_tree">

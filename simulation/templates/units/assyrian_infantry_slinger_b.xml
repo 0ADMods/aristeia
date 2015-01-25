@@ -20,5 +20,6 @@
   <Promotion disable=""/>
   <VisualActor>
     <!--<Actor>units/israelite/infantry_slinger.xml</Actor>-->
+    <Actor>units/athenians/infantry_slinger_b.xml</Actor>
   </VisualActor>
 </Entity>
