@@ -14,8 +14,16 @@
   <Builder>
     <Entities datatype="tokens">
       -other/wallset_palisade
+      -structures/{civ}_wonder
       structures/egyptian_wallset_small
-      structures/egyptian_large_temple
+      structures/egyptian_stables
+      structures/egyptian_sb_sphinx
+      structures/egyptian_sb_colossus
+      structures/egyptian_sb_monument
+      structures/egyptian_palace_theban
+      structures/egyptian_palace_ramesside
+      structures/egyptian_wonder_temple_mortuary
+      structures/egyptian_wonder_temple_karnak
     </Entities>
   </Builder>
   <Cost>
@@ -29,9 +37,9 @@
     <Civ>egyptian</Civ>
     <SelectionGroupName>units/egyptian_infantry_spearman_b</SelectionGroupName>
     <GenericName>Egyptian Spearman</GenericName>
-    <SpecificName>Mawt Aha</SpecificName>
+    <SpecificName>Waʿuw-HeḤ nyety</SpecificName>
     <Icon>units/egyptian_infantry_spearman.png</Icon>
-    <History>The spear, originally used for hunting, was among the earliest weapons in the Egyptian arsenal. Wooden models carved in the shape of Egyptian spearmen were found in the Middle Kingdom tomb of Mesehti. Spears were also used by the chariotry when they ran out of arrows.</History>
+    <History>Spearmen formed a basic building block of the Egyptian army's melee units. Some warriors from the New Kingdom period are depicted with shorter, longer-bladed stabbing spears, which could be wielded either one or two-handed.</History>
   </Identity>
   <Promotion>
     <Entity>units/egyptian_infantry_spearman_a</Entity>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_champion_infantry_archer">
+  <Identity>
+    <Civ>egyptian</Civ>
+	<GenericName>Medjay Archer</GenericName>
+    <SpecificName>mDAw</SpecificName>
+    <History>The Medjay were originally a tribe of Nubian nomads who were allied with the Egyptians, serving as archers and scouts. The Medjay played a principal role in the Egyptian war of liberation against the Hyksos prior to the New Kingdom. However, in the later New Kingdom, “Medjay” came to refer to an elite paramilitary policing force. They performed such functions as guarding the Valley of the Kings necropolis in Thebes.</History>
+    <Tooltip>Fierce stinging ranged attacks vs. melee units.</Tooltip>
+    <Icon>units/athen_champion_ranged.png</Icon>
+    <RequiredTechnology>egyptian/phase_city_theban</RequiredTechnology>
+  </Identity>
+  <VisualActor>
+    <Actor>units/athenians/champion_unit_ranged.xml</Actor>
+  </VisualActor>
+</Entity>

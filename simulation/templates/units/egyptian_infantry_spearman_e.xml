@@ -2,6 +2,7 @@
 <Entity parent="units/egyptian_infantry_spearman_a">
   <Promotion disable=''/>
   <Identity>
+    <GenericName>Spear-sword Warrior</GenericName>
     <Rank>Elite</Rank>
   </Identity>
   <VisualActor>

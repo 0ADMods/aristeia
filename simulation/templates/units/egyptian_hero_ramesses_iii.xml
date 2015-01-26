@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_hero_cavalry_archer">
+  <Auras>
+    <Aura1>
+      <Type>global</Type>
+      <Affects>Ship</Affects>
+      <Modifications>
+        <Cost.BuildTime> <Multiply>0.9</Multiply> </Cost.BuildTime>
+      </Modifications>
+      <AuraName>Naval Commander</AuraName>
+      <AuraDescription>Increased construction speed for all naval vessels during his lifetime.</AuraDescription>
+    </Aura1>
+    <Aura2>
+      <Type>range</Type>
+      <Radius>30</Radius>
+      <Affects>CitizenSoldier</Affects>
+      <Modifications>
+        <Attack.Melee> <Multiply>1.1</Multiply> </Attack.Melee>
+        <Attack.Hack> <Multiply>1.1</Multiply> </Attack.Hack>
+        <Attack.Pierce> <Multiply>1.1</Multiply> </Attack.Pierce>
+      </Modifications>
+      <AuraName>Followers of His Majesty (Smsw Hm)</AuraName>
+      <AuraDescription>Egyptian soldiers held their Pharaoh in awe, and hoped to gain his favour and reward by performing courageous exploits that would bring them to his attention. Increased attack for all citizen soldiers in the Pharaoh's hero aura.</AuraDescription>
+    </Aura2>
+  </Auras>
+  <Builder>
+    <Rate>1.0</Rate>
+    <Entities datatype="tokens">
+      structures/egyptian_sb_obelisk
+    </Entities>
+  </Builder>
+  <Cost>
+    <Population>2</Population>
+  </Cost>
+  <Identity>
+    <Civ>egyptian</Civ>
+    <GenericName>Ramesses III</GenericName>
+    <SpecificName>Userma'atre'meryamun Ramesses</SpecificName>
+    <Tooltip>"Naval Commander"</Tooltip>
+    <History>Ramesses III is widely considered to be the last great New Kingdom Pharaoh. He was beset by invasions of Sea Peoples and Libyans during his reign, and he defeated a major invasion of Sea Peoples at the Battle of the Delta by using a combination of Egyptian naval tactics and massed shore-stationed archers.</History>
+    <Icon>units/egyptian_hero_pharao.png</Icon>
+    <RequiredTechnology>egyptian/phase_city_ramesside</RequiredTechnology>
+  </Identity>
+  <VisualActor>
+    <Actor>units/egyptian/hero_pharao.xml</Actor>
+  </VisualActor>
+</Entity>

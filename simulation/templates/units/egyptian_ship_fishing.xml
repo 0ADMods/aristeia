@@ -2,8 +2,8 @@
 <Entity parent="template_unit_mechanical_ship_fishing">
   <Identity>
     <Civ>egyptian</Civ>
-    <SpecificName>?</SpecificName>
-    <History>...</History>
+    <SpecificName>mk</SpecificName>
+    <History>Fishing was a popular pasttime as well as a thriving industry in New Kingdom Egypt.</History>
     <Icon>units/pers_ship_fishing.png</Icon>
   </Identity>
   <VisualActor>
