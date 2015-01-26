@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- <Entity parent="template_unit_champion_cavalry_archer"> -->
-<!-- <Entity parent="template_unit_infantry_cavalry_archer"> -->
-<Entity parent="template_unit_chariot_garrisonholder">
-  <!-- Note that the components + its values defined here should only be related to the chariot as is - i.e. wihout rider + attachments and such. -->
+<Entity parent="template_unit_champion_cavalry_archer">
   <Identity>
     <Civ>egyptian</Civ>
     <GenericName>Egyptian War Chariot</GenericName>
