@@ -1,0 +1,16 @@
+{
+	"genericName": "Granite Quarries of the First Cataract",
+	"specificName": {
+		"egyptian": "ikw mAT"
+	},
+	"description": "Granite was one of the principal building materials for structures such as temples, palaces, and monuments, and the First Cataract of the Nile (an area of rapids that marked the southernmost boundary of Egypt, along Nubia) was a major granite resource.",
+	"cost": {"food": 250, "wood": 0, "stone": 0, "metal": 50},
+	"requirements": {"all": [{"civ": "egyptian"}, {"tech": "phase_town"}]},
+	"requirementsTooltip": "Unlocked in Town Phase.",
+	"icon": "mining_stone.png",
+	"researchTime": 40,
+	"tooltip": "Increased stone gathering rates.",
+	"modifications": [{"value": "ResourceGatherer/Rates/stone.rock", "multiply": 1.10}],
+	"affects": ["Worker"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

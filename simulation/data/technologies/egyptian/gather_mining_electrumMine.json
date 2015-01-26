@@ -1,0 +1,16 @@
+{
+	"genericName": "Electrum Mines of Nubia",
+	"specificName": {
+		"egyptian": "biAw Damw"
+	},
+	"description": "Electrum was a naturally-occuring alloy of gold and silver, found primarily in Nubia and greatly prized. The war crown of the Pharaoh was crafted of electrum, and obelisks were often overlaid with the precious metal.",
+	"cost": {"food": 0, "wood": 250, "stone": 0, "metal": 50},
+	"requirements": {"all": [{"civ": "egyptian"}, {"tech": "phase_town"}]},
+	"requirementsTooltip": "Unlocked in Town Phase.",
+	"icon": "mining_metal.png",
+	"researchTime": 40,
+	"tooltip": "Increased metal gathering rates.",
+	"modifications": [{"value": "ResourceGatherer/Rates/metal.ore", "multiply": 1.10}],
+	"affects": ["Worker"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

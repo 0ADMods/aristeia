@@ -1,0 +1,16 @@
+{
+	"genericName": "Wisdom of Imhotep",
+	"specificName": {
+		"egyptian": "sAA ii-m-htp"
+	},
+	"description": "Imhotep was a famous architect, author, and physician from the Old Kingdom period. He emphasized practical diagnoses and cures in his medicine rather than superstition. Egyptian healers were considered among the best in the Mediterranean until the time of Hippocrates, the great Greek physician.",
+	"cost": {"food": 500, "wood": 0, "stone": 0, "metal": 250},
+	"requirements": {"all": [{"civ": "egyptian"}, {"tech": "phase_town"}]},
+	"requirementsTooltip": "Unlocked in Town Phase.",
+	"icon": "healing_rate.png",
+	"researchTime": 40,
+	"tooltip": "Healers +25% healing rate.",
+	"modifications": [{"value": "Heal/Rate", "multiply": 0.75}],
+	"affects": ["Healer"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}
