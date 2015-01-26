@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_special">
+  <Auras>
+    <Aura1>
+      <Type>global</Type>
+      <Affects>Structure</Affects>
+      <Modifications>
+        <TerritoryInfluence.Radius> <Multiply>1.1</Multiply> </TerritoryInfluence.Radius>
+      </Modifications>
+      <AuraName>Culture Spread</AuraName>
+      <AuraDescription>10% Territory Increase</AuraDescription>
+    </Aura1>
+    <Aura2>
+      <Type>range</Type>
+      <Radius>40</Radius>
+      <Affects>Soldier</Affects>
+      <Modifications>
+        <Attack.Melee.Crush> <Multiply>1.1</Multiply> </Attack.Melee.Crush>
+        <Attack.Melee.Hack> <Multiply>1.1</Multiply> </Attack.Melee.Hack>
+        <Attack.Melee.Pierce> <Multiply>1.1</Multiply> </Attack.Melee.Pierce>
+        <Attack.Ranged.Crush> <Multiply>1.1</Multiply> </Attack.Ranged.Crush>
+        <Attack.Ranged.Hack> <Multiply>1.1</Multiply> </Attack.Ranged.Hack>
+        <Attack.Ranged.Pierce> <Multiply>1.1</Multiply> </Attack.Ranged.Pierce>
+        <Attack.Charge.Crush> <Multiply>1.1</Multiply> </Attack.Charge.Crush>
+        <Attack.Charge.Hack> <Multiply>1.1</Multiply> </Attack.Charge.Hack>
+        <Attack.Charge.Pierce> <Multiply>1.1</Multiply> </Attack.Charge.Pierce>
+      </Modifications>
+      <AuraName>Jingoism</AuraName>
+      <AuraDescription>Increased attack for all nearby soldiers.</AuraDescription>
+    </Aura2>
+  </Auras>
+  <BuildRestrictions>
+    <Category>Monument</Category>
+  </BuildRestrictions>
+  <Cost>
+    <BuildTime>50</BuildTime>
+    <Resources>
+      <food>0</food>
+      <wood>0</wood>
+      <stone>200</stone>
+      <metal>0</metal>
+    </Resources>
+  </Cost>
+  <Footprint>
+    <Square width="4.5" depth="4.5"/>
+    <Height>10.0</Height>
+  </Footprint>
+  <GarrisonHolder disable=""/>
+  <Health>
+    <Max>1000</Max>
+    <SpawnEntityOnDeath>rubble/rubble_1x1</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Civ>egyptian</Civ>
+    <GenericName>Great Monument to the Pharaoh at Abu Simbel</GenericName>
+    <SpecificName>sšmw</SpecificName>
+    <History>The Ramesside Pharaohs, especially Ramesses II, built many self-promoting monuments and statues. Can be based off of statues of Ramesses II at Abu Simbel.</History>
+    <Tooltip>Increases Territory Influence and compels nearby Soldiers to fight harder.</Tooltip>
+    <Classes datatype="tokens">-ConquestCritical</Classes>
+    <RequiredTechnology>egyptian/phase_city_ramesside</RequiredTechnology>
+    <Icon>structures/tholos.png</Icon>
+  </Identity>
+  <Loot>
+    <xp>10</xp>
+    <food>0</food>
+    <wood>0</wood>
+    <stone>100</stone>
+    <metal>0</metal>
+  </Loot>
+  <Obstruction>
+    <Static width="4.0" depth="4.0"/>
+  </Obstruction>
+  <TerritoryDecay disable=""/>
+  <TerritoryInfluence>
+    <Radius>8</Radius>
+  </TerritoryInfluence>
+  <Vision>
+    <Range>12</Range>
+  </Vision>
+  <VisualActor>
+    <Actor>structures/egyptian/sb_monument.xml</Actor>
+    <FoundationActor>structures/fndn_1x1.xml</FoundationActor>
+  </VisualActor>
+</Entity>

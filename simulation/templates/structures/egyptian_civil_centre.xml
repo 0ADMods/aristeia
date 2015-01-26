@@ -9,9 +9,9 @@
   </Health>
   <Identity>
     <Civ>egyptian</Civ>
-    <GenericName>Great House</GenericName>
-    <SpecificName>Per’Aa</SpecificName>
-    <History>The term used for Egyptian kings, “Pharaoh”, literally means “Great House”.</History>
+    <GenericName>House of the Nomarc</GenericName>
+    <SpecificName>jwjt</SpecificName>
+    <History>Ancient Egypt was subdivided into 42 administrative regions, each known as a “nome” (Egyptian “sepat”).</History>
   </Identity>
   <Obstruction>
    <Static width="30.0" depth="50.0"/>
@@ -20,11 +20,15 @@
     <Entities datatype="tokens">
       units/egyptian_infantry_spearman_b
       units/egyptian_infantry_archer_b
-      units/egyptian_cavalry_javelinist_b
+      units/egyptian_cavalry_archer_b
     </Entities>
+    <Technologies datatype="tokens">
+      -phase_city_generic
+      egyptian/phase_city_pair_egyptian
+    </Technologies>
   </ProductionQueue>
   <VisualActor>
       <Actor>structures/egyptian/civil_centre.xml</Actor>
-      <FoundationActor>structures/fndn_6x4_dock.xml</FoundationActor>
+      <FoundationActor>structures/fndn_4x6.xml</FoundationActor>
   </VisualActor>
 </Entity>

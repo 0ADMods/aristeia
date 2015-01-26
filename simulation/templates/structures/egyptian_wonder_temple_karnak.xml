@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_structure_civic_temple">
+<Entity parent="template_structure_wonder">
   <Footprint>
     <Square width="24.0" depth="44.0"/>
     <Height>12.0</Height>
@@ -9,18 +9,16 @@
   </Health>
   <Identity>
     <Civ>egyptian</Civ>
-    <SpecificName>Ara Per</SpecificName>
-    <GenericName>Large Temple</GenericName>
-    <History>Egyptians believed that their gods resided in temples, which along with tombs were the only buildings that could be built of stone. </History>
-    <RequiredTechnology>
-      structure_temple_large
-    </RequiredTechnology>
+    <GenericName>Temple of Amun-re at Karnak</GenericName>
+    <SpecificName>ipt swt</SpecificName>
+    <History>The Temple of Karnak was part of a large complex of structures in the Valley of the Kings near Thebes.</History>
+    <RequiredTechnology>egyptian/phase_city_ramesside</RequiredTechnology>
   </Identity>
   <Obstruction>
     <Static width="20.0" depth="40.0"/>
   </Obstruction>
   <VisualActor>
     <Actor>structures/egyptian/large_temple.xml</Actor>
-    <FoundationActor>structures/fndn_4x4.xml</FoundationActor>
+    <FoundationActor>structures/fndn_4x6.xml</FoundationActor>
   </VisualActor>
 </Entity>

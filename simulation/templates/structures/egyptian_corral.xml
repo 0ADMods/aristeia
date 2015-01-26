@@ -9,14 +9,20 @@
   </Health>
   <Identity>
     <Civ>egyptian</Civ>
-    <SpecificName>Ara</SpecificName>
+    <SpecificName>hrmw</SpecificName>
     <History>Archaeological studies indicate that the Egyptians were descended from semi-nomadic cattle-herders who roamed the Saharan savannas during prehistoric times. Their lifestyle was similar to that of many East African pastoral tribes living today. Only when the Sahara turned to desert at the end of the predynastic period did the Egyptians permanently move into the Nile Valley and increase their dependence on agriculture. Even then, cattle continued to play an important role in the Egyptian economy.</History>
   </Identity>
   <Obstruction>
     <Static width="17.0" depth="11.0"/>
   </Obstruction>
+  <ProductionQueue>
+    <Entities datatype="tokens">
+      gaia/fauna_goat
+      <!--gaia/fauna_auroch // http://wildfiregames.com/forum/index.php?showtopic=17409-->
+    </Entities>
+  </ProductionQueue>
   <VisualActor>
     <Actor>structures/egyptian/corral.xml</Actor>
-    <FoundationActor>structures/fndn_4x2.xml</FoundationActor>
+    <FoundationActor>structures/fndn_4x4.xml</FoundationActor>
   </VisualActor>
 </Entity>
