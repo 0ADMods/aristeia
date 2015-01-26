@@ -1,16 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="units/assyrian_cavalry_spearman">
-  	<Identity>
-		<GenericName>Assyrian Cavalry Lancer</GenericName>
-		<SpecificName>Ša Pētḫalli 
-		</SpecificName>
-    	<Rank>Advanced</Rank>
-	</Identity>
-  	<Promotion>
-		<Entity>units/assyrian_cavalry_spearman_champion
-		</Entity>
-	</Promotion>
-	<VisualActor>
-		<Actor>persians/cavalry_spearman_a.xml</Actor>
-	</VisualActor>
+<Entity parent="units/assyrian_cavalry_spearman_b">
+  <Identity>
+    <Rank>Advanced</Rank>
+  </Identity>
+  <Promotion>
+    <Entity>units/assyrian_cavalry_spearman_e</Entity>
+  </Promotion>
+  <VisualActor>
+    <Actor>units/persians/cavalry_spearman_a.xml</Actor>
+  </VisualActor>
 </Entity>

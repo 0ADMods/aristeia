@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="priest-hood-1">
+      <mesh>props/helmets/egyptian_hood.dae</mesh>
+      <textures><texture file="props/helmet/egyptian_nemes.png" name="baseTex"/></textures>
+    </variant>
+  </group>
+  <material>player_trans.xml</material>
+</actor>

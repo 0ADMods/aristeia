@@ -6,6 +6,6 @@
     <History>Critical to the success of Egyptian civilization was the Nile’s summer flood, which brought water to farmers’ fields.</History>
   </Identity>
   <VisualActor>
-    <Actor>structural/egyptian/field.xml</Actor>
+    <Actor>structures/egyptian/field.xml</Actor>
   </VisualActor>
 </Entity>

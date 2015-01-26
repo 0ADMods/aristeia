@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_melee_spearman">
+  <Armour>
+    <Pierce>6.0</Pierce>
+  </Armour>
+  <Attack>
+    <Melee>
+      <Hack>12.0</Hack>
+    </Melee>
+    <Charge>
+      <Hack>24.0</Hack>
+    </Charge>
+  </Attack>
+  <Builder>
+    <Entities datatype="tokens">
+      -other/wallset_palisade
+      structures/egyptian_wallset_small
+      structures/egyptian_large_temple
+    </Entities>
+  </Builder>
+  <Cost>
+    <Resources>
+      <food>25</food>
+      <wood>50</wood>
+      <metal>0</metal>
+    </Resources>
+  </Cost>
+  <Identity>
+    <Civ>egyptian</Civ>
+    <SelectionGroupName>units/egyptian_infantry_spearman_b</SelectionGroupName>
+    <GenericName>Egyptian Spearman</GenericName>
+    <SpecificName>Mawt Aha</SpecificName>
+    <Icon>units/egyptian_infantry_spearman.png</Icon>
+    <History>The spear, originally used for hunting, was among the earliest weapons in the Egyptian arsenal. Wooden models carved in the shape of Egyptian spearmen were found in the Middle Kingdom tomb of Mesehti. Spears were also used by the chariotry when they ran out of arrows.</History>
+  </Identity>
+  <Promotion>
+    <Entity>units/egyptian_infantry_spearman_a</Entity>
+  </Promotion>
+  <VisualActor>
+    <Actor>units/egyptian/infantry_spearman_b.xml</Actor>
+  </VisualActor>
+</Entity>

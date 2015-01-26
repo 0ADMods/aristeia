@@ -16,17 +16,16 @@
   <Identity>
     <Civ>assyrian</Civ>
     <GenericName>Cavalry Stables</GenericName>
-    <SpecificName>Bēt Umāmi
-	</SpecificName>
+    <SpecificName>Bēt Umāmi</SpecificName>
     <VisibleClasses datatype="tokens">
-	  -Barracks
-	  Stables
-	</VisibleClasses>
+      -Barracks
+      Stables
+    </VisibleClasses>
     <History>
-		The procurement, housing, care, and training of horses occupied a great deal of an Assyrian monarch's time, energy, and attention.
-	</History>
-	<Tooltip>
-		Train cavalry units. Research “Siege Shields / Heavy Chariots” knowledge.
+      The procurement, housing, care, and training of horses occupied a great deal of an Assyrian monarch's time, energy, and attention.
+    </History>
+    <Tooltip>
+      Train cavalry units. Research “Siege Shields / Heavy Chariots” knowledge.
     </Tooltip>
     <Icon>structures/pers_stable.png</Icon>
   </Identity>
@@ -35,19 +34,18 @@
   </Obstruction>
   <ProductionQueue>
     <Entities datatype="tokens">
-      units/assyrian_cavalry_spearman
-      units/assyrian_cavalry_archer
-	  units/assyrian_horse
+      units/assyrian_cavalry_spearman_b
+      units/assyrian_cavalry_archer_e
     </Entities>
     <Technologies datatype="tokens">
-	  -heal_barracks
-	  -training_conscription
-	  -unlock_champion_units
-	  persians/training_levy_cavalry
-	  persians/training_conscription_cavalry
-	  upgrade_rank_advanced_cavalry
-	  upgrade_rank_elite_cavalry
-	  successors/special_war_horses
+      -heal_barracks
+      -training_conscription
+      -unlock_champion_units
+      persians/training_levy_cavalry
+      persians/training_conscription_cavalry
+      upgrade_rank_advanced_cavalry
+      upgrade_rank_elite_cavalry
+      successors/special_war_horses
     </Technologies>
   </ProductionQueue>
   <Sound>

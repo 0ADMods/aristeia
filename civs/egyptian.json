@@ -88,15 +88,15 @@
 			"Count": 4
 		},
 		{
-			"Template": "units/egyptian_infantry_spearman",
+			"Template": "units/egyptian_infantry_spearman_b",
 			"Count": 2
 		},
 		{
-			"Template": "units/egyptian_infantry_axeman",
+			"Template": "units/egyptian_infantry_axeman_b",
 			"Count": 2
 		},
 		{
-			"Template": "units/egyptian_infantry_spearman_e",
+			"Template": "units/egyptian_cavalry_javelinist_b",
 			"Count": 1
 		}
 	],
@@ -116,8 +116,8 @@
 	],
 	"SkirmishReplacements":
 	{
-		"skirmish/units/default_infantry_ranged_b": "units/egyptian_infantry_archer",
-		"skirmish/units/default_cavalry": "units/egyptian_cavalry_javelinist",
+		"skirmish/units/default_infantry_ranged_b": "units/egyptian_infantry_archer_b",
+		"skirmish/units/default_cavalry": "units/egyptian_cavalry_javelinist_b",
 		"skirmish/structures/default_house_5": "structures/{civ}_house"
 	},
 	"SelectableInGameSetup": true

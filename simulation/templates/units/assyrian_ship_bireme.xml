@@ -6,12 +6,12 @@
   </Footprint>
   <Identity>
     <Civ>assyrian</Civ>
-	<GenericName>Cypriot Galley</GenericName>
+    <GenericName>Cypriot Galley</GenericName>
     <SpecificName>Hamaraniyanava</SpecificName>
     <History>Cypriot galleys comprised a substantial part of Xerxes' navy which invaded Greece in 480 BC. While generally considered inferior to the ships of the Phoenicians, these were still very good.</History>
     <Icon>units/assyrian_ship_bireme.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>structural/assyrian/bireme.xml</Actor>
+    <Actor>structures/assyrian/bireme.xml</Actor>
   </VisualActor>
 </Entity>

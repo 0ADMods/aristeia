@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<actor version="1">
+
+  <castshadow/>
+
+  <group>
+    <variant name="Base">
+      <mesh>structural/egyptian_barracks_shields.dae</mesh>
+      <props>
+        <prop actor="props/units/shields/egyptian_shield_a.xml" attachpoint="shield"/>
+        <prop actor="props/units/weapons/spear_lance.xml" attachpoint="spear"/>
+      </props>
+    </variant>
+  </group>
+
+  <group>
+    <variant frequency="1" name="Texture-Tower-4">
+      <textures><texture file="props/shield/egyptian_shield_c4.png" name="baseTex"/></textures>
+    </variant>
+    <variant frequency="2" name="Texture-Tower-1">
+      <textures><texture file="props/shield/egyptian_shield_c.png" name="baseTex"/></textures>
+    </variant>
+    <variant frequency="3" name="Texture-Tower-2">
+      <textures><texture file="props/shield/egyptian_shield_c2.png" name="baseTex"/></textures>
+    </variant>
+  </group>
+
+  <material>player_trans.xml</material>
+
+</actor>

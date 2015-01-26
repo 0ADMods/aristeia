@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="40" name="Base-long">
+      <colour>241 202 112</colour>
+      <mesh>props/helmets/egyptian_beard_pharao_long.dae</mesh>
+      <textures><texture file="props/head/head_pharao.png" name="baseTex"/></textures>
+    </variant>
+    <variant frequency="60" name="Base-square">
+      <colour>241 202 112</colour>
+      <mesh>props/helmets/egyptian_beard_pharao_square.dae</mesh>
+      <textures><texture file="props/head/head_pharao.png" name="baseTex"/></textures>
+    </variant>
+  </group>
+</actor>

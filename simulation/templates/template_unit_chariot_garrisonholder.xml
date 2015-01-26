@@ -3,7 +3,7 @@
       defines e.g. the overlay that indicates if it's selected or not
  -->
 <Entity parent="template_unit_champion_cavalry_archer">
-	<!-- Note that the components + its values defined here should only be related to the chariot as is - i.e. wihout rider + attachments and such. -->
+  <!-- Note that the components + its values defined here should only be related to the chariot as is - i.e. wihout rider + attachments and such. -->
   <Auras>
     <ProtectionAura>
       <Type>garrisonedUnits</Type>
@@ -25,7 +25,7 @@
   </Armour>
   <Cost>
     <BuildTime>19</BuildTime>
-	<!-- <Population>1</Population> more than 1 no longer required as we use Sander's garrisoning, see our garrison points below. -->
+    <!-- <Population>1</Population> more than 1 no longer required as we use Sander's garrisoning, see our garrison points below. -->
     <Resources>
       <food>200</food>
       <wood>200</wood>
@@ -43,10 +43,10 @@
     <EjectClassesOnDestroy datatype="tokens">Unit Structure</EjectClassesOnDestroy>
     <BuffHeal>0</BuffHeal>
     <LoadingRange>2</LoadingRange>
-	<!--
-	<Garrisoned>--><!-- by default, i.e. on construction finished, those entities are trained, kept track of and are tasked to garrison into the chariot. -->
+    <!--
+    <Garrisoned>--><!-- by default, i.e. on construction finished, those entities are trained, kept track of and are tasked to garrison into the chariot. -->
     <!--  <Entity template="units/egyptian_support_female.xml" />
-	</Garrisoned>
+    </Garrisoned>
     -->
     <VisibleGarrisonPoints>
       <Unit1>
@@ -66,8 +66,8 @@
         <X>0</X><Y>1.5</Y><Z>-2.5</Z>
       </Entity>
       -->
-	  <!-- Pulling of the chariot: -->
-	  <!--
+      <!-- Pulling of the chariot: -->
+      <!--
       <Horse1 animation_propagation="inherit_from_parent bidirectional i.e. bubble_up_to_parent too">
         <X>1</X><Y>0</Y><Z>3</Z>
       </Horse1>
@@ -91,11 +91,11 @@
   <Identity>
     <VisibleClasses datatype="tokens">Chariot</VisibleClasses>
     <Classes datatype="tokens">Vehicle GarrisonHolder</Classes>
-	<GenericName>Chariot</GenericName>
-	<SelectionGroupName>template_unit_chariot_garrisonholder</SelectionGroupName>
+    <GenericName>Chariot</GenericName>
+    <SelectionGroupName>template_unit_chariot_garrisonholder</SelectionGroupName>
     <History>The chariot was once drawn by bulls and oxen, later by horses and other animals. The successor of the chariot is the modern four-wheeled engine-drawn vehicle. Noone knows what future will bring, what about anti-gravity star-chariots.</History>
-	<Icon>chariot.png</Icon>
-	<Tooltip>Classes: {Classes}.
+    <Icon>chariot.png</Icon>
+    <Tooltip>Classes: {Classes}.
 Counters: {Counters}.
 Countered by: {CounteredBy}.</Tooltip>
   </Identity>
@@ -112,7 +112,7 @@ Countered by: {CounteredBy}.</Tooltip>
   <ResourceDropsite>
     <Types>food</Types>
     <Types>metal</Types>
-	<!-- wood, i.e. timber is not transportable that easily with a chariot, but that might be incorrect. -->
+    <!-- wood, i.e. timber is not transportable that easily with a chariot, but that might be incorrect. -->
   </ResourceDropsite>
   <ResourceGatherer>
     <MaxDistance>5.0</MaxDistance>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_chariot_garrisonholder">
+  <GarrisonHolder>
+    <Max>3</Max>
+  </GarrisonHolder>
+  <Identity>
+    <Civ>assyrian</Civ>
+    <SelectionGroupName>units/assyrian_chariot_b</SelectionGroupName>
+    <GenericName>Assyrian Chariot</GenericName>
+    <SpecificName>Magarru</SpecificName>
+    <History>
+      Two-man crews were the basic practice of Assyrian chariotry until Tiglath-pileser III's reforms introduced a third crewman. Chariots were eventually rendered obsolete by the increasing proficiency of the cavalry arm.
+    </History>
+    <Tooltip>
+      Mobile missile platform, delivers shock attack vs infantry.
+      Special: Deals trample damage. 
+      Research “Heavy Chariots” to allow for the construction of the larger 4-man vehicles from the period of Ashurbanipal.
+      Research “Siege Shields” to enable chariots to convert to large, slow-moving 3-man-crewed shields, and back again.
+    </Tooltip>
+    <Icon>units/assyrian_chariot.png</Icon>
+    <RequiredTechnology>assyrian/chariot</RequiredTechnology>
+  </Identity>
+  <Promotion>
+      <Entity>units/assyrian_chariot_a</Entity>
+  </Promotion>
+  <VisualActor>
+    <Actor>units/persians/cavalry_archer_b.xml</Actor>
+  </VisualActor>
+</Entity>

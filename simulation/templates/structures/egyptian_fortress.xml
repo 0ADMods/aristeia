@@ -8,7 +8,6 @@
   </Identity>
   <ProductionQueue>
     <Entities datatype="tokens">
-
       units/pers_mechanical_siege_ram
       units/egyptian_champion_infantry_maceman
       units/egyptian_champion_infantry_swordsman	  
@@ -21,6 +20,6 @@
     </Technologies>
   </ProductionQueue>
   <VisualActor>
-    <Actor>structural/egyptian/fortress.xml</Actor>
+    <Actor>structures/egyptian/fortress.xml</Actor>
   </VisualActor>
 </Entity>

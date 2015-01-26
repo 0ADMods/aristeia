@@ -16,7 +16,7 @@
     <Static width="17.0" depth="11.0"/>
   </Obstruction>
   <VisualActor>
-    <Actor>structural/egyptian/corral.xml</Actor>
+    <Actor>structures/egyptian/corral.xml</Actor>
     <FoundationActor>structures/fndn_4x2.xml</FoundationActor>
   </VisualActor>
 </Entity>

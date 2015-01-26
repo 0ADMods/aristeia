@@ -6,7 +6,7 @@
   </Footprint>
   <Identity>
     <Civ>egyptian</Civ>
-	<GenericName>Trade Ship</GenericName>
+    <GenericName>Trade Ship</GenericName>
     <SpecificName>?</SpecificName>
     <History>...</History>
     <Icon>units/pers_ship_merchant.png</Icon>

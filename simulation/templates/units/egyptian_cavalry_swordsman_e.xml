@@ -14,7 +14,7 @@
     </Charge>
   </Attack>
   <Identity>
-	<Rank>Elite</Rank>
+    <Rank>Elite</Rank>
   </Identity>
   <Promotion disable=""/>
   <ResourceGatherer>
@@ -30,6 +30,6 @@
     </Run>
   </UnitMotion>
   <VisualActor>
-    <Actor>egyptian/cavalry_swordsman_e.xml</Actor>
+    <Actor>units/egyptian/cavalry_swordsman_e.xml</Actor>
   </VisualActor>
 </Entity>

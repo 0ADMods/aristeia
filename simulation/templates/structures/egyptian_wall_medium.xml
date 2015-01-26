@@ -6,7 +6,7 @@
   </Footprint>
   <Identity>
     <Civ>egyptian</Civ>
-	<SelectionGroupName>structures/ptol_wallset_stone</SelectionGroupName>
+    <SelectionGroupName>structures/ptol_wallset_stone</SelectionGroupName>
     <SpecificName>?</SpecificName>
     <History>...</History>
   </Identity>
@@ -17,6 +17,6 @@
     <Actor>structures/persians/wall_medium.xml</Actor>
   </VisualActor>
   <WallPiece>
-  	<Length>24.0</Length>
+    <Length>24.0</Length>
   </WallPiece>
 </Entity>

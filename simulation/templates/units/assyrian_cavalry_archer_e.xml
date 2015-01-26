@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_cavalry_ranged_archer">
+  <Identity>
+    <Civ>assyrian</Civ>
+    <SelectionGroupName>units/assyrian_cavalry_archer_b</SelectionGroupName>
+    <GenericName>Scythian Horse Archer</GenericName>
+    <SpecificName>Pētḫallu Qaštu (?) (lit., "bow horseman")</SpecificName>
+    <History>Scythians were a predominantly equine-based nomadic people of the steppes who fought fiercely against Assyrian overlordship, but in some cases were employed in the armies of Assyrian rulers. The Scythians were among the finest cavalry archers of their day, with superb horsemanship and excellent shooting-while-riding abilities.</History>
+    <Tooltip>
+      Good hit-and-run specialist if given a swift horse.
+      Special: Can shoot arrows while on the move. Trained at the elite citizen soldier rank, at the Cavalry
+      Stables.
+    </Tooltip>	
+    <Icon>units/assyrian_cavalry.png</Icon>
+    <Rank>Elite</Rank>
+  </Identity>
+  <Promotion disable=""/>
+  <VisualActor>
+    <Actor>units/persians/cavalry_archer_b.xml</Actor>
+  </VisualActor>
+</Entity>

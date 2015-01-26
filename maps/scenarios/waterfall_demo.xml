@@ -78,7 +78,7 @@
 ]]></ScriptSettings>
 	<Entities>
 		<Entity uid="11">
-			<Template>actor|temp/lake.xml</Template>
+			<Template>actor|water/lake.xml</Template>
 			<Position x="293.2332" z="377.19941"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="17239"/>

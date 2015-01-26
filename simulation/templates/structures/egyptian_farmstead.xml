@@ -16,7 +16,7 @@
     <Static width="18.0" depth="18.0"/>
   </Obstruction>
   <VisualActor>
-    <Actor>structural/egyptian/farmstead.xml</Actor>
+    <Actor>structures/egyptian/farmstead.xml</Actor>
     <FoundationActor>structures/fndn_4x4.xml</FoundationActor>
   </VisualActor>
 </Entity>
