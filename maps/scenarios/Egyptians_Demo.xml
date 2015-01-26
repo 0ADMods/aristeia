@@ -10586,12 +10586,6 @@
 			<Orientation y="-0.85064"/>
 			<Actor seed="12295"/>
 		</Entity>
-		<Entity uid="4722">
-			<Template>actor|structures/flyingsaucer_crashed.xml</Template>
-			<Position x="547.32703" z="777.76978"/>
-			<Orientation y="-2.2671"/>
-			<Actor seed="37807"/>
-		</Entity>
 		<Entity uid="4723">
 			<Template>actor|particle/smoke.xml</Template>
 			<Position x="535.11072" z="794.7765"/>
@@ -10735,72 +10729,6 @@
 			<Position x="540.86066" z="793.57892"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="63848"/>
-		</Entity>
-		<Entity uid="4747">
-			<Template>actor|structures/flyingsaucer_part.xml</Template>
-			<Position x="543.18573" z="790.5669"/>
-			<Orientation y="2.35621"/>
-			<Actor seed="10087"/>
-		</Entity>
-		<Entity uid="4748">
-			<Template>actor|structures/flyingsaucer_part.xml</Template>
-			<Position x="535.54584" z="809.06458"/>
-			<Orientation y="2.15365"/>
-			<Actor seed="12053"/>
-		</Entity>
-		<Entity uid="4749">
-			<Template>actor|structures/flyingsaucer_part.xml</Template>
-			<Position x="534.40503" z="794.55616"/>
-			<Orientation y="-1.89956"/>
-			<Actor seed="52377"/>
-		</Entity>
-		<Entity uid="4750">
-			<Template>actor|structures/flyingsaucer_part.xml</Template>
-			<Position x="542.08655" z="782.61274"/>
-			<Orientation y="2.35621"/>
-			<Actor seed="10011"/>
-		</Entity>
-		<Entity uid="4751">
-			<Template>actor|structures/flyingsaucer_part.xml</Template>
-			<Position x="545.8498" z="771.18952"/>
-			<Orientation y="2.35621"/>
-			<Actor seed="48612"/>
-		</Entity>
-		<Entity uid="4752">
-			<Template>actor|structures/flyingsaucer_part.xml</Template>
-			<Position x="553.82703" z="781.3183"/>
-			<Orientation y="-0.50702"/>
-			<Actor seed="8598"/>
-		</Entity>
-		<Entity uid="4753">
-			<Template>actor|structures/flyingsaucer_part2.xml</Template>
-			<Position x="547.09089" z="774.16175"/>
-			<Orientation y="1.7965"/>
-			<Actor seed="9904"/>
-		</Entity>
-		<Entity uid="4754">
-			<Template>actor|structures/flyingsaucer_part3.xml</Template>
-			<Position x="539.77619" z="774.00733"/>
-			<Orientation y="2.35621"/>
-			<Actor seed="41003"/>
-		</Entity>
-		<Entity uid="4755">
-			<Template>actor|structures/flyingsaucer_part3.xml</Template>
-			<Position x="555.78718" z="776.32789"/>
-			<Orientation y="2.35621"/>
-			<Actor seed="24440"/>
-		</Entity>
-		<Entity uid="4756">
-			<Template>actor|structures/flyingsaucer_part3.xml</Template>
-			<Position x="552.6139" z="766.19837"/>
-			<Orientation y="2.35621"/>
-			<Actor seed="867"/>
-		</Entity>
-		<Entity uid="4757">
-			<Template>actor|structures/flyingsaucer_part.xml</Template>
-			<Position x="556.38074" z="763.6233"/>
-			<Orientation y="-1.51401"/>
-			<Actor seed="34519"/>
 		</Entity>
 		<Entity uid="4758">
 			<Template>actor|particle/smoke.xml</Template>
