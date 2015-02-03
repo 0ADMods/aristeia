@@ -36,7 +36,6 @@
   </TerritoryInfluence>
   <Vision>
     <Range>72</Range>
-    <RetainInFog>true</RetainInFog>
   </Vision>
   <VisualActor>
     <Actor>structures/persians/gardens_struct.xml</Actor>

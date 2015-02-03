@@ -1,26 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_support_convert_attacker">
+<Entity parent="template_unit_support_converter">
   <Identity>
-    <Civ>assyrian</Civ>
-    <SelectionGroupName>units/assyrian_priest</SelectionGroupName>
+    <Civ>egyptian</Civ>
+    <SelectionGroupName>units/egyptian_priest</SelectionGroupName>
     <GenericName>Priest</GenericName>
     <SpecificName>Sangû</SpecificName>
-    <History>Assyrian priests were devoted followers of their chief deity, Asshur.</History>
-    <Icon>units/assyrian_priest.png</Icon>
+    <History>?</History>
+    <Icon>units/egyptian_priest.png</Icon>
   </Identity>
-  <!-- Enable when ready.
-  <Convert>
-    <Range>15</Range>
-    <Persuasiveness>100</Persuasiveness>
-    <Persuasion>1</Persuasion>
-  </Convert>
-  -->
   <Health>
     <Max>95</Max>
   </Health>
   <Promotion disable=""/>
   <VisualActor>
-    <Actor>egyptian/priest.xml</Actor>
+    <Actor>units/egyptian/priest.xml</Actor>
   </VisualActor>
 </Entity>
 
