@@ -4,6 +4,6 @@
     "label": "0 A.D. Bronze Age Extension",
     "url": "https://github.com/0ADMods/aristeia",
     "description": "Aristeia: 0 A.D. Bronze Age Extension",
-    "dependencies": ["0ad>=0.0.17"],
+    "dependencies": ["0ad>=0.0.17", "convert_attack>=0.0.17"],
     "type": "mod-pack mixed"
 }

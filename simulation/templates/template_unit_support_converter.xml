@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_support">
+  <Cost>
+    <Resources>
+      <metal>100</metal>
+    </Resources>
+  </Cost>
+<Attack>
+    <Convert>
+     <MaxRange>16</MaxRange>
+     <MinRange>0</MinRange>
+      <PrepareTime>1000</PrepareTime>
+      <RepeatTime>20000</RepeatTime>
+    </Convert>
+  </Attack>
+  <Health>
+    <Max>85</Max>
+  </Health>
+  <Identity>
+    <SelectionGroupName>unit_support_converter</SelectionGroupName>
+    <GenericName>Converting Priest</GenericName>
+    <Classes datatype="tokens">
+		priest
+		converter
+	</Classes>
+    <Tooltip>Convert enemy units.</Tooltip>
+    <Rank>Basic</Rank>
+  </Identity>
+  <Promotion>
+    <RequiredXp>200</RequiredXp>
+  </Promotion>
+  <Sound>
+    <SoundGroups>
+      <trained>interface/alarm/alarm_create_infantry.xml</trained>
+      <select>voice/hellenes/civ/civ_male_select.xml</select>
+      <order_walk>voice/hellenes/civ/civ_male_ack.xml</order_walk>
+      <walk>actor/human/movement/walk.xml</walk>
+      <run>actor/human/movement/run.xml</run>
+      <death>actor/human/death/death.xml</death>
+    </SoundGroups>
+  </Sound>
+  <UnitMotion>
+	  <!-- They are busy with talking and therefore stop often for chatting with passing by people. Therefore they reach their goal slower than other units. -->
+    <WalkSpeed>5.5</WalkSpeed>
+    <Run>
+      <Speed>12.0</Speed>
+      <Range>200.0</Range>
+      <RangeMin>0.0</RangeMin>
+    </Run>
+  </UnitMotion>
+  <UnitAI>
+    <DefaultStance>aggressive</DefaultStance>
+    <FleeDistance>30.0</FleeDistance>
+    <FormationController>false</FormationController>
+  </UnitAI>
+  <Vision>
+    <Range>100</Range>
+  </Vision>
+</Entity>

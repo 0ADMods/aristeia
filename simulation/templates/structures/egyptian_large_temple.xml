@@ -19,6 +19,11 @@
   <Obstruction>
     <Static width="20.0" depth="40.0"/>
   </Obstruction>
+  <ProductionQueue>
+    <Entities datatype="tokens">
+      units/egyptian_support_priest_b
+    </Entities>
+  </ProductionQueue> 
   <VisualActor>
     <Actor>structures/egyptian/large_temple.xml</Actor>
     <FoundationActor>structures/fndn_4x4.xml</FoundationActor>
