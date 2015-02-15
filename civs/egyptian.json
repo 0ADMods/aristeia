@@ -1,6 +1,6 @@
 {
 	"Code":"egyptian",
-	"Culture":"egyptian",
+	"Culture":"egypt",
 	"Name":"Egyptians",
 	"Emblem":"session/portraits/emblems/emblem_egyptians.png",
 	"History":"...",
@@ -214,6 +214,34 @@
 		"formations/wedge",
 		"formations/battle_line",
 		"formations/phalanx"
+	],
+	"AINames":
+	[
+		"Ahmose I",
+		"Amenhotep I",
+		"Thutmose I",
+		"Thutmose II",
+		"Hatshepsut",
+		"Thutmose III",
+		"Amenhotep II",
+		"Thutmose IV",
+		"Amenhotep III",
+		"Amenhotep IV",
+		"Smenkhkare",
+		"Tutankhamun",
+		"Ay",
+		"Horemhab",
+		"Seti I",
+		"Ramesses I",
+		"Seti II",
+		"Ramesses II",
+		"Merneptah",
+		"Amenophis",
+		"Psamtek III",
+		"Twosre",
+		"Ramesses III",
+		"Ramesses IV",
+		"Ramesses VI"
 	],
 	"SkirmishReplacements":
 	{
