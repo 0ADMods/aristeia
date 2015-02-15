@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_support">
+  <Auras>
+    <Aura1>
+      <Type>range</Type>
+      <Radius>40</Radius>
+      <Affects>Citizen+Infantry</Affects>
+      <Modifications>
+        <Armour.Melee> <Multiply>1.1</Multiply> </Armour.Melee>
+        <Armour.Hack> <Multiply>1.1</Multiply> </Armour.Hack>
+        <Armour.Pierce> <Multiply>1.1</Multiply> </Armour.Pierce>
+        <Attack.Melee.Crush> <Multiply>1.1</Multiply> </Attack.Melee.Crush>
+        <Attack.Melee.Hack> <Multiply>1.1</Multiply> </Attack.Melee.Hack>
+        <Attack.Melee.Pierce> <Multiply>1.1</Multiply> </Attack.Melee.Pierce>
+        <Attack.Ranged.Crush> <Multiply>1.1</Multiply> </Attack.Ranged.Crush>
+        <Attack.Ranged.Hack> <Multiply>1.1</Multiply> </Attack.Ranged.Hack>
+        <Attack.Ranged.Pierce> <Multiply>1.1</Multiply> </Attack.Ranged.Pierce>
+      </Modifications>
+      <AuraName>Raise the Banner</AuraName>
+      <AuraDescription>Nearby citizen infantry have higher armor and a stronger attack</AuraDescription>
+    </Aura1>
+  </Auras>
+  <Cost>
+    <Resources>
+      <food>40</food>
+      <wood>20</wood>
+    </Resources>
+  </Cost>
+  <Identity>
+    <Civ>Egyptian</Civ>
+    <GenericName>Egyptian Standard Bearer</GenericName>
+    <SpecificName>Taw sryt</SpecificName>
+    <Classes datatype="tokens">StandardBearer</Classes>
+    <Tooltip>Grants increased attack and armour to all citizen infantry within his “aura.” Cannot fight.</Tooltip>
+    <History>Egyptian military standards served as symbols of unit pride, as rallying points for soldiers, and as visual indicators of unit locations for the Pharaoh and his officers.</History>
+    <Icon>units/global_slave.png</Icon>
+    <RequiredTechnology>phase_city</RequiredTechnology>
+  </Identity>
+  <TrainingRestrictions>
+    <Category>StandardBearer</Category>
+  </TrainingRestrictions>
+  <VisualActor>
+    <Actor>units/egyptian/support_standardbearer.xml</Actor>
+  </VisualActor>
+</Entity>

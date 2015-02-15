@@ -2,9 +2,17 @@
 <Entity parent="template_unit_infantry_ranged_javelinist">
   <Builder>
     <Entities datatype="tokens">
-    -other/wallset_palisade
-    structures/egyptian_wallset_small
-    structures/egyptian_large_temple
+      -other/wallset_palisade
+      -structures/{civ}_wonder
+      structures/egyptian_wallset_small
+      structures/egyptian_stables
+      structures/egyptian_sb_sphinx
+      structures/egyptian_sb_colossus
+      structures/egyptian_sb_monument
+      structures/egyptian_palace_theban
+      structures/egyptian_palace_ramesside
+      structures/egyptian_wonder_temple_mortuary
+      structures/egyptian_wonder_temple_karnak
     </Entities>
   </Builder>
   <Cost>
@@ -17,10 +25,9 @@
   <Identity>
     <Civ>egyptian</Civ>
     <SelectionGroupName>units/egyptian_infantry_javelinist_b</SelectionGroupName>
-    <GenericName>Egyptian Skirmisher</GenericName>
-    <SpecificName>Skirmisher</SpecificName>
-    <Classes datatype="tokens">Nubian Javalinist</Classes>
-    <History>...</History>
+    <GenericName>Chariot Runner</GenericName>
+    <SpecificName>Peherer</SpecificName>
+    <History>Chariot runners kept up a short distance behind the chariots as swift, mobile infantry auxiliaries. They could rescue the crews of crashed chariots as well as engage enemy chariots from a distance.</History>
     <Icon>units/egyptian_infantry_javelinist.png</Icon>
   </Identity>
   <Promotion>

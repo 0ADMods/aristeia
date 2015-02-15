@@ -2,9 +2,8 @@
 <Entity parent="template_structure_military_barracks">
   <Identity>
     <Civ>egyptian</Civ>
-    <SpecificName>Tepeg</SpecificName>
-    <History>Egyptian Barracks</History>
-    <Tooltip>Levy citizen-infantry units.</Tooltip>
+    <SpecificName>Per-Nefuruw</SpecificName>
+    <History>Barracks were used to house recruits for the Pharaoh's army.</History>
     <Icon>structures/pers_barracks.png</Icon>
   </Identity>
   <ProductionQueue>
@@ -12,13 +11,11 @@
       units/egyptian_infantry_spearman_b
       units/egyptian_infantry_axeman_b
       units/egyptian_infantry_archer_b
-      units/egyptian_infantry_javelinist_b
-      units/egyptian_cavalry_swordsman_b
-      units/egyptian_cavalry_javelinist_b
+      units/egyptian_infantry_swordsman_b
+      units/egyptian_support_standard_bearer
     </Entities>
     <Technologies datatype="tokens">
-      pair_inf_01
-      pair_inf_02
+      -unlock_champion_units
     </Technologies>
   </ProductionQueue>
   <VisualActor>

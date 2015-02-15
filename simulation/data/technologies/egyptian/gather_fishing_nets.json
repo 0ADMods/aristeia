@@ -1,0 +1,14 @@
+{
+	"genericName": "Fishing Nets",
+	"specificName": "Snw",
+	"description": "Fishing nets were constructed from linen fabric into a coarse implement. They allowed a great quantity of fish to be captured at once.",
+	"cost": {"food": 0, "wood": 200, "stone": 0, "metal": 0},
+	"requirements": {"all": [{"civ": "egyptian"}, {"tech": "phase_town"}]},
+	"requirementsTooltip": "Unlocked in Town Phase.",
+	"icon": "plow.png",
+	"researchTime": 40,
+	"tooltip": "Increased fish gathering rate.",
+	"modifications": [{"value": "ResourceGatherer/Rates/food.fish", "multiply": 1.10}],
+	"affects": ["FishingBoat"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

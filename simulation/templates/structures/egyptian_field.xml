@@ -2,8 +2,8 @@
 <Entity parent="template_structure_resource_field">
   <Identity>
     <Civ>egyptian</Civ>
-    <SpecificName>Ahat</SpecificName>
-    <History>Critical to the success of Egyptian civilization was the Nile’s summer flood, which brought water to farmers’ fields.</History>
+    <SpecificName>`AheḤ t</SpecificName>
+    <History>Fields in Egypt were worked either by family units or by labour gangs. Wheat and barley were two of the principal crops.</History>
   </Identity>
   <VisualActor>
     <Actor>structures/egyptian/field.xml</Actor>

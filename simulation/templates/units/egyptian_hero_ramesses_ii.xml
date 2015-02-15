@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_hero_cavalry_archer">
+  <Auras>
+    <Aura1>
+      <Type>range</Type>
+      <Radius>40</Radius>
+      <Affects>Chariot SherdanGuard</Affects>
+      <Modifications>
+        <Attack.Melee.Crush> <Multiply>1.1</Multiply> </Attack.Melee.Crush>
+        <Attack.Melee.Hack> <Multiply>1.1</Multiply> </Attack.Melee.Hack>
+        <Attack.Melee.Pierce> <Multiply>1.1</Multiply> </Attack.Melee.Pierce>
+        <Attack.Ranged.Crush> <Multiply>1.1</Multiply> </Attack.Ranged.Crush>
+        <Attack.Ranged.Hack> <Multiply>1.1</Multiply> </Attack.Ranged.Hack>
+        <Attack.Ranged.Pierce> <Multiply>1.1</Multiply> </Attack.Ranged.Pierce>
+        <Attack.Charge.Crush> <Multiply>1.1</Multiply> </Attack.Charge.Crush>
+        <Attack.Charge.Hack> <Multiply>1.1</Multiply> </Attack.Charge.Hack>
+        <Attack.Charge.Pierce> <Multiply>1.1</Multiply> </Attack.Charge.Pierce>
+      </Modifications>
+      <AuraName>Chariot Commander</AuraName>
+      <AuraDescription>Nearby Chariots and Sherdan Guards attack more strongly</AuraDescription>
+    </Aura1>
+    <Aura2>
+      <Type>range</Type>
+      <Radius>30</Radius>
+      <Affects>CitizenSoldier</Affects>
+      <Modifications>
+        <Attack.Melee> <Multiply>1.1</Multiply> </Attack.Melee>
+        <Attack.Hack> <Multiply>1.1</Multiply> </Attack.Hack>
+        <Attack.Pierce> <Multiply>1.1</Multiply> </Attack.Pierce>
+      </Modifications>
+      <AuraName>Followers of His Majesty (Smsw Hm)</AuraName>
+      <AuraDescription>Egyptian soldiers held their Pharaoh in awe, and hoped to gain his favour and reward by performing courageous exploits that would bring them to his attention. Increased attack for all citizen soldiers in the Pharaoh's hero aura.</AuraDescription>
+    </Aura2>
+  </Auras>
+  <Builder>
+    <Rate>1.0</Rate>
+    <Entities datatype="tokens">
+      structures/egyptian_sb_obelisk
+    </Entities>
+  </Builder>
+  <Cost>
+    <Population>2</Population>
+  </Cost>
+  <Identity>
+    <Civ>egyptian</Civ>
+    <GenericName>Ramesses II the Great</GenericName>
+    <SpecificName>Riʻmīsisu</SpecificName>
+    <Tooltip>"Chariot Commander"</Tooltip>
+    <History>Widely regarded as one of the greatest Pharaohs, though perhaps in large measure because his self-promoting efforts succeeded so well, Ramesses II nonetheless brought Egypt to great heights of military prowess, although he very nearly met disaster in the famous Battle of Kadesh against the Hittites, with whom he afterwards concluded an historic peace treaty.</History>
+    <Classes datatype="tokens">RamessesII</Classes>
+    <Icon>units/egyptian_hero_pharao.png</Icon>
+    <RequiredTechnology>egyptian/phase_city_ramesside</RequiredTechnology>
+  </Identity>
+  <VisualActor>
+    <Actor>units/egyptian/hero_pharao.xml</Actor>
+  </VisualActor>
+</Entity>

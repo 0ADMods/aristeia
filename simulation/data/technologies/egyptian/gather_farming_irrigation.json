@@ -1,0 +1,13 @@
+{
+	"genericName": "Irrigation Sluices",
+	"description": "Sluice gates were used to control the level and flow of the Nile's inundation water in the complex system of canals.",
+	"cost": {"food": 0, "wood": 500, "stone": 0, "metal": 250},
+	"requirements": {"all": [{"civ": "egyptian"}, {"tech": "phase_town"}]},
+	"requirementsTooltip": "Unlocked in Town Phase.",
+	"icon": "plow.png",
+	"researchTime": 40,
+	"tooltip": "Increased farm field production.",
+	"modifications": [{"value": "ResourceGatherer/Rates/food.grain", "multiply": 1.10}],
+	"affects": ["Worker"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

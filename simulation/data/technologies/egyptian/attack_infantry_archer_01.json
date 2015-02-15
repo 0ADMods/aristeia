@@ -1,0 +1,19 @@
+{
+	"genericName": "Composite Bow",
+	"specificName": {
+		"egyptian": "pDt"
+	},
+	"description": "Composite bows were crafted of several laminated materials, such as wood, horn, and sinew, and were significantly more powerful than simple stave bows. The New Kingdom incorporated much use of the composite bow as time went on.",
+	"cost": {"food": 0, "wood": 1000, "stone": 0, "metal": 0},
+	"requirements": {"all": [{"civ": "egyptian"}, {"tech": "phase_town"}]},
+	"requirementsTooltip": "Unlocked in Town Phase.",
+	"icon": "arrow.png",
+	"researchTime": 40,
+	"tooltip": "Greater range and pierce for all archer units except Egyptian Horseman and Hero units",
+	"modifications": [
+		{"value": "Attack/Ranged/Pierce", "multiply": 1.1},
+		{"value": "Attack/Ranged/MaxRange", "multiply": 1.1}
+	],
+	"affects": ["Infantry Archer"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

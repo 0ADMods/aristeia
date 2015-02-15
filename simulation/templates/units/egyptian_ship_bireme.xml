@@ -6,11 +6,18 @@
   </Footprint>
   <Identity>
     <Civ>egyptian</Civ>
-    <GenericName>?</GenericName>
-    <SpecificName>?</SpecificName>
-    <History>...</History>
+    <GenericName>Warship</GenericName>
+    <SpecificName>ʿAh aḤ`t</SpecificName>
+    <History>Egyptian vessels were used in a military context primarily to transport land soldiers across water. However, these ships were later sometimes stationed with marines, who employed grappling hooks to board and capture enemy ships.</History>
+    <Tooltip>Can ram or capture enemy vessels, shoot arrows and slingstones, and transport soldiers.</Tooltip>
     <Icon>units/pers_ship_bireme.png</Icon>
   </Identity>
+  <ProductionQueue>
+    <BatchTimeModifier>0.8</BatchTimeModifier>
+    <Entities datatype="tokens">
+      units/egyptian_champion_skirmisher <!-- (egyptian marine) -->
+    </Entities>
+  </ProductionQueue>
   <VisualActor>
     <Actor>structures/persians/bireme.xml</Actor>
   </VisualActor>

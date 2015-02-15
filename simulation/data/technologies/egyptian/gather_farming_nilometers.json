@@ -1,0 +1,15 @@
+{
+	"genericName": "Nilometers",
+	"specificName": "Axt",
+	"description": "Nilometers were stone markers that measured the water levels of the river, and aided government officials in determining the amount of land and farm taxes to be paid. A low level of inundation meant a correspondingly reduced level of taxation.",
+	"cost": {"food": 0, "wood": 500, "stone": 0, "metal": 250},
+	"supersedes": "egyptian/gather_farming_shaduf",
+	"requirements": {"all": [{"civ": "egyptian"}, {"tech": "phase_city"}]},
+	"requirementsTooltip": "Unlocked in City Phase.",
+	"icon": "plow.png",
+	"researchTime": 40,
+	"tooltip": "Increased farm field production.",
+	"modifications": [{"value": "ResourceGatherer/Rates/food.grain", "multiply": 1.10}],
+	"affects": ["Worker"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

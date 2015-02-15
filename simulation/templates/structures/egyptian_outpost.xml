@@ -2,10 +2,11 @@
 <Entity parent="template_structure_defense_outpost">
   <Identity>
     <Civ>egyptian</Civ>
-    <SpecificName>Egyptian Outpost</SpecificName>
-    <History>*N/A*</History>
+    <GenericName>Watchtower</GenericName>
+    <SpecificName>Sewenuw Khety</SpecificName>
+    <History>Good serviceable wood was uncommon in ancient Egypt, and great quantities were imported from places such as Lebanon.</History>
   </Identity>
   <VisualActor>
-    <Actor>structures/persians/outpost.xml</Actor>
+    <Actor>structures/egyptian/outpost.xml</Actor>
   </VisualActor>
 </Entity>

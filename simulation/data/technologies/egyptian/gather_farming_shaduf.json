@@ -1,0 +1,13 @@
+{
+	"genericName": "Shaduf Sweeps",
+	"description": "The shaduf was a device, apparently introduced in the New Kingdom, which consisted of a bucket on the end of a rope, which was lowered into a water source and then raised via a heavy counterweight.",
+	"cost": {"food": 0, "wood": 500, "stone": 0, "metal": 250},
+	"requirements": {"all": [{"civ": "egyptian"}, {"tech": "phase_town"}]},
+	"requirementsTooltip": "Unlocked in Town Phase.",
+	"icon": "plow.png",
+	"researchTime": 40,
+	"tooltip": "Increased farm field production.",
+	"modifications": [{"value": "ResourceGatherer/Rates/food.grain", "multiply": 1.10}],
+	"affects": ["Worker"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

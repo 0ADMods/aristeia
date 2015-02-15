@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="ptolemaic Statue 1">
+      <mesh>structural/ptol_statue_standing_male.dae</mesh>
+      <props>
+        <prop actor="props/special/eyecandy/ptol_statues_standing_male_base.xml" attachpoint="root"/>
+      </props>
+      <textures>
+        <texture file="structural/ptol_statues_male.png" name="baseTex"/>
+        <texture file="structural/ptol_statues_male_norm.png" name="normTex"/>
+        <texture file="structural/ptol_statues_male_spec.png" name="specTex"/>
+        <texture file="structural/ao/ptol_statue_standing_male.png" name="aoTex"/>
+      </textures>
+    </variant>
+  </group>
+  <material>player_trans_ao_parallax_spec.xml</material>
+</actor>

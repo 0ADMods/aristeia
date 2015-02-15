@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="special/player">
+  <EntityLimits>
+    <Limits>
+      <Monument>2</Monument>
+      <Obelisk>5</Obelisk>
+      <Sphinx>3</Sphinx>
+    </Limits>
+  </EntityLimits>
+  <LimitChangers>
+    <Monument>
+      <RamessesII>2</RamessesII>
+    </Monument>
+  </LimitChangers>
+</Entity>

@@ -1,0 +1,14 @@
+{
+	"genericName": "Papyrus Reeds",
+	"specificName": "wAD",
+	"description": "Papyrus was most famously used to make writing paper, but also household items such as baskets and mats, and ship components such as ropes and sails. The Delta marshlands were a rich source of papyrus stems.",
+	"cost": {"food": 0, "wood": 600, "stone": 0, "metal": 0},
+	"requirements": {"all": [{"civ": "egyptian"}, {"tech": "phase_town"}]},
+	"requirementsTooltip": "Unlocked in Town Phase.",
+	"icon": "armor_ship_silver.png",
+	"researchTime": 40,
+	"tooltip": "Decreased cost for shipbuilding.",
+	"modifications": [{"value": "Cost/BuildTime", "multiply": 0.90}],
+	"affects": ["Ship"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

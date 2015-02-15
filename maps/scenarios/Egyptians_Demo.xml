@@ -3907,14 +3907,14 @@
 			<Actor seed="0"/>
 		</Entity>
 		<Entity uid="3617">
-			<Template>other/obelisk</Template>
+			<Template>structures/egyptian_sb_obelisk</Template>
 			<Player>1</Player>
 			<Position x="601.76185" z="344.35462"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="0"/>
 		</Entity>
 		<Entity uid="3618">
-			<Template>other/obelisk</Template>
+			<Template>structures/egyptian_sb_obelisk</Template>
 			<Player>1</Player>
 			<Position x="615.84607" z="357.28681"/>
 			<Orientation y="2.36686"/>
@@ -9110,7 +9110,7 @@
 			<Actor seed="40599"/>
 		</Entity>
 		<Entity uid="4486">
-			<Template>structures/egyptian_mill</Template>
+			<Template>structures/egyptian_farmstead</Template>
 			<Player>1</Player>
 			<Position x="670.30097" z="261.40568"/>
 			<Orientation y="2.35621"/>
@@ -10172,7 +10172,7 @@
 			<Actor seed="55499"/>
 		</Entity>
 		<Entity uid="4660">
-			<Template>structures/egyptian_large_temple</Template>
+			<Template>structures/egyptian_wonder_temple_karnak</Template>
 			<Player>1</Player>
 			<Position x="740.43757" z="417.06272"/>
 			<Orientation y="-2.41845"/>
@@ -10559,28 +10559,28 @@
 			<Actor seed="23288"/>
 		</Entity>
 		<Entity uid="4718">
-			<Template>units/egyptian_champion_infantry_swordsman</Template>
+			<Template>units/egyptian_champion_swordsman_theban</Template>
 			<Player>1</Player>
 			<Position x="627.19147" z="347.78144"/>
 			<Orientation y="-0.80573"/>
 			<Actor seed="18237"/>
 		</Entity>
 		<Entity uid="4719">
-			<Template>units/egyptian_champion_infantry_swordsman</Template>
+			<Template>units/egyptian_champion_swordsman_theban</Template>
 			<Player>1</Player>
 			<Position x="616.28827" z="337.49393"/>
 			<Orientation y="-0.55106"/>
 			<Actor seed="54999"/>
 		</Entity>
 		<Entity uid="4720">
-			<Template>units/egyptian_champion_infantry_swordsman</Template>
+			<Template>units/egyptian_champion_swordsman_theban</Template>
 			<Player>1</Player>
 			<Position x="614.13569" z="335.54737"/>
 			<Orientation y="-0.65336"/>
 			<Actor seed="22910"/>
 		</Entity>
 		<Entity uid="4721">
-			<Template>units/egyptian_champion_infantry_swordsman</Template>
+			<Template>units/egyptian_champion_swordsman_theban</Template>
 			<Player>1</Player>
 			<Position x="629.20356" z="350.41636"/>
 			<Orientation y="-0.85064"/>

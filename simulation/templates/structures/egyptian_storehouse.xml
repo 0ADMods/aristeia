@@ -2,9 +2,26 @@
 <Entity parent="template_structure_economic_storehouse">
   <Identity>
     <Civ>egyptian</Civ>
-    <SpecificName>?</SpecificName>
-    <History>...</History>
+    <SpecificName>h-n-ḫt.w</SpecificName>
+    <History>The rich harvest of Egypt's natural resources required the construction and maintenance of many storage facilities.</History>
   </Identity>
+  <ProductionQueue>
+    <Technologies datatype="tokens">
+      -gather_lumbering_ironaxes
+      -gather_lumbering_strongeraxes
+      -gather_lumbering_sharpaxes
+      -gather_mining_servants
+      -gather_mining_serfs
+      -gather_mining_slaves
+      -gather_mining_wedgemallet
+      -gather_mining_shaftmining
+      -gather_mining_silvermining
+      egyptian/gather_mining_graniteQuarry
+      egyptian/gather_mining_limestoneQuarry
+      egyptian/gather_mining_electrumMine
+      egyptian/gather_mining_goldMine
+    </Technologies>
+  </ProductionQueue>
   <VisualActor>
     <Actor>structures/ptolemies/storehouse.xml</Actor>
   </VisualActor>

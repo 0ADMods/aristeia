@@ -1,0 +1,22 @@
+{
+	"genericName": "The Gold of Valour",
+	"specificName": {
+		"hele": "nbw qnt"
+	},
+	"description": "Egyptian troops had an incentive to fight fiercely against the enemies of His Majesty, for they could receive an opportunity for honour and advancement for their service. After a victory, they were permitted to cut off the hands of enemy corpses and turn them in to the scribes, both for overall tallying purposes and for ascribing honour to the fortunate soldiers who were able to deliver large numbers of hands. Usually, only the hands of enemies of significantly lighter or darker skin tones than themselves were accepted (perhaps because promotion-hungry soldiers may have otherwise been tempted to mutilate their own dead).",
+	"cost": {"food": 0, "wood": 0, "stone": 0, "metal": 1000},
+	"requirements": {"all": [{"civ": "egyptian"}, {"tech": "phase_town"}]},
+	"requirementsTooltip": "Unlocked in Town Phase.",
+	"icon": "sword.png",
+	"researchTime": 40,
+	"tooltip": "Greater speed and attack for all native Egyptian melee units.",
+	"modifications": [
+		{"value": "Attack/Melee/Hack", "multiply": 1.1},
+		{"value": "Attack/Melee/Pierce", "multiply": 1.1},
+		{"value": "Attack/Melee/Crush", "multiply": 1.1},
+		{"value": "UnitMotion/WalkSpeed", "multiply": 1.1},
+		{"value": "UnitMotion/Run/Speed", "multiply": 1.1}
+	],
+	"affects": ["Infantry Melee"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}
