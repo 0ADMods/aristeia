@@ -1,33 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_military_dock">
-  <Footprint>
-    <Square width="23.5" depth="16.0"/>
-    <Height>8.0</Height>
-  </Footprint>
-  <Health>
-    <SpawnEntityOnDeath>rubble/rubble_pers_dock</SpawnEntityOnDeath>
-  </Health>
-  <Identity>
-    <Civ>egyptian</Civ>
-    <SpecificName>mnjwt</SpecificName>
-    <History>The Upper Nile, the Delta, and the Red Sea were prosperous Egyptian shipping regions. The Mediterranean was another viable option, although Egyptian mariners preferred to sail within sight of land.</History>
-  </Identity>
-  <Obstruction>
-    <Static width="23.0" depth="15.0"/>
-  </Obstruction>
-  <ProductionQueue>
-    <Entities datatype="tokens">
+	<Footprint>
+		<Square width="30.0" depth="34.0"/>
+		<Height>8.0</Height>
+	</Footprint>
+	<Health>
+		<SpawnEntityOnDeath>rubble/rubble_pers_dock</SpawnEntityOnDeath>
+	</Health>
+	<Identity>
+		<Civ>egyptian</Civ>
+		<SpecificName>mnjwt</SpecificName>
+		<History>The Upper Nile, the Delta, and the Red Sea were prosperous Egyptian shipping regions. The Mediterranean was another viable option, although Egyptian mariners preferred to sail within sight of land.</History>
+	</Identity>
+	<Obstruction>
+		<Static width="25.0" depth="29.0"/>
+	</Obstruction>
+	<ProductionQueue>
+		<Entities datatype="tokens">
       units/egyptian_ship_bireme
-    </Entities>
-    <Technologies datatype="tokens">
+		</Entities>
+		<Technologies datatype="tokens">
       -armor_ship_reinforcedhull
       -armor_ship_hypozomata
       -armor_ship_hullsheathing
       egyptian/gather_fishing_nets
       egyptian/buildtime_ships_papyrus
-    </Technologies>
-  </ProductionQueue>
-  <VisualActor>
-    <Actor>structures/egyptian/dock.xml</Actor>
-  </VisualActor>
+		</Technologies>
+	</ProductionQueue>
+	<VisualActor>
+		<Actor>structures/egyptian/dock.xml</Actor>
+	</VisualActor>
 </Entity>
