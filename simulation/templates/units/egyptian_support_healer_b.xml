@@ -3,9 +3,9 @@
   <Identity>
     <Civ>egyptian</Civ>
     <SelectionGroupName>units/egyptian_support_healer_b</SelectionGroupName>
-    <GenericName>Median Magus</GenericName>
-    <SpecificName>Maguš Mada</SpecificName>
-    <History>Under both the Medes and later the Persian the tribe of the Magi or the Magians were the masters of religious and oral tradition, comparable to the Levites of the Bible. They were connected to Zoroastrianism, but likely tended to other Iranian cults as well. Aside from religious duties the Magians also functioned as the Great King's bureaucrats and kept his administration running.</History>
+    <GenericName>Egyptian Priest</GenericName>
+    <SpecificName>Sema`</SpecificName>
+    <History>In theory, the Pharaoh was the chief priest in Egypt (one of his titles was “High Priest of Every Temple”), but in practice he employed a class of powerful priests who would attend to the religious affairs of the nation. Priests also served as magicians and healers; the Egyptians were famous for their relatively advanced medicine.</History>
     <Icon>units/pers_support_healer.png</Icon>
   </Identity>
   <Promotion disable=""/>

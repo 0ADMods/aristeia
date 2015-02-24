@@ -1,22 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_defense_wall_long">
   <Footprint>
-    <Square width="38.5" depth="9.0"/>
+    <Square width="40" depth="10.0"/>
     <Height>9.0</Height>
   </Footprint>
+  <GarrisonHolder>
+    <VisibleGarrisonPoints>
+      <Archer1>
+        <X>0</X><Y>9.7</Y><Z>0</Z>
+      </Archer1>
+      <Archer2>
+        <X>8</X><Y>9.7</Y><Z>0</Z>
+      </Archer2>
+      <Archer3>
+        <X>-8</X><Y>9.7</Y><Z>0</Z>
+      </Archer3>
+      <Archer4>
+        <X>4</X><Y>9.7</Y><Z>0</Z>
+      </Archer4>
+      <Archer5>
+        <X>-4</X><Y>9.7</Y><Z>0</Z>
+      </Archer5>
+    </VisibleGarrisonPoints>
+  </GarrisonHolder>
   <Identity>
     <Civ>egyptian</Civ>
-    <SelectionGroupName>structures/ptol_wallset_stone</SelectionGroupName>
-    <SpecificName>?</SpecificName>
-    <History>...</History>
+    <SelectionGroupName>structures/egyptian_wallset_stone</SelectionGroupName>
+    <SpecificName>wmtt</SpecificName>
+    <History>Egyptian wall battlements were constructed to mimic the appearance of a row of Egyptian shields.</History>
   </Identity>
   <Obstruction>
-    <Static width="37.0" depth="7.0"/>
+    <Static width="38.0" depth="8.0"/>
   </Obstruction>
   <VisualActor>
-    <Actor>structures/persians/wall_long.xml</Actor>
+    <Actor>structures/ptolemies/wall_long.xml</Actor>
   </VisualActor>
   <WallPiece>
-    <Length>37.0</Length>
+    <Length>38.0</Length>
   </WallPiece>
 </Entity>

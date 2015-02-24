@@ -1,0 +1,16 @@
+{
+	"genericName": "Builders of Monuments",
+	"specificName": "s.qdw",
+	"description": "Ancient Egypt is famous for its monumental tombs, temples, and colossal statues.",
+	"cost": {"food": 0, "wood": 200, "stone": 0, "metal": 0},
+	"requirements": {"all": [{"civ": "egyptian"}, {"tech": "phase_city"}]},
+	"requirementsTooltip": "Unlocked in City Phase.",
+	"icon": "stone_blocks.png",
+	"researchTime": 40,
+	"tooltip": "City Phase structures are built more quickly.",
+	"modifications": [
+		{"value": "Cost/BuildTime", "multiply": 0.8}
+	],
+	"affects": ["City"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

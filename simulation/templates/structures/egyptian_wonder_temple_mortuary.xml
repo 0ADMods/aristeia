@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_wonder">
+  <Footprint>
+    <Square width="24.0" depth="44.0"/>
+    <Height>12.0</Height>
+  </Footprint>
+  <Health>
+    <SpawnEntityOnDeath>rubble/rubble_stone_4x4</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Civ>egyptian</Civ>
+    <GenericName>Mortuary Temple of Hatshepsut</GenericName>
+    <SpecificName>Hwt Dsr Dsrw</SpecificName>
+    <History>Hatshepsut's mortuary temple exhibits a rather decided non-Egyptian ifluence, and possesses several intriguing similarities to the Temple of Solomon in Jerusalem, upon which Hatshepsut may have modelled her temple.</History>
+    <RequiredTechnology>egyptian/phase_city_theban</RequiredTechnology>
+  </Identity>
+  <Obstruction>
+    <Static width="20.0" depth="40.0"/>
+  </Obstruction>
+  <VisualActor>
+    <Actor>structures/egyptian/large_temple.xml</Actor>
+    <FoundationActor>structures/fndn_4x6.xml</FoundationActor>
+  </VisualActor>
+</Entity>

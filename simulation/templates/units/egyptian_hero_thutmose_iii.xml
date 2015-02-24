@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_hero_cavalry_archer">
+  <Auras>
+    <Aura1>
+      <Type>global</Type>
+      <Affects>Structure</Affects>
+      <Modifications>
+        <TerritoryInfluence.Radius> <Multiply>1.15</Multiply> </TerritoryInfluence.Radius>
+      </Modifications>
+      <AuraName>Conqueror of Territory</AuraName>
+      <AuraDescription>15% increase in territory radius for all buildings during his lifetime.</AuraDescription>
+    </Aura1>
+    <Aura2>
+      <Type>range</Type>
+      <Radius>30</Radius>
+      <Affects>CitizenSoldier</Affects>
+      <Modifications>
+        <Attack.Melee> <Multiply>1.1</Multiply> </Attack.Melee>
+        <Attack.Hack> <Multiply>1.1</Multiply> </Attack.Hack>
+        <Attack.Pierce> <Multiply>1.1</Multiply> </Attack.Pierce>
+      </Modifications>
+      <AuraName>Followers of His Majesty (Smsw Hm)</AuraName>
+      <AuraDescription>Egyptian soldiers held their Pharaoh in awe, and hoped to gain his favour and reward by performing courageous exploits that would bring them to his attention. Increased attack for all citizen soldiers in the Pharaoh's hero aura.</AuraDescription>
+    </Aura2>
+  </Auras>
+  <Builder>
+    <Rate>1.0</Rate>
+    <Entities datatype="tokens">
+      structures/egyptian_sb_obelisk
+    </Entities>
+  </Builder>
+  <Cost>
+    <Population>2</Population>
+  </Cost>
+  <Identity>
+    <Civ>egyptian</Civ>
+    <GenericName>Thutmose III</GenericName>
+    <SpecificName>Thutmose Menkheperre'</SpecificName>
+    <Tooltip>"Conqueror of Territory"</Tooltip>
+    <History>Upon his step-mother Hatshepsut's death, Thutmose became Pharaoh and soon set to work regulating internal affairs as well as preparing to launch ambitious campaigns of conquest. Thutmose, later dubbed the 'Napoleon of Egypt', eventually ruled an area of territory spanning from the Fifth Cataract of the Nile to the Euphrates River. Thutmose's campaigns included two forays into the Levant, the first of which involved the famous Battle of Megiddo in Judah, and the second of which involved the seizure of the Jerusalem Temple's treasures. Thutmose recorded the plunder on the walls of Karnak. II Chronicles 12:2-4 and 9 states, 'And it came to pass, that in the fifth year of king Rehoboam Shishak king of Egypt came up against Jerusalem, because they had transgressed against the Lord, with twelve hundred chariots, and threescore thousand horsemen: and the people were without number that came with him out of Egypt; the Lubims, the Sukkiims, and the Ethiopians. And he took the fenced cities which pertained to Judah, and came to Jerusalem... So Shishak king of Egypt came up against Jerusalem, and took away the treasures of the house of the Lord, and the treasures of the king's house; he took all: he carried away also the shields of gold which Solomon had made.'</History>
+    <Icon>units/egyptian_hero_pharao.png</Icon>
+    <RequiredTechnology>egyptian/phase_city_theban</RequiredTechnology>
+  </Identity>
+  <VisualActor>
+    <Actor>units/egyptian/hero_pharao.xml</Actor>
+  </VisualActor>
+</Entity>

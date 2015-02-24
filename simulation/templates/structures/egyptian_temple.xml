@@ -10,14 +10,18 @@
   <Identity>
     <Civ>egyptian</Civ>
     <SpecificName>Ara Per</SpecificName>
-    <History>Egyptians believed that their gods resided in temples, which along with tombs were the only buildings that could be built of stone.</History>
+    <History>Egypt was famous for its temples and its accompanying priestly class.</History>
   </Identity>
   <Obstruction>
     <Static width="17.5" depth="17.5"/>
   </Obstruction>
   <ProductionQueue>
     <Technologies datatype="tokens">
-      structure_temple_large
+      -heal_range
+      -heal_range_2
+      -heal_rate
+      -heal_rate_2
+      egyptian/heal_rate
     </Technologies>  
   </ProductionQueue>  
   <VisualActor>

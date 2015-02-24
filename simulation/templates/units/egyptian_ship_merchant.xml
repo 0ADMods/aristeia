@@ -6,9 +6,9 @@
   </Footprint>
   <Identity>
     <Civ>egyptian</Civ>
-    <GenericName>Trade Ship</GenericName>
-    <SpecificName>?</SpecificName>
-    <History>...</History>
+    <GenericName>Merchant Ship</GenericName>
+    <SpecificName>xmntjw</SpecificName>
+    <History>Many larger Egyptian vessels were constructed out of cedar imported from the Levant, as the wood of Egypt’s native acacia tree was too small to provide the long planks necessary for large ships.</History>
     <Icon>units/pers_ship_merchant.png</Icon>
   </Identity>
   <VisualActor>

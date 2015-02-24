@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_champion_cavalry_archer">
+  <Identity>
+    <Civ>egyptian</Civ>
+    <GenericName>Egyptian Chariot</GenericName>
+    <SpecificName>mrkbt</SpecificName>
+    <SelectionGroupName>units/egyptian_champion_chariot</SelectionGroupName>
+    <Classes datatype="tokens">Chariot</Classes>
+    <History>Contrary to what is often assumed, Egypt actually possessed chariots before the Hyksos made use of them, although it is probable that the early New Kingdom Pharaohs made use of a good number of captured Hyksos horses and equipment at first. Egyptian chariots, especially later on, were much more maneuverable than those of many of their foes, particularly the Hittites.</History>
+    <Tooltip>Light and fast machines to serve as a speedy, mobile ranged strike force.</Tooltip>
+    <Icon>units/maur_champion_chariot.png</Icon>
+  </Identity>
+  <UnitMotion>
+    <WalkSpeed>16.0</WalkSpeed>
+    <Run>
+      <Speed>46.0</Speed>
+    </Run>
+  </UnitMotion>
+  <VisualActor>
+    <Actor>units/egyptian/champion_chariot.xml</Actor>
+  </VisualActor>
+</Entity>

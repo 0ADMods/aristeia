@@ -1,0 +1,20 @@
+{
+	"genericName": "Son of Amun-Re",
+	"specificName": {
+		"egyptian": "sA imn-Ra"
+	},
+	"description": "By the time of the New Kingdom, Ra and Amun had been fused into one divinity, and the Pharaohs fought their campaigns with great assurance of the blessing of Amun-Re upon their endeavours.",
+	"cost": {"food": 0, "wood": 0, "stone": 0, "metal": 600},
+	"requirements": {"all": [{"civ": "egyptian"}, {"tech": "phase_city"}]},
+	"requirementsTooltip": "Unlocked in City Phase.",
+	"icon": "armor_cuirass_empire.png",
+	"researchTime": 40,
+	"tooltip": "Increased attack for the Pharaoh.",
+	"modifications": [
+		{"value": "Attack/Ranged/Hack", "multiply": 1.2},
+		{"value": "Attack/Ranged/Pierce", "multiply": 1.2},
+		{"value": "Attack/Ranged/Crush", "multiply": 1.2}
+	],
+	"affects": ["Hero"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

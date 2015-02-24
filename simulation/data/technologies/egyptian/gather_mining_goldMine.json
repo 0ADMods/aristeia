@@ -1,0 +1,17 @@
+{
+	"genericName": "Gold Mines of Kush",
+	"specificName": {
+		"egyptian": "biAw nbw"
+	},
+	"description": "Kush was the region of Upper (southern) Nubia from which great quantities of gold were mined. The Royal Treasury of Egypt owned the gold mines, which were worked by government employees, and overseen by the Pharaoh's officers.",
+	"cost": {"food": 0, "wood": 250, "stone": 0, "metal": 50},
+	"requirements": {"all": [{"civ": "egyptian"}, {"tech": "phase_city"}]},
+	"requirementsTooltip": "Unlocked in City Phase.",
+	"supersedes": "egyptian/gather_mining_electrumMine",
+	"icon": "mining_metal.png",
+	"researchTime": 40,
+	"tooltip": "Increased metal gathering rates.",
+	"modifications": [{"value": "ResourceGatherer/Rates/metal.ore", "multiply": 1.10}],
+	"affects": ["Worker"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

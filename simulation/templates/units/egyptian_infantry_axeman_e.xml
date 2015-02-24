@@ -12,6 +12,8 @@
     </Charge>
   </Attack>
   <Identity>
+    <GenericName>Two-handed Axeman</GenericName>
+    <SpecificName>Waʿuw-Yeqeh wḤ y</SpecificName>
     <Rank>Elite</Rank>
   </Identity>
   <Promotion disable=''/>

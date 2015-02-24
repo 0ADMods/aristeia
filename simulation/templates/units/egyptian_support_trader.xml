@@ -6,24 +6,16 @@
   </Footprint>
   <Identity>
     <Civ>egyptian</Civ>
-    <Classes datatype="tokens">Camel</Classes>
-    <GenericName>Aramaean Merchant</GenericName>
-    <SpecificName>Tamkarum Arami</SpecificName>
-    <History>Merchants were the working corps of the Persian economy, moving goods from one end of the vast empire to the other. Commodities included linen, carpets, perfume, cotton, salt, fruit, and even pearls. Thanks to the Aramaeans, the main language of Mesopotamia and in all directions from it was Aramaic, making trade simple. The language was eventually taken on as the official language of the Empire.</History>
-    <Icon>units/pers_support_trader.png</Icon>
-    <Tooltip>Trade resources between your own markets and those of your allies. Persians have a +25% land trading bonus.</Tooltip>
+    <GenericName>Egyptian Merchant</GenericName>
+    <SpecificName>šwtj</SpecificName>
+    <History>Egypt carried on extensive land trade with other nations, notably in grain exports, and was a center of luxury good exports and imports.</History>
+    <Icon>units/celt_support_trader.png</Icon>
+    <Tooltip>Trade resources between your own markets and those of your allies.</Tooltip>
   </Identity>
-  <Sound>
-    <SoundGroups>
-      <select>actor/fauna/animal/camel.xml</select>
-      <order_walk>actor/fauna/movement/camel.xml</order_walk>
-      <death>actor/fauna/movement/camel.xml</death>
-    </SoundGroups>
-  </Sound>
   <Trader>
     <GainMultiplier>1.25</GainMultiplier>
   </Trader>
   <VisualActor>
-    <Actor>units/persians/trader.xml</Actor>
+    <Actor>units/egyptian/support_trader.xml</Actor>
   </VisualActor>
 </Entity>

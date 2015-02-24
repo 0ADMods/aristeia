@@ -1,0 +1,16 @@
+{
+	"genericName": "Lord of Two Lands",
+	"specificName": "nb tAwy",
+	"description": "The designation “The Two Lands” refers to Upper and Lower Egypt (southern and northern, respectively, since the Nile flows south to north), which were once two independent political entities. Even after Egypt's unification, the Two Lands were represented in art and sculpture by the papyrus plant and the bee for the north, and the sedge for the south. In addition, the double crown of the Pharaoh also depicted the duality (red for Lower Egypt, white for Upper Egypt).",
+	"cost": {"food": 500, "wood": 500, "stone": 500, "metal": 500},
+	"requirements": {"all": [{"civ": "egyptian"}, {"tech": "phase_city"}]},
+	"requirementsTooltip": "Unlocked in City Phase.",
+	"icon": "stone_blocks.png",
+	"researchTime": 40,
+	"tooltip": "10% increase in territory radius.",
+	"modifications": [
+		{"value": "TerritoryInfluence/Radius", "multiply": 1.10}
+	],
+	"affects": ["Structure"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

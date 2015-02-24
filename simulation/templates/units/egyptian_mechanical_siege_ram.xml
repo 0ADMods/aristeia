@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_mechanical_siege_ram">
+  <Cost>
+    <Population>6</Population>
+  </Cost>
+  <Footprint replace="">
+    <Square width="8.0" depth="12.0"/>
+    <Height>3.0</Height>
+  </Footprint>
+  <Identity>
+    <Civ>egyptian</Civ>
+    <GenericName>Battering Ram</GenericName>
+    <SpecificName>xt</SpecificName>
+    <History>The principal New Kingdom Egyptian methods of storming a fortified place were to use scaling ladders or battering rams.</History>
+    <Icon>units/mace_mechanical_siege_ram.png</Icon>
+  </Identity>
+  <Obstruction>
+    <Unit radius="4.0"/>
+  </Obstruction>
+  <VisualActor>
+    <Actor>structures/macedonians/siege_ram.xml</Actor>
+  </VisualActor>
+</Entity>

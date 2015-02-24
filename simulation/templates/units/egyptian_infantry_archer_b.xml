@@ -9,9 +9,17 @@
   </Attack>
   <Builder>
     <Entities datatype="tokens">
-    -other/wallset_palisade
-    structures/egyptian_wallset_small
-    structures/egyptian_large_temple
+      -other/wallset_palisade
+      -structures/{civ}_wonder
+      structures/egyptian_wallset_small
+      structures/egyptian_stables
+      structures/egyptian_sb_sphinx
+      structures/egyptian_sb_colossus
+      structures/egyptian_sb_monument
+      structures/egyptian_palace_theban
+      structures/egyptian_palace_ramesside
+      structures/egyptian_wonder_temple_mortuary
+      structures/egyptian_wonder_temple_karnak
     </Entities>
   </Builder>
   <Cost>
@@ -24,9 +32,9 @@
     <Civ>egyptian</Civ>
     <SelectionGroupName>units/egyptian_infantry_archer_b</SelectionGroupName>
     <GenericName>Egyptian Archer</GenericName>
-    <SpecificName>Jary Pedet</SpecificName>
+    <SpecificName>iry pDt</SpecificName>
     <Icon>units/egyptian_infantry_archer.png</Icon>
-    <History>Perhaps the favorite weapon of the ancient Egyptians was the bow and arrow. Egyptians typically began battles by showering their enemies with arrows to break up their ranks before attacking with melee infantry. The Nubians to the south of Egypt were even more proficient with the bow, so the Egyptians sometimes called their land “Ta Seti” (Land of the Bow).</History>
+    <History>Egyptian archery was a major deciding factor in the battles of the Pharaoh and his generals. Arrows consisted of reeds tipped with bronze heads.</History>
   </Identity>
   <Promotion>
     <Entity>units/egyptian_infantry_archer_a</Entity>
