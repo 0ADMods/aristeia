@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+	<castshadow/>
+	<group>
+		<variant frequency="100" name="storehouse">
+			<mesh>structural/mycenae_storehouse.dae</mesh>
+			<props>
+				<prop actor="props/structures/decals/dirt_3x3.xml" attachpoint="root"/>
+				<prop actor="props/flora/farming_barley_harvest_a.xml" attachpoint="bush_1"/>
+				<prop actor="flora/trees/mediterranean_cypress.xml" attachpoint="bush_2"/>
+				<prop actor="flora/trees/mediterranean_cypress_tall.xml" attachpoint="bush_3"/>
+				<prop actor="props/flora/farming_barley_harvest_a.xml" attachpoint="bush_4"/>
+			</props>
+			<textures>
+				<texture file="structural/mycenae_struct.png" name="baseTex"/>
+			</textures>
+		</variant>
+	</group>
+	<group>
+		<variant frequency="100" name="Idle"/>
+		<variant name="garrisoned"/>
+		<variant name="death">
+			<props>
+				<prop attachpoint="garrisoned"/>
+				<prop actor="particle/destruction_smoke_small.xml" attachpoint="root"/>
+				<prop actor="particle/destruction_dust_small.xml" attachpoint="root"/>
+				<prop actor="particle/destruction_dust_small_gray.xml" attachpoint="root"/>
+				<prop actor="props/structures/decals/destruct_2x2.xml" attachpoint="root"/>
+			</props>
+		</variant>
+	</group>
+	<material>player_trans.xml</material>
+</actor>

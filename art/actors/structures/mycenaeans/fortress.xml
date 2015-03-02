@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+	<castshadow/>
+	<group>
+		<variant frequency="100" name="scout tower">
+			<animations>
+				<animation event="0.5" load="0" name="attack_ranged" speed="100"/>
+			</animations>
+			<mesh>structural/mycenae_fortress.dae</mesh>
+			<props>
+				<prop actor="props/structures/decals/dirt_7x7.xml" attachpoint="root"/>
+				<prop actor="props/units/weapons/arrow_front.xml" attachpoint="loaded-projectile"/>
+				<prop actor="props/units/weapons/arrow_front.xml" attachpoint="projectile"/>
+				<prop actor="flora/trees/mediterranean_cypress.xml" attachpoint="tree" maxheight="20" minheight="-20"/>
+				<prop actor="flora/trees/mediterranean_cypress.xml" attachpoint="tree_1" maxheight="20" minheight="-20"/>
+				<prop actor="flora/trees/mediterranean_cypress_tall.xml" attachpoint="tree_2" maxheight="20" minheight="-20"/>
+				<prop actor="flora/trees/mediterranean_cypress.xml" attachpoint="tree_3" maxheight="20" minheight="-20"/>
+				<prop actor="flora/trees/mediterranean_cypress_tall.xml" attachpoint="tree_4" maxheight="20" minheight="-20"/>
+				<prop actor="flora/trees/mediterranean_cypress_tall.xml" attachpoint="tree_5" maxheight="20" minheight="-20"/>
+				<prop actor="flora/trees/mediterranean_cypress.xml" attachpoint="tree_6" maxheight="20" minheight="-20"/>
+				<prop actor="flora/trees/mediterranean_cypress_tall.xml" attachpoint="tree_7" maxheight="20" minheight="-20"/>
+				<prop actor="flora/trees/mediterranean_cypress.xml" attachpoint="tree_8" maxheight="20" minheight="-20"/>
+			</props>
+			<textures>
+				<texture file="structural/mycenae_struct.png" name="baseTex"/>
+			</textures>
+		</variant>
+	</group>
+	<group>
+		<variant frequency="100" name="Idle"/>
+		<variant name="garrisoned">
+			<props>
+				<prop actor="props/special/common/garrison_flag_hele.xml" attachpoint="garrisoned"/>
+			</props>
+		</variant>
+		<variant name="death">
+			<props>
+				<prop attachpoint="garrisoned"/>
+				<prop actor="particle/destruction_smoke_small.xml" attachpoint="root"/>
+				<prop actor="particle/destruction_dust_small.xml" attachpoint="root"/>
+				<prop actor="particle/destruction_dust_small_gray.xml" attachpoint="root"/>
+				<prop actor="props/structures/decals/celt_barracks.xml" attachpoint="root"/>
+			</props>
+		</variant>
+	</group>
+	<material>player_trans.xml</material>
+</actor>
