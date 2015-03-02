@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+	<castshadow/>
+	<group>
+		<variant frequency="100" name="scout tower">
+			<mesh>structural/mycenae_barracks.dae</mesh>
+			<props>
+				<prop actor="props/structures/decals/celt_barracks.xml" attachpoint="root"/>
+				<prop actor="props/flora/grass_soft_small.xml" attachpoint="bush_1" maxheight="20" minheight="-20"/>
+				<prop actor="props/flora/grass_soft_small.xml" attachpoint="bush_2" maxheight="20" minheight="-20"/>
+				<prop actor="props/flora/grass_soft_small.xml" attachpoint="bush_3" maxheight="20" minheight="-20"/>
+				<prop actor="props/flora/grass_soft_small.xml" attachpoint="bush_4" maxheight="20" minheight="-20"/>
+				<prop actor="flora/trees/mediterranean_cypress.xml" attachpoint="bush_1" maxheight="20" minheight="-20"/>
+				<prop actor="flora/trees/mediterranean_cypress.xml" attachpoint="bush_2" maxheight="20" minheight="-20"/>
+				<prop actor="flora/trees/mediterranean_cypress_tall.xml" attachpoint="bush_3" maxheight="20" minheight="-20"/>
+				<prop actor="flora/trees/mediterranean_cypress.xml" attachpoint="bush_4" maxheight="20" minheight="-20"/>
+			</props>
+			<textures>
+				<texture file="structural/mycenae_struct.png" name="baseTex"/>
+			</textures>
+		</variant>
+	</group>
+	<group>
+		<variant frequency="100" name="Idle"/>
+		<variant name="garrisoned">
+			<props>
+				<prop actor="props/special/common/garrison_flag_hele.xml" attachpoint="garrisoned"/>
+			</props>
+		</variant>
+		<variant name="death">
+			<props>
+				<prop attachpoint="garrisoned"/>
+				<prop actor="particle/destruction_smoke_small.xml" attachpoint="root"/>
+				<prop actor="particle/destruction_dust_small.xml" attachpoint="root"/>
+				<prop actor="particle/destruction_dust_small_gray.xml" attachpoint="root"/>
+				<prop actor="props/structures/decals/celt_barracks.xml" attachpoint="root"/>
+			</props>
+		</variant>
+	</group>
+	<material>player_trans.xml</material>
+</actor>
