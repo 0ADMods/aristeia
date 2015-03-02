@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_military_fortress">
+  <Identity>
+    <Civ>myce</Civ>
+    <SpecificName>?</SpecificName>
+    <History>.</History>
+    <Tooltip>A powerful defensive structure that can be heavily garrisoned for immense firepower.</Tooltip>
+  </Identity>
+  <ProductionQueue>
+    <Entities datatype="tokens"/>
+  </ProductionQueue>
+  <VisualActor>
+    <Actor>structures/mycenaeans/fortress.xml</Actor>
+  </VisualActor>
+</Entity>
