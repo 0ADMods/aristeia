@@ -6,10 +6,10 @@
       <Obelisk>5</Obelisk>
       <Sphinx>3</Sphinx>
     </Limits>
+    <LimitChangers>
+      <Monument>
+        <RamessesII>2</RamessesII>
+      </Monument>
+    </LimitChangers>
   </EntityLimits>
-  <LimitChangers>
-    <Monument>
-      <RamessesII>2</RamessesII>
-    </Monument>
-  </LimitChangers>
 </Entity>
