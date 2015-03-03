@@ -1,12 +1,10 @@
 There are several ways to contact us and find more information:
 
-  Web site: http://fallenempiresstudio.wordpress.com/
-
   Fallen Empire Studio ModDB page: http://www.moddb.com/company/fallen-empires-studio
 
   Bronze Age ModDB page: http://www.moddb.com/mods/aristeia-civilization-bronze-pack
 
-  0AD Extended Forum: http://www.wildfiregames.com/forum/index.php?showforum=420
+  Aristeia subforum at the Wildfiregames forum: http://www.wildfiregames.com/forum/index.php?showforum=420
 
 ------------------------------------------------------------
 HOWTO
@@ -29,19 +27,4 @@ Step 3.
 ----
 
 Launch 0ad with this mod. Instructions on how to do this depend on your operating system.
-
-	-Linux:
-		a) If you've installed 0ad via the package manager:
-			type "0ad -mod=NAME_OF_THIS_FOLDER" in a terminal
-			
-		b) If you've installed 0ad from source:
-			launch pyrogenesis (found in ./0ad/binaries/system/)
-			with "./pyrogenesis -mod=NAME_OF_THIS_FOLDER"
-			
-	-Windows:
-		a) If you've used the installer:
-			edit your shortcut and add "-mod=NAME_OF_THIS_FOLDER" to the command
-		
-		b) If you've installed from source:
-			launch pyrogenesis.exe (found in \0ad\binaries\system\)
-			with "pyrogenesis.exe -mod=NAME_OF_THIS_FOLDER"
+In the 0 A.D. main menu go to Tools & Options > Mod selection. Activate your mod there and press 'Start mods'. When the game is restarted you should be able to see Aristeia's customized main menu. If that is not ther case, you probably did something wrong :).
