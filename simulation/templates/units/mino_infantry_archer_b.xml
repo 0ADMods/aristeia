@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_ranged_archer">
+  <Attack>
+    <Ranged>
+      <MaxRange>60.0</MaxRange>
+      <MinRange>10.0</MinRange>
+      <ProjectileSpeed>65.0</ProjectileSpeed>
+    </Ranged>
+  </Attack>
+  <Builder>
+    <Entities datatype="tokens">
+      -other/wallset_palisade
+      -structures/{civ}_wonder
+      structures/egyptian_wallset_small
+      structures/egyptian_stables
+      structures/egyptian_sb_sphinx
+      structures/egyptian_sb_colossus
+      structures/egyptian_sb_monument
+      structures/egyptian_palace_theban
+      structures/egyptian_palace_ramesside
+      structures/egyptian_wonder_temple_mortuary
+      structures/egyptian_wonder_temple_karnak
+    </Entities>
+  </Builder>
+  <Cost>
+    <BuildTime>7.5</BuildTime>
+  </Cost>
+  <Health>
+    <Max>75</Max>
+  </Health>
+  <Identity>
+    <Civ>egyptian</Civ>
+    <SelectionGroupName>units/egyptian_infantry_archer_b</SelectionGroupName>
+    <GenericName>Egyptian Archer</GenericName>
+    <SpecificName>iry pDt</SpecificName>
+    <Icon>units/egyptian_infantry_archer.png</Icon>
+    <History>Egyptian archery was a major deciding factor in the battles of the Pharaoh and his generals. Arrows consisted of reeds tipped with bronze heads.</History>
+  </Identity>
+  <Promotion>
+    <Entity>units/egyptian_infantry_archer_a</Entity>
+  </Promotion>
+  <VisualActor>
+    <Actor>units/egyptian/infantry_archer_b.xml</Actor>
+  </VisualActor>
+</Entity>
