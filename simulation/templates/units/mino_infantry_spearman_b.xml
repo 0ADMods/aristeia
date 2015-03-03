@@ -13,17 +13,18 @@
   </Attack>
   <Builder>
     <Entities datatype="tokens">
-      -other/wallset_palisade
+      -structures/{civ}_barracks
+      -structures/{civ}_blacksmith
+      -structures/{civ}_corral
+      -structures/{civ}_dock
+      -structures/{civ}_farmstead
+      -structures/{civ}_field
+      -structures/{civ}_fortress
+      -structures/{civ}_market
+      -structures/{civ}_outpost
+      -structures/{civ}_storehouse
+      -structures/{civ}_wallset_stone
       -structures/{civ}_wonder
-      structures/egyptian_wallset_small
-      structures/egyptian_stables
-      structures/egyptian_sb_sphinx
-      structures/egyptian_sb_colossus
-      structures/egyptian_sb_monument
-      structures/egyptian_palace_theban
-      structures/egyptian_palace_ramesside
-      structures/egyptian_wonder_temple_mortuary
-      structures/egyptian_wonder_temple_karnak
     </Entities>
   </Builder>
   <Cost>
@@ -34,15 +35,15 @@
     </Resources>
   </Cost>
   <Identity>
-    <Civ>egyptian</Civ>
-    <SelectionGroupName>units/egyptian_infantry_spearman_b</SelectionGroupName>
-    <GenericName>Egyptian Spearman</GenericName>
-    <SpecificName>Waʿuw-HeḤ nyety</SpecificName>
+    <Civ>mino</Civ>
+    <SelectionGroupName>units/mino_infantry_spearman_b</SelectionGroupName>
+    <GenericName>Minoan Spearman</GenericName>
+    <SpecificName>?</SpecificName>
     <Icon>units/egyptian_infantry_spearman.png</Icon>
-    <History>Spearmen formed a basic building block of the Egyptian army's melee units. Some warriors from the New Kingdom period are depicted with shorter, longer-bladed stabbing spears, which could be wielded either one or two-handed.</History>
+    <History>.</History>
   </Identity>
   <Promotion>
-    <Entity>units/egyptian_infantry_spearman_a</Entity>
+    <Entity>units/mino_infantry_spearman_a</Entity>
   </Promotion>
   <VisualActor>
     <Actor>units/egyptian/infantry_spearman_b.xml</Actor>

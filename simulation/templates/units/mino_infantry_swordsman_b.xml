@@ -1,29 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_infantry_melee_swordsman">
-  <Armour>
-    <Pierce>4.0</Pierce>
-  </Armour>
-  <Attack>
-    <Melee>
-      <Hack>14.0</Hack>
-    </Melee>
-    <Charge>
-      <Hack>24.0</Hack>
-    </Charge>
-  </Attack>
   <Builder>
     <Entities datatype="tokens">
-      -other/wallset_palisade
+      -structures/{civ}_barracks
+      -structures/{civ}_blacksmith
+      -structures/{civ}_corral
+      -structures/{civ}_dock
+      -structures/{civ}_farmstead
+      -structures/{civ}_field
+      -structures/{civ}_fortress
+      -structures/{civ}_market
+      -structures/{civ}_outpost
+      -structures/{civ}_storehouse
+      -structures/{civ}_wallset_stone
       -structures/{civ}_wonder
-      structures/egyptian_wallset_small
-      structures/egyptian_stables
-      structures/egyptian_sb_sphinx
-      structures/egyptian_sb_colossus
-      structures/egyptian_sb_monument
-      structures/egyptian_palace_theban
-      structures/egyptian_palace_ramesside
-      structures/egyptian_wonder_temple_mortuary
-      structures/egyptian_wonder_temple_karnak
     </Entities>
   </Builder>
   <Cost>
@@ -33,17 +23,17 @@
     </Resources>
   </Cost>
   <Identity>
-    <Civ>egyptian</Civ>
-    <SelectionGroupName>units/egyptian_infantry_axeman_b</SelectionGroupName>
-    <GenericName>Axe Warrior</GenericName>
-    <SpecificName>Jaqahawi Aha</SpecificName>
+    <Civ>mino</Civ>
+    <SelectionGroupName>units/mino_infantry_swordsman_b</SelectionGroupName>
+    <GenericName>Minoan Swordsman</GenericName>
+    <SpecificName>?</SpecificName>
     <Icon>units/egyptian_infantry_axeman_b_256x256.png</Icon>
-    <History>Bronze axes, along with khopesh swords, daggers, and clubs, served as side arms for Egyptian melee infantry. Two-handed axes were used in the mid-to-later New Kingdom, and also saw usage by other cultures at the time, such as the Canaanites.</History>
+    <History>.</History>
   </Identity>
   <Promotion>
-    <Entity>units/egyptian_infantry_axeman_a</Entity>
+    <Entity>units/mino_infantry_axeman_a</Entity>
   </Promotion>
   <VisualActor>
-    <Actor>units/egyptian/infantry_axeman_b.xml</Actor>
+    <Actor>units/egyptian/infantry_swordsman_b.xml</Actor>
   </VisualActor>
 </Entity>

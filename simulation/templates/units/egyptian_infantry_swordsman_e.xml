@@ -30,6 +30,6 @@
     </Run>
   </UnitMotion>
   <VisualActor>
-    <Actor>units/egyptian/infantry_swordsman_b</Actor>
+    <Actor>units/egyptian/infantry_swordsman_b.xml</Actor>
   </VisualActor>
 </Entity>
