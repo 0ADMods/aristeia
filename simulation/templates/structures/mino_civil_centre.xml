@@ -19,6 +19,9 @@
   <ProductionQueue>
     <Entities datatype="tokens">
       -units/{civ}_support_female_citizen
+      units/mino_infantry_archer_b
+      units/mino_infantry_spearman_b
+      units/mino_infantry_swordsman_b
     </Entities>
   </ProductionQueue>
   <VisualActor>

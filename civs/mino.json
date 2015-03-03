@@ -37,7 +37,7 @@
 	"StartEntities":
 	[
 		{
-			"Template": "structures/egyptian_civil_centre",
+			"Template": "structures/mino_civil_centre",
 			"Count": 1
 		},
 		{
@@ -45,11 +45,11 @@
 			"Count": 4
 		},
 		{
-			"Template": "units/egyptian_infantry_spearman_b",
+			"Template": "units/mino_infantry_spearman_b",
 			"Count": 2
 		},
 		{
-			"Template": "units/egyptian_infantry_axeman_b",
+			"Template": "units/mino_infantry_swordsman_b",
 			"Count": 2
 		},
 		{
@@ -73,8 +73,9 @@
 	],
 	"SkirmishReplacements":
 	{
-		"skirmish/units/default_infantry_ranged_b": "units/egyptian_infantry_archer_b",
+		"skirmish/units/default_infantry_ranged_b": "units/mino_infantry_archer_b",
 		"skirmish/units/default_cavalry": "units/egyptian_cavalry_archer_b",
+		"skirmish/units/default_support_female_citizen": "units/egyptian_support_female_citizen",
 		"skirmish/structures/default_house_5": "structures/{civ}_house"
 	},
 	"SelectableInGameSetup": false
