@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_civic_civil_centre">
   <Footprint>
-    <Square width="31.0" depth="51.0"/>
+    <Square width="37.5" depth="37.5"/>
     <Height>12.0</Height>
   </Footprint>
   <Health>
@@ -14,7 +14,7 @@
     <History>.</History>
   </Identity>
   <Obstruction>
-   <Static width="30.0" depth="50.0"/>
+    <Static width="36.0" depth="36.0"/>
   </Obstruction>
   <ProductionQueue>
     <Entities datatype="tokens">
@@ -22,7 +22,7 @@
     </Entities>
   </ProductionQueue>
   <VisualActor>
-      <Actor>structures/mycenaeans/civic_center.xml</Actor>
-      <FoundationActor>structures/fndn_4x6.xml</FoundationActor>
+    <Actor>structures/mycenaeans/civic_center.xml</Actor>
+    <FoundationActor>structures/fndn_8x8.xml</FoundationActor>
   </VisualActor>
 </Entity>
