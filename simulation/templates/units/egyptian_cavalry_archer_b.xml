@@ -20,6 +20,6 @@
     </Run>
   </UnitMotion>
   <VisualActor>
-    <Actor>units/ptolemies/cavalry_archer_b.xml</Actor>
+    <Actor>units/egyptian/cavalry_archer_b.xml</Actor>
   </VisualActor>
 </Entity>
