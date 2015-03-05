@@ -19,7 +19,7 @@
   </Cost>
   <Identity>
     <Civ>egyptian</Civ>
-    <SelectionGroupName>units/egyptian_champion_swordsman</SelectionGroupName>
+    <SelectionGroupName>units/egyptian_champion_swordsman_theban</SelectionGroupName>
     <GenericName>King's Brave</GenericName>
     <SpecificName>qn</SpecificName>
     <Icon>units/egyptian_infantry_axeman_b_256x256.png</Icon>

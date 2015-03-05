@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_defense_wall_medium">
+  <Footprint>
+    <Square width="28.0" depth="10.0"/>
+    <Height>9.0</Height>
+  </Footprint>
+  <GarrisonHolder>
+    <VisibleGarrisonPoints>
+      <Archer1>
+        <X>0</X><Y>10.86</Y><Z>0.1</Z>
+      </Archer1>
+      <Archer2>
+        <X>4</X><Y>10.86</Y><Z>-0.1</Z>
+      </Archer2>
+      <Archer3>
+        <X>-4</X><Y>10.86</Y><Z>-0.1</Z>
+      </Archer3>
+    </VisibleGarrisonPoints>
+  </GarrisonHolder>
+  <Identity>
+    <Civ>myce</Civ>
+    <SpecificName>?</SpecificName>
+    <SelectionGroupName>structures/myce_wallset_stone</SelectionGroupName>
+    <History>.</History>
+  </Identity>
+  <Obstruction>
+    <Static width="26.0" depth="8.0"/>
+  </Obstruction>
+  <VisualActor>
+    <Actor>structures/mycenaeans/wall_med.xml</Actor>
+  </VisualActor>
+  <WallPiece>
+    <Length>26.0</Length>
+  </WallPiece>
+</Entity>
