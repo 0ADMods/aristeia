@@ -10,6 +10,6 @@
     <RequiredTechnology>egyptian/phase_city_theban</RequiredTechnology>
   </Identity>
   <VisualActor>
-    <Actor>units/athenians/champion_unit_ranged.xml</Actor>
+    <Actor>units/egyptian/champion_unit_ranged.xml</Actor>
   </VisualActor>
 </Entity>
