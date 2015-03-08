@@ -2,7 +2,7 @@
 	"Code":"myce",
 	"Culture":"myce",
 	"Name":"Mycenian",
-	"Emblem":"session/portraits/emblems/emblem_egyptians.png",
+	"Emblem":"session/portraits/emblems/emblem_mycenaeans.png",
 	"History":"...",
 	"Music":[
 			{"File":"Ib_ Al-Noor.ogg", "Type":"peace"}
@@ -37,7 +37,7 @@
 	"StartEntities":
 	[
 		{
-			"Template": "structures/egyptian_civil_centre",
+			"Template": "structures/myce_civil_centre",
 			"Count": 1
 		},
 		{
