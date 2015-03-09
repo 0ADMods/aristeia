@@ -7,25 +7,9 @@
 				<animation event="0.5" load="0" name="attack_ranged" speed="100"/>
 			</animations>
 			<mesh>structural/mycenae_civ_center.dae</mesh>
-			<props>
-				<prop actor="props/structures/decals/dirt_6x6.xml" attachpoint="root"/>
-				<prop actor="props/units/weapons/arrow_front.xml" attachpoint="loaded-projectile"/>
-				<prop actor="props/units/weapons/arrow_front.xml" attachpoint="projectile"/>
-				<prop actor="flora/trees/mediterranean_cypress.xml" attachpoint="tree" maxheight="20" minheight="-20"/>
-				<prop actor="flora/trees/mediterranean_cypress.xml" attachpoint="tree_1" maxheight="20" minheight="-20"/>
-				<prop actor="flora/trees/mediterranean_cypress_tall.xml" attachpoint="tree_2" maxheight="20" minheight="-20"/>
-				<prop actor="flora/trees/mediterranean_cypress.xml" attachpoint="tree_3" maxheight="20" minheight="-20"/>
-				<prop actor="flora/trees/mediterranean_cypress_tall.xml" attachpoint="tree_4" maxheight="20" minheight="-20"/>
-				<prop actor="flora/trees/mediterranean_cypress_tall.xml" attachpoint="tree_5" maxheight="20" minheight="-20"/>
-				<prop actor="flora/trees/mediterranean_cypress.xml" attachpoint="tree_6" maxheight="20" minheight="-20"/>
-				<prop actor="flora/trees/mediterranean_cypress_tall.xml" attachpoint="tree_7" maxheight="20" minheight="-20"/>
-				<prop actor="flora/trees/mediterranean_cypress.xml" attachpoint="tree_8" maxheight="20" minheight="-20"/>
-			</props>
 			<textures>
 				<texture file="structural/mycenae_struct.png" name="baseTex"/>
-				<texture file="structural/hele_struct_b_norm.png" name="normTex"/>
-				<texture file="structural/hele_struct_b_spec.png" name="specTex"/>
-				<texture file="structural/ao/hele_scout_tower.png" name="aoTex"/>
+				<texture file="structural/ao/myce_civic_centre_ao.png" name="aoTex"/>
 			</textures>
 		</variant>
 	</group>
@@ -46,5 +30,5 @@
 			</props>
 		</variant>
 	</group>
-	<material>player_trans.xml</material>
+	<material>player_trans_ao.xml</material>
 </actor>
