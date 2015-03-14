@@ -18,6 +18,6 @@
     <Unit radius="4.0"/>
   </Obstruction>
   <VisualActor>
-    <Actor>structures/macedonians/siege_ram.xml</Actor>
+    <Actor>units/egyptian/siege_ram.xml</Actor>
   </VisualActor>
 </Entity>
