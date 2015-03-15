@@ -23,9 +23,7 @@
 			</props>
 			<textures>
 				<texture file="structural/mycenae_struct.png" name="baseTex"/>
-				<texture file="structural/hele_struct_b_norm.png" name="normTex"/>
-				<texture file="structural/hele_struct_b_spec.png" name="specTex"/>
-				<texture file="structural/ao/hele_scout_tower.png" name="aoTex"/>
+				<texture file="structural/ao/myce_civic_centre_ao.png" name="aoTex"/>
 			</textures>
 		</variant>
 	</group>
@@ -46,5 +44,5 @@
 			</props>
 		</variant>
 	</group>
-	<material>player_trans.xml</material>
+	<material>player_trans_ao.xml</material>
 </actor>
