@@ -22,7 +22,7 @@
     <SelectionGroupName>units/egyptian_champion_swordsman_theban</SelectionGroupName>
     <GenericName>King's Brave</GenericName>
     <SpecificName>qn</SpecificName>
-    <Icon>units/egyptian_infantry_axeman_b_256x256.png</Icon>
+    <Icon>units/egyptian_champion_swordsman.png</Icon>
     <History>These elite shock troops were sometimes used as the storming parties against fortresses, such as at the Battle of Megiddo during the reign of Thutmose III.</History>
     <Tooltip>Shock infantry to exploit a gap or smash an exposed enemy position.</Tooltip>
     <RequiredTechnology>egyptian/phase_city_theban</RequiredTechnology>

@@ -28,7 +28,7 @@
     <SpecificName>TmH</SpecificName>
     <Classes datatype="tokens">Libyan Mercenary</Classes>
     <History>Libyan soldiers were extensively employed by mid and late New Kingdom Pharaohs, including Thutmose III and Ramesses II.</History>
-    <Icon>units/cart_infantry_swordsman.png</Icon>
+    <Icon>units/egyptian_infantry_swordsman.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>
   </Identity>
   <Promotion>
