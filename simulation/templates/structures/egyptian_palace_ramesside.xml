@@ -39,7 +39,7 @@
   <ProductionQueue>
     <BatchTimeModifier>0.8</BatchTimeModifier>
     <Entities datatype="tokens">
-      units/egyptian_champion_swordsman_rames
+      units/egyptian_champion_swordsman_ramesside
       units/egyptian_hero_seti
       units/egyptian_hero_ramesses_ii
       units/egyptian_hero_ramesses_iii
