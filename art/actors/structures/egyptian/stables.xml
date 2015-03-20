@@ -5,7 +5,12 @@
     <variant frequency="100" name="Stables">
       <mesh>structural/egyptian_stables.dae</mesh>
       <props>
-        
+        <prop actor="props/structures/decals/dirt_4x4.xml" attachpoint="root"/>
+        <prop actor="props/stables2_doublefence.xml" attachpoint="double_fence"/>
+        <prop actor="props/structures/persians/stable_horse_a.xml" attachpoint="horse1" minheight="-20" maxheight="1.7"/>
+        <prop actor="props/structures/persians/stable_horse_b.xml" attachpoint="horse2" minheight="-20" maxheight="1.7"/>
+        <prop actor="temp/fence_wood_long_a.xml" attachpoint="fanceswall" minheight="-20" maxheight="1.7"/>
+         <prop actor="props/structures/decals/celt_sb1_mud.xml" attachpoint="root"/>
       </props>
       <textures>
          <texture file="structural/egyptian_struct.png" name="baseTex"/>
