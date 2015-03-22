@@ -3,8 +3,16 @@
   <castshadow/>
   <group>
     <variant frequency="100" name="Base">
-      <mesh>structural/egyptian_farmstead.dae</mesh>
+      <mesh>structural/egyptian_farmstead2.dae</mesh>
       <props>
+          <prop actor="props/special/eyecandy/hay_cart.xml" attachpoint="cart"/>
+          <prop actor="props/special/eyecandy/produce_bin_a.xml" attachpoint="food"/>
+          <prop actor="props/special/eyecandy/produce_bin_a.xml" attachpoint="above"/>
+          <prop actor="props/special/eyecandy/produce_bin_a.xml" attachpoint="under2"/>
+          <prop actor="props/special/eyecandy/produce_bin_a.xml" attachpoint="under"/>
+           <prop actor="props/special/eyecandy/crate_a.xml" attachpoint="1"/>
+        
+        
       </props>
       <textures>        
 		<texture file="structural/ptol_struct.png" name="baseTex"/>

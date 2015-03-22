@@ -5,16 +5,21 @@
     <variant frequency="100" name="Base">
       <props>
         <prop actor="props/structures/decals/dirt_5x5.xml" attachpoint="root"/>
+        <prop actor="structures/ptolemies/stall_small_b.xml" attachpoint="stall"/>
+        <prop actor="structures/ptolemies/stall_small_b.xml" attachpoint="stall2"/>
+        <prop actor="structures/ptolemies/stall_small_b.xml" attachpoint="stall3"/>
+        <prop actor="structures/ptolemies/stall_small_b.xml" attachpoint="stall4"/>
+        <prop actor="props/special/eyecandy/statues_ptol.xml" attachpoint="statue"/>
       </props>
       <textures><texture file="structural/ptol_struct.png" name="baseTex"/></textures>
     </variant>
   </group>
   <group>
     <variant frequency="1" name="Bazaar A">
-      <mesh>structural/ptol_market.dae</mesh>
+      <mesh>structural/egyptian_market.dae</mesh>
     </variant>
     <variant frequency="1" name="Bazaar B">
-      <mesh>structural/ptol_market.dae</mesh>
+      <mesh>structural/egyptian_market.dae</mesh>
     </variant>
   </group>
   <group>
