@@ -55,7 +55,7 @@
     <Radius>48</Radius>
   </TerritoryInfluence>
   <VisualActor>
-    <Actor>structures/persians/palace.xml</Actor>
+    <Actor>structures/egyptian/palace.xml</Actor>
     <FoundationActor>structures/fndn_6x6.xml</FoundationActor>
   </VisualActor>
 </Entity>
