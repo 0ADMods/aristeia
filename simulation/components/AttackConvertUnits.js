@@ -88,7 +88,7 @@ Attack.prototype.PerformAttack = function(type, target)
 	if (type == "Ranged")
 	{
 		var cmpTimer = Engine.QueryInterface(SYSTEM_ENTITY, IID_Timer);
-		var turnLength = cmpTimer.GetLatestTurnLength() / 1000;
+		var turnLength = cmpTimer.GetLatestTurnLength()/1000;
 		// In the future this could be extended:
 		//  * Obstacles like trees could reduce the probability of the target being hit
 		//  * Obstacles like walls should block projectiles entirely
@@ -156,53 +156,34 @@ Attack.prototype.PerformAttack = function(type, target)
 		var playerId = Engine.QueryInterface(this.entity, IID_Ownership).GetOwner()
 		var cmpTimer = Engine.QueryInterface(SYSTEM_ENTITY, IID_Timer);
  		cmpTimer.SetTimeout(this.entity, IID_Attack, "MissileHit", timeToTarget*1000, {"type": type, "target": target, "position": realTargetPosition, "direction": missileDirection, "projectileId": id, "playerId":playerId});
-    }
+	}
 	else if (type == "Convert")
 	{
         
 		var cmpOwnership = Engine.QueryInterface(target, IID_Ownership);
 		if (!cmpOwnership)
 			return;
-        //warn('Owner Target: ' + cmpOwnership);
+        warn('Owner Target: ' + uneval(cmpOwnership));
 
 		var cmpOwnership2 = Engine.QueryInterface(this.entity, IID_Ownership);
 		if (!cmpOwnership2)
 			return;
-        //warn('Owner Source: ' + cmpOwnership2);
+        warn('Owner Source: ' + uneval(cmpOwnership2));
 
-		var isImmediatelyIntegrated = true;
-		var cmpUnitAi = Engine.QueryInterface(this.entity, IID_UnitAI);
-		if (cmpUnitAi.CanCapture(target))
+		var cmpUnitAI = Engine.QueryInterface(this.entity, IID_UnitAI);
+		if (cmpUnitAI.CanConvert(target))
 		{
-			if (isImmediatelyIntegrated)
-			{
-				// Fully convert to a normal unit of your own, the original ethnicity still recognizable.
-				cmpOwnership.SetOwner(cmpOwnership2.GetOwner());
-				warn('Unit ' + this.entity + ' (Owner: '+ cmpOwnership +') immediately integrated target: ' + target + ' (Owner: '+ cmpOwnership2 +' ).');
-				var cmpTargetEntityPlayer = QueryOwnerInterface(target, IID_Player);
-				var cmpPlayer = QueryOwnerInterface(this.entity, IID_Player);
-				Engine.PostMessage(this.entity, MT_OwnershipChanged, { "entity": target,
-			"from": cmpTargetEntityPlayer.playerID, "to": cmpPlayer.playerID });
-			}
-			else
-			{
-				var cmpTargetUnitAi = Engine.QueryInterface(target, IID_UnitAI);
-				if (cmpTargetUnitAi) 
-				{
-					// Take prisoner of war (make it either a prisoner, i.e. garrison or keep it with guards, or a slave worker). Only change accessories or clothes.
-					// TODO Trigger guard function: i.e. make the captives/slaves guard their capturer.
-					if (cmpTargetUnitAi.isGuardOf())
-						cmpTargetUnitAi.RemoveGuard();
-					cmpTargetUnitAi.UnitFsmSpec["Order.Guard"]({ target:target_entity });
-					// TODO Change Actor or add slave robe or adapt other props.
-					 
-				}
-			}
-			Engine.PostMessage(target, MT_OwnershipChanged, { "entity": this.entity });
-		}		
-		else 
-			warn("Can't capture: " + target);
+			cmpOwnership.SetOwner(cmpOwnership2.GetOwner());
+			warn('Unit ' + this.entity + ' (Owner: '+ uneval(cmpOwnership) +') converted target: ' + target + ' (Owner: '+ uneval(cmpOwnership2) +' ).');
 
+			var cmpTargetEntityPlayer = QueryOwnerInterface(target, IID_Player);
+			var cmpPlayer = QueryOwnerInterface(this.entity, IID_Player);
+
+			Engine.PostMessage(this.entity, MT_OwnershipChanged, { "entity": target,
+				"from": cmpTargetEntityPlayer.playerID, "to": cmpPlayer.playerID });
+		} else {
+			warn("Can't convert: " + target);
+		}
 	}
 	else
 	{
@@ -210,34 +191,5 @@ Attack.prototype.PerformAttack = function(type, target)
 		Damage.CauseDamage({"strengths":this.GetAttackStrengths(type), "target":target, "attacker":this.entity, "multiplier":this.GetAttackBonus(type, target), "type":type});
 	}
 	// TODO: charge attacks (need to design how they work)
-
 };
-
-
-
-/*
-// Get nearby entities and define variables
-//var nearEnts = Damage.EntitiesNearPoint(data.origin, data.radius, data.playersToDamage);
-
-Attack.prototype.GetNearbyEntities = function(startEnt, range, friendlyFire)
-{
-	var cmpPlayerManager = Engine.QueryInterface(SYSTEM_ENTITY, IID_PlayerManager);
-	var cmpOwnership = Engine.QueryInterface(this.entity, IID_Ownership);
-	var owner = cmpOwnership.GetOwner();
-	var cmpPlayer = Engine.QueryInterface(cmpPlayerManager.GetPlayerByID(owner), IID_Player);
-	var numPlayers = cmpPlayerManager.GetNumPlayers();
-	var players = [];
-	
-	for (var i = 1; i < numPlayers; ++i)
-	{	
-		// Only target enemies unless friendly fire is on
-		if (cmpPlayer.IsEnemy(i) || friendlyFire)
-			players.push(i);
-	}
-	
-	var rangeManager = Engine.QueryInterface(SYSTEM_ENTITY, IID_RangeManager);
-	return rangeManager.ExecuteQuery(startEnt, 0, range, players, IID_DamageReceiver);
-}
-*/
-
 Engine.ReRegisterComponentType(IID_Attack, "Attack",  Attack);
