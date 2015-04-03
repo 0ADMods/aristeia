@@ -1,0 +1,225 @@
+{
+	"Code":"egyptian",
+	"Culture":"egyptian",
+	"Name":"Egyptians",
+	"Emblem":"session/portraits/emblems/emblem_egyptians.png",
+	"History":"...",
+	"Music":[
+			{"File":"Ib_ Al-Noor.ogg", "Type":"peace"}
+		],
+	"Factions":
+	[
+		{
+			"Name":"Egyptians",
+			"Description":"TBI ...",
+			"Technologies":
+			[
+				{
+					"Name":"Irrigation Sluices",
+					"History":"Sluice gates were used to control the level and flow of the Nile's inundation water in the complex system of canals.",
+					"Description":"Increased farm field production."
+				},
+				{
+					"Name":"Shaduf Sweeps", 
+					"History":"The shaduf was a device, apparently introduced in the New Kingdom, which consisted of a bucket on the end of a rope, which was lowered into a water source and then raised via a heavy counterweight.",
+					"Description":"Increased farm field production."
+				},
+				{
+					"Name":"Canals and Dikes (dnit)",
+					"History":"Much of the Nile's flood season water was diverted into canals to take advantage of the abundant water resource.",
+					"Description":"Increased farm field production."
+				},
+				{
+					"Name":"Nilometers (Axt)",
+					"History":"Nilometers were stone markers that measured the water levels of the river, and aided government officials in determining the amount of land and farm taxes to be paid. A low level of inundation meant a correspondingly reduced level of taxation.",
+					"Description":"Increased farm field production."
+				},
+				{
+					"Name":"Granite Quarries of the First Cataract (ikw mAT)",
+					"History":"Granite was one of the principal building materials for structures such as temples, palaces, and monuments, and the First Cataract of the Nile (an area of rapids that marked the southernmost boundary of Egypt, along Nubia) was a major granite resource.",
+					"Description":"Increased stone gathering rates."
+				},
+				{
+					"Name":"Electrum Mines of Nubia (biAw Damw)",
+					"History":"Electrum was a naturally-occuring alloy of gold and silver, found primarily in Nubia and greatly prized. The war crown of the Pharaoh was crafted of electrum, and obelisks were often overlaid with the precious metal.",
+					"Description":"Increased metal gathering rates."
+				},
+				{
+					"Name":"Limestone Quarries of Troyu (ikw)",
+					"History":"Limestone was used for coating pyramids and temple walls, and was valued as a good surface for depicting artwork. Troyu produced the finest limestone in Egypt's quarries.",
+					"Description":"Increased stone gathering rates."
+				},
+				{
+					"Name":"Gold Mines of Kush (biAw nbw)",
+					"History":"Kush was the region of Upper (southern) Nubia from which great quantities of gold were mined. The Royal Treasury of Egypt owned the gold mines, which were worked by government employees, and overseen by the Pharaoh's officers.",
+					"Description":"Increased metal gathering rates."
+				},
+				{
+					"Name":"Papyrus Reeds (wAD)",
+					"History":"Papyrus was most famously used to make writing paper, but also household items such as baskets and mats, and ship components such as ropes and sails. The Delta marshlands were a rich source of papyrus stems.",
+					"Description":"Decreased cost for shipbuilding."
+				},
+				{
+					"Name":"Fishing Nets (Snw)",
+					"History":"Fishing nets were constructed from linen fabric into a coarse implement. They allowed a great quantity of fish to be captured at once.",
+					"Description":"Increased fish gathering rate."
+				},
+				{
+					"Name":"Composite Bows (pDt)",
+					"History":"Composite bows were crafted of several laminated materials, such as wood, horn, and sinew, and were significantly more powerful than simple stave bows. The New Kingdom incorporated much use of the composite bow as time went on.",
+					"Description":"Greater range and pierce for all archer units except Egyptian Horseman and Hero units."
+				},
+				{
+					"Name":"The Gold of Valour (nbw qnt)",
+					"History":"Egyptian troops had an incentive to fight fiercely against the enemies of His Majesty, for they could receive an opportunity for honour and advancement for their service. After a victory, they were permitted to cut off the hands of enemy corpses and turn them in to the scribes, both for overall tallying purposes and for ascribing honour to the fortunate soldiers who were able to deliver large numbers of hands. Usually, only the hands of enemies of significantly lighter or darker skin tones than themselves were accepted (perhaps because promotion-hungry soldiers may have otherwise been tempted to mutilate their own dead).",
+					"Description":"Greater speed and attack for all native Egyptian melee units."
+				},
+				{
+					"Name":"Wisdom of Imhotep (sAA ii-m-htp)",
+					"History":"Imhotep was a famous architect, author, and physician from the Old Kingdom period. He emphasized practical diagnoses and cures in his medicine rather than superstition. Egyptian healers were considered among the best in the Mediterranean until the time of Hippocrates, the great Greek physician.",
+					"Description":"Increased healing rate."
+				},
+				{
+					"Name":"Son of Amun-Re (sA imn-Ra)",
+					"History":"By the time of the New Kingdom, Ra and Amun had been fused into one divinity, and the Pharaohs fought their campaigns with great assurance of the blessing of Amun-Re upon their endeavours.",
+					"Description":"Increased attack for the Pharaoh."
+				},
+				{
+					"Name":"Followers of His Majesty (Smsw Hm)",
+					"History":"Egyptian soldiers held their Pharaoh in awe, and hoped to gain his favour and reward by performing courageous exploits that would bring them to his attention.",
+					"Description":"Increased attack for all citizen soldiers in the Pharaoh's hero aura."
+				},
+				{
+					"Name":"Builders of Monuments (s.qdw)",
+					"History":"Ancient Egypt is famous for its monumental tombs, temples, and colossal statues.",
+					"Description":"City Phase structures are built more quickly."
+				},
+				{
+					"Name":"Lord of the Two Lands (nb tAwy)",
+					"History":"The designation “The Two Lands” refers to Upper and Lower Egypt (southern and northern, respectively, since the Nile flows south to north), which were once two independent political entities. Even after Egypt's unification, the Two Lands were represented in art and sculpture by the papyrus plant and the bee for the north, and the sedge for the south. In addition, the double crown of the Pharaoh also depicted the duality (red for Lower Egypt, white for Upper Egypt).",
+					"Description":"10% increase in territory radius."
+				}
+			],
+			"Heroes":
+			[
+				{
+					"Name":"Thutmose I",
+					"History":"Thutmose I was a popular Pharaoh, a commoner by birth who had been a general of Ahmose, and he married into the royal family. Three of his offspring were Neferukheb, Hatshepsut, and Thutmose II. He engaged in a great deal of rebuilding, and commenced work on the Temple at Karnak. Early in his reign, Thutmose defeated the Nubians and established a vice-royalty in their land entitled the 'King's Son of Kush.' He also led campaigns east of Egypt to subdue some of the old foes that he and the Israelite monarchy had in common. One of these campaigns is recounted in I Kings 9:16: 'For Pharaoh king of Egypt had gone up, and taken Gezer, and burnt it with fire, and slain the Canaanites that dwelt in the city, and given it for a present unto his daughter, Solomon's wife.' This 'daughter of Pharaoh' who married Solomon (who had 'made affinity' with Pharaoh) was in all likelihood Neferukheb (or Nefrubity), who receded from Egyptian records thereafter."
+				},
+				{
+					"Name":"Hatshepsut",
+					"History":"Hatshepsut is probably the most well-known of the female Egyptian Pharaohs; by rebuilding trade networks with Phoenicia and Israel that had been severed during the Hyksos occupation of Lower (northern) Egypt, she helped usher in the prosperity of the New Kingdom. Hatshepsut was probably the Queen of Sheba mentioned in the Scriptures as visiting King Solomon of Israel. She also appears to have led several successful military campaigns in Nubia. II Chronicles 9:1: 'And when the queen of Sheba heard of the fame of Solomon, she came to prove Solomon with hard questions at Jerusalem, with a very great company, and camels that bare spices, and gold in abundance, and precious stones: and when she was come to Solomon, she communed with him of all that was in her heart.'"
+				},
+				{
+					"Name":"Thutmose III",
+					"History":"Upon his step-mother Hatshepsut's death, Thutmose became Pharaoh and soon set to work regulating internal affairs as well as preparing to launch ambitious campaigns of conquest. Thutmose, later dubbed the 'Napoleon of Egypt', eventually ruled an area of territory spanning from the Fifth Cataract of the Nile to the Euphrates River. Thutmose's campaigns included two forays into the Levant, the first of which involved the famous Battle of Megiddo in Judah, and the second of which involved the seizure of the Jerusalem Temple's treasures. Thutmose recorded the plunder on the walls of Karnak. II Chronicles 12:2-4 & 9 states, 'And it came to pass, that in the fifth year of king Rehoboam Shishak king of Egypt came up against Jerusalem, because they had transgressed against the Lord, with twelve hundred chariots, and threescore thousand horsemen: and the people were without number that came with him out of Egypt; the Lubims, the Sukkiims, and the Ethiopians. And he took the fenced cities which pertained to Judah, and came to Jerusalem.... So Shishak king of Egypt came up against Jerusalem, and took away the treasures of the house of the Lord, and the treasures of the king's house; he took all: he carried away also the shields of gold which Solomon had made.'"
+				},
+				{
+					"Name":"Seti the Great",
+					"History":"After a period of international regression for Egypt, Seti reversed affairs by extending the Egyptian empire through the regions of Canaan (or Retennu) and Syria once more, inflicting defeats on the Hittites in the process. Seti recorded his campaigns in the Temple of Karnak. He also constructed several monuments at Abydos and Thebes."
+				},
+				{
+					"Name":"Ramesses II the Great",
+					"History":"'They did cry there, Pharaoh king of Egypt is but a noise; he hath passed the time appointed.' (Jeremiah 46:17). Widely regarded as one of the greatest Pharaohs, though perhaps in large measure because his self-promoting efforts succeeded so well, Ramesses II nonetheless brought Egypt to great heights of military prowess, although he very nearly met disaster in the famous Battle of Kadesh against the Hittites, with whom he afterwards concluded an historic peace treaty. Jeremiah 46:3-6 states, 'Order ye the buckler and shield, and draw near to battle. Harness the horses; and get up, ye horsemen, and stand forth with your helmets; furbish the spears, and put on the brigandines. Wherefore have I seen them dismayed and turned away back? and their mighty ones are beaten down, and are fled apace, and look not back: for fear was round about, saith the Lord. Let not the swift flee away, nor the mighty man escape; they shall stumble, and fall toward the north by the river Euphrates.'"
+				},
+				{
+					"Name":"Ramesses III",
+					"History":"Ramesses III is widely considered to be the last great New Kingdom Pharaoh. He was beset by invasions of Sea Peoples and Libyans during his reign, and he defeated a major invasion of Sea Peoples at the Battle of the Delta by using a combination of Egyptian naval tactics and massed shore-stationed archers."
+				}
+			]
+		}
+	],
+	"CivBonuses":
+	[
+		{
+			"Name":"Herders of Cattle (mniw)",
+			"History": "Cattle played a major role in the domestic agriculture scene of Egypt from the Old Kingdom onward. The cattle count, which was a yearly event in the New Kingdom, was a major undertaking by the nomarchs on behalf of the Pharaoh, partly as a way of assessing taxes to be paid.",
+			"Description":"Start with a large herd of cattle near your civ centre. (Not implemented)"
+		},
+		{
+			"Name":"Gift of the Nile (Hapy)",
+			"History":"The Greeks called Egypt the “gift of the river”, and the annual inundation provided an abundant deposit of nutrient-rich black silt for farming on both sides of the bank. Hapy, god of the Nile, and Osiris, god of greenery and rebirth, were worshipped fervently by Egyptians hoping for a successful agricultural season.",
+			"Description":"An Egyptian player can access four special techs related to food production."
+		},
+		{
+			"Name":"Breeders of Horses (sxpr)",
+			"History":"Horses were highly revered in ancient Egypt, although they were not deified, since they arrived on the scene after the Egyptian pantheon of gods had already been established. By the time of the Thutmosids, the horse market had attained a high degree of popularity, with the Israelites and Hittites being major beneficiaries.",
+			"Description":"Horses can be captured and garrisoned at the corral. As long as an animal remains at the corral, the resource cost of training equine units is reduced by a fixed amount of -5% per respective animal corralled. The corral bonus maxes out at 5 of each animal, regardless of how many additional animals are corralled. (Not implemented)"
+		}
+	],
+	"TeamBonuses":
+	[
+		{
+			"Name":"Grain of Egypt (swt)",
+			"History":"Cereals (wheat and barley) were Egypt's main export (linen was the second).",
+			"Description":"Allies receive a slow, steady trickle of food over time. (Not implemented)"
+		}
+	],
+	"Structures":
+	[
+		{
+			"Name":"Ramesside Palace",
+			"History":"The conventional 19th dynasty Pharaohs ruled from the Lower Egypt Delta.",
+			"Special":"Trains Ramesside Heroes and Champions."
+		},
+		{
+			"Name":"Theban Palace",
+			"History":"The conventional 18th dynasty Pharaohs ruled from Upper Egypt in Thebes.",
+			"Special":"Trains Theban Heroes and Champions."
+		},
+		{
+			"Name":"Obelisk",
+			"History":"Obelisks were often set up in pairs at the entrances of temples.",
+			"Special":""
+		},
+		{
+			"Name":"Threshing Floor",
+			"History":"Separating the grain was accomplished via a team of oxen in a flat, circular outdoor area.",
+			"Special":"Enables additional farming upgrade techs."
+		}
+	],
+	"StartEntities":
+	[
+		{
+			"Template": "structures/egyptian_civil_centre",
+			"Count": 1
+		},
+		{
+			"Template": "units/egyptian_support_female_citizen",
+			"Count": 4
+		},
+		{
+			"Template": "units/egyptian_infantry_spearman_b",
+			"Count": 2
+		},
+		{
+			"Template": "units/egyptian_infantry_axeman_b",
+			"Count": 2
+		},
+		{
+			"Template": "units/egyptian_cavalry_javelinist_b",
+			"Count": 1
+		}
+	],
+	"Formations":
+	[
+		"formations/scatter",
+		"formations/box",
+		"formations/column_closed",
+		"formations/line_closed",
+		"formations/column_open",
+		"formations/line_open",
+		"formations/flank",
+		"formations/skirmish",
+		"formations/wedge",
+		"formations/battle_line",
+		"formations/phalanx"
+	],
+	"SkirmishReplacements":
+	{
+		"skirmish/units/default_infantry_ranged_b": "units/egyptian_infantry_archer_b",
+		"skirmish/units/default_cavalry": "units/egyptian_cavalry_archer_b",
+		"skirmish/structures/default_house_5": "structures/{civ}_house"
+	},
+	"SelectableInGameSetup": true
+}
