@@ -2,15 +2,15 @@
 <Entity parent="template_unit_support">
   <Cost>
     <Resources>
-      <metal>100</metal>
+      <metal>0</metal>
     </Resources>
   </Cost>
   <Attack>
     <Convert>
-     <MaxRange>100</MaxRange>
-     <MinRange>0</MinRange>
-      <PrepareTime>1000</PrepareTime>
-      <RepeatTime>20000</RepeatTime>
+       <MaxRange>100</MaxRange>
+       <MinRange>0</MinRange>
+       <PrepareTime>1000</PrepareTime>
+       <RepeatTime>20000</RepeatTime>
     </Convert>
   </Attack>
   <Health>
@@ -40,7 +40,7 @@
     </SoundGroups>
   </Sound>
   <UnitMotion>
-    <WalkSpeed>6.5</WalkSpeed>
+    <WalkSpeed>10</WalkSpeed>
     <Run>
       <Speed>12.0</Speed>
       <Range>200.0</Range>
