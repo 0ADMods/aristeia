@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_civic_civil_centre">
+  <Footprint>
+    <Square width="31.0" depth="51.0"/>
+    <Height>12.0</Height>
+  </Footprint>
+  <Health>
+    <SpawnEntityOnDeath>rubble/rubble_pers_cc</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Civ>mino</Civ>
+    <GenericName>Civil Centre</GenericName>
+    <SpecificName>?</SpecificName>
+    <History>.</History>
+  </Identity>
+  <Obstruction>
+   <Static width="30.0" depth="50.0"/>
+  </Obstruction>
+  <ProductionQueue>
+    <Entities datatype="tokens">
+      -units/{civ}_support_female_citizen
+      units/mino_infantry_archer_b
+      units/mino_infantry_spearman_b
+      units/mino_infantry_swordsman_b
+    </Entities>
+  </ProductionQueue>
+  <VisualActor>
+      <Actor>structures/minoans/civic_center.xml</Actor>
+      <FoundationActor>structures/fndn_4x6.xml</FoundationActor>
+  </VisualActor>
+</Entity>

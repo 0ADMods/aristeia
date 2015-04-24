@@ -39,7 +39,7 @@
   <ProductionQueue>
     <BatchTimeModifier>0.8</BatchTimeModifier>
     <Entities datatype="tokens">
-      units/egyptian_champion_swordsman_rames
+      units/egyptian_champion_swordsman_ramesside
       units/egyptian_hero_seti
       units/egyptian_hero_ramesses_ii
       units/egyptian_hero_ramesses_iii
@@ -55,7 +55,7 @@
     <Radius>48</Radius>
   </TerritoryInfluence>
   <VisualActor>
-    <Actor>structures/persians/palace.xml</Actor>
+    <Actor>structures/egyptian/palace.xml</Actor>
     <FoundationActor>structures/fndn_6x6.xml</FoundationActor>
   </VisualActor>
 </Entity>

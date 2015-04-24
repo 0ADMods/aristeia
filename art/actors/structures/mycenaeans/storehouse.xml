@@ -13,6 +13,7 @@
 			</props>
 			<textures>
 				<texture file="structural/mycenae_struct.png" name="baseTex"/>
+				<texture file="structural/ao/myce_storehouse_ao.png" name="aoTex"/>
 			</textures>
 		</variant>
 	</group>
@@ -29,5 +30,5 @@
 			</props>
 		</variant>
 	</group>
-	<material>player_trans.xml</material>
+	<material>player_trans_ao.xml</material>
 </actor>

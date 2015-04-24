@@ -50,7 +50,7 @@
     </SoundGroups>
   </Sound>
   <VisualActor>
-    <Actor>structures/persians/stables.xml</Actor>
+    <Actor>structures/egyptian/stables.xml</Actor>
     <FoundationActor>structures/fndn_4x4.xml</FoundationActor>
   </VisualActor>
 </Entity>

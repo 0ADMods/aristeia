@@ -6,7 +6,7 @@
 	<GenericName>Egyptian Horseman</GenericName>
     <SpecificName>Khapityu</SpecificName>
     <History>Horsemen were used in early New Kingdom warfare primarily as scouts and messengers. By the time of Thutmose III, cavalry began to develop as an integral part of Egyptian warfare, although it was not until the time of the Neo-Assyrian Empire that cavalry began to truly come into its own as a fully functioning military arm.</History>
-	<Icon>units/ptol_cavalry_archer.png</Icon>
+	<Icon>units/egyptian_cavalry_archer.png</Icon>
     <Tooltip>Best used as a scout. Should directly engage the enemy only under the most dire circumstances.</Tooltip>
     <RequiredTechnology>phase_village</RequiredTechnology>
   </Identity>
@@ -20,6 +20,6 @@
     </Run>
   </UnitMotion>
   <VisualActor>
-    <Actor>units/ptolemies/cavalry_archer_b.xml</Actor>
+    <Actor>units/egyptian/cavalry_archer_b.xml</Actor>
   </VisualActor>
 </Entity>

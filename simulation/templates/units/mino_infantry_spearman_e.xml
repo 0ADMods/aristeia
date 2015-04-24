@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="units/mino_infantry_spearman_a">
+  <Promotion disable=''/>
+  <Identity>
+    <Rank>Elite</Rank>
+  </Identity>
+  <VisualActor>
+    <Actor>units/egyptian/infantry_spearman_e.xml</Actor>
+  </VisualActor>
+</Entity>

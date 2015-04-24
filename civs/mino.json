@@ -1,0 +1,82 @@
+{
+	"Code":"mino",
+	"Culture":"mino",
+	"Name":"Minoans",
+	"Emblem":"session/portraits/emblems/emblem_minoans.png",
+	"History":"...",
+	"Music":[
+			{"File":"Ib_ Al-Noor.ogg", "Type":"peace"}
+		],
+	"Factions":
+	[
+		{
+			"Name":"...",
+			"Description":"...",
+			"Technologies":
+			[
+				
+			],
+			"Heroes":
+			[
+				
+			]
+		}
+	],
+	"CivBonuses":
+	[
+		
+	],
+	"TeamBonuses":
+	[
+		
+	],
+	"Structures":
+	[
+		
+	],
+	"StartEntities":
+	[
+		{
+			"Template": "structures/mino_civil_centre",
+			"Count": 1
+		},
+		{
+			"Template": "units/egyptian_support_female_citizen",
+			"Count": 4
+		},
+		{
+			"Template": "units/mino_infantry_spearman_b",
+			"Count": 2
+		},
+		{
+			"Template": "units/mino_infantry_swordsman_b",
+			"Count": 2
+		},
+		{
+			"Template": "units/egyptian_cavalry_javelinist_b",
+			"Count": 1
+		}
+	],
+	"Formations":
+	[
+		"formations/null",
+		"formations/box",
+		"formations/column_closed",
+		"formations/line_closed",
+		"formations/column_open",
+		"formations/line_open",
+		"formations/flank",
+		"formations/skirmish",
+		"formations/wedge",
+		"formations/battle_line",
+		"formations/phalanx"
+	],
+	"SkirmishReplacements":
+	{
+		"skirmish/units/default_infantry_ranged_b": "units/mino_infantry_archer_b",
+		"skirmish/units/default_cavalry": "units/egyptian_cavalry_archer_b",
+		"skirmish/units/default_support_female_citizen": "units/egyptian_support_female_citizen",
+		"skirmish/structures/default_house_5": "structures/{civ}_house"
+	},
+	"SelectableInGameSetup": false
+}
