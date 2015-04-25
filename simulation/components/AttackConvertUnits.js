@@ -38,23 +38,15 @@ Attack.prototype.restrictedClassesSchema =
 		"</element>" +
 	"</optional>";
 
-
-
 // Extend the Attack component schema:
 Attack.prototype.Schema += 
 	// TODO: finish the convert attack
   	"<optional>" +
 		"<element name='Convert'>" +
 			"<interleave>" +
-				"<element name='MaxRange' a:help='Maximum attack range (in metres)'><ref name='nonNegativeDecimal'/></element>" +
-				"<element name='MinRange' a:help='Minimum attack range (in metres)'><ref name='nonNegativeDecimal'/></element>" +
-				"<optional>"+
-					"<element name='ElevationBonus' a:help='give an elevation advantage (in meters)'><ref name='nonNegativeDecimal'/></element>" +
-				"</optional>" +
-				"<element name='PrepareTime' a:help='Time from the start of the attack command until the attack actually occurs (in milliseconds). This value relative to RepeatTime should closely match the \"event\" point in the actor&apos;s attack animation'>" +
-					"<data type='nonNegativeInteger'/>" +
-				"</element>" +
-				"<element name='RepeatTime' a:help='Time between attacks (in milliseconds). The attack animation will be stretched to match this time'>" +
+				"<element name='Value' a:help='Convert points value'><ref name='nonNegativeDecimal'/></element>" +
+				"<element name='MaxRange' a:help='Maximum attack range (in meters)'><ref name='nonNegativeDecimal'/></element>" +
+				"<element name='RepeatTime' a:help='Time between attacks (in milliseconds). The attack animation will be stretched to match this time'>" + // TODO: it shouldn't be stretched
 					"<data type='positiveInteger'/>" +
 				"</element>" +
 				Attack.prototype.bonusesSchema +
@@ -66,15 +58,45 @@ Attack.prototype.Schema +=
 
 Attack.prototype.GetAttackTypes = function()
 {
-    //warn('GetAttackTypes: this: ' + this + ' template: ' + this.template + '   is_convert_in_template: ' + this.template.Convert);
 	var ret = [];
-	if (this.template.Convert) ret.push("Convert");
 	if (this.template.Charge) ret.push("Charge");
 	if (this.template.Melee) ret.push("Melee");
 	if (this.template.Ranged) ret.push("Ranged");
+	if (this.template.Capture) ret.push("Capture");
+	if (this.template.Convert) ret.push("Convert");
 	return ret;
 };
 
+Attack.prototype.GetAttackStrengths = function(type)
+{
+	// Work out the attack values with technology effects
+	var self = this;
+
+	var template = this.template[type];
+	var splash = "";
+	if (!template)
+	{
+		template = this.template[type.split(".")[0]].Splash;
+		splash = "/Splash";
+	}
+	
+	var applyMods = function(damageType)
+	{
+		return ApplyValueModificationsToEntity("Attack/" + type + splash + "/" + damageType, +(template[damageType] || 0), self.entity);
+	};
+
+	if (type == "Capture")
+		return {value: applyMods("Value")};
+
+	if (type == "Convert")
+		return {value: applyMods("Value")};
+
+	return {
+		hack: applyMods("Hack"),
+		pierce: applyMods("Pierce"),
+		crush: applyMods("Crush")
+	};
+};
 
 /**
  * Attack the target entity. This should only be called after a successful range check,
@@ -83,7 +105,6 @@ Attack.prototype.GetAttackTypes = function()
  */
 Attack.prototype.PerformAttack = function(type, target)
 {
-    //warn('type: ' + type + '  target: ' + target);
 	// If this is a ranged attack, then launch a projectile
 	if (type == "Ranged")
 	{
@@ -153,37 +174,49 @@ Attack.prototype.PerformAttack = function(type, target)
 		var cmpProjectileManager = Engine.QueryInterface(SYSTEM_ENTITY, IID_ProjectileManager);
 		var id = cmpProjectileManager.LaunchProjectileAtPoint(this.entity, realTargetPosition, horizSpeed, gravity);
 
-		var playerId = Engine.QueryInterface(this.entity, IID_Ownership).GetOwner()
+		var playerId = Engine.QueryInterface(this.entity, IID_Ownership).GetOwner();
 		var cmpTimer = Engine.QueryInterface(SYSTEM_ENTITY, IID_Timer);
  		cmpTimer.SetTimeout(this.entity, IID_Attack, "MissileHit", timeToTarget*1000, {"type": type, "target": target, "position": realTargetPosition, "direction": missileDirection, "projectileId": id, "playerId":playerId});
 	}
+	else if (type == "Capture")
+	{
+		var multiplier = this.GetAttackBonus(type, target);
+		var cmpHealth = Engine.QueryInterface(target, IID_Health);
+		if (!cmpHealth || cmpHealth.GetHitpoints() == 0)
+			return;
+		multiplier *= cmpHealth.GetMaxHitpoints() / cmpHealth.GetHitpoints();
+
+		var cmpOwnership = Engine.QueryInterface(this.entity, IID_Ownership);
+		if (!cmpOwnership || cmpOwnership.GetOwner() == -1)
+			return;
+		var owner = cmpOwnership.GetOwner();
+		var cmpCapturable = Engine.QueryInterface(target, IID_Capturable);
+		if (!cmpCapturable || !cmpCapturable.CanCapture(owner))
+			return;
+		
+		var strength = this.GetAttackStrengths("Capture").value * multiplier;
+		if(cmpCapturable.Reduce(strength, owner))
+			Engine.PostMessage(target, MT_Attacked, {"attacker":this.entity, "target":target, "type":type, "damage":strength});
+	}
 	else if (type == "Convert")
 	{
-        
-		var cmpOwnership = Engine.QueryInterface(target, IID_Ownership);
-		if (!cmpOwnership)
+		var multiplier = this.GetAttackBonus(type, target);
+		var cmpHealth = Engine.QueryInterface(target, IID_Health);
+		if (!cmpHealth || cmpHealth.GetHitpoints() == 0)
 			return;
-        warn('Owner Target: ' + uneval(cmpOwnership));
+		multiplier *= cmpHealth.GetMaxHitpoints() / cmpHealth.GetHitpoints();
 
-		var cmpOwnership2 = Engine.QueryInterface(this.entity, IID_Ownership);
-		if (!cmpOwnership2)
+		var cmpOwnership = Engine.QueryInterface(this.entity, IID_Ownership);
+		if (!cmpOwnership || cmpOwnership.GetOwner() == -1)
 			return;
-        warn('Owner Source: ' + uneval(cmpOwnership2));
-
-		var cmpUnitAI = Engine.QueryInterface(this.entity, IID_UnitAI);
-		if (cmpUnitAI.CanConvert(target))
-		{
-			cmpOwnership.SetOwner(cmpOwnership2.GetOwner());
-			warn('Unit ' + this.entity + ' (Owner: '+ uneval(cmpOwnership) +') converted target: ' + target + ' (Owner: '+ uneval(cmpOwnership2) +' ).');
-
-			var cmpTargetEntityPlayer = QueryOwnerInterface(target, IID_Player);
-			var cmpPlayer = QueryOwnerInterface(this.entity, IID_Player);
-
-			Engine.PostMessage(this.entity, MT_OwnershipChanged, { "entity": target,
-				"from": cmpTargetEntityPlayer.playerID, "to": cmpPlayer.playerID });
-		} else {
-			warn("Can't convert: " + target);
-		}
+		var owner = cmpOwnership.GetOwner();
+		var cmpConvertable = Engine.QueryInterface(target, IID_Convertable);
+		if (!cmpConvertable || !cmpConvertable.CanConvert(owner))
+			return;
+		
+		var strength = this.GetAttackStrengths("Convert").value * multiplier;
+		if(cmpConvertable.Reduce(strength, owner))
+			Engine.PostMessage(target, MT_Attacked, {"attacker":this.entity, "target":target, "type":type, "damage":strength});
 	}
 	else
 	{
@@ -192,4 +225,5 @@ Attack.prototype.PerformAttack = function(type, target)
 	}
 	// TODO: charge attacks (need to design how they work)
 };
-Engine.ReRegisterComponentType(IID_Attack, "Attack",  Attack);
+
+Engine.ReRegisterComponentType(IID_Attack, "Attack", Attack);
