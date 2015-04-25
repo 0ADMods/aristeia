@@ -7,10 +7,9 @@
   </Cost>
   <Attack>
     <Convert>
-       <MaxRange>100</MaxRange>
-       <MinRange>0</MinRange>
-       <PrepareTime>1000</PrepareTime>
-       <RepeatTime>20000</RepeatTime>
+    	<Value>500.0</Value>
+      <MaxRange>100.0</MaxRange>
+      <RepeatTime>10000</RepeatTime>
     </Convert>
   </Attack>
   <Health>
@@ -32,6 +31,7 @@
   <Sound>
     <SoundGroups>
       <trained>interface/alarm/alarm_create_infantry.xml</trained>
+      <attack>actor/human/death/death.xml</attack>
       <select>voice/hellenes/civ/civ_male_select.xml</select>
       <order_walk>voice/hellenes/civ/civ_male_ack.xml</order_walk>
       <walk>actor/human/movement/walk.xml</walk>
