@@ -192,6 +192,7 @@ function displaySingle(entState, template)
 		else
 			Engine.GetGUIObjectByName("resourceSection").size = Engine.GetGUIObjectByName("healthSection").size;
 
+
 	}
 
 	// Resource carrying
@@ -339,6 +340,8 @@ function displayMultiple(selection, template)
 	var maxHealth = 0;
 	var maxCapturePoints = 0;
 	var capturePoints = (new Array(9)).fill(0);
+	var maxConvertPoints = 0;
+	var convertPoints = (new Array(9)).fill(0);
 	var playerID = 0;
 
 	for (let i = 0; i < selection.length; i++)
@@ -356,6 +359,11 @@ function displayMultiple(selection, template)
 		{
 			maxCapturePoints += entState.maxCapturePoints;
 			capturePoints = entState.capturePoints.map(function(v, i) { return v + capturePoints[i]; });
+		}
+		if (entState.convertPoints)
+		{
+			maxConvertPoints += entState.maxConvertPoints;
+			convertPoints = entState.convertPoints.map(function(v, i) { return v + convertPoints[i]; });
 		}
 	}
 
@@ -428,7 +436,7 @@ function displayMultiple(selection, template)
 		// last handle the owner's points, to keep those points on the bottom for clarity
 		setConvertBarPart(playerID, size);
 
-		var convertPointsLabel = "[font=\"sans-bold-13\"]" + translate("Capture points:") + "[/font]"
+		var convertPointsLabel = "[font=\"sans-bold-13\"]" + translate("Convert points:") + "[/font]"
 		var convertPointsTooltip = sprintf(translate("%(label)s %(current)s / %(max)s"), { label: convertPointsLabel, current: Math.ceil(convertPoints[playerID]), max: Math.ceil(maxConvertPoints) });
 		Engine.GetGUIObjectByName("convertMultiple").tooltip = convertPointsTooltip;
 	}
