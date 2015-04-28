@@ -8,9 +8,6 @@
     <History>?</History>
     <Icon>units/pers_support_healer.png</Icon>
   </Identity>
-  <Health>
-    <Max>95</Max>
-  </Health>
   <Promotion disable=""/>
   <VisualActor>
     <Actor>units/egyptian/priest.xml</Actor>
