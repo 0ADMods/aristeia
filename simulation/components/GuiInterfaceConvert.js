@@ -301,4 +301,4 @@ var exposedFunctions = {
 	"GetTradingGoods": 1,
 };
 
-Engine.ReRegisterSystemComponentType(IID_GuiInterface, "GuiInterface", GuiInterface);
+Engine.ReRegisterComponentType(IID_GuiInterface, "GuiInterface", GuiInterface);
