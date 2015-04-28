@@ -13,7 +13,7 @@ Convertable.prototype.Init = function()
 	// Cache this value 
 	this.maxCp = +this.template.ConvertPoints;
 	this.cp = [];
-	this.startRegenTimer();
+	this.StartRegenTimer();
 };
 
 //// Interface functions ////
@@ -78,7 +78,7 @@ Convertable.prototype.Reduce = function(amount, playerID)
 	var takenCp = this.maxCp - this.cp.reduce(function(a, b) { return a + b; });
 	this.cp[playerID] += takenCp;
 
-	this.startRegenTimer();
+	this.StartRegenTimer();
 
 	Engine.PostMessage(this.entity, MT_ConvertPointsChanged, { "ConvertPoints": this.cp })
 
@@ -145,7 +145,7 @@ Convertable.prototype.RegenConvertPoints = function()
  * rate is 0, or because it is fully regenerated),
  * the timer stops automatically after one execution.
  */
-Convertable.prototype.startRegenTimer = function()
+Convertable.prototype.StartRegenTimer = function()
 {
 	if (this.regenTimer)
 		return;
@@ -169,12 +169,12 @@ Convertable.prototype.OnValueModification = function(msg)
 	for (let i in this.cp)
 		this.cp[i] *= scale;
 	Engine.PostMessage(this.entity, MT_ConvertPointsChanged, { "ConvertPoints": this.cp });
-	this.startRegenTimer();
+	this.StartRegenTimer();
 };
 
 Convertable.prototype.OnOwnershipChanged = function(msg)
 {
-	this.startRegenTimer();
+	this.StartRegenTimer();
 
 	// if the new owner has no Convert points, it means that either
 	// * it's being initialised now, or
