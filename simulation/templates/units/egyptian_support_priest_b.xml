@@ -2,7 +2,7 @@
 <Entity parent="template_unit_support_converter">
   <Identity>
     <Civ>egyptian</Civ>
-    <SelectionGroupName>units/egyptian_priest</SelectionGroupName>
+    <SelectionGroupName>units/egyptian_support_priest_b</SelectionGroupName>
     <GenericName>Priest</GenericName>
     <SpecificName>Sangû</SpecificName>
     <History>?</History>

@@ -16,7 +16,6 @@
     <Max>85</Max>
   </Health>
   <Identity>
-    <SelectionGroupName>unit_support_converter</SelectionGroupName>
     <GenericName>Converting Priest</GenericName>
     <Classes datatype="tokens">
 		priest

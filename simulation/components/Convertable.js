@@ -4,7 +4,7 @@ Convertable.prototype.Schema =
 	"<element name='ConvertPoints' a:help='Maximum Convert points'>" +
 		"<ref name='positiveDecimal'/>" +
 	"</element>" +
-	"<element name='RegenRate' a:help='Number of Convert are regenerated per second in favour of the owner'>" +
+	"<element name='RegenRate' a:help='Number of ConvertPoints that are regenerated per second in favour of the owner'>" +
 		"<ref name='nonNegativeDecimal'/>" +
 	"</element>";
 
@@ -32,19 +32,19 @@ Convertable.prototype.GetMaxConvertPoints = function()
 };
 
 /**
- * Set the new Convert points, used for cloning entities
- * The caller should assure that the sum of Convert points
+ * Set the new convert points, used for cloning entities
+ * The caller should assure that the sum of convert points
  * matches the max.
  */
-Convertable.prototype.SetConvertPoints = function(ConvertPointsArray)
+Convertable.prototype.SetConvertPoints = function(convertPointsArray)
 {
-	this.cp = ConvertPointsArray;
+	this.cp = convertPointsArray;
 };
 
 /**
- * Reduces the amount of Convert points of an entity,
+ * Reduces the amount of convert points of an entity,
  * in favour of the player of the source
- * Returns the number of Convert points actually taken
+ * Returns the number of convert points actually taken
  */
 Convertable.prototype.Reduce = function(amount, playerID)
 {
@@ -97,7 +97,7 @@ Convertable.prototype.Reduce = function(amount, playerID)
 };
 
 /**
- * Check if the source can (re)Convert points from this unit
+ * Check if the source can (re)convert points from this unit
  */
 Convertable.prototype.CanConvert = function(playerID)
 {
@@ -129,11 +129,16 @@ Convertable.prototype.RegenConvertPoints = function()
 	if (!cmpOwnership || cmpOwnership.GetOwner() == -1)
 		return;
 
-	var takenCp = this.Reduce(this.GetRegenRate(), cmpOwnership.GetOwner())
+	var regenRate = this.GetRegenRate();
+	if (regenRate < 0)
+		var takenCp = this.Reduce(-regenRate, 0);
+	else
+		var takenCp = this.Reduce(regenRate, cmpOwnership.GetOwner())
+
 	if (takenCp > 0)
 		return;
 
-	// no Convert points taken, stop the timer
+	// no convert points taken, stop the timer
 	var cmpTimer = Engine.QueryInterface(SYSTEM_ENTITY, IID_Timer);
 	cmpTimer.CancelTimer(this.regenTimer);
 	this.regenTimer = 0;
@@ -149,8 +154,13 @@ Convertable.prototype.StartRegenTimer = function()
 {
 	if (this.regenTimer)
 		return;
+
+	var rate = this.GetRegenRate();
+	if (rate == 0)
+		return;
+
 	var cmpTimer = Engine.QueryInterface(SYSTEM_ENTITY, IID_Timer);
-	this.regenTimer = cmpTimer.SetInterval(this.entity, IID_Convertable, "RegenConvertPoints", 1000, 1000, null);
+	this.regenTimer = cmpTimer.SetInterval(this.entity, IID_Capturable, "RegenConvertPoints", 1000, 1000, null);
 };
 
 //// Message Listeners ////
@@ -168,7 +178,7 @@ Convertable.prototype.OnValueModification = function(msg)
 	var scale = this.maxCp / oldMaxCp;
 	for (let i in this.cp)
 		this.cp[i] *= scale;
-	Engine.PostMessage(this.entity, MT_ConvertPointsChanged, { "ConvertPoints": this.cp });
+	Engine.PostMessage(this.entity, MT_ConvertPointsChanged, { "convertPoints": this.cp });
 	this.StartRegenTimer();
 };
 
