@@ -110,6 +110,7 @@
       <walk>actor/human/movement/walk.xml</walk>
       <run>actor/human/movement/run.xml</run>
       <attack>attack/weapon/sword.xml</attack>
+      <converted>attack/impact/attack_converted.xml</converted>
       <death>actor/human/death/death.xml</death>
       <build>resource/construction/con_wood.xml</build>
       <gather_fruit>resource/foraging/forage_leaves.xml</gather_fruit>

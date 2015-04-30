@@ -8,8 +8,8 @@
   <Attack>
     <Convert>
     	<Value>25.0</Value>
-      <MaxRange>50.0</MaxRange>
-      <RepeatTime>500</RepeatTime>
+      	<MaxRange>50.0</MaxRange>
+      	<RepeatTime>500</RepeatTime>
     </Convert>
   </Attack>
   <Health>
@@ -30,7 +30,6 @@
   <Sound>
     <SoundGroups>
       <trained>interface/alarm/alarm_create_infantry.xml</trained>
-      <attack>interface/alarm/alarm_ally.xml</attack>
       <select>voice/hellenes/civ/civ_male_select.xml</select>
       <order_walk>voice/hellenes/civ/civ_male_ack.xml</order_walk>
       <walk>actor/human/movement/walk.xml</walk>

@@ -92,7 +92,7 @@ Convertable.prototype.Reduce = function(amount, playerID)
 			bestPlayer = +i;
 
 	cmpOwnership.SetOwner(bestPlayer);
-
+	PlaySound("converted", this.entity);
 	return takenCp;
 };
 
