@@ -1,0 +1,413 @@
+// Fills out information that most entities have
+function displaySingle(entState, template)
+{
+	// Get general unit and player data
+	var specificName = template.name.specific;
+	var genericName = template.name.generic != template.name.specific ? template.name.generic : "";
+	// If packed, add that to the generic name (reduces template clutter)
+	if (genericName && template.pack && template.pack.state == "packed")
+		genericName = sprintf(translate("%(genericName)s — Packed"), { genericName: genericName });
+	var playerState = g_Players[entState.player];
+
+	var civName = g_CivData[playerState.civ].Name;
+	var civEmblem = g_CivData[playerState.civ].Emblem;
+
+	var playerName = playerState.name;
+	var playerColor = playerState.color.r + " " + playerState.color.g + " " + playerState.color.b + " 128";
+
+	// Indicate disconnected players by prefixing their name
+	if (g_Players[entState.player].offline)
+		playerName = sprintf(translate("\\[OFFLINE] %(player)s"), { player: playerName });
+
+	// Rank
+	if (entState.identity && entState.identity.rank && entState.identity.classes)
+	{
+		Engine.GetGUIObjectByName("rankIcon").tooltip = sprintf(translate("%(rank)s Rank"), { rank: translateWithContext("Rank", entState.identity.rank) });
+		Engine.GetGUIObjectByName("rankIcon").sprite = getRankIconSprite(entState);
+		Engine.GetGUIObjectByName("rankIcon").hidden = false;
+	}
+	else
+	{
+		Engine.GetGUIObjectByName("rankIcon").hidden = true;
+		Engine.GetGUIObjectByName("rankIcon").tooltip = "";
+	}
+
+	// Hitpoints
+	Engine.GetGUIObjectByName("healthSection").hidden = !entState.hitpoints;
+	if (entState.hitpoints)
+	{
+		var unitHealthBar = Engine.GetGUIObjectByName("healthBar");
+		var healthSize = unitHealthBar.size;
+		healthSize.rright = 100*Math.max(0, Math.min(1, entState.hitpoints / entState.maxHitpoints));
+		unitHealthBar.size = healthSize;
+
+		if (entState.foundation && entState.visibility == "visible" && entState.foundation.numBuilders !== 0)
+		{
+			// logic comes from Foundation component.
+			var speed = Math.pow(entState.foundation.numBuilders, 0.7);
+			var timeLeft = (1.0 - entState.foundation.progress / 100.0) * template.cost.time;
+			Engine.GetGUIObjectByName("health").tooltip = sprintf(translate("This foundation will be completed in %(numb)s seconds."), { numb : Math.ceil(timeLeft/speed) });
+		}
+		else
+			Engine.GetGUIObjectByName("health").tooltip = "";
+
+		Engine.GetGUIObjectByName("healthStats").caption = sprintf(translate("%(hitpoints)s / %(maxHitpoints)s"), {
+			hitpoints: Math.ceil(entState.hitpoints),
+			maxHitpoints: entState.maxHitpoints
+		});
+	}
+
+	// CapturePoints
+	Engine.GetGUIObjectByName("captureSection").hidden = !entState.capturePoints;
+	if (entState.capturePoints)
+	{
+		let setCaptureBarPart = function(playerID, startSize)
+		{
+			var unitCaptureBar = Engine.GetGUIObjectByName("captureBar["+playerID+"]");
+			var sizeObj = unitCaptureBar.size;
+			sizeObj.rleft = startSize;
+
+			var size = 100*Math.max(0, Math.min(1, entState.capturePoints[playerID] / entState.maxCapturePoints));
+			sizeObj.rright = startSize + size;
+			unitCaptureBar.size = sizeObj;
+			unitCaptureBar.sprite = "color: " + rgbToGuiColor(g_Players[playerID].color, 128);
+			unitCaptureBar.hidden=false;
+			return startSize + size;
+		}
+
+		// first handle the owner's points, to keep those points on the left for clarity
+		let size = setCaptureBarPart(entState.player, 0);
+
+		for (let i in entState.capturePoints)
+			if (i != entState.player)
+				size = setCaptureBarPart(i, size);
+
+
+		Engine.GetGUIObjectByName("captureStats").caption = sprintf(translate("%(capturePoints)s / %(maxCapturePoints)s"), {
+			capturePoints: Math.ceil(entState.capturePoints[entState.player]),
+			maxCapturePoints: entState.maxCapturePoints
+		});
+	}
+
+	// ConversionPoints
+	Engine.GetGUIObjectByName("convertSection").hidden = !entState.convertPoints;
+	if (entState.convertPoints)
+	{
+		let setConvertBarPart = function(playerID, startSize)
+		{
+			var unitConvertBar = Engine.GetGUIObjectByName("convertBar["+playerID+"]");
+			var sizeObj = unitConvertBar.size;
+			sizeObj.rleft = startSize;
+
+			var size = 100*Math.max(0, Math.min(1, entState.convertPoints[playerID] / entState.maxConvertPoints));
+			sizeObj.rright = startSize + size;
+			unitConvertBar.size = sizeObj;
+			unitConvertBar.sprite = "color: " + rgbToGuiColor(g_Players[playerID].color, 128);
+			unitConvertBar.hidden=false;
+			return startSize + size;
+		}
+
+		// first handle the owner's points, to keep those points on the left for clarity
+		let size = setConvertBarPart(entState.player, 0);
+
+		for (let i in entState.convertPoints)
+			if (i != entState.player)
+				size = setConvertBarPart(i, size);
+
+
+		Engine.GetGUIObjectByName("convertStats").caption = sprintf(translate("%(convertPoints)s / %(maxConvertPoints)s"), {
+			convertPoints: Math.ceil(entState.convertPoints[entState.player]),
+			maxConvertPoints: entState.maxConvertPoints
+		});
+	}
+
+	// TODO: Stamina
+
+	// Experience
+	Engine.GetGUIObjectByName("experience").hidden = !entState.promotion;
+	if (entState.promotion)
+	{
+		var experienceBar = Engine.GetGUIObjectByName("experienceBar");
+		var experienceSize = experienceBar.size;
+		experienceSize.rtop = 100 - (100 * Math.max(0, Math.min(1, 1.0 * +entState.promotion.curr / +entState.promotion.req)));
+		experienceBar.size = experienceSize;
+ 
+		if (entState.promotion.curr < entState.promotion.req)
+			Engine.GetGUIObjectByName("experience").tooltip = sprintf(translate("%(experience)s %(current)s / %(required)s"), {
+				experience: "[font=\"sans-bold-13\"]" + translate("Experience:") + "[/font]",
+				current: Math.floor(entState.promotion.curr),
+				required: entState.promotion.req
+			});
+		else
+			Engine.GetGUIObjectByName("experience").tooltip = sprintf(translate("%(experience)s %(current)s"), {
+				experience: "[font=\"sans-bold-13\"]" + translate("Experience:") + "[/font]",
+				current: Math.floor(entState.promotion.curr)
+			});
+	}
+
+	// Resource stats
+	Engine.GetGUIObjectByName("resourceSection").hidden = !entState.resourceSupply;
+	if (entState.resourceSupply)
+	{
+		var resources = entState.resourceSupply.isInfinite ? translate("∞") :  // Infinity symbol
+						sprintf(translate("%(amount)s / %(max)s"), { amount: Math.ceil(+entState.resourceSupply.amount), max: entState.resourceSupply.max });
+		var resourceType = getResourceTypeDisplayName(entState.resourceSupply.type);
+
+		var unitResourceBar = Engine.GetGUIObjectByName("resourceBar");
+		var resourceSize = unitResourceBar.size;
+
+		resourceSize.rright = entState.resourceSupply.isInfinite ? 100 :
+						100 * Math.max(0, Math.min(1, +entState.resourceSupply.amount / +entState.resourceSupply.max));
+		unitResourceBar.size = resourceSize;
+		Engine.GetGUIObjectByName("resourceLabel").caption = sprintf(translate("%(resource)s:"), { resource: resourceType });
+		Engine.GetGUIObjectByName("resourceStats").caption = resources;
+
+		if (entState.hitpoints)
+			Engine.GetGUIObjectByName("resourceSection").size = Engine.GetGUIObjectByName("captureSection").size;
+		else
+			Engine.GetGUIObjectByName("resourceSection").size = Engine.GetGUIObjectByName("healthSection").size;
+
+
+	}
+
+	// Resource carrying
+	if (entState.resourceCarrying && entState.resourceCarrying.length)
+	{
+		// We should only be carrying one resource type at once, so just display the first
+		var carried = entState.resourceCarrying[0];
+
+		Engine.GetGUIObjectByName("resourceCarryingIcon").hidden = false;
+		Engine.GetGUIObjectByName("resourceCarryingText").hidden = false;
+		Engine.GetGUIObjectByName("resourceCarryingIcon").sprite = "stretched:session/icons/resources/"+carried.type+".png";
+		Engine.GetGUIObjectByName("resourceCarryingText").caption = sprintf(translate("%(amount)s / %(max)s"), { amount: carried.amount, max: carried.max });
+		Engine.GetGUIObjectByName("resourceCarryingIcon").tooltip = "";
+	}
+	// Use the same indicators for traders
+	else if (entState.trader && entState.trader.goods.amount)
+	{
+		Engine.GetGUIObjectByName("resourceCarryingIcon").hidden = false;
+		Engine.GetGUIObjectByName("resourceCarryingText").hidden = false;
+		Engine.GetGUIObjectByName("resourceCarryingIcon").sprite = "stretched:session/icons/resources/"+entState.trader.goods.type+".png";
+		var totalGain = entState.trader.goods.amount.traderGain;
+		if (entState.trader.goods.amount.market1Gain)
+			totalGain += entState.trader.goods.amount.market1Gain;
+		if (entState.trader.goods.amount.market2Gain)
+			totalGain += entState.trader.goods.amount.market2Gain;
+		Engine.GetGUIObjectByName("resourceCarryingText").caption = totalGain;
+		Engine.GetGUIObjectByName("resourceCarryingIcon").tooltip = sprintf(translate("Gain: %(amount)s"), { amount: getTradingTooltip(entState.trader.goods.amount) });
+	}
+	// And for number of workers
+	else if (entState.foundation && entState.visibility == "visible")
+	{
+		Engine.GetGUIObjectByName("resourceCarryingIcon").hidden = false;
+		Engine.GetGUIObjectByName("resourceCarryingText").hidden = false;
+		Engine.GetGUIObjectByName("resourceCarryingIcon").sprite = "stretched:session/icons/repair.png";
+		Engine.GetGUIObjectByName("resourceCarryingText").caption = entState.foundation.numBuilders + "    ";
+		if (entState.foundation.numBuilders !== 0)
+		{
+			var speedup = Math.pow((entState.foundation.numBuilders+1)/entState.foundation.numBuilders, 0.7);
+			var timeLeft = (1.0 - entState.foundation.progress / 100.0) * template.cost.time;
+			Engine.GetGUIObjectByName("resourceCarryingIcon").tooltip = sprintf(translate("Number of builders.\nTasking another to this foundation would speed construction up by %(numb)s seconds."), { numb : Math.ceil(timeLeft - timeLeft/speedup) });
+		}
+		else
+		{
+			Engine.GetGUIObjectByName("resourceCarryingIcon").tooltip = translate("Number of builders.");
+		}
+	}
+	else if (entState.resourceSupply && (!entState.resourceSupply.killBeforeGather || !entState.hitpoints) && entState.visibility == "visible")
+	{
+		Engine.GetGUIObjectByName("resourceCarryingIcon").hidden = false;
+		Engine.GetGUIObjectByName("resourceCarryingText").hidden = false;
+		Engine.GetGUIObjectByName("resourceCarryingIcon").sprite = "stretched:session/icons/repair.png";
+		Engine.GetGUIObjectByName("resourceCarryingText").caption = sprintf(translate("%(amount)s / %(max)s"), { amount: entState.resourceSupply.gatherers.length, max: entState.resourceSupply.maxGatherers }) + "    ";
+		Engine.GetGUIObjectByName("resourceCarryingIcon").tooltip = translate("Current/max gatherers");
+	}
+	else
+	{
+		Engine.GetGUIObjectByName("resourceCarryingIcon").hidden = true;
+		Engine.GetGUIObjectByName("resourceCarryingText").hidden = true;
+	}
+
+	// Set Player details
+	Engine.GetGUIObjectByName("specific").caption = specificName;
+	Engine.GetGUIObjectByName("player").caption = playerName;
+	Engine.GetGUIObjectByName("playerColorBackground").sprite = "color: " + playerColor;
+	
+	if (genericName !== specificName)
+		Engine.GetGUIObjectByName("generic").caption = sprintf(translate("(%(genericName)s)"), { genericName: genericName });
+	else
+		Engine.GetGUIObjectByName("generic").caption = "";
+
+	if ("gaia" != playerState.civ)
+	{
+		Engine.GetGUIObjectByName("playerCivIcon").sprite = "stretched:grayscale:" + civEmblem;
+		Engine.GetGUIObjectByName("player").tooltip = civName;
+	}
+	else
+	{
+		Engine.GetGUIObjectByName("playerCivIcon").sprite = "";
+		Engine.GetGUIObjectByName("player").tooltip = "";
+	}
+
+	// Icon image
+	if (template.icon)
+		Engine.GetGUIObjectByName("icon").sprite = "stretched:session/portraits/" + template.icon;
+	else
+		// TODO: we should require all entities to have icons, so this case never occurs
+		Engine.GetGUIObjectByName("icon").sprite = "bkFillBlack";
+
+	var armorString = getArmorTooltip(entState.armour);
+
+	// Attack and Armor
+	if ("attack" in entState && entState.attack)
+		Engine.GetGUIObjectByName("attackAndArmorStats").tooltip = getAttackTooltip(entState) + "\n" + armorString;
+	else
+		Engine.GetGUIObjectByName("attackAndArmorStats").tooltip = armorString;
+
+	// Icon Tooltip
+	var iconTooltip = "";
+
+	if (genericName)
+		iconTooltip = "[font=\"sans-bold-16\"]" + genericName + "[/font]";
+
+	if (template.visibleIdentityClasses && template.visibleIdentityClasses.length)
+	{
+		iconTooltip += "\n[font=\"sans-bold-13\"]" + translate("Classes:") + "[/font] ";
+		iconTooltip += "[font=\"sans-13\"]" + translate(template.visibleIdentityClasses[0]) ;
+		for (var i = 1; i < template.visibleIdentityClasses.length; i++)
+			iconTooltip += ", " + translate(template.visibleIdentityClasses[i]);
+		iconTooltip += "[/font]";
+	}
+
+	if (template.auras)
+		iconTooltip += getAurasTooltip(template);
+
+	if (template.tooltip)
+		iconTooltip += "\n[font=\"sans-13\"]" + template.tooltip + "[/font]";
+
+	if (template.tooltip)
+		iconTooltip += "\n[font=\"sans-13\"]" + template.tooltip + "[/font]";
+
+	Engine.GetGUIObjectByName("iconBorder").tooltip = iconTooltip;
+
+	// Unhide Details Area
+	Engine.GetGUIObjectByName("detailsAreaSingle").hidden = false;
+	Engine.GetGUIObjectByName("detailsAreaMultiple").hidden = true;
+}
+
+// Fills out information for multiple entities
+function displayMultiple(selection, template)
+{
+	var averageHealth = 0;
+	var maxHealth = 0;
+	var maxCapturePoints = 0;
+	var capturePoints = (new Array(9)).fill(0);
+	var maxConvertPoints = 0;
+	var convertPoints = (new Array(9)).fill(0);
+	var playerID = 0;
+
+	for (let i = 0; i < selection.length; i++)
+	{
+		let entState = GetEntityState(selection[i])
+		if (!entState)
+			continue;
+		playerID = entState.player; // trust that all selected entities have the same owner
+		if (entState.hitpoints)
+		{
+			averageHealth += entState.hitpoints;
+			maxHealth += entState.maxHitpoints;
+		}
+		if (entState.capturePoints)
+		{
+			maxCapturePoints += entState.maxCapturePoints;
+			capturePoints = entState.capturePoints.map(function(v, i) { return v + capturePoints[i]; });
+		}
+		if (entState.convertPoints)
+		{
+			maxConvertPoints += entState.maxConvertPoints;
+			convertPoints = entState.convertPoints.map(function(v, i) { return v + convertPoints[i]; });
+		}
+	}
+
+	Engine.GetGUIObjectByName("healthMultiple").hidden = averageHealth <= 0;
+	if (averageHealth > 0)
+	{
+		var unitHealthBar = Engine.GetGUIObjectByName("healthBarMultiple");
+		var healthSize = unitHealthBar.size;	
+		healthSize.rtop = 100-100*Math.max(0, Math.min(1, averageHealth / maxHealth));
+		unitHealthBar.size = healthSize;
+
+		var hitpointsLabel = "[font=\"sans-bold-13\"]" + translate("Hitpoints:") + "[/font]"
+		var hitpoints = sprintf(translate("%(label)s %(current)s / %(max)s"), { label: hitpointsLabel, current: averageHealth, max: maxHealth });
+		Engine.GetGUIObjectByName("healthMultiple").tooltip = hitpoints;
+	}
+
+	Engine.GetGUIObjectByName("captureMultiple").hidden = maxCapturePoints <= 0;
+	if (maxCapturePoints > 0)
+	{
+		let setCaptureBarPart = function(playerID, startSize)
+		{
+			var unitCaptureBar = Engine.GetGUIObjectByName("captureBarMultiple["+playerID+"]");
+			var sizeObj = unitCaptureBar.size;
+			sizeObj.rtop = startSize;
+
+			var size = 100*Math.max(0, Math.min(1, capturePoints[playerID] / maxCapturePoints));
+			sizeObj.rbottom = startSize + size;
+			unitCaptureBar.size = sizeObj;
+			unitCaptureBar.sprite = "color: " + rgbToGuiColor(g_Players[playerID].color, 128);
+			unitCaptureBar.hidden=false;
+			return startSize + size;
+		}
+
+		let size = 0;
+		for (let i in capturePoints)
+			if (i != playerID)
+				size = setCaptureBarPart(i, size);
+
+		// last handle the owner's points, to keep those points on the bottom for clarity
+		setCaptureBarPart(playerID, size);
+
+		var capturePointsLabel = "[font=\"sans-bold-13\"]" + translate("Capture points:") + "[/font]"
+		var capturePointsTooltip = sprintf(translate("%(label)s %(current)s / %(max)s"), { label: capturePointsLabel, current: Math.ceil(capturePoints[playerID]), max: Math.ceil(maxCapturePoints) });
+		Engine.GetGUIObjectByName("captureMultiple").tooltip = capturePointsTooltip;
+	}
+
+	Engine.GetGUIObjectByName("convertMultiple").hidden = maxConvertPoints <= 0;
+	if (maxConvertPoints > 0)
+	{
+		let setConvertBarPart = function(playerID, startSize)
+		{
+			var unitConvertBar = Engine.GetGUIObjectByName("convertBarMultiple["+playerID+"]");
+			var sizeObj = unitConvertBar.size;
+			sizeObj.rtop = startSize;
+
+			var size = 100*Math.max(0, Math.min(1, convertPoints[playerID] / maxConvertPoints));
+			sizeObj.rbottom = startSize + size;
+			unitConvertBar.size = sizeObj;
+			unitConvertBar.sprite = "color: " + rgbToGuiColor(g_Players[playerID].color, 128);
+			unitConvertBar.hidden=false;
+			return startSize + size;
+		}
+
+		let size = 0;
+		for (let i in convertPoints)
+			if (i != playerID)
+				size = setConvertBarPart(i, size);
+
+		// last handle the owner's points, to keep those points on the bottom for clarity
+		setConvertBarPart(playerID, size);
+
+		var convertPointsLabel = "[font=\"sans-bold-13\"]" + translate("Convert points:") + "[/font]"
+		var convertPointsTooltip = sprintf(translate("%(label)s %(current)s / %(max)s"), { label: convertPointsLabel, current: Math.ceil(convertPoints[playerID]), max: Math.ceil(maxConvertPoints) });
+		Engine.GetGUIObjectByName("convertMultiple").tooltip = convertPointsTooltip;
+	}
+	
+	// TODO: Stamina
+	// Engine.GetGUIObjectByName("staminaBarMultiple");
+
+	Engine.GetGUIObjectByName("numberOfUnits").caption = selection.length;
+
+	// Unhide Details Area
+	Engine.GetGUIObjectByName("detailsAreaMultiple").hidden = false;
+	Engine.GetGUIObjectByName("detailsAreaSingle").hidden = true;
+}
