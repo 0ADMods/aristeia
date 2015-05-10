@@ -140,12 +140,17 @@
 	<!-- Time elapsed counter -->
 	<!-- ================================  ================================ -->
 
-	<object size="100%-120 45 100%-10 65" type="text" name="timeElapsedCounter" style="SettingsText" hotkey="timeelapsedcounter.toggle" hidden="true">
+	<object size="100%-250 45 100%-140 65" type="text" name="timeElapsedCounter" style="SettingsText" hotkey="timeelapsedcounter.toggle" hidden="true">
 			<action on="Tick">
 				this.hidden = Engine.ConfigDB_GetValue("user", "gui.session.timeelapsedcounter") !== "true";
 			</action>
 			<action on="Press">
 				Engine.ConfigDB_CreateValue("user", "gui.session.timeelapsedcounter", ""+this.hidden);
+			</action>
+	</object>
+	<object size="100%-250 80 100%-140 100" type="text" name="ceasefireCounter" style="SettingsText" hotkey="ceasefirecounter.toggle" hidden="true">
+			<action on="Press">
+				Engine.ConfigDB_CreateValue("user", "gui.session.ceasefirecounter", ""+this.hidden);
 			</action>
 	</object>
 
@@ -190,7 +195,12 @@
 	<object name="chatDialogPanel" size="50%-180 50%-48 50%+180 50%+36" type="image" hidden="true" sprite="genericPanel">
 		<object name="chatInput" size="16 12 100%-16 36" type="input" style="ModernInput" max_length="80">
 			<action on="Press">submitChatInput();</action>
-			<action on="Tab">autoCompleteNick("chatInput", g_Players);</action>
+			<action on="Tab">
+				var players = [];
+				for (var player in g_PlayerAssignments)
+					players.push(g_PlayerAssignments[player]);
+				autoCompleteNick("chatInput", players);
+			</action>
 		</object>
 
 		<object size="16 100%-40 30%+16 100%-12" type="button" style="StoneButton">

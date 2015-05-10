@@ -1,26 +1,3 @@
-function layoutSelectionSingle()
-{
-	Engine.GetGUIObjectByName("detailsAreaSingle").hidden = false;
-	Engine.GetGUIObjectByName("detailsAreaMultiple").hidden = true;
-}
-
-function layoutSelectionMultiple()
-{
-	Engine.GetGUIObjectByName("detailsAreaMultiple").hidden = false;
-	Engine.GetGUIObjectByName("detailsAreaSingle").hidden = true;
-}
-
-function getResourceTypeDisplayName(resourceType)
-{
-	var resourceCode = resourceType["generic"];
-	var displayName = "";
-	if (resourceCode == "treasure")
-		displayName = getLocalizedResourceName(resourceType["specific"], "firstWord");
-	else
-		displayName = getLocalizedResourceName(resourceCode, "firstWord");
-	return displayName;
-}
-
 // Fills out information that most entities have
 function displaySingle(entState, template)
 {
@@ -40,9 +17,7 @@ function displaySingle(entState, template)
 
 	// Indicate disconnected players by prefixing their name
 	if (g_Players[entState.player].offline)
-	{
 		playerName = sprintf(translate("\\[OFFLINE] %(player)s"), { player: playerName });
-	}
 
 	// Rank
 	if (entState.identity && entState.identity.rank && entState.identity.classes)
@@ -258,15 +233,10 @@ function displaySingle(entState, template)
 	Engine.GetGUIObjectByName("player").caption = playerName;
 	Engine.GetGUIObjectByName("playerColorBackground").sprite = "color: " + playerColor;
 	
-	if (genericName)
-	{
+	if (genericName !== specificName)
 		Engine.GetGUIObjectByName("generic").caption = sprintf(translate("(%(genericName)s)"), { genericName: genericName });
-	}
 	else
-	{
 		Engine.GetGUIObjectByName("generic").caption = "";
-
-	}
 
 	if ("gaia" != playerState.civ)
 	{
@@ -281,14 +251,10 @@ function displaySingle(entState, template)
 
 	// Icon image
 	if (template.icon)
-	{
 		Engine.GetGUIObjectByName("icon").sprite = "stretched:session/portraits/" + template.icon;
-	}
 	else
-	{
 		// TODO: we should require all entities to have icons, so this case never occurs
 		Engine.GetGUIObjectByName("icon").sprite = "bkFillBlack";
-	}
 
 	var armorString = getArmorTooltip(entState.armour);
 
@@ -314,14 +280,10 @@ function displaySingle(entState, template)
 	}
 
 	if (template.auras)
-	{
-		for (var auraName in template.auras)
-		{
-			iconTooltip += "\n[font=\"sans-bold-13\"]" + translate(auraName) + "[/font]";
-			if (template.auras[auraName])
-				iconTooltip += ": " + translate(template.auras[auraName]);
-		}
-	}
+		iconTooltip += getAurasTooltip(template);
+
+	if (template.tooltip)
+		iconTooltip += "\n[font=\"sans-13\"]" + template.tooltip + "[/font]";
 
 	if (template.tooltip)
 		iconTooltip += "\n[font=\"sans-13\"]" + template.tooltip + "[/font]";
@@ -410,7 +372,6 @@ function displayMultiple(selection, template)
 		Engine.GetGUIObjectByName("captureMultiple").tooltip = capturePointsTooltip;
 	}
 
-
 	Engine.GetGUIObjectByName("convertMultiple").hidden = maxConvertPoints <= 0;
 	if (maxConvertPoints > 0)
 	{
@@ -449,57 +410,4 @@ function displayMultiple(selection, template)
 	// Unhide Details Area
 	Engine.GetGUIObjectByName("detailsAreaMultiple").hidden = false;
 	Engine.GetGUIObjectByName("detailsAreaSingle").hidden = true;
-}
-
-// Updates middle entity Selection Details Panel
-function updateSelectionDetails()
-{
-	var supplementalDetailsPanel = Engine.GetGUIObjectByName("supplementalSelectionDetails");
-	var detailsPanel = Engine.GetGUIObjectByName("selectionDetails");
-	var commandsPanel = Engine.GetGUIObjectByName("unitCommands");
-
-	g_Selection.update();
-	var selection = g_Selection.toList();
-
-	if (selection.length == 0)
-	{
-		Engine.GetGUIObjectByName("detailsAreaMultiple").hidden = true;
-		Engine.GetGUIObjectByName("detailsAreaSingle").hidden = true;
-		hideUnitCommands();
-
-		supplementalDetailsPanel.hidden = true;
-		detailsPanel.hidden = true;
-		commandsPanel.hidden = true;
-		return;
-	}
-
-	/* If the unit has no data (e.g. it was killed), don't try displaying any
-	 data for it. (TODO: it should probably be removed from the selection too;
-	 also need to handle multi-unit selections) */
-	var entState = GetExtendedEntityState(selection[0]);
-	if (!entState)
-		return;
-
-	var template = GetTemplateData(entState.template);
-
-	// Fill out general info and display it
-	if (selection.length == 1)
-		displaySingle(entState, template);
-	else
-		displayMultiple(selection, template);
-
-	// Show basic details.
-	detailsPanel.hidden = false;
-
-	if (g_IsObserver)
-	{
-		// Observers don't need these displayed.
-		supplementalDetailsPanel.hidden = true;
-		commandsPanel.hidden = true;
-	}
-	else
-	{
-		// Fill out commands panel for specific unit selected (or first unit of primary group)
-		updateUnitCommands(entState, supplementalDetailsPanel, commandsPanel, selection);
-	}
 }
