@@ -160,7 +160,7 @@ Convertable.prototype.StartRegenTimer = function()
 		return;
 
 	var cmpTimer = Engine.QueryInterface(SYSTEM_ENTITY, IID_Timer);
-	this.regenTimer = cmpTimer.SetInterval(this.entity, IID_Capturable, "RegenConvertPoints", 1000, 1000, null);
+	this.regenTimer = cmpTimer.SetInterval(this.entity, IID_Convertable, "RegenConvertPoints", 1000, 1000, null);
 };
 
 //// Message Listeners ////
