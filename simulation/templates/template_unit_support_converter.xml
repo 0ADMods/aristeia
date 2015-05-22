@@ -2,7 +2,8 @@
 <Entity parent="template_unit_support">
   <Cost>
     <Resources>
-      <metal>100</metal>
+    	<food>100</food>
+      <metal>200</metal>
     </Resources>
   </Cost>
   <Attack>
