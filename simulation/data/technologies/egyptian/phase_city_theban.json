@@ -5,7 +5,7 @@
 	"cost": {"food": 0, "wood": 0, "stone": 1000, "metal": 1000},
 	"requirements": { "class": "Town", "number": 4 },
 	"requirementsTooltip": "Requires 4 new Town Phase structures (except Walls and Civic Centers).",
-	"replaces": [ "city_phase" ],
+	"replaces": [ "phase_city" ],
 	"icon": "city_phase.png",
 	"researchTime": 80,
 	"tooltip": "Advance to City Phase, which unlocks Theban structures and units. Territory radius for Civic Centers increased by another +50%",
