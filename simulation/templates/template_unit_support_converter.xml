@@ -7,6 +7,7 @@
     </Resources>
   </Cost>
   <Attack>
+  	<RestrictedClasses datatype="tokens">Structure</RestrictedClasses>
     <Convert>
     	<Value>25.0</Value>
       	<MaxRange>50.0</MaxRange>
