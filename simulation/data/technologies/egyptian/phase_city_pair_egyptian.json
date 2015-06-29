@@ -2,5 +2,5 @@
 	"genericName": "Theban vs Ramesside",
 	"top": "egyptian/phase_city_theban",
 	"bottom": "egyptian/phase_city_ramesside",
-	"supersedes": "phase_town_generic"
+	"supersedes": "phase_town"
 }

@@ -23,7 +23,7 @@
       units/egyptian_cavalry_archer_b
     </Entities>
     <Technologies datatype="tokens">
-      -phase_city_generic
+      -phase_city
       egyptian/phase_city_pair_egyptian
     </Technologies>
   </ProductionQueue>
