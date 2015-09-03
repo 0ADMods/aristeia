@@ -31,9 +31,11 @@
   </Obstruction>
   <ProductionQueue>
     <Entities datatype="tokens">
-      units/egyptian_cavalry_archer_b
-      units/egyptian_cavalry_javelinist_b
-      units/egyptian_infantry_javelinist_b
+      -units/{civ}_infantry_spearman_b
+      -units/{civ}_infantry_pikeman_b
+      -units/{civ}_infantry_swordsman_b
+      -units/{civ}_infantry_slinger_b
+      -units/{civ}_infantry_archer_b
       units/egyptian_champion_chariot
     </Entities>
     <Technologies datatype="tokens">

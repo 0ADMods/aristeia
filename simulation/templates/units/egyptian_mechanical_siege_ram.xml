@@ -14,9 +14,6 @@
     <History>The principal New Kingdom Egyptian methods of storming a fortified place were to use scaling ladders or battering rams.</History>
     <Icon>units/mace_mechanical_siege_ram.png</Icon>
   </Identity>
-  <Obstruction>
-    <Unit radius="4.0"/>
-  </Obstruction>
   <VisualActor>
     <Actor>units/egyptian/siege_ram.xml</Actor>
   </VisualActor>
