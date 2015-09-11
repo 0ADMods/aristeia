@@ -5,11 +5,17 @@
       <wood>10</wood>
     </Resources>
   </Cost>
+  <Footprint>
+    <Square width="13.0" depth="13.0"/>
+  </Footprint>
   <Identity>
     <Civ>egyptian</Civ>
     <SpecificName>At</SpecificName>
     <History>Most Egyptians lived in mudbrick houses with flat, thatched roofs.</History>
   </Identity>
+  <Obstruction>
+    <Static width="12.0" depth="12.0"/>
+  </Obstruction>
   <ProductionQueue>
     <Technologies datatype="tokens">
       -health_females_01

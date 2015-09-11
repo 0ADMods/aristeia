@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_military_fortress">
+  <Footprint>
+    <Square width="28.0" depth="28.0"/>
+  </Footprint>
   <Identity>
     <Civ>egyptian</Civ>
     <SpecificName>mnnw</SpecificName>
     <History>Fortresses played a vital role in guarding the frontiers of Asia and Nubia.</History>
     <Tooltip>A powerful defensive structure that trains siege units and can be heavily garrisoned for immense firepower.</Tooltip>
   </Identity>
+  <Obstruction>
+    <Static width="27" depth="27"/>
+  </Obstruction>
   <ProductionQueue>
     <Entities datatype="tokens">
       units/egyptian_mechanical_siege_ram
