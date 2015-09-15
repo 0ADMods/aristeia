@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_civic_civil_centre">
   <Footprint>
-    <Square width="31.0" depth="51.0"/>
+    <Square width="28.5" depth="41.0"/>
     <Height>12.0</Height>
   </Footprint>
   <Health>
@@ -14,7 +14,7 @@
     <History>Ancient Egypt was subdivided into 42 administrative regions, each known as a “nome” (Egyptian “sepat”).</History>
   </Identity>
   <Obstruction>
-   <Static width="30.0" depth="50.0"/>
+   <Static width="27.5" depth="40.0"/>
   </Obstruction>
   <ProductionQueue>
     <Entities datatype="tokens">

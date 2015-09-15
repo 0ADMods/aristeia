@@ -14,7 +14,7 @@
     </Resources>
   </Cost>
   <Footprint>
-    <Square width="40.0" depth="24.0"/>
+    <Square width="32.0" depth="22.5"/>
     <Height>8.0</Height>
   </Footprint>
   <Health>
@@ -34,7 +34,7 @@
     <RequiredTechnology>egyptian/phase_city_ramesside</RequiredTechnology>
   </Identity>
   <Obstruction>
-    <Static width="38.5" depth="22.5"/>
+    <Static width="31.0" depth="21.5"/>
   </Obstruction>
   <ProductionQueue>
     <BatchTimeModifier>0.8</BatchTimeModifier>

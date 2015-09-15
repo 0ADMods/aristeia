@@ -7,7 +7,7 @@
     </Resources>
   </Cost>
   <Footprint>
-    <Square width="22.0" depth="20.0"/>
+    <Square width="28.5" depth="23.0"/>
     <Height>5.0</Height>
   </Footprint>
   <Health>
@@ -27,7 +27,7 @@
     <RequiredTechnology>phase_town</RequiredTechnology>
   </Identity>
   <Obstruction>
-    <Static width="18.0" depth="16.0"/>
+    <Static width="27.5" depth="22.0"/>
   </Obstruction>
   <ProductionQueue>
     <Entities datatype="tokens">
