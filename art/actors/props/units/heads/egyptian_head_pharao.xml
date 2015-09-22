@@ -3,7 +3,7 @@
   <castshadow/>
   <group>
     <variant frequency="100" name="Base">
-      <colour>241 202 112</colour>
+      <color>241 202 112</color>
       <mesh>props/heads/egyptian_head_pharao.dae</mesh>
       <textures><texture file="props/head/head_pharao.png" name="baseTex"/></textures>
 	  <props>

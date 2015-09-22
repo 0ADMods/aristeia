@@ -1,25 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_military_barracks">
 	<Footprint>
-		<Square width="25.0" depth="25.0"/>
+		<Square width="21.0" depth="20.0"/>
 		<Height>8.0</Height>
 	</Footprint>
-	<Obstruction>
-		<Static width="25.0" depth="25.0"/>
-	</Obstruction>
 	<Identity>
 		<Civ>egyptian</Civ>
 		<SpecificName>Per-Nefuruw</SpecificName>
 		<History>Barracks were used to house recruits for the Pharaoh's army.</History>
 		<Icon>structures/pers_barracks.png</Icon>
 	</Identity>
+	<Obstruction>
+		<Static width="20.0" depth="19.0"/>
+	</Obstruction>
 	<ProductionQueue>
 		<Entities datatype="tokens">
-      units/egyptian_infantry_spearman_b
       units/egyptian_infantry_axeman_b
-      units/egyptian_infantry_archer_b
-      units/egyptian_infantry_swordsman_b
       units/egyptian_support_standard_bearer
+      -units/{civ}_infantry_javelinist_b
+      -units/{civ}_cavalry_swordsman_b
+      -units/{civ}_cavalry_spearman_b
+      -units/{civ}_cavalry_javelinist_b
+      -units/{civ}_cavalry_archer_b
 		</Entities>
 		<Technologies datatype="tokens">
       -unlock_champion_units

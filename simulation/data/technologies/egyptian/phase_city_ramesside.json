@@ -5,8 +5,12 @@
 	"cost": {"food": 0, "wood": 0, "stone": 1000, "metal": 1000},
 	"requirements": { "class": "Town", "number": 4 },
 	"requirementsTooltip": "Requires 4 new Town Phase structures (except Walls and Civic Centers).",
+	"replaces": [ "phase_city" ],
 	"icon": "city_phase.png",
 	"researchTime": 80,
 	"tooltip": "Advance to City Phase, which unlocks Rameside structures and units. Territory radius for Civilization Centers increased by another +50%",
+	"modifications": [{"value": "TerritoryInfluence/Radius", "multiply": 1.50},
+		{"value": "Health/Max", "multiply": 1.2, "affects": "CitizenSoldier"}],
+	"affects": ["CivCentre", "Infantry", "Cavalry"],
 	"soundComplete": "interface/alarm/alarm_phase.xml"
 }

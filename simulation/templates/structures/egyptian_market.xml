@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_economic_market">
   <Footprint>
-    <Square width="26.0" depth="26.0"/>
+    <Square width="23.5" depth="28.0"/>
     <Height>8.0</Height>
   </Footprint>
   <Health>
@@ -13,7 +13,7 @@
     <History>Egyptian trade was accomplished primarily via donkeys, and perhaps secondarily via oxen. The camel is rarely attested to until Ptolemaic times.</History>
   </Identity>
   <Obstruction>
-    <Static width="24.0" depth="24.0"/>
+    <Static width="22.5" depth="27.0"/>
   </Obstruction>
   <VisualActor>
     <Actor>structures/egyptian/market.xml</Actor>

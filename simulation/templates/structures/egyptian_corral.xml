@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_resource_corral">
 	<Footprint>
-		<Square width="18.0" depth="25.0"/>
+		<Square width="17.5" depth="23.5"/>
 		<Height>5.0</Height>
 	</Footprint>
 	<Health>
@@ -13,7 +13,7 @@
 		<History>Archaeological studies indicate that the Egyptians were descended from semi-nomadic cattle-herders who roamed the Saharan savannas during prehistoric times. Their lifestyle was similar to that of many East African pastoral tribes living today. Only when the Sahara turned to desert at the end of the predynastic period did the Egyptians permanently move into the Nile Valley and increase their dependence on agriculture. Even then, cattle continued to play an important role in the Egyptian economy.</History>
 	</Identity>
 	<Obstruction>
-		<Static width="17.0" depth="24.0"/>
+		<Static width="16.5" depth="22.5"/>
 	</Obstruction>
 	<ProductionQueue>
 		<Entities datatype="tokens">

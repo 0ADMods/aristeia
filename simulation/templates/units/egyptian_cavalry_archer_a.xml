@@ -18,9 +18,6 @@
   <Identity>
     <Rank>Advanced</Rank>
   </Identity>
-  <Obstruction>
-    <Unit radius="1.6"/>
-  </Obstruction>
   <Promotion disable=""/>
   <ResourceGatherer>
     <BaseSpeed>0.75</BaseSpeed>

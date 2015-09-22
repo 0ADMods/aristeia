@@ -3,12 +3,12 @@
   <castshadow/>
   <group>
     <variant frequency="40" name="Base-long">
-      <colour>241 202 112</colour>
+      <color>241 202 112</color>
       <mesh>props/helmets/egyptian_beard_pharao_long.dae</mesh>
       <textures><texture file="props/head/head_pharao.png" name="baseTex"/></textures>
     </variant>
     <variant frequency="60" name="Base-square">
-      <colour>241 202 112</colour>
+      <color>241 202 112</color>
       <mesh>props/helmets/egyptian_beard_pharao_square.dae</mesh>
       <textures><texture file="props/head/head_pharao.png" name="baseTex"/></textures>
     </variant>
