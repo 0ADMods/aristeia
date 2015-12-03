@@ -2,7 +2,7 @@
 <Entity parent="template_structure_civic_house">
   <Cost>
     <Resources>
-      <wood>10</wood>
+      <wood>50</wood>
     </Resources>
   </Cost>
   <Footprint>

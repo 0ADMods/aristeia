@@ -13,12 +13,6 @@
   <Promotion>
     <Entity>units/egyptian_cavalry_archer_a</Entity>
   </Promotion>
-  <UnitMotion>
-    <WalkSpeed>13.5</WalkSpeed>
-    <Run>
-      <Speed>18.0</Speed>
-    </Run>
-  </UnitMotion>
   <VisualActor>
     <Actor>units/egyptian/cavalry_archer_b.xml</Actor>
   </VisualActor>
