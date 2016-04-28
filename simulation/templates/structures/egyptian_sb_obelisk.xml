@@ -1,24 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_special">
-  <Auras>
-    <Aura1>
-      <Type>range</Type>
-      <Radius>40</Radius>
-      <Affects>Soldier</Affects>
-      <Modifications>
-        <Attack.Melee.Crush> <Multiply>1.1</Multiply> </Attack.Melee.Crush>
-        <Attack.Melee.Hack> <Multiply>1.1</Multiply> </Attack.Melee.Hack>
-        <Attack.Melee.Pierce> <Multiply>1.1</Multiply> </Attack.Melee.Pierce>
-        <Attack.Ranged.Crush> <Multiply>1.1</Multiply> </Attack.Ranged.Crush>
-        <Attack.Ranged.Hack> <Multiply>1.1</Multiply> </Attack.Ranged.Hack>
-        <Attack.Ranged.Pierce> <Multiply>1.1</Multiply> </Attack.Ranged.Pierce>
-        <Attack.Charge.Crush> <Multiply>1.1</Multiply> </Attack.Charge.Crush>
-        <Attack.Charge.Hack> <Multiply>1.1</Multiply> </Attack.Charge.Hack>
-        <Attack.Charge.Pierce> <Multiply>1.1</Multiply> </Attack.Charge.Pierce>
-      </Modifications>
-      <AuraName>Jingoism</AuraName>
-      <AuraDescription>Increased attack for all nearby soldiers.</AuraDescription>
-    </Aura1>
+  <Auras datatype="tokens">
+    jingoism
   </Auras>
   <BuildRestrictions>
     <Category>Obelisk</Category>

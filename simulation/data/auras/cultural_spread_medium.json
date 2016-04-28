@@ -1,0 +1,10 @@
+{
+	"type": "global",
+	"affects": ["Structure"],
+	"modifications": [
+		{ "value": "TerritoryInfluence/Radius", "multiply": 1.1 }
+	],
+	"auraName": "Cultural Spread",
+	"auraDescription": "10% Territory Increase",
+	"stackable": true
+}

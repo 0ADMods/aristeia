@@ -1,39 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_hero_cavalry_archer">
-  <Auras>
-    <Aura1>
-      <Type>range</Type>
-      <Radius>40</Radius>
-      <Affects>CitizenSoldier</Affects>
-      <Modifications>
-        <Attack.Melee.Crush> <Multiply>1.1</Multiply> </Attack.Melee.Crush>
-        <Attack.Melee.Hack> <Multiply>1.1</Multiply> </Attack.Melee.Hack>
-        <Attack.Melee.Pierce> <Multiply>1.1</Multiply> </Attack.Melee.Pierce>
-        <Attack.Ranged.Crush> <Multiply>1.1</Multiply> </Attack.Ranged.Crush>
-        <Attack.Ranged.Hack> <Multiply>1.1</Multiply> </Attack.Ranged.Hack>
-        <Attack.Ranged.Pierce> <Multiply>1.1</Multiply> </Attack.Ranged.Pierce>
-        <Attack.Charge.Crush> <Multiply>1.1</Multiply> </Attack.Charge.Crush>
-        <Attack.Charge.Hack> <Multiply>1.1</Multiply> </Attack.Charge.Hack>
-        <Attack.Charge.Pierce> <Multiply>1.1</Multiply> </Attack.Charge.Pierce>
-        <Armour.Crush> <Multiply>1.1</Multiply> </Armour.Crush>
-        <Armour.Hack> <Multiply>1.1</Multiply> </Armour.Hack>
-        <Armour.Pierce> <Multiply>1.1</Multiply> </Armour.Pierce>
-      </Modifications>
-      <AuraName>Soldier's Pharaoh</AuraName>
-      <AuraDescription>Increased attack and armour for all citizen soldiers in his aura.</AuraDescription>
-    </Aura1>
-    <Aura2>
-      <Type>range</Type>
-      <Radius>30</Radius>
-      <Affects>CitizenSoldier</Affects>
-      <Modifications>
-        <Attack.Melee> <Multiply>1.1</Multiply> </Attack.Melee>
-        <Attack.Hack> <Multiply>1.1</Multiply> </Attack.Hack>
-        <Attack.Pierce> <Multiply>1.1</Multiply> </Attack.Pierce>
-      </Modifications>
-      <AuraName>Followers of His Majesty (Smsw Hm)</AuraName>
-      <AuraDescription>Egyptian soldiers held their Pharaoh in awe, and hoped to gain his favour and reward by performing courageous exploits that would bring them to his attention. Increased attack for all citizen soldiers in the Pharaoh's hero aura.</AuraDescription>
-    </Aura2>
+  <Auras datatype="tokens">
+    egyptian_hero_common
+    egyptian_hero_seti
   </Auras>
   <Builder>
     <Rate>1.0</Rate>

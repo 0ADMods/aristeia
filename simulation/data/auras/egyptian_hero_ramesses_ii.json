@@ -1,0 +1,19 @@
+{
+	"type": "range",
+	"radius": 40,
+	"affects": ["Chariot", "SherdanGuard"],
+	"modifications": [
+		{ "value": "Attack/Melee/Crush", "multiply": 1.1 },
+		{ "value": "Attack/Melee/Hack", "multiply": 1.1 },
+		{ "value": "Attack/Melee/Pierce", "multiply": 1.1 },
+		{ "value": "Attack/Ranged/Crush", "multiply": 1.1 },
+		{ "value": "Attack/Ranged/Hack", "multiply": 1.1 },
+		{ "value": "Attack/Ranged/Pierce", "multiply": 1.1 },
+		{ "value": "Attack/Charge/Crush", "multiply": 1.1 },
+		{ "value": "Attack/Charge/Hack", "multiply": 1.1 },
+		{ "value": "Attack/Charge/Pierce", "multiply": 1.1 }
+	],
+	"auraName": "Chariot Commander",
+	"auraDescription": "Nearby Chariots and Sherdan Guards attack more strongly",
+	"overlayIcon": "art/textures/ui/session/auras/attack_bonus.png"
+}
