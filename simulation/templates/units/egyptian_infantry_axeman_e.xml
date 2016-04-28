@@ -1,25 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="units/egyptian_infantry_axeman_a">
-  <Armour>
-    <Pierce>6.0</Pierce>
-  </Armour>
-  <Attack>
-    <Melee>
-      <Hack>16.0</Hack>
-    </Melee>
-    <Charge>
-      <Hack>34.0</Hack>
-    </Charge>
-  </Attack>
   <Identity>
     <GenericName>Two-handed Axeman</GenericName>
     <SpecificName>Waʿuw-Yeqeh wḤ y</SpecificName>
     <Rank>Elite</Rank>
   </Identity>
   <Promotion disable=''/>
-  <ResourceGatherer>
-    <BaseSpeed>0.5</BaseSpeed>
-  </ResourceGatherer>
   <VisualActor>
     <Actor>units/egyptian/infantry_axeman_e.xml</Actor>
   </VisualActor>

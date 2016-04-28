@@ -1,32 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="units/assyrian_infantry_javelinist_a">
-  <Armour>
-    <Hack>3</Hack>
-    <Pierce>4</Pierce>
-    <Crush>5</Crush>
-  </Armour>
-  <Attack>
-    <Ranged>
-      <Spread>1.0</Spread>
-      <MaxRange>48</MaxRange>
-    </Ranged>
-  </Attack>
-  <Health>
-    <Max>90</Max>
-  </Health>
   <Identity>
     <Rank>Elite</Rank>
   </Identity>
   <Promotion disable=""/>
-  <ResourceGatherer>
-    <BaseSpeed>0.5</BaseSpeed>
-  </ResourceGatherer>
-  <UnitMotion>
-    <WalkSpeed>8.0</WalkSpeed>
-    <Run>
-      <Speed>20.0</Speed>
-    </Run>
-  </UnitMotion>
   <VisualActor>
     <Actor>units/assyrian/infantry_javelinist_e.xml</Actor>
   </VisualActor>
