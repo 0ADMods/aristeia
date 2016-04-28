@@ -57,6 +57,9 @@
 			"Count": 1
 		}
 	],
+	"AINames":
+	[
+	],
 	"Formations":
 	[
 		"formations/null",
