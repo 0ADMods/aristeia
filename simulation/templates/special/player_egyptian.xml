@@ -2,14 +2,9 @@
 <Entity parent="special/player">
   <EntityLimits>
     <Limits>
-      <Monument>2</Monument>
+      <Monument>1</Monument>
       <Obelisk>5</Obelisk>
-      <Sphinx>3</Sphinx>
+      <Officer>5</Officer>
     </Limits>
-    <LimitChangers>
-      <Monument>
-        <RamessesII>2</RamessesII>
-      </Monument>
-    </LimitChangers>
   </EntityLimits>
 </Entity>

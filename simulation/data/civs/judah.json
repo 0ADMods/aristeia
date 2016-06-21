@@ -1,0 +1,52 @@
+{
+	"Code": "judah",
+	"Culture": ["hebrew"],
+	"Name": "Divided Kingdom Judahites",
+	"Emblem": "session/portraits/emblems/emblem_judahites.png",
+	"History": "",
+	"Music":
+	[
+		{"File":"Forging_a_City-State.ogg", "Type":"peace"}
+	],
+	"Factions": [],
+	"CivBonuses":
+	[
+		{
+			"Name": "",
+			"History": "",
+			"Description": "",
+			"Icon": ""
+		}
+	],
+	"TeamBonuses":
+	[
+		{
+			"Name": "",
+			"History": "",
+			"Description": "",
+			"Icon": ""
+		}
+	],
+	"Structures": [],
+	"StartEntities":
+	[
+	],
+	"AINames":
+	[
+	],
+	"Formations":
+	[
+		"formations/null",
+		"formations/box",
+		"formations/column_closed",
+		"formations/line_closed",
+		"formations/column_open",
+		"formations/line_open",
+		"formations/flank",
+		"formations/skirmish",
+		"formations/wedge",
+		"formations/battle_line",
+		"formations/phalanx"
+	],
+	"SelectableInGameSetup": false
+}
