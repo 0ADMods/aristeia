@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="special/player">
+  <EntityLimits>
+    <Limits>
+      <HighPriest>1</HighPriest>
+      <Officer>5</Officer>
+    </Limits>
+  </EntityLimits>
+</Entity>

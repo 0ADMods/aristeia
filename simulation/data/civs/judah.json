@@ -9,27 +9,29 @@
 		{"File":"Forging_a_City-State.ogg", "Type":"peace"}
 	],
 	"Factions": [],
-	"CivBonuses":
-	[
-		{
-			"Name": "",
-			"History": "",
-			"Description": "",
-			"Icon": ""
-		}
-	],
-	"TeamBonuses":
-	[
-		{
-			"Name": "",
-			"History": "",
-			"Description": "",
-			"Icon": ""
-		}
-	],
+	"CivBonuses": [],
+	"TeamBonuses": [],
 	"Structures": [],
 	"StartEntities":
 	[
+		{
+			"Template": "structures/judah_civil_centre"
+		},
+		{
+			"Template": "units/judah_support_female_citizen",
+			"Count": 4
+		},
+		{
+			"Template": "units/judah_infantry_swordsman_b",
+			"Count": 2
+		},
+		{
+			"Template": "units/judah_infantry_archer_b",
+			"Count": 2
+		},
+		{
+			"Template": "units/judah_infantry_spearman_2_b"
+		}
 	],
 	"AINames":
 	[
@@ -48,5 +50,11 @@
 		"formations/battle_line",
 		"formations/phalanx"
 	],
-	"SelectableInGameSetup": false
+	"SkirmishReplacements":
+	{
+		"skirmish/units/default_infantry_melee_b": "units/judah_infantry_spearman_2_b",
+		"skirmish/units/default_infantry_ranged_b": "units/judah_infantry_archer_a",
+		"skirmish/units/default_cavalry": "units/judah_cavalry_javelinist_b"
+	},
+	"SelectableInGameSetup": true
 }
