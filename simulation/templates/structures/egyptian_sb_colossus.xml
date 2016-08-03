@@ -45,6 +45,8 @@
   <Obstruction>
     <Static width="4.0" depth="4.0"/>
   </Obstruction>
+  <ProductionQueue disable=""/>
+  <RallyPoint disable=""/>
   <TerritoryDecay disable=""/>
   <TerritoryInfluence>
     <Radius>8</Radius>
