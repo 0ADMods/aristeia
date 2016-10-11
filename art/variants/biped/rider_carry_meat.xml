@@ -1,0 +1,7 @@
+<variant name="carry_meat">
+  <props>
+    <prop actor="props/units/shuttle_meat.xml" attachpoint="r_hand"/>
+    <prop attachpoint="l_hand"/>
+    <prop attachpoint="shield"/>
+  </props>
+</variant>

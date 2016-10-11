@@ -1,0 +1,9 @@
+<variant name="attack_ranged">
+  <animations>
+    <animation event="0.84" file="cavalry/arch/attack/rider_archer_atk_a.psa" load="0.16" name="attack_ranged" speed="100"/>
+  </animations>
+  <props>
+    <prop actor="props/units/weapons/arrow_back.xml" attachpoint="loaded-r_hand"/>
+    <prop actor="props/units/weapons/arrow_front.xml" attachpoint="projectile"/>
+  </props>
+</variant>

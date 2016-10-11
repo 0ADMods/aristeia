@@ -1,0 +1,8 @@
+<variant name="attack_slaughter">
+  <animations>
+    <animation event="0.5" file="cavalry/sword/attack/rider_sword_shield_atk_a.psa" name="attack_slaughter" speed="400"/>
+  </animations>
+  <props>
+    <prop actor="props/units/weapons/akin.xml" attachpoint="r_hand"/>
+  </props>
+</variant>

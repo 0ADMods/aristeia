@@ -1,0 +1,8 @@
+<variant name="Death">
+  <animations>
+    <animation file="quadraped/camel_death.dae" name="Death" speed="90"/>
+  </animations>
+  <props>
+    <prop actor="props/units/blood_01.xml" attachpoint="root"/>
+  </props>
+</variant>
