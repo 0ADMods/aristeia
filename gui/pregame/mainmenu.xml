@@ -532,7 +532,7 @@
 					<!-- IMPORTANT: remember to update session/top_panel/label.xml in sync with this: -->
 					<attribute id="caption">
 						<keep>[font="sans-bold-16"]</keep>
-						<translate>Aristeia Alpha XX</translate>
+						<translate>Aristeia Alpha XXI</translate>
 						<keep>[/font]\n</keep>
 						<translate>0 A.D. Alpha XXI</translate>
 						<keep>\n\n</keep>
