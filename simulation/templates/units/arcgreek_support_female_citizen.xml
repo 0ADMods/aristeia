@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_support_female_citizen">
+  <Identity>
+    <Civ>arcgreek</Civ>
+    <GenericName>Greek Woman</GenericName>
+    <History>Greek women were kept under tight control by their husbands, rarely leaving the home for anything beyond the necessities of daily life. They could not own anything or be involved in any business or legal transaction. They acted as household cook, nurse, seamstress, and early educator to young children.</History>
+    <Icon>units/hele_support_female_citizen.png</Icon>
+    <SelectionGroupName>units/arcgreek_support_female_citizen</SelectionGroupName>
+  </Identity>
+  <VisualActor>
+    <Actor>units/athenians/female_citizen.xml</Actor>
+  </VisualActor>
+</Entity>

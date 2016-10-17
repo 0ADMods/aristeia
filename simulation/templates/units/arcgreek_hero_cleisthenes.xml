@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_hero_infantry_spearman">
+  <Identity>
+    <Civ>arcgreek</Civ>
+    <Lang>greek</Lang>
+    <GenericName>Cleisthenes</GenericName>
+    <Icon>units/athen_hero_pericles.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/athenians/pericles.xml</Actor>
+  </VisualActor>
+</Entity>

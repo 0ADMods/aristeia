@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_support_slave">
+  <Attack>
+    <Melee>
+      <Hack>0</Hack>
+      <Pierce>0</Pierce>
+      <Crush>0</Crush>
+      <MaxRange>0</MaxRange>
+      <PrepareTime>500</PrepareTime>
+      <RepeatTime>1000</RepeatTime>
+      <RestrictedClasses datatype="tokens">Human Structure Huntable</RestrictedClasses>
+    </Melee>
+    <Slaughter>
+      <Hack>25.0</Hack>
+      <Pierce>0.0</Pierce>
+      <Crush>0.0</Crush>
+      <MaxRange>4.0</MaxRange>
+    </Slaughter>
+  </Attack>
+  <Builder disable=""/>
+  <Health>
+    <RegenRate>0</RegenRate>
+  </Health>
+  <Identity>
+    <Civ>arcgreek</Civ>
+    <Tooltip>Gatherer bonused at mining and lumbering.</Tooltip>
+  </Identity>
+  <VisualActor>
+    <Actor>units/global/slave.xml</Actor>
+  </VisualActor>
+</Entity>
