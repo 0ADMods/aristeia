@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_champion_infantry_swordsman">
+  <Identity>
+    <Civ>egyptian</Civ>
+    <Classes datatype="tokens">Mercenary</Classes>
+    <GenericName>Carian Heavy Swordsman</GenericName>
+    <Icon>units/egyptian_champion_swordsman.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/egyptian/champion_infantry_swordsman_theban.xml</Actor>
+  </VisualActor>
+</Entity>

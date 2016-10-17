@@ -6,7 +6,4 @@
   <Promotion>
     <Entity>units/egyptian_infantry_javelinist_e</Entity>
   </Promotion>
-  <VisualActor>
-    <Actor>units/egyptian/infantry_javelinist_a.xml</Actor>
-  </VisualActor>
 </Entity>

@@ -1,18 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_cavalry_ranged_javelinist">
-  <Cost>
-    <Resources>
-      <food>0</food>
-      <metal>100</metal>
-    </Resources>
-  </Cost>
   <Identity>
     <Civ>egyptian</Civ>
     <SelectionGroupName>units/egyptian_cavalry_javelinist_b</SelectionGroupName>
-    <GenericName>Nubian Cavalry</GenericName>
-    <SpecificName>nHsy</SpecificName>
-    <History>Nubia was an excellent source of both men and mounts for the Pharaoh's campaigns.</History>
-    <Tooltip>Good for hit-and-run raids and harassing small bodies of enemy troops; should not directly engage large forces.</Tooltip>
+    <GenericName>Horseman</GenericName>
     <Icon>units/egyptian_cavalry_javelinist.png</Icon>
   </Identity>
   <Promotion>

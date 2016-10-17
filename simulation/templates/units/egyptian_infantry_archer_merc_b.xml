@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_infantry_melee_swordsman">
+<Entity parent="template_unit_infantry_ranged_archer">
   <Builder>
     <Entities datatype="tokens">
       -other/wallset_palisade
@@ -13,14 +13,15 @@
   </Builder>
   <Identity>
     <Civ>egyptian</Civ>
-    <SelectionGroupName>units/egyptian_infantry_swordsman_b</SelectionGroupName>
-    <GenericName>Khopesh Warrior</GenericName>
-    <Icon>units/egyptian_champion_swordsman.png</Icon>
+    <VisibleClasses datatype="tokens">Mercenary</VisibleClasses>
+    <SelectionGroupName>units/egyptian_infantry_archer_merc_b</SelectionGroupName>
+    <GenericName>Nubian Archer</GenericName>
+    <Icon>units/egyptian_infantry_archer.png</Icon>
   </Identity>
   <Promotion>
-    <Entity>units/egyptian_infantry_swordsman_a</Entity>
+    <Entity>units/egyptian_infantry_archer_merc_a</Entity>
   </Promotion>
   <VisualActor>
-    <Actor>units/egyptian/champion_infantry_swordsman_theban.xml</Actor>
+    <Actor>units/egyptian/infantry_archer_b.xml</Actor>
   </VisualActor>
 </Entity>

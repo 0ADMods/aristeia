@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_hero_cavalry_archer">
   <Auras datatype="tokens">
-    egyptian_hero_common
-    egyptian_hero_seti
+    units/heroes/egyptian_hero_common
   </Auras>
   <Builder>
     <Rate>1.0</Rate>
@@ -15,12 +14,8 @@
   </Cost>
   <Identity>
     <Civ>egyptian</Civ>
-    <GenericName>Seti the Great</GenericName>
-    <SpecificName>Menma'atre Seti Meryen-Ptah</SpecificName>
-    <Tooltip>"Soldier's Pharaoh"</Tooltip>
-    <History>After a period of international regression for Egypt, Seti reversed affairs by extending the Egyptian empire through the regions of Canaan (or Retennu) and Syria once more, inflicting defeats on the Hittites in the process. Seti recorded his campaigns in the Temple of Karnak. He also constructed several monuments at Abydos and Thebes.</History>
+    <GenericName>Seti</GenericName>
     <Icon>units/egyptian_hero_pharao.png</Icon>
-    <RequiredTechnology>egyptian/phase_city_ramesside</RequiredTechnology>
   </Identity>
   <VisualActor>
     <Actor>units/egyptian/hero_pharao.xml</Actor>

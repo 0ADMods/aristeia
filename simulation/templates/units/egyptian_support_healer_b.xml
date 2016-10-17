@@ -3,13 +3,11 @@
   <Identity>
     <Civ>egyptian</Civ>
     <SelectionGroupName>units/egyptian_support_healer_b</SelectionGroupName>
-    <GenericName>Egyptian Priest</GenericName>
-    <SpecificName>Sema`</SpecificName>
-    <History>In theory, the Pharaoh was the chief priest in Egypt (one of his titles was “High Priest of Every Temple”), but in practice he employed a class of powerful priests who would attend to the religious affairs of the nation. Priests also served as magicians and healers; the Egyptians were famous for their relatively advanced medicine.</History>
-    <Icon>units/pers_support_healer.png</Icon>
+    <GenericName>Priest of Amun'Re</GenericName>
+    <Icon>units/ptol_support_healer.png</Icon>
   </Identity>
   <Promotion disable=""/>
   <VisualActor>
-    <Actor>units/persians/healer.xml</Actor>
+    <Actor>units/ptolemies/healer.xml</Actor>
   </VisualActor>
 </Entity>

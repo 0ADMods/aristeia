@@ -4,7 +4,4 @@
     <Rank>Elite</Rank>
   </Identity>
   <Promotion disable=''/>
-  <VisualActor>
-    <Actor>units/egyptian/infantry_javelinist_e.xml</Actor>
-  </VisualActor>
 </Entity>
