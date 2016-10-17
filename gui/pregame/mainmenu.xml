@@ -532,10 +532,12 @@
 					<!-- IMPORTANT: remember to update session/top_panel/label.xml in sync with this: -->
 					<attribute id="caption">
 						<keep>[font="sans-bold-16"]</keep>
-						<translate>Aristeia Alpha XXI</translate>
-						<keep>[/font]\n</keep>
-						<translate>0 A.D. Alpha XXI</translate>
-						<keep>\n\n</keep>
+						<translate>Aristeia Bronziron</translate>
+						<keep>:\n</keep>
+						<translate>Peril of Nations</translate>
+						<keep>[/font]\n(</keep>
+						<translate>0 A.D. Alpha XXII</translate>
+						<keep>)\n\n</keep>
 						<translate>WARNING: This is an early development version of the game. Many features have not been added yet.</translate>
 					</attribute>
 				</object>
