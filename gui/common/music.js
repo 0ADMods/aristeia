@@ -34,7 +34,7 @@ function Music()
 		MENU : 1,
 		PEACE : 2,
 		BATTLE : 3,
-		VICTORY :4,
+		VICTORY : 4,
 		DEFEAT : 5
 	};
 
@@ -51,7 +51,7 @@ function Music()
 Music.prototype.resetTracks = function()
 {
 	this.tracks = {
-		MENU: ["At_The_Gates_Of_Babylon_.ogg"],
+		MENU: ["Ammon-Ra.ogg"],
 		PEACE: [],
 		BATTLE: ["Taiko_1.ogg", "Taiko_2.ogg"],
 		VICTORY : ["You_are_Victorious!.ogg"],
