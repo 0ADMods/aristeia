@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_hero_cavalry_archer">
+  <Identity>
+    <Civ>judah</Civ>
+    <GenericName>Josiah</GenericName>
+    <Icon>units/pers_hero_darius.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/persians/hero_darius_chariot.xml</Actor>
+  </VisualActor>
+</Entity>

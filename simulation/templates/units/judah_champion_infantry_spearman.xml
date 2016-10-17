@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_champion_infantry_spearman">
+  <Identity>
+    <Civ>judah</Civ>
+    <GenericName>Mighty Man of Judah</GenericName>
+    <Icon>units/cart_champion_infantry.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/carthaginians/champion_spearman.xml</Actor>
+  </VisualActor>
+</Entity>
