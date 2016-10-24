@@ -40,7 +40,6 @@
     <Technologies datatype="tokens">
       -heal_barracks
       -training_conscription
-      -unlock_champion_units
       persians/training_levy_cavalry
       persians/training_conscription_cavalry
       upgrade_rank_advanced_cavalry

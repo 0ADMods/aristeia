@@ -17,7 +17,6 @@
       units/assyrian_infantry_slinger_b
       units/assyrian_infantry_spearman_b
     </Entities>
-    <!-- Technologies are inherited from the parent template. -->
   </ProductionQueue>
   <VisualActor>
     <Actor>structures/assyrian/barracks.xml</Actor>

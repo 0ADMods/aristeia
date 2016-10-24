@@ -1,0 +1,10 @@
+{
+	"type": "global",
+	"affects": ["Trader", "Worker"],
+	"modifications": [
+		{ "value": "Trader/GainMultiplier", "multiply": 1.25 },
+		{ "value": "ResourceGatherer/BaseSpeed", "multiply": 1.25 }
+	],
+	"auraName": "Gatherer of Riches",
+	"auraDescription": "25% increase in trade income and resource gathering rates during her lifetime."
+}

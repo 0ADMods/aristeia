@@ -14,9 +14,7 @@
   </Identity>
   <ProductionQueue>
     <Entities datatype="tokens"/>
-    <Technologies datatype="tokens">
-      -unlock_champion_units
-    </Technologies>
+    <Technologies datatype="tokens"/>
   </ProductionQueue>
   <VisualActor>
     <Actor>structures/mycenaeans/barracks.xml</Actor>

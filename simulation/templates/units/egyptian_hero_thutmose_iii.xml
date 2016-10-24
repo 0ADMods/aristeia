@@ -1,27 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_hero_cavalry_archer">
-  <Auras>
-    <Aura1>
-      <Type>global</Type>
-      <Affects>Structure</Affects>
-      <Modifications>
-        <TerritoryInfluence.Radius> <Multiply>1.15</Multiply> </TerritoryInfluence.Radius>
-      </Modifications>
-      <AuraName>Conqueror of Territory</AuraName>
-      <AuraDescription>15% increase in territory radius for all buildings during his lifetime.</AuraDescription>
-    </Aura1>
-    <Aura2>
-      <Type>range</Type>
-      <Radius>30</Radius>
-      <Affects>CitizenSoldier</Affects>
-      <Modifications>
-        <Attack.Melee> <Multiply>1.1</Multiply> </Attack.Melee>
-        <Attack.Hack> <Multiply>1.1</Multiply> </Attack.Hack>
-        <Attack.Pierce> <Multiply>1.1</Multiply> </Attack.Pierce>
-      </Modifications>
-      <AuraName>Followers of His Majesty (Smsw Hm)</AuraName>
-      <AuraDescription>Egyptian soldiers held their Pharaoh in awe, and hoped to gain his favour and reward by performing courageous exploits that would bring them to his attention. Increased attack for all citizen soldiers in the Pharaoh's hero aura.</AuraDescription>
-    </Aura2>
+  <Auras datatype="tokens">
+    egyptian_hero_common
+    egyptian_hero_thutmose_iii
   </Auras>
   <Builder>
     <Rate>1.0</Rate>

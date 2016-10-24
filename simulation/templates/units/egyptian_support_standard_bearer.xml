@@ -1,24 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_support">
-  <Auras>
-    <Aura1>
-      <Type>range</Type>
-      <Radius>40</Radius>
-      <Affects>Citizen+Infantry</Affects>
-      <Modifications>
-        <Armour.Melee> <Multiply>1.1</Multiply> </Armour.Melee>
-        <Armour.Hack> <Multiply>1.1</Multiply> </Armour.Hack>
-        <Armour.Pierce> <Multiply>1.1</Multiply> </Armour.Pierce>
-        <Attack.Melee.Crush> <Multiply>1.1</Multiply> </Attack.Melee.Crush>
-        <Attack.Melee.Hack> <Multiply>1.1</Multiply> </Attack.Melee.Hack>
-        <Attack.Melee.Pierce> <Multiply>1.1</Multiply> </Attack.Melee.Pierce>
-        <Attack.Ranged.Crush> <Multiply>1.1</Multiply> </Attack.Ranged.Crush>
-        <Attack.Ranged.Hack> <Multiply>1.1</Multiply> </Attack.Ranged.Hack>
-        <Attack.Ranged.Pierce> <Multiply>1.1</Multiply> </Attack.Ranged.Pierce>
-      </Modifications>
-      <AuraName>Raise the Banner</AuraName>
-      <AuraDescription>Nearby citizen infantry have higher armor and a stronger attack</AuraDescription>
-    </Aura1>
+  <Auras datatype="tokens">
+    raise_the_banner
   </Auras>
   <Cost>
     <Resources>

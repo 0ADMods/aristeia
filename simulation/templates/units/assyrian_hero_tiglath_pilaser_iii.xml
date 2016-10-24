@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_hero_cavalry_archer">
-  <Auras>
-    <Aura1>
-      <Type>range</Type>
-      <Radius>60</Radius>
-      <Affects>Worker</Affects>
-      <Modifications>
-        <Builder.Rate> <Multiply>1.15</Multiply> </Builder.Rate>
-        <ResourceGatherer.BaseSpeed> <Multiply>1.15</Multiply> </ResourceGatherer.BaseSpeed>
-      </Modifications>
-      <AuraName>Administrator Aura</AuraName>
-      <AuraDescription> +15% Gather Rate and Build Rate of nearby units.</AuraDescription>
-    </Aura1>
+  <Auras datatype="tokens">
+    assyr_hero_tiglath_pilaser_iii
   </Auras>
   <Attack>
     <Ranged>

@@ -1,0 +1,5 @@
+<variant name="Death">
+  <animations>
+    <animation file="biped/rider_sword_death_a.psa" name="Death" speed="230"/>
+  </animations>
+</variant>

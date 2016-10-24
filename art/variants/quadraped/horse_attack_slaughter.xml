@@ -1,0 +1,5 @@
+<variant name="attack_slaughter">
+  <animations>
+    <animation event="" file="quadraped/horse_attack_a.psa" name="attack_slaughter" speed="20"/>
+  </animations>
+</variant>

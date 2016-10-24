@@ -1,0 +1,8 @@
+<variant name="Death">
+  <animations>
+    <animation file="quadraped/horse_death.psa" name="death" speed="240"/>
+  </animations>
+  <props>
+    <prop actor="props/units/blood_01.xml" attachpoint="root"/>
+  </props>
+</variant>
