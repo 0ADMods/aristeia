@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_wonder">
+  <Auras datatype="tokens">
+    structures/epic_temple_heal
+  </Auras>
   <Footprint>
     <Square width="26.5" depth="43.0"/>
     <Height>12.0</Height>
@@ -9,10 +12,9 @@
   </Health>
   <Identity>
     <Civ>egyptian</Civ>
-    <GenericName>Mortuary Temple of Hatshepsut</GenericName>
-    <SpecificName>Hwt Dsr Dsrw</SpecificName>
-    <History>Hatshepsut's mortuary temple exhibits a rather decided non-Egyptian ifluence, and possesses several intriguing similarities to the Temple of Solomon in Jerusalem, upon which Hatshepsut may have modelled her temple.</History>
-    <RequiredTechnology>egyptian/phase_city_theban</RequiredTechnology>
+    <GenericName>Temple of Amun-re at Karnak</GenericName>
+    <SpecificName>ipt swt</SpecificName>
+    <History>The Temple of Karnak was part of a large complex of structures in the Valley of the Kings near Thebes.</History>
   </Identity>
   <Obstruction>
     <Static width="25.5" depth="42.0"/>

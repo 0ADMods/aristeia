@@ -14,8 +14,7 @@
   </Obstruction>
   <ProductionQueue>
     <Entities datatype="tokens">
-      units/egyptian_mechanical_siege_ram
-      units/egyptian_champion_swordsman_theban
+      units/egyptian_champion_axeman
     </Entities>
   </ProductionQueue>
   <VisualActor>

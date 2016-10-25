@@ -4,7 +4,6 @@
     <Civ>egyptian</Civ>
     <GenericName>Small Wall</GenericName>
     <SpecificName>Ktt Jeneba</SpecificName>
-    <History></History>
     <RequiredTechnology>phase_village</RequiredTechnology>
   </Identity>
   <WallSet>

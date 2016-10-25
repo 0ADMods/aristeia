@@ -13,7 +13,6 @@
     <SelectionGroupName>other/wallset_palisade</SelectionGroupName>
     <GenericName>Small Wall</GenericName>
     <SpecificName>Ktt Jeneba</SpecificName>
-    <History>Wall meant to keep unwelcome visitors out.</History>
   </Identity>
   <VisualActor>
     <Actor>structures/egyptian/small_wall_short.xml</Actor>

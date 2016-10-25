@@ -16,11 +16,13 @@
   <GarrisonHolder disable=""/>
   <Identity>
     <Civ>egyptian</Civ>
+    <VisibleClasses datatype="tokens">-City Town</VisibleClasses>
     <GenericName>Threshing Floor</GenericName>
     <SpecificName>xtyw</SpecificName>
     <Tooltip>Enables additional farming upgrade techs.</Tooltip>
     <History>Separating the grain was accomplished via a team of oxen in a flat, circular outdoor area.</History>
     <Icon>structures/rotarymill.png</Icon>
+    <RequiredTechnology>phase_town</RequiredTechnology>
   </Identity>
   <Obstruction>
     <Static width="16.0" depth="16.0"/>

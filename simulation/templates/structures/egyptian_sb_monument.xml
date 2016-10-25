@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_special">
   <Auras datatype="tokens">
-    cultural_spread_medium
-    jingoism
+    structures/cultural_spread_medium
   </Auras>
   <BuildRestrictions>
     <Category>Monument</Category>
@@ -27,12 +26,11 @@
   </Health>
   <Identity>
     <Civ>egyptian</Civ>
-    <GenericName>Great Monument to the Pharaoh at Abu Simbel</GenericName>
+    <GenericName>Great Monument to the Pharaoh</GenericName>
     <SpecificName>sšmw</SpecificName>
-    <History>The Ramesside Pharaohs, especially Ramesses II, built many self-promoting monuments and statues. Can be based off of statues of Ramesses II at Abu Simbel.</History>
+    <History>The Ramesside Pharaohs, especially Ramesses II, built many self-promoting monuments and statues.</History>
     <Tooltip>Increases Territory Influence and compels nearby Soldiers to fight harder.</Tooltip>
     <Classes datatype="tokens">-ConquestCritical</Classes>
-    <RequiredTechnology>egyptian/phase_city_ramesside</RequiredTechnology>
     <Icon>structures/tholos.png</Icon>
   </Identity>
   <Loot>

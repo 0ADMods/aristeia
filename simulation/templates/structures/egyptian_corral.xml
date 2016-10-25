@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_resource_corral">
-	<Footprint>
-		<Square width="17.5" depth="23.5"/>
-		<Height>5.0</Height>
-	</Footprint>
-	<Health>
-		<SpawnEntityOnDeath>rubble/rubble_stone_4x2</SpawnEntityOnDeath>
-	</Health>
-	<Identity>
-		<Civ>egyptian</Civ>
-		<SpecificName>hrmw</SpecificName>
-		<History>Archaeological studies indicate that the Egyptians were descended from semi-nomadic cattle-herders who roamed the Saharan savannas during prehistoric times. Their lifestyle was similar to that of many East African pastoral tribes living today. Only when the Sahara turned to desert at the end of the predynastic period did the Egyptians permanently move into the Nile Valley and increase their dependence on agriculture. Even then, cattle continued to play an important role in the Egyptian economy.</History>
-	</Identity>
-	<Obstruction>
-		<Static width="16.5" depth="22.5"/>
-	</Obstruction>
-	<ProductionQueue>
-		<Entities datatype="tokens">
+  <Footprint>
+    <Square width="17.5" depth="23.5"/>
+    <Height>5.0</Height>
+  </Footprint>
+  <Health>
+    <SpawnEntityOnDeath>rubble/rubble_stone_4x2</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Civ>egyptian</Civ>
+    <SpecificName>hrmw</SpecificName>
+    <History>Archaeological studies indicate that the Egyptians were descended from semi-nomadic cattle-herders who roamed the Saharan savannas during prehistoric times. Their lifestyle was similar to that of many East African pastoral tribes living today. Only when the Sahara turned to desert at the end of the predynastic period did the Egyptians permanently move into the Nile Valley and increase their dependence on agriculture. Even then, cattle continued to play an important role in the Egyptian economy.</History>
+  </Identity>
+  <Obstruction>
+    <Static width="16.5" depth="22.5"/>
+  </Obstruction>
+  <ProductionQueue>
+    <Entities datatype="tokens">
+      -gaia/fauna_sheep
       gaia/fauna_goat
-			<!--gaia/fauna_auroch // http://wildfiregames.com/forum/index.php?showtopic=17409-->
-		</Entities>
-	</ProductionQueue>
-	<VisualActor>
-		<Actor>structures/egyptian/corral.xml</Actor>
-		<FoundationActor>structures/fndn_4x4.xml</FoundationActor>
-	</VisualActor>
+    </Entities>
+  </ProductionQueue>
+  <VisualActor>
+    <Actor>structures/egyptian/corral.xml</Actor>
+    <FoundationActor>structures/fndn_4x4.xml</FoundationActor>
+  </VisualActor>
 </Entity>
