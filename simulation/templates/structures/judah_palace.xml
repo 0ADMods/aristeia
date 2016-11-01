@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_special_palace">
+  <Footprint>
+    <Square width="28.0" depth="28.0"/>
+    <Height>15.0</Height>
+  </Footprint>
+  <Health>
+    <SpawnEntityOnDeath>rubble/rubble_stone_5x5</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Civ>judah</Civ>
+    <Icon>structures/italian_embassy.png</Icon>
+  </Identity>
+  <Obstruction>
+    <Static width="28.0" depth="28.0"/>
+  </Obstruction>
+  <ProductionQueue>
+    <Entities datatype="tokens">
+      units/{civ}_hero_hezekiah
+      units/{civ}_hero_jehoshaphat
+      units/{civ}_hero_josiah
+    </Entities>
+  </ProductionQueue>
+  <VisualActor>
+    <Actor>structures/carthaginians/embassy.xml</Actor>
+    <FoundationActor>structures/fndn_5x5.xml</FoundationActor>
+  </VisualActor>
+</Entity>
