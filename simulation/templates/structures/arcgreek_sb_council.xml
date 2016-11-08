@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_special">
+  <BuildRestrictions>
+    <Category>Council</Category>
+  </BuildRestrictions>
+  <Cost>
+    <BuildTime>200</BuildTime>
+    <Resources>
+      <food>0</food>
+      <wood>0</wood>
+      <stone>100</stone>
+      <metal>200</metal>
+    </Resources>
+  </Cost>
+  <Footprint replace="">
+    <Circle radius="16.0"/>
+    <Height>8.0</Height>
+  </Footprint>
+  <Health>
+    <Max>2000</Max>
+  </Health>
+  <Identity>
+    <Civ>arcgreek</Civ>
+    <GenericName>Council Chamber</GenericName>
+    <SpecificName>Prytaneîon</SpecificName>
+    <Tooltip>Train heroes.</Tooltip>
+    <History>The Prytaneion is the meeting place for the city elders to dine and to make swift decisions.</History>
+    <Icon>structures/tholos.png</Icon>
+  </Identity>
+  <Loot>
+    <wood>0</wood>
+    <stone>25</stone>
+    <metal>50</metal>
+  </Loot>
+  <Obstruction>
+    <Static width="24.0" depth="30.0"/>
+  </Obstruction>
+  <ProductionQueue>
+    <BatchTimeModifier>0.7</BatchTimeModifier>
+    <Entities datatype="tokens">
+      units/{civ}_hero_cleisthenes
+      units/{civ}_hero_lycurgus
+      units/{civ}_hero_solon
+    </Entities>
+  </ProductionQueue>
+  <Sound>
+    <SoundGroups>
+      <select>interface/select/building/sel_tholos.xml</select>
+      <constructed>interface/complete/building/complete_tholos.xml</constructed>
+      <death>attack/destruction/building_collapse_large.xml</death>
+    </SoundGroups>
+  </Sound>
+  <VisualActor>
+    <Actor>structures/athenians/prytaneion.xml</Actor>
+  </VisualActor>
+</Entity>
