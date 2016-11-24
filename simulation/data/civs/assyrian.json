@@ -9,27 +9,32 @@
 		{"File":"Harsh_Lands_Rugged_People.ogg", "Type":"peace"}
 	],
 	"Factions": [],
-	"CivBonuses":
-	[
-		{
-			"Name": "",
-			"History": "",
-			"Description": "",
-			"Icon": ""
-		}
-	],
-	"TeamBonuses":
-	[
-		{
-			"Name": "",
-			"History": "",
-			"Description": "",
-			"Icon": ""
-		} 
-	],
+	"CivBonuses": [],
+	"TeamBonuses": [],
 	"Structures": [],
 	"StartEntities":
 	[
+		{
+			"Template": "structures/assyrian_civil_centre"
+		},
+		{
+			"Template": "units/assyrian_support_female_citizen",
+			"Count": 4
+		},
+		{
+			"Template": "units/assyrian_infantry_spearman_b",
+			"Count": 2
+		},
+		{
+			"Template": "units/assyrian_infantry_archer_b",
+			"Count": 2
+		},
+		{
+			"Template": "units/assyrian_cavalry_spearman_b"
+		},
+		{
+			"Template": "units/assyrian_support_laborer"
+		}
 	],
 	"Formations":
 	[
@@ -55,7 +60,11 @@
 	],
 	"SkirmishReplacements":
 	{
+		"skirmish/units/default_infantry_melee_b": "units/assyrian_infantry_spearman_b",
+		"skirmish/units/default_infantry_ranged_b": "units/assyrian_infantry_archer_b",
+		"skirmish/units/default_cavalry": "units/assyrian_cavalry_spearman_b",
+		"skirmish/units/special_starting_unit": "units/assyrian_support_laborer",
 		"skirmish/structures/default_house_5": "structures/{civ}_house"
 	},
-	"SelectableInGameSetup": false
+	"SelectableInGameSetup": true
 }
