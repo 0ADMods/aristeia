@@ -3,9 +3,7 @@
   <Identity>
     <Civ>assyrian</Civ>
     <SpecificName>Bītu</SpecificName>
-    <History>
-      No windows; based on the historical data, most houses seem to have had domed rather than flat roofs.
-    </History>
+    <History>No windows; based on the historical data, most houses seem to have had domed rather than flat roofs.</History>
   </Identity>
   <VisualActor>
     <Actor>structures/persians/house.xml</Actor>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_economic">
+  <BuildRestrictions>
+    <Category>Storehouse</Category>
+    <Territory>own neutral</Territory>
+  </BuildRestrictions>
+  <Capturable>
+    <CapturePoints>300</CapturePoints>
+  </Capturable>
+  <Cost>
+    <BuildTime>40</BuildTime>
+    <Resources>
+      <wood>100</wood>
+    </Resources>
+  </Cost>
+  <Footprint>
+    <Square width="26.0" depth="26.0"/>
+    <Height>12.0</Height>
+  </Footprint>
+  <GarrisonHolder>
+    <Max>1</Max>
+    <BuffHeal>0</BuffHeal>
+    <EjectHealth>0.1</EjectHealth>
+    <EjectClassesOnDestroy datatype="tokens">Unit</EjectClassesOnDestroy>
+    <List datatype="tokens">Support+Worker</List>
+    <LoadingRange>1</LoadingRange>
+  </GarrisonHolder>
+  <Health>
+    <Max>800</Max>
+    <SpawnEntityOnDeath>rubble/rubble_stone_3x3</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Civ>pers</Civ>
+    <GenericName>Warehouse</GenericName>
+    <Classes datatype="tokens">DropsiteWood DropsiteMetal DropsiteStone -ConquestCritical SpecialBuilding</Classes>
+    <VisibleClasses datatype="tokens">Town Storehouse</VisibleClasses>
+    <RequiredTechnology>phase_town</RequiredTechnology>
+    <Icon>structures/storehouse.png</Icon>
+  </Identity>
+  <Obstruction>
+    <Static width="24.0" depth="24.0"/>
+  </Obstruction>
+  <ProductionQueue>
+    <BatchTimeModifier>1.0</BatchTimeModifier>
+    <Entities datatype="tokens">
+      units/{civ}_support_laborer
+    </Entities>
+    <Technologies datatype="tokens">
+      gather_capacity_basket
+      gather_capacity_wheelbarrow
+      gather_capacity_carts
+    </Technologies>
+  </ProductionQueue>
+  <ResourceDropsite>
+    <Types>wood stone metal</Types>
+    <Sharable>true</Sharable>
+  </ResourceDropsite>
+  <Sound>
+    <SoundGroups>
+      <select>interface/select/building/sel_storehouse.xml</select>
+      <constructed>interface/complete/building/complete_storehouse.xml</constructed>
+      <death>attack/destruction/building_collapse_large.xml</death>
+    </SoundGroups>
+  </Sound>
+  <TerritoryDecay>
+    <DecayRate>10</DecayRate>
+  </TerritoryDecay>
+  <TerritoryInfluence disable=""/>
+  <Vision>
+    <Range>20</Range>
+  </Vision>
+  <VisualActor>
+    <Actor>props/structures/persians/alt_building_01.xml</Actor>
+    <FoundationActor>structures/fndn_6x6.xml</FoundationActor>
+  </VisualActor>
+</Entity>

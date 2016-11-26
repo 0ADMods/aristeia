@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_civic_house">
+  <Cost>
+    <PopulationBonus>15</PopulationBonus>
+  </Cost>
+  <Footprint>
+    <Square width="25.0" depth="14.0"/>
+    <Height>10.0</Height>
+  </Footprint>
+  <Health>
+    <Max>2000</Max>
+  </Health>
+  <Identity>
+    <Civ>assyrian</Civ>
+    <GenericName>Royal Apartments</GenericName>
+    <Classes datatype="tokens">SpecialBuilding</Classes>
+    <VisibleClasses datatype="tokens">City</VisibleClasses>
+    <RequiredTechnology>phase_city</RequiredTechnology>
+  </Identity>
+  <Obstruction>
+    <Static width="23.0" depth="12.0"/>
+  </Obstruction>
+  <ProductionQueue>
+    <Entities datatype="tokens">
+      -units/{civ}_support_female_citizen_house
+      units/{civ}_champion_infantry_spearman_2
+      units/{civ}_champion_cavalry_spearman
+    </Entities>
+    <Technologies datatype="tokens">
+      -health_females_01
+      -unlock_females_house
+    </Technologies>
+  </ProductionQueue>
+  <RallyPoint/>
+  <TerritoryInfluence>
+    <Radius>25</Radius>
+  </TerritoryInfluence>
+  <VisualActor>
+    <Actor>props/structures/persians/alt_building_03.xml</Actor>
+  </VisualActor>
+</Entity>

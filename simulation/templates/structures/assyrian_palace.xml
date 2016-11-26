@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_special_palace">
+  <Identity>
+    <Civ>assyrian</Civ>
+    <GenericName>Royal Palace</GenericName>
+  </Identity>
+  <ProductionQueue>
+    <Entities datatype="tokens">
+      units/{civ}_hero_ashurbanipal
+      units/{civ}_hero_sennacherib
+      units/{civ}_hero_tiglath_pileser_iii
+      units/{civ}_champion_infantry_spearman_3
+    </Entities>
+  </ProductionQueue>
+</Entity>
