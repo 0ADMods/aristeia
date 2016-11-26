@@ -1,14 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_support_trader">
+  <Footprint>
+    <Circle radius="2.0"/>
+    <Height>7.5</Height>
+  </Footprint>
   <Identity>
     <Civ>assyrian</Civ>
-    <SpecificName>Tamkāru</SpecificName>
-    <Icon>units/assyrian_trader.png</Icon>
-    <History>
-      Dromedaries enjoy more representation on the reliefs than do the Bactrian (two-hump) camels.
-    </History>
+    <GenericName>Assyrian Merchant</GenericName>
+    <Icon>units/pers_support_trader.png</Icon>
   </Identity>
+  <Sound>
+    <SoundGroups>
+      <select>actor/fauna/animal/camel.xml</select>
+      <order_walk>actor/fauna/movement/camel.xml</order_walk>
+      <death>actor/fauna/death/death_camel.xml</death>
+    </SoundGroups>
+  </Sound>
   <VisualActor>
-    <Actor>units/assyrian/trader.xml</Actor>
+    <Actor>units/persians/trader.xml</Actor>
   </VisualActor>
 </Entity>

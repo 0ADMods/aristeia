@@ -1,0 +1,12 @@
+{
+	"type": "range",
+	"radius": 40,
+	"affects": ["Guardsman"],
+	"modifications": [
+		{ "value": "Attack/Melee/Hack",    "add": 1 },
+		{ "value": "Attack/Melee/Pierce",  "add": 1 }
+	],
+	"auraName": "Guardsman Leadership",
+	"auraDescription": "Nearby guardsmen have a stronger attack.",
+	"overlayIcon": "art/textures/ui/session/auras/attack_bonus.png"
+}

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_champion_cavalry_archer">
+  <Identity>
+    <Civ>assyrian</Civ>
+    <GenericName>Scythian Horse Archer</GenericName>
+    <RequiredTechnology>phase_town</RequiredTechnology>
+    <Icon>units/pers_champion_cavalry.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/persians/champion_unit_2_archer.xml</Actor>
+  </VisualActor>
+</Entity>

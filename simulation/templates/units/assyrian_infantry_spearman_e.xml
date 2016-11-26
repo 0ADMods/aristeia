@@ -4,7 +4,4 @@
     <Rank>Elite</Rank>
   </Identity>
   <Promotion disable=""/>
-  <VisualActor>
-    <Actor>units/persians/infantry_spearman_e.xml</Actor>
-  </VisualActor>
 </Entity>

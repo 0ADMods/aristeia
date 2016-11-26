@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_champion_infantry_spearman">
+  <Identity>
+    <Civ>assyrian</Civ>
+    <GenericName>Infantry Guardsman</GenericName>
+    <Icon>units/pers_kardakes.png</Icon>
+    <VisibleClasses datatype="tokens">Guardsman</VisibleClasses>
+  </Identity>
+  <VisualActor>
+    <Actor>units/persians/kardakes_hoplite.xml</Actor>
+  </VisualActor>
+</Entity>

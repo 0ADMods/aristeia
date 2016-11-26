@@ -2,23 +2,25 @@
 <Entity parent="template_unit_infantry_ranged_archer">
   <Builder>
     <Entities datatype="tokens">
+      -other/wallset_palisade
+      -structures/{civ}_sentry_tower
       structures/assyrian_stables
-      structures/assyrian_apadana
-      structures/{civ}_wonder
+      structures/assyrian_palace
+      structures/assyrian_sb_apartments
+      structures/assyrian_sb_warehouse
+      structures/assyrian_sb_workshop
     </Entities>
   </Builder>
   <Identity>
     <Civ>assyrian</Civ>
     <SelectionGroupName>units/assyrian_infantry_archer_b</SelectionGroupName>
-    <GenericName>Sogdian Archer</GenericName>
-    <SpecificName>Sugda Vaçabara</SpecificName>
-    <Icon>units/assyrian_infantry_archer.png</Icon>
-    <History>Archers were the core of the Persian infantry, often going into battle with spearmen equipped with spara, whom they heavily outnumbered. Although powerful, the Persian recurved bow was cursed with light arrows that had trouble piercing the armor of heavily armed opponents. But the huge numbers loosed in each volley were more than enough to alarm even the most armored enemy.</History>
+    <GenericName>Chaldean Archer</GenericName>
+    <Icon>units/pers_infantry_archer.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/assyrian_infantry_archer_a</Entity>
   </Promotion>
   <VisualActor>
-    <Actor>units/assyrian/infantry_archer_b.xml</Actor>
+    <Actor>units/persians/infantry_archer_e.xml</Actor>
   </VisualActor>
 </Entity>

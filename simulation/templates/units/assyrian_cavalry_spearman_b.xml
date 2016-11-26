@@ -3,22 +3,13 @@
   <Identity>
     <Civ>assyrian</Civ>
     <SelectionGroupName>units/assyrian_cavalry_spearman_b</SelectionGroupName>
-    <GenericName>Assyrian Cavalry Lancer</GenericName>
-    <SpecificName>Ša Pētḫalli</SpecificName>
-    <Icon>units/assyrian_cavalry.png</Icon>
-    <History>
-      Worked in lancer/archer cavalry pairs for much of Assyria's timeframe, but later became more tactically proficient, multi-talented, self-sufficient, self-contained, and mobile due in part to improved cavalry methods, training, organization, and equipment.
-    </History>
-    <Tooltip>
-      Rapid shock attacks; should wield spear overarm-style.
-      Special: Can rank up to the elite Royal Bodyguard Cavalry once gained enough experience. 
-      Trained at the Civ Centre and Cavalry Stables.
-    </Tooltip>
+    <GenericName>Syrian Horseman</GenericName>
+    <Icon>units/pers_cavalry_spearman.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/assyrian_cavalry_spearman_a</Entity>
   </Promotion>
   <VisualActor>
-    <Actor>units/assyrian/cavalry_spearman_b.xml</Actor>
+    <Actor>units/persians/cavalry_spearman_e.xml</Actor>
   </VisualActor>
 </Entity>

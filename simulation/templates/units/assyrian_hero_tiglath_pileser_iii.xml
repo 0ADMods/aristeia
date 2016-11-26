@@ -2,10 +2,10 @@
 <Entity parent="template_unit_hero_cavalry_archer">
   <Identity>
     <Civ>assyrian</Civ>
-    <GenericName>Ashurbanipal</GenericName>
-    <Icon>units/pers_hero_cyrus.png</Icon>
+    <GenericName>Tiglath-pileser III</GenericName>
+    <Icon>units/pers_hero_darius.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>units/assyrian/hero_xerxes_chariot.xml</Actor>
+    <Actor>units/assyrian/hero_darius_chariot.xml</Actor>
   </VisualActor>
 </Entity>
