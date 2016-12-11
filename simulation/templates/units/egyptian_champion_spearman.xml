@@ -6,6 +6,6 @@
     <Icon>units/egyptian_infantry_spearman.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>units/egyptian/infantry_spearman_e.xml</Actor>
+    <Actor>units/egyptian/champion_infantry_spearman.xml</Actor>
   </VisualActor>
 </Entity>

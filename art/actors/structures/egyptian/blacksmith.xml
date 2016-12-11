@@ -6,10 +6,13 @@
       <mesh>structural/egyptian_blacksmith2.dae</mesh>
       <props>
         <prop actor="props/structures/decals/dirt_4x4.xml" attachpoint="root"/>
-        <prop actor="particle/smoke_blacksmith.xml" attachpoint="smoke"/> <prop actor="props/structures/hellenes/blacksmith_spears.xml" attachpoint="a"/>
-         <prop actor="props/structures/romans/blacksmith_barrels.xml" attachpoint="b"/><prop actor="props/structures/celts/blacksmith_barrels.xml" attachpoint="b"/><prop actor="props/structures/romans/blacksmith_barrels.xml" attachpoint="barrel"/>
-<prop actor="props/structures/romans/blacksmith_bucket.xml" attachpoint="e"/>
-         <prop actor="props/structures/hellenes/blacksmith_spears.xml" attachpoint="c"/>
+        <prop actor="particle/smoke_blacksmith.xml" attachpoint="smoke"/>
+        <prop actor="props/structures/hellenes/blacksmith_spears.xml" attachpoint="a"/>
+        <prop actor="props/structures/romans/blacksmith_barrels.xml" attachpoint="b"/>
+        <prop actor="props/structures/celts/blacksmith_barrels.xml" attachpoint="b"/>
+        <prop actor="props/structures/romans/blacksmith_barrels.xml" attachpoint="barrel"/>
+        <prop actor="props/structures/romans/blacksmith_bucket.xml" attachpoint="e"/>
+        <prop actor="props/structures/hellenes/blacksmith_spears.xml" attachpoint="c"/>
       </props>
       <textures>
         <texture file="structural/ptol_struct.png" name="baseTex"/>
@@ -25,7 +28,6 @@
       <props>
         <prop attachpoint="garrisoned"/>
         <prop actor="particle/destruction_smoke_med.xml" attachpoint="root"/>
-       
         <prop actor="particle/destruction_dust_med_gray.xml" attachpoint="root"/>
         <prop actor="props/structures/decals/dirt_6x4.xml" attachpoint="root"/>
       </props>

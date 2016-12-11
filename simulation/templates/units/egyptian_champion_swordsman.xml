@@ -7,6 +7,6 @@
     <Icon>units/egyptian_infantry_swordsman.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>units/sea_people/infantry_swordsman.xml</Actor>
+    <Actor>units/egyptian/champion_infantry_swordsman.xml</Actor>
   </VisualActor>
 </Entity>

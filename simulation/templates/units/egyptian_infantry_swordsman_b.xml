@@ -21,6 +21,6 @@
     <Entity>units/egyptian_infantry_swordsman_a</Entity>
   </Promotion>
   <VisualActor>
-    <Actor>units/egyptian/champion_infantry_swordsman_theban.xml</Actor>
+    <Actor>units/egyptian/infantry_swordsman_b.xml</Actor>
   </VisualActor>
 </Entity>

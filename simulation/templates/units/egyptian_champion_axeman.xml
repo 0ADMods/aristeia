@@ -14,6 +14,6 @@
     <Category>Officer</Category>
   </TrainingRestrictions>
   <VisualActor>
-    <Actor>units/egyptian/infantry_axeman_a.xml</Actor>
+    <Actor>units/egyptian/champion_infantry_axeman.xml</Actor>
   </VisualActor>
 </Entity>
