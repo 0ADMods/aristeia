@@ -6,6 +6,6 @@
     <Icon>units/pers_hero_darius.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>units/persians/hero_darius_chariot.xml</Actor>
+    <Actor>units/assyrian/hero_tiglath_pileser_iii_chariot.xml</Actor>
   </VisualActor>
 </Entity>

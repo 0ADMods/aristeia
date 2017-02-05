@@ -21,6 +21,6 @@
     <Entity>units/assyrian_infantry_slinger_a</Entity>
   </Promotion>
   <VisualActor>
-    <Actor>units/iberians/infantry_slinger_e.xml</Actor>
+    <Actor>units/assyrian/infantry_slinger_b.xml</Actor>
   </VisualActor>
 </Entity>

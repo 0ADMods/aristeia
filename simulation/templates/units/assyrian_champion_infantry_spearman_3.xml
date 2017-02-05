@@ -12,6 +12,6 @@
     <Category>GuardOfficer</Category>
   </TrainingRestrictions>
   <VisualActor>
-    <Actor>units/persians/apple_bearer.xml</Actor>
+    <Actor>units/assyrian/champion_infantry_spearman_3.xml</Actor>
   </VisualActor>
 </Entity>

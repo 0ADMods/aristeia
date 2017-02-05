@@ -8,6 +8,6 @@
   </Identity>
   <Promotion disable=""/>
   <VisualActor>
-    <Actor>units/ptolemies/healer.xml</Actor>
+    <Actor>units/assyrian/healer.xml</Actor>
   </VisualActor>
 </Entity>
