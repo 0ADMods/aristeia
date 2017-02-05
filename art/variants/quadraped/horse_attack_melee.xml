@@ -1,0 +1,6 @@
+<variant name="attack_melee">
+  <animations>
+    <animation file="quadraped/horse_attack_a.psa" name="attack_melee" speed="150"/>
+    <animation file="quadraped/horse_attack_b.psa" name="attack_melee" speed="150"/>
+  </animations>
+</variant>
