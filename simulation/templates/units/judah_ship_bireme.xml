@@ -10,6 +10,6 @@
     <Icon>units/cart_ship_bireme.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>structures/carthaginians/bireme.xml</Actor>
+    <Actor>units/judah/bireme.xml</Actor>
   </VisualActor>
 </Entity>

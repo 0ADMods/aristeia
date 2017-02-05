@@ -10,6 +10,6 @@
     <Icon>units/cart_ship_merchant.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>structures/carthaginians/merchant_ship.xml</Actor>
+    <Actor>units/judah/merchant_ship.xml</Actor>
   </VisualActor>
 </Entity>

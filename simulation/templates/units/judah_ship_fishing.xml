@@ -5,6 +5,6 @@
     <Icon>units/ptol_ship_fishing.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>structures/ptolemies/fishing_boat.xml</Actor>
+    <Actor>units/judah/fishing_boat.xml</Actor>
   </VisualActor>
 </Entity>

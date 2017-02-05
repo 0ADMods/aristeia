@@ -11,6 +11,6 @@
     <Icon>units/pers_cavalry_archer.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>units/persians/cavalry_archer_b.xml</Actor>
+    <Actor>units/judah/champion_cavalry.xml</Actor>
   </VisualActor>
 </Entity>

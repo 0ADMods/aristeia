@@ -10,6 +10,6 @@
     <Category>HighPriest</Category>
   </TrainingRestrictions>
   <VisualActor>
-    <Actor>units/celts/healer.xml</Actor>
+    <Actor>units/judah/healer_high.xml</Actor>
   </VisualActor>
 </Entity>
