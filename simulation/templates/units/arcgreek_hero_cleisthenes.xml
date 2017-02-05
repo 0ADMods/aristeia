@@ -7,6 +7,6 @@
     <Icon>units/athen_hero_pericles.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>units/athenians/pericles.xml</Actor>
+    <Actor>units/arcgreek/hero_cleisthenes.xml</Actor>
   </VisualActor>
 </Entity>

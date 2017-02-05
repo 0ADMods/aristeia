@@ -10,6 +10,6 @@
   </Identity>
   <Promotion disable=""/>
   <VisualActor>
-    <Actor>units/athenians/healer.xml</Actor>
+    <Actor>units/arcgreek/healer.xml</Actor>
   </VisualActor>
 </Entity>

@@ -7,6 +7,6 @@
     <Icon>units/spart_hero_brasidas.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>units/spartans/brasidas.xml</Actor>
+    <Actor>units/arcgreek/hero_lycurgus.xml</Actor>
   </VisualActor>
 </Entity>

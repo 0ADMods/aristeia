@@ -7,6 +7,6 @@
     <Icon>units/hele_hero_themistocles.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>units/athenians/themistocles.xml</Actor>
+    <Actor>units/arcgreek/hero_solon.xml</Actor>
   </VisualActor>
 </Entity>
