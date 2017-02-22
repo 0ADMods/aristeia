@@ -17,6 +17,6 @@
     </Run>
   </UnitMotion>
   <VisualActor>
-    <Actor>units/egyptian/champion_chariot.xml</Actor>
+    <Actor>units/egyptian/champion_chariot_archer.xml</Actor>
   </VisualActor>
 </Entity>

@@ -10,16 +10,10 @@
       </animations>
       <mesh>structural/maur_chariot_a.dae</mesh>
       <props>
-        <prop actor="units/persians/pers_chariot_archer_b_h1.xml" attachpoint="horse1"/>
-        <prop actor="units/persians/pers_chariot_archer_b_h2.xml" attachpoint="horse2"/>
-      </props>
-    </variant>
-  </group>
-  <group> 
-    <variant frequency="1" name="riders">
-      <props>
-        <prop actor="units/global/slave.xml" attachpoint="rider1"/>
-        <prop actor="units/egyptian/hero_pharao_r.xml" attachpoint="rider2"/>
+        <prop actor="units/egyptian/chariot_horse_1.xml" attachpoint="horse1"/>
+        <prop actor="units/egyptian/chariot_horse_2.xml" attachpoint="horse2"/>
+        <prop actor="units/egyptian/champion_chariot_archer_d.xml" attachpoint="rider1"/>
+        <prop actor="units/egyptian/hero_seti_chariot_r.xml" attachpoint="rider2"/>
       </props>
     </variant>
   </group>

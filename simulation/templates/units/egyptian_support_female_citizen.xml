@@ -14,6 +14,6 @@
     <SelectionGroupName>units/egyptian_support_female_citizen</SelectionGroupName>
   </Identity>
   <VisualActor>
-    <Actor>units/ptolemies/female_citizen.xml</Actor>
+    <Actor>units/egyptian/female_citizen.xml</Actor>
   </VisualActor>
 </Entity>

@@ -5,41 +5,6 @@
     <variant frequency="100" name="Base">
       <animations>
         <animation file="biped/inf_sword_ready_a.dae" name="Idle" speed="120"/>
-        <animation file="biped/inf_sword_ready_a.dae" name="Idle" speed="100"/>
-        <animation file="biped/inf_sword_ready_a.dae" name="Idle" speed="125"/>
-        <animation file="biped/inf_sword_ready_a.dae" name="Idle" speed="110"/>
-        <animation file="biped/inf_sword_ready_a.dae" name="Idle" speed="115"/>
-        <animation file="biped/inf_sword_ready_a.dae" name="Idle" speed="120"/>
-        <animation file="biped/inf_sword_ready_a.dae" name="Idle" speed="120"/>
-        <animation file="biped/inf_sword_ready_a.dae" name="Idle" speed="120"/>
-        <animation file="biped/inf_sword_ready_a.dae" name="Idle" speed="120"/>
-        <animation file="biped/inf_sword_ready_a.dae" name="Idle" speed="120"/>
-        <animation file="biped/inf_sword_ready_a.dae" name="Idle" speed="100"/>
-        <animation file="biped/inf_sword_ready_a.dae" name="Idle" speed="125"/>
-        <animation file="biped/inf_sword_ready_a.dae" name="Idle" speed="110"/>
-        <animation file="biped/inf_sword_ready_a.dae" name="Idle" speed="115"/>
-        <animation file="biped/inf_sword_ready_a.dae" name="Idle" speed="120"/>
-        <animation file="biped/inf_sword_ready_a.dae" name="Idle" speed="120"/>
-        <animation file="biped/inf_sword_ready_a.dae" name="Idle" speed="120"/>
-        <animation file="biped/inf_sword_ready_a.dae" name="Idle" speed="120"/>
-        <animation file="biped/inf_sword_ready_a.dae" name="Idle" speed="120"/>
-        <animation file="biped/inf_sword_ready_a.dae" name="Idle" speed="100"/>
-        <animation file="biped/inf_sword_ready_a.dae" name="Idle" speed="125"/>
-        <animation file="biped/inf_sword_ready_a.dae" name="Idle" speed="110"/>
-        <animation file="biped/inf_sword_ready_a.dae" name="Idle" speed="115"/>
-        <animation file="biped/inf_sword_ready_a.dae" name="Idle" speed="120"/>
-        <animation file="biped/inf_sword_ready_a.dae" name="Idle" speed="120"/>
-        <animation file="biped/inf_sword_ready_a.dae" name="Idle" speed="120"/>
-        <animation file="biped/inf_sword_ready_a.dae" name="Idle" speed="120"/>
-        <animation file="biped/inf_sword_ready_a.dae" name="Idle" speed="120"/>
-        <animation file="biped/inf_sword_ready_a.dae" name="Idle" speed="100"/>
-        <animation file="biped/inf_sword_ready_a.dae" name="Idle" speed="125"/>
-        <animation file="biped/inf_sword_ready_a.dae" name="Idle" speed="110"/>
-        <animation file="biped/inf_sword_ready_a.dae" name="Idle" speed="115"/>
-        <animation file="biped/inf_sword_ready_a.dae" name="Idle" speed="120"/>
-        <animation file="biped/inf_sword_ready_a.dae" name="Idle" speed="120"/>
-        <animation file="biped/inf_sword_ready_a.dae" name="Idle" speed="120"/>
-        <animation file="biped/inf_sword_ready_a.dae" name="Idle" speed="120"/>
         <animation file="biped/inf_sword_ready_b.dae" name="Idle" speed="130"/>
         <animation file="biped/inf_sword_ready_c.dae" name="Idle" speed="120"/>
         <animation file="biped/inf_sword_ready_d.dae" name="Idle" speed="120"/>
@@ -77,13 +42,20 @@
     <variant file="biped/gather_rock.xml"/>
     <variant file="biped/gather_ore.xml"/>
     <variant file="biped/gather_ruins.xml"/>
+    <variant file="biped/gather_praise.xml"/>
     <variant file="biped/build.xml"/>
-    <variant file="biped/death_infantry.xml"/>
+    <variant file="biped/build_farm.xml"/>
     <variant file="biped/carry_food.xml"/>
     <variant file="biped/carry_meat.xml"/>
     <variant file="biped/carry_wood.xml"/>
     <variant file="biped/carry_stone.xml"/>
     <variant file="biped/carry_metal.xml"/>
+    <variant file="biped/carry_food_idle.xml"/>
+    <variant file="biped/carry_meat_idle.xml"/>
+    <variant file="biped/carry_wood_idle.xml"/>
+    <variant file="biped/carry_stone_idle.xml"/>
+    <variant file="biped/carry_metal_idle.xml"/>
+    <variant file="biped/death_infantry.xml"/>
   </group>
   <material>player_trans.xml</material>
 </actor>

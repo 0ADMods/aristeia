@@ -18,6 +18,6 @@
     <Icon>units/egyptian_hero_pharao.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>units/egyptian/hero_pharao.xml</Actor>
+    <Actor>units/egyptian/hero_merneptah_chariot.xml</Actor>
   </VisualActor>
 </Entity>

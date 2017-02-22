@@ -6,7 +6,6 @@
       <animations>
         <animation file="quadraped/horse_idle_a.psa" name="Idle" speed="50"/>
         <animation file="quadraped/horse_walk.psa" name="Walk" speed="120"/>
-        <animation file="quadraped/horse_gallop.psa" name="Run" speed="40"/>
       </animations>
       <mesh>skeletal/horse.pmd</mesh>
       <props>
@@ -39,15 +38,11 @@
   </group>
   <group>
     <variant frequency="100" name="Idle"/>
-    <variant name="Run">
-      <props>
-        <prop actor="particle/dust_cav.xml" attachpoint="root"/>
-      </props>
-    </variant>
-    <variant file="quadraped/horse_attack_ranged_javelin.xml"/>
+    <variant file="quadraped/horse_attack_ranged.xml"/>
     <variant file="quadraped/horse_attack_slaughter.xml"/>
     <variant file="quadraped/horse_carry_meat.xml"/>
     <variant file="quadraped/horse_death.xml"/>
+    <variant file="quadraped/horse_run.xml"/>
   </group>
   <material>objectcolor.xml</material>
 </actor>
