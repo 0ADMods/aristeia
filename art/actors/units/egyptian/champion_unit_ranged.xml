@@ -2,27 +2,22 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant frequency="100" name="Base">
-      <animations>
-        <animation file="biped/inf_sword_ready_a.dae" name="Idle" speed="100"/>
-        <animation file="biped/walk_spearshield.psa" name="Walk" speed="120"/>
-        <animation file="infantry/sword/move/run/isw_s_off_01.psa" name="Run" speed="30"/>
-      </animations>
+    <variant file="biped/base_archer_ready.xml">
       <props>
         <prop actor="props/units/heads/egyptian_head_e2.xml" attachpoint="head"/>
         <prop actor="props/units/helmets/egyptian_nemes.xml" attachpoint="helmet"/>
-        <prop actor="props/units/weapons/bow_recurve.xml" attachpoint="l_hand"/>
+        <prop actor="props/units/weapons/bow_recurve.xml" attachpoint="weapon_L"/>
         <prop actor="props/temp/quiver.xml" attachpoint="back"/>
       </props>
     </variant>
   </group>
   <group>
     <variant frequency="1" name="tunic 2">
-     <mesh>skeletal/m_tunic_short.dae</mesh>
+     <mesh>skeletal/new/m_tunic_short.dae</mesh>
       <textures><texture file="skeletal/egyptian_lynoarmor.png" name="baseTex"/></textures>
     </variant>
     <variant frequency="1" name="tunic 3">
-      <mesh>skeletal/m_tunic_short.dae</mesh>
+      <mesh>skeletal/new/m_tunic_short.dae</mesh>
       <textures><texture file="skeletal/egyptian_ib1.png" name="baseTex"/></textures>
     </variant>
   </group>
