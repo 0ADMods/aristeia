@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_military_barracks">
+  <GarrisonHolder>
+    <List datatype="tokens">-Infantry</List>
+  </GarrisonHolder>
+  <Identity>
+    <GenericName>Stables</GenericName>
+    <Tooltip>Train cavalry. Research training improvements.</Tooltip>
+    <VisibleClasses datatype="tokens">-Barracks Stables</VisibleClasses>
+    <Icon>structures/pers_stable.png</Icon>
+    <RequiredTechnology>phase_town</RequiredTechnology>
+  </Identity>
+  <Loot>
+    <wood>30</wood>
+    <stone>10</stone>
+  </Loot>
+  <Obstruction>
+    <Static width="17.0" depth="17.0"/>
+  </Obstruction>
+  <ProductionQueue>
+    <BatchTimeModifier>0.8</BatchTimeModifier>
+    <Entities datatype="tokens">
+      -units/{civ}_infantry_spearman_b
+      -units/{civ}_infantry_pikeman_b
+      -units/{civ}_infantry_swordsman_b
+      -units/{civ}_infantry_javelinist_b
+      -units/{civ}_infantry_slinger_b
+      -units/{civ}_infantry_archer_b
+    </Entities>
+    <Technologies datatype="tokens">
+      -training_conscription
+      -heal_barracks
+    </Technologies>
+  </ProductionQueue>
+  <Sound>
+    <SoundGroups>
+      <select>interface/select/building/sel_cavalry_stables.xml</select>
+      <constructed>interface/complete/building/complete_cavalry_stables.xml</constructed>
+    </SoundGroups>
+  </Sound>
+  <VisualActor>
+    <Actor>structures/persians/stables.xml</Actor>
+    <FoundationActor>structures/fndn_4x4.xml</FoundationActor>
+  </VisualActor>
+</Entity>
