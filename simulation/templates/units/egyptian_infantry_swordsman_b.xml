@@ -3,8 +3,8 @@
   <Builder>
     <Entities datatype="tokens">
       -other/wallset_palisade
+      -structures/{civ}_sentry_tower
       -structures/{civ}_wonder
-      -structures/{civ}_wooden_tower
       structures/egyptian_wallset_small
       structures/egyptian_stables
       structures/egyptian_sb_sphinx

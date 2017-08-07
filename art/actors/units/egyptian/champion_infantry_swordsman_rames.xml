@@ -64,7 +64,7 @@
     <variant file="biped/attack_melee_swordsman.xml"/>
     <variant file="biped/attack_capture.xml"/>
     <variant file="biped/build.xml"/>
-    <variant file="biped/infantry_death.xml"/>
+    <variant file="biped/death_infantry.xml"/>
   </group>
   <material>player_trans.xml</material>
 </actor>

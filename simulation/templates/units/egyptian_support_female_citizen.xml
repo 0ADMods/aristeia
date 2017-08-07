@@ -10,6 +10,7 @@
   </Identity>
   <Builder>
     <Entities datatype="tokens">
+      -structures/{civ}_wonder
       structures/egyptian_sb_threshingfloor
     </Entities>
   </Builder>

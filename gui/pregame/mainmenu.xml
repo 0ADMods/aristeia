@@ -3,7 +3,6 @@
 <objects>
 	<script file="gui/common/music.js"/>
 	<script file="gui/common/functions_global_object.js"/>
-	<script file="gui/common/functions_utility_error.js"/>
 	<script file="gui/pregame/mainmenu.js"/>
 	<script directory="gui/pregame/backgrounds/"/>
 
@@ -13,27 +12,27 @@
 	- MAIN MENU
 	==========================================
 	-->
-	<object	name="mainMenuPage">
+	<object name="mainMenuPage">
 
 		<action on="Tick">
 			onTick();
 		</action>
 
 		<repeat count="5">
-			<object	name="background[n]"
+			<object name="background[n]"
 				type="image"
 				hidden="true"
 				ghost="true"
 			/>
 		</repeat>
-		
+
 		<!--
 		==========================================
 		- MAIN MENU - STATIC TOOLTIP WINDOW
 		==========================================
 		-->
 
-		<object	name="pgToolTip"
+		<object name="pgToolTip"
 			style="TranslucentPanel"
 			type="text"
 			hidden="true"
@@ -84,16 +83,7 @@
 				name="userReportEnabledText"
 				type="text"
 				style="userReportText"
-			>
-				<attribute id="caption">
-					<keep>[font="sans-bold-16"]</keep>
-					<translate>Thank you for helping improve 0 A.D.!</translate>
-					<keep>[/font]\n\n</keep>
-					<translate>Anonymous feedback is currently enabled.</translate>
-					<keep>\n</keep>
-					<translate>Status: $status.</translate>
-				</attribute>
-			</object>
+			/>
 
 			<object type="button" style="StoneButton" size="8 100%-36 146 100%-8">
 				<translatableAttribute id="caption">Disable Feedback</translatableAttribute>
@@ -117,9 +107,9 @@
 				closeMenu();
 			</action>
 		</object>
-		
+
 		<!-- hide submenu when user clicks on the background -->
-		<object	name="subMenuScreen" type="button">
+		<object name="subMenuScreen" type="button">
 			<action on="Press">
 				closeMenu();
 			</action>
@@ -156,11 +146,25 @@
 					</action>
 				</object>
 
+				<!-- START TUTORIAL BUTTON -->
+				<object name="startTutorialButton"
+					type="button"
+					style="StoneButtonFancy"
+					size="0 32 100% 60"
+					tooltip_style="pgToolTip"
+				>
+					<translatableAttribute id="caption">Tutorial</translatableAttribute>
+					<translatableAttribute id="tooltip">Start the economic tutorial.</translatableAttribute>
+					<action on="Press">
+						Engine.SwitchGuiPage("page_gamesetup.xml", { type: "offline", "tutorial": true });
+					</action>
+				</object>
+
 				<!-- STRUCTREE BUTTON -->
 				<object name="menuStrucTreeButton"
 					style="StoneButtonFancy"
 					type="button"
-					size="0 32 100% 60"
+					size="0 64 100% 92"
 					tooltip_style="pgToolTip"
 				>
 					<translatableAttribute id="caption">Structure Tree</translatableAttribute>
@@ -177,7 +181,7 @@
 				<object name="menuHistoryButton"
 					style="StoneButtonFancy"
 					type="button"
-					size="0 64 100% 92"
+					size="0 96 100% 124"
 					tooltip_style="pgToolTip"
 				>
 					<translatableAttribute id="caption">History</translatableAttribute>
@@ -191,7 +195,7 @@
 				</object>
 
 			</object>
-			
+
 			<!-- submenuSinglePlayer -->
 			<object name="submenuSinglePlayer"
 				type="image"
@@ -416,20 +420,20 @@
 			z="50"
 		>
 			<!-- These are used to make the right side blend in with the submenu -->
-			<object	name="MainMenuPanelRightBorderTop"
+			<object name="MainMenuPanelRightBorderTop"
 				type="image"
 				sprite="MainMenuPanelRightBorder"
 				ghost="true"
 				size="100%-2 0 100% 100%"
 			/>
-			<object	name="MainMenuPanelRightBorderBottom"
+			<object name="MainMenuPanelRightBorderBottom"
 				type="image"
 				sprite="MainMenuPanelRightBorder"
 				ghost="true"
 				size="100%-2 0 100% 100%"
 			/>
 
-			<object	name="productLogo"
+			<object name="productLogo"
 				type="image"
 				sprite="productLogo"
 				ghost="true"
@@ -450,10 +454,10 @@
 					tooltip_style="pgToolTip"
 				>
 					<translatableAttribute id="caption">Learn To Play</translatableAttribute>
-					<translatableAttribute id="tooltip">Learn how to play, discover the technology trees, and the history behind the civilizations</translatableAttribute>
+					<translatableAttribute id="tooltip">Learn how to play, start the tutorial, discover the technology trees, and the history behind the civilizations</translatableAttribute>
 					<action on="Press">
 						closeMenu();
-						openMenu("submenuLearn", (this.parent.size.top+this.size.top), (this.size.bottom-this.size.top), 3);
+						openMenu("submenuLearn", (this.parent.size.top+this.size.top), (this.size.bottom-this.size.top), 4);
 					</action>
 				</object>
 
@@ -473,7 +477,7 @@
 				</object>
 
 				<!-- MULTIPLAYER BUTTON -->
-				<object	name="menuMultiplayerButton"
+				<object name="menuMultiplayerButton"
 					style="StoneButtonFancy"
 					type="button"
 					size="4 68 100%-4 96"
@@ -532,10 +536,12 @@
 					<!-- IMPORTANT: remember to update session/top_panel/label.xml in sync with this: -->
 					<attribute id="caption">
 						<keep>[font="sans-bold-16"]</keep>
-						<translate>Aristeia Alpha XXI</translate>
-						<keep>[/font]\n</keep>
-						<translate>0 A.D. Alpha XXI</translate>
-						<keep>\n\n</keep>
+						<translate>Aristeia Bronziron</translate>
+						<keep>:\n</keep>
+						<translate>Peril of Nations</translate>
+						<keep>[/font]\n(</keep>
+						<translate>0 A.D. Alpha XXII</translate>
+						<keep>)\n\n</keep>
 						<translate>WARNING: This is an early development version of the game. Many features have not been added yet.</translate>
 					</attribute>
 				</object>
