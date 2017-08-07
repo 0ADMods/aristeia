@@ -1,0 +1,54 @@
+{
+	"Title": "Aristeia Bronziron",
+	"Content": [
+	{
+		"Title": "Aristeia",
+		"Subtitle": "Bronze-age Mod for 0AD",
+		"List": []
+	},
+	{
+		"Subtitle": "Historian and Design Documentation",
+		"List": [
+			{"nick": "zophim"}
+		]
+	},
+	{
+		"Subtitle": "Artists",
+		"List": [
+			{"nick": "Lion.Kanzen", "name": "Marcio Duron"},
+			{"nick": "niektb", "name": "Niek ten Brinke"},
+			{"nick": "stanislas69 (aka StanleySweet)", "name": "Stanislas Dolcini"}
+		]
+	},
+	{
+		"Subtitle": "Scripting",
+		"List": [
+			{"nick": "niektb", "name": "Niek ten Brinke"},
+			{"nick": "faerietree (aka Radagast)"},
+			{"nick": "s0600204", "name": "Matthew Norwood"},
+			{"nick": "sanderd17", "name": "Sander Deryckere"},
+			{"nick": "Thamlett", "name": "Timothy Hamlett"}
+		]
+	},
+	{
+		"Subtitle": "Music by Kevin MacLeod (incompetech.com)",
+		"List": [
+			{"name": "'Achilles', 'All This', 'Arcane', 'Chee Zee Caves V2', 'Crusade',"},
+			{"name": "'Dama-May', 'Desert City', 'Devastation and Revenge', 'Dhaka',"},
+			{"name": "'Digya', 'Dreamlike', 'Drums of the Deep', 'Errigal', 'Exciting Trailer',"},
+			{"name": "'Five Armies', 'Future Gladiator', 'Hero Down', 'Ibn Al-Noor',"},
+			{"name": "'Jalandhar', 'Lord of the Land', 'Morocco Sting', 'Not As It Seems',"},
+			{"name": "'Prelude and Action', 'Private Reflection', 'Senbazuru', 'Tempting Secrets',"},
+			{"name": "'The Complex', 'The Descent', 'The Pyre', 'Tikopia'"},
+			{"nick": "Licensed under Creative Commons: By Attribution 3.0"},
+			{"nick": "http://creativecommons.org/licenses/by/3.0"}
+		]
+	},
+	{
+		"Subtitle": "Keeping a watchful eye",
+		"List": [
+			{"nick": "leper", "name": "Georg Kilzer"}
+		]
+	}
+	]
+}
