@@ -2,56 +2,11 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant frequency="100" name="Base">
-      <animations>
-        <animation file="biped/inf_sword_ready_a.dae" name="Idle" speed="120"/>
-        <animation file="biped/inf_sword_ready_a.dae" name="Idle" speed="100"/>
-        <animation file="biped/inf_sword_ready_a.dae" name="Idle" speed="125"/>
-        <animation file="biped/inf_sword_ready_a.dae" name="Idle" speed="110"/>
-        <animation file="biped/inf_sword_ready_a.dae" name="Idle" speed="115"/>
-        <animation file="biped/inf_sword_ready_a.dae" name="Idle" speed="120"/>
-        <animation file="biped/inf_sword_ready_a.dae" name="Idle" speed="120"/>
-        <animation file="biped/inf_sword_ready_a.dae" name="Idle" speed="120"/>
-        <animation file="biped/inf_sword_ready_a.dae" name="Idle" speed="120"/>
-        <animation file="biped/inf_sword_ready_a.dae" name="Idle" speed="120"/>
-        <animation file="biped/inf_sword_ready_a.dae" name="Idle" speed="100"/>
-        <animation file="biped/inf_sword_ready_a.dae" name="Idle" speed="125"/>
-        <animation file="biped/inf_sword_ready_a.dae" name="Idle" speed="110"/>
-        <animation file="biped/inf_sword_ready_a.dae" name="Idle" speed="115"/>
-        <animation file="biped/inf_sword_ready_a.dae" name="Idle" speed="120"/>
-        <animation file="biped/inf_sword_ready_a.dae" name="Idle" speed="120"/>
-        <animation file="biped/inf_sword_ready_a.dae" name="Idle" speed="120"/>
-        <animation file="biped/inf_sword_ready_a.dae" name="Idle" speed="120"/>
-        <animation file="biped/inf_sword_ready_a.dae" name="Idle" speed="120"/>
-        <animation file="biped/inf_sword_ready_a.dae" name="Idle" speed="100"/>
-        <animation file="biped/inf_sword_ready_a.dae" name="Idle" speed="125"/>
-        <animation file="biped/inf_sword_ready_a.dae" name="Idle" speed="110"/>
-        <animation file="biped/inf_sword_ready_a.dae" name="Idle" speed="115"/>
-        <animation file="biped/inf_sword_ready_a.dae" name="Idle" speed="120"/>
-        <animation file="biped/inf_sword_ready_a.dae" name="Idle" speed="120"/>
-        <animation file="biped/inf_sword_ready_a.dae" name="Idle" speed="120"/>
-        <animation file="biped/inf_sword_ready_a.dae" name="Idle" speed="120"/>
-        <animation file="biped/inf_sword_ready_a.dae" name="Idle" speed="120"/>
-        <animation file="biped/inf_sword_ready_a.dae" name="Idle" speed="100"/>
-        <animation file="biped/inf_sword_ready_a.dae" name="Idle" speed="125"/>
-        <animation file="biped/inf_sword_ready_a.dae" name="Idle" speed="110"/>
-        <animation file="biped/inf_sword_ready_a.dae" name="Idle" speed="115"/>
-        <animation file="biped/inf_sword_ready_a.dae" name="Idle" speed="120"/>
-        <animation file="biped/inf_sword_ready_a.dae" name="Idle" speed="120"/>
-        <animation file="biped/inf_sword_ready_a.dae" name="Idle" speed="120"/>
-        <animation file="biped/inf_sword_ready_a.dae" name="Idle" speed="120"/>
-        <animation file="biped/inf_sword_ready_b.dae" name="Idle" speed="130"/>
-        <animation file="biped/inf_sword_ready_c.dae" name="Idle" speed="120"/>
-        <animation file="biped/inf_sword_ready_d.dae" name="Idle" speed="120"/>
-        <animation file="biped/walk_spearshield.psa" name="Walk" speed="115"/>
-        <animation file="biped/walk_spearshield.psa" name="Walk" speed="120"/>
-        <animation file="biped/walk_spearshield.psa" name="Walk" speed="125"/>
-        <animation file="infantry/sword/move/run/isw_s_off_01.psa" name="Run" speed="40"/>
-      </animations>
-      <mesh>skeletal/m_tunic_long.dae</mesh>
+    <variant file="biped/base_swordsman_shieldarm.xml">
+      <mesh>skeletal/new/m_tunic_long.dae</mesh>
       <props>
         <prop actor="props/units/heads/rgp_head.xml" attachpoint="head"/>
-        <prop actor="props/units/weapons/egyptian_axe_twohanded.xml" attachpoint="r_hand"/>
+        <prop actor="props/units/weapons/egyptian_axe_twohanded.xml" attachpoint="weapon_R"/>
         <prop actor="props/units/shields/egyptian_shield_b_rgp.xml" attachpoint="shield"/>
           </props>
       <textures>
@@ -61,7 +16,6 @@
   </group>
   <group>
     <variant frequency="1" name="Idle"/>
-    <variant file="biped/attack_melee_swordsman.xml"/>
     <variant file="biped/attack_capture.xml"/>
     <variant file="biped/build.xml"/>
     <variant file="biped/death_infantry.xml"/>
