@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_hero_infantry_swordsman">
+  <Identity>
+    <Civ>arcgreek</Civ>
+    <Lang>greek</Lang>
+    <GenericName>Lycurgus</GenericName>
+    <Icon>units/spart_hero_brasidas.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/arcgreek/hero_lycurgus.xml</Actor>
+  </VisualActor>
+</Entity>

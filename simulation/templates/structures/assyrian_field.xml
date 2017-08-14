@@ -3,9 +3,7 @@
   <Identity>
     <Civ>assyrian</Civ>
     <SpecificName>Eršu</SpecificName>
-    <History>
-      Assyria contains some good farmland, particularly in the Tigris-Euphrates confluence area.
-    </History>
+    <History>Assyria contains some good farmland, particularly in the Tigris-Euphrates confluence area.</History>
   </Identity>
   <VisualActor>
     <Actor>structures/egyptian/field.xml</Actor>

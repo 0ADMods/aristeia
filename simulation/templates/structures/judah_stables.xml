@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_military_stables">
+  <Footprint>
+    <Square width="28.5" depth="23.0"/>
+    <Height>5.0</Height>
+  </Footprint>
+  <Identity>
+    <Civ>judah</Civ>
+    <GenericName>Cavalry Stables</GenericName>
+    <Tooltip>Trains cavalry units.</Tooltip>
+  </Identity>
+  <Obstruction>
+    <Static width="27.5" depth="22.0"/>
+  </Obstruction>
+  <ProductionQueue>
+    <Entities datatype="tokens">
+      units/{civ}_champion_chariot
+    </Entities>
+  </ProductionQueue>
+  <VisualActor>
+    <Actor>structures/egyptian/stables.xml</Actor>
+  </VisualActor>
+</Entity>

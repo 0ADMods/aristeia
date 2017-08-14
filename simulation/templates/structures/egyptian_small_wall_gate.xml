@@ -5,6 +5,5 @@
     <SelectionGroupName>other/wallset_palisade</SelectionGroupName>
     <GenericName>Small Wall Gate</GenericName>
     <SpecificName>Ktt Jeneba</SpecificName><!-- small = ktt ; nDs-->
-    <History>A cheap, quick wooden gate</History>
   </Identity>
 </Entity>

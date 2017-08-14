@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_melee_spearman">
+  <Builder>
+    <Entities datatype="tokens">
+      -other/wallset_palisade
+      -structures/{civ}_sentry_tower
+      structures/{civ}_sb_council
+      structures/{civ}_sb_gymnasium
+    </Entities>
+  </Builder>
+  <Identity>
+    <Civ>arcgreek</Civ>
+    <Lang>greek</Lang>
+    <SelectionGroupName>units/arcgreek_infantry_spearman_b</SelectionGroupName>
+    <GenericName>Greek Hoplite</GenericName>
+    <Icon>units/spart_infantry_spearman.png</Icon>
+  </Identity>
+  <Promotion>
+    <Entity>units/arcgreek_infantry_spearman_a</Entity>
+  </Promotion>
+  <VisualActor>
+    <Actor>units/arcgreek/infantry_spearman_b.xml</Actor>
+  </VisualActor>
+</Entity>

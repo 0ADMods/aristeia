@@ -4,33 +4,18 @@
     <Entities datatype="tokens">
       -other/wallset_palisade
       -structures/{civ}_sentry_tower
-      -structures/{civ}_wonder
-      structures/egyptian_wallset_small
-      structures/egyptian_stables
-      structures/egyptian_sb_sphinx
-      structures/egyptian_sb_colossus
-      structures/egyptian_sb_monument
-      structures/egyptian_palace_theban
-      structures/egyptian_palace_ramesside
-      structures/egyptian_wonder_temple_mortuary
-      structures/egyptian_wonder_temple_karnak
+      structures/{civ}_wallset_small
+      structures/{civ}_stables
+      structures/{civ}_mercenary_camp
+      structures/{civ}_sb_monument
+      structures/{civ}_palace
     </Entities>
   </Builder>
-  <Cost>
-    <Resources>
-      <food>0</food>
-	  <metal>80</metal>
-    </Resources>
-  </Cost>
   <Identity>
     <Civ>egyptian</Civ>
     <SelectionGroupName>units/egyptian_infantry_swordsman_b</SelectionGroupName>
-    <GenericName>Libyan Mercenary Swordsman</GenericName>
-    <SpecificName>TmH</SpecificName>
-    <Classes datatype="tokens">Libyan Mercenary</Classes>
-    <History>Libyan soldiers were extensively employed by mid and late New Kingdom Pharaohs, including Thutmose III and Ramesses II.</History>
-    <Icon>units/egyptian_infantry_swordsman.png</Icon>
-    <RequiredTechnology>phase_town</RequiredTechnology>
+    <GenericName>Khopesh Warrior</GenericName>
+    <Icon>units/egyptian_champion_swordsman.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/egyptian_infantry_swordsman_a</Entity>

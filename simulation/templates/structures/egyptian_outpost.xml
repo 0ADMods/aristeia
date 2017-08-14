@@ -2,11 +2,20 @@
 <Entity parent="template_structure_defense_outpost">
   <Identity>
     <Civ>egyptian</Civ>
-    <GenericName>Watchtower</GenericName>
-    <SpecificName>Sewenuw Khety</SpecificName>
-    <History>Good serviceable wood was uncommon in ancient Egypt, and great quantities were imported from places such as Lebanon.</History>
   </Identity>
+  <Upgrade>
+    <Tower>
+      <Entity>structures/{civ}_defense_tower</Entity>
+      <Tooltip>Reinforce with stone and upgrade to a defense tower.</Tooltip>
+      <RequiredTechnology>phase_town</RequiredTechnology>
+      <Cost>
+        <wood>50</wood>
+        <stone>100</stone>
+      </Cost>
+      <Time>100</Time>
+    </Tower>
+  </Upgrade>
   <VisualActor>
-    <Actor>structures/egyptian/outpost.xml</Actor>
+    <Actor>structures/hellenes/outpost.xml</Actor>
   </VisualActor>
 </Entity>

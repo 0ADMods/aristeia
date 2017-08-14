@@ -1,16 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_infantry_melee_spearman">
+  <Builder>
+    <Entities datatype="tokens">
+      -other/wallset_palisade
+      -structures/{civ}_sentry_tower
+      structures/assyrian_stables
+      structures/assyrian_palace
+      structures/assyrian_sb_apartments
+      structures/assyrian_sb_warehouse
+      structures/assyrian_sb_workshop
+    </Entities>
+  </Builder>
   <Identity>
     <Civ>assyrian</Civ>
-    <GenericName>Assyrian Spearman</GenericName>
-    <History>Spearmen were the second most numerous arm of the Assyrian infantry service; many of these soldiers were called up from conquered Neo-Hittite states.</History>
     <SelectionGroupName>units/assyrian_infantry_spearman_b</SelectionGroupName>
-    <Tooltip>Heavy melee infantry constituting the main battle line.</Tooltip>
+    <GenericName>Hittite Spearman</GenericName>
+    <Icon>units/cart_infantry_spearman.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/assyrian_infantry_spearman_a</Entity>
   </Promotion>
   <VisualActor>
-    <Actor>units/persians/infantry_spearman_b.xml</Actor>
+    <Actor>units/assyrian/infantry_spearman_b.xml</Actor>
   </VisualActor>
 </Entity>

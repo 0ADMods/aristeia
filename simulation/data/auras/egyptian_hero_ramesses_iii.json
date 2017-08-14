@@ -1,9 +1,0 @@
-{
-	"type": "global",
-	"affects": ["Ship"],
-	"modifications": [
-		{ "value": "Cost/BuildTime", "multiply": 0.9 }
-	],
-	"auraName": "Naval Commander",
-	"auraDescription": "Increased construction speed for all naval vessels during his lifetime."
-}

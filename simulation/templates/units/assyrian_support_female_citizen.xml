@@ -2,15 +2,11 @@
 <Entity parent="template_unit_support_female_citizen">
   <Identity>
     <Civ>assyrian</Civ>
-    <SpecificName>Awīltu</SpecificName>
-    <GenericName>{civ} Woman</GenericName>
-    <Icon>units/{civ}_female_citizen.png</Icon>
-    <SelectionGroupName>units/{civ}_support_female_citizen</SelectionGroupName>
-    <History>
-      Both native and assimilated Assyrian women experienced a wide range of stations and conditions in life. Generally speaking, upper-class Assyrian women enjoyed a relatively fine, well-to-do lifestyle, in contrast to the rustic labouring existence of many peasant women.
-     </History>
+    <GenericName>Assyrian Woman</GenericName>
+    <Icon>units/pers_support_female_citizen.png</Icon>
+    <SelectionGroupName>units/assyrian_support_female_citizen</SelectionGroupName>
   </Identity>
   <VisualActor>
-    <Actor>units/persians/female_citizen.xml</Actor>
+    <Actor>units/assyrian/female_citizen.xml</Actor>
   </VisualActor>
 </Entity>

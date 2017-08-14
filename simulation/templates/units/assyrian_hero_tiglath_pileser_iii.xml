@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_hero_cavalry_archer">
+  <Identity>
+    <Civ>assyrian</Civ>
+    <GenericName>Tiglath-pileser III</GenericName>
+    <Icon>units/pers_hero_darius.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/assyrian/hero_tiglath_pileser_iii_chariot.xml</Actor>
+  </VisualActor>
+</Entity>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_champion_infantry_axeman">
+  <Auras datatype="tokens">
+    units/battlefield_leadership
+  </Auras>
+  <Identity>
+    <Civ>egyptian</Civ>
+    <Classes datatype="tokens">Officer</Classes>
+    <GenericName>Egyptian Officer</GenericName>
+    <Icon>units/egyptian_infantry_axeman_b_256x256.png</Icon>
+    <History>Bronze axes, along with khopesh swords, daggers, and clubs, served as side arms for Egyptian melee infantry. Two-handed axes were used in the mid-to-later New Kingdom, and also saw usage by other cultures at the time, such as the Canaanites.</History>
+  </Identity>
+  <TrainingRestrictions>
+    <Category>Officer</Category>
+  </TrainingRestrictions>
+  <VisualActor>
+    <Actor>units/egyptian/champion_infantry_axeman.xml</Actor>
+  </VisualActor>
+</Entity>

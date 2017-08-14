@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_economic_market">
+  <Identity>
+    <Civ>arcgreek</Civ>
+    <SpecificName>Empórios</SpecificName>
+    <History>Most Hellenic cities were centers of trade. The Empórios is the Hellenic marketplace, where commerce and trading occur.</History>
+  </Identity>
+  <VisualActor>
+    <Actor>structures/hellenes/market.xml</Actor>
+  </VisualActor>
+</Entity>

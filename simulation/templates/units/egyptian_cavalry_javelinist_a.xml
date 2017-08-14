@@ -4,7 +4,4 @@
     <Rank>Advanced</Rank>
   </Identity>
   <Promotion disable=""/>
-  <VisualActor>
-    <Actor>units/egyptian/cavalry_javelinist_a.xml</Actor>
-  </VisualActor>
 </Entity>

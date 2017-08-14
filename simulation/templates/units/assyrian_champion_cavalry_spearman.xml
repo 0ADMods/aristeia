@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_champion_cavalry_spearman">
+  <Identity>
+    <Civ>assyrian</Civ>
+    <GenericName>Royal Bodyguard Cavalryman</GenericName>
+    <Icon>units/pers_champion_cavalry.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/assyrian/champion_cavalry_spearman.xml</Actor>
+  </VisualActor>
+</Entity>

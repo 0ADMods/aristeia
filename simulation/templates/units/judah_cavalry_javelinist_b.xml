@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_cavalry_ranged_javelinist">
+  <Identity>
+    <Civ>judah</Civ>
+    <SelectionGroupName>units/judah_cavalry_javelinist_b</SelectionGroupName>
+    <GenericName>Judahite Horseman</GenericName>
+    <Icon>units/cart_cavalry_javelinist.png</Icon>
+  </Identity>
+  <Promotion disable=""/>
+  <VisualActor>
+    <Actor>units/judah/cavalry_javelinist_b.xml</Actor>
+  </VisualActor>
+</Entity>

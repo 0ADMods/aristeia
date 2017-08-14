@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_support_female_citizen">
+  <Builder>
+    <Entities datatype="tokens">
+      structures/{civ}_sb_threshingfloor
+    </Entities>
+  </Builder>
+  <Identity>
+    <Civ>judah</Civ>
+    <GenericName>Judahite Woman</GenericName>
+    <Icon>units/pers_support_female_citizen.png</Icon>
+    <SelectionGroupName>units/judah_support_female_citizen</SelectionGroupName>
+  </Identity>
+  <VisualActor>
+    <Actor>units/judah/female_citizen.xml</Actor>
+  </VisualActor>
+</Entity>

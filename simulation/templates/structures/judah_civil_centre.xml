@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_civic_civil_centre">
+  <Health>
+    <SpawnEntityOnDeath>rubble/rubble_kart_cc</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Civ>judah</Civ>
+  </Identity>
+  <ProductionQueue>
+    <Entities datatype="tokens">
+      units/{civ}_infantry_spearman_b
+      units/{civ}_infantry_spearman_2_b
+      units/{civ}_infantry_archer_a
+      units/{civ}_cavalry_javelinist_b
+    </Entities>
+  </ProductionQueue>
+  <VisualActor>
+    <Actor>structures/carthaginians/civil_centre.xml</Actor>
+  </VisualActor>
+</Entity>

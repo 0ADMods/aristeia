@@ -4,25 +4,13 @@
     <Entities datatype="tokens">
       -other/wallset_palisade
       -structures/{civ}_sentry_tower
-      -structures/{civ}_wonder
-      structures/egyptian_wallset_small
-      structures/egyptian_stables
-      structures/egyptian_sb_sphinx
-      structures/egyptian_sb_colossus
-      structures/egyptian_sb_monument
-      structures/egyptian_palace_theban
-      structures/egyptian_palace_ramesside
-      structures/egyptian_wonder_temple_mortuary
-      structures/egyptian_wonder_temple_karnak
+      structures/{civ}_wallset_small
+      structures/{civ}_stables
+      structures/{civ}_mercenary_camp
+      structures/{civ}_sb_monument
+      structures/{civ}_palace
     </Entities>
   </Builder>
-  <Cost>
-    <Resources>
-      <food>0</food>
-      <wood>50</wood>
-      <metal>50</metal>
-    </Resources>
-  </Cost>
   <Identity>
     <Civ>egyptian</Civ>
     <SelectionGroupName>units/egyptian_infantry_javelinist_b</SelectionGroupName>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_melee_spearman">
+  <Builder>
+    <Entities datatype="tokens">
+      -other/wallset_palisade
+      -structures/{civ}_sentry_tower
+      structures/{civ}_stables
+      structures/{civ}_palace
+    </Entities>
+  </Builder>
+  <Identity>
+    <Civ>judah</Civ>
+    <SelectionGroupName>units/judah_infantry_spearman_2_b</SelectionGroupName>
+    <GenericName>Levite Guard</GenericName>
+    <Icon>units/sele_infantry_spearman_2.png</Icon>
+  </Identity>
+  <Promotion>
+    <Entity>units/judah_infantry_spearman_2_a</Entity>
+  </Promotion>
+  <VisualActor>
+    <Actor>units/judah/infantry_spearman_2_b.xml</Actor>
+  </VisualActor>
+</Entity>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_melee_swordsman">
+  <Builder>
+    <Entities datatype="tokens">
+      -other/wallset_palisade
+      -structures/{civ}_sentry_tower
+      structures/{civ}_wallset_small
+      structures/{civ}_stables
+      structures/{civ}_mercenary_camp
+      structures/{civ}_sb_monument
+      structures/{civ}_palace
+    </Entities>
+  </Builder>
+  <Identity>
+    <Civ>egyptian</Civ>
+    <VisibleClasses datatype="tokens">Mercenary</VisibleClasses>
+    <SelectionGroupName>units/egyptian_infantry_swordsman_merc_b</SelectionGroupName>
+    <GenericName>Libyan Swordsman</GenericName>
+    <Icon>units/egyptian_infantry_swordsman.png</Icon>
+  </Identity>
+  <Promotion>
+    <Entity>units/egyptian_infantry_swordsman_merc_a</Entity>
+  </Promotion>
+  <VisualActor>
+    <Actor>units/egyptian/infantry_swordsman_merc_b.xml</Actor>
+  </VisualActor>
+</Entity>

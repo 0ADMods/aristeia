@@ -1,0 +1,65 @@
+{
+	"Code": "arcgreek",
+	"Culture": ["helle"],
+	"Name": "Archaic Hellenes",
+	"Emblem": "session/portraits/emblems/emblem_arcgreek.png",
+	"History": "",
+	"Music":
+	[
+		{"File":"Forging_a_City-State.ogg", "Type":"peace"}
+	],
+	"Factions": [],
+	"CivBonuses": [],
+	"TeamBonuses": [],
+	"Structures": [],
+	"StartEntities":
+	[
+		{
+			"Template": "structures/arcgreek_civil_centre"
+		},
+		{
+			"Template": "units/arcgreek_support_female_citizen",
+			"Count": 4
+		},
+		{
+			"Template": "units/arcgreek_infantry_spearman_b",
+			"Count": 2
+		},
+		{
+			"Template": "units/arcgreek_infantry_javelinist_b",
+			"Count": 2
+		},
+		{
+			"Template": "units/arcgreek_cavalry_javelinist_b"
+		},
+		{
+			"Template": "units/arcgreek_support_slave"
+		}
+	],
+	"AINames":
+	[
+	],
+	"Formations":
+	[
+		"formations/null",
+		"formations/box",
+		"formations/column_closed",
+		"formations/line_closed",
+		"formations/column_open",
+		"formations/line_open",
+		"formations/flank",
+		"formations/skirmish",
+		"formations/wedge",
+		"formations/battle_line",
+		"formations/phalanx"
+	],
+	"SkirmishReplacements":
+	{
+		"skirmish/units/default_infantry_melee_b": "units/arcgreek_infantry_spearman_b",
+		"skirmish/units/default_infantry_ranged_b": "units/arcgreek_infantry_javelinist_b",
+		"skirmish/units/default_cavalry": "units/arcgreek_cavalry_javelinist_b",
+		"skirmish/units/special_starting_unit": "units/arcgreek_support_slave",
+		"skirmish/structures/default_house_5": "structures/{civ}_house"
+	},
+	"SelectableInGameSetup": true
+}

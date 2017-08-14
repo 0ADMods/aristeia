@@ -2,24 +2,25 @@
 <Entity parent="template_unit_infantry_ranged_slinger">
   <Builder>
     <Entities datatype="tokens">
-      structures/assyrian_monument
+      -other/wallset_palisade
+      -structures/{civ}_sentry_tower
+      structures/assyrian_stables
+      structures/assyrian_palace
+      structures/assyrian_sb_apartments
+      structures/assyrian_sb_warehouse
+      structures/assyrian_sb_workshop
     </Entities>
   </Builder>
   <Identity>
     <Civ>assyrian</Civ>
     <SelectionGroupName>units/assyrian_infantry_slinger_b</SelectionGroupName>
-    <GenericName>Israelite Slinger</GenericName>
-    <SpecificName>Sādiu
-    </SpecificName>
-    <Icon>units/assyrian_infantry_slinger.png</Icon>
-    <History>
-        Slingers were the least numerous of the three main types of Assyrian infantry; they are primarily depicted at sieges in the surviving reliefs. Many Israelite captives were drafted as auaxiliaries by Tiglath-pileser III and Sargon II.
-    </History>
-    <RequiredTechnology>phase_town</RequiredTechnology>
+    <GenericName>Hebrew Slinger</GenericName>
+    <Icon>units/iber_infantry_slinger.png</Icon>
   </Identity>
-  <Promotion disable=""/>
+  <Promotion>
+    <Entity>units/assyrian_infantry_slinger_a</Entity>
+  </Promotion>
   <VisualActor>
-    <!--<Actor>units/israelite/infantry_slinger.xml</Actor>-->
-    <Actor>units/athenians/infantry_slinger_b.xml</Actor>
+    <Actor>units/assyrian/infantry_slinger_b.xml</Actor>
   </VisualActor>
 </Entity>

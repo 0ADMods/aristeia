@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_ranged_slinger">
+  <Builder>
+    <Entities datatype="tokens">
+      -other/wallset_palisade
+      -structures/{civ}_sentry_tower
+      structures/{civ}_stables
+      structures/{civ}_palace
+    </Entities>
+  </Builder>
+  <Identity>
+    <Civ>judah</Civ>
+    <SelectionGroupName>units/judah_infantry_slinger_b</SelectionGroupName>
+    <GenericName>Benjamite Slinger</GenericName>
+    <Icon>units/iber_infantry_slinger.png</Icon>
+  </Identity>
+  <Promotion>
+    <Entity>units/judah_infantry_slinger_a</Entity>
+  </Promotion>
+  <VisualActor>
+    <Actor>units/judah/infantry_slinger_b.xml</Actor>
+  </VisualActor>
+</Entity>

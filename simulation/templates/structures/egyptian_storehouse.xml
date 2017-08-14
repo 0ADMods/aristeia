@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_economic_storehouse">
-	<Footprint>
-		<Square width="18.0" depth="18.0"/>
-		<Height>8.0</Height>
-	</Footprint>
-	<Identity>
-		<Civ>egyptian</Civ>
-		<SpecificName>h-n-ḫt.w</SpecificName>
-		<History>The rich harvest of Egypt's natural resources required the construction and maintenance of many storage facilities.</History>
-	</Identity>
-	<ProductionQueue>
-		<Technologies datatype="tokens">
+  <Footprint>
+  <Square width="18.0" depth="18.0"/>
+    <Height>8.0</Height>
+  </Footprint>
+  <Identity>
+    <Civ>egyptian</Civ>
+    <SpecificName>h-n-ḫt.w</SpecificName>
+    <History>The rich harvest of Egypt's natural resources required the construction and maintenance of many storage facilities.</History>
+  </Identity>
+  <ProductionQueue>
+    <Technologies datatype="tokens">
       -gather_lumbering_ironaxes
       -gather_lumbering_strongeraxes
       -gather_lumbering_sharpaxes
@@ -24,12 +24,12 @@
       egyptian/gather_mining_limestoneQuarry
       egyptian/gather_mining_electrumMine
       egyptian/gather_mining_goldMine
-		</Technologies>
-	</ProductionQueue>
-	<Obstruction>
-		<Static width="16.0" depth="16.0"/>
-	</Obstruction>
-	<VisualActor>
-		<Actor>structures/ptolemies/storehouse.xml</Actor>
-	</VisualActor>
+    </Technologies>
+  </ProductionQueue>
+  <Obstruction>
+    <Static width="16.0" depth="16.0"/>
+  </Obstruction>
+  <VisualActor>
+    <Actor>structures/ptolemies/storehouse.xml</Actor>
+  </VisualActor>
 </Entity>

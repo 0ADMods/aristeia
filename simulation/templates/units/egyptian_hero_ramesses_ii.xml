@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_hero_cavalry_archer">
   <Auras datatype="tokens">
-    egyptian_hero_common
-    egyptian_hero_ramesses_ii
+    units/heroes/egyptian_hero_common
   </Auras>
   <Builder>
     <Rate>1.0</Rate>
@@ -15,15 +14,10 @@
   </Cost>
   <Identity>
     <Civ>egyptian</Civ>
-    <GenericName>Ramesses II the Great</GenericName>
-    <SpecificName>Riʻmīsisu</SpecificName>
-    <Tooltip>"Chariot Commander"</Tooltip>
-    <History>Widely regarded as one of the greatest Pharaohs, though perhaps in large measure because his self-promoting efforts succeeded so well, Ramesses II nonetheless brought Egypt to great heights of military prowess, although he very nearly met disaster in the famous Battle of Kadesh against the Hittites, with whom he afterwards concluded an historic peace treaty.</History>
-    <Classes datatype="tokens">RamessesII</Classes>
+    <GenericName>Ramesses II</GenericName>
     <Icon>units/egyptian_hero_pharao.png</Icon>
-    <RequiredTechnology>egyptian/phase_city_ramesside</RequiredTechnology>
   </Identity>
   <VisualActor>
-    <Actor>units/egyptian/hero_pharao.xml</Actor>
+    <Actor>units/egyptian/hero_ramesses_ii_chariot.xml</Actor>
   </VisualActor>
 </Entity>

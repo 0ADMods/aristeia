@@ -1,9 +1,0 @@
-{
-	"type": "global",
-	"affects": ["Structure"],
-	"modifications": [
-		{ "value": "Cost/BuildTime", "multiply": 0.75 }
-	],
-	"auraName": "Builder of the Land",
-	"auraDescription": "All buildings take 25% less time to construct during his lifetime."
-}

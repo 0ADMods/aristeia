@@ -1,16 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_hero_infantry_archer">
-  <Auras datatype="tokens">
-    assyr_hero_ashurbanipal
-  </Auras>
+<Entity parent="template_unit_hero_cavalry_archer">
   <Identity>
     <Civ>assyrian</Civ>
-    <GenericName>Xerxes I</GenericName>
-    <SpecificName>Xsayarsa I</SpecificName>
-    <Icon>units/assyrian_hero_xerxes.png</Icon>
-    <History>(King, 485 BC - 465 BC) The son of Darius the Great and Atoosa, a daughter of Cyrus the Great, Xerxes was an able administrator, who also extended Imperial rule into Chorasmia. Apart from his failed invasion of Greece, he was famous for his extensive building program, especially at Persepolis.</History>
+    <GenericName>Ashurbanipal</GenericName>
+    <Icon>units/pers_hero_cyrus.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>units/assyrian/hero_ashurbanipal.xml</Actor>
+    <Actor>units/assyrian/hero_ashurbanipal_chariot.xml</Actor>
   </VisualActor>
 </Entity>

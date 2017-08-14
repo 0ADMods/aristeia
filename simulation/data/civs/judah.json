@@ -1,0 +1,60 @@
+{
+	"Code": "judah",
+	"Culture": ["hebrew"],
+	"Name": "Divided Kingdom Judahites",
+	"Emblem": "session/portraits/emblems/emblem_judahites.png",
+	"History": "",
+	"Music":
+	[
+		{"File":"Forging_a_City-State.ogg", "Type":"peace"}
+	],
+	"Factions": [],
+	"CivBonuses": [],
+	"TeamBonuses": [],
+	"Structures": [],
+	"StartEntities":
+	[
+		{
+			"Template": "structures/judah_civil_centre"
+		},
+		{
+			"Template": "units/judah_support_female_citizen",
+			"Count": 4
+		},
+		{
+			"Template": "units/judah_infantry_swordsman_b",
+			"Count": 2
+		},
+		{
+			"Template": "units/judah_infantry_archer_b",
+			"Count": 2
+		},
+		{
+			"Template": "units/judah_infantry_spearman_2_b"
+		}
+	],
+	"AINames":
+	[
+	],
+	"Formations":
+	[
+		"formations/null",
+		"formations/box",
+		"formations/column_closed",
+		"formations/line_closed",
+		"formations/column_open",
+		"formations/line_open",
+		"formations/flank",
+		"formations/skirmish",
+		"formations/wedge",
+		"formations/battle_line",
+		"formations/phalanx"
+	],
+	"SkirmishReplacements":
+	{
+		"skirmish/units/default_infantry_melee_b": "units/judah_infantry_spearman_2_b",
+		"skirmish/units/default_infantry_ranged_b": "units/judah_infantry_archer_a",
+		"skirmish/units/default_cavalry": "units/judah_cavalry_javelinist_b"
+	},
+	"SelectableInGameSetup": true
+}

@@ -5,17 +5,17 @@
     <variant file="biped/base_swordsman_shieldsmall_fast.xml">
       <mesh>skeletal/new/m_tunic_short.dae</mesh>
       <props>
-        <prop actor="props/units/helmets/egyptian_hair_a.xml" attachpoint="head"/>
+        <prop actor="props/units/helmets/egyptian_helmet_a.xml" attachpoint="head"/>
         <prop actor="props/units/heads/egyptian_head_e.xml" attachpoint="head"/>
-        <prop actor="props/units/weapons/spatha.xml" attachpoint="weapon_R"/>
-        <prop actor="props/units/cape_hd.xml" attachpoint="root"/>
+        <prop actor="props/units/shields/egyptian_shield_b.xml" attachpoint="shield"/>
+        <prop actor="props/units/weapons/egyptian_khopesh.xml" attachpoint="weapon_R"/>
       </props>
     </variant>
   </group>
   <group>
     <variant frequency="1" name="pectoral--plain">
       <textures>
-        <texture file="skeletal/Lybian_m.png" name="baseTex"/>
+        <texture file="skeletal/egyptian_axemanrg.png" name="baseTex"/>
       </textures>
     </variant>
   </group>
@@ -30,13 +30,20 @@
     <variant file="biped/gather_rock.xml"/>
     <variant file="biped/gather_ore.xml"/>
     <variant file="biped/gather_ruins.xml"/>
+    <variant file="biped/gather_praise.xml"/>
     <variant file="biped/build.xml"/>
-    <variant file="biped/death_infantry.xml"/>
+    <variant file="biped/build_farm.xml"/>
     <variant file="biped/carry_food.xml"/>
     <variant file="biped/carry_meat.xml"/>
     <variant file="biped/carry_wood.xml"/>
     <variant file="biped/carry_stone.xml"/>
     <variant file="biped/carry_metal.xml"/>
+    <variant file="biped/carry_food_idle.xml"/>
+    <variant file="biped/carry_meat_idle.xml"/>
+    <variant file="biped/carry_wood_idle.xml"/>
+    <variant file="biped/carry_stone_idle.xml"/>
+    <variant file="biped/carry_metal_idle.xml"/>
+    <variant file="biped/death_infantry.xml"/>
   </group>
   <material>player_trans.xml</material>
 </actor>

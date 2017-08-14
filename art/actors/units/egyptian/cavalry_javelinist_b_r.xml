@@ -29,6 +29,7 @@
     <variant file="biped/rider_attack_slaughter.xml"/>
     <variant file="biped/rider_carry_meat.xml"/>
     <variant file="biped/rider_gather_meat.xml"/>
+    <variant file="biped/gather_praise.xml"/>
     <variant file="biped/rider_death.xml"/>
   </group>
   <material>player_trans.xml</material>

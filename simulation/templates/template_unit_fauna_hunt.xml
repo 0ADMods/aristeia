@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_fauna">
+  <Health>
+    <Max>50</Max>
+    <DeathType>remain</DeathType>
+  </Health>
+  <Identity>
+    <Classes datatype="tokens">Huntable</Classes>
+  </Identity>
+  <Loot>
+    <xp>10</xp>
+  </Loot>
+  <ResourceSupply>
+    <KillBeforeGather>true</KillBeforeGather>
+    <Amount>100</Amount>
+    <Type>food.meat</Type>
+    <MaxGatherers>8</MaxGatherers>
+  </ResourceSupply>
+</Entity>

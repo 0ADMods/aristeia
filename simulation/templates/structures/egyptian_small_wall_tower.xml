@@ -13,7 +13,6 @@
     <SelectionGroupName>other/wallset_palisade</SelectionGroupName>
     <GenericName>Stone Wall</GenericName>
     <SpecificName>Wall</SpecificName>
-    <History>Wall meant to keep unwelcome visitors out.</History>
   </Identity>
   <VisualActor>
     <Actor>structures/egyptian/small_wall_tower.xml</Actor>

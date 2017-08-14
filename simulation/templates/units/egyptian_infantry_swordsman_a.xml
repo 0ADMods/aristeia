@@ -6,7 +6,4 @@
   <Promotion>
     <Entity>units/egyptian_infantry_swordsman_e</Entity>
   </Promotion>
-  <VisualActor>
-    <Actor>units/egyptian/infantry_swordsman_b.xml</Actor>
-  </VisualActor>
 </Entity>

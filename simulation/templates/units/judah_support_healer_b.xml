@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_support_healer">
+  <Identity>
+    <Civ>judah</Civ>
+    <SelectionGroupName>units/judah_support_healer_b</SelectionGroupName>
+    <GenericName>Priest of YHWH</GenericName>
+    <Icon>units/pers_support_healer.png</Icon>
+    <Rank>Basic</Rank>
+  </Identity>
+  <Promotion disable=""/>
+  <VisualActor>
+    <Actor>units/judah/healer.xml</Actor>
+  </VisualActor>
+</Entity>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_wonder">
+  <Auras datatype="tokens">
+    structures/epic_temple_heal
+  </Auras>
+  <Footprint>
+    <Square width="40.0" depth="24.0"/>
+    <Height>8.0</Height>
+  </Footprint>
+  <Health>
+    <Max>4400</Max>
+    <SpawnEntityOnDeath>rubble/rubble_stone_6x6</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Civ>assyrian</Civ>
+    <SpecificName>Great Temple of Shamash</SpecificName>
+    <History>Built at Hatra.</History>
+  </Identity>
+  <Obstruction>
+    <Static width="38.5" depth="22.5"/>
+  </Obstruction>
+  <StatusBars>
+    <BarWidth>6.0</BarWidth>
+    <BarHeight>0.6</BarHeight>
+    <HeightOffset>12.0</HeightOffset>
+  </StatusBars>
+  <TerritoryInfluence>
+    <Radius>100</Radius>
+  </TerritoryInfluence>
+  <Vision>
+    <Range>72</Range>
+  </Vision>
+  <VisualActor>
+    <Actor>structures/persians/palace.xml</Actor>
+    <FoundationActor>structures/fndn_6x6.xml</FoundationActor>
+  </VisualActor>
+</Entity>

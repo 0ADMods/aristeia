@@ -3,9 +3,7 @@
   <Identity>
     <Civ>assyrian</Civ>
     <SpecificName>Arû</SpecificName>
-    <History>
-      Assyria contained some good farmland, particularly in the Tigris-Euphrates confluence area.
-    </History>
+    <History>Assyria contained some good farmland, particularly in the Tigris-Euphrates confluence area.</History>
   </Identity>
   <VisualActor>
     <Actor>structures/persians/farmstead.xml</Actor>
