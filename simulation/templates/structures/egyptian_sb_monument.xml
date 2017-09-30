@@ -22,7 +22,7 @@
   <GarrisonHolder disable=""/>
   <Health>
     <Max>1000</Max>
-    <SpawnEntityOnDeath>rubble/rubble_1x1</SpawnEntityOnDeath>
+    <SpawnEntityOnDeath>decay|rubble/rubble_1x1</SpawnEntityOnDeath>
   </Health>
   <Identity>
     <Civ>egyptian</Civ>
