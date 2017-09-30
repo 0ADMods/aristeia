@@ -28,8 +28,8 @@
     <VisibleClasses datatype="tokens">Melee Axe</VisibleClasses>
     <GenericName>Champion Axeman</GenericName>
     <Formations datatype="tokens">
-      formations/phalanx
-      formations/testudo
+      special/formations/phalanx
+      special/formations/testudo
     </Formations>
   </Identity>
   <UnitMotion>
