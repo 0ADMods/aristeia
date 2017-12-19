@@ -32,7 +32,7 @@
   <Identity>
     <Civ>pers</Civ>
     <GenericName>Warehouse</GenericName>
-    <Classes datatype="tokens">DropsiteWood DropsiteMetal DropsiteStone -ConquestCritical SpecialBuilding</Classes>
+    <Classes datatype="tokens">DropsiteWood DropsiteMetal DropsiteStone SpecialBuilding</Classes>
     <VisibleClasses datatype="tokens">Town Storehouse</VisibleClasses>
     <RequiredTechnology>phase_town</RequiredTechnology>
     <Icon>structures/storehouse.png</Icon>
