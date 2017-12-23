@@ -17,4 +17,7 @@
   <VisualActor>
     <Actor>structures/egyptian/small_wall_short.xml</Actor>
   </VisualActor>
+  <WallPiece>
+    <Length>3.7</Length>
+  </WallPiece>
 </Entity>

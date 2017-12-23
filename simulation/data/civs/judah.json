@@ -12,6 +12,10 @@
 	"CivBonuses": [],
 	"TeamBonuses": [],
 	"Structures": [],
+	"WallSets":
+	[
+		"structures/judah_wallset_stone"
+	],
 	"StartEntities":
 	[
 		{

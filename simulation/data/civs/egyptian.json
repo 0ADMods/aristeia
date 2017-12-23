@@ -40,6 +40,11 @@
 		}
 	],
 	"Structures": [],
+	"WallSets":
+	[
+		"structures/egyptian_wallset_small",
+		"structures/egyptian_wallset_stone"
+	],
 	"StartEntities":
 	[
 		{

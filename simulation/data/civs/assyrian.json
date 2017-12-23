@@ -12,6 +12,10 @@
 	"CivBonuses": [],
 	"TeamBonuses": [],
 	"Structures": [],
+	"WallSets":
+	[
+		"structures/assyrian_wallset_stone"
+	],
 	"StartEntities":
 	[
 		{

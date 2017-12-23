@@ -6,4 +6,7 @@
     <GenericName>Small Wall Gate</GenericName>
     <SpecificName>Ktt Jeneba</SpecificName><!-- small = ktt ; nDs-->
   </Identity>
+  <WallPiece>
+    <Length>13.1</Length>
+  </WallPiece>
 </Entity>

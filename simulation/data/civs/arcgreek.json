@@ -12,6 +12,10 @@
 	"CivBonuses": [],
 	"TeamBonuses": [],
 	"Structures": [],
+	"WallSets":
+	[
+		"structures/arcgreek_wallset_stone"
+	],
 	"StartEntities":
 	[
 		{

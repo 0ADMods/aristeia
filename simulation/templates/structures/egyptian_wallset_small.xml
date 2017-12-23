@@ -13,6 +13,8 @@
       <WallLong>structures/egyptian_small_wall_long</WallLong>
       <WallMedium>structures/egyptian_small_wall_medium</WallMedium>
       <WallShort>structures/egyptian_small_wall_short</WallShort>
+      <WallCurves replace=""/>
+      <WallEnd replace=""/>
     </Templates>
   </WallSet>
 </Entity>
