@@ -1,5 +1,0 @@
-<variant name="attack_melee">
-  <animations>
-    <animation event="0.5" file="cavalry/spear/attack/rider_spear_shield_atk_a.psa" name="attack_melee" speed="400"/>
-  </animations>
-</variant>

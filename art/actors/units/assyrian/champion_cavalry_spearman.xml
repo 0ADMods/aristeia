@@ -2,21 +2,8 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant frequency="1" name="Base">
-      <animations>
-        <animation file="quadraped/horse_idle_a.psa" name="Idle" speed="300"/>
-        <animation file="quadraped/horse_idle_a.psa" name="Idle" speed="290"/>
-        <animation file="quadraped/horse_idle_a.psa" name="Idle" speed="280"/>
-        <animation file="quadraped/horse_idle_a.psa" name="Idle" speed="275"/>
-        <animation file="quadraped/horse_idle_a.psa" name="Idle" speed="200"/>
-        <animation file="quadraped/horse_idle_a.psa" name="Idle" speed="100"/>
-        <animation file="quadraped/horse_attack_a.psa" name="Idle" speed="350"/>
-        <animation file="quadraped/horse_attack_b.psa" name="Idle" speed="375"/>
-        <animation file="quadraped/horse_walk.psa" name="Walk" speed="122"/>
-        <animation file="quadraped/horse_walk.psa" name="Walk" speed="130"/>
-        <animation file="quadraped/horse_walk.psa" name="Walk" speed="118"/>
-      </animations>
-      <mesh>skeletal/horse.pmd</mesh>
+    <variant file="quadraped/base_horse_spearman.xml" frequency="1" name="Base">
+      <mesh>skeletal/horse.dae</mesh>
       <props>
         <prop actor="units/assyrian/champion_cavalry_spearman_r.xml" attachpoint="rider"/>
         <prop actor="props/units/horse/horse_chest_colorband.xml" attachpoint="chest"/>
@@ -67,10 +54,6 @@
   </group>
   <group>
     <variant frequency="100" name="Idle"/>
-    <variant file="quadraped/horse_attack_melee.xml"/>
-    <variant file="quadraped/horse_attack_slaughter.xml"/>
-    <variant file="quadraped/horse_carry_meat.xml"/>
-    <variant file="quadraped/horse_death.xml"/>
     <variant file="quadraped/horse_run.xml"/>
   </group>
   <material>objectcolor_specmap.xml</material>

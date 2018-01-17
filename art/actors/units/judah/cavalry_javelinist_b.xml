@@ -2,12 +2,8 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant frequency="1" name="Base">
-      <animations>
-        <animation file="quadraped/horse_idle_a.psa" name="Idle" speed="50"/>
-        <animation file="quadraped/horse_walk.psa" name="Walk" speed="120"/>
-      </animations>
-      <mesh>skeletal/horse.pmd</mesh>
+    <variant file="quadraped/base_horse_javelin.xml" frequency="1" name="Base">
+      <mesh>skeletal/horse.dae</mesh>
       <props>
         <prop actor="units/judah/cavalry_javelinist_b_r.xml" attachpoint="rider"/>
         <prop actor="props/units/horse/horse_chest_colorband.xml" attachpoint="chest"/>
@@ -38,11 +34,8 @@
   </group>
   <group>
     <variant frequency="100" name="Idle"/>
-    <variant file="quadraped/horse_attack_ranged.xml"/>
-    <variant file="quadraped/horse_attack_slaughter.xml"/>
-    <variant file="quadraped/horse_carry_meat.xml"/>
-    <variant file="quadraped/horse_death.xml"/>
-    <variant file="quadraped/horse_run.xml"/>
+    <variant file="quadraped/base_horse_death.xml"/>
+    <variant file="quadraped/base_horse_run.xml"/>
   </group>
   <material>objectcolor.xml</material>
 </actor>

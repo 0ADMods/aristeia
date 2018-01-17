@@ -2,24 +2,10 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant frequency="1" name="Base">
-      <animations>
-        <animation file="quadraped/horse_idle_a.psa" name="Idle" speed="800"/>
-        <animation file="quadraped/horse_idle_a.psa" name="Idle" speed="400"/>
-        <animation file="quadraped/horse_idle_a.psa" name="Idle" speed="350"/>
-        <animation file="quadraped/horse_idle_a.psa" name="Idle" speed="600"/>
-        <animation file="quadraped/horse_idle_a.psa" name="Idle" speed="666"/>
-        <animation file="quadraped/horse_idle_a.psa" name="Idle" speed="333"/>
-        <animation file="quadraped/horse_idle_a.psa" name="Idle" speed="222"/>
-        <animation file="quadraped/horse_idle_a.psa" name="Idle" speed="250"/>
-        <animation file="quadraped/horse_idle_a.psa" name="Idle" speed="50"/>
-        <animation file="quadraped/horse_attack_a.psa" name="Idle" speed="400"/>
-        <animation file="quadraped/horse_attack_b.psa" name="Idle" speed="300"/>
-        <animation file="quadraped/horse_walk.psa" name="Walk" speed="100"/>
-      </animations>
-      <mesh>skeletal/horse.pmd</mesh>
+    <variant file="quadraped/base_horse_spearman.xml" frequency="1" name="Base">
+      <mesh>skeletal/horse.dae</mesh>
       <props>
-        <prop actor="units/spartans/cavalry_spearman_e_r.xml" attachpoint="rider"/>
+        <prop actor="units/arcgreek/cavalry_spearman_b_r.xml" attachpoint="rider"/>
         <prop actor="props/units/horse/horse_chest_colorband.xml" attachpoint="chest"/>
       </props>
     </variant>
@@ -78,11 +64,8 @@
   </group>
   <group>
     <variant frequency="100" name="Idle"/>
-    <variant file="quadraped/horse_attack_melee.xml"/>
-    <variant file="quadraped/horse_attack_slaughter.xml"/>
-    <variant file="quadraped/horse_carry_meat.xml"/>
-    <variant file="quadraped/horse_death.xml"/>
-    <variant file="quadraped/horse_run.xml"/>
+    <variant file="quadraped/base_horse_death.xml"/>
+    <variant file="quadraped/base_horse_run.xml"/>
   </group>
   <material>objectcolor.xml</material>
 </actor>
