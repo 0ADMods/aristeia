@@ -2,26 +2,27 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant frequency="1" name="helmet-01">
+    <variant frequency="1" name="mesh">
       <mesh>props/helmets/seapeople_helmet_a.dae</mesh>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="helmet-01">
       <textures>
         <texture file="props/helmet/seapeople_helmet_a.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="helmet-02">
-      <mesh>props/helmets/seapeople_helmet_a.dae</mesh>
       <textures>
         <texture file="props/helmet/seapeople_helmet_a2.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="helmet-03">
-      <mesh>props/helmets/seapeople_helmet_a.dae</mesh>
       <textures>
         <texture file="props/helmet/seapeople_helmet_a3.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="helmet-04">
-      <mesh>props/helmets/seapeople_helmet_a.dae</mesh>
       <textures>
         <texture file="props/helmet/seapeople_helmet_a4.png" name="baseTex"/>
       </textures>

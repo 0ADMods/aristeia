@@ -2,14 +2,17 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant frequency="1" name="hair-01">
+    <variant frequency="1" name="mesh">
       <mesh>props/helmets/egyptian_hair_a.dae</mesh>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="hair-01">
       <textures>
         <texture file="props/helmet/egyptian_hair_a.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="1" name="hair-01">
-      <mesh>props/helmets/egyptian_hair_a.dae</mesh>
+    <variant frequency="1" name="hair-02">
       <textures>
         <texture file="props/helmet/egyptian_hair_b.png" name="baseTex"/>
       </textures>

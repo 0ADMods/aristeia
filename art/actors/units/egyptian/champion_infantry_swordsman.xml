@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- THIS IS A PLACEHOLDER -->
 <actor version="1">
   <castshadow/>
   <group>
@@ -7,7 +6,7 @@
       <mesh>skeletal/new/m_tunic_short.dae</mesh>
       <props>
         <prop actor="props/units/helmets/seapeople_helmet_a.xml" attachpoint="helmet"/>
-        <prop actor="props/units/heads/head_hele_b.xml" attachpoint="head"/>
+        <prop actor="props/units/heads/new/head_hele_b.xml" attachpoint="head"/>
         <prop actor="props/units/shields/seapeople_shield_a.xml" attachpoint="shield"/>
         <prop actor="props/units/weapons/gladus.xml" attachpoint="weapon_R"/>
       </props>

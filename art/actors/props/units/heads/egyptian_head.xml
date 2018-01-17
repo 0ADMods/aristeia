@@ -3,11 +3,16 @@
   <castshadow/>
   <group>
     <variant frequency="1" name="mesh">
-      <mesh>props/dude_head.dae</mesh>
+      <mesh>props/new/dude_head.dae</mesh>
     </variant>
   </group>
   <group>
-    <variant frequency="1" name="Egyptian Face 02">
+    <variant frequency="1" name="Face 01">
+      <textures>
+        <texture file="props/head/egyptian_01.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="Face 02">
       <textures>
         <texture file="props/head/egyptian_02.png" name="baseTex"/>
       </textures>
