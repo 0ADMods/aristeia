@@ -21,5 +21,9 @@
       <textures><texture file="skeletal/hele_healer_2.dds" name="baseTex"/></textures>
     </variant>
   </group>
+  <group>
+    <variant frequency="1" name="Idle"/>
+    <variant file="biped/death_infantry.xml"/>
+  </group>
   <material>player_trans.xml</material>
 </actor>

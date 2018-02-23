@@ -2,27 +2,29 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant file="biped/base_cavalry_spearman_ready.xml" frequency="100" name="Base">
+    <variant frequency="1" name="Base">
       <mesh>skeletal/new/m_pants.dae</mesh>
       <props>
         <prop actor="props/units/heads/new/head_pers_a.xml" attachpoint="head"/>
         <prop actor="props/units/heads/pers_cav_crest.xml" attachpoint="helmet"/>
         <prop actor="props/units/weapons/spear_ball.xml" attachpoint="weapon_R"/>
-        <prop actor="props/units/cape_cav_animated_pers_spearman_e.xml" attachpoint="root"/>
+        <prop actor="props/units/capes/rider/spearman_ready.xml" attachpoint="root"/>
       </props>
+      <textures>
+        <texture file="skeletal/pers_car_e_r.png" name="baseTex"/>
+      </textures>
     </variant>
   </group>
   <group>
-    <variant frequency="1" name="Elite-Rider-Texture-01">
-      <textures><texture file="skeletal/pers_car_e_r.png" name="baseTex"/></textures>
-    </variant>
+    <variant file="biped/base_cavalry_spearman_ready.xml"/>
+    <variant file="biped/rider/carry_meat.xml"/>
   </group>
   <group>
-    <variant frequency="100" name="Idle"/>
-    <variant file="biped/rider_promotion.xml"/>
-    <variant file="biped/attack_slaughter_spear_cavalry.xml" name="attack_slaughter"/>
-    <variant file="biped/rider_carry_meat.xml"/>
-    <variant file="biped/rider_gather_meat.xml"/>
+    <variant frequency="1" name="Idle"/>
+    <variant file="biped/rider/promotion.xml"/>
+    <variant file="biped/rider/attack_slaughter.xml" name="attack_slaughter"/>
+    <variant file="biped/rider/gather_meat_hele.xml"/>
+    <variant file="biped/rider/death.xml"/>
   </group>
   <material>player_trans.xml</material>
 </actor>
