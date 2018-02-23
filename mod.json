@@ -1,9 +1,8 @@
 {
-    "name": "Aristeia Bronziron",
-    "version": "0.0.22",
+    "name": "aristeia",
+    "version": "0.0.23",
     "label": "Aristeia Bronziron : Peril of Nations",
     "url": "https://github.com/0ADMods/aristeia",
     "description": "0 A.D. Bronze/Iron Age Extension",
-    "dependencies": ["0ad=0.0.23"],
-    "type": "mod-pack mixed"
+    "dependencies": ["0ad=0.0.23"]
 }
