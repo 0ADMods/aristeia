@@ -7,8 +7,8 @@
         <prop actor="props/structures/decals/dirt_5x5.xml" attachpoint="root"/>
         <prop actor="structures/ptolemies/stall_small_b.xml" attachpoint="stall"/>
         <prop actor="structures/ptolemies/stall_small_b.xml" attachpoint="stall2"/>
-        <prop actor="structures/ptolemies/stall_small_b.xml" attachpoint="stall3"/>
-        <prop actor="structures/ptolemies/stall_small_b.xml" attachpoint="stall4"/>
+        <prop actor="structures/ptolemies/stall_small_a.xml" attachpoint="stall3"/>
+        <prop actor="structures/ptolemies/stall_small_a.xml" attachpoint="stall4"/>
         <prop actor="props/special/eyecandy/statues_ptol.xml" attachpoint="statue"/>
       </props>
       <textures><texture file="structural/ptol_struct.png" name="baseTex"/></textures>
