@@ -5,7 +5,7 @@
     <Height>3.0</Height>
   </Footprint>
   <Identity>
-    <Civ>Judah</Civ>
+    <Civ>judah</Civ>
     <Icon>units/celt_mechanical_siege_ram.png</Icon>
   </Identity>
   <VisualActor>

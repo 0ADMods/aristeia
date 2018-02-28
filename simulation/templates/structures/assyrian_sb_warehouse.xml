@@ -30,7 +30,7 @@
     <SpawnEntityOnDeath>decay|rubble/rubble_stone_3x3</SpawnEntityOnDeath>
   </Health>
   <Identity>
-    <Civ>pers</Civ>
+    <Civ>assyrian</Civ>
     <GenericName>Warehouse</GenericName>
     <Classes datatype="tokens">DropsiteWood DropsiteMetal DropsiteStone SpecialBuilding</Classes>
     <VisibleClasses datatype="tokens">Town Storehouse</VisibleClasses>

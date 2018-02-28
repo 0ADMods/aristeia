@@ -8,7 +8,7 @@
     <Civ>judah</Civ>
     <VisibleClasses datatype="tokens">Chariot</VisibleClasses>
     <GenericName>Chariot</GenericName>
-    <Icon>units/pers_cavalry_archer.png</Icon>
+    <Icon>units/pers_chariot_archer.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/judah/champion_cavalry.xml</Actor>
