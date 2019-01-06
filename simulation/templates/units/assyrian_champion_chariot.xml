@@ -8,7 +8,7 @@
     <Civ>assyrian</Civ>
     <VisibleClasses datatype="tokens">Chariot</VisibleClasses>
     <GenericName>Assyrian Chariot</GenericName>
-    <Icon>units/pers_cavalry_archer.png</Icon>
+    <Icon>units/pers_chariot_archer.png</Icon>
     <Tooltip>Causes trample damage to enemy units.</Tooltip>
   </Identity>
   <VisualActor>

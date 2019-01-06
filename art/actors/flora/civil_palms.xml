@@ -1,22 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
 <actor version="1">
-	
-	<group>
-		<variant frequency="1" name="Base">
-			<animations/>
-			<mesh>flora/egyptian_civil_palms.dae</mesh>
-			<textures>
-				<texture file="flora/tree_palmdate_a.dds" name="baseTex"/>
-			</textures>
-		</variant>
-		<variant frequency="1" name="Base2">
-			<animations/>
-			<mesh>flora/egyptian_civil_palms2.dae</mesh>
-			<textures>
-				<texture file="gaia/tree_palmdate_a.dds" name="baseTex"/>
-			</textures>
-		</variant>
-	</group>
+  <group>
+    <variant frequency="1" name="Base">
+      <textures>
+        <texture file="gaia/tree_palmdate_a.dds" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="palms_01">
+      <mesh>flora/egyptian_civil_palms.dae</mesh>
+    </variant>
+    <variant frequency="1" name="palms_02">
+      <mesh>flora/egyptian_civil_palms2.dae</mesh>
+    </variant>
+  </group>
   <material>basic_trans_wind.xml</material>
-	
 </actor>
