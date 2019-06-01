@@ -30,7 +30,6 @@
     <SpecificName>sšmw</SpecificName>
     <History>The Ramesside Pharaohs, especially Ramesses II, built many self-promoting monuments and statues.</History>
     <Tooltip>Increases Territory Influence and compels nearby Soldiers to fight harder.</Tooltip>
-    <Classes datatype="tokens">-ConquestCritical</Classes>
     <Icon>structures/tholos.png</Icon>
   </Identity>
   <Loot>

@@ -9,6 +9,7 @@
   </Health>
   <Identity>
     <Civ>assyrian</Civ>
+    <Classes datatype="tokens">ConquestCritical</Classes>
     <GenericName>Siege Workshop</GenericName>
     <Icon>structures/blacksmith.png</Icon>
     <RequiredTechnology>phase_city</RequiredTechnology>

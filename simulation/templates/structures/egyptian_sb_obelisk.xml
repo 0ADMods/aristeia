@@ -30,7 +30,6 @@
     <GenericName>Obelisk</GenericName>
     <SpecificName>txn</SpecificName>
     <History>Obelisks were often set up in pairs at the entrances of temples.</History>
-    <Classes datatype="tokens">-ConquestCritical</Classes>
     <Icon>gaia/special_obelisk.png</Icon>
   </Identity>
   <Loot>
