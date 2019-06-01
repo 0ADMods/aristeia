@@ -1,29 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<Scenario version="5">
+<Scenario version="6">
 	<Environment>
 		<SkySet>cumulus</SkySet>
-		<SunColour r="0.811765" g="0.792157" b="0.701961"/>
+		<SunColor r="0.811765" g="0.792157" b="0.701961"/>
 		<SunElevation angle="0.708699"/>
 		<SunRotation angle="-0.0122718"/>
-		<TerrainAmbientColour r="0.376471" g="0.439216" b="0.466667"/>
-		<UnitsAmbientColour r="0.458824" g="0.458824" b="0.458824"/>
+		<TerrainAmbientColor r="0.376471" g="0.439216" b="0.466667"/>
+		<UnitsAmbientColor r="0.458824" g="0.458824" b="0.458824"/>
 		<Fog>
 			<FogFactor>0.00199219</FogFactor>
 			<FogThickness>0.400391</FogThickness>
-			<FogColour r="0.882353" g="0.839216" b="0.686275"/>
+			<FogColor r="0.882353" g="0.839216" b="0.686275"/>
 		</Fog>
 		<Water>
 			<WaterBody>
-				<Type>default</Type>
-				<Colour r="0.627451" g="0.611765" b="0.501961"/>
+				<Type>ocean</Type>
+				<Color r="0.627451" g="0.611765" b="0.501961"/>
+				<Tint r="0.513726" g="0.658824" b="0.764706"/>
 				<Height>20.1443</Height>
-				<Shininess>104.004</Shininess>
 				<Waviness>2.94922</Waviness>
 				<Murkiness>0.71875</Murkiness>
-				<Tint r="0.513726" g="0.658824" b="0.764706"/>
-				<ReflectionTint r="0" g="1" b="1"/>
-				<ReflectionTintStrength>0.0976562</ReflectionTintStrength>
+				<WindAngle>0</WindAngle>
 			</WaterBody>
 		</Water>
 		<Postproc>
@@ -35,25 +33,25 @@
 		</Postproc>
 	</Environment>
 	<Camera>
-		<Position x="624.975" y="67.5582" z="830.609"/>
-		<Rotation angle="-2.42748"/>
-		<Declination angle="0.44954"/>
+		<Position x="653.782" y="91.0952" z="222.231"/>
+		<Rotation angle="0"/>
+		<Declination angle="0.610865"/>
 	</Camera>
 	<ScriptSettings><![CDATA[
 {
   "CircularMap": true,
   "Description": "A desert map, generally wide open, except for the Nile River running through the middle.",
-  "GameType": "conquest",
   "Keywords": [
     "demo"
   ],
   "LockTeams": false,
   "Name": "Egyptians Demo",
   "PlayerData": [
+    null,
     {
       "AI": "",
       "Civ": "egyptian",
-      "Colour": {
+      "Color": {
         "b": 200,
         "g": 46,
         "r": 46
@@ -70,7 +68,7 @@
     {
       "AI": "petra",
       "Civ": "pers",
-      "Colour": {
+      "Color": {
         "b": 20,
         "g": 20,
         "r": 150
@@ -86,7 +84,8 @@
     }
   ],
   "Preview": "nile_river.png",
-  "RevealMap": false
+  "RevealMap": false,
+  "VictoryConditions": []
 }
 ]]></ScriptSettings>
 	<Entities>
@@ -2693,6 +2692,7 @@
 			<Player>0</Player>
 			<Position x="570.57874" z="310.67844"/>
 			<Orientation y="2.92258"/>
+			<Obstruction group="4492"/>
 			<Actor seed="0"/>
 		</Entity>
 		<Entity uid="3418">
@@ -2721,6 +2721,7 @@
 			<Player>0</Player>
 			<Position x="566.99634" z="301.44855"/>
 			<Orientation y="-2.26195"/>
+			<Obstruction group="4395" group2="4393"/>
 			<Actor seed="0"/>
 		</Entity>
 		<Entity uid="3423">
@@ -3886,21 +3887,21 @@
 			<Actor seed="0"/>
 		</Entity>
 		<Entity uid="3614">
-			<Template>other/pyramid_great</Template>
+			<Template>gaia/ruins/pyramid_great</Template>
 			<Player>0</Player>
 			<Position x="275.62104" z="257.92975"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="0"/>
 		</Entity>
 		<Entity uid="3615">
-			<Template>other/pyramid_minor</Template>
+			<Template>gaia/ruins/pyramid_minor</Template>
 			<Player>0</Player>
 			<Position x="902.38746" z="497.65076"/>
 			<Orientation y="-0.17495"/>
 			<Actor seed="0"/>
 		</Entity>
 		<Entity uid="3616">
-			<Template>other/pyramid_minor</Template>
+			<Template>gaia/ruins/pyramid_minor</Template>
 			<Player>0</Player>
 			<Position x="887.97736" z="543.79133"/>
 			<Orientation y="2.60311"/>
@@ -8717,35 +8718,35 @@
 			<Actor seed="16117"/>
 		</Entity>
 		<Entity uid="4378">
-			<Template>units/egyptian_infantry_axeman_b</Template>
+			<Template>units/egyptian_infantry_swordsman_b</Template>
 			<Player>0</Player>
 			<Position x="109.5991" z="491.67521"/>
 			<Orientation y="2.96883"/>
 			<Actor seed="40195"/>
 		</Entity>
 		<Entity uid="4379">
-			<Template>units/egyptian_infantry_axeman_b</Template>
+			<Template>units/egyptian_infantry_swordsman_b</Template>
 			<Player>0</Player>
 			<Position x="116.21731" z="474.76435"/>
 			<Orientation y="1.96648"/>
 			<Actor seed="24834"/>
 		</Entity>
 		<Entity uid="4380">
-			<Template>units/egyptian_infantry_axeman_b</Template>
+			<Template>units/egyptian_infantry_swordsman_b</Template>
 			<Player>0</Player>
 			<Position x="122.52916" z="494.53241"/>
 			<Orientation y="2.56037"/>
 			<Actor seed="17887"/>
 		</Entity>
 		<Entity uid="4381">
-			<Template>units/egyptian_infantry_axeman_b</Template>
+			<Template>units/egyptian_infantry_swordsman_b</Template>
 			<Player>0</Player>
 			<Position x="125.66205" z="471.53657"/>
 			<Orientation y="1.06521"/>
 			<Actor seed="16308"/>
 		</Entity>
 		<Entity uid="4382">
-			<Template>units/egyptian_infantry_axeman_b</Template>
+			<Template>units/egyptian_infantry_swordsman_b</Template>
 			<Player>0</Player>
 			<Position x="132.84644" z="482.00379"/>
 			<Orientation y="-2.50814"/>
@@ -8896,133 +8897,133 @@
 			<Actor seed="30782"/>
 		</Entity>
 		<Entity uid="4447">
-			<Template>units/egyptian_infantry_axeman_b</Template>
+			<Template>units/egyptian_infantry_javelinist_b</Template>
 			<Player>1</Player>
 			<Position x="637.21442" z="261.17048"/>
 			<Orientation y="-3.06624"/>
 			<Actor seed="4824"/>
 		</Entity>
 		<Entity uid="4448">
-			<Template>units/egyptian_infantry_axeman_b</Template>
+			<Template>units/egyptian_infantry_javelinist_b</Template>
 			<Player>1</Player>
 			<Position x="651.89948" z="266.71833"/>
 			<Orientation y="-2.91141"/>
 			<Actor seed="31339"/>
 		</Entity>
 		<Entity uid="4449">
-			<Template>units/egyptian_infantry_axeman_b</Template>
+			<Template>units/egyptian_infantry_javelinist_b</Template>
 			<Player>1</Player>
 			<Position x="656.73157" z="261.00178"/>
 			<Orientation y="-1.71106"/>
 			<Actor seed="26677"/>
 		</Entity>
 		<Entity uid="4450">
-			<Template>units/egyptian_infantry_axeman_b</Template>
+			<Template>units/egyptian_infantry_javelinist_b</Template>
 			<Player>1</Player>
 			<Position x="638.49622" z="256.17048"/>
 			<Orientation y="-2.67573"/>
 			<Actor seed="6343"/>
 		</Entity>
 		<Entity uid="4451">
-			<Template>units/egyptian_infantry_axeman_b</Template>
+			<Template>units/egyptian_infantry_javelinist_b</Template>
 			<Player>1</Player>
 			<Position x="653.41553" z="255.22077"/>
 			<Orientation y="-2.5286"/>
 			<Actor seed="61221"/>
 		</Entity>
 		<Entity uid="4452">
-			<Template>units/egyptian_infantry_axeman_b</Template>
+			<Template>units/egyptian_infantry_javelinist_b</Template>
 			<Player>1</Player>
 			<Position x="631.74006" z="324.95652"/>
 			<Orientation y="-0.57651"/>
 			<Actor seed="29484"/>
 		</Entity>
 		<Entity uid="4453">
-			<Template>units/egyptian_infantry_axeman_b</Template>
+			<Template>units/egyptian_infantry_archer_b</Template>
 			<Player>1</Player>
 			<Position x="634.64393" z="327.76417"/>
 			<Orientation y="-0.87732"/>
 			<Actor seed="4124"/>
 		</Entity>
 		<Entity uid="4454">
-			<Template>units/egyptian_infantry_axeman_b</Template>
+			<Template>units/egyptian_infantry_archer_b</Template>
 			<Player>1</Player>
 			<Position x="637.79828" z="331.22779"/>
 			<Orientation y="-0.51804"/>
 			<Actor seed="20217"/>
 		</Entity>
 		<Entity uid="4455">
-			<Template>units/egyptian_infantry_axeman_b</Template>
+			<Template>units/egyptian_infantry_archer_b</Template>
 			<Player>1</Player>
 			<Position x="641.77991" z="335.7363"/>
 			<Orientation y="-0.58945"/>
 			<Actor seed="63061"/>
 		</Entity>
 		<Entity uid="4457">
-			<Template>units/egyptian_infantry_axeman_b</Template>
+			<Template>units/egyptian_infantry_archer_b</Template>
 			<Player>1</Player>
 			<Position x="623.98023" z="349.84638"/>
 			<Orientation y="-0.70284"/>
 			<Actor seed="19373"/>
 		</Entity>
 		<Entity uid="4460">
-			<Template>units/egyptian_infantry_axeman_b</Template>
+			<Template>units/egyptian_infantry_archer_b</Template>
 			<Player>1</Player>
 			<Position x="611.82966" z="338.27408"/>
 			<Orientation y="-0.82874"/>
 			<Actor seed="57991"/>
 		</Entity>
 		<Entity uid="4461">
-			<Template>units/egyptian_infantry_axeman_b</Template>
+			<Template>units/egyptian_infantry_archer_b</Template>
 			<Player>1</Player>
 			<Position x="648.76679" z="260.30375"/>
 			<Orientation y="-1.74621"/>
 			<Actor seed="64647"/>
 		</Entity>
 		<Entity uid="4462">
-			<Template>units/nubian_infantry_spearman_b</Template>
+			<Template>units/egyptian_infantry_spearman_merc_b</Template>
 			<Player>1</Player>
 			<Position x="617.60389" z="351.02814"/>
 			<Orientation y="-0.97121"/>
 			<Actor seed="22819"/>
 		</Entity>
 		<Entity uid="4463">
-			<Template>units/nubian_infantry_spearman_b</Template>
+			<Template>units/egyptian_infantry_spearman_merc_b</Template>
 			<Player>1</Player>
 			<Position x="614.9762" z="348.43073"/>
 			<Orientation y="-0.67701"/>
 			<Actor seed="46019"/>
 		</Entity>
 		<Entity uid="4464">
-			<Template>units/nubian_infantry_spearman_b</Template>
+			<Template>units/egyptian_infantry_spearman_merc_b</Template>
 			<Player>1</Player>
 			<Position x="610.20588" z="343.87034"/>
 			<Orientation y="-0.81379"/>
 			<Actor seed="12614"/>
 		</Entity>
 		<Entity uid="4465">
-			<Template>units/egyptian_infantry_spearman_b</Template>
+			<Template>units/egyptian_infantry_spearman_merc_b</Template>
 			<Player>1</Player>
 			<Position x="626.74708" z="340.21155"/>
 			<Orientation y="-0.71016"/>
 			<Actor seed="41396"/>
 		</Entity>
 		<Entity uid="4466">
-			<Template>units/egyptian_infantry_spearman_b</Template>
+			<Template>units/egyptian_infantry_spearman_merc_b</Template>
 			<Player>1</Player>
 			<Position x="622.44977" z="337.33933"/>
 			<Orientation y="-0.67376"/>
 			<Actor seed="30883"/>
 		</Entity>
 		<Entity uid="4469">
-			<Template>units/egyptian_infantry_spearman_b</Template>
+			<Template>units/egyptian_infantry_spearman_merc_b</Template>
 			<Player>1</Player>
 			<Position x="618.99854" z="333.39533"/>
 			<Orientation y="-0.48182"/>
 			<Actor seed="30024"/>
 		</Entity>
 		<Entity uid="4470">
-			<Template>units/egyptian_infantry_spearman_b</Template>
+			<Template>units/egyptian_infantry_spearman_merc_b</Template>
 			<Player>1</Player>
 			<Position x="629.30933" z="343.74042"/>
 			<Orientation y="-0.94599"/>
@@ -9831,6 +9832,7 @@
 			<Player>0</Player>
 			<Position x="766.49189" z="402.40922"/>
 			<Orientation y="2.35621"/>
+			<Obstruction group="4591"/>
 			<Actor seed="27133"/>
 		</Entity>
 		<Entity uid="4601">
@@ -9845,6 +9847,7 @@
 			<Player>0</Player>
 			<Position x="760.5658" z="407.47223"/>
 			<Orientation y="2.35621"/>
+			<Obstruction group="4590"/>
 			<Actor seed="31406"/>
 		</Entity>
 		<Entity uid="4603">
@@ -9852,6 +9855,7 @@
 			<Player>0</Player>
 			<Position x="757.63581" z="409.9961"/>
 			<Orientation y="2.35621"/>
+			<Obstruction group="4590"/>
 			<Actor seed="64895"/>
 		</Entity>
 		<Entity uid="4604">
@@ -9880,6 +9884,7 @@
 			<Player>0</Player>
 			<Position x="771.35938" z="408.61518"/>
 			<Orientation y="0.93844"/>
+			<Obstruction group="4586"/>
 			<Actor seed="5121"/>
 		</Entity>
 		<Entity uid="4608">
@@ -9932,35 +9937,35 @@
 			<Actor seed="15484"/>
 		</Entity>
 		<Entity uid="4620">
-			<Template>units/seapeople_infantry_swordsman_b</Template>
+			<Template>units/egyptian_infantry_swordsman_merc_b</Template>
 			<Player>2</Player>
 			<Position x="652.68201" z="916.92634"/>
 			<Orientation y="2.35584"/>
 			<Actor seed="21336"/>
 		</Entity>
 		<Entity uid="4621">
-			<Template>units/seapeople_infantry_swordsman_b</Template>
+			<Template>units/egyptian_infantry_swordsman_merc_b</Template>
 			<Player>2</Player>
 			<Position x="655.38337" z="919.56391"/>
 			<Orientation y="2.37711"/>
 			<Actor seed="59608"/>
 		</Entity>
 		<Entity uid="4622">
-			<Template>units/seapeople_infantry_swordsman_b</Template>
+			<Template>units/egyptian_infantry_swordsman_merc_b</Template>
 			<Player>2</Player>
 			<Position x="657.84815" z="922.52051"/>
 			<Orientation y="2.41478"/>
 			<Actor seed="50550"/>
 		</Entity>
 		<Entity uid="4623">
-			<Template>units/seapeople_infantry_swordsman_b</Template>
+			<Template>units/egyptian_infantry_swordsman_merc_b</Template>
 			<Player>2</Player>
 			<Position x="659.9314" z="924.99946"/>
 			<Orientation y="2.41137"/>
 			<Actor seed="16969"/>
 		</Entity>
 		<Entity uid="4629">
-			<Template>units/seapeople_infantry_swordsman_b</Template>
+			<Template>units/egyptian_infantry_swordsman_merc_b</Template>
 			<Player>2</Player>
 			<Position x="662.30536" z="927.14783"/>
 			<Orientation y="2.5012"/>
@@ -9985,6 +9990,7 @@
 			<Player>0</Player>
 			<Position x="568.0923" z="307.46824"/>
 			<Orientation y="2.35621"/>
+			<Obstruction group="4393"/>
 			<Actor seed="43876"/>
 		</Entity>
 		<Entity uid="4633">
@@ -9992,6 +9998,7 @@
 			<Player>0</Player>
 			<Position x="566.76581" z="304.54368"/>
 			<Orientation y="2.35621"/>
+			<Obstruction group="4393"/>
 			<Actor seed="2811"/>
 		</Entity>
 		<Entity uid="4634">
@@ -10172,49 +10179,49 @@
 			<Actor seed="55499"/>
 		</Entity>
 		<Entity uid="4660">
-			<Template>structures/egyptian_wonder_temple_karnak</Template>
+			<Template>structures/egyptian_wonder</Template>
 			<Player>1</Player>
 			<Position x="740.43757" z="417.06272"/>
 			<Orientation y="-2.41845"/>
 			<Actor seed="12004"/>
 		</Entity>
 		<Entity uid="4664">
-			<Template>units/nubian_infantry_spearman_b</Template>
+			<Template>units/egyptian_infantry_spearman_merc_b</Template>
 			<Player>1</Player>
 			<Position x="612.55927" z="346.0735"/>
 			<Orientation y="-0.85837"/>
 			<Actor seed="23068"/>
 		</Entity>
 		<Entity uid="4665">
-			<Template>units/egyptian_infantry_axeman_a</Template>
+			<Template>units/egyptian_infantry_swordsman_a</Template>
 			<Player>1</Player>
 			<Position x="620.90491" z="348.0131"/>
 			<Orientation y="-0.63988"/>
 			<Actor seed="32898"/>
 		</Entity>
 		<Entity uid="4666">
-			<Template>units/egyptian_infantry_axeman_a</Template>
+			<Template>units/egyptian_infantry_swordsman_a</Template>
 			<Player>1</Player>
 			<Position x="614.17945" z="341.84598"/>
 			<Orientation y="-0.68982"/>
 			<Actor seed="62286"/>
 		</Entity>
 		<Entity uid="4667">
-			<Template>units/egyptian_infantry_axeman_e</Template>
+			<Template>units/egyptian_infantry_swordsman_e</Template>
 			<Player>1</Player>
 			<Position x="617.18616" z="345.46302"/>
 			<Orientation y="-0.67103"/>
 			<Actor seed="43582"/>
 		</Entity>
 		<Entity uid="4668">
-			<Template>units/egyptian_infantry_spearman_a</Template>
+			<Template>units/egyptian_infantry_spearman_merc_a</Template>
 			<Player>1</Player>
 			<Position x="623.30085" z="343.5742"/>
 			<Orientation y="-0.79328"/>
 			<Actor seed="19803"/>
 		</Entity>
 		<Entity uid="4669">
-			<Template>units/egyptian_infantry_spearman_e</Template>
+			<Template>units/egyptian_infantry_spearman_merc_e</Template>
 			<Player>1</Player>
 			<Position x="619.28205" z="340.7411"/>
 			<Orientation y="-0.79352"/>
@@ -10286,301 +10293,301 @@
 			<Actor seed="32859"/>
 		</Entity>
 		<Entity uid="4679">
-			<Template>units/seapeople_infantry_swordsman_b</Template>
+			<Template>units/egyptian_infantry_swordsman_merc_b</Template>
 			<Player>2</Player>
 			<Position x="571.35071" z="416.15391"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="22734"/>
 		</Entity>
 		<Entity uid="4680">
-			<Template>units/seapeople_infantry_swordsman_b</Template>
+			<Template>units/egyptian_infantry_swordsman_merc_b</Template>
 			<Player>2</Player>
 			<Position x="569.3979" z="414.33765"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="32697"/>
 		</Entity>
 		<Entity uid="4681">
-			<Template>units/seapeople_infantry_swordsman_b</Template>
+			<Template>units/egyptian_infantry_swordsman_merc_b</Template>
 			<Player>2</Player>
 			<Position x="572.1377" z="411.94465"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="48296"/>
 		</Entity>
 		<Entity uid="4682">
-			<Template>units/seapeople_infantry_swordsman_b</Template>
+			<Template>units/egyptian_infantry_swordsman_merc_b</Template>
 			<Player>2</Player>
 			<Position x="567.68042" z="410.14908"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="28106"/>
 		</Entity>
 		<Entity uid="4683">
-			<Template>units/seapeople_infantry_swordsman_b</Template>
+			<Template>units/egyptian_infantry_swordsman_merc_b</Template>
 			<Player>2</Player>
 			<Position x="566.13306" z="412.01227"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="25445"/>
 		</Entity>
 		<Entity uid="4684">
-			<Template>units/seapeople_infantry_swordsman_b</Template>
+			<Template>units/egyptian_infantry_swordsman_merc_b</Template>
 			<Player>2</Player>
 			<Position x="569.3548" z="419.35557"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="54736"/>
 		</Entity>
 		<Entity uid="4685">
-			<Template>units/seapeople_infantry_swordsman_b</Template>
+			<Template>units/egyptian_infantry_swordsman_merc_b</Template>
 			<Player>2</Player>
 			<Position x="577.43335" z="429.44214"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="41514"/>
 		</Entity>
 		<Entity uid="4686">
-			<Template>units/seapeople_infantry_swordsman_b</Template>
+			<Template>units/egyptian_infantry_swordsman_merc_b</Template>
 			<Player>2</Player>
 			<Position x="573.9311" z="421.05146"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="57987"/>
 		</Entity>
 		<Entity uid="4687">
-			<Template>units/seapeople_infantry_swordsman_b</Template>
+			<Template>units/egyptian_infantry_swordsman_merc_b</Template>
 			<Player>2</Player>
 			<Position x="575.0282" z="418.76944"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="19015"/>
 		</Entity>
 		<Entity uid="4688">
-			<Template>units/seapeople_infantry_swordsman_b</Template>
+			<Template>units/egyptian_infantry_swordsman_merc_b</Template>
 			<Player>2</Player>
 			<Position x="584.95173" z="422.69678"/>
 			<Orientation y="0.8405"/>
 			<Actor seed="8348"/>
 		</Entity>
 		<Entity uid="4689">
-			<Template>units/seapeople_infantry_swordsman_b</Template>
+			<Template>units/egyptian_infantry_swordsman_merc_b</Template>
 			<Player>2</Player>
 			<Position x="585.22632" z="426.87098"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="51014"/>
 		</Entity>
 		<Entity uid="4690">
-			<Template>units/seapeople_infantry_swordsman_b</Template>
+			<Template>units/egyptian_infantry_swordsman_merc_b</Template>
 			<Player>2</Player>
 			<Position x="578.65271" z="423.8712"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="19529"/>
 		</Entity>
 		<Entity uid="4691">
-			<Template>units/seapeople_infantry_swordsman_b</Template>
+			<Template>units/egyptian_infantry_swordsman_merc_b</Template>
 			<Player>2</Player>
 			<Position x="573.7881" z="423.5605"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="8251"/>
 		</Entity>
 		<Entity uid="4692">
-			<Template>units/seapeople_infantry_swordsman_b</Template>
+			<Template>units/egyptian_infantry_swordsman_merc_b</Template>
 			<Player>2</Player>
 			<Position x="590.82203" z="413.02686"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="57262"/>
 		</Entity>
 		<Entity uid="4693">
-			<Template>units/seapeople_infantry_swordsman_b</Template>
+			<Template>units/egyptian_infantry_swordsman_merc_b</Template>
 			<Player>2</Player>
 			<Position x="588.91181" z="412.00757"/>
 			<Orientation y="-1.51722"/>
 			<Actor seed="48274"/>
 		</Entity>
 		<Entity uid="4694">
-			<Template>units/seapeople_infantry_swordsman_b</Template>
+			<Template>units/egyptian_infantry_swordsman_merc_b</Template>
 			<Player>2</Player>
 			<Position x="582.45807" z="411.88926"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="25162"/>
 		</Entity>
 		<Entity uid="4695">
-			<Template>units/seapeople_infantry_swordsman_b</Template>
+			<Template>units/egyptian_infantry_swordsman_merc_b</Template>
 			<Player>2</Player>
 			<Position x="581.46753" z="415.53415"/>
 			<Orientation y="0.26592"/>
 			<Actor seed="6248"/>
 		</Entity>
 		<Entity uid="4696">
-			<Template>units/seapeople_infantry_swordsman_b</Template>
+			<Template>units/egyptian_infantry_swordsman_merc_b</Template>
 			<Player>2</Player>
 			<Position x="582.39271" z="420.01307"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="11119"/>
 		</Entity>
 		<Entity uid="4697">
-			<Template>units/seapeople_infantry_swordsman_b</Template>
+			<Template>units/egyptian_infantry_swordsman_merc_b</Template>
 			<Player>2</Player>
 			<Position x="575.02985" z="410.83323"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="3352"/>
 		</Entity>
 		<Entity uid="4698">
-			<Template>units/seapeople_infantry_swordsman_b</Template>
+			<Template>units/egyptian_infantry_swordsman_merc_b</Template>
 			<Player>2</Player>
 			<Position x="575.90796" z="408.55188"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="43952"/>
 		</Entity>
 		<Entity uid="4699">
-			<Template>units/seapeople_infantry_swordsman_b</Template>
+			<Template>units/egyptian_infantry_swordsman_merc_b</Template>
 			<Player>2</Player>
 			<Position x="580.3047" z="406.88645"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="11928"/>
 		</Entity>
 		<Entity uid="4700">
-			<Template>units/seapeople_infantry_swordsman_b</Template>
+			<Template>units/egyptian_infantry_swordsman_merc_b</Template>
 			<Player>2</Player>
 			<Position x="581.44477" z="405.83152"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="37990"/>
 		</Entity>
 		<Entity uid="4701">
-			<Template>units/seapeople_infantry_swordsman_b</Template>
+			<Template>units/egyptian_infantry_swordsman_merc_b</Template>
 			<Player>2</Player>
 			<Position x="573.20923" z="399.76587"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="10052"/>
 		</Entity>
 		<Entity uid="4702">
-			<Template>units/seapeople_infantry_swordsman_b</Template>
+			<Template>units/egyptian_infantry_swordsman_merc_b</Template>
 			<Player>2</Player>
 			<Position x="571.76075" z="402.72135"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="46422"/>
 		</Entity>
 		<Entity uid="4703">
-			<Template>units/seapeople_infantry_swordsman_b</Template>
+			<Template>units/egyptian_infantry_swordsman_merc_b</Template>
 			<Player>2</Player>
 			<Position x="571.12934" z="405.80774"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="16507"/>
 		</Entity>
 		<Entity uid="4704">
-			<Template>units/seapeople_infantry_swordsman_b</Template>
+			<Template>units/egyptian_infantry_swordsman_merc_b</Template>
 			<Player>2</Player>
 			<Position x="570.42481" z="406.44422"/>
 			<Orientation y="1.76571"/>
 			<Actor seed="22565"/>
 		</Entity>
 		<Entity uid="4705">
-			<Template>units/seapeople_infantry_swordsman_b</Template>
+			<Template>units/egyptian_infantry_swordsman_merc_b</Template>
 			<Player>2</Player>
 			<Position x="579.50702" z="403.63581"/>
 			<Orientation y="-2.29499"/>
 			<Actor seed="45130"/>
 		</Entity>
 		<Entity uid="4706">
-			<Template>units/seapeople_infantry_swordsman_b</Template>
+			<Template>units/egyptian_infantry_swordsman_merc_b</Template>
 			<Player>2</Player>
 			<Position x="568.53199" z="394.154"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="48332"/>
 		</Entity>
 		<Entity uid="4707">
-			<Template>units/seapeople_infantry_swordsman_b</Template>
+			<Template>units/egyptian_infantry_swordsman_merc_b</Template>
 			<Player>2</Player>
 			<Position x="566.42762" z="398.0448"/>
 			<Orientation y="-0.0388"/>
 			<Actor seed="23625"/>
 		</Entity>
 		<Entity uid="4708">
-			<Template>units/seapeople_infantry_swordsman_b</Template>
+			<Template>units/egyptian_infantry_swordsman_merc_b</Template>
 			<Player>2</Player>
 			<Position x="565.17841" z="403.24332"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="32212"/>
 		</Entity>
 		<Entity uid="4709">
-			<Template>units/seapeople_infantry_swordsman_b</Template>
+			<Template>units/egyptian_infantry_swordsman_merc_b</Template>
 			<Player>2</Player>
 			<Position x="563.94886" z="406.55393"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="42775"/>
 		</Entity>
 		<Entity uid="4710">
-			<Template>units/seapeople_infantry_swordsman_b</Template>
+			<Template>units/egyptian_infantry_swordsman_merc_b</Template>
 			<Player>2</Player>
 			<Position x="563.61353" z="410.41749"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="62668"/>
 		</Entity>
 		<Entity uid="4711">
-			<Template>units/seapeople_infantry_swordsman_b</Template>
+			<Template>units/egyptian_infantry_swordsman_merc_b</Template>
 			<Player>2</Player>
 			<Position x="563.86255" z="411.44996"/>
 			<Orientation y="0.27132"/>
 			<Actor seed="18384"/>
 		</Entity>
 		<Entity uid="4712">
-			<Template>units/seapeople_infantry_swordsman_b</Template>
+			<Template>units/egyptian_infantry_swordsman_merc_b</Template>
 			<Player>2</Player>
 			<Position x="565.5807" z="415.57316"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="12118"/>
 		</Entity>
 		<Entity uid="4713">
-			<Template>units/seapeople_infantry_swordsman_b</Template>
+			<Template>units/egyptian_infantry_swordsman_merc_b</Template>
 			<Player>2</Player>
 			<Position x="570.45765" z="420.81714"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="16727"/>
 		</Entity>
 		<Entity uid="4714">
-			<Template>units/seapeople_infantry_swordsman_b</Template>
+			<Template>units/egyptian_infantry_swordsman_merc_b</Template>
 			<Player>2</Player>
 			<Position x="568.76215" z="421.66602"/>
 			<Orientation y="0.60296"/>
 			<Actor seed="28502"/>
 		</Entity>
 		<Entity uid="4715">
-			<Template>units/seapeople_infantry_swordsman_b</Template>
+			<Template>units/egyptian_infantry_swordsman_merc_b</Template>
 			<Player>2</Player>
 			<Position x="573.99994" z="427.72226"/>
 			<Orientation y="0.94822"/>
 			<Actor seed="52770"/>
 		</Entity>
 		<Entity uid="4716">
-			<Template>units/seapeople_infantry_swordsman_b</Template>
+			<Template>units/egyptian_infantry_swordsman_merc_b</Template>
 			<Player>2</Player>
 			<Position x="578.77967" z="430.27924"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="14249"/>
 		</Entity>
 		<Entity uid="4717">
-			<Template>units/seapeople_infantry_swordsman_b</Template>
+			<Template>units/egyptian_infantry_swordsman_merc_b</Template>
 			<Player>2</Player>
 			<Position x="579.27332" z="426.2415"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="23288"/>
 		</Entity>
 		<Entity uid="4718">
-			<Template>units/egyptian_champion_swordsman_theban</Template>
+			<Template>units/egyptian_champion_swordsman</Template>
 			<Player>1</Player>
 			<Position x="627.19147" z="347.78144"/>
 			<Orientation y="-0.80573"/>
 			<Actor seed="18237"/>
 		</Entity>
 		<Entity uid="4719">
-			<Template>units/egyptian_champion_swordsman_theban</Template>
+			<Template>units/egyptian_champion_swordsman</Template>
 			<Player>1</Player>
 			<Position x="616.28827" z="337.49393"/>
 			<Orientation y="-0.55106"/>
 			<Actor seed="54999"/>
 		</Entity>
 		<Entity uid="4720">
-			<Template>units/egyptian_champion_swordsman_theban</Template>
+			<Template>units/egyptian_champion_swordsman</Template>
 			<Player>1</Player>
 			<Position x="614.13569" z="335.54737"/>
 			<Orientation y="-0.65336"/>
 			<Actor seed="22910"/>
 		</Entity>
 		<Entity uid="4721">
-			<Template>units/egyptian_champion_swordsman_theban</Template>
+			<Template>units/egyptian_champion_swordsman</Template>
 			<Player>1</Player>
 			<Position x="629.20356" z="350.41636"/>
 			<Orientation y="-0.85064"/>

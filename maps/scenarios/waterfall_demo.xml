@@ -1,29 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<Scenario version="5">
+<Scenario version="6">
 	<Environment>
 		<SkySet>default</SkySet>
-		<SunColour r="0.74902" g="0.74902" b="0.74902"/>
+		<SunColor r="0.74902" g="0.74902" b="0.74902"/>
 		<SunElevation angle="0.785398"/>
 		<SunRotation angle="-0.785396"/>
-		<TerrainAmbientColour r="0.501961" g="0.501961" b="0.501961"/>
-		<UnitsAmbientColour r="0.501961" g="0.501961" b="0.501961"/>
+		<TerrainAmbientColor r="0.501961" g="0.501961" b="0.501961"/>
+		<UnitsAmbientColor r="0.501961" g="0.501961" b="0.501961"/>
 		<Fog>
 			<FogFactor>0</FogFactor>
 			<FogThickness>0.5</FogThickness>
-			<FogColour r="0.8" g="0.8" b="0.894118"/>
+			<FogColor r="0.8" g="0.8" b="0.894118"/>
 		</Fog>
 		<Water>
 			<WaterBody>
-				<Type>default</Type>
-				<Colour r="0.294118" g="0.34902" b="0.694118"/>
+				<Type>ocean</Type>
+				<Color r="0.294118" g="0.34902" b="0.694118"/>
+				<Tint r="0.27451" g="0.294118" b="0.584314"/>
 				<Height>20.6689</Height>
-				<Shininess>150</Shininess>
 				<Waviness>8</Waviness>
 				<Murkiness>0.45</Murkiness>
-				<Tint r="0.27451" g="0.294118" b="0.584314"/>
-				<ReflectionTint r="0.27451" g="0.294118" b="0.584314"/>
-				<ReflectionTintStrength>0</ReflectionTintStrength>
+				<WindAngle>0</WindAngle>
 			</WaterBody>
 		</Water>
 		<Postproc>
@@ -35,25 +33,25 @@
 		</Postproc>
 	</Environment>
 	<Camera>
-		<Position x="319.007" y="48.6966" z="330.193"/>
-		<Rotation angle="-0.264345"/>
-		<Declination angle="0.674374"/>
+		<Position x="306.171" y="91.0839" z="250.797"/>
+		<Rotation angle="0"/>
+		<Declination angle="0.610865"/>
 	</Camera>
 	<ScriptSettings><![CDATA[
 {
   "CircularMap": true,
   "Description": "Give an interesting description of your map.",
-  "GameType": "conquest",
   "Keywords": [
     "demo"
   ],
   "LockTeams": false,
   "Name": "Waterfall Demo",
   "PlayerData": [
+    null,
     {
       "AI": "",
       "Civ": "athen",
-      "Colour": {
+      "Color": {
         "b": 200,
         "g": 46,
         "r": 46
@@ -62,9 +60,9 @@
       "Team": -1
     },
     {
-      "AI": "qbot-wc",
+      "AI": "petra",
       "Civ": "cart",
-      "Colour": {
+      "Color": {
         "b": 20,
         "g": 20,
         "r": 150
@@ -73,7 +71,8 @@
       "Team": -1
     }
   ],
-  "RevealMap": false
+  "RevealMap": false,
+  "VictoryConditions": []
 }
 ]]></ScriptSettings>
 	<Entities>
