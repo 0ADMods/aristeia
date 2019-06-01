@@ -4,7 +4,7 @@
     <Entities datatype="tokens">
       -other/wallset_palisade
       -structures/{civ}_sentry_tower
-      structures/assyrian_stables
+      structures/{civ}_stable
       structures/assyrian_palace
       structures/assyrian_sb_apartments
       structures/assyrian_sb_warehouse

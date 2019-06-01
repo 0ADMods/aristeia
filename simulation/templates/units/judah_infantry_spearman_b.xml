@@ -4,7 +4,7 @@
     <Entities datatype="tokens">
       -other/wallset_palisade
       -structures/{civ}_sentry_tower
-      structures/{civ}_stables
+      structures/{civ}_stable
       structures/{civ}_palace
     </Entities>
   </Builder>

@@ -2,8 +2,8 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant frequency="100" name="Stables">
-      <mesh>structural/egyptian_stables.dae</mesh>
+    <variant frequency="100" name="Stable">
+      <mesh>structural/egyptian_stable.dae</mesh>
       <props>
         <prop actor="props/structures/decals/dirt_4x4.xml" attachpoint="root"/>
         <prop actor="props/stables2_doublefence.xml" attachpoint="double_fence"/>

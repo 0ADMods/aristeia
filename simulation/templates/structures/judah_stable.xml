@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_structure_military_stables">
+<Entity parent="template_structure_military_stable">
   <Footprint>
     <Square width="28.5" depth="23.0"/>
     <Height>5.0</Height>
   </Footprint>
   <Identity>
-    <Civ>egyptian</Civ>
+    <Civ>judah</Civ>
     <GenericName>Cavalry Stables</GenericName>
-    <SpecificName>iHw</SpecificName>
-    <History>Egyptian chariotry and cavalry were a solid, maneuverable component of the armed forces.</History>
     <Tooltip>Trains cavalry units.</Tooltip>
   </Identity>
   <Obstruction>
@@ -17,10 +15,9 @@
   <ProductionQueue>
     <Entities datatype="tokens">
       units/{civ}_champion_chariot
-      units/{civ}_infantry_javelinist_b
     </Entities>
   </ProductionQueue>
   <VisualActor>
-    <Actor>structures/egyptian/stables.xml</Actor>
+    <Actor>structures/egyptian/stable.xml</Actor>
   </VisualActor>
 </Entity>
