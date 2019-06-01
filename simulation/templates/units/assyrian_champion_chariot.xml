@@ -12,6 +12,6 @@
     <Tooltip>Causes trample damage to enemy units.</Tooltip>
   </Identity>
   <VisualActor>
-    <Actor>units/assyrian/champion_chariot_archer.xml</Actor>
+    <Actor>units/persians/chariot_archer_e_m.xml</Actor>
   </VisualActor>
 </Entity>

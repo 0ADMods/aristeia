@@ -7,6 +7,6 @@
     <VisibleClasses datatype="tokens">Guardsman</VisibleClasses>
   </Identity>
   <VisualActor>
-    <Actor>units/assyrian/champion_infantry_spearman_2.xml</Actor>
+    <Actor>units/persians/infantry_spearman_c3.xml</Actor>
   </VisualActor>
 </Entity>

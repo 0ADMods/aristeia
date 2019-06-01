@@ -11,6 +11,6 @@
     <Icon>units/pers_siege_ram.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>units/assyrian/siege_ram.xml</Actor>
+    <Actor>structures/persians/siege_ram.xml</Actor>
   </VisualActor>
 </Entity>

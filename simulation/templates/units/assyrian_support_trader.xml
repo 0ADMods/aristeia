@@ -17,6 +17,6 @@
     </SoundGroups>
   </Sound>
   <VisualActor>
-    <Actor>units/assyrian/trader.xml</Actor>
+    <Actor>units/persians/trader.xml</Actor>
   </VisualActor>
 </Entity>

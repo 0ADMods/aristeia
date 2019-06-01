@@ -12,6 +12,6 @@
     <Category>Officer</Category>
   </TrainingRestrictions>
   <VisualActor>
-    <Actor>units/assyrian/champion_infantry_spearman_1.xml</Actor>
+    <Actor>units/persians/infantry_spearman_c2.xml</Actor>
   </VisualActor>
 </Entity>

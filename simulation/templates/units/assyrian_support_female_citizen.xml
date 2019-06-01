@@ -7,6 +7,6 @@
     <SelectionGroupName>units/assyrian_support_female_citizen</SelectionGroupName>
   </Identity>
   <VisualActor>
-    <Actor>units/assyrian/female_citizen.xml</Actor>
+    <Actor>units/persians/female_citizen.xml</Actor>
   </VisualActor>
 </Entity>

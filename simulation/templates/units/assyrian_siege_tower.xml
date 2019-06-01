@@ -6,6 +6,6 @@
     <Icon>units/hele_siege_tower.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>units/assyrian/siege_tower.xml</Actor>
+    <Actor>structures/hellenes/siege_tower.xml</Actor>
   </VisualActor>
 </Entity>

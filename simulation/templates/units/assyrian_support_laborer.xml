@@ -27,6 +27,6 @@
     <Tooltip>Gatherer bonused at mining and lumbering.</Tooltip>
   </Identity>
   <VisualActor>
-    <Actor>units/assyrian/laborer.xml</Actor>
+    <Actor>units/global/slave.xml</Actor>
   </VisualActor>
 </Entity>

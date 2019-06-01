@@ -6,6 +6,6 @@
     <Icon>units/pers_champion_cavalry.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>units/assyrian/champion_cavalry_spearman.xml</Actor>
+    <Actor>units/persians/cavalry_spearman_c_m.xml</Actor>
   </VisualActor>
 </Entity>
