@@ -5,13 +5,13 @@
   </Identity>
   <ProductionQueue>
     <Entities datatype="tokens">
-      -units/{civ}_mechanical_siege_ballista_packed
-      -units/{civ}_mechanical_siege_scorpio_packed
-      -units/{civ}_mechanical_siege_oxybeles_packed
-      -units/{civ}_mechanical_siege_lithobolos_packed
-      -units/{civ}_mechanical_siege_polybolos_packed
-      -units/{civ}_mechanical_siege_ram
-      -units/{civ}_mechanical_siege_tower
+      -units/{civ}_siege_ballista_packed
+      -units/{civ}_siege_scorpio_packed
+      -units/{civ}_siege_oxybeles_packed
+      -units/{civ}_siege_lithobolos_packed
+      -units/{civ}_siege_polybolos_packed
+      -units/{civ}_siege_ram
+      -units/{civ}_siege_tower
       units/{civ}_champion_infantry_spearman_1
     </Entities>
   </ProductionQueue>

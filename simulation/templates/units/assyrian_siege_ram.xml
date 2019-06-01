@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_mechanical_siege_ram">
+<Entity parent="template_unit_siege_ram">
   <Footprint replace="">
     <Square width="7.0" depth="15.0"/>
     <Height>3.0</Height>
@@ -8,7 +8,7 @@
     <Civ>assyrian</Civ>
     <GenericName>Siege Ram</GenericName>
     <SpecificName>Athuriya Hamaranakuba</SpecificName>
-    <Icon>units/pers_mechanical_siege_ram.png</Icon>
+    <Icon>units/pers_siege_ram.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/assyrian/siege_ram.xml</Actor>
