@@ -6,6 +6,6 @@
     <Icon>units/hele_ship_bireme.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>units/arcgreek/bireme.xml</Actor>
+    <Actor>structures/athenians/pentekonter.xml</Actor>
   </VisualActor>
 </Entity>

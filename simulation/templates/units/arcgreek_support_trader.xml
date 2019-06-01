@@ -11,6 +11,6 @@
     <Icon>units/hele_support_trader.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>units/arcgreek/trader.xml</Actor>
+    <Actor>units/athenians/trader.xml</Actor>
   </VisualActor>
 </Entity>

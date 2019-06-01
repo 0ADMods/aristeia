@@ -7,6 +7,6 @@
     <Icon>units/spart_champion_infantry_spear.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>units/arcgreek/champion_infantry_spearman.xml</Actor>
+    <Actor>units/spartans/infantry_spearman_c.xml</Actor>
   </VisualActor>
 </Entity>

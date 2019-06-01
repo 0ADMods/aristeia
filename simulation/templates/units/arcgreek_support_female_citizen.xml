@@ -8,6 +8,6 @@
     <SelectionGroupName>units/arcgreek_support_female_citizen</SelectionGroupName>
   </Identity>
   <VisualActor>
-    <Actor>units/arcgreek/female_citizen.xml</Actor>
+    <Actor>units/athenians/female_citizen.xml</Actor>
   </VisualActor>
 </Entity>

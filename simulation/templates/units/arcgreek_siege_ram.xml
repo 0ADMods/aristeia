@@ -9,6 +9,6 @@
     <Icon>units/spart_siege_ram.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>units/arcgreek/siege_ram.xml</Actor>
+    <Actor>structures/spartans/siege_ram.xml</Actor>
   </VisualActor>
 </Entity>

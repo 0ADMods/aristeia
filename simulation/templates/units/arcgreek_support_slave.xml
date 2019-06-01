@@ -26,6 +26,6 @@
     <Tooltip>Gatherer bonused at mining and lumbering.</Tooltip>
   </Identity>
   <VisualActor>
-    <Actor>units/arcgreek/slave.xml</Actor>
+    <Actor>units/global/slave.xml</Actor>
   </VisualActor>
 </Entity>
