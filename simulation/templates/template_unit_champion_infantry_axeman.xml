@@ -34,10 +34,6 @@
   </Identity>
   <UnitMotion>
     <WalkSpeed>12.5</WalkSpeed>
-    <Run>
-      <Speed>16.0</Speed>
-      <Range>600.0</Range>
-      <RangeMin>5.0</RangeMin>
-    </Run>
+    <RunMultiplier>1.28</RunMultiplier>
   </UnitMotion>
 </Entity>

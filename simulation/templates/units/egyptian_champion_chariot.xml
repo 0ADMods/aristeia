@@ -12,9 +12,7 @@
   </Identity>
   <UnitMotion>
     <WalkSpeed>16.0</WalkSpeed>
-    <Run>
-      <Speed>46.0</Speed>
-    </Run>
+    <RunMultiplier>2.875</RunMultiplier>
   </UnitMotion>
   <VisualActor>
     <Actor>units/egyptian/champion_chariot_archer.xml</Actor>
