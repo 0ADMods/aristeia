@@ -7,6 +7,6 @@
     <Icon>units/ptol_ship_fishing.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>units/egyptian/fishing_boat.xml</Actor>
+    <Actor>structures/ptolemies/fishing_boat.xml</Actor>
   </VisualActor>
 </Entity>

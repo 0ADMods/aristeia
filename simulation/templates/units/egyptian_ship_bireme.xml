@@ -13,6 +13,6 @@
     <Icon>units/cart_ship_bireme.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>units/egyptian/bireme.xml</Actor>
+    <Actor>structures/carthaginians/bireme.xml</Actor>
   </VisualActor>
 </Entity>
