@@ -6,6 +6,6 @@
     <Icon>units/iber_support_trader.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>units/judah/trader.xml</Actor>
+    <Actor>units/iberians/trader.xml</Actor>
   </VisualActor>
 </Entity>

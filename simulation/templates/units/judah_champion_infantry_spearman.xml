@@ -6,6 +6,6 @@
     <Icon>units/cart_champion_infantry.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>units/judah/champion_infantry_spearman.xml</Actor>
+    <Actor>units/carthaginians/infantry_spearman_c.xml</Actor>
   </VisualActor>
 </Entity>

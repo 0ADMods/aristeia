@@ -12,6 +12,6 @@
     <SelectionGroupName>units/judah_support_female_citizen</SelectionGroupName>
   </Identity>
   <VisualActor>
-    <Actor>units/judah/female_citizen.xml</Actor>
+    <Actor>units/persians/female_citizen.xml</Actor>
   </VisualActor>
 </Entity>

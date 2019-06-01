@@ -8,6 +8,6 @@
   </Identity>
   <Promotion disable=""/>
   <VisualActor>
-    <Actor>units/judah/cavalry_javelinist_b.xml</Actor>
+    <Actor>units/carthaginians/cavalry_javelinist_b_m.xml</Actor>
   </VisualActor>
 </Entity>

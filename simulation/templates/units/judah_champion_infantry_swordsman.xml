@@ -12,7 +12,6 @@
   <TrainingRestrictions>
     <Category>Officer</Category>
   </TrainingRestrictions>
-  <VisualActor>
-    <Actor>units/judah/champion_infantry_swordsman.xml</Actor>
+  <VisualActor><Actor>units/iberians/infantry_swordsman_c.xml</Actor>
   </VisualActor>
 </Entity>

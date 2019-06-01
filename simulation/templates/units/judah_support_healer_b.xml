@@ -9,6 +9,6 @@
   </Identity>
   <Promotion disable=""/>
   <VisualActor>
-    <Actor>units/judah/healer.xml</Actor>
+    <Actor>units/persians/healer.xml</Actor>
   </VisualActor>
 </Entity>
