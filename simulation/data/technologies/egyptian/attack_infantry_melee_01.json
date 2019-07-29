@@ -11,9 +11,9 @@
 	"researchTime": 40,
 	"tooltip": "Greater speed and attack for all native Egyptian melee units.",
 	"modifications": [
-		{"value": "Attack/Melee/Hack", "multiply": 1.1},
-		{"value": "Attack/Melee/Pierce", "multiply": 1.1},
-		{"value": "Attack/Melee/Crush", "multiply": 1.1},
+		{"value": "Attack/Melee/Damage/Hack", "multiply": 1.1},
+		{"value": "Attack/Melee/Damage/Pierce", "multiply": 1.1},
+		{"value": "Attack/Melee/Damage/Crush", "multiply": 1.1},
 		{"value": "UnitMotion/WalkSpeed", "multiply": 1.1},
 		{"value": "UnitMotion/Run/Speed", "multiply": 1.1}
 	],

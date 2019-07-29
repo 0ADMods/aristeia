@@ -11,7 +11,7 @@
 	"researchTime": 40,
 	"tooltip": "Greater range and pierce for all archer units except Egyptian Horseman and Hero units",
 	"modifications": [
-		{"value": "Attack/Ranged/Pierce", "multiply": 1.1},
+		{"value": "Attack/Ranged/Damage/Pierce", "multiply": 1.1},
 		{"value": "Attack/Ranged/MaxRange", "multiply": 1.1}
 	],
 	"affects": ["Infantry Archer"],

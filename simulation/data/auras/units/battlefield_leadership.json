@@ -3,12 +3,12 @@
 	"radius": 40,
 	"affects": ["Citizen Infantry"],
 	"modifications": [
-		{ "value": "Attack/Melee/Crush",   "add": 2, "affects": "Melee" },
-		{ "value": "Attack/Melee/Hack",    "add": 2, "affects": "Melee" },
-		{ "value": "Attack/Melee/Pierce",  "add": 2, "affects": "Melee" },
-		{ "value": "Attack/Ranged/Crush",  "add": 2, "affects": "Ranged" },
-		{ "value": "Attack/Ranged/Hack",   "add": 2, "affects": "Ranged" },
-		{ "value": "Attack/Ranged/Pierce", "add": 2, "affects": "Ranged" }
+		{ "value": "Attack/Melee/Damage/Crush",   "add": 2, "affects": "Melee" },
+		{ "value": "Attack/Melee/Damage/Hack",    "add": 2, "affects": "Melee" },
+		{ "value": "Attack/Melee/Damage/Pierce",  "add": 2, "affects": "Melee" },
+		{ "value": "Attack/Ranged/Damage/Crush",  "add": 2, "affects": "Ranged" },
+		{ "value": "Attack/Ranged/Damage/Hack",   "add": 2, "affects": "Ranged" },
+		{ "value": "Attack/Ranged/Damage/Pierce", "add": 2, "affects": "Ranged" }
 	],
 	"auraName": "Battlefield Leadership",
 	"auraDescription": "Nearby citizen infantry have a stronger attack.",

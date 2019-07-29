@@ -11,9 +11,9 @@
 	"researchTime": 40,
 	"tooltip": "Increased attack for the Pharaoh.",
 	"modifications": [
-		{"value": "Attack/Ranged/Hack", "multiply": 1.2},
-		{"value": "Attack/Ranged/Pierce", "multiply": 1.2},
-		{"value": "Attack/Ranged/Crush", "multiply": 1.2}
+		{"value": "Attack/Ranged/Damage/Hack",   "multiply": 1.2},
+		{"value": "Attack/Ranged/Damage/Pierce", "multiply": 1.2},
+		{"value": "Attack/Ranged/Damage/Crush",   "multiply": 1.2}
 	],
 	"affects": ["Hero"],
 	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
