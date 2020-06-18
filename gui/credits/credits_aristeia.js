@@ -1,1 +1,1 @@
-g_PanelNames.push("aristeia");
+g_OrderTabNames.push("aristeia");
