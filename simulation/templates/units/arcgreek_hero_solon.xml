@@ -4,7 +4,6 @@
     <Civ>arcgreek</Civ>
     <Lang>greek</Lang>
     <GenericName>Solon</GenericName>
-    <Icon>units/hele_hero_themistocles.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/athenians/hero_infantry_swordsman_themistocles.xml</Actor>
