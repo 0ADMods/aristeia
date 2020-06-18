@@ -13,7 +13,20 @@
   <ProductionQueue>
     <Entities datatype="tokens">
       units/{civ}_champion_swordsman
+      units/{civ}_siege_ballista_packed
+      units/{civ}_siege_scorpio_packed
+      units/{civ}_siege_oxybeles_packed
+      units/{civ}_siege_lithobolos_packed
+      units/{civ}_siege_polybolos_packed
+      units/{civ}_siege_ram
+      units/{civ}_siege_tower
     </Entities>
+    <Technologies datatype="tokens">
+      siege_attack
+      siege_armor
+      siege_cost_metal
+      siege_cost_wood
+    </Technologies>
   </ProductionQueue>
   <VisualActor>
     <Actor>structures/athenians/fortress.xml</Actor>
