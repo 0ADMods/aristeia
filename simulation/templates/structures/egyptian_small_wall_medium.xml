@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="other/palisades_rocks_medium">
+<Entity parent="structures/palisades_medium">
   <Armour>
     <Hack>5.0</Hack>
     <Pierce>20.0</Pierce>

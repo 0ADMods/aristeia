@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="other/wallset_palisade">
+<Entity parent="template_wallset">
   <Identity>
     <Civ>egyptian</Civ>
     <GenericName>Small Wall</GenericName>
@@ -13,8 +13,6 @@
       <WallLong>structures/egyptian_small_wall_long</WallLong>
       <WallMedium>structures/egyptian_small_wall_medium</WallMedium>
       <WallShort>structures/egyptian_small_wall_short</WallShort>
-      <WallCurves disable=""/>
-      <WallEnd disable=""/>
     </Templates>
   </WallSet>
 </Entity>
