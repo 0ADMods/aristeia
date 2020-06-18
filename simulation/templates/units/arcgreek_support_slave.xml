@@ -28,6 +28,7 @@
   <Identity>
     <Civ>arcgreek</Civ>
     <Tooltip>Gatherer bonused at mining and lumbering.</Tooltip>
+    <Icon>units/global_slave.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/global/slave.xml</Actor>
