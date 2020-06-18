@@ -7,6 +7,8 @@
       -units/{civ}_cavalry_spearman_b
       -units/{civ}_cavalry_javelinist_b
       -units/{civ}_cavalry_archer_b
+      -units/{civ}_champion_cavalry_barracks
+      -units/{civ}_champion_chariot_barracks
     </Entities>
   </ProductionQueue>
 </Entity>
