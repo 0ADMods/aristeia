@@ -43,6 +43,7 @@
   <TerritoryInfluence>
     <Root>true</Root>
     <Radius>48</Radius>
+    <Weight>40000</Weight>
   </TerritoryInfluence>
   <VisualActor>
     <Actor>structures/persians/apadana.xml</Actor>

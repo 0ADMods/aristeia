@@ -34,6 +34,8 @@
   <RallyPoint/>
   <TerritoryInfluence>
     <Radius>25</Radius>
+    <Root>false</Root>
+    <Weight>40000</Weight>
   </TerritoryInfluence>
   <VisualActor>
     <Actor>props/structures/persians/alt_building_03.xml</Actor>

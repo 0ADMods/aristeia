@@ -47,6 +47,8 @@
   <TerritoryDecay disable=""/>
   <TerritoryInfluence>
     <Radius>8</Radius>
+    <Root>false</Root>
+    <Weight>40000</Weight>
   </TerritoryInfluence>
   <Vision>
     <Range>12</Range>
