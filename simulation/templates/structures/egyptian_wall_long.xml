@@ -4,8 +4,17 @@
     <Square width="40" depth="10.0"/>
     <Height>9.0</Height>
   </Footprint>
-  <GarrisonHolder>
-    <VisibleGarrisonPoints>
+  <Identity>
+    <Civ>egyptian</Civ>
+    <SelectionGroupName>structures/egyptian_wallset_stone</SelectionGroupName>
+    <SpecificName>wmtt</SpecificName>
+    <History>Egyptian wall battlements were constructed to mimic the appearance of a row of Egyptian shields.</History>
+  </Identity>
+  <Obstruction>
+    <Static width="38.0" depth="8.0"/>
+  </Obstruction>
+  <TurretHolder>
+    <TurretPoints>
       <Archer1>
         <X>0</X><Y>9.7</Y><Z>0</Z>
       </Archer1>
@@ -21,17 +30,8 @@
       <Archer5>
         <X>-4</X><Y>9.7</Y><Z>0</Z>
       </Archer5>
-    </VisibleGarrisonPoints>
-  </GarrisonHolder>
-  <Identity>
-    <Civ>egyptian</Civ>
-    <SelectionGroupName>structures/egyptian_wallset_stone</SelectionGroupName>
-    <SpecificName>wmtt</SpecificName>
-    <History>Egyptian wall battlements were constructed to mimic the appearance of a row of Egyptian shields.</History>
-  </Identity>
-  <Obstruction>
-    <Static width="38.0" depth="8.0"/>
-  </Obstruction>
+    </TurretPoints>
+  </TurretHolder>
   <VisualActor>
     <Actor>structures/ptolemies/wall_long.xml</Actor>
   </VisualActor>
