@@ -59,7 +59,7 @@
 	{
 		"skirmish/units/default_infantry_melee_b": "units/judah_infantry_spearman_2_b",
 		"skirmish/units/default_infantry_ranged_b": "units/judah_infantry_archer_a",
-		"skirmish/units/default_cavalry": "units/judah_cavalry_javelinist_b"
+		"skirmish/units/default_cavalry": "units/judah_cavalry_javelineer_b"
 	},
 	"SelectableInGameSetup": true
 }

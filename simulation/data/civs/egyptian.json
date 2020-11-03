@@ -59,11 +59,11 @@
 			"Count": 2
 		},
 		{
-			"Template": "units/egyptian_infantry_javelinist_b",
+			"Template": "units/egyptian_infantry_javelineer_b",
 			"Count": 2
 		},
 		{
-			"Template": "units/egyptian_cavalry_javelinist_b"
+			"Template": "units/egyptian_cavalry_javelineer_b"
 		}
 	],
 	"Formations":
@@ -112,7 +112,7 @@
 	{
 		"skirmish/units/default_infantry_melee_b": "units/egyptian_infantry_swordsman_b",
 		"skirmish/units/default_infantry_ranged_b": "units/egyptian_infantry_archer_b",
-		"skirmish/units/default_cavalry": "units/egyptian_cavalry_javelinist_b",
+		"skirmish/units/default_cavalry": "units/egyptian_cavalry_javelineer_b",
 		"skirmish/structures/default_house_5": "structures/{civ}_house"
 	},
 	"SelectableInGameSetup": true

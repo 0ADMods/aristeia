@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="units/arcgreek_infantry_javelinist_b">
+<Entity parent="units/egyptian_infantry_javelineer_b">
   <Identity>
     <Rank>Advanced</Rank>
   </Identity>
   <Promotion>
-    <Entity>units/arcgreek_infantry_javelinist_e</Entity>
+    <Entity>units/egyptian_infantry_javelineer_e</Entity>
   </Promotion>
 </Entity>
