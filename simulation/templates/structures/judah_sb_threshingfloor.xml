@@ -1,53 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_structure_special">
-  <Cost>
-    <BuildTime>100</BuildTime>
-    <Resources>
-      <food>0</food>
-      <wood>200</wood>
-      <stone>100</stone>
-      <metal>0</metal>
-    </Resources>
-  </Cost>
-  <Footprint replace="">
-    <Circle radius="9.0"/>
-    <Height>6.0</Height>
-  </Footprint>
-  <GarrisonHolder disable=""/>
+<Entity parent="template_structure_special_threshingfloor">
   <Identity>
     <Civ>judah</Civ>
-    <VisibleClasses datatype="tokens">-City Town</VisibleClasses>
-    <GenericName>Threshing Floor</GenericName>
-    <Tooltip>Enables additional farming upgrade techs.</Tooltip>
-    <History>Separating the grain was accomplished via a team of oxen in a flat, circular outdoor area.</History>
-    <Icon>structures/rotarymill.png</Icon>
-    <RequiredTechnology>phase_town</RequiredTechnology>
   </Identity>
-  <Obstruction>
-    <Static width="16.0" depth="16.0"/>
-  </Obstruction>
   <ProductionQueue>
-    <BatchTimeModifier>0.8</BatchTimeModifier>
     <Technologies datatype="tokens">
       <!-- To be specified at a later date -->
     </Technologies>
   </ProductionQueue>
-  <RallyPoint disable=""/>
-  <Sound>
-    <SoundGroups>
-      <select>interface/select/building/sel_ffactri.xml</select>
-      <constructed>interface/complete/building/complete_ffactri.xml</constructed>
-      <death>attack/destruction/building_collapse_large.xml</death>
-    </SoundGroups>
-  </Sound>
-  <StatusBars>
-    <HeightOffset>8.0</HeightOffset>
-  </StatusBars>
-  <TerritoryInfluence>
-    <Radius>32</Radius>
-  </TerritoryInfluence>
-  <VisualActor>
-    <Actor>structures/celts/special.xml</Actor>
-    <FoundationActor>structures/fndn_4x4.xml</FoundationActor>
-  </VisualActor>
 </Entity>
