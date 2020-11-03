@@ -9,7 +9,7 @@
   </Health>
   <Identity>
     <Civ>judah</Civ>
-    <Icon>structures/italian_embassy.png</Icon>
+    <Icon>structures/embassy_italic.png</Icon>
   </Identity>
   <Obstruction>
     <Static width="28.0" depth="28.0"/>
