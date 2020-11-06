@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_military_arsenal">
+  <Footprint>
+    <Square width="30.0" depth="17.0"/>
+    <Height>10.0</Height>
+  </Footprint>
+  <Health>
+    <Max>2500</Max>
+  </Health>
+  <Identity>
+    <Civ>assyrian</Civ>
+  </Identity>
+  <Obstruction>
+    <Static width="28.0" depth="15.0"/>
+  </Obstruction>
+  <TerritoryInfluence>
+    <Radius>26</Radius>
+  </TerritoryInfluence>
+  <VisualActor>
+    <Actor>props/structures/persians/alt_building_04.xml</Actor>
+    <FoundationActor>structures/fndn_6x6.xml</FoundationActor>
+  </VisualActor>
+</Entity>
