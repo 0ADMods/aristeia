@@ -8,7 +8,7 @@
         <prop actor="props/units/helmets/seapeople_helmet_a.xml" attachpoint="helmet"/>
         <prop actor="props/units/heads/new/head_hele_b.xml" attachpoint="head"/>
         <prop actor="props/units/shields/seapeople_shield_a.xml" attachpoint="shield"/>
-        <prop actor="props/units/weapons/gladus.xml" attachpoint="weapon_R"/>
+        <prop actor="props/units/weapons/gladius.xml" attachpoint="weapon_R"/>
       </props>
     </variant>
   </group>
