@@ -8896,42 +8896,42 @@
 			<Actor seed="30782"/>
 		</Entity>
 		<Entity uid="4447">
-			<Template>units/egyptian/infantry_javelinist_b</Template>
+			<Template>units/egyptian/infantry_javelineer_b</Template>
 			<Player>1</Player>
 			<Position x="637.21442" z="261.17048"/>
 			<Orientation y="-3.06624"/>
 			<Actor seed="4824"/>
 		</Entity>
 		<Entity uid="4448">
-			<Template>units/egyptian/infantry_javelinist_b</Template>
+			<Template>units/egyptian/infantry_javelineer_b</Template>
 			<Player>1</Player>
 			<Position x="651.89948" z="266.71833"/>
 			<Orientation y="-2.91141"/>
 			<Actor seed="31339"/>
 		</Entity>
 		<Entity uid="4449">
-			<Template>units/egyptian/infantry_javelinist_b</Template>
+			<Template>units/egyptian/infantry_javelineer_b</Template>
 			<Player>1</Player>
 			<Position x="656.73157" z="261.00178"/>
 			<Orientation y="-1.71106"/>
 			<Actor seed="26677"/>
 		</Entity>
 		<Entity uid="4450">
-			<Template>units/egyptian/infantry_javelinist_b</Template>
+			<Template>units/egyptian/infantry_javelineer_b</Template>
 			<Player>1</Player>
 			<Position x="638.49622" z="256.17048"/>
 			<Orientation y="-2.67573"/>
 			<Actor seed="6343"/>
 		</Entity>
 		<Entity uid="4451">
-			<Template>units/egyptian/infantry_javelinist_b</Template>
+			<Template>units/egyptian/infantry_javelineer_b</Template>
 			<Player>1</Player>
 			<Position x="653.41553" z="255.22077"/>
 			<Orientation y="-2.5286"/>
 			<Actor seed="61221"/>
 		</Entity>
 		<Entity uid="4452">
-			<Template>units/egyptian/infantry_javelinist_b</Template>
+			<Template>units/egyptian/infantry_javelineer_b</Template>
 			<Player>1</Player>
 			<Position x="631.74006" z="324.95652"/>
 			<Orientation y="-0.57651"/>
