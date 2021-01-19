@@ -196,35 +196,35 @@
 			<Actor seed="57448"/>
 		</Entity>
 		<Entity uid="31">
-			<Template>units/maur_ship_fishing</Template>
+			<Template>units/maur/ship_fishing</Template>
 			<Player>1</Player>
 			<Position x="306.17066" z="349.09537"/>
 			<Orientation y="1.1424"/>
 			<Actor seed="45297"/>
 		</Entity>
 		<Entity uid="35">
-			<Template>units/athen_infantry_slinger_b</Template>
+			<Template>units/athen/infantry_slinger_b</Template>
 			<Player>2</Player>
 			<Position x="604.9734" z="690.01014"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="30529"/>
 		</Entity>
 		<Entity uid="36">
-			<Template>units/athen_infantry_slinger_b</Template>
+			<Template>units/athen/infantry_slinger_b</Template>
 			<Player>2</Player>
 			<Position x="621.8625" z="554.30176"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="62349"/>
 		</Entity>
 		<Entity uid="37">
-			<Template>units/athen_infantry_slinger_b</Template>
+			<Template>units/athen/infantry_slinger_b</Template>
 			<Player>2</Player>
 			<Position x="587.67109" z="607.25953"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="49340"/>
 		</Entity>
 		<Entity uid="38">
-			<Template>units/athen_infantry_slinger_b</Template>
+			<Template>units/athen/infantry_slinger_b</Template>
 			<Player>2</Player>
 			<Position x="636.42627" z="659.25544"/>
 			<Orientation y="2.35621"/>
