@@ -13,7 +13,7 @@
       units/{civ}/cavalry_spearman_b
     </Entities>
     <Technologies datatype="tokens">
-      persians/persian_architecture
+      architecture_pers
     </Technologies>
   </ProductionQueue>
   <VisualActor>
