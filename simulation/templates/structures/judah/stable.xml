@@ -14,7 +14,7 @@
   </Obstruction>
   <ProductionQueue>
     <Entities datatype="tokens">
-      units/{civ}_champion_chariot
+      units/{civ}/champion_chariot
     </Entities>
   </ProductionQueue>
   <VisualActor>

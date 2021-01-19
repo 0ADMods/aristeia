@@ -2,7 +2,7 @@
 <Entity parent="template_unit_support_healer">
   <Identity>
     <Civ>judah</Civ>
-    <SelectionGroupName>units/judah_support_healer_b</SelectionGroupName>
+    <SelectionGroupName>units/judah/support_healer_b</SelectionGroupName>
     <GenericName>Priest of YHWH</GenericName>
     <Icon>units/pers_support_healer.png</Icon>
     <Rank>Basic</Rank>

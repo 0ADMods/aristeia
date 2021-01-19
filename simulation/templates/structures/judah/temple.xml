@@ -20,7 +20,7 @@
   </Obstruction>
   <ProductionQueue>
     <Entities datatype="tokens">
-      units/{civ}_support_healer_high
+      units/{civ}/support_healer_high
     </Entities>
   </ProductionQueue>
   <VisualActor>

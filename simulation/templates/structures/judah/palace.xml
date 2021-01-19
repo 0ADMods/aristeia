@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_structure_military_infantry_barracks">
-  <Cost>
-    <Resources>
-      <wood>100</wood>
-      <stone>150</stone>
-    </Resources>
-  </Cost>
+<Entity parent="template_structure_special_palace">
   <Footprint>
-    <Square width="24.0" depth="25.0"/>
+    <Square width="28.0" depth="28.0"/>
     <Height>15.0</Height>
   </Footprint>
   <Health>
@@ -15,20 +9,20 @@
   </Health>
   <Identity>
     <Civ>judah</Civ>
+    <Icon>structures/embassy_italic.png</Icon>
   </Identity>
   <Obstruction>
-    <Static width="22.0" depth="23.0"/>
+    <Static width="28.0" depth="28.0"/>
   </Obstruction>
   <ProductionQueue>
     <Entities datatype="tokens">
-      -units/{civ}_infantry_archer_b
-      -units/{civ}_infantry_slinger_b
-      units/{civ}_infantry_archer_a
-      units/{civ}_infantry_slinger_a
+      units/{civ}/hero_hezekiah
+      units/{civ}/hero_jehoshaphat
+      units/{civ}/hero_josiah
     </Entities>
   </ProductionQueue>
   <VisualActor>
-    <Actor>structures/carthaginians/barracks.xml</Actor>
+    <Actor>structures/carthaginians/embassy.xml</Actor>
     <FoundationActor>structures/fndn_5x5.xml</FoundationActor>
   </VisualActor>
 </Entity>

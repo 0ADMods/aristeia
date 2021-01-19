@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="units/judah_infantry_slinger_b">
+<Entity parent="units/judah/infantry_spearman_2_b">
   <Identity>
     <Rank>Advanced</Rank>
   </Identity>
   <Promotion>
-    <Entity>units/judah_infantry_slinger_e</Entity>
+    <Entity>units/judah/infantry_spearman_2_e</Entity>
   </Promotion>
 </Entity>

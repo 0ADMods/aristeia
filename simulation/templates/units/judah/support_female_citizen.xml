@@ -2,14 +2,14 @@
 <Entity parent="template_unit_support_female_citizen">
   <Builder>
     <Entities datatype="tokens">
-      structures/{civ}_sb_threshingfloor
+      structures/{civ}/sb_threshingfloor
     </Entities>
   </Builder>
   <Identity>
     <Civ>judah</Civ>
     <GenericName>Judahite Woman</GenericName>
     <Icon>units/pers_support_female_citizen.png</Icon>
-    <SelectionGroupName>units/judah_support_female_citizen</SelectionGroupName>
+    <SelectionGroupName>units/judah/support_female_citizen</SelectionGroupName>
   </Identity>
   <VisualActor>
     <Actor>units/persians/female_citizen.xml</Actor>

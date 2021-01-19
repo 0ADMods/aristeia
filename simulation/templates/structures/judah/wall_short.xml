@@ -6,7 +6,7 @@
   </Footprint>
   <Identity>
     <Civ>judah</Civ>
-    <SelectionGroupName>structures/judah_wallset_stone</SelectionGroupName>
+    <SelectionGroupName>structures/judah/wallset_stone</SelectionGroupName>
   </Identity>
   <Obstruction>
     <Static width="16.0" depth="9.0"/>
