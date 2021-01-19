@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_structure_military_infantry_barracks">
+<Entity parent="template_structure_military_barracks">
   <Identity>
     <Civ>assyrian</Civ>
     <SpecificName>Bēt Napt ṭarti</SpecificName>

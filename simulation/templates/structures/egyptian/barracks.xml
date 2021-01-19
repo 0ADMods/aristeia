@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_structure_military_infantry_barracks">
+<Entity parent="template_structure_military_barracks">
   <Footprint>
     <Square width="21.0" depth="20.0"/>
     <Height>8.0</Height>
