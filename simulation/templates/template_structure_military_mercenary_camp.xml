@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_military_barracks">
+  <Attack disable=""/>
+  <BuildRestrictions>
+    <Territory>own neutral</Territory>
+    <Distance>
+      <FromClass>MercenaryCamp</FromClass>
+      <MinDistance>100</MinDistance>
+    </Distance>
+  </BuildRestrictions>
+  <Cost>
+    <BuildTime>300</BuildTime>
+    <Resources>
+      <wood>100</wood>
+      <stone>0</stone>
+      <metal>100</metal>
+    </Resources>
+  </Cost>
+  <Health>
+    <Max>1200</Max>
+  </Health>
+  <Identity>
+    <GenericName>Mercenary Camp</GenericName>
+    <Classes datatype="tokens">MercenaryCamp</Classes>
+    <Tooltip>Cheap barracks-like structure that is buildable in neutral territory, but casts no territory influence. Train Mercenaries.</Tooltip>
+    <Icon>structures/military_settlement.png</Icon>
+    <RequiredTechnology>phase_town</RequiredTechnology>
+  </Identity>
+  <ProductionQueue>
+    <Entities datatype="tokens" replace="">
+      units/{civ}/infantry_archer_merc_b
+      units/{civ}/infantry_axeman_merc_b
+      units/{civ}/infantry_javelineer_merc_b
+      units/{civ}/infantry_maceman_merc_b
+      units/{civ}/infantry_pikeman_merc_b
+      units/{civ}/infantry_slinger_merc_b
+      units/{civ}/infantry_spearman_merc_b
+      units/{civ}/infantry_swordsman_merc_b
+
+      units/{civ}/cavalry_archer_merc_b
+      units/{civ}/cavalry_axeman_merc_b
+      units/{civ}/cavalry_javelineer_merc_b
+      units/{civ}/cavalry_maceman_merc_b
+      units/{civ}/cavalry_pikeman_merc_b
+      units/{civ}/cavalry_slinger_merc_b
+      units/{civ}/cavalry_spearman_merc_b
+      units/{civ}/cavalry_swordsman_merc_b
+
+      units/{civ}/champion_archer_merc
+      units/{civ}/champion_axeman_merc
+      units/{civ}/champion_javelineer_merc
+      units/{civ}/champion_maceman_merc
+      units/{civ}/champion_pikeman_merc
+      units/{civ}/champion_slinger_merc
+      units/{civ}/champion_spearman_merc
+      units/{civ}/champion_swordsman_merc
+    </Entities>
+    <Technologies datatype="tokens">
+      -pair_unlock_champions_sele
+    </Technologies>
+  </ProductionQueue>
+  <Sound>
+    <SoundGroups>
+      <select>interface/select/building/sel_gymnasium.xml</select>
+      <constructed>interface/complete/building/complete_gymnasium.xml</constructed>
+    </SoundGroups>
+  </Sound>
+  <TerritoryDecay>
+    <DecayRate>1</DecayRate>
+  </TerritoryDecay>
+  <TerritoryInfluence disable=""/>
+</Entity>
