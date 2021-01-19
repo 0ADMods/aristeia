@@ -636,7 +636,7 @@
 			<Actor seed="0"/>
 		</Entity>
 		<Entity uid="3009">
-			<Template>structures/pers_civil_centre</Template>
+			<Template>structures/pers/civil_centre</Template>
 			<Player>2</Player>
 			<Position x="633.69996" z="949.36097"/>
 			<Orientation y="2.35621"/>
@@ -2463,70 +2463,70 @@
 			<Actor seed="0"/>
 		</Entity>
 		<Entity uid="3373">
-			<Template>units/pers_support_female_citizen</Template>
+			<Template>units/pers/support_female_citizen</Template>
 			<Player>2</Player>
 			<Position x="642.32752" z="923.59089"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="0"/>
 		</Entity>
 		<Entity uid="3374">
-			<Template>units/pers_support_female_citizen</Template>
+			<Template>units/pers/support_female_citizen</Template>
 			<Player>2</Player>
 			<Position x="646.34882" z="926.6833"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="0"/>
 		</Entity>
 		<Entity uid="3375">
-			<Template>units/pers_support_female_citizen</Template>
+			<Template>units/pers/support_female_citizen</Template>
 			<Player>2</Player>
 			<Position x="649.51374" z="929.92518"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="0"/>
 		</Entity>
 		<Entity uid="3376">
-			<Template>units/pers_support_female_citizen</Template>
+			<Template>units/pers/support_female_citizen</Template>
 			<Player>2</Player>
 			<Position x="652.36951" z="932.94416"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="0"/>
 		</Entity>
 		<Entity uid="3377">
-			<Template>units/pers_support_female_citizen</Template>
+			<Template>units/pers/support_female_citizen</Template>
 			<Player>2</Player>
 			<Position x="654.97846" z="935.52564"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="0"/>
 		</Entity>
 		<Entity uid="3378">
-			<Template>units/pers_infantry_spearman_b</Template>
+			<Template>units/pers/infantry_spearman_b</Template>
 			<Player>2</Player>
 			<Position x="646.6778" z="918.86066"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="0"/>
 		</Entity>
 		<Entity uid="3379">
-			<Template>units/pers_infantry_spearman_b</Template>
+			<Template>units/pers/infantry_spearman_b</Template>
 			<Player>2</Player>
 			<Position x="649.80158" z="921.10242"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="0"/>
 		</Entity>
 		<Entity uid="3380">
-			<Template>units/pers_infantry_spearman_b</Template>
+			<Template>units/pers/infantry_spearman_b</Template>
 			<Player>2</Player>
 			<Position x="652.99079" z="924.29029"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="0"/>
 		</Entity>
 		<Entity uid="3381">
-			<Template>units/pers_infantry_spearman_b</Template>
+			<Template>units/pers/infantry_spearman_b</Template>
 			<Player>2</Player>
 			<Position x="655.69825" z="927.115"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="0"/>
 		</Entity>
 		<Entity uid="3382">
-			<Template>units/pers_cavalry_swordsman_b</Template>
+			<Template>units/pers/cavalry_axeman_b</Template>
 			<Player>2</Player>
 			<Position x="659.39893" z="930.15876"/>
 			<Orientation y="2.35621"/>
@@ -8584,7 +8584,7 @@
 			<Actor seed="0"/>
 		</Entity>
 		<Entity uid="4340">
-			<Template>structures/pers_dock</Template>
+			<Template>structures/pers/dock</Template>
 			<Player>2</Player>
 			<Position x="643.831" z="767.9079"/>
 			<Orientation y="2.35621"/>
