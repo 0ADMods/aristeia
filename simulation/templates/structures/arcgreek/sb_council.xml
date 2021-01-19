@@ -38,9 +38,9 @@
   <ProductionQueue>
     <BatchTimeModifier>0.7</BatchTimeModifier>
     <Entities datatype="tokens">
-      units/{civ}_hero_cleisthenes
-      units/{civ}_hero_lycurgus
-      units/{civ}_hero_solon
+      units/{civ}/hero_cleisthenes
+      units/{civ}/hero_lycurgus
+      units/{civ}/hero_solon
     </Entities>
   </ProductionQueue>
   <Sound>

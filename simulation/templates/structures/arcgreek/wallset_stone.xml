@@ -6,11 +6,11 @@
   </Identity>
   <WallSet>
     <Templates>
-      <Tower>structures/arcgreek_wall_tower</Tower>
-      <Gate>structures/arcgreek_wall_gate</Gate>
-      <WallLong>structures/arcgreek_wall_long</WallLong>
-      <WallMedium>structures/arcgreek_wall_medium</WallMedium>
-      <WallShort>structures/arcgreek_wall_short</WallShort>
+      <Tower>structures/arcgreek/wall_tower</Tower>
+      <Gate>structures/arcgreek/wall_gate</Gate>
+      <WallLong>structures/arcgreek/wall_long</WallLong>
+      <WallMedium>structures/arcgreek/wall_medium</WallMedium>
+      <WallShort>structures/arcgreek/wall_short</WallShort>
     </Templates>
     <MaxTowerOverlap>0.90</MaxTowerOverlap>
     <MinTowerOverlap>0.05</MinTowerOverlap>

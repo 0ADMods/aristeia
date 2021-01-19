@@ -37,7 +37,7 @@
   <ProductionQueue>
     <BatchTimeModifier>0.7</BatchTimeModifier>
     <Entities datatype="tokens">
-      units/{civ}_champion_spearman
+      units/{civ}/champion_spearman
     </Entities>
   </ProductionQueue>
   <Sound>

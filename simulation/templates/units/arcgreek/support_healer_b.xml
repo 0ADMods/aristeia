@@ -3,7 +3,7 @@
   <Identity>
     <Civ>arcgreek</Civ>
     <Lang>greek</Lang>
-    <SelectionGroupName>units/arcgreek_support_healer_b</SelectionGroupName>
+    <SelectionGroupName>units/arcgreek/support_healer_b</SelectionGroupName>
     <SpecificName>Priest of Artemis</SpecificName>
     <History>The art of medicine was widely practised in Classical Greece. Hippocrates was the first physician to separate religion and superstition from actual medicine, and many others followed his lead.</History>
     <Icon>units/hele_support_healer.png</Icon>

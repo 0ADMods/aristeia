@@ -3,12 +3,12 @@
   <Identity>
     <Civ>arcgreek</Civ>
     <Lang>greek</Lang>
-    <SelectionGroupName>units/arcgreek_cavalry_javelineer_b</SelectionGroupName>
+    <SelectionGroupName>units/arcgreek/cavalry_javelineer_b</SelectionGroupName>
     <GenericName>Thessalian Scout</GenericName>
     <Icon>units/athen_cavalry_javelinist.png</Icon>
   </Identity>
   <Promotion>
-    <Entity>units/arcgreek_cavalry_javelineer_a</Entity>
+    <Entity>units/arcgreek/cavalry_javelineer_a</Entity>
   </Promotion>
   <VisualActor>
     <Actor>units/athenians/cavalry_javelinist_b_m.xml</Actor>

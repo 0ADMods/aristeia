@@ -3,12 +3,12 @@
   <Identity>
     <Civ>arcgreek</Civ>
     <Lang>greek</Lang>
-    <SelectionGroupName>units/arcgreek_cavalry_spearman_b</SelectionGroupName>
+    <SelectionGroupName>units/arcgreek/cavalry_spearman_b</SelectionGroupName>
     <GenericName>Greek Horseman</GenericName>
     <Icon>units/spart_cavalry_spearman.png</Icon>
   </Identity>
   <Promotion>
-    <Entity>units/arcgreek_cavalry_spearman_a</Entity>
+    <Entity>units/arcgreek/cavalry_spearman_a</Entity>
   </Promotion>
   <VisualActor>
     <Actor>units/spartans/cavalry_spearman_e_m.xml</Actor>

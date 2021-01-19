@@ -14,30 +14,30 @@
 	"Structures": [],
 	"WallSets":
 	[
-		"structures/arcgreek_wallset_stone"
+		"structures/arcgreek/wallset_stone"
 	],
 	"StartEntities":
 	[
 		{
-			"Template": "structures/arcgreek_civil_centre"
+			"Template": "structures/arcgreek/civil_centre"
 		},
 		{
-			"Template": "units/arcgreek_support_female_citizen",
+			"Template": "units/arcgreek/support_female_citizen",
 			"Count": 4
 		},
 		{
-			"Template": "units/arcgreek_infantry_spearman_b",
+			"Template": "units/arcgreek/infantry_spearman_b",
 			"Count": 2
 		},
 		{
-			"Template": "units/arcgreek_infantry_javelineer_b",
+			"Template": "units/arcgreek/infantry_javelineer_b",
 			"Count": 2
 		},
 		{
-			"Template": "units/arcgreek_cavalryjavelineer__b"
+			"Template": "units/arcgreek/cavalryjavelineer__b"
 		},
 		{
-			"Template": "units/arcgreek_support_slave"
+			"Template": "units/arcgreek/support_slave"
 		}
 	],
 	"AINames":
@@ -60,11 +60,11 @@
 	],
 	"SkirmishReplacements":
 	{
-		"skirmish/units/default_infantry_melee_b": "units/arcgreek_infantry_spearman_b",
-		"skirmish/units/default_infantry_ranged_b": "units/arcgreek_infantry_javelineer_b",
-		"skirmish/units/default_cavalry": "units/arcgreek_cavalry_javelineer_b",
-		"skirmish/units/special_starting_unit": "units/arcgreek_support_slave",
-		"skirmish/structures/default_house_5": "structures/{civ}_house"
+		"skirmish/units/default_infantry_melee_b": "units/arcgreek/infantry_spearman_b",
+		"skirmish/units/default_infantry_ranged_b": "units/arcgreek/infantry_javelineer_b",
+		"skirmish/units/default_cavalry": "units/arcgreek/cavalry_javelineer_b",
+		"skirmish/units/special_starting_unit": "units/arcgreek/support_slave",
+		"skirmish/structures/default_house_5": "structures/{civ}/house"
 	},
 	"SelectableInGameSetup": true
 }
