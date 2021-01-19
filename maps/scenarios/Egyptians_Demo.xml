@@ -3921,42 +3921,42 @@
 			<Actor seed="0"/>
 		</Entity>
 		<Entity uid="3619">
-			<Template>other/obelisk</Template>
+			<Template>structures/obelisk</Template>
 			<Player>0</Player>
 			<Position x="863.53711" z="634.44349"/>
 			<Orientation y="-2.03243"/>
 			<Actor seed="0"/>
 		</Entity>
 		<Entity uid="3620">
-			<Template>other/obelisk</Template>
+			<Template>structures/obelisk</Template>
 			<Player>0</Player>
 			<Position x="555.74457" z="960.27857"/>
 			<Orientation y="-1.57081"/>
 			<Actor seed="0"/>
 		</Entity>
 		<Entity uid="3621">
-			<Template>other/obelisk</Template>
+			<Template>structures/obelisk</Template>
 			<Player>0</Player>
 			<Position x="1061.98572" z="684.01221"/>
 			<Orientation y="1.03975"/>
 			<Actor seed="0"/>
 		</Entity>
 		<Entity uid="3622">
-			<Template>other/obelisk</Template>
+			<Template>structures/obelisk</Template>
 			<Player>0</Player>
 			<Position x="223.57612" z="819.1219"/>
 			<Orientation y="-1.90833"/>
 			<Actor seed="0"/>
 		</Entity>
 		<Entity uid="3623">
-			<Template>other/obelisk</Template>
+			<Template>structures/obelisk</Template>
 			<Player>0</Player>
 			<Position x="712.2732" z="103.82981"/>
 			<Orientation y="1.16005"/>
 			<Actor seed="0"/>
 		</Entity>
 		<Entity uid="3624">
-			<Template>other/obelisk</Template>
+			<Template>structures/obelisk</Template>
 			<Player>0</Player>
 			<Position x="118.64716" z="486.86182"/>
 			<Orientation y="0.86027"/>
