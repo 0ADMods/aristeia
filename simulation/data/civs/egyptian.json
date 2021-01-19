@@ -42,28 +42,28 @@
 	"Structures": [],
 	"WallSets":
 	[
-		"structures/egyptian_wallset_small",
-		"structures/egyptian_wallset_stone"
+		"structures/egyptian/wallset_small",
+		"structures/egyptian/wallset_stone"
 	],
 	"StartEntities":
 	[
 		{
-			"Template": "structures/egyptian_civil_centre"
+			"Template": "structures/egyptian/civil_centre"
 		},
 		{
-			"Template": "units/egyptian_support_female_citizen",
+			"Template": "units/egyptian/support_female_citizen",
 			"Count": 4
 		},
 		{
-			"Template": "units/egyptian_infantry_swordsman_b",
+			"Template": "units/egyptian/infantry_swordsman_b",
 			"Count": 2
 		},
 		{
-			"Template": "units/egyptian_infantry_javelineer_b",
+			"Template": "units/egyptian/infantry_javelineer_b",
 			"Count": 2
 		},
 		{
-			"Template": "units/egyptian_cavalry_javelineer_b"
+			"Template": "units/egyptian/cavalry_javelineer_b"
 		}
 	],
 	"Formations":
@@ -110,10 +110,10 @@
 	],
 	"SkirmishReplacements":
 	{
-		"skirmish/units/default_infantry_melee_b": "units/egyptian_infantry_swordsman_b",
-		"skirmish/units/default_infantry_ranged_b": "units/egyptian_infantry_archer_b",
-		"skirmish/units/default_cavalry": "units/egyptian_cavalry_javelineer_b",
-		"skirmish/structures/default_house_5": "structures/{civ}_house"
+		"skirmish/units/default_infantry_melee_b": "units/egyptian/infantry_swordsman_b",
+		"skirmish/units/default_infantry_ranged_b": "units/egyptian/infantry_archer_b",
+		"skirmish/units/default_cavalry": "units/egyptian/cavalry_javelineer_b",
+		"skirmish/structures/default_house_5": "structures/{civ}/house"
 	},
 	"SelectableInGameSetup": true
 }

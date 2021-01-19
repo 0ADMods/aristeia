@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_hero_cavalry_archer">
+  <Auras datatype="tokens">
+    units/heroes/egyptian_hero_common
+  </Auras>
+  <Builder>
+    <Rate>1.0</Rate>
+    <Entities datatype="tokens">
+      structures/egyptian/sb_obelisk
+    </Entities>
+  </Builder>
+  <Cost>
+    <Population>2</Population>
+  </Cost>
+  <Identity>
+    <Civ>egyptian</Civ>
+    <GenericName>Ramesses II</GenericName>
+    <Icon>units/egyptian_hero_pharao.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/egyptian/hero_ramesses_ii_chariot.xml</Actor>
+  </VisualActor>
+</Entity>

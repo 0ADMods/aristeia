@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_wallset">
+  <Identity>
+    <Civ>egyptian</Civ>
+    <SpecificName>wmtt</SpecificName>
+    <History>Egyptian wall battlements were constructed to mimic the appearance of a row of Egyptian shields.</History>
+  </Identity>
+  <WallSet>
+    <Templates>
+      <Tower>structures/egyptian/wall_tower</Tower>
+      <Gate>structures/egyptian/wall_gate</Gate>
+      <WallLong>structures/egyptian/wall_long</WallLong>
+      <WallMedium>structures/egyptian/wall_medium</WallMedium>
+      <WallShort>structures/egyptian/wall_short</WallShort>
+    </Templates>
+  </WallSet>
+</Entity>
