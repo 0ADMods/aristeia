@@ -13,7 +13,7 @@
   <Identity>
     <Civ>assyrian</Civ>
     <GenericName>Royal Apartments</GenericName>
-    <Classes datatype="tokens">SpecialBuilding</Classes>
+    <Classes datatype="tokens">CivSpecific</Classes>
     <VisibleClasses datatype="tokens">City</VisibleClasses>
     <RequiredTechnology>phase_city</RequiredTechnology>
   </Identity>

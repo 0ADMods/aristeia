@@ -20,7 +20,7 @@
   </Health>
   <Identity>
     <Civ>arcgreek</Civ>
-    <Classes datatype="tokens">ConquestCritical</Classes>
+    <Classes datatype="tokens">CivSpecific ConquestCritical</Classes>
     <GenericName>Gymnasium</GenericName>
     <SpecificName>Gymnásion</SpecificName>
     <Tooltip>Train champion units.</Tooltip>

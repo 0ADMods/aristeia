@@ -2,6 +2,7 @@
 <Entity parent="template_structure_special_threshingfloor">
   <Identity>
     <Civ>egyptian</Civ>
+    <Classes datatype="tokens">CivSpecific</Classes>
     <SpecificName>xtyw</SpecificName>
   </Identity>
   <ProductionQueue>

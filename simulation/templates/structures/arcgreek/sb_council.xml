@@ -21,6 +21,7 @@
   </Health>
   <Identity>
     <Civ>arcgreek</Civ>
+    <Classes datatype="tokens">CivSpecific</Classes>
     <GenericName>Council Chamber</GenericName>
     <SpecificName>Prytaneîon</SpecificName>
     <Tooltip>Train heroes.</Tooltip>

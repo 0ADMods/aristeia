@@ -27,6 +27,7 @@
   </Health>
   <Identity>
     <Civ>egyptian</Civ>
+    <Classes datatype="tokens">CivSpecific</Classes>
     <GenericName>Obelisk</GenericName>
     <SpecificName>txn</SpecificName>
     <History>Obelisks were often set up in pairs at the entrances of temples.</History>

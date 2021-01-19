@@ -2,6 +2,7 @@
 <Entity parent="template_structure_special_palace">
   <Identity>
     <Civ>assyrian</Civ>
+    <Classes datatype="tokens">CivSpecific</Classes>
     <GenericName>Royal Palace</GenericName>
   </Identity>
   <ProductionQueue>

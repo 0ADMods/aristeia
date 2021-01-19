@@ -6,6 +6,7 @@
   </Footprint>
   <Identity>
     <Civ>egyptian</Civ>
+    <Classes datatype="tokens">CivSpecific</Classes>
     <GenericName>Palace</GenericName>
     <SpecificName>ist</SpecificName>
     <Tooltip>Trains Heroes and Champions.</Tooltip>

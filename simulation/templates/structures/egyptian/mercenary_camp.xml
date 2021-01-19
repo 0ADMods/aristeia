@@ -9,6 +9,7 @@
   </Health>
   <Identity>
     <Civ>egyptian</Civ>
+    <Classes datatype="tokens">CivSpecific</Classes>
   </Identity>
   <Obstruction>
     <Static width="23.5" depth="23.5"/>

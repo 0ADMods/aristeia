@@ -26,6 +26,7 @@
   </Health>
   <Identity>
     <Civ>egyptian</Civ>
+    <Classes datatype="tokens">CivSpecific</Classes>
     <GenericName>Great Monument to the Pharaoh</GenericName>
     <SpecificName>sšmw</SpecificName>
     <History>The Ramesside Pharaohs, especially Ramesses II, built many self-promoting monuments and statues.</History>

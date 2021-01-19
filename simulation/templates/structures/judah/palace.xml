@@ -9,6 +9,7 @@
   </Health>
   <Identity>
     <Civ>judah</Civ>
+    <Classes datatype="tokens">CivSpecific</Classes>
     <Icon>structures/embassy_italic.png</Icon>
   </Identity>
   <Obstruction>
