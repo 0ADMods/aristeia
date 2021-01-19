@@ -6,7 +6,7 @@
   </Footprint>
   <Identity>
     <Civ>assyrian</Civ>
-    <SelectionGroupName>structures/assyrian_wallset_stone</SelectionGroupName>
+    <SelectionGroupName>structures/assyrian/wallset_stone</SelectionGroupName>
   </Identity>
   <Obstruction>
     <Static width="24.0" depth="7.0"/>

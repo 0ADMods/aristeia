@@ -6,10 +6,10 @@
   </Identity>
   <ProductionQueue>
     <Entities datatype="tokens">
-      units/{civ}_hero_ashurbanipal
-      units/{civ}_hero_sennacherib
-      units/{civ}_hero_tiglath_pileser_iii
-      units/{civ}_champion_infantry_spearman_3
+      units/{civ}/hero_ashurbanipal
+      units/{civ}/hero_sennacherib
+      units/{civ}/hero_tiglath_pileser_iii
+      units/{civ}/champion_infantry_spearman_3
     </Entities>
   </ProductionQueue>
 </Entity>

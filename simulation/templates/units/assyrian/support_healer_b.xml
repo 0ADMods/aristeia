@@ -2,7 +2,7 @@
 <Entity parent="template_unit_support_healer">
   <Identity>
     <Civ>assyrian</Civ>
-    <SelectionGroupName>units/assyrian_support_healer_b</SelectionGroupName>
+    <SelectionGroupName>units/assyrian/support_healer_b</SelectionGroupName>
     <GenericName>Assyrian Priest</GenericName>
     <Icon>units/hele_support_healer.png</Icon>
   </Identity>

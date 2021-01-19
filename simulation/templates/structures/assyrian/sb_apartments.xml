@@ -22,9 +22,9 @@
   </Obstruction>
   <ProductionQueue>
     <Entities datatype="tokens">
-      -units/{civ}_support_female_citizen_house
-      units/{civ}_champion_infantry_spearman_2
-      units/{civ}_champion_cavalry_spearman
+      -units/{civ}/support_female_citizen_house
+      units/{civ}/champion_infantry_spearman_2
+      units/{civ}/champion_cavalry_spearman
     </Entities>
     <Technologies datatype="tokens">
       -health_females_01

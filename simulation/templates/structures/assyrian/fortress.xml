@@ -5,7 +5,7 @@
   </Identity>
   <ProductionQueue>
     <Entities datatype="tokens">
-      units/{civ}_champion_infantry_spearman_1
+      units/{civ}/champion_infantry_spearman_1
     </Entities>
   </ProductionQueue>
   <VisualActor>

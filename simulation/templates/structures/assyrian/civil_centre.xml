@@ -8,9 +8,9 @@
   </Identity>
   <ProductionQueue>
     <Entities datatype="tokens">
-      units/{civ}_infantry_spearman_b
-      units/{civ}_infantry_archer_b
-      units/{civ}_cavalry_spearman_b
+      units/{civ}/infantry_spearman_b
+      units/{civ}/infantry_archer_b
+      units/{civ}/cavalry_spearman_b
     </Entities>
     <Technologies datatype="tokens">
       persians/persian_architecture

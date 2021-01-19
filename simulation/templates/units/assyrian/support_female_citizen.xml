@@ -4,7 +4,7 @@
     <Civ>assyrian</Civ>
     <GenericName>Assyrian Woman</GenericName>
     <Icon>units/pers_support_female_citizen.png</Icon>
-    <SelectionGroupName>units/assyrian_support_female_citizen</SelectionGroupName>
+    <SelectionGroupName>units/assyrian/support_female_citizen</SelectionGroupName>
   </Identity>
   <VisualActor>
     <Actor>units/persians/female_citizen.xml</Actor>

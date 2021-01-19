@@ -43,7 +43,7 @@
   <ProductionQueue>
     <BatchTimeModifier>1.0</BatchTimeModifier>
     <Entities datatype="tokens">
-      units/{civ}_support_laborer
+      units/{civ}/support_laborer
     </Entities>
     <Technologies datatype="tokens">
       gather_capacity_basket

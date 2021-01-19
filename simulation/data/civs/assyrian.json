@@ -14,30 +14,30 @@
 	"Structures": [],
 	"WallSets":
 	[
-		"structures/assyrian_wallset_stone"
+		"structures/assyrian/wallset_stone"
 	],
 	"StartEntities":
 	[
 		{
-			"Template": "structures/assyrian_civil_centre"
+			"Template": "structures/assyrian/civil_centre"
 		},
 		{
-			"Template": "units/assyrian_support_female_citizen",
+			"Template": "units/assyrian/support_female_citizen",
 			"Count": 4
 		},
 		{
-			"Template": "units/assyrian_infantry_spearman_b",
+			"Template": "units/assyrian/infantry_spearman_b",
 			"Count": 2
 		},
 		{
-			"Template": "units/assyrian_infantry_archer_b",
+			"Template": "units/assyrian/infantry_archer_b",
 			"Count": 2
 		},
 		{
-			"Template": "units/assyrian_cavalry_spearman_b"
+			"Template": "units/assyrian/cavalry_spearman_b"
 		},
 		{
-			"Template": "units/assyrian_support_laborer"
+			"Template": "units/assyrian/support_laborer"
 		}
 	],
 	"Formations":
@@ -64,11 +64,11 @@
 	],
 	"SkirmishReplacements":
 	{
-		"skirmish/units/default_infantry_melee_b": "units/assyrian_infantry_spearman_b",
-		"skirmish/units/default_infantry_ranged_b": "units/assyrian_infantry_archer_b",
-		"skirmish/units/default_cavalry": "units/assyrian_cavalry_spearman_b",
-		"skirmish/units/special_starting_unit": "units/assyrian_support_laborer",
-		"skirmish/structures/default_house_5": "structures/{civ}_house"
+		"skirmish/units/default_infantry_melee_b": "units/assyrian/infantry_spearman_b",
+		"skirmish/units/default_infantry_ranged_b": "units/assyrian/infantry_archer_b",
+		"skirmish/units/default_cavalry": "units/assyrian/cavalry_spearman_b",
+		"skirmish/units/special_starting_unit": "units/assyrian/support_laborer",
+		"skirmish/structures/default_house_5": "structures/{civ}/house"
 	},
 	"SelectableInGameSetup": true
 }

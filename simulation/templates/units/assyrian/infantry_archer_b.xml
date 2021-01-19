@@ -3,21 +3,21 @@
   <Builder>
     <Entities datatype="tokens">
       -structures/wallset_palisade
-      -structures/{civ}_sentry_tower
-      structures/{civ}_stable
-      structures/assyrian_palace
-      structures/assyrian_sb_apartments
-      structures/assyrian_sb_warehouse
+      -structures/{civ}/sentry_tower
+      structures/{civ}/stable
+      structures/assyrian/palace
+      structures/assyrian/sb_apartments
+      structures/assyrian/sb_warehouse
     </Entities>
   </Builder>
   <Identity>
     <Civ>assyrian</Civ>
-    <SelectionGroupName>units/assyrian_infantry_archer_b</SelectionGroupName>
+    <SelectionGroupName>units/assyrian/infantry_archer_b</SelectionGroupName>
     <GenericName>Chaldaean Archer</GenericName>
     <Icon>units/pers_infantry_archer.png</Icon>
   </Identity>
   <Promotion>
-    <Entity>units/assyrian_infantry_archer_a</Entity>
+    <Entity>units/assyrian/infantry_archer_a</Entity>
   </Promotion>
   <VisualActor>
     <Actor>units/persians/infantry_archer_e.xml</Actor>

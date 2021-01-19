@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="units/assyrian_infantry_archer_b">
+<Entity parent="units/assyrian/cavalry_spearman_b">
   <Identity>
     <Rank>Advanced</Rank>
   </Identity>
   <Promotion>
-    <Entity>units/assyrian_infantry_archer_e</Entity>
+    <Entity>units/assyrian/cavalry_spearman_e</Entity>
   </Promotion>
 </Entity>

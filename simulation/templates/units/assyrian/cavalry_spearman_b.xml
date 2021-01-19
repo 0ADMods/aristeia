@@ -2,12 +2,12 @@
 <Entity parent="template_unit_cavalry_melee_spearman">
   <Identity>
     <Civ>assyrian</Civ>
-    <SelectionGroupName>units/assyrian_cavalry_spearman_b</SelectionGroupName>
+    <SelectionGroupName>units/assyrian/cavalry_spearman_b</SelectionGroupName>
     <GenericName>Syrian Horseman</GenericName>
     <Icon>units/pers_cavalry_spearman.png</Icon>
   </Identity>
   <Promotion>
-    <Entity>units/assyrian_cavalry_spearman_a</Entity>
+    <Entity>units/assyrian/cavalry_spearman_a</Entity>
   </Promotion>
   <VisualActor>
     <Actor>units/persians/cavalry_spearman_e_m.xml</Actor>
