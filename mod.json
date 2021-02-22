@@ -1,9 +1,9 @@
 {
   "name": "aristeia",
   "label": "Aristeia Bronziron : Peril of Nations",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "url": "https://github.com/0ADMods/aristeia",
   "description": "0 A.D. Bronze/Iron Age Extension",
-  "dependencies": [ "0ad>=0.0.24" ],
+  "dependencies": [ "0ad=0.0.24" ],
   "type": "Factions"
 }
