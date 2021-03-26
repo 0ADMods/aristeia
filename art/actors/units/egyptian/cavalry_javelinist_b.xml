@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <actor version="1">
   <castshadow/>
-  <group>
-    <variant frequency="1" file="quadraped/base_horse_javelin.xml" name="Javelinist Horse">
-      <mesh>skeletal/horse_persian.dae</mesh>
+   <group>
+    <variant>
+      <mesh>skeletal/horse_barb.dae</mesh>
       <props>
         <prop actor="units/egyptian/cavalry_javelinist_b_r.xml" attachpoint="rider"/>
         <prop actor="props/horse/chest_colorband_01.xml" attachpoint="root"/>
-        <prop actor="props/horse/cav_rein_spearman.xml" attachpoint="root"/>
+        <prop actor="props/horse/cav_straps_head_kush.xml" attachpoint="head"/>
+        <prop actor="props/horse/cav_rein_leather.xml" attachpoint="root"/>
       </props>
     </variant>
   </group>
@@ -15,6 +16,7 @@
     <variant file="quadraped/horse/brown.xml" frequency="1" name="brown"/>
     <variant file="quadraped/horse/dark_chestnut.xml" frequency="1" name="dark_chestnut"/>
     <variant file="quadraped/horse/fading_black.xml" frequency="1" name="fading_black"/>
+    <variant file="quadraped/horse/black_spotted.xml" frequency="1" name="black_spotted"/>
     <variant file="quadraped/horse/cherrybay.xml" frequency="1" name="cherrybay"/>
     <variant file="quadraped/horse/gray.xml" frequency="1" name="gray"/>
     <variant file="quadraped/horse/halflinger.xml" frequency="1" name="halflinger"/>
@@ -24,12 +26,11 @@
     <variant file="quadraped/horse/bay_02.xml" frequency="1" name="bay_02"/>
   </group>
   <group>
-    <variant frequency="1" name="Idle"/>
+    <variant file="quadraped/base_horse_javelin.xml" name="Javelinist-Horse" frequency="1"/>
     <variant file="quadraped/base_horse_death.xml"/>
     <variant file="quadraped/base_horse_run.xml"/>
-    <variant name="gather_meat">
+    <variant file="quadraped/base_horse_gather_meat.xml" name="gather_meat">
       <props>
-        <prop actor="" attachpoint="rider"/>
         <prop actor="units/egyptian/cavalry_javelinist_b_r.xml" attachpoint="rider_R"/>
       </props>
     </variant>
