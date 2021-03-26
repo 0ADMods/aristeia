@@ -14,21 +14,17 @@
       </textures>
     </variant>
   </group>
-  <group>
-    <variant file="biped/base_cavalry_javelin_ready_shield.xml"/>
+ <group>
+    <variant file="biped/rider/cavalry/base_javelin_relax.xml" name="Javelinist-Relax" frequency="1"/>
     <variant file="biped/rider/carry_meat.xml"/>
   </group>
   <group>
     <variant frequency="1" name="Idle"/>
-    <variant file="biped/attack_ranged_cavalry_javelin.xml"/>
-    <variant file="biped/rider/promotion_shield.xml"/>
-    <variant file="biped/rider/attack_slaughter_shield_spart.xml" name="attack_slaughter">
-      <props>
-        <prop actor="props/units/weapons/akinakes.xml" attachpoint="weapon_R"/>
-      </props>
-    </variant>
-    <variant file="biped/rider/gather_meat_hele.xml"/>
-    <variant file="biped/rider/death.xml"/>
+    <variant file="biped/rider/cavalry/attack_ranged_javelin.xml"/>
+    <variant file="biped/rider/promotion_shield.xml" />
+    <variant file="biped/rider/attack_slaughter_shield_kush.xml"/>
+    <variant file="biped/gather_meat.xml"/>
+    <variant file="biped/rider/death_ranged.xml"/>
   </group>
   <material>player_trans.xml</material>
 </actor>

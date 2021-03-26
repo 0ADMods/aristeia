@@ -22,10 +22,6 @@
       units/{civ}/siege_tower
     </Entities>
     <Technologies datatype="tokens">
-      siege_attack
-      siege_armor
-      siege_cost_metal
-      siege_cost_wood
     </Technologies>
   </ProductionQueue>
   <VisualActor>
