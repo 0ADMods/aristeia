@@ -72,10 +72,10 @@
     </variant>
   </group>
   <group>
-    <variant file="biped/spearman_shield_ready.xml" name="Spearman-Shield-Relax-Fast"/>
+    <variant file="biped/base_spearman_shield_ready.xml"/>
     <variant file="biped/attack_capture.xml"/>
     <variant file="biped/attack_slaughter.xml"/>
-    <variant file="biped/death_infantry.xml"/>
+    <variant file="biped/death_cape_gaul.xml"/>
   </group>
   <material>player_trans_spec.xml</material>
 </actor>
