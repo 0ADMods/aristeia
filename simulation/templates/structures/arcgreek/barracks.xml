@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_structure_military_barracks">
+<Entity parent="template_structure_military_barracks|template_structure_military_stable">
   <Cost>
     <Resources>
       <wood>150</wood>
@@ -16,6 +16,8 @@
   <Identity>
     <Civ>arcgreek</Civ>
     <SpecificName>Stratēgeîon</SpecificName>
+    <Icon>structures/military.png</Icon>
+    <Tooltip>Train Infantry and Cavalry, and research Infantry and Cavalry technologies.</Tooltip>
     <History>The Strategeion was the main military headquarters, where important decisions were taken and plans for battles discussed by the Hellene Generals, or "Strategoi".</History>
   </Identity>
   <Obstruction>
