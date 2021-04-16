@@ -3,7 +3,6 @@
   <Identity>
     <Civ>assyrian</Civ>
     <SpecificName>Bēt Napt ṭarti</SpecificName>
-    <Icon>structures/pers_barracks.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>structures/assyrian/barracks.xml</Actor>
