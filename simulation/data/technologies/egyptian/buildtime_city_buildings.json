@@ -1,6 +1,8 @@
 {
 	"genericName": "Builders of Monuments",
-	"specificName": "s.qdw",
+	"specificName": {
+		"egyptian": "s.qdw"
+	},
 	"description": "Ancient Egypt is famous for its monumental tombs, temples, and colossal statues.",
 	"cost": {"food": 0, "wood": 200, "stone": 0, "metal": 0},
 	"requirements": {"all": [{"civ": "egyptian"}, {"tech": "phase_city"}]},

@@ -1,6 +1,8 @@
 {
 	"genericName": "Canals and Dikes",
-	"specificName": "dnit",
+	"specificName": {
+		"egyptian": "dnit"
+	},
 	"description": "Much of the Nile's flood season water was diverted into canals to take advantage of the abundant water resource.",
 	"cost": {"food": 0, "wood": 500, "stone": 0, "metal": 250},
 	"supersedes": "egyptian/gather_farming_irrigation",

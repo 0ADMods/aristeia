@@ -1,7 +1,7 @@
 {
 	"genericName": "The Gold of Valour",
 	"specificName": {
-		"hele": "nbw qnt"
+		"egyptian": "nbw qnt"
 	},
 	"description": "Egyptian troops had an incentive to fight fiercely against the enemies of His Majesty, for they could receive an opportunity for honour and advancement for their service. After a victory, they were permitted to cut off the hands of enemy corpses and turn them in to the scribes, both for overall tallying purposes and for ascribing honour to the fortunate soldiers who were able to deliver large numbers of hands. Usually, only the hands of enemies of significantly lighter or darker skin tones than themselves were accepted (perhaps because promotion-hungry soldiers may have otherwise been tempted to mutilate their own dead).",
 	"cost": {"food": 0, "wood": 0, "stone": 0, "metal": 1000},

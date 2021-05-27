@@ -1,6 +1,8 @@
 {
 	"genericName": "Fishing Nets",
-	"specificName": "Snw",
+	"specificName": {
+		"egyptian": "Snw"
+	},
 	"description": "Fishing nets were constructed from linen fabric into a coarse implement. They allowed a great quantity of fish to be captured at once.",
 	"cost": {"food": 0, "wood": 200, "stone": 0, "metal": 0},
 	"requirements": {"all": [{"civ": "egyptian"}, {"tech": "phase_town"}]},
