@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Entity>
+  <Builder merge="">
+    <Entities datatype="tokens">
+      -structures/{civ}/barracks
+      -structures/{civ}/stable
+      -structures/{civ}/elephant_stable
+      -structures/{civ}/arsenal
+      -structures/{civ}/forge
+      -structures/{civ}/outpost
+      -structures/{civ}/sentry_tower
+      -structures/{civ}/defense_tower
+      -structures/{civ}/fortress
+      -structures/wallset_palisade
+      -structures/{civ}/wallset_siege
+      -structures/{civ}/wallset_stone
+      structures/{civ}/sb_threshingfloor
+    </Entities>
+  </Builder>
+</Entity>
