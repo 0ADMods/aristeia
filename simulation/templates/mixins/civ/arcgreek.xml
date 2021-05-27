@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity>
+  <Builder merge="">
+    <Entities datatype="tokens">
+      -structures/wallset_palisade
+      -structures/{civ}/sentry_tower
+      structures/{civ}/sb_council
+      structures/{civ}/sb_gymnasium
+    </Entities>
+  </Builder>
+  <Identity>
+    <Civ>arcgreek</Civ>
+    <Lang>greek</Lang>
+  </Identity>
+</Entity>

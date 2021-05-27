@@ -1,18 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_infantry_ranged_archer">
-  <Builder>
-    <Entities datatype="tokens">
-      -structures/wallset_palisade
-      -structures/{civ}/sentry_tower
-      structures/{civ}/wallset_small
-      structures/{civ}/stable
-      structures/{civ}/mercenary_camp
-      structures/{civ}/sb_monument
-      structures/{civ}/palace
-    </Entities>
-  </Builder>
+<Entity parent="civ/egyptian|template_unit_infantry_ranged_archer">
   <Identity>
-    <Civ>egyptian</Civ>
     <SelectionGroupName>units/egyptian/infantry_archer_b</SelectionGroupName>
     <GenericName>Egyptian Archer</GenericName>
     <Icon>units/egyptian_champion_archer.png</Icon>

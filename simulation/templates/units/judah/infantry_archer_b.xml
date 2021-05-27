@@ -1,15 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_infantry_ranged_archer">
-  <Builder>
-    <Entities datatype="tokens">
-      -structures/wallset_palisade
-      -structures/{civ}/sentry_tower
-      structures/{civ}/stable
-      structures/{civ}/palace
-    </Entities>
-  </Builder>
+<Entity parent="civ/judah|template_unit_infantry_ranged_archer">
   <Identity>
-    <Civ>judah</Civ>
     <SelectionGroupName>units/judah/infantry_archer_b</SelectionGroupName>
     <GenericName>Benjamite Archer</GenericName>
     <Icon>units/pers_infantry_archer.png</Icon>

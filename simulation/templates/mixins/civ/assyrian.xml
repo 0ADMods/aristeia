@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity>
+  <Builder merge="">
+    <Entities datatype="tokens">
+      -structures/wallset_palisade
+      -structures/{civ}/sentry_tower
+      structures/{civ}/palace
+      structures/{civ}/sb_apartments
+      structures/{civ}/sb_warehouse
+    </Entities>
+  </Builder>
+  <Identity>
+    <Civ>assyrian</Civ>
+  </Identity>
+</Entity>

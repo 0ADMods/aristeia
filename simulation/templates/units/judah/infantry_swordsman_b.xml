@@ -1,15 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_infantry_melee_swordsman">
-  <Builder>
-    <Entities datatype="tokens">
-      -structures/wallset_palisade
-      -structures/{civ}/sentry_tower
-      structures/{civ}/stable
-      structures/{civ}/palace
-    </Entities>
-  </Builder>
+<Entity parent="civ/judah|template_unit_infantry_melee_swordsman">
   <Identity>
-    <Civ>judah</Civ>
     <SelectionGroupName>units/judah/infantry_swordsman_b</SelectionGroupName>
     <GenericName>Ephraimite Swordsman</GenericName>
     <Icon>units/iber_infantry_swordsman.png</Icon>
