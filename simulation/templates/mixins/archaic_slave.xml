@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Entity>
+  <Attack>
+    <Melee>
+      <AttackName>Dagger</AttackName>
+      <Damage>
+        <Hack>0</Hack>
+        <Pierce>0</Pierce>
+        <Crush>0</Crush>
+      </Damage>
+      <MaxRange>0</MaxRange>
+      <PrepareTime>500</PrepareTime>
+      <RepeatTime>1000</RepeatTime>
+      <RestrictedClasses datatype="tokens">Human Structure Huntable</RestrictedClasses>
+    </Melee>
+    <Slaughter>
+      <AttackName>Slaughter</AttackName>
+      <Damage>
+        <Hack>25.0</Hack>
+        <Pierce>0.0</Pierce>
+        <Crush>0.0</Crush>
+      </Damage>
+      <RepeatTime>1000</RepeatTime>
+      <MaxRange>4.0</MaxRange>
+    </Slaughter>
+  </Attack>
+  <Builder disable=""/>
+  <Health>
+    <RegenRate>0</RegenRate>
+  </Health>
+  <Identity>
+    <Tooltip>Gatherer bonused at mining and lumbering.</Tooltip>
+    <Icon>units/global_slave.png</Icon>
+    <VisibleClasses datatype="tokens">-Builder</VisibleClasses>
+  </Identity>
+  <VisualActor>
+    <Actor>units/global/slave.xml</Actor>
+  </VisualActor>
+</Entity>
