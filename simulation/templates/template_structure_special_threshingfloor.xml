@@ -1,14 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_structure_special_rotarymill">
+<Entity parent="template_structure_economic_farmstead">
   <Identity>
     <VisibleClasses datatype="tokens">-City Town</VisibleClasses>
     <GenericName>Threshing Floor</GenericName>
     <Tooltip>Enables additional farming upgrade techs.</Tooltip>
     <History>Separating the grain was accomplished via a team of oxen in a flat, circular outdoor area.</History>
     <Icon>structures/rotarymill.png</Icon>
-    <RequiredTechnology>phase_town</RequiredTechnology>
+    <Requirements>
+      <Techs datatype="tokens">
+        phase_town
+      </Techs>
+    </Requirements>
   </Identity>
-  <ProductionQueue>
+  <!-- <ProductionQueue>
     <BatchTimeModifier>0.8</BatchTimeModifier>
     <TechCostMultiplier>
       <food>1.0</food>
@@ -17,7 +21,7 @@
       <metal>1.0</metal>
       <time>1.0</time>
     </TechCostMultiplier>
-  </ProductionQueue>
+  </ProductionQueue> -->
   <VisualActor>
     <Actor>structures/britons/special.xml</Actor>
   </VisualActor>

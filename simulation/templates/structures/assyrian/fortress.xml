@@ -3,11 +3,11 @@
   <Identity>
     <Civ>assyrian</Civ>
   </Identity>
-  <ProductionQueue>
+  <Trainer>
     <Entities datatype="tokens">
       units/{civ}/champion_infantry_spearman_1
     </Entities>
-  </ProductionQueue>
+  </Trainer>
   <VisualActor>
     <Actor>structures/persians/fortress.xml</Actor>
   </VisualActor>

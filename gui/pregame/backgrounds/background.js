@@ -1,5 +1,5 @@
-g_BackgroundLayerData.push(
-	[
+export const backgrounds = {
+	"aristeia": [
 		{
 			"offset": (time, width) => 0.02 * width * Math.cos(0.05 * time) - 512,
 			"sprite": "background-aristeia1-1",
@@ -15,4 +15,6 @@ g_BackgroundLayerData.push(
 			"sprite": "background-aristeia1-3",
 			"tiling": false,
 		},
-	]);
+
+	],						
+};

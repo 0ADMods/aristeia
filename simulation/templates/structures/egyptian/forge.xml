@@ -13,7 +13,7 @@
   <Obstruction>
     <Static width="28.0" depth="24.0"/>
   </Obstruction>
-  <ProductionQueue>
+  <Researcher>
     <Technologies datatype="tokens">
       -soldier_attack_melee_01
       -soldier_attack_melee_02
@@ -25,7 +25,7 @@
       egyptian/attack_infantry_archer_01
       egyptian/attack_infantry_melee_01
     </Technologies>
-  </ProductionQueue>
+  </Researcher>
   <VisualActor>
     <Actor>structures/egyptian/blacksmith.xml</Actor>
     <FoundationActor>structures/fndn_5x5.xml</FoundationActor>

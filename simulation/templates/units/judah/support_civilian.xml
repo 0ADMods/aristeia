@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="female_builder|template_unit_support_female_citizen">
+<Entity parent="female_builder|template_unit_support_civilian">
   <Identity>
     <Civ>judah</Civ>
-    <GenericName>Judahite Woman</GenericName>
+    <GenericName>Judahite Villager</GenericName>
     <Icon>units/pers_support_female_citizen.png</Icon>
     <SelectionGroupName>units/judah/support_female_citizen</SelectionGroupName>
   </Identity>
   <VisualActor>
-    <Actor>units/persians/female_citizen.xml</Actor>
+    <Actor>units/persians/citizen_{phenotype}.xml</Actor>
   </VisualActor>
 </Entity>

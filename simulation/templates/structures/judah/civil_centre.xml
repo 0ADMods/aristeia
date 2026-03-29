@@ -6,14 +6,14 @@
   <Identity>
     <Civ>judah</Civ>
   </Identity>
-  <ProductionQueue>
+ <Trainer>
     <Entities datatype="tokens">
       units/{civ}/infantry_spearman_b
       units/{civ}/infantry_spearman_2_b
       units/{civ}/infantry_archer_a
       units/{civ}/cavalry_javelineer_b
     </Entities>
-  </ProductionQueue>
+  </Trainer>
   <VisualActor>
     <Actor>structures/carthaginians/civil_centre.xml</Actor>
   </VisualActor>

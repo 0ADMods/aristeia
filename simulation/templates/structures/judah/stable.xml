@@ -12,11 +12,11 @@
   <Obstruction>
     <Static width="27.5" depth="22.0"/>
   </Obstruction>
-  <ProductionQueue>
+ <Trainer>
     <Entities datatype="tokens">
       units/{civ}/champion_chariot
     </Entities>
-  </ProductionQueue>
+  </Trainer>
   <VisualActor>
     <Actor>structures/egyptian/stable.xml</Actor>
   </VisualActor>

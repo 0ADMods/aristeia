@@ -24,9 +24,24 @@
     <Classes datatype="tokens">MercenaryCamp</Classes>
     <Tooltip>Cheap barracks-like structure that is buildable in neutral territory, but casts no territory influence. Train Mercenaries.</Tooltip>
     <Icon>structures/military_settlement.png</Icon>
-    <RequiredTechnology>phase_town</RequiredTechnology>
+    <Requirements>
+      <Techs datatype="tokens">
+        phase_town
+      </Techs>
+    </Requirements>
   </Identity>
-  <ProductionQueue>
+  <Researcher>
+      <Technologies datatype="tokens">
+      -pair_unlock_champions_sele
+    </Technologies>
+  </Researcher>
+  <Sound>
+    <SoundGroups>
+      <select>interface/select/building/sel_gymnasium.xml</select>
+      <constructed>interface/complete/building/complete_gymnasium.xml</constructed>
+    </SoundGroups>
+  </Sound>
+  <Trainer>
     <Entities datatype="tokens" replace="">
       units/{civ}/infantry_archer_merc_b
       units/{civ}/infantry_axeman_merc_b
@@ -36,7 +51,6 @@
       units/{civ}/infantry_slinger_merc_b
       units/{civ}/infantry_spearman_merc_b
       units/{civ}/infantry_swordsman_merc_b
-
       units/{civ}/cavalry_archer_merc_b
       units/{civ}/cavalry_axeman_merc_b
       units/{civ}/cavalry_javelineer_merc_b
@@ -45,7 +59,6 @@
       units/{civ}/cavalry_slinger_merc_b
       units/{civ}/cavalry_spearman_merc_b
       units/{civ}/cavalry_swordsman_merc_b
-
       units/{civ}/champion_archer_merc
       units/{civ}/champion_axeman_merc
       units/{civ}/champion_javelineer_merc
@@ -55,16 +68,7 @@
       units/{civ}/champion_spearman_merc
       units/{civ}/champion_swordsman_merc
     </Entities>
-    <Technologies datatype="tokens">
-      -pair_unlock_champions_sele
-    </Technologies>
-  </ProductionQueue>
-  <Sound>
-    <SoundGroups>
-      <select>interface/select/building/sel_gymnasium.xml</select>
-      <constructed>interface/complete/building/complete_gymnasium.xml</constructed>
-    </SoundGroups>
-  </Sound>
+  </Trainer>
   <TerritoryDecay>
     <DecayRate>1</DecayRate>
   </TerritoryDecay>

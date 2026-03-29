@@ -16,11 +16,11 @@
   <Obstruction>
     <Static width="12.0" depth="12.0"/>
   </Obstruction>
-  <ProductionQueue>
+  <Researcher>
     <Technologies datatype="tokens">
       -health_females_01
     </Technologies>
-  </ProductionQueue>
+  </Researcher>
   <VisualActor>
     <Actor>structures/egyptian/house.xml</Actor>
   </VisualActor>

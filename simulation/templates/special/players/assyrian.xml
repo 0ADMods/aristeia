@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_player">
+  <!-- <Auras datatype="tokens">
+    teambonuses/cart_player_teambonus
+  </Auras> -->
+  <!-- <EntityLimits>
+    <Limits>
+      <GuardOfficer>1</GuardOfficer>
+      <Officer>5</Officer>
+    </Limits>
+  </EntityLimits> -->
+  <Identity>
+    <Civ>assyrian</Civ>
+    <GenericName>New Empire Assyrians</GenericName>
+    <History>The Assyrian empire began as a city-state occupying vital trade routes in the Tigris-Euphrates valley. Its economic underpinnings centered around three principal cities on the Tigris: Nimrud, Nieveh and Ashur.\nVulnerable to hostile powers, lacking many raw resources, and in great need of manpower to facilitate its agricultural irrigation systems, the state had little choice but to expand. Under the leadership of mighty kings such as Ashurnasirpal II, Tiglath-pileser II, Sargon II and Sennacherib, Assyria embarked on a cenuries-long rise to power via an increasingly vast war machine. It could be said that the Assyrians, later called the 'Romans of the East', possessed the first truly modern military, in terms of complexity, training, equipment, logistics, methods, and organization. And that Assyrian rulers were often preoccupied with war, expansion, conquest, subjugation, and deportation, creating in the process the largest empire the world had yet known. Internal problems and civil war eventually devastated the empire, however, and the doom of Assyria was sealed in 612 B.C., when the armies of the Medes and Babylonians sacked and destroyed Nineveh.\nWithin a few short years thereafter, remaining Assyrian resistance was stamped out.</History>
+    <Icon>emblems/emblem_assyrians.png</Icon>
+  </Identity>
+  <Player>
+    <Formations datatype="tokens">
+		"special/formations/null",
+		"special/formations/box",
+		"special/formations/column_closed",
+		"special/formations/line_closed",
+		"special/formations/column_open",
+		"special/formations/line_open",
+		"special/formations/flank",
+		"special/formations/skirmish",
+		"special/formations/wedge",
+		"special/formations/battle_line"
+    </Formations>
+  </Player>
+</Entity>

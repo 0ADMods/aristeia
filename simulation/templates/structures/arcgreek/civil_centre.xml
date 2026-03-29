@@ -7,14 +7,14 @@
     <Civ>arcgreek</Civ>
     <SpecificName>Agorá</SpecificName>
   </Identity>
-  <ProductionQueue>
+ <Trainer>
     <Entities datatype="tokens">
       units/{civ}/infantry_spearman_b
       units/{civ}/infantry_javelineer_b
       units/{civ}/cavalry_spearman_b
       units/{civ}/support_slave
     </Entities>
-  </ProductionQueue>
+  </Trainer>
   <VisualActor>
     <Actor>structures/athenians/civil_centre.xml</Actor>
   </VisualActor>

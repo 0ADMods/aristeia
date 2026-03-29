@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_player">
+  <!-- <EntityLimits>
+    <Limits>
+      <Monument>1</Monument>
+      <Obelisk>5</Obelisk>
+      <Officer>5</Officer>
+    </Limits>
+  </EntityLimits> -->
+  <!-- <Auras datatype="tokens">
+    teambonuses/cart_player_teambonus
+  </Auras> -->
+  <Identity>
+    <Civ>egyptian</Civ>
+    <GenericName>Saite Period Egyptians</GenericName>
+    <History>.</History>
+    <Icon>emblems/emblem_egyptians_late.png</Icon>
+  </Identity>
+  <Player>
+    <Formations datatype="tokens">
+		"special/formations/null",
+		"special/formations/box",
+		"special/formations/column_closed",
+		"special/formations/line_closed",
+		"special/formations/column_open",
+		"special/formations/line_open",
+		"special/formations/flank",
+		"special/formations/skirmish",
+		"special/formations/wedge",
+		"special/formations/battle_line",
+		"special/formations/phalanx"
+    </Formations>
+  </Player>
+</Entity>

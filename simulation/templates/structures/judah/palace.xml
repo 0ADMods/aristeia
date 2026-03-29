@@ -15,13 +15,13 @@
   <Obstruction>
     <Static width="28.0" depth="28.0"/>
   </Obstruction>
-  <ProductionQueue>
+ <Trainer>
     <Entities datatype="tokens">
       units/{civ}/hero_hezekiah
       units/{civ}/hero_jehoshaphat
       units/{civ}/hero_josiah
     </Entities>
-  </ProductionQueue>
+  </Trainer>
   <VisualActor>
     <Actor>structures/carthaginians/embassy.xml</Actor>
     <FoundationActor>structures/fndn_5x5.xml</FoundationActor>

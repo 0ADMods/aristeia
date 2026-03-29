@@ -5,12 +5,12 @@
     <Classes datatype="tokens">CivSpecific</Classes>
     <SpecificName>xtyw</SpecificName>
   </Identity>
-  <ProductionQueue>
+  <Researcher>
     <Technologies datatype="tokens">
       egyptian/gather_farming_irrigation
       egyptian/gather_farming_shaduf
       egyptian/gather_farming_canals
       egyptian/gather_farming_nilometers
     </Technologies>
-  </ProductionQueue>
+  </Researcher>
 </Entity>

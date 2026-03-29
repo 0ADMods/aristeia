@@ -15,12 +15,12 @@
   <Obstruction>
     <Static width="16.5" depth="22.5"/>
   </Obstruction>
-  <ProductionQueue>
+ <Trainer>
     <Entities datatype="tokens">
       -gaia/fauna_sheep_trainable
       gaia/fauna_goat_trainable
     </Entities>
-  </ProductionQueue>
+  </Trainer>
   <VisualActor>
     <Actor>structures/egyptian/corral.xml</Actor>
     <FoundationActor>structures/fndn_4x4.xml</FoundationActor>

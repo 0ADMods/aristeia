@@ -16,13 +16,13 @@
   <Obstruction>
    <Static width="27.5" depth="40.0"/>
   </Obstruction>
-  <ProductionQueue>
+ <Trainer>
     <Entities datatype="tokens">
       units/{civ}/infantry_archer_b
       units/{civ}/infantry_swordsman_b
       units/{civ}/cavalry_javelineer_b
     </Entities>
-  </ProductionQueue>
+  </Trainer>
   <VisualActor>
       <Actor>structures/egyptian/civil_centre.xml</Actor>
       <FoundationActor>structures/fndn_4x6.xml</FoundationActor>

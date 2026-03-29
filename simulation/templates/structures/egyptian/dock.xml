@@ -15,17 +15,19 @@
   <Obstruction>
     <Static width="25.0" depth="29.0"/>
   </Obstruction>
-  <ProductionQueue>
-    <Entities datatype="tokens">
-      units/{civ}/champion_spearman
-    </Entities>
+  <Researcher>
     <Technologies datatype="tokens">
       -ship_health
       -ship_movement_speed
       egyptian/gather_fishing_nets
       egyptian/buildtime_ships_papyrus
     </Technologies>
-  </ProductionQueue>
+  </Researcher>
+ <Trainer>
+    <Entities datatype="tokens">
+      units/{civ}/champion_spearman
+    </Entities>
+  </Trainer>
   <VisualActor>
     <Actor>structures/egyptian/dock.xml</Actor>
   </VisualActor>

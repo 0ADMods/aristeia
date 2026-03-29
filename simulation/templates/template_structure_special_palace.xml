@@ -39,10 +39,8 @@
   <Population>
     <Bonus>10</Bonus>
   </Population>
-  <ProductionQueue>
-    <BatchTimeModifier>0.8</BatchTimeModifier>
-  </ProductionQueue>
-  <TerritoryInfluence>
+  <ProductionQueue/>
+  <TerritoryInfluence>0
     <Root>true</Root>
     <Radius>48</Radius>
     <Weight>40000</Weight>

@@ -1,45 +1,12 @@
 {
 	"Code": "egyptian",
-	"Culture": ["egypt"],
-	"Name": "Saite Period Egyptians",
-	"Emblem": "session/portraits/emblems/emblem_egyptians_late.png",
-	"History": "",
+	"Culture": "egypt",
 	"Music":
 	[
 		{"File":"Ib_ Al-Noor.ogg", "Type":"peace"}
 	],
-	"Factions": [],
-	"CivBonuses":
-	[
-		{
-			"Name": "Herders of Cattle (mniw)",
-			"History": "Cattle played a major role in the domestic agriculture scene of Egypt from the Old Kingdom onward. The cattle count, which was a yearly event in the New Kingdom, was a major undertaking by the nomarchs on behalf of the Pharaoh, partly as a way of assessing taxes to be paid.",
-			"Description": "Start with a large herd of cattle near your civ centre. (Not implemented)",
-			"Icon": ""
-		},
-		{
-			"Name": "Gift of the Nile (Hapy)",
-			"History": "The Greeks called Egypt the “gift of the river”, and the annual inundation provided an abundant deposit of nutrient-rich black silt for farming on both sides of the bank. Hapy, god of the Nile, and Osiris, god of greenery and rebirth, were worshipped fervently by Egyptians hoping for a successful agricultural season.",
-			"Description": "An Egyptian player can access four special techs related to food production.",
-			"Icon": ""
-		},
-		{
-			"Name": "Breeders of Horses (sxpr)",
-			"History": "Horses were highly revered in ancient Egypt, although they were not deified, since they arrived on the scene after the Egyptian pantheon of gods had already been established. By the time of the Thutmosids, the horse market had attained a high degree of popularity, with the Israelites and Hittites being major beneficiaries.",
-			"Description": "Horses can be captured and garrisoned at the corral. As long as an animal remains at the corral, the resource cost of training equine units is reduced by a fixed amount of -5% per respective animal corralled. The corral bonus maxes out at 5 of each animal, regardless of how many additional animals are corralled. (Not implemented)",
-			"Icon": ""
-		}
-	],
-	"TeamBonuses":
-	[
-		{
-			"Name": "Grain of Egypt (swt)",
-			"History": "Cereals (wheat and barley) were Egypt's main export (linen was the second).",
-			"Description": "Allies receive a slow, steady trickle of food over time. (Not implemented)",
-			"Icon": ""
-		}
-	],
-	"Structures": [],
+    "CivBonuses": [],
+    "TeamBonuses": [],
 	"WallSets":
 	[
 		"structures/egyptian/wallset_small",
@@ -65,20 +32,6 @@
 		{
 			"Template": "units/egyptian/cavalry_javelineer_b"
 		}
-	],
-	"Formations":
-	[
-		"special/formations/null",
-		"special/formations/box",
-		"special/formations/column_closed",
-		"special/formations/line_closed",
-		"special/formations/column_open",
-		"special/formations/line_open",
-		"special/formations/flank",
-		"special/formations/skirmish",
-		"special/formations/wedge",
-		"special/formations/battle_line",
-		"special/formations/phalanx"
 	],
 	"AINames":
 	[

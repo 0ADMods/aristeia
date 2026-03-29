@@ -4,9 +4,9 @@
     <Civ>judah</Civ>
     <Classes datatype="tokens">CivSpecific</Classes>
   </Identity>
-  <ProductionQueue>
+  <Researcher>
     <Technologies datatype="tokens">
       <!-- To be specified at a later date -->
     </Technologies>
-  </ProductionQueue>
+  </Researcher>
 </Entity>

@@ -1,17 +1,12 @@
 {
 	"Code": "arcgreek",
-	"Culture": ["helle"],
-	"Name": "Archaic Hellenes",
-	"Emblem": "session/portraits/emblems/emblem_arcgreek.png",
-	"History": "",
+	"Culture": "helle",
 	"Music":
 	[
 		{"File":"Forging_a_City-State.ogg", "Type":"peace"}
 	],
-	"Factions": [],
-	"CivBonuses": [],
-	"TeamBonuses": [],
-	"Structures": [],
+    "CivBonuses": [],
+    "TeamBonuses": [],
 	"WallSets":
 	[
 		"structures/arcgreek/wallset_stone"
@@ -43,20 +38,6 @@
 	"AINames":
 	[
 		"Cypselus"
-	],
-	"Formations":
-	[
-		"special/formations/null",
-		"special/formations/box",
-		"special/formations/column_closed",
-		"special/formations/line_closed",
-		"special/formations/column_open",
-		"special/formations/line_open",
-		"special/formations/flank",
-		"special/formations/skirmish",
-		"special/formations/wedge",
-		"special/formations/battle_line",
-		"special/formations/phalanx"
 	],
 	"SkirmishReplacements":
 	{

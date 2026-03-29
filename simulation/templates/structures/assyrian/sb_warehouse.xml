@@ -34,23 +34,23 @@
     <GenericName>Warehouse</GenericName>
     <Classes datatype="tokens">CivSpecific DropsiteWood DropsiteMetal DropsiteStone</Classes>
     <VisibleClasses datatype="tokens">Town Storehouse</VisibleClasses>
-    <RequiredTechnology>phase_town</RequiredTechnology>
+    <Requirements>
+      <Techs datatype="tokens">
+        phase_town
+      </Techs>
+    </Requirements>
     <Icon>structures/storehouse.png</Icon>
   </Identity>
   <Obstruction>
     <Static width="24.0" depth="24.0"/>
   </Obstruction>
-  <ProductionQueue>
-    <BatchTimeModifier>1.0</BatchTimeModifier>
-    <Entities datatype="tokens">
-      units/{civ}/support_laborer
-    </Entities>
+  <Researcher>
     <Technologies datatype="tokens">
       gather_capacity_basket
       gather_capacity_wheelbarrow
       gather_capacity_carts
     </Technologies>
-  </ProductionQueue>
+  </Researcher>
   <ResourceDropsite>
     <Types>wood stone metal</Types>
     <Sharable>true</Sharable>
@@ -66,6 +66,12 @@
     <DecayRate>10</DecayRate>
   </TerritoryDecay>
   <TerritoryInfluence disable=""/>
+  <Trainer>
+    <!-- <BatchTimeModifier>1.0</BatchTimeModifier> -->
+    <Entities datatype="tokens">
+      units/{civ}/support_laborer
+    </Entities>
+  </Trainer>
   <Vision>
     <Range>20</Range>
   </Vision>

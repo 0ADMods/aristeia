@@ -15,7 +15,7 @@
   <Obstruction>
     <Static width="17.5" depth="17.5"/>
   </Obstruction>
-  <ProductionQueue>
+  <Researcher>
     <Technologies datatype="tokens">
       -heal_range
       -heal_range_2
@@ -23,7 +23,7 @@
       -heal_rate_2
       egyptian/heal_rate
     </Technologies>  
-  </ProductionQueue>  
+  </Researcher>  
   <VisualActor>
     <Actor>structures/egyptian/temple.xml</Actor>
     <FoundationActor>structures/fndn_4x4.xml</FoundationActor>

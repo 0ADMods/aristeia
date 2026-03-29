@@ -1,17 +1,12 @@
 {
 	"Code": "judah",
-	"Culture": ["hebrew"],
-	"Name": "Divided Kingdom Judahites",
-	"Emblem": "session/portraits/emblems/emblem_judahites.png",
-	"History": "",
+	"Culture": "hebrew",
 	"Music":
 	[
 		{"File":"Forging_a_City-State.ogg", "Type":"peace"}
 	],
-	"Factions": [],
-	"CivBonuses": [],
-	"TeamBonuses": [],
-	"Structures": [],
+    "CivBonuses": [],
+    "TeamBonuses": [],
 	"WallSets":
 	[
 		"structures/judah/wallset_stone"
@@ -40,20 +35,6 @@
 	"AINames":
 	[
 		"Solomon"
-	],
-	"Formations":
-	[
-		"special/formations/null",
-		"special/formations/box",
-		"special/formations/column_closed",
-		"special/formations/line_closed",
-		"special/formations/column_open",
-		"special/formations/line_open",
-		"special/formations/flank",
-		"special/formations/skirmish",
-		"special/formations/wedge",
-		"special/formations/battle_line",
-		"special/formations/phalanx"
 	],
 	"SkirmishReplacements":
 	{

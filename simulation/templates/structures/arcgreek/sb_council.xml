@@ -36,14 +36,6 @@
   <Obstruction>
     <Static width="24.0" depth="30.0"/>
   </Obstruction>
-  <ProductionQueue>
-    <BatchTimeModifier>0.7</BatchTimeModifier>
-    <Entities datatype="tokens">
-      units/{civ}/hero_cleisthenes
-      units/{civ}/hero_lycurgus
-      units/{civ}/hero_solon
-    </Entities>
-  </ProductionQueue>
   <Sound>
     <SoundGroups>
       <select>interface/select/building/sel_tholos.xml</select>
@@ -51,6 +43,14 @@
       <death>attack/destruction/building_collapse_large.xml</death>
     </SoundGroups>
   </Sound>
+  <Trainer>
+    <BatchTimeModifier>0.7</BatchTimeModifier>
+    <Entities datatype="tokens">
+      units/{civ}/hero_cleisthenes
+      units/{civ}/hero_lycurgus
+      units/{civ}/hero_solon
+    </Entities>
+  </Trainer>
   <VisualActor>
     <Actor>structures/athenians/prytaneion.xml</Actor>
   </VisualActor>

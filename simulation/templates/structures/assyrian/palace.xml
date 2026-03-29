@@ -5,12 +5,14 @@
     <Classes datatype="tokens">CivSpecific</Classes>
     <GenericName>Royal Palace</GenericName>
   </Identity>
-  <ProductionQueue>
+  <ProductionQueue/>
+  <Trainer>
+    <BatchTimeModifier>0.7</BatchTimeModifier>
     <Entities datatype="tokens">
       units/{civ}/hero_ashurbanipal
       units/{civ}/hero_sennacherib
       units/{civ}/hero_tiglath_pileser_iii
       units/{civ}/champion_infantry_spearman_3
     </Entities>
-  </ProductionQueue>
+  </Trainer>
 </Entity>

@@ -5,12 +5,12 @@
     <SpecificName>Bēt Umāmi</SpecificName>
     <History>The procurement, housing, care, and training of horses occupied a great deal of an Assyrian monarch's time, energy, and attention.</History>
   </Identity>
-  <ProductionQueue>
+  <Trainer>
     <Entities datatype="tokens">
       units/{civ}/champion_cavalry_archer
       units/{civ}/champion_chariot
     </Entities>
-  </ProductionQueue>
+  </Trainer>
   <VisualActor>
     <Actor>structures/persians/stable.xml</Actor>
     <FoundationActor>structures/fndn_4x4.xml</FoundationActor>

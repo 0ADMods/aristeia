@@ -12,7 +12,14 @@
   <Obstruction>
     <Static width="27" depth="27"/>
   </Obstruction>
-  <ProductionQueue>
+  <Researcher>
+      <Technologies datatype="tokens">
+      siege_attack
+      siege_cost_time
+      siege_health
+    </Technologies>
+  </Researcher>
+ <Trainer>
     <Entities datatype="tokens">
       units/egyptian_champion_axeman
       units/{civ}/siege_ballista_packed
@@ -23,12 +30,7 @@
       units/{civ}/siege_ram
       units/{civ}/siege_tower
     </Entities>
-    <Technologies datatype="tokens">
-      siege_attack
-      siege_cost_time
-      siege_health
-    </Technologies>
-  </ProductionQueue>
+  </Trainer>
   <VisualActor>
     <Actor>structures/egyptian/fortress.xml</Actor>
   </VisualActor>

@@ -12,7 +12,11 @@
     <GenericName>Royal Apartments</GenericName>
     <Classes datatype="tokens">CivSpecific</Classes>
     <VisibleClasses datatype="tokens">City</VisibleClasses>
-    <RequiredTechnology>phase_city</RequiredTechnology>
+    <Requirements>
+      <Techs datatype="tokens">
+        phase_city
+      </Techs>
+    </Requirements>
   </Identity>
   <Obstruction>
     <Static width="23.0" depth="12.0"/>
@@ -20,23 +24,25 @@
   <Population>
     <Bonus>15</Bonus>
   </Population>
-  <ProductionQueue>
-    <Entities datatype="tokens">
-      -units/{civ}/support_female_citizen_house
-      units/{civ}/champion_infantry_spearman_2
-      units/{civ}/champion_cavalry_spearman
-    </Entities>
+  <RallyPoint/>
+  <Researcher>
     <Technologies datatype="tokens">
       -health_females_01
       -unlock_females_house
     </Technologies>
-  </ProductionQueue>
-  <RallyPoint/>
+  </Researcher>
   <TerritoryInfluence>
     <Radius>25</Radius>
     <Root>false</Root>
     <Weight>40000</Weight>
   </TerritoryInfluence>
+  <Trainer>
+    <Entities datatype="tokens">
+      -units/{civ}/support_female_citizen_house
+      units/{civ}/champion_infantry_spearman_2
+      units/{civ}/champion_cavalry_spearman
+    </Entities>
+  </Trainer>
   <VisualActor>
     <Actor>props/structures/persians/alt_building_03.xml</Actor>
   </VisualActor>

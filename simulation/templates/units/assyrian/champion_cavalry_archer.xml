@@ -3,7 +3,11 @@
   <Identity>
     <Civ>assyrian</Civ>
     <GenericName>Scythian Horse Archer</GenericName>
-    <RequiredTechnology>phase_town</RequiredTechnology>
+    <Requirements>
+      <Techs datatype="tokens">
+        phase_town
+      </Techs>
+    </Requirements>
     <Icon>units/pers_champion_cavalry.png</Icon>
   </Identity>
   <VisualActor>

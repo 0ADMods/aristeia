@@ -9,7 +9,7 @@
     <SpecificName>h-n-ḫt.w</SpecificName>
     <History>The rich harvest of Egypt's natural resources required the construction and maintenance of many storage facilities.</History>
   </Identity>
-  <ProductionQueue>
+  <Researcher>
     <Technologies datatype="tokens">
       -gather_lumbering_ironaxes
       -gather_lumbering_strongeraxes
@@ -25,7 +25,7 @@
       egyptian/gather_mining_electrumMine
       egyptian/gather_mining_goldMine
     </Technologies>
-  </ProductionQueue>
+  </Researcher>
   <Obstruction>
     <Static width="16.0" depth="16.0"/>
   </Obstruction>
