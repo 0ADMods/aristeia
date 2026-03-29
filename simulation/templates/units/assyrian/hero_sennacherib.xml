@@ -3,7 +3,7 @@
   <Identity>
     <Civ>assyrian</Civ>
     <GenericName>Sennacherib</GenericName>
-    <Icon>units/pers_hero_darius.png</Icon>
+    <Icon>units/pers/hero_darius.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/assyrian/hero_sennacherib_chariot.xml</Actor>

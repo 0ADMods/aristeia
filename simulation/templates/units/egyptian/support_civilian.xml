@@ -5,7 +5,7 @@
     <GenericName>Egyptian Villager</GenericName>
     <SpecificName>st</SpecificName>
     <History>Egyptian women could own property, borrow money, sign contracts, initiate divorce, and appear in court as witnesses. They were regarded as equal to men before the law, and were often referred to as “mistress of the house.” On a few occasions women even became Pharaohs, although for the most part government jobs were held by men.</History>
-    <Icon>units/ptol_support_female_citizen.png</Icon>
+    <Icon>units/athen/support_civilian.png</Icon>
     <SelectionGroupName>units/egyptian_support_female_citizen</SelectionGroupName>
   </Identity>
   <VisualActor>

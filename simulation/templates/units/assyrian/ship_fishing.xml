@@ -3,7 +3,7 @@
   <Identity>
     <Civ>assyrian</Civ>
     <SpecificName>Arrantza Ontzi</SpecificName>
-    <Icon>units/pers_ship_fishing.png</Icon>
+    <Icon>units/pers/ship_fishing.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/assyrian/fishing_boat.xml</Actor>

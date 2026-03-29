@@ -3,7 +3,7 @@
   <Identity>
     <Civ>assyrian</Civ>
     <GenericName>Assyrian Villager</GenericName>
-    <Icon>units/pers_support_female_citizen.png</Icon>
+    <Icon>units/pers/support_civilian.png</Icon>
     <SelectionGroupName>units/assyrian/support_female_citizen</SelectionGroupName>
   </Identity>
   <VisualActor>

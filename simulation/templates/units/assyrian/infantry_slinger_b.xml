@@ -3,7 +3,7 @@
   <Identity>
     <SelectionGroupName>units/assyrian/infantry_slinger_b</SelectionGroupName>
     <GenericName>Hebrew Slinger</GenericName>
-    <Icon>units/iber_infantry_slinger.png</Icon>
+    <Icon>units/iber/infantry_slinger.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/assyrian/infantry_slinger_a</Entity>

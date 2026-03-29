@@ -4,7 +4,7 @@
     <Civ>arcgreek</Civ>
     <Lang>greek</Lang>
     <GenericName>Cleisthenes</GenericName>
-    <Icon>units/athen_hero_pericles.png</Icon>
+        <Icon>units/athen/hero_pericles.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/athenians/hero_infantry_spearman_pericles.xml</Actor>

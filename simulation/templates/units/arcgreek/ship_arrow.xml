@@ -3,7 +3,7 @@
   <Identity>
     <Civ>arcgreek</Civ>
     <GenericName>War Ship</GenericName>
-    <Icon>units/hele_ship_bireme.png</Icon>
+    <Icon>units/hele/ship_arrow.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>structures/athenians/pentekonter.xml</Actor>

@@ -6,7 +6,7 @@
   <Identity>
     <Civ>assyrian</Civ>
     <GenericName>Infantry Guard Officer</GenericName>
-    <Icon>units/pers_arstibara.png</Icon>
+    <Icon>units/pers/arstibara.png</Icon>
   </Identity>
   <TrainingRestrictions>
     <Category>GuardOfficer</Category>

@@ -30,7 +30,7 @@
   </Health>
   <Identity>
     <Tooltip>Gatherer bonused at mining and lumbering.</Tooltip>
-    <Icon>units/global_slave.png</Icon>
+    <Icon>units/global/slave.png</Icon>
     <VisibleClasses datatype="tokens">-Builder</VisibleClasses>
   </Identity>
   <VisualActor>

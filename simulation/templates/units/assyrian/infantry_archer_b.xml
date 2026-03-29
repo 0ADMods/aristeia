@@ -3,7 +3,7 @@
   <Identity>
     <SelectionGroupName>units/assyrian/infantry_archer_b</SelectionGroupName>
     <GenericName>Chaldaean Archer</GenericName>
-    <Icon>units/pers_infantry_archer.png</Icon>
+    <Icon>units/pers/infantry_archer.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/assyrian/infantry_archer_a</Entity>

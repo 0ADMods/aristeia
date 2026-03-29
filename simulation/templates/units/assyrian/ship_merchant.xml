@@ -6,7 +6,7 @@
   </Footprint>
   <Identity>
     <Civ>assyrian</Civ>
-    <Icon>units/cart_ship_merchant.png</Icon>
+    <Icon>units/cart/ship_merchant.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>structures/carthaginians/merchant_ship.xml</Actor>

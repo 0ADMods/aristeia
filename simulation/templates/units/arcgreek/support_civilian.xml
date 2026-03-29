@@ -4,7 +4,7 @@
     <Civ>arcgreek</Civ>
     <GenericName>Greek Villager</GenericName>
     <History>Greek women were kept under tight control by their husbands, rarely leaving the home for anything beyond the necessities of daily life. They could not own anything or be involved in any business or legal transaction. They acted as household cook, nurse, seamstress, and early educator to young children.</History>
-    <Icon>units/hele_support_female_citizen.png</Icon>
+    <Icon>units/athen/support_civilian.png</Icon>
     <SelectionGroupName>units/arcgreek/support_female_citizen</SelectionGroupName>
   </Identity>
   <VisualActor>

@@ -3,7 +3,7 @@
   <Identity>
     <SelectionGroupName>units/assyrian/infantry_javelineer_b</SelectionGroupName>
     <GenericName>Elamite Skirmisher</GenericName>
-    <Icon>units/pers_infantry_javelinist.png</Icon>
+    <Icon>units/pers/infantry_javelinist.png</Icon>
   </Identity>
   <Promotion disable=""/>
   <VisualActor>

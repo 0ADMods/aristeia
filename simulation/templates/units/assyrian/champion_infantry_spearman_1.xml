@@ -6,7 +6,7 @@
   <Identity>
     <Civ>assyrian</Civ>
     <GenericName>Assyrian Officer</GenericName>
-    <Icon>units/pers_champion_infantry.png</Icon>
+    <Icon>units/pers/champion_infantry.png</Icon>
   </Identity>
   <TrainingRestrictions>
     <Category>Officer</Category>

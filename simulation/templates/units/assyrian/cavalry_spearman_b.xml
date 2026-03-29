@@ -4,7 +4,7 @@
     <Civ>assyrian</Civ>
     <SelectionGroupName>units/assyrian/cavalry_spearman_b</SelectionGroupName>
     <GenericName>Syrian Horseman</GenericName>
-    <Icon>units/pers_cavalry_spearman.png</Icon>
+    <Icon>units/pers/cavalry_spearman.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/assyrian/cavalry_spearman_a</Entity>

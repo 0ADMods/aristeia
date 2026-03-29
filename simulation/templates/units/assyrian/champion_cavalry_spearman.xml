@@ -3,7 +3,7 @@
   <Identity>
     <Civ>assyrian</Civ>
     <GenericName>Royal Bodyguard Cavalryman</GenericName>
-    <Icon>units/pers_champion_cavalry.png</Icon>
+    <Icon>units/pers/champion_cavalry.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/persians/cavalry_spearman_c_m.xml</Actor>

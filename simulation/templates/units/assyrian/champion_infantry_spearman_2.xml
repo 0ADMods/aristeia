@@ -3,7 +3,7 @@
   <Identity>
     <Civ>assyrian</Civ>
     <GenericName>Infantry Guardsman</GenericName>
-    <Icon>units/pers_kardakes.png</Icon>
+    <Icon>units/pers/kardakes.png</Icon>
     <VisibleClasses datatype="tokens">Guardsman</VisibleClasses>
   </Identity>
   <VisualActor>

@@ -7,7 +7,7 @@
   <Identity>
     <Civ>arcgreek</Civ>
     <GenericName>Merchant Ship</GenericName>
-    <Icon>units/hele_ship_merchant.png</Icon>
+    <Icon>units/hele/ship_merchant.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>structures/hellenes/merchant.xml</Actor>

@@ -7,7 +7,7 @@
   <Identity>
     <Civ>judah</Civ>
     <GenericName>War Ship</GenericName>
-    <Icon>units/cart_ship_bireme.png</Icon>
+    <Icon>units/cart/ship_arrow.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>structures/carthaginians/bireme.xml</Actor>

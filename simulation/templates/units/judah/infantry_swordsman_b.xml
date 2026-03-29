@@ -3,7 +3,7 @@
   <Identity>
     <SelectionGroupName>units/judah/infantry_swordsman_b</SelectionGroupName>
     <GenericName>Ephraimite Swordsman</GenericName>
-    <Icon>units/iber_infantry_swordsman.png</Icon>
+    <Icon>units/iber/infantry_swordsman.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/judah/infantry_swordsman_a</Entity>

@@ -7,7 +7,7 @@
     <Civ>judah</Civ>
     <Classes datatype="tokens">Officer</Classes>
     <GenericName>Judahite Officer</GenericName>
-    <Icon>units/iber_champion_infantry.png</Icon>
+    <Icon>units/iber/champion_infantry.png</Icon>
   </Identity>
   <TrainingRestrictions>
     <Category>Officer</Category>

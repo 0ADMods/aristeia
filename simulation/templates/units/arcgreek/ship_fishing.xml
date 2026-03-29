@@ -5,7 +5,7 @@
   </Cost>
   <Identity>
     <Civ>arcgreek</Civ>
-    <Icon>units/hele_ship_fishing.png</Icon>
+    <Icon>units/hele/ship_fishing.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>structures/hellenes/fishing_boat.xml</Actor>

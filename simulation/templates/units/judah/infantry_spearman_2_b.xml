@@ -3,7 +3,7 @@
   <Identity>
     <SelectionGroupName>units/judah/infantry_spearman_2_b</SelectionGroupName>
     <GenericName>Levite Guard</GenericName>
-    <Icon>units/sele_infantry_spearman_2.png</Icon>
+    <Icon>units/sele/infantry_spearman_2.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/judah/infantry_spearman_2_a</Entity>

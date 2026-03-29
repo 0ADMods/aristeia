@@ -3,7 +3,7 @@
   <Identity>
     <SelectionGroupName>units/arcgreek/infantry_spearman_b</SelectionGroupName>
     <GenericName>Greek Hoplite</GenericName>
-    <Icon>units/spart_infantry_spearman.png</Icon>
+    <Icon>units/spart/infantry_spearman.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/arcgreek/infantry_spearman_a</Entity>

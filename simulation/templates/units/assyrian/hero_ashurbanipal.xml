@@ -3,7 +3,7 @@
   <Identity>
     <Civ>assyrian</Civ>
     <GenericName>Ashurbanipal</GenericName>
-    <Icon>units/pers_hero_cyrus.png</Icon>
+    <Icon>units/pers/hero_cyrus.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/assyrian/hero_ashurbanipal_chariot.xml</Actor>

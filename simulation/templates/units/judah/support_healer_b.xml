@@ -4,7 +4,7 @@
     <Civ>judah</Civ>
     <SelectionGroupName>units/judah/support_healer_b</SelectionGroupName>
     <GenericName>Priest of YHWH</GenericName>
-    <Icon>units/pers_support_healer.png</Icon>
+    <Icon>units/pers/support_healer.png</Icon>
     <Rank>Basic</Rank>
   </Identity>
   <Promotion disable=""/>

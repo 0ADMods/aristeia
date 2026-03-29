@@ -21,7 +21,7 @@
       <textures><texture file="props/banner_celt.png" name="baseTex"/></textures>
     </variant>
     <variant name="cart">
-      <textures><texture file="props/banner_carthage.png" name="baseTex"/></textures>
+      <textures><texture file="props/.png" name="baseTex"/></textures>
     </variant>
     <variant name="iber">
       <textures><texture file="props/banner_iberians.png" name="baseTex"/></textures>
@@ -48,10 +48,10 @@
       <textures><texture file="props/banner_mauryas.png" name="baseTex"/></textures>
     </variant>
     <variant name="assyrian">
-      <textures><texture file="props/banner_assyrian.png" name="baseTex"/></textures>
+      <textures><texture file="props.png" name="baseTex"/></textures>
     </variant>
     <variant name="egyptian">
-      <textures><texture file="props/banner_egyptian.png" name="baseTex"/></textures>
+      <textures><texture file="props/.png" name="baseTex"/></textures>
     </variant>
   </group>
   <material>basic_trans.xml</material>
