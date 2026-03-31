@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="base">
+      <mesh>props/helmets/prop_helmet_boar_tusk_01.dae</mesh>
+      <textures><texture file="props/helmet/boar_tusk_helmet.png" name="baseTex"/></textures>
+    </variant>
+  </group>
+  <material>basic_trans.xml</material>
+</actor>

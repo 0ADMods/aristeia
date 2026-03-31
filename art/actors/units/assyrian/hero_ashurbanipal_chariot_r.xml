@@ -13,7 +13,11 @@
         <prop actor="props/units/quiver_hip.xml" attachpoint="sheath_L"/>
         <prop actor="props/units/capes/rider/bow_chariot_hip.xml" attachpoint="root"/>
       </props>
-      <textures><texture file="skeletal/pers_champ_cav_r_1.png" name="baseTex"/></textures>
+      <textures>
+        <texture file="skeletal/pers/scale_sleeve_full_01_02.png" name="baseTex"/>
+        <texture file="skeletal/pers/scale_sleeve_full_01_spec.png" name="specTex"/>
+        <texture file="default_norm.png" name="normTex"/>
+      </textures>
     </variant>
   </group>
   <group>

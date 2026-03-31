@@ -40,7 +40,7 @@
     <Bonus>10</Bonus>
   </Population>
   <ProductionQueue/>
-  <TerritoryInfluence>0
+  <TerritoryInfluence>
     <Root>true</Root>
     <Radius>48</Radius>
     <Weight>40000</Weight>

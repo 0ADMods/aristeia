@@ -13,11 +13,6 @@
     <Civ>judah</Civ>
     <VisibleClasses>-Town City</VisibleClasses>
     <SpecificName>Temple of Solomon</SpecificName>
-    <Requirements>
-      <Techs datatype="tokens">
-        phase_city
-      </Techs>
-    </Requirements>
   </Identity>
   <Obstruction>
     <Static width="17.0" depth="30.0"/>

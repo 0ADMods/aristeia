@@ -34,11 +34,7 @@
     <GenericName>Warehouse</GenericName>
     <Classes datatype="tokens">CivSpecific DropsiteWood DropsiteMetal DropsiteStone</Classes>
     <VisibleClasses datatype="tokens">Town Storehouse</VisibleClasses>
-    <Requirements>
-      <Techs datatype="tokens">
-        phase_town
-      </Techs>
-    </Requirements>
+
     <Icon>structures/storehouse.png</Icon>
   </Identity>
   <Obstruction>

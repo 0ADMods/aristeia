@@ -2,9 +2,7 @@
 <Entity parent="units/egyptian/support_civilian">
   <Identity>
     <Requirements>
-      <Techs datatype="tokens">
-        unlock_females_house
-      </Techs>
+      <Techs datatype="tokens">unlock_civilians_house_generic</Techs>
     </Requirements>
   </Identity>
 </Entity>

@@ -14,10 +14,10 @@
   </group>
   <group>
     <variant frequency="1" name="Chain Mail-1">
-      <textures><texture file="skeletal/celt_isw_e_01.dds" name="baseTex"/></textures>
+      <textures><texture file="skeletal/celt/chainmail_champion_01.dds" name="baseTex"/></textures>
     </variant>
     <variant frequency="1" name="Chain Mail-2">
-      <textures><texture file="skeletal/celt_isw_e_02.dds" name="baseTex"/></textures>
+      <textures><texture file="skeletal/celt/chainmail_champion_02.dds" name="baseTex"/></textures>
     </variant>
   </group>
   <group>

@@ -53,7 +53,7 @@
 				<prop actor="props/special/eyecandy/basket_iber_a.xml" attachpoint="woodpile" maxheight="20" minheight="-20"/>
 				<prop actor="props/special/eyecandy/vase_iberians_a.xml" attachpoint="vase_1" maxheight="20" minheight="-20"/>
 				<prop actor="props/special/eyecandy/well_1_a.xml" attachpoint="vase_2" maxheight="20" minheight="-20"/>
-				<prop actor="props/special/eyecandy/campfire_decal.xml" attachpoint="vase_2" maxheight="" minheight=""/>
+				<prop actor="props/special/eyecandy/campfire_decal.xml" attachpoint="vase_2" maxheight="20" minheight="-20"/>
 				<prop actor="props/special/eyecandy/vase_iberians_a.xml" attachpoint="vase_3" maxheight="20" minheight="-20"/>
 				<prop actor="props/special/eyecandy/vase_iberians_a.xml" attachpoint="vase_4" maxheight="20" minheight="-20"/>
 				<prop actor="props/special/eyecandy/basket_iber_a.xml" attachpoint="vase_5" maxheight="20" minheight="-20"/>
@@ -83,7 +83,7 @@
 				<prop actor="props/structures/decals/dirt_2x2.xml" attachpoint="root"/>
 			</props>
 		</variant>
-		<variant frequency="0" name="House 5">
+		<!-- <variant frequency="2" name="House 5">
 			<mesh>structural/iber_house_5.dae</mesh>
 			<props>
 				<prop actor="props/special/eyecandy/woodcord.xml" attachpoint="woodpile" maxheight="20" minheight="-20"/>
@@ -94,12 +94,14 @@
 				<prop actor="props/special/eyecandy/basket_iber_a.xml" attachpoint="vase_5" maxheight="20" minheight="-20"/>
 				<prop actor="props/structures/decals/dirt_2x2.xml" attachpoint="root"/>
 			</props>
-		</variant>
+		</variant> -->
 	</group>
 	<group>
 		<variant>
 			<textures>
 				<texture file="structural/mino_struct.png" name="baseTex"/>
+				<texture file="structural/mino_struct_spec.png" name="specTex"/>
+				<texture file="structural/mino_struct_norm.png" name="normTex"/>
 			</textures>
 		</variant>
 	</group>
@@ -113,5 +115,5 @@
 			</props>
 		</variant>
 	</group>
-	<material>player_trans.xml</material>
+	<material>player_trans_parallax_spec.xml</material>
 </actor>

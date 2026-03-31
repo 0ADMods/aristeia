@@ -11,7 +11,9 @@
 				<prop actor="props/flora/bush_medit_sm_dry.xml" attachpoint="bush_4"/>
 			</props>
 			<textures>
-				<texture file="structural/mycenae_struct.png" name="baseTex"/>
+		<texture file="structural/mycenae_struct.png" name="baseTex"/>
+				<texture file="structural/mycenae_struct_spec.png" name="specTex"/>
+				<texture file="structural/mycenae_struct_norm.png" name="normTex"/>
 			</textures>
 		</variant>
 	</group>
@@ -42,5 +44,5 @@
 			</props>
 		</variant>
 	</group>
-	<material>player_trans.xml</material>
+	<material>player_trans_parallax_spec.xml</material>
 </actor>

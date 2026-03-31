@@ -4,7 +4,11 @@
     <Civ>egyptian</Civ>
     <GenericName>Small Wall</GenericName>
     <SpecificName>Ktt Jeneba</SpecificName>
-    <RequiredTechnology>phase_village</RequiredTechnology>
+    <!-- <Requirements>
+      <Techs datatype="tokens">
+        phase_village
+      </Techs>
+    </Requirements> -->
   </Identity>
   <WallSet>
     <Templates>

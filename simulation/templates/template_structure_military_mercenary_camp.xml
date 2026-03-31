@@ -24,11 +24,11 @@
     <Classes datatype="tokens">MercenaryCamp</Classes>
     <Tooltip>Cheap barracks-like structure that is buildable in neutral territory, but casts no territory influence. Train Mercenaries.</Tooltip>
     <Icon>structures/military_settlement.png</Icon>
-    <Requirements>
+    <!-- <Requirements>
       <Techs datatype="tokens">
         phase_town
       </Techs>
-    </Requirements>
+    </Requirements> -->
   </Identity>
   <Researcher>
       <Technologies datatype="tokens">

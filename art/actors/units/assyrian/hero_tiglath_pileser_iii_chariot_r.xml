@@ -12,7 +12,11 @@
         <prop actor="props/units/weapons/bow_recurve.xml" attachpoint="weapon_L"/>
         <prop actor="props/units/pers_quiver_xerxes.xml" attachpoint="back"/>
       </props>
-      <textures><texture file="skeletal/pers_hero_xerxes.png" name="baseTex"/></textures>
+      <textures>
+        <texture file="skeletal/pers/scale_kardakes_01_02.png" name="baseTex"/>
+        <texture file="skeletal/pers/scale_kardakes_01_spec.png" name="specTex"/>
+        <texture file="default_norm.png" name="normTex"/>
+      </textures>
     </variant>
   </group>
   <group>
