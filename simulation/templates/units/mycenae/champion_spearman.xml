@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_champion_infantry_spearman">
+  <Identity>
+    <Civ>mycenae</Civ>
+    <Lang>greek</Lang>
+    <GenericName>Spartan Royal Bodyguard</GenericName>
+    <Icon>units/spart/champion_infantry_spear.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/spartans/infantry_spearman_c.xml</Actor>
+  </VisualActor>
+</Entity>

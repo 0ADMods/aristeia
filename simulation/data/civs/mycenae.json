@@ -1,0 +1,53 @@
+{
+	"Code": "mycenae",
+	"Culture": "helle",
+	"Music":
+	[
+		{"File":"Achilles.ogg", "Type":"peace"},
+	    {"File":"Achilles.ogg", "Type":"peace"},
+		{"File":"Five Armies.ogg", "Type":"peace"}
+	],
+    "CivBonuses": [],
+    "TeamBonuses": [],
+	"WallSets":
+	[
+		"structures/mycenae/wallset_stone"
+	],
+	"StartEntities":
+	[
+		{
+			"Template": "structures/mycenae/civil_centre"
+		},
+		{
+			"Template": "units/mycenae/support_civilian",
+			"Count": 4
+		},
+		{
+			"Template": "units/mycenae/infantry_spearman_b",
+			"Count": 2
+		},
+		{
+			"Template": "units/mycenae/infantry_javelineer_b",
+			"Count": 2
+		},
+		{
+			"Template": "units/mycenae/cavalry_javelineer_b"
+		},
+		{
+			"Template": "units/mycenae/support_slave"
+		}
+	],
+	"AINames":
+	[
+		"Cypselus"
+	],
+	"SkirmishReplacements":
+	{
+		"skirmish/units/default_infantry_melee_b": "units/mycenae/infantry_spearman_b",
+		"skirmish/units/default_infantry_ranged_b": "units/mycenae/infantry_javelineer_b",
+		"skirmish/units/default_cavalry": "units/mycenae/cavalry_javelineer_b",
+		"skirmish/units/special_starting_unit": "units/mycenae/support_slave",
+		"skirmish/structures/default_house_5": "structures/{civ}/house"
+	},
+	"SelectableInGameSetup": true
+}

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_ship_fishing">
+  <Cost>
+    <BuildTime>15</BuildTime>
+  </Cost>
+  <Identity>
+    <Civ>mycenae</Civ>
+    <Icon>units/hele/ship_fishing.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>structures/hellenes/fishing_boat.xml</Actor>
+  </VisualActor>
+</Entity>

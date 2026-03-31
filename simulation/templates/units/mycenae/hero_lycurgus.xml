@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_hero_infantry_swordsman">
+  <Identity>
+    <Civ>mycenae</Civ>
+    <Lang>greek</Lang>
+    <GenericName>Lycurgus</GenericName>
+    <Icon>units/spart/hero_brasidas.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/spartans/hero_infantry_swordsman_brasidas.xml</Actor>
+  </VisualActor>
+</Entity>

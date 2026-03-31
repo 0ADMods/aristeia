@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="civ/arcgreek|template_unit_infantry_melee_spearman">
+  <Identity>
+    <SelectionGroupName>units/arcgreek/infantry_spearman_b</SelectionGroupName>
+    <GenericName>Greek Hoplite</GenericName>
+    <Icon>units/spart/infantry_spearman.png</Icon>
+  </Identity>
+  <Promotion>
+    <Entity>units/arcgreek/infantry_spearman_a</Entity>
+  </Promotion>
+  <VisualActor>
+    <Actor>units/spartans/infantry_spearman_a.xml</Actor>
+  </VisualActor>
+</Entity>
