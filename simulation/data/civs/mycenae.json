@@ -4,7 +4,6 @@
 	"Music":
 	[
 		{"File":"Achilles.ogg", "Type":"peace"},
-	    {"File":"Achilles.ogg", "Type":"peace"},
 		{"File":"Five Armies.ogg", "Type":"peace"}
 	],
     "CivBonuses": [],

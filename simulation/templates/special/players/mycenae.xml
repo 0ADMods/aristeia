@@ -12,7 +12,7 @@
     <Civ>mycenae</Civ>
     <GenericName>Mycenae</GenericName>
     <History>The Mycenaean civilization was a Bronze Age Greek-speaking civilization that flourished in the Peloponnese and mainland Greece from approximately 1600 to 1100 BCE.</History>
-    <Icon>emblems/emblem_arcgreek.png</Icon>
+    <Icon>emblems/emblem_mycenae.png</Icon>
   </Identity>
   <Player>
     <Formations datatype="tokens">

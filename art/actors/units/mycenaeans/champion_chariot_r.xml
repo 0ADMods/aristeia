@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant file="biped/base_chariot_spearman_relax.xml">
+      <mesh>skeletal/new/m_armor_tunic_short.dae</mesh>
+      <props>
+        <prop actor="props/units/heads/new/head_hele_b.xml" attachpoint="head"/>
+        <prop actor="props/units/helmets/boar_tusk_helmet.xml" attachpoint="helmet"/>
+        <prop actor="props/units/weapons/spear.xml" attachpoint="weapon_R"/>
+        <prop actor="props/units/armor/greave_02_bronze_r.xml" attachpoint="leg_R"/>
+        <prop actor="props/units/armor/greave_02_bronze_l.xml" attachpoint="leg_L"/>
+        <prop actor="props/units/pers_quiver_xerxes.xml" attachpoint="back"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="Rider-Armour-Bronze">
+      <textures>
+        <texture file="skeletal/mycenean/armor_full_01_01.png" name="baseTex"/>
+        <texture file="skeletal/pers/scale_sleeve_full_01_spec.png" name="specTex"/>
+        <texture file="default_norm.png" name="normTex"/>
+      </textures>
+      <props>
+        <prop actor="props/units/armor/mycenaen_neckguard_bronze_chariot.xml" attachpoint="root"/>
+      </props>
+    </variant>
+    <variant frequency="1" name="scale-sleeve-full-1a">
+      <textures>
+        <texture file="skeletal/mycenean/armor_full_01_01.png" name="baseTex"/>
+        <texture file="skeletal/scyth/scale_03_spec.png" name="specTex"/>
+        <texture file="default_norm.png" name="normTex"/>
+      </textures>
+      <props>
+        <prop actor="props/units/armor/mycenaen_neckguard_bronze_chariot.xml" attachpoint="root"/>
+      </props>
+    </variant>
+    <variant frequency="1" name="scale-armband-full-1a">
+      <textures>
+        <texture file="skeletal/mycenean/armor_full_01_01.png" name="baseTex"/>
+        <texture file="skeletal/pers/scale_armband_full_01_spec.png" name="specTex"/>
+        <texture file="default_norm.png" name="normTex"/>
+      </textures>
+      <props>
+        <prop actor="props/units/armor/mycenaen_neckguard_bronze_chariot.xml" attachpoint="root"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="Arm Guards Bronze">
+      <props>
+        <prop actor="props/units/pers_bactrian_arm_left_bronze.xml" attachpoint="shoulderpad_L"/>
+        <prop actor="props/units/pers_bactrian_arm_right_bronze.xml" attachpoint="shoulderpad_R"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="Idle"/>
+    <variant file="biped/base_chariot_spearman_relax.xml"/>
+    <variant file="biped/attack_capture.xml"/>
+    <variant file="biped/death_infantry.xml"/>
+  </group>
+  <material>player_trans_norm_spec.xml</material>
+</actor>

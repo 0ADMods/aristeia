@@ -30,7 +30,7 @@
     </Entities>
   </Trainer>
   <VisualActor>
-    <Actor>structures/athenians/fortress.xml</Actor>
+    <Actor>structures/mycenaeans/fortress.xml</Actor>
   </VisualActor>
   <WallPiece>
     <Length>24.0</Length>

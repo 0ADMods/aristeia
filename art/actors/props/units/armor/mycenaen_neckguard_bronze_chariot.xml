@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant>
+      <mesh>props/helmet/pers_neckguard.dae</mesh>
+      <textures>
+        <texture file="props/helmet/pers_neckguard_bronze.png" name="baseTex"/>
+        <texture file="props/helmet/pers_neckguard_norm.png" name="normTex"/>
+        <texture file="props/helmet/pers_neckguard_spec.png" name="specTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <!-- <variant file="biped/base_spearman_ready.xml" name="Spearman-2h-Ready" frequency="1"/>
+    <variant file="biped/base_spearman_relax.xml" name="Spearman-2h-Relax" frequency="1"/>
+    <variant file="biped/base_spearman_ready.xml" name="Spearman-Ready" frequency="1"/> -->
+    <variant file="biped/base_chariot_spearman_relax.xml" name="base_chariot_spearman_relax" frequency="1"/>
+  </group>
+  <group>
+    <variant frequency="1" name="Idle"/>
+    <variant file="biped/rider/base_carry_meat.xml"/>
+    <variant file="biped/rider/attack_slaughter.xml"/>
+    <variant file="biped/cape_gather_meat.xml"/>
+  </group>
+  <material>player_trans_norm_spec_helmet.xml</material>
+</actor>
