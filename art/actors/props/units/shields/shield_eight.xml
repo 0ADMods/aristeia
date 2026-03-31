@@ -13,6 +13,9 @@
     <variant name="Texture-Tower-1">
       <textures><texture file="props/shield/minoans_shield_a.png" name="baseTex"/></textures>
     </variant>
+    <variant name="Texture-Tower-2">
+      <textures><texture file="props/shield/minoans_shield_b.png" name="baseTex"/></textures>
+    </variant>
   </group>
   <material>player_trans.xml</material>
 </actor>

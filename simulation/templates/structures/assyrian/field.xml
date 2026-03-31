@@ -6,6 +6,6 @@
     <History>Assyria contains some good farmland, particularly in the Tigris-Euphrates confluence area.</History>
   </Identity>
   <VisualActor>
-    <Actor>structures/egyptian/field.xml</Actor>
+    <Actor>structures/plot_field_medit.xml</Actor>
   </VisualActor>
 </Entity>
