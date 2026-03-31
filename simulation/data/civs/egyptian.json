@@ -18,7 +18,7 @@
 			"Template": "structures/egyptian/civil_centre"
 		},
 		{
-			"Template": "units/egyptian/support_female_citizen",
+			"Template": "units/egyptian/support_civilian",
 			"Count": 4
 		},
 		{

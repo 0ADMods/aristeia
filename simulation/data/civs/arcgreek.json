@@ -17,7 +17,7 @@
 			"Template": "structures/arcgreek/civil_centre"
 		},
 		{
-			"Template": "units/arcgreek/support_female_citizen",
+			"Template": "units/arcgreek/support_civilian",
 			"Count": 4
 		},
 		{

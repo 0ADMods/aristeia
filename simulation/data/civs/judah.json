@@ -17,7 +17,7 @@
 			"Template": "structures/judah/civil_centre"
 		},
 		{
-			"Template": "units/judah/support_female_citizen",
+			"Template": "units/judah/support_civilian",
 			"Count": 4
 		},
 		{

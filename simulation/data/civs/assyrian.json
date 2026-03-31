@@ -17,7 +17,7 @@
 			"Template": "structures/assyrian/civil_centre"
 		},
 		{
-			"Template": "units/assyrian/support_female_citizen",
+			"Template": "units/assyrian/support_civilian",
 			"Count": 4
 		},
 		{
