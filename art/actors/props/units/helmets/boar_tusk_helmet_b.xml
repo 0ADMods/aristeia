@@ -8,19 +8,14 @@
     </variant>
   </group>
   <group>
-    <variant frequency="1" name="1">
+    <variant frequency="25" name="1">
       <props>
         <prop actor="props/units/helmets/props/celt_helmet_hair.xml" attachpoint="01"/>
       </props>
     </variant>
-    <variant frequency="1" name="3">
+    <variant frequency="25" name="2">
       <props>
         <prop actor="props/units/helmets/props/prop_boar_tusk_01.xml" attachpoint="01"/>
-      </props>
-    </variant>
-        <variant frequency="1" name="4">
-      <props>
-        <prop actor="props/units/helmets/props/hele_crest_pilos_bronze_01.xml" attachpoint="01"/>
       </props>
     </variant>
   </group>

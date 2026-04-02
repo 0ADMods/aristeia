@@ -4,6 +4,9 @@
     <Rank>Advanced</Rank>
   </Identity>
   <Promotion>
-    <Entity>units/arcgreek/infantry_spearman_e</Entity>
+    <Entity>units/mycenae/infantry_spearman_e</Entity>
   </Promotion>
+  <VisualActor>
+    <Actor>units/mycenaeans/infantry_spearman_a.xml</Actor>
+  </VisualActor>
 </Entity>

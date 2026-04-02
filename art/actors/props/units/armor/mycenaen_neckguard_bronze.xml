@@ -5,7 +5,7 @@
     <variant>
       <mesh>props/helmet/pers_neckguard.dae</mesh>
       <textures>
-        <texture file="props/helmet/pers_neckguard_bronze.png" name="baseTex"/>
+        <texture file="skeletal/mycenean/bronze_prop.png" name="baseTex"/>
         <texture file="props/helmet/pers_neckguard_norm.png" name="normTex"/>
         <texture file="props/helmet/pers_neckguard_spec.png" name="specTex"/>
       </textures>

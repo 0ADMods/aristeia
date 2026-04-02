@@ -9,6 +9,6 @@
     <Entity>units/arcgreek/infantry_spearman_a</Entity>
   </Promotion>
   <VisualActor>
-    <Actor>units/spartans/infantry_spearman_a.xml</Actor>
+    <Actor>units/mycenaeans/infantry_spearman_b.xml</Actor>
   </VisualActor>
 </Entity>

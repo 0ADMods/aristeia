@@ -21,7 +21,7 @@
         <prop actor="units/mycenaeans/champion_chariot_d.xml" attachpoint="driver1"/>
       </props>
       <textures>
-        <texture file="structural/pers_chariot_b.png" name="baseTex"/>
+        <texture file="structural/mycenae_chariot_01.png" name="baseTex"/>
         <texture file="default_norm.png" name="normTex"/>
         <texture file="null_black.dds" name="specTex"/>
       </textures>

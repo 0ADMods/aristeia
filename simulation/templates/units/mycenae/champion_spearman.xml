@@ -3,10 +3,10 @@
   <Identity>
     <Civ>mycenae</Civ>
     <Lang>greek</Lang>
-    <GenericName>Spartan Royal Bodyguard</GenericName>
+    <GenericName>Mycenaen Royal Bodyguard</GenericName>
     <Icon>units/spart/champion_infantry_spear.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>units/spartans/infantry_spearman_c.xml</Actor>
+    <Actor>units/mycenaeans/champion_infantry_spearman.xml</Actor>
   </VisualActor>
 </Entity>

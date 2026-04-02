@@ -4,4 +4,7 @@
     <Rank>Elite</Rank>
   </Identity>
   <Promotion disable=""/>
+  <VisualActor>
+    <Actor>units/mycenaeans/infantry_spearman_e.xml</Actor>
+  </VisualActor>
 </Entity>
