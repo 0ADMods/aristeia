@@ -7,6 +7,7 @@
       <Techs datatype="tokens">
         phase_town
       </Techs>
+      <Tooltip>Unlocked in Town Phase after champion cavalry are enabled.</Tooltip>
     </Requirements>
     <Icon>units/pers/champion_cavalry.png</Icon>
   </Identity>
