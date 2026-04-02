@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<variant name="Base" frequency="1">
+  <animations>
+    <animation event="0.92" load="0.54" file="biped/infantry/gastraphetes/attack_ranged.dae" name="attack_ranged" speed="120"/>
+    <animation file="biped/infantry/gastraphetes/idle_relax_01.dae" name="Idle" id="idle1" frequency="10" speed="80"/>
+    <animation file="biped/infantry/gastraphetes/idle_relax_02.dae" name="Idle" id="idle2" frequency="1" speed="80"/>
+    <animation file="biped/infantry/gastraphetes/idle_relax_03.dae" name="Idle" id="idle3" frequency="1" speed="80"/>
+    <animation file="biped/infantry/gastraphetes/jog.dae" name="Walk" id="walk1" speed="9"/>
+    <animation file="biped/infantry/gastraphetes/jog.dae" name="Walk" id="walk2" speed="8"/>
+    <animation file="biped/infantry/gastraphetes/jog.dae" name="Run" id="run1" speed="6"/>
+    <animation file="biped/infantry/gastraphetes/jog.dae" name="Run" id="run2" speed="7"/>
+    <animation file="biped/infantry/gastraphetes/jog.dae" name="Run" id="run3" speed="8"/>
+    <animation file="biped/infantry/promotion.dae" name="promotion" speed="80"/>
+  </animations>
+</variant>

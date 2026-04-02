@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<variant name="anti_cavalry_front" frequency="0">
+  <animations>
+    <animation file="biped/formations/anti_cavalry/front_attack.dae" name="Attack" speed="30"/>
+    <animation file="biped/formations/anti_cavalry/front_idle.dae" name="Idle" speed="50"/>
+    <animation file="biped/infantry/spearman/walk_relax.dae" name="Walk" id="walk1" speed="30"/>
+    <animation file="biped/infantry/spearman/walk_relax.dae" name="Walk" id="walk2" speed="32"/>
+    <animation file="biped/infantry/promotion.dae" name="promotion" speed="80"/>
+  </animations>
+</variant>
