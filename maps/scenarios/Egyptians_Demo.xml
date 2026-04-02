@@ -10121,42 +10121,42 @@
 			<Actor seed="52364"/>
 		</Entity>
 		<Entity uid="4652">
-			<Template>units/egyptian/support_female_citizen</Template>
+			<Template>units/egyptian/support_civilian</Template>
 			<Player>1</Player>
 			<Position x="574.01465" z="299.61561"/>
 			<Orientation y="-1.95832"/>
 			<Actor seed="28828"/>
 		</Entity>
 		<Entity uid="4653">
-			<Template>units/egyptian/support_female_citizen</Template>
+			<Template>units/egyptian/support_civilian</Template>
 			<Player>1</Player>
 			<Position x="576.68866" z="296.098"/>
 			<Orientation y="-2.50156"/>
 			<Actor seed="44727"/>
 		</Entity>
 		<Entity uid="4654">
-			<Template>units/egyptian/support_female_citizen</Template>
+			<Template>units/egyptian/support_civilian</Template>
 			<Player>1</Player>
 			<Position x="579.84852" z="292.73884"/>
 			<Orientation y="-2.56307"/>
 			<Actor seed="26491"/>
 		</Entity>
 		<Entity uid="4655">
-			<Template>units/egyptian/support_female_citizen</Template>
+			<Template>units/egyptian/support_civilian</Template>
 			<Player>1</Player>
 			<Position x="580.05134" z="305.08783"/>
 			<Orientation y="-2.18975"/>
 			<Actor seed="41686"/>
 		</Entity>
 		<Entity uid="4656">
-			<Template>units/egyptian/support_female_citizen</Template>
+			<Template>units/egyptian/support_civilian</Template>
 			<Player>1</Player>
 			<Position x="582.75812" z="301.39451"/>
 			<Orientation y="-2.59267"/>
 			<Actor seed="60752"/>
 		</Entity>
 		<Entity uid="4657">
-			<Template>units/egyptian/support_female_citizen</Template>
+			<Template>units/egyptian/support_civilian</Template>
 			<Player>1</Player>
 			<Position x="584.94062" z="298.54996"/>
 			<Orientation y="-2.20051"/>

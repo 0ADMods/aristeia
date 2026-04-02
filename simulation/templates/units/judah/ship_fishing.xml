@@ -2,7 +2,7 @@
 <Entity parent="template_unit_ship_fishing">
   <Identity>
     <Civ>judah</Civ>
-    <Icon>units/ptol_ship_fishing.png</Icon>
+    <Icon>units/ptol/ship_fishing.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/judah/fishing_boat.xml</Actor>

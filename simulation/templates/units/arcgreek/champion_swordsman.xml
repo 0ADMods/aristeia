@@ -7,7 +7,7 @@
     <Civ>arcgreek</Civ>
     <Lang>greek</Lang>
     <GenericName>Greek Officer</GenericName>
-    <Icon>units/thespian_melanochitones.png</Icon>
+    <Icon>units/spart/champion_infantry_sword.png</Icon>
   </Identity>
   <TrainingRestrictions>
     <Category>Officer</Category>
