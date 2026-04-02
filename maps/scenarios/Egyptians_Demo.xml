@@ -2463,35 +2463,35 @@
 			<Actor seed="0"/>
 		</Entity>
 		<Entity uid="3373">
-			<Template>units/pers/support_female_citizen</Template>
+			<Template>units/pers/support_civilian</Template>
 			<Player>2</Player>
 			<Position x="642.32752" z="923.59089"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="0"/>
 		</Entity>
 		<Entity uid="3374">
-			<Template>units/pers/support_female_citizen</Template>
+			<Template>units/pers/support_civilian</Template>
 			<Player>2</Player>
 			<Position x="646.34882" z="926.6833"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="0"/>
 		</Entity>
 		<Entity uid="3375">
-			<Template>units/pers/support_female_citizen</Template>
+			<Template>units/pers/support_civilian</Template>
 			<Player>2</Player>
 			<Position x="649.51374" z="929.92518"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="0"/>
 		</Entity>
 		<Entity uid="3376">
-			<Template>units/pers/support_female_citizen</Template>
+			<Template>units/pers/support_civilian</Template>
 			<Player>2</Player>
 			<Position x="652.36951" z="932.94416"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="0"/>
 		</Entity>
 		<Entity uid="3377">
-			<Template>units/pers/support_female_citizen</Template>
+			<Template>units/pers/support_civilian</Template>
 			<Player>2</Player>
 			<Position x="654.97846" z="935.52564"/>
 			<Orientation y="2.35621"/>

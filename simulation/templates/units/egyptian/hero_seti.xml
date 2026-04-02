@@ -15,7 +15,7 @@
   <Identity>
     <Civ>egyptian</Civ>
     <GenericName>Seti</GenericName>
-    <Icon>units/egyptian_hero_pharao.png</Icon>
+    <Icon>units/egyptian/hero_pharao.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/egyptian/hero_seti_chariot.xml</Actor>

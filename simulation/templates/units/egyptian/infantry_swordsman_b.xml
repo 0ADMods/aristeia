@@ -3,7 +3,7 @@
   <Identity>
     <SelectionGroupName>units/egyptian/infantry_swordsman_b</SelectionGroupName>
     <GenericName>Khopesh Warrior</GenericName>
-    <Icon>units/egyptian_champion_swordsman.png</Icon>
+    <Icon>units/egyptian/champion_swordsman.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/egyptian/infantry_swordsman_a</Entity>

@@ -4,7 +4,7 @@
     <Civ>egyptian</Civ>
     <Classes datatype="tokens">Mercenary</Classes>
     <GenericName>Carian Heavy Swordsman</GenericName>
-    <Icon>units/egyptian_champion_swordsman.png</Icon>
+    <Icon>units/egyptian/champion_swordsman.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/egyptian/champion_infantry_swordsman_merc.xml</Actor>

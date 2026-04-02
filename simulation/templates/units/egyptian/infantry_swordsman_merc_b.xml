@@ -3,7 +3,7 @@
   <Identity>
     <SelectionGroupName>units/egyptian/infantry_swordsman_merc_b</SelectionGroupName>
     <GenericName>Libyan Swordsman</GenericName>
-    <Icon>units/egyptian_infantry_swordsman.png</Icon>
+    <Icon>units/egyptian/infantry_swordsman.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/egyptian/infantry_swordsman_merc_a</Entity>
