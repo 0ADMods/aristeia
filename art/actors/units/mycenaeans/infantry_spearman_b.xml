@@ -23,24 +23,14 @@
     </variant>
   </group>
   <group>
-    <variant frequency="2" name="tunic_marine_01_01">
+    <variant frequency="2" name="tunic_01_01">
       <textures>
-        <texture file="skeletal/athen/tunic_marine_01_01.png" name="baseTex"/>
+        <texture file="skeletal/hele/tunic_01_01.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="2" name="tunic_marine_01_02">
+    <variant frequency="2" name="tunic_01_02">
       <textures>
-        <texture file="skeletal/athen/tunic_marine_01_02.png" name="baseTex"/>
-      </textures>
-    </variant>
-    <variant frequency="2" name="tunic_marine_01_03">
-      <textures>
-        <texture file="skeletal/athen/tunic_marine_01_03.png" name="baseTex"/>
-      </textures>
-    </variant>
-    <variant frequency="2" name="tunic_marine_01_04">
-      <textures>
-        <texture file="skeletal/athen/tunic_marine_01_04.png" name="baseTex"/>
+        <texture file="skeletal/hele/tunic_01_02.png" name="baseTex"/>
       </textures>
     </variant>
   </group>

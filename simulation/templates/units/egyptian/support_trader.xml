@@ -9,7 +9,7 @@
     <GenericName>Egyptian Merchant</GenericName>
     <SpecificName>šwtj</SpecificName>
     <History>Egypt carried on extensive land trade with other nations, notably in grain exports, and was a center of luxury good exports and imports.</History>
-    <Icon>units/celt_support_trader.png</Icon>
+    <Icon>units/celt/support_trader.png</Icon>
     <Tooltip>Trade resources between your own markets and those of your allies.</Tooltip>
   </Identity>
   <Trader>

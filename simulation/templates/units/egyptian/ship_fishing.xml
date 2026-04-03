@@ -4,7 +4,7 @@
     <Civ>egyptian</Civ>
     <SpecificName>mk</SpecificName>
     <History>Fishing was a popular pasttime as well as a thriving industry in Late Kingdom Egypt.</History>
-    <Icon>units/ptol_ship_fishing.png</Icon>
+    <Icon>units/ptol/ship_fishing.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>structures/ptolemies/fishing_boat.xml</Actor>

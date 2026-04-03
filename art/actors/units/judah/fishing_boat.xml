@@ -1,16 +1,18 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <actor version="1">
   <castshadow/>
   <float/>
   <group>
-    <variant>
-      <mesh>structural/ptol_fishing_boat.dae</mesh>
+    <variant frequency="1" name="Jud Fishing Ship">
+      <mesh>structural/pers_fishship.dae</mesh>
       <props>
         <prop actor="units/judah/fisherman.xml" attachpoint="fisherman"/>
-        <prop actor="props/structures/ptolemies/fishing_boat_basket.xml" attachpoint="basket"/>
+        <prop actor="props/structures/persians/fishship_sail.xml" attachpoint="root"/>
       </props>
       <textures>
-        <texture file="structural/ptol_fishing_boat.png" name="baseTex"/>
+        <texture file="structural/pers_fishship.dds" name="baseTex"/>
+        <texture file="default_norm.png" name="normTex"/>
+        <texture file="null_black.dds" name="specTex"/>
       </textures>
     </variant>
   </group>
@@ -20,7 +22,7 @@
     <variant frequency="1" name="run"/>
     <variant frequency="1" name="gather_fish">
       <props>
-        <prop actor="props/units/row.xml" attachpoint="row"/>
+        <prop actor="props/structures/persians/fishship_sail_folded.xml" attachpoint="root"/>
         <prop actor="props/fauna/fish_captured.xml" attachpoint="fish_a"/>
         <prop actor="props/fauna/fish_captured.xml" attachpoint="fish_b"/>
         <prop actor="props/fauna/fish_captured.xml" attachpoint="fish_c"/>
@@ -41,5 +43,5 @@
       </props>
     </variant>
   </group>
-  <material>player_trans.xml</material>
+  <material>no_trans_norm_spec.xml</material>
 </actor>

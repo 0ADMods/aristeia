@@ -11,7 +11,7 @@
     <SelectionGroupName>units/mycenae/champion_chariot</SelectionGroupName>
     <History>The Mycenaen Chariot was a fast and maneuverable war machine used by the ancient Greeks.</History>
     <Tooltip>Light and fast machines to serve as a speedy, mobile ranged strike force.</Tooltip>
-    <Icon>units/maur_champion_chariot.png</Icon>
+    <Icon>units/maur/champion_chariot.png</Icon>
   </Identity>
   <UnitMotion>
     <WalkSpeed>16.0</WalkSpeed>
