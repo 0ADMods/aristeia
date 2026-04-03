@@ -5,19 +5,19 @@
     <variant frequency="1" name="base">
       <mesh>props/shields/gerron_01_f.dae</mesh>
       <props>
-        <prop actor="props/units/shields/gerron_a_back.xml" attachpoint="back"/>
+        <prop actor="props/units/shields/gerron_01_back.xml" attachpoint="back"/>
       </props>
     </variant>
   </group>
   <group>
-    <variant name="spara-texture-b">
+    <variant frequency="1" name="shield-gerron-f">
       <textures>
-        <texture file="props/shield/mycenae_rect_01_01.png" name="baseTex"/>
+        <texture file="props/shield/pers_gerron_f.dds" name="baseTex"/>
       </textures>
     </variant>
-    <variant name="spara-texture-e">
+    <variant frequency="1" name="shield-gerron-g">
       <textures>
-        <texture file="props/shield/mycenae_rect_01_02.png" name="baseTex"/>
+        <texture file="props/shield/pers_gerron_g.dds" name="baseTex"/>
       </textures>
     </variant>
   </group>

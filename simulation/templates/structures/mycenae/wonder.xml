@@ -12,7 +12,7 @@
   </GarrisonHolder>
   <Identity>
     <Civ>mycenae</Civ>
-    <SpecificName>Temple of Artemis</SpecificName>
+    <SpecificName>Royal Palace</SpecificName>
     <Tooltip>Bring glory to your civilization and add large tracts of land to your empire. Garrison units to heal them at an extremely quick rate.</Tooltip>
   </Identity>
   <Obstruction>
@@ -20,6 +20,6 @@
   </Obstruction>
   <VisualActor>
     <FoundationActor>structures/fndn_8x8.xml</FoundationActor>
-    <Actor>structures/hellenes/temple_epic.xml</Actor>
+    <Actor>structures/mycenaeans/wonder.xml</Actor>
   </VisualActor>
 </Entity>

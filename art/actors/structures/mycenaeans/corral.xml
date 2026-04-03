@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="Mycenae Corral">
+      <mesh>structural/mycenae_corral.dae</mesh>
+      <props>
+        <prop actor="props/structures/decals/hele_corral_mud.xml" attachpoint="root"/>
+        <prop actor="props/structures/hellenes/corral_hay.xml" attachpoint="root"/>
+        <prop actor="props/structures/hellenes/corral_plants.xml" attachpoint="root"/>
+        <prop actor="props/structures/hellenes/corral_water.xml" attachpoint="root"/>
+		<prop actor="props/flora/bush_medit_la.xml" attachpoint="bush_1"/>
+		<prop actor="props/flora/bush_medit_la_dry.xml" attachpoint="bush_2"/>
+		<prop actor="props/flora/bush_medit_me_dry.xml" attachpoint="bush_3"/>
+		<prop actor="props/flora/bush_medit_sm_dry.xml" attachpoint="bush_4"/>
+      </props>
+      <textures>
+		<texture file="structural/mycenae_struct.png" name="baseTex"/>
+		<texture file="structural/mycenae_struct_spec.png" name="specTex"/>
+		<texture file="structural/mycenae_struct_norm.png" name="normTex"/>
+        <!-- <texture file="structural/ao/hele_corral.png" name="aoTex"/> -->
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="ungarrisoned"/>
+    <variant name="garrisoned">
+      <props>
+        <prop actor="props/special/common/garrison_flag_hele.xml" attachpoint="garrisoned" selectable="false"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant name="alive" frequency="1"/>
+    <variant file="structures/destruction_small.xml">
+      <props>
+        <prop actor="props/structures/hellenes/corral_doors.xml" attachpoint="root"/>
+        <prop actor="props/structures/decals/hele_corral_mud.xml" attachpoint="root"/>
+        <prop actor="props/structures/hellenes/corral_hay.xml" attachpoint="root"/>
+        <prop actor="props/structures/hellenes/corral_plants.xml" attachpoint="root"/>
+        <prop actor="props/structures/hellenes/corral_water.xml" attachpoint="root"/>
+      </props>
+    </variant>
+  </group>
+  <material>no_trans_parallax_spec.xml</material>
+</actor>

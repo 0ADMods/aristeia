@@ -26,7 +26,7 @@
 			"Count": 2
 		},
 		{
-			"Template": "units/mycenae/infantry_javelineer_b",
+			"Template": "units/mycenae/infantry_slinger_b",
 			"Count": 2
 		},
 		{
@@ -43,7 +43,7 @@
 	"SkirmishReplacements":
 	{
 		"skirmish/units/default_infantry_melee_b": "units/mycenae/infantry_spearman_b",
-		"skirmish/units/default_infantry_ranged_b": "units/mycenae/infantry_javelineer_b",
+		"skirmish/units/default_infantry_ranged_b": "units/mycenae/infantry_slinger_b",
 		"skirmish/units/default_cavalry": "units/mycenae/cavalry_javelineer_b",
 		"skirmish/units/special_starting_unit": "units/mycenae/support_slave",
 		"skirmish/structures/default_house_5": "structures/{civ}/house"
