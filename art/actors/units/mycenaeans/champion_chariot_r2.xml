@@ -7,12 +7,11 @@
       <props>
         <prop actor="props/units/heads/new/head_hele_b.xml" attachpoint="head"/>
         <prop actor="props/units/helmets/boar_tusk_helmet.xml" attachpoint="helmet"/>
-        <prop actor="props/units/weapons/spear.xml" attachpoint="weapon_R"/>
         <prop actor="props/units/armor/greave_02_bronze_r.xml" attachpoint="leg_R"/>
         <prop actor="props/units/armor/greave_02_bronze_l.xml" attachpoint="leg_L"/>
         <prop actor="props/units/weapons/arrow_back.xml" attachpoint="weapon_R"/>
         <prop actor="props/units/weapons/bow_recurve.xml" attachpoint="weapon_L"/>
-        <prop actor="props/units/pers_quiver_xerxes.xml" attachpoint="back"/>
+        <prop actor="props/units/quiver_greek_back.xml" attachpoint="back"/>
       </props>
     </variant>
   </group>

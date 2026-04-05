@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <float/>
+  <group>
+    <variant frequency="1" name="Persian bireme">
+      <mesh>structural/mycenae_ship_arrow.dae</mesh>
+      <animations>
+        <!-- Note: Ship attacks don't have dae animations, but animations are required to trigger sound effects. Perhaps in the future it should use the C++ code instead. -->
+        <animation event="0.5" load="0.0" name="attack_ranged" speed="100"/>
+      </animations>
+      <props>
+        <prop actor="props/structures/hellenes/ship_oar_short_middle_right.xml" attachpoint="row_s_R_001"/>
+        <prop actor="props/structures/hellenes/ship_oar_short_middle_right.xml" attachpoint="row_s_R_002"/>
+        <prop actor="props/structures/hellenes/ship_oar_short_middle_right.xml" attachpoint="row_s_R_003"/>
+        <prop actor="props/structures/hellenes/ship_oar_short_middle_right.xml" attachpoint="row_s_R_004"/>
+        <prop actor="props/structures/hellenes/ship_oar_short_middle_right.xml" attachpoint="row_s_R_005"/>
+        <prop actor="props/structures/hellenes/ship_oar_short_middle_right.xml" attachpoint="row_s_R_006"/>
+        <prop actor="props/structures/hellenes/ship_oar_short_middle_right.xml" attachpoint="row_s_R_007"/>
+        <prop actor="props/structures/hellenes/ship_oar_short_middle_right.xml" attachpoint="row_s_R_008"/>
+        <prop actor="props/structures/hellenes/ship_oar_short_middle_right.xml" attachpoint="row_s_R_009"/>
+        <prop actor="props/structures/hellenes/ship_oar_short_middle_right.xml" attachpoint="row_s_R_010"/>
+        <prop actor="props/structures/hellenes/ship_oar_short_middle_right.xml" attachpoint="row_s_R_011"/>
+        <prop actor="props/structures/hellenes/ship_oar_short_middle_right.xml" attachpoint="row_s_R_012"/>
+        <prop actor="props/structures/hellenes/ship_oar_short_middle_right.xml" attachpoint="row_s_R_013"/>
+        <prop actor="props/structures/hellenes/ship_oar_short_middle_left.xml" attachpoint="row_s_L_001"/>
+        <prop actor="props/structures/hellenes/ship_oar_short_middle_left.xml" attachpoint="row_s_L_002"/>
+        <prop actor="props/structures/hellenes/ship_oar_short_middle_left.xml" attachpoint="row_s_L_003"/>
+        <prop actor="props/structures/hellenes/ship_oar_short_middle_left.xml" attachpoint="row_s_L_004"/>
+        <prop actor="props/structures/hellenes/ship_oar_short_middle_left.xml" attachpoint="row_s_L_005"/>
+        <prop actor="props/structures/hellenes/ship_oar_short_middle_left.xml" attachpoint="row_s_L_006"/>
+        <prop actor="props/structures/hellenes/ship_oar_short_middle_left.xml" attachpoint="row_s_L_007"/>
+        <prop actor="props/structures/hellenes/ship_oar_short_middle_left.xml" attachpoint="row_s_L_008"/>
+        <prop actor="props/structures/hellenes/ship_oar_short_middle_left.xml" attachpoint="row_s_L_009"/>
+        <prop actor="props/structures/hellenes/ship_oar_short_middle_left.xml" attachpoint="row_s_L_010"/>
+        <prop actor="props/structures/hellenes/ship_oar_short_middle_left.xml" attachpoint="row_s_L_011"/>
+        <prop actor="props/structures/hellenes/ship_oar_short_middle_left.xml" attachpoint="row_s_L_012"/>
+        <prop actor="props/units/weapons/bolt_tower.xml" attachpoint="projectile"/>
+      </props>
+      <textures>
+        <texture file="structural/minoan_ship.png" name="baseTex"/>
+        <texture file="structural/kush_bireme_spec.png" name="specTex"/>
+        <texture file="structural/kush_bireme_norm.png" name="normTex"/>
+        <texture file="structural/ao/pers_bireme.png" name="aoTex"/>
+      </textures>
+    </variant>
+  </group>
+  <material>player_trans_ao_parallax_spec.xml</material>
+</actor>

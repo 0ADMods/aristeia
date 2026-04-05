@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="chariot|template_unit_champion_cavalry_archer">
+  <Auras datatype="tokens">
+    units/carnyx
+  </Auras>
+  <Identity>
+    <Civ>minoan</Civ>
+    <Classes datatype="tokens">Chariot</Classes>
+    <GenericName>Minoan Chariot</GenericName>
+    <SpecificName></SpecificName>
+    <SelectionGroupName>units/minoan/champion_chariot</SelectionGroupName>
+    <History>The Minoan Chariot was a fast and maneuverable war machine used by the ancient Minoans.</History>
+    <Tooltip>Light and fast machines to serve as a speedy, mobile ranged strike force.</Tooltip>
+    <Icon>units/maur/champion_chariot.png</Icon>
+  </Identity>
+  <UnitMotion>
+    <WalkSpeed>16.0</WalkSpeed>
+    <RunMultiplier>2.875</RunMultiplier>
+  </UnitMotion>
+  <VisualActor>
+    <Actor>units/minoans/champion_chariot.xml</Actor>
+  </VisualActor>
+</Entity>

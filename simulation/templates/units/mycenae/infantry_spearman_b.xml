@@ -2,12 +2,12 @@
 <Entity parent="template_unit_infantry_melee_spearman">
   <Identity>
     <Civ>mycenae</Civ>
-    <SelectionGroupName>units/arcgreek/infantry_spearman_b</SelectionGroupName>
-    <GenericName>Greek Hoplite</GenericName>
+    <SelectionGroupName>units/mycenae/infantry_spearman_b</SelectionGroupName>
+    <GenericName>Mycenaean Spearman</GenericName>
     <Icon>units/spart/infantry_spearman.png</Icon>
   </Identity>
   <Promotion>
-    <Entity>units/arcgreek/infantry_spearman_a</Entity>
+    <Entity>units/mycenae/infantry_spearman_a</Entity>
   </Promotion>
   <VisualActor>
     <Actor>units/mycenaeans/infantry_spearman_b.xml</Actor>

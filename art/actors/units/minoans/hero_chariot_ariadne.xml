@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant>
+      <animations>
+        <animation file="mechanical/chariot_idle.dae" name="Idle" id="idle1" speed="80"/>
+        <animation file="mechanical/chariot_idle.dae" name="Idle" id="idle2" speed="80"/>
+        <animation file="mechanical/chariot_idle.dae" name="Idle" id="idle3" speed="80"/>
+        <animation file="mechanical/chariot_move.dae" name="Walk" speed="7"/>
+        <animation file="mechanical/chariot_move.dae" name="Run" speed="7"/>
+        <animation file="mechanical/chariot_death.dae" name="Death" id="death1" speed="100"/>
+        <animation file="mechanical/chariot_death.dae" name="Death" id="death2" speed="100"/>
+        <animation file="mechanical/chariot_idle.dae" name="attack_ranged" speed="80"/>
+      </animations>
+      <mesh>structural/pers_chariot_b.dae</mesh>
+      <props>
+        <prop actor="units/mycenaeans/chariot_horse_1.xml" attachpoint="horse1"/>
+        <prop actor="units/mycenaeans/chariot_horse_2.xml" attachpoint="horse4"/>
+        <prop actor="units/mycenaeans/chariot_horse_1.xml" attachpoint="horse3"/>
+        <prop actor="units/mycenaeans/chariot_horse_2.xml" attachpoint="horse2"/>
+        <prop actor="units/minoans/hero_ariadne_chariot_r.xml" attachpoint="rider1"/>
+        <prop actor="units/mycenaeans/champion_chariot_d.xml" attachpoint="driver1"/>
+      </props>
+      <textures>
+        <texture file="structural/mycenae_chariot_01.png" name="baseTex"/>
+        <texture file="default_norm.png" name="normTex"/>
+        <texture file="null_black.dds" name="specTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="100" name="Idle"/>
+    <variant name="Run">
+      <props>
+        <prop actor="particle/dust_cav.xml" attachpoint="root"/>
+      </props>
+    </variant>
+  </group>
+  <material>player_trans_norm_spec.xml</material>
+</actor>

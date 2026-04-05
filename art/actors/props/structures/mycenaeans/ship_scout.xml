@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <float/>
+  <group>
+    <variant frequency="1"  name="base">
+      <mesh>props/structures/mycenaeans/prop_ship_arrow.dae</mesh>
+      <textures>
+        <texture file="structural/minoan_ship.png" name="baseTex"/>
+        <texture file="structural/kush_bireme_spec.png" name="specTex"/>
+        <texture file="structural/kush_bireme_norm.png" name="normTex"/>
+      </textures>
+    </variant>
+  </group>
+  <material>player_trans_parallax_spec.xml</material>
+</actor>

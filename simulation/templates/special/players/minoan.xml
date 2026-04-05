@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_player">
+  <!-- <Auras datatype="tokens">
+    teambonuses/cart_player_teambonus
+  </Auras> -->
+  <!-- <EntityLimits>
+    <Limits>
+      <Officer>5</Officer>
+    </Limits>
+  </EntityLimits> -->
+  <Identity>
+    <Civ>minoan</Civ>
+    <GenericName>Minoan</GenericName>
+    <History>The Minoan civilization was a Bronze Age Greek-speaking civilization that flourished on the island of Crete from approximately 2700 to 1100 BCE.</History>
+    <Icon>emblems/emblem_minoans.png</Icon>
+  </Identity>
+  <Player>
+    <Formations datatype="tokens">
+		"special/formations/null",
+		"special/formations/box",
+		"special/formations/column_closed",
+		"special/formations/line_closed",
+		"special/formations/column_open",
+		"special/formations/line_open",
+		"special/formations/flank",
+		"special/formations/skirmish",
+		"special/formations/wedge",
+		"special/formations/battle_line",
+		"special/formations/phalanx"
+    </Formations>
+  </Player>
+</Entity>

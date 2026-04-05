@@ -1,0 +1,52 @@
+{
+	"Code": "minoan",
+	"Culture": "helle",
+	"Music":
+	[
+		{"File":"Achilles.ogg", "Type":"peace"},
+		{"File":"Five Armies.ogg", "Type":"peace"}
+	],
+    "CivBonuses": [],
+    "TeamBonuses": [],
+	"WallSets":
+	[
+		"structures/minoan/wallset_stone"
+	],
+	"StartEntities":
+	[
+		{
+			"Template": "structures/minoan/civil_centre"
+		},
+		{
+			"Template": "units/minoan/support_civilian",
+			"Count": 4
+		},
+		{
+			"Template": "units/minoan/infantry_spearman_b",
+			"Count": 2
+		},
+		{
+			"Template": "units/minoan/infantry_archer_b",
+			"Count": 2
+		},
+		{
+			"Template": "units/minoan/cavalry_javelineer_b"
+		},
+		{
+			"Template": "units/minoan/support_slave"
+		}
+	],
+	"AINames":
+	[
+		"Cypselus"
+	],
+	"SkirmishReplacements":
+	{
+		"skirmish/units/default_infantry_melee_b": "units/minoan/infantry_spearman_b",
+		"skirmish/units/default_infantry_ranged_b": "units/minoan/infantry_archer_b",
+		"skirmish/units/default_cavalry": "units/minoan/cavalry_javelineer_b",
+		"skirmish/units/special_starting_unit": "units/minoan/support_slave",
+		"skirmish/structures/default_house_5": "structures/{civ}/house"
+	},
+	"SelectableInGameSetup": true
+}

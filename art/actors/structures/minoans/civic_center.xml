@@ -28,12 +28,14 @@
 		<variant frequency="100" name="Idle"/>
 		<variant name="garrisoned">
 			<props>
-				<prop actor="props/special/common/garrison_flag_seleucids.xml" attachpoint="garrisoned.001"/>
+				<prop actor="props/special/common/garrison_flag_seleucids.xml" attachpoint="garrisoned_01"/>
+				<prop actor="props/special/common/garrison_flag_seleucids.xml" attachpoint="garrisoned_02"/>
 			</props>
 		</variant>
 		<variant name="death">
 			<props>
-				<prop attachpoint="garrisoned.001"/>
+				<prop attachpoint="garrisoned_01"/>
+			    <prop attachpoint="garrisoned_02"/>
 				<prop actor="particle/destruction_smoke_large.xml" attachpoint="root"/>
 				<prop actor="particle/destruction_dust_large.xml" attachpoint="root"/>
 				<prop actor="particle/destruction_dust_large_gray.xml" attachpoint="root"/>

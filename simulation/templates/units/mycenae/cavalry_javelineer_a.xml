@@ -4,6 +4,6 @@
     <Rank>Advanced</Rank>
   </Identity>
   <Promotion>
-    <Entity>units/arcgreek/cavalry_javelineer_e</Entity>
+    <Entity>units/mycenae/cavalry_javelineer_e</Entity>
   </Promotion>
 </Entity>

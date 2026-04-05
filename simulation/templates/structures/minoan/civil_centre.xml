@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_civic_civil_centre">
+  <Health>
+    <SpawnEntityOnDeath>decay|rubble/rubble_hele_cc</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Civ>minoan</Civ>
+    <SpecificName>Agorá</SpecificName>
+  </Identity>
+ <Trainer>
+    <Entities datatype="tokens">
+      units/{civ}/infantry_spearman_b
+      units/{civ}/infantry_javelineer_b
+      units/{civ}/hero_minos
+      units/{civ}/hero_ariadne
+      units/{civ}/cavalry_javelineer_b
+      units/{civ}/support_slave
+    </Entities>
+  </Trainer>
+  <VisualActor>
+    <Actor>structures/minoans/civic_center.xml</Actor>
+  </VisualActor>
+</Entity>
