@@ -2,7 +2,7 @@
 <Entity parent="template_unit_champion_infantry_axeman">
   <Identity>
     <Civ>minoan</Civ>
-    <GenericName>Minoan Champion</GenericName>
+    <GenericName>Cretan Champion</GenericName>
     <Icon>units/egyptian_champion_swordsman.png</Icon>
   </Identity>
   <VisualActor>

@@ -3,7 +3,7 @@
   <Identity>
     <Civ>minoan</Civ>
     <SelectionGroupName>units/minoan/infantry_axeman_b</SelectionGroupName>
-    <GenericName>Greek Hoplite</GenericName>
+    <GenericName>Cretan Axeman</GenericName>
     <Icon>units/gaul/infantry_swordsman.png</Icon>
   </Identity>
   <Promotion>

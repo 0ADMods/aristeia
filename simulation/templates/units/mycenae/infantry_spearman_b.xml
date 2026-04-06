@@ -3,7 +3,7 @@
   <Identity>
     <Civ>mycenae</Civ>
     <SelectionGroupName>units/mycenae/infantry_spearman_b</SelectionGroupName>
-    <GenericName>Mycenaean Spearman</GenericName>
+    <GenericName>Achaeans Spearman</GenericName>
     <Icon>units/spart/infantry_spearman.png</Icon>
   </Identity>
   <Promotion>

@@ -5,6 +5,7 @@
     <Lang>greek</Lang>
     <SelectionGroupName>units/minoan/cavalry_javelineer_b</SelectionGroupName>
     <GenericName>Minoan Runner</GenericName>
+    <History>Runners are light infantry like a cavalry armed with javelins. They were known for their speed and agility on the battlefield.</History>
     <Icon>units/athen/cavalry_javelinist.png</Icon>
   </Identity>
   <Promotion>

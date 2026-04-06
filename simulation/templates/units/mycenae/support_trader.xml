@@ -7,7 +7,7 @@
   <Identity>
     <Civ>mycenae</Civ>
     <Lang>greek</Lang>
-    <GenericName>Greek Merchant</GenericName>
+    <GenericName>Achaeans Merchant</GenericName>
     <Icon>units/hele/support_trader.png</Icon>
   </Identity>
   <VisualActor>

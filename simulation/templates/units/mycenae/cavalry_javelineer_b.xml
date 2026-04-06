@@ -4,7 +4,7 @@
     <Civ>mycenae</Civ>
     <Lang>greek</Lang>
     <SelectionGroupName>units/mycenae/cavalry_javelineer_b</SelectionGroupName>
-    <GenericName>Thessalian Scout</GenericName>
+    <GenericName>Mycenaean Scout</GenericName>
         <Icon>units/athen/cavalry_javelinist.png</Icon>
   </Identity>
   <Promotion>

@@ -6,10 +6,10 @@
   <Identity>
     <Civ>minoan</Civ>
     <Classes datatype="tokens">Chariot</Classes>
-    <GenericName>Minoan Chariot</GenericName>
+    <GenericName>Cretan Chariot</GenericName>
     <SpecificName></SpecificName>
     <SelectionGroupName>units/minoan/champion_chariot</SelectionGroupName>
-    <History>The Minoan Chariot was a fast and maneuverable war machine used by the ancient Minoans.</History>
+    <History>The Cretan/Minoans Chariot was a fast and maneuverable war machine used by the ancient Minoans.</History>
     <Tooltip>Light and fast machines to serve as a speedy, mobile ranged strike force.</Tooltip>
     <Icon>units/maur/champion_chariot.png</Icon>
   </Identity>

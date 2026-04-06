@@ -3,7 +3,7 @@
   <Identity>
     <Civ>minoan</Civ>
     <SelectionGroupName>units/minoan/infantry_spearman_b</SelectionGroupName>
-    <GenericName>Greek Hoplite</GenericName>
+    <GenericName>Cretan Spearman</GenericName>
     <Icon>units/spart/infantry_spearman.png</Icon>
   </Identity>
   <Promotion>

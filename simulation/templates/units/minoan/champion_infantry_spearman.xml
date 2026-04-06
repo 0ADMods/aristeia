@@ -2,7 +2,7 @@
 <Entity parent="template_unit_champion_infantry_spearman">
   <Identity>
     <Civ>minoan</Civ>
-    <GenericName>Minoan Champion</GenericName>
+    <GenericName>Spearman Veteran</GenericName>
     <Icon>units/pers/champion_infantry.png</Icon>
   </Identity>
   <VisualActor>

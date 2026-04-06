@@ -6,7 +6,7 @@
   <Identity>
     <Civ>mycenae</Civ>
     <Lang>greek</Lang>
-    <GenericName>Greek Officer</GenericName>
+    <GenericName>Achaeans Officer</GenericName>
     <Icon>units/theb/champion_infantry_swordsman.png</Icon>
   </Identity>
   <TrainingRestrictions>

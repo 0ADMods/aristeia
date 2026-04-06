@@ -3,7 +3,7 @@
   <Identity>
     <Civ>mycenae</Civ>
     <SelectionGroupName>units/mycenae/infantry_slinger_b</SelectionGroupName>
-    <GenericName>Mykenaean Slinger</GenericName>
+    <GenericName>Achaeans Slinger</GenericName>
     <Icon>units/iber/infantry_slinger.png</Icon>
   </Identity>
   <Promotion>
