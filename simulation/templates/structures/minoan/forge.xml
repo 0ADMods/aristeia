@@ -6,6 +6,6 @@
     <History>The earliest Greek smiths worked in copper, then bronze, and then finally iron.</History>
   </Identity>
   <VisualActor>
-    <Actor>structures/mycenaeans/blacksmith.xml</Actor>
+    <Actor>structures/minoans/forge.xml</Actor>
   </VisualActor>
 </Entity>
