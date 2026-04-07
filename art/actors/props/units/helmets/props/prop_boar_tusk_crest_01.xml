@@ -3,8 +3,8 @@
   <castshadow/>
   <group>
     <variant frequency="1" name="base">
-      <mesh>props/helmets/props/crest_high_myce_01.dae</mesh>
-      <textures><texture file="props/helmet/hele_thracian_02_silver.png" name="baseTex"/></textures>
+      <mesh>props/helmets/props/crest_high_anc_greek_01.dae</mesh>
+      <textures><texture file="props/helmet/props_helmets_anc_greek.png" name="baseTex"/></textures>
     </variant>
   </group>
   <material>player_trans.xml</material>

@@ -6,7 +6,7 @@
       <mesh>skeletal/new/m_armor_tunic_short.dae</mesh>
       <props>
         <prop actor="props/units/heads/new/head_hele_b.xml" attachpoint="head"/>
-        <prop actor="props/units/helmets/boar_tusk_helmet.xml" attachpoint="helmet"/>
+        <prop actor="props/units/helmets/boar_tusk_helmet_minoan.xml" attachpoint="helmet"/>
         <prop actor="props/units/weapons/arrow_back.xml" attachpoint="weapon_R"/>
         <prop actor="props/units/weapons/bow_recurve.xml" attachpoint="weapon_L"/>
         <prop actor="props/units/quiver_greek_back.xml" attachpoint="back"/>

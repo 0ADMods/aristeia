@@ -10,12 +10,7 @@
   <group>
     <variant frequency="1" name="1">
       <props>
-        <prop actor="props/units/helmets/props/prop_boar_tusk_crest_01.xml" attachpoint="01"/>
-      </props>
-    </variant>
-    <variant frequency="1" name="2">
-      <props>
-        <prop actor="props/units/helmets/props/prop_boar_tusk_crest_02.xml" attachpoint="01"/>
+        <prop actor="props/units/helmets/props/prop_boar_tusk_horn.xml" attachpoint="01"/>
       </props>
     </variant>
   </group>

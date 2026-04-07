@@ -7,10 +7,21 @@
       <props>
         <prop actor="props/units/heads/new/head_female_test.xml" attachpoint="head"/>
       </props>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="female_01">
       <textures>
         <texture file="skeletal/mycenean/myce_woman.png" name="baseTex"/>
         <texture file="default_norm.png" name="normTex"/>
-        <texture file="null_black.dds" name="specTex"/>
+        <texture file="skeletal/hele/dress_female_spec.png" name="specTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="female_02">
+      <textures>
+        <texture file="skeletal/hele/dress_female_06.dds" name="baseTex"/>
+        <texture file="default_norm.png" name="normTex"/>
+        <texture file="skeletal/hele/dress_female_spec.png" name="specTex"/>
       </textures>
     </variant>
   </group>

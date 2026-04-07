@@ -6,7 +6,7 @@
       <mesh>skeletal/new/m_tunic_short.dae</mesh>
       <props>
         <prop actor="props/units/heads/new/head_hele_b.xml" attachpoint="head"/>
-        <prop actor="props/units/helmets/boar_tusk_helmet.xml" attachpoint="helmet"/>
+        <prop actor="props/units/helmets/boar_tusk_helmet_minoan.xml" attachpoint="helmet"/>
       </props>
       <textures>
         <texture file="skeletal/athen/epilektos_09.png" name="baseTex"/>

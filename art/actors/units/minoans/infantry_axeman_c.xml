@@ -29,7 +29,7 @@
   <group>
     <variant frequency="3" name="Hellenic-Pilos-01">
       <props>
-        <prop actor="props/units/helmets/boar_tusk_helmet_b.xml" attachpoint="helmet"/>
+        <prop actor="props/units/helmets/boar_tusk_helmet_minoan.xml" attachpoint="helmet"/>
       </props>
     </variant>
   </group>
