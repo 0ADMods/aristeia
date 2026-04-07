@@ -3,6 +3,7 @@
   <Identity>
     <Civ>minoan</Civ>
     <Lang>greek</Lang>
+    <Phenotype>female</Phenotype>
     <GenericName>Princess Ariadne</GenericName>
     <Icon>units/athen/hero_pericles.png</Icon>
   </Identity>

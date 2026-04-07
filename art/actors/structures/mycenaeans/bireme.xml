@@ -3,7 +3,7 @@
   <castshadow/>
   <float/>
   <group>
-    <variant frequency="1" name="Persian bireme">
+    <variant frequency="1" name="Mycenaeans bireme">
       <mesh>structural/mycenae_ship_arrow.dae</mesh>
       <animations>
         <!-- Note: Ship attacks don't have dae animations, but animations are required to trigger sound effects. Perhaps in the future it should use the C++ code instead. -->
