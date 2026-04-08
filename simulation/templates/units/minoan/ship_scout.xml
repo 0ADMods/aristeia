@@ -6,11 +6,11 @@
   </Footprint>
   <Identity>
     <Civ>minoan</Civ>
-    <GenericName>Minoan War Boat</GenericName>
+    <GenericName>Minoan Scout</GenericName>
     <SpecificName></SpecificName>
     <Icon>units/pers/ship_scout.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>structures/minoans/ship_scout.xml</Actor>
+    <Actor>structures/minoans/ship_scout_02.xml</Actor>
   </VisualActor>
 </Entity>
