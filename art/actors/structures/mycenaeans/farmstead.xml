@@ -19,7 +19,7 @@
 	</group>
 	<group>
 		<variant frequency="1" name="1">
-			<mesh>structural/mycenae_farmstead.dae</mesh>
+			<mesh>structural/myce/farmstead.dae</mesh>
 		</variant>
 	</group>
 	<group>

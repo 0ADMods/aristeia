@@ -3,7 +3,7 @@
   <castshadow/>
   <group>
     <variant frequency="1" name="Mycenae Corral">
-      <mesh>structural/mycenae_corral.dae</mesh>
+      <mesh>structural/myce/corral.dae</mesh>
       <props>
         <prop actor="props/structures/decals/hele_corral_mud.xml" attachpoint="root"/>
         <prop actor="props/structures/hellenes/corral_hay.xml" attachpoint="root"/>
@@ -15,10 +15,10 @@
 		<prop actor="props/flora/bush_medit_sm_dry.xml" attachpoint="bush_4"/>
       </props>
       <textures>
-		<texture file="structural/mycenae_struct.png" name="baseTex"/>
-		<texture file="structural/mycenae_struct_spec.png" name="specTex"/>
-		<texture file="structural/mycenae_struct_norm.png" name="normTex"/>
-        <!-- <texture file="structural/ao/hele_corral.png" name="aoTex"/> -->
+        <texture file="structural/mycenae_struct.png" name="baseTex"/>
+        <texture file="structural/mycenae_struct_spec.png" name="specTex"/>
+        <texture file="structural/mycenae_struct_norm.png" name="normTex"/>
+				<texture file="structural/ao/myce/corral.png" name="aoTex"/>
       </textures>
     </variant>
   </group>
@@ -42,5 +42,5 @@
       </props>
     </variant>
   </group>
-  <material>no_trans_parallax_spec.xml</material>
+  <material>player_trans_ao_parallax_spec.xml</material>
 </actor>

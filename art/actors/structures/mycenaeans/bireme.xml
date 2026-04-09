@@ -4,7 +4,7 @@
   <float/>
   <group>
     <variant frequency="1" name="Mycenaeans bireme">
-      <mesh>structural/mycenae_ship_arrow.dae</mesh>
+      <mesh>structural/myce/ship_arrow.dae</mesh>
       <animations>
         <!-- Note: Ship attacks don't have dae animations, but animations are required to trigger sound effects. Perhaps in the future it should use the C++ code instead. -->
         <animation event="0.5" load="0.0" name="attack_ranged" speed="100"/>

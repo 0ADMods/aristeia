@@ -3,7 +3,7 @@
 	<castshadow/>
 	<group>
 		<variant frequency="100" name="scout tower">
-			<mesh>structural/mycenae_temple.dae</mesh>
+			<mesh>structural/myce/temple.dae</mesh>
 			<props>
 				<prop actor="props/structures/decals/celt_barracks.xml" attachpoint="root"/>
 				<prop actor="props/flora/grass_soft_small.xml" attachpoint="tree" maxheight="20" minheight="-20"/>
@@ -26,7 +26,7 @@
 				<prop actor="flora/trees/mediterranean_cypress.xml" attachpoint="tree_8" maxheight="20" minheight="-20"/>
 			</props>
 			<textures>
-		<texture file="structural/mycenae_struct.png" name="baseTex"/>
+		        <texture file="structural/mycenae_struct.png" name="baseTex"/>
 				<texture file="structural/mycenae_struct_spec.png" name="specTex"/>
 				<texture file="structural/mycenae_struct_norm.png" name="normTex"/>
 			</textures>

@@ -3,7 +3,7 @@
 	<castshadow/>
 	<group>
 		<variant frequency="1" name="Base">
-			<mesh>structural/mino_temple.dae</mesh>
+			<mesh>structural/mino/temple.dae</mesh>
 			<props>
 				<prop actor="props/structures/decals/dirt_4x6.xml" attachpoint="root"/>
 				<prop actor="flora/trees/mediterranean_cypress.xml" attachpoint="bush" maxheight="20" minheight="-20"/>
@@ -19,6 +19,7 @@
 				<texture file="structural/mino_struct.png" name="baseTex"/>
 				<texture file="structural/mino_struct_spec.png" name="specTex"/>
 				<texture file="structural/mino_struct_norm.png" name="normTex"/>
+				<texture file="structural/ao/mino/temple.png" name="aoTex"/>
 			</textures>
 		</variant>
 	</group>
@@ -38,5 +39,5 @@
 			</props>
 		</variant>
 	</group>
-	<material>player_trans_parallax_spec.xml</material>
+	<material>player_trans_ao_parallax_spec.xml</material>
 </actor>

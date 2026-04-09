@@ -3,7 +3,7 @@
   <castshadow/>
   <group>
     <variant file="biped/base_chariot_spearman_relax.xml">
-      <mesh>skeletal/new/m_armor_tunic_short.dae</mesh>
+      <mesh>skeletal/new/m_armor_naked.dae</mesh>
       <props>
         <prop actor="props/units/heads/new/head_hele_b.xml" attachpoint="head"/>
         <prop actor="props/units/helmets/boar_tusk_helmet_minoan.xml" attachpoint="helmet"/>
@@ -16,7 +16,7 @@
   <group>
     <variant frequency="1" name="Rider-Armour-Bronze">
       <textures>
-        <texture file="skeletal/mycenean/armor_full_01_01.png" name="baseTex"/>
+        <texture file="skeletal/minoans/minoan_armor_01.png" name="baseTex"/>
         <texture file="skeletal/pers/scale_sleeve_full_01_spec.png" name="specTex"/>
         <texture file="default_norm.png" name="normTex"/>
       </textures>

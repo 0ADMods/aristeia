@@ -19,16 +19,16 @@
 	</group>
 	<group>
 		<variant frequency="1" name="1">
-			<mesh>structural/mycenae_house_1.dae</mesh>
+			<mesh>structural/myce/house_1.dae</mesh>
 		</variant>
 		<variant frequency="1" name="2">
-			<mesh>structural/mycenae_house_2.dae</mesh>
+			<mesh>structural/myce/house_2.dae</mesh>
 		</variant>
 		<variant frequency="1" name="3">
-			<mesh>structural/mycenae_house_3.dae</mesh>
+			<mesh>structural/myce/house_3.dae</mesh>
 		</variant>
 		<variant frequency="1" name="4">
-			<mesh>structural/mycenae_house_4.dae</mesh>
+			<mesh>structural/myce/house_4.dae</mesh>
 		</variant>
 	</group>
 	<group>

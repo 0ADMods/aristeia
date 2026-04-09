@@ -15,7 +15,7 @@
     </Obstructions>
   </Obstruction>
   <VisualActor>
-    <Actor>structures/mycenaeans/wall_gate.xml</Actor>
+    <Actor>structures/minoans/wall_gate.xml</Actor>
   </VisualActor>
   <WallPiece>
     <Length>37.0</Length>

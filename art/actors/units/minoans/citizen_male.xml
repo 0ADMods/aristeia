@@ -3,7 +3,7 @@
   <castshadow/>
   <group>
     <variant frequency="1" name="Base">
-      <mesh>skeletal/new/m_naked.dae</mesh>
+      <mesh>skeletal/new/m_tunic_short.dae</mesh>
       <props>
         <prop actor="props/units/heads/new/head_hele_b.xml" attachpoint="head"/>
       </props>
@@ -16,12 +16,7 @@
     <group>
     <variant frequency="2" name="tunic_01_01">
       <textures>
-        <texture file="skeletal/minoans/mino_b_01.png" name="baseTex"/>
-      </textures>
-    </variant>
-    <variant frequency="2" name="tunic_01_02">
-      <textures>
-        <texture file="skeletal/minoans/mino_b_02.png" name="baseTex"/>
+        <texture file="skeletal/minoans/minoan_tunic_01_01.png" name="baseTex"/>
       </textures>
     </variant>
   </group>
