@@ -4,7 +4,7 @@
     <Civ>minoan</Civ>
     <Lang>greek</Lang>
     <Phenotype>female</Phenotype>
-    <GenericName>Princess Ariadne</GenericName>
+    <GenericName>High Priestess</GenericName>
   </Identity>
   <VisualActor>
     <Actor>units/minoans/hero_chariot_ariadne.xml</Actor>

@@ -15,10 +15,12 @@
       </animations>
       <mesh>structural/pers_chariot_b.dae</mesh>
       <props>
+        <prop actor="units/mycenaeans/chariot_horse_1.xml" attachpoint="horse1"/>
+        <prop actor="units/mycenaeans/chariot_horse_2.xml" attachpoint="horse4"/>
         <prop actor="units/mycenaeans/chariot_horse_1.xml" attachpoint="horse3"/>
         <prop actor="units/mycenaeans/chariot_horse_2.xml" attachpoint="horse2"/>
-        <prop actor="units/mycenaeans/champion_chariot_r.xml" attachpoint="rider1"/>
-        <prop actor="units/mycenaeans/champion_chariot_d.xml" attachpoint="driver1"/>
+        <prop actor="units/minoans/hero_minos_02_chariot_r.xml" attachpoint="rider1"/>
+        <prop actor="units/minoans/champion_chariot_d.xml" attachpoint="driver1"/>
       </props>
       <textures>
         <texture file="structural/mycenae_chariot_01.png" name="baseTex"/>

@@ -3,7 +3,7 @@
   <Identity>
     <Civ>minoan</Civ>
     <Lang>greek</Lang>
-    <GenericName>Minos</GenericName>
+    <GenericName>Minos of Phaistos</GenericName>
   </Identity>
   <VisualActor>
     <Actor>units/minoans/hero_infantry_swordsman_minos.xml</Actor>

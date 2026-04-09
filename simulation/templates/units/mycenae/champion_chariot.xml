@@ -7,7 +7,7 @@
     <Civ>mycenae</Civ>
     <Classes datatype="tokens">Chariot</Classes>
     <GenericName>Achaeans Chariot</GenericName>
-    <SpecificName>mrkbt</SpecificName>
+    <SpecificName>mycenae</SpecificName>
     <SelectionGroupName>units/mycenae/champion_chariot</SelectionGroupName>
     <History>The Mycenaen Chariot was a fast and maneuverable war machine used by the ancient Greeks.</History>
     <Tooltip>Light and fast machines to serve as a speedy, mobile ranged strike force.</Tooltip>
