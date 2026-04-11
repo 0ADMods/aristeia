@@ -6,4 +6,7 @@
   <Promotion>
     <Entity>units/minoan/infantry_archer_e</Entity>
   </Promotion>
+  <VisualActor>
+    <Actor>units/minoans/infantry_archer_a.xml</Actor>
+  </VisualActor>
 </Entity>

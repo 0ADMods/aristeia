@@ -10,9 +10,9 @@
  <Trainer>
     <Entities datatype="tokens">
       units/{civ}/infantry_spearman_b
-      units/{civ}/infantry_javelineer_b
       units/{civ}/hero_minos
       units/{civ}/hero_ariadne
+      units/{civ}/hero_minos_02
       units/{civ}/cavalry_javelineer_b
       units/{civ}/support_slave
     </Entities>

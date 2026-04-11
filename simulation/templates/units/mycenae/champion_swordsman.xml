@@ -13,6 +13,6 @@
     <Category>Officer</Category>
   </TrainingRestrictions>
   <VisualActor>
-    <Actor>units/arcgreek/champion_infantry_swordsman.xml</Actor>
+    <Actor>units/mycenaeans/champion_infantry.xml</Actor>
   </VisualActor>
 </Entity>

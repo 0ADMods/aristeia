@@ -4,4 +4,7 @@
     <Rank>Elite</Rank>
   </Identity>
   <Promotion disable=""/>
+  <VisualActor>
+    <Actor>units/minoans/infantry_archer_e.xml</Actor>
+  </VisualActor>
 </Entity>
