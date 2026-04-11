@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_support_healer">
+  <Auras datatype="tokens">
+    units/han_minister_gathering
+  </Auras>
   <Identity>
     <Civ>minoan</Civ>
     <Lang>greek</Lang>
@@ -11,6 +14,6 @@
   </Identity>
   <Promotion disable=""/>
   <VisualActor>
-    <Actor>units/minoans/citizen_female.xml</Actor>
+    <Actor>units/minoans/priestess.xml</Actor>
   </VisualActor>
 </Entity>
