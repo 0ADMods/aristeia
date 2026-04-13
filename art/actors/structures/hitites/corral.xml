@@ -3,7 +3,7 @@
 	<castshadow/>
 	<group>
 		<variant frequency="1" name="Base">
-			<mesh>structural/hiti/corral.dae</mesh>
+			<mesh>structural/hitites/corral.dae</mesh>
 			<textures>
 				<texture file="structural/hitites_struct.png" name="baseTex"/>
 				<texture file="structural/hitites_struct_spec.png" name="specTex"/>

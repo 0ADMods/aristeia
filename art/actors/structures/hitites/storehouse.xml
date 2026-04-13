@@ -3,13 +3,14 @@
 	<castshadow/>
 	<group>
 		<variant frequency="100" name="storehouse">
-			<mesh>structural/hiti/storehouse.dae</mesh>
+			<mesh>structural/hitites/storehouse.dae</mesh>
 			<props>
 				<prop actor="props/structures/decals/dirt_3x3.xml" attachpoint="root"/>
-				<prop actor="props/flora/farming_barley_harvest_a.xml" attachpoint="bush_1"/>
-				<prop actor="flora/trees/mediterranean_cypress.xml" attachpoint="bush_2"/>
-				<prop actor="flora/trees/mediterranean_cypress_tall.xml" attachpoint="bush_3"/>
-				<prop actor="props/flora/farming_barley_harvest_a.xml" attachpoint="bush_4"/>
+				<prop actor="props/special/eyecandy/bench_1.xml" attachpoint="bush_2"/>
+				<prop actor="props/special/eyecandy/crate_pile.xml" attachpoint="bush_1"/>
+				<prop actor="props/special/eyecandy/bench_1.xml" attachpoint="bush_3"/>
+				<prop actor="props/special/eyecandy/wood_pile.xml" attachpoint="bush_4"/>
+				<prop actor="flora/trees/mediterranean_cypress_tall.xml" attachpoint="bush_7"/>
 			</props>
 			<textures>
 				<texture file="structural/hitites_struct.png" name="baseTex"/>

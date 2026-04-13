@@ -12,7 +12,7 @@
     <Civ>hitit</Civ>
     <GenericName>Hitites Empire</GenericName>
     <History></History>
-    <Icon>emblems/emblem_minoans.png</Icon>
+    <Icon>emblems/emblem_hitites.png</Icon>
   </Identity>
   <Player>
     <Formations datatype="tokens">

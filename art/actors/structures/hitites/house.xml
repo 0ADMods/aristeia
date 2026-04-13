@@ -3,7 +3,7 @@
 	<castshadow/>
 	<group>
 		<variant frequency="1" name="House 1">
-			<mesh>structural/hiti/house_01.dae</mesh>
+			<mesh>structural/hitites/house_01.dae</mesh>
 			<props>
 				<prop actor="props/special/eyecandy/basket_iber_a.xml" attachpoint="woodpile" maxheight="20" minheight="-20"/>
 				<prop actor="props/special/eyecandy/vase_iberians_a.xml" attachpoint="vase_1" maxheight="20" minheight="-20"/>
@@ -14,11 +14,11 @@
 				<prop actor="props/structures/decals/dirt_2x2.xml" attachpoint="root"/>
 			</props>
 			<textures>
-				<texture file="structural/ao/mino/house_a.png" name="aoTex"/>
+				<texture file="structural/ao/hitites/house_01.png" name="aoTex"/>
 			</textures>
 		</variant>
 		<variant frequency="1" name="House 1a">
-			<mesh>structural/hiti/house_01.dae</mesh>
+			<mesh>structural/hitites/house_01.dae</mesh>
 			<props>
 				<prop actor="props/special/eyecandy/woodcord.xml" attachpoint="woodpile" maxheight="20" minheight="-20"/>
 				<prop actor="props/special/eyecandy/vase_iberians_a.xml" attachpoint="vase_1" maxheight="20" minheight="-20"/>
@@ -29,11 +29,11 @@
 				<prop actor="props/structures/decals/dirt_2x2.xml" attachpoint="root"/>
 			</props>
 			<textures>
-				<texture file="structural/ao/mino/house_a.png" name="aoTex"/>
+				<texture file="structural/ao/hitites/house_01.png" name="aoTex"/>
 			</textures>
 		</variant>
 		<variant frequency="1" name="House 2">
-			<mesh>structural/hiti/house_02.dae</mesh>
+			<mesh>structural/hitites/house_02.dae</mesh>
 			<props>
 				<prop actor="props/special/eyecandy/woodcord.xml" attachpoint="woodpile" maxheight="20" minheight="-20"/>
 				<prop actor="props/structures/decals/dirt_2x2.xml" attachpoint="root"/>
@@ -41,11 +41,11 @@
 				<prop actor="props/special/eyecandy/vase_iberians_a.xml" attachpoint="vase_2" maxheight="20" minheight="-20"/>
 			</props>
 			<textures>
-				<texture file="structural/ao/mino/house_b.png" name="aoTex"/>
+				<texture file="structural/ao/hitites/house_02.png" name="aoTex"/>
 			</textures>
 		</variant>
 		<variant frequency="1" name="House 2a">
-			<mesh>structural/hiti/house_02.dae</mesh>
+			<mesh>structural/hitites/house_02.dae</mesh>
 			<props>
 				<prop actor="props/special/eyecandy/basket_iber_a.xml" attachpoint="woodpile" maxheight="20" minheight="-20"/>
 				<prop actor="props/special/eyecandy/vase_iberians_a.xml" attachpoint="vase_1" maxheight="20" minheight="-20"/>
@@ -56,11 +56,11 @@
 				<prop actor="props/structures/decals/dirt_2x2.xml" attachpoint="root"/>
 			</props>
 			<textures>
-				<texture file="structural/ao/mino/house_b.png" name="aoTex"/>
+				<texture file="structural/ao/hitites/house_02.png" name="aoTex"/>
 			</textures>
 		</variant>
 		<variant frequency="1" name="House 3">
-			<mesh>structural/hiti/house_03.dae</mesh>
+			<mesh>structural/hitites/house_03.dae</mesh>
 			<props>
 				<prop actor="props/special/eyecandy/basket_iber_a.xml" attachpoint="woodpile" maxheight="20" minheight="-20"/>
 				<prop actor="props/special/eyecandy/vase_iberians_a.xml" attachpoint="vase_1" maxheight="20" minheight="-20"/>
@@ -71,11 +71,11 @@
 				<prop actor="props/special/eyecandy/basket_iber_a.xml" attachpoint="vase_5" maxheight="20" minheight="-20"/>
 			</props>
 			<textures>
-				<texture file="structural/ao/mino/house_c.png" name="aoTex"/>
+				<texture file="structural/ao/hitites/house_03.png" name="aoTex"/>
 			</textures>
 		</variant>
 		<variant frequency="1" name="House 3a">
-			<mesh>structural/hiti/house_03.dae</mesh>
+			<mesh>structural/hitites/house_03.dae</mesh>
 			<props>
 				<prop actor="props/special/eyecandy/woodcord.xml" attachpoint="woodpile" maxheight="20" minheight="-20"/>
 				<prop actor="props/special/eyecandy/vase_iberians_a.xml" attachpoint="vase_1" maxheight="20" minheight="-20"/>
@@ -86,7 +86,7 @@
 				<prop actor="props/structures/decals/dirt_2x2.xml" attachpoint="root"/>
 			</props>
 			<textures>
-				<texture file="structural/ao/mino/house_c.png" name="aoTex"/>
+				<texture file="structural/ao/hitites/house_03.png" name="aoTex"/>
 			</textures>
 		</variant>
 	</group>

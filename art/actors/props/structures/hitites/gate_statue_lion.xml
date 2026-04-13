@@ -3,7 +3,7 @@
   <castshadow/>
   <group>
     <variant frequency="1" name="kushite statue">
-      <mesh>structural/hiti/lion_gate.dae</mesh>
+      <mesh>structural/hitites/lion_gate.dae</mesh>
       <textures>
         <texture file="props/lion_statue.png" name="baseTex"/>
         <texture file="props/lion_statue_norm.png" name="normTex"/>

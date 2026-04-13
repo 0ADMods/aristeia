@@ -3,7 +3,7 @@
 	<castshadow/>
 	<group>
 		<variant frequency="100" name="sentry_tower">
-			<mesh>structural/hiti/sentry_tower.dae</mesh>
+			<mesh>structural/hitites/sentry_tower.dae</mesh>
 			<props>
 				<prop actor="props/structures/decals/dirt_3x3.xml" attachpoint="root"/>
 			</props>
