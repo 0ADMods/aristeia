@@ -11,14 +11,14 @@
         <animation file="mechanical/chariot_move.dae" name="Run" speed="7"/>
         <animation file="mechanical/chariot_death.dae" name="Death" id="death1" speed="100"/>
         <animation file="mechanical/chariot_death.dae" name="Death" id="death2" speed="100"/>
-        <animation file="mechanical/chariot_idle.dae" name="attack_ranged" speed="80"/>
+        <animation file="mechanical/chariot_idle.dae" name="attack_melee" speed="80"/>
       </animations>
       <mesh>structural/chariot_box.dae</mesh>
       <props>
         <prop actor="units/persians/chariot_archer_a_h2.xml" attachpoint="horse2"/>
         <prop actor="units/persians/chariot_archer_a_h3.xml" attachpoint="horse3"/>
-        <prop actor="units/persians/chariot_archer_a_r.xml" attachpoint="rider1"/>
-        <prop actor="units/persians/chariot_archer_a_d.xml" attachpoint="driver1"/>
+        <prop actor="units/hitites/chariot_spearman_r.xml" attachpoint="rider1"/>
+        <prop actor="units/hitites/chariot_spearman_d.xml" attachpoint="driver1"/>
       </props>
       <textures>
         <texture file="structural/pers_chariot_a.png" name="baseTex"/>

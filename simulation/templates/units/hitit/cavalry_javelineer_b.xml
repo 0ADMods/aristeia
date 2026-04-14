@@ -4,8 +4,8 @@
     <Civ>hitit</Civ>
     <Lang>greek</Lang>
     <SelectionGroupName>units/hitit/cavalry_javelineer_b</SelectionGroupName>
-    <GenericName>Mycenaean Scout</GenericName>
-        <Icon>units/athen/cavalry_javelinist.png</Icon>
+    <GenericName>Hitite Scout</GenericName>
+    <Icon>units/athen/cavalry_javelinist.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/hitit/cavalry_javelineer_a</Entity>

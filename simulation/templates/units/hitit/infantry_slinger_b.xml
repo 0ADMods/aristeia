@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_infantry_ranged_slinger">
+<Entity parent="merc_inf|template_unit_infantry_ranged_slinger">
   <Identity>
     <Civ>hitit</Civ>
     <SelectionGroupName>units/hitit/infantry_slinger_b</SelectionGroupName>
-    <GenericName>Achaeans Slinger</GenericName>
+    <GenericName>Mercenary Kaskiano Slinger</GenericName>
     <Icon>units/iber/infantry_slinger.png</Icon>
   </Identity>
   <Promotion>

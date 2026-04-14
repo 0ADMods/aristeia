@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="base">
+      <textures>
+        <texture file="props/helmet/bronze_conical_01.png" name="baseTex"/>
+        <texture file="default_norm.png" name="normTex"/>
+        <texture file="null_white.dds" name="specTex"/> 
+      </textures>
+    </variant>
+  </group>
+    <group>
+      <variant frequency="1" name="v1">
+        <mesh>props/helmets/boar_tusk_helmet_02.dae</mesh>
+      </variant>
+      <variant frequency="1" name="v2">
+        <mesh>props/helmets/boar_tusk_helmet.dae</mesh>
+      </variant>
+    </group>
+  <material>player_trans_norm_spec.xml</material>
+</actor>

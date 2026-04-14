@@ -3,7 +3,8 @@
   <Identity>
     <Civ>hitit</Civ>
     <SelectionGroupName>units/hitit/infantry_spearman_b</SelectionGroupName>
-    <GenericName>Achaeans Spearman</GenericName>
+    <GenericName>Heavy Spearman</GenericName>
+    <SpecificName>Šiptiyal-la</SpecificName>
     <Icon>units/spart/infantry_spearman.png</Icon>
   </Identity>
   <Promotion>

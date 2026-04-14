@@ -2,17 +2,15 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant>
-      <mesh>skeletal/new/m_dress_sleeves.dae</mesh>
+    <variant file="biped/base_driver_chariot.xml">
+      <mesh>skeletal/new/m_tunic_short.dae</mesh>
       <props>
         <prop actor="props/units/heads/head_hitite_dude.xml" attachpoint="head"/>
         <prop actor="props/units/helmets/hitite_bronze_helmet.xml" attachpoint="helmet"/>
-        <prop actor="props/units/shields/hitites_shield_01.xml" attachpoint="shield"/>
-        <prop actor="props/units/weapons/spear_bronze_01.xml" attachpoint="weapon_R"/>
       </props>
       <textures>
         <texture file="default_norm.png" name="normTex"/>
-        <texture file="null_gray.dds" name="specTex"/>
+        <texture file="null_black.dds" name="specTex"/>
       </textures>
     </variant>
   </group>
@@ -29,10 +27,8 @@
     </variant>
   </group>
   <group>
-    <variant file="biped/base_spearman_shield_relax.xml"/>
-    <variant file="biped/attack_slaughter.xml"/>
+    <variant frequency="1" name="Idle"/>
     <variant file="biped/attack_capture.xml"/>
-    <variant file="biped/gather_praise.xml"/>
     <variant file="biped/death_infantry.xml"/>
   </group>
   <material>player_trans_norm_spec.xml</material>
