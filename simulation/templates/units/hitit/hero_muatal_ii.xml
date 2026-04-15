@@ -2,11 +2,11 @@
 <Entity parent="chariot|template_unit_hero_cavalry_spearman">
   <Identity>
     <Civ>hitit</Civ>
-    <Lang>greek</Lang>
-    <GenericName>Wanax Nestor</GenericName>
+    <GenericName>Muatal II</GenericName>
         <Icon>units/athen/hero_pericles.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>units/mycenaeans/hero_chariot_spearman_nestor.xml</Actor>
+    <Actor>units/hitites/hero_chariot_archer_muatal.xml</Actor>
   </VisualActor>
 </Entity>
+  
