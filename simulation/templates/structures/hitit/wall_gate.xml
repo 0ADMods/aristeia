@@ -6,6 +6,7 @@
   </Footprint>
   <Identity>
     <Civ>hitit</Civ>
+    <SpecificName>Hilammar</SpecificName>
   </Identity>
   <Obstruction>
     <Obstructions>
@@ -15,7 +16,7 @@
     </Obstructions>
   </Obstruction>
   <VisualActor>
-    <Actor>structures/minoans/wall_gate.xml</Actor>
+    <Actor>structures/persians/wall_gate.xml</Actor>
   </VisualActor>
   <WallPiece>
     <Length>37.0</Length>

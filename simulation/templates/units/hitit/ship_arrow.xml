@@ -2,7 +2,7 @@
 <Entity parent="template_unit_ship_warship_arrow">
   <Identity>
     <Civ>hitit</Civ>
-    <GenericName>War Ship</GenericName>
+    <GenericName>Ugarit War Ship</GenericName>
     <Icon>units/hele/ship_arrow.png</Icon>
   </Identity>
   <VisualActor>

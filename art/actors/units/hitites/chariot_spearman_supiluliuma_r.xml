@@ -2,11 +2,11 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant file="biped/base_spearman_shield_relax.xml">
+    <variant file="biped/base_chariot_spearman_relax.xml">
       <mesh>skeletal/new/m_armor_dress_sleeves.dae</mesh>
       <props>
         <prop actor="props/units/heads/new/head_celt_su3.xml" attachpoint="head"/>
-        <prop actor="props/units/helmets/hitite_bronze_helmet.xml" attachpoint="helmet"/>
+        <prop actor="props/units/helmets/hitite_king_helmet.xml" attachpoint="helmet"/>
         <prop actor="props/units/pers_bactrian_arm_left_bronze.xml" attachpoint="shoulderpad_L"/>
         <prop actor="props/units/pers_bactrian_arm_right_bronze.xml" attachpoint="shoulderpad_R"/>
         <prop actor="props/units/shields/hitites_shield_01.xml" attachpoint="shield"/>
@@ -25,7 +25,6 @@
   </group>
   <group>
     <variant frequency="1" name="Idle"/>
-    <variant file="biped/base_spearman_shield_relax.xml"/>
     <variant file="biped/attack_capture.xml"/>
     <variant file="biped/death_infantry.xml"/>
   </group>

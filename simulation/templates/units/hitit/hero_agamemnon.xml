@@ -2,7 +2,7 @@
 <Entity parent="template_unit_hero_infantry_swordsman">
   <Identity>
     <Civ>hitit</Civ>
-    <Lang>greek</Lang>
+    
     <GenericName>Wanax Agamemnon</GenericName>
     <Icon>units/spart/hero_brasidas.png</Icon>
   </Identity>

@@ -4,6 +4,9 @@
     <Rank>Advanced</Rank>
   </Identity>
   <Promotion>
-    <Entity>units/arcgreek/infantry_archer_e</Entity>
+    <Entity>units/hitit/infantry_archer_e</Entity>
   </Promotion>
+  <VisualActor>
+    <Actor>units/hitites/infantry_archer_a.xml</Actor>
+  </VisualActor>
 </Entity>

@@ -6,7 +6,7 @@
   </Footprint>
   <Identity>
     <Civ>hitit</Civ>
-    <Lang>greek</Lang>
+    
     <GenericName>Achaeans Merchant</GenericName>
     <Icon>units/hele/support_trader.png</Icon>
   </Identity>

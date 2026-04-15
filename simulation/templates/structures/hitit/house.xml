@@ -2,6 +2,7 @@
 <Entity parent="template_structure_civic_house_big">
   <Identity>
     <Civ>hitit</Civ>
+    <SpecificName>Pir</SpecificName>
   </Identity>
   <VisualActor>
     <Actor>structures/hitites/house.xml</Actor>

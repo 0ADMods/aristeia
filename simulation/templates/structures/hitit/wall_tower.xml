@@ -7,6 +7,7 @@
       <GarrisonHolder disable=""/>
   <Identity>
     <Civ>hitit</Civ>
+    <SpecificName>Dammas Gurkis</SpecificName>
   </Identity>
   <Obstruction>
     <Static width="7.5" depth="7.5"/>
@@ -36,7 +37,7 @@
     </TurretPoints>
   </TurretHolder>
   <VisualActor>
-    <Actor>structures/minoans/wall_tower.xml</Actor>
+    <Actor>structures/persians/wall_tower.xml</Actor>
   </VisualActor>
   <WallPiece>
     <Length>7.5</Length>

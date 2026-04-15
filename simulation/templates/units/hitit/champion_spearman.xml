@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_champion_infantry_spearman">
   <Identity>
-    <Civ>hitit</Civ>
-    <Lang>greek</Lang>
-    <GenericName>Mycenaen Royal Bodyguard</GenericName>
+    <Civ>hitit</Civ>    
+    <GenericName>Royal Bodyguard</GenericName>
     <Icon>units/spart/champion_infantry_spear.png</Icon>
   </Identity>
   <VisualActor>

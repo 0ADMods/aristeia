@@ -6,24 +6,13 @@
       <mesh>skeletal/new/m_armor_tunic_long.dae</mesh>
       <props>
         <prop actor="props/units/heads/new/head_pers_a.xml" attachpoint="head"/>
+        <prop actor="props/units/helmets/hitite_leather_helmet.xml" attachpoint="helmet"/>
         <prop actor="props/units/mace_sling_pouch.xml" attachpoint="sheath_L"/>
       </props>
       <textures>
         <texture file="skeletal/jude/scale_01_spec.png" name="specTex"/>
         <texture file="default_norm.png" name="normTex"/>
       </textures>
-    </variant>
-  </group>
-  <group>
-    <variant frequency="1" name="hele_thracian_b2">
-      <props>
-        <prop actor="props/units/helmets/hele_thracian_b2.xml" attachpoint="helmet"/>
-      </props>
-    </variant>
-    <variant frequency="1" name="hele_thracian_b9">
-      <props>
-        <prop actor="props/units/helmets/hele_thracian_b9.xml" attachpoint="helmet"/>
-      </props>
     </variant>
   </group>
   <group>
@@ -39,19 +28,24 @@
     </variant>
   </group>
   <group>
-    <variant frequency="1" name="judea-padded-1a">
+    <variant name="judea-tunic-1a">
       <textures>
-        <texture file="skeletal/jude/scale_01_01.png" name="baseTex"/>
+        <texture file="skeletal/pers/tunic_coat_01_01.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="1" name="judea-padded-1b">
+    <variant name="persa-tunic-1b">
       <textures>
-        <texture file="skeletal/jude/scale_01_02.png" name="baseTex"/>
+        <texture file="skeletal/pers/tunic_coat_01_02.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="1" name="judea-padded-1c">
+    <variant name="persa-tunic-1c">
       <textures>
-        <texture file="skeletal/jude/scale_01_03.png" name="baseTex"/>
+        <texture file="skeletal/pers/tunic_coat_01_03.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant name="persa-tunic-1d">
+      <textures>
+        <texture file="skeletal/pers/tunic_coat_01_04.png" name="baseTex"/>
       </textures>
     </variant>
   </group>

@@ -6,13 +6,14 @@
   </Footprint>
   <Identity>
     <Civ>hitit</Civ>
+    <SpecificName>Gurkis</SpecificName>
     <SelectionGroupName>structures/mycenae/wallset_stone</SelectionGroupName>
   </Identity>
   <Obstruction>
     <Static width="37.0" depth="6.0"/>
   </Obstruction>
   <VisualActor>
-    <Actor>structures/minoans/wall_long.xml</Actor>
+    <Actor>structures/persians/wall_long.xml</Actor>
   </VisualActor>
   <WallPiece>
     <Length>37.0</Length>

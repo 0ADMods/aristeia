@@ -2,10 +2,10 @@
 <Entity parent="template_structure_military_forge">
   <Identity>
     <Civ>hitit</Civ>
-    <SpecificName>Khalkeṓn</SpecificName>
-    <History>The earliest Greek smiths worked in copper, then bronze, and then finally iron.</History>
+    <SpecificName></SpecificName>
+    <History>.</History>
   </Identity>
   <VisualActor>
-    <Actor>structures/minoans/forge.xml</Actor>
+    <Actor>structures/hitites/forge.xml</Actor>
   </VisualActor>
 </Entity>

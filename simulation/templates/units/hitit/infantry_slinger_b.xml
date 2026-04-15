@@ -3,13 +3,15 @@
   <Identity>
     <Civ>hitit</Civ>
     <SelectionGroupName>units/hitit/infantry_slinger_b</SelectionGroupName>
-    <GenericName>Mercenary Kaskiano Slinger</GenericName>
+    <GenericName>Kaskian Mercenary</GenericName>
+    <SpecificName>Kaskian Mercenary</SpecificName>
+    <History>Mountain-dwelling warriors from northern Anatolia, feared for their raids on Hittite cities and valued as mercenaries.</History>
     <Icon>units/iber/infantry_slinger.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/hitit/infantry_slinger_a</Entity>
   </Promotion>
   <VisualActor>
-    <Actor>units/athenians/infantry_slinger_b.xml</Actor>
+    <Actor>units/hitites/infantry_slinger_b.xml</Actor>
   </VisualActor>
 </Entity>

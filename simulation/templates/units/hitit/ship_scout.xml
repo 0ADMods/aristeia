@@ -6,8 +6,7 @@
   </Footprint>
   <Identity>
     <Civ>hitit</Civ>
-    <GenericName>Mycenaean War Boat</GenericName>
-    <SpecificName></SpecificName>
+    <GenericName>Ugarit Scout Ship</GenericName>
     <Icon>units/pers/ship_scout.png</Icon>
   </Identity>
   <VisualActor>

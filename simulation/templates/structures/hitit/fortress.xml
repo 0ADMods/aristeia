@@ -6,6 +6,7 @@
   </Footprint>
   <Identity>
     <Civ>hitit</Civ>
+    <SpecificName>Halmassuittas Pir</SpecificName>
   </Identity>
   <Obstruction>
     <Static width="24.0" depth="26.0"/>
@@ -23,7 +24,7 @@
     </Entities>
   </Trainer>
   <VisualActor>
-    <Actor>structures/minoans/fortress.xml</Actor>
+    <Actor>structures/hitites/fortress.xml</Actor>
   </VisualActor>
   <WallPiece>
     <Length>24.0</Length>

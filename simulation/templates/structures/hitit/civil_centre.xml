@@ -5,14 +5,13 @@
   </Health>
   <Identity>
     <Civ>hitit</Civ>
-    <SpecificName>Agorá</SpecificName>
+    <SpecificName>Ḫassannas Ḫilammar</SpecificName>
   </Identity>
  <Trainer>
     <Entities datatype="tokens">
       units/{civ}/infantry_spearman_b
-      units/{civ}/hero_minos
-      units/{civ}/hero_ariadne
-      units/{civ}/hero_minos_02
+      units/{civ}/hero_supiluliuma_i
+      units/{civ}/hero_muatal_ii
       units/{civ}/cavalry_javelineer_b
       units/{civ}/support_slave
     </Entities>
