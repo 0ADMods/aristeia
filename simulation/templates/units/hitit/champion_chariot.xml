@@ -6,18 +6,30 @@
   <Identity>
     <Civ>hitit</Civ>
     <Classes datatype="tokens">Chariot</Classes>
-    <GenericName>Achaeans Chariot</GenericName>
-    <SpecificName>mycenae</SpecificName>
+    <GenericName>Hitite Chariot</GenericName>
+    <SpecificName></SpecificName>
     <SelectionGroupName>units/hitit/champion_chariot</SelectionGroupName>
-    <History>The Mycenaen Chariot was a fast and maneuverable war machine used by the ancient Greeks.</History>
+    <History>.</History>
     <Tooltip>Light and fast machines to serve as a speedy, mobile ranged strike force.</Tooltip>
     <Icon>units/maur/champion_chariot.png</Icon>
   </Identity>
+  <TurretHolder>
+    <TurretPoints>
+      <One>
+          <X>-0.5</X>
+          <Y>2.5</Y>
+          <Z>-3.3</Z>
+          <Template>units/hitit/infantry_archer_e</Template>
+          <Angle>0.1</Angle>
+      <Ejectable>false</Ejectable>
+      </One>
+    </TurretPoints>
+  </TurretHolder>
   <UnitMotion>
     <WalkSpeed>16.0</WalkSpeed>
     <RunMultiplier>2.875</RunMultiplier>
   </UnitMotion>
   <VisualActor>
-    <Actor>units/mycenaeans/champion_chariot.xml</Actor>
+    <Actor>units/hitites/champion_chariot.xml</Actor>
   </VisualActor>
 </Entity>

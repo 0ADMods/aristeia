@@ -11,9 +11,9 @@
           <X>-0.5</X>
           <Y>2.5</Y>
           <Z>-3.3</Z>
-          <Template>units/hitit/infantry_archer_e</Template>
+          <Template>units/hitit/champion_infantry_archer</Template>
           <Angle>0.1</Angle>
-      <Ejectable>false</Ejectable>
+      <Ejectable>true</Ejectable>
       </One>
     </TurretPoints>
   </TurretHolder>
