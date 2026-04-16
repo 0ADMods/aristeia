@@ -14,6 +14,8 @@
 				<prop actor="flora/trees/mediterranean_cypress.xml" attachpoint="tree_5" maxheight="20" minheight="-20"/>
 				<prop actor="flora/trees/mediterranean_cypress.xml" attachpoint="tree_6" maxheight="20" minheight="-20"/>
 				<prop actor="flora/trees/mediterranean_cypress.xml" attachpoint="tree_7" maxheight="20" minheight="-20"/>
+			    <prop actor="flora/trees/mediterranean_cypress.xml" attachpoint="tree_8" maxheight="20" minheight="-20"/>
+				<prop actor="flora/trees/mediterranean_cypress.xml" attachpoint="tree_9" maxheight="20" minheight="-20"/>
 				<prop actor="props/units/weapons/arrow_front.xml" attachpoint="projectile"/>
 				<prop actor="props/units/weapons/arrow_front.xml" attachpoint="loaded-projectile"/>
 			</props>
