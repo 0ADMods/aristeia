@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_economic_market">
+  <Identity>
+    <Civ>hitti</Civ>
+    <SpecificName>Kuwattan Zilipura</SpecificName>
+    <History>.</History>
+  </Identity>
+  <VisualActor>
+    <Actor>structures/persians/market.xml</Actor>
+  </VisualActor>
+</Entity>

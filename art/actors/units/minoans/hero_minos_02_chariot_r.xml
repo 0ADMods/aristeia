@@ -16,7 +16,7 @@
   <group>
     <variant frequency="1" name="Rider-Armour-Bronze">
       <textures>
-        <texture file="skeletal/minoans/minoan_armor_01.png" name="baseTex"/>
+        <texture file="skeletal/minoans/hero_01.png" name="baseTex"/>
         <texture file="skeletal/pers/scale_sleeve_full_01_spec.png" name="specTex"/>
         <texture file="default_norm.png" name="normTex"/>
       </textures>

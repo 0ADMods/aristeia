@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_military_forge">
+  <Identity>
+    <Civ>hitti</Civ>
+    <SpecificName></SpecificName>
+    <History>.</History>
+  </Identity>
+  <VisualActor>
+    <Actor>structures/hitites/forge.xml</Actor>
+  </VisualActor>
+</Entity>

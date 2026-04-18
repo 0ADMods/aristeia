@@ -6,7 +6,6 @@
 			<mesh>structural/hitites/cc.dae</mesh>
 			<props>
 				<prop actor="props/structures/decals/paving_tile_aegean_8x8_round.xml" attachpoint="root"/>
-			    <prop actor="props/structures/hitites/gate_statue_lion.xml" attachpoint="root" maxheight="20" minheight="-20"/>
 				<prop actor="flora/trees/mediterranean_cypress.xml" attachpoint="tree_1" maxheight="20" minheight="-20"/>
 				<prop actor="flora/trees/mediterranean_cypress.xml" attachpoint="tree_2" maxheight="20" minheight="-20"/>
 				<prop actor="flora/trees/mediterranean_cypress.xml" attachpoint="tree_3" maxheight="20" minheight="-20"/>
