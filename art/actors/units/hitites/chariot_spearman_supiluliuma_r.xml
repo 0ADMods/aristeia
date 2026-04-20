@@ -5,7 +5,7 @@
     <variant file="biped/base_chariot_spearman_relax.xml">
       <mesh>skeletal/new/m_armor_dress_sleeves.dae</mesh>
       <props>
-        <prop actor="props/units/heads/new/head_celt_su3.xml" attachpoint="head"/>
+        <prop actor="props/units/heads/head_hittite_old.xml" attachpoint="head"/>
         <prop actor="props/units/helmets/hitite_king_helmet.xml" attachpoint="helmet"/>
         <prop actor="props/units/pers_bactrian_arm_left_bronze.xml" attachpoint="shoulderpad_L"/>
         <prop actor="props/units/pers_bactrian_arm_right_bronze.xml" attachpoint="shoulderpad_R"/>

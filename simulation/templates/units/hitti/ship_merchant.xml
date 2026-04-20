@@ -10,6 +10,6 @@
     <Icon>units/hele/ship_merchant.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>structures/hellenes/merchant.xml</Actor>
+    <Actor>structures/persians/merchant.xml</Actor>
   </VisualActor>
 </Entity>
