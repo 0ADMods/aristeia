@@ -21,10 +21,10 @@
 		<variant frequency="100" name="Idle"/>
 		<variant name="garrisoned">
 			<props>
-				<prop actor="props/special/common/garrison_flag_minoa.xml" attachpoint="garrisoned_01"/>
-				<prop actor="props/special/common/garrison_flag_minoa.xml" attachpoint="prop_projectile_01"/>
-				<prop actor="props/special/common/garrison_flag_minoa.xml" attachpoint="garrisoned_02"/>
-				<prop actor="props/special/common/garrison_flag_minoa.xml" attachpoint="loaded_projectile"/>
+				<prop actor="props/special/common/garrison_flag_hitti.xml" attachpoint="garrisoned_01"/>
+				<prop actor="props/special/common/garrison_flag_hitti.xml" attachpoint="prop_projectile_01"/>
+				<prop actor="props/special/common/garrison_flag_hitti.xml" attachpoint="garrisoned_02"/>
+				<prop actor="props/special/common/garrison_flag_hitti.xml" attachpoint="loaded_projectile"/>
 			</props>
 		</variant>
 		<variant name="death">

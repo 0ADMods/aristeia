@@ -11,7 +11,7 @@
           <X>-0.5</X>
           <Y>2.5</Y>
           <Z>-3.3</Z>
-          <Template>units/hitit/champion_infantry_archer_chariot</Template>
+          <Template>units/hitti/champion_infantry_archer_chariot</Template>
           <Angle>0.1</Angle>
       <Ejectable>true</Ejectable>
       </One>

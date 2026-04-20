@@ -6,11 +6,11 @@
   </Identity>
   <WallSet>
     <Templates>
-      <Tower>structures/hitit/wall_tower</Tower>
-      <Gate>structures/hitit/wall_gate</Gate>
-      <WallLong>structures/hitit/wall_long</WallLong>
-      <WallMedium>structures/hitit/wall_medium</WallMedium>
-      <WallShort>structures/hitit/wall_short</WallShort>
+      <Tower>structures/hitti/wall_tower</Tower>
+      <Gate>structures/hitti/wall_gate</Gate>
+      <WallLong>structures/hitti/wall_long</WallLong>
+      <WallMedium>structures/hitti/wall_medium</WallMedium>
+      <WallShort>structures/hitti/wall_short</WallShort>
     </Templates>
     <MaxTowerOverlap>0.90</MaxTowerOverlap>
     <MinTowerOverlap>0.05</MinTowerOverlap>

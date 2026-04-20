@@ -1,10 +1,10 @@
 {
 	"Code": "hitti",
-	"Culture": "helle",
+	"Culture": "Nesili",
 	"Music":
 	[
-		{"File":"Achilles.ogg", "Type":"peace"},
-		{"File":"Achilles.ogg", "Type":"peace"}
+		{"File":"Ib_ Al-Noor.ogg", "Type":"peace"},
+		{"File":"Drums of the Deep.ogg", "Type":"peace"}
 	],
     "CivBonuses": [],
     "TeamBonuses": [],

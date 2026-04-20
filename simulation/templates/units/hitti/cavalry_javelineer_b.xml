@@ -2,7 +2,7 @@
 <Entity parent="template_unit_cavalry_ranged_javelineer">
   <Identity>
     <Civ>hitti</Civ>
-    
+
     <SelectionGroupName>units/hitit/cavalry_javelineer_b</SelectionGroupName>
     <GenericName>Hitite Scout</GenericName>
     <Icon>units/athen/cavalry_javelinist.png</Icon>
