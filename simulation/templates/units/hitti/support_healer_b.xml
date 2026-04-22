@@ -9,6 +9,6 @@
   </Identity>
   <Promotion disable=""/>
   <VisualActor>
-    <Actor>units/hitites/healer.xml</Actor>
+    <Actor>units/hittites/healer.xml</Actor>
   </VisualActor>
 </Entity>

@@ -17,8 +17,8 @@
       <props>
         <prop actor="units/persians/chariot_archer_a_h2.xml" attachpoint="horse2"/>
         <prop actor="units/persians/chariot_archer_a_h3.xml" attachpoint="horse3"/>
-        <prop actor="units/hitites/chariot_spearman_r.xml" attachpoint="rider1"/>
-        <prop actor="units/hitites/chariot_spearman_d.xml" attachpoint="driver1"/>
+        <prop actor="units/hittites/chariot_champion_r.xml" attachpoint="rider1"/>
+        <prop actor="units/hittites/chariot_spearman_d.xml" attachpoint="driver1"/>
       </props>
       <textures>
         <texture file="structural/pers_chariot_a.png" name="baseTex"/>

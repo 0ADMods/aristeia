@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_defensive_wall_tower">
   <Footprint>
-    <Square width="9.0" depth="9.0"/>
-    <Height>15.0</Height>
+    <Square width="8" depth="8"/>
+    <Height>14.4</Height>
   </Footprint>
       <GarrisonHolder disable=""/>
   <Identity>
@@ -10,7 +10,7 @@
     <SpecificName>Dammas Gurkis</SpecificName>
   </Identity>
   <Obstruction>
-    <Static width="7.5" depth="7.5"/>
+    <Static width="7" depth="7"/>
   </Obstruction>
     <TurretHolder>
     <TurretPoints>
@@ -37,7 +37,7 @@
     </TurretPoints>
   </TurretHolder>
   <VisualActor>
-    <Actor>structures/persians/wall_tower.xml</Actor>
+    <Actor>structures/hittites/wall_tower.xml</Actor>
   </VisualActor>
   <WallPiece>
     <Length>7.5</Length>

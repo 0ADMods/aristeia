@@ -3,7 +3,7 @@
   <castshadow/>
   <group>
     <variant frequency="1" name="Spearman-Ready-Shield">
-      <mesh>skeletal/new/m_armor_tunic_short.dae</mesh>
+      <mesh>skeletal/new/m_armor_naked.dae</mesh>
       <props>
         <prop actor="props/units/heads/new/head_dude.xml" attachpoint="head"/>
         <prop actor="props/units/helmets/boar_tusk_helmet_h_minoan.xml" attachpoint="helmet"/>
@@ -14,9 +14,9 @@
         <prop actor="props/units/armor/greave_02_bronze_l.xml" attachpoint="leg_L"/>
       </props>
       <textures>
-        <texture file="skeletal/minoans/minoan_03_02.png" name="baseTex"/>
-        <texture file="default_norm.png" name="normTex"/>
-        <texture file="null_white.dds" name="specTex"/>
+        <texture file="skeletal/minoans/minoan_armor_01.png" name="baseTex"/>
+        <texture file="skeletal/minoans/minoan_armor_01_norm.png" name="normTex"/>
+        <texture file="skeletal/minoans/minoan_armor_01_spec.png" name="specTex"/>
       </textures>
     </variant>
   </group>

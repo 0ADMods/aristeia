@@ -1,13 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_player">
-  <!-- <Auras datatype="tokens">
-    teambonuses/cart_player_teambonus
-  </Auras> -->
-  <!-- <EntityLimits>
-    <Limits>
-      <Officer>5</Officer>
-    </Limits>
-  </EntityLimits> -->
+  <Auras datatype="tokens">
+    teambonuses/mycenae_player_teambonus
+  </Auras>
   <Identity>
     <Civ>mycenae</Civ>
     <GenericName>Mycenae</GenericName>

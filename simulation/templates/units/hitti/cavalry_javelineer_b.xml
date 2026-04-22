@@ -11,6 +11,6 @@
     <Entity>units/hitti/cavalry_javelineer_a</Entity>
   </Promotion>
   <VisualActor>
-    <Actor>units/hitites/cavalry_javelinist_b.xml</Actor>
+    <Actor>units/hittites/cavalry_javelinist_b.xml</Actor>
   </VisualActor>
 </Entity>

@@ -1,0 +1,12 @@
+{
+        "genericName": "Mediterranean Trading",
+        "autoResearch": true,
+        "description": "The Minoans were skilled seafarers and traders, dominating the Mediterranean for centuries.",
+	"requirements": { "civ": "minoan" },
+        "icon": "trihemiolia.png",
+        "tooltip": "Ships −20% construction time.",
+        "modifications": [
+                { "value": "Cost/BuildTime", "multiply": 0.80 }
+        ],
+        "affects": ["Ship"]
+}

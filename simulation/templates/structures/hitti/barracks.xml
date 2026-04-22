@@ -24,7 +24,7 @@
     <Static width="20.0" depth="20.0"/>
   </Obstruction>
   <VisualActor>
-    <Actor>structures/hitites/barracks.xml</Actor>
+    <Actor>structures/hittites/barracks.xml</Actor>
     <FoundationActor>structures/fndn_5x5.xml</FoundationActor>
   </VisualActor>
 </Entity>

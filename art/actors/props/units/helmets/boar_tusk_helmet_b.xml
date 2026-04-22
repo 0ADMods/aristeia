@@ -4,15 +4,21 @@
   <group>
     <variant frequency="1" name="base1">
       <mesh>props/helmets/boar_tusk_helmet.dae</mesh>
-      <textures><texture file="props/helmet/boar_tusk_helmet.png" name="baseTex"/></textures>
     </variant>
    <variant frequency="1" name="base2">
       <mesh>props/helmets/boar_tusk_helmet_02.dae</mesh>
-      <textures><texture file="props/helmet/boar_tusk_helmet.png" name="baseTex"/></textures>
     </variant>
      <variant frequency="1" name="base3">
       <mesh>props/helmets/boar_tusk_helmet_03.dae</mesh>
-      <textures><texture file="props/helmet/boar_tusk_helmet.png" name="baseTex"/></textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="v1">
+      <textures>
+        <texture file="props/helmet/boar_tusk_helmet.png" name="baseTex"/>
+        <texture file="default_norm.png" name="normTex"/>
+        <texture file="null_black.dds" name="specTex"/>
+      </textures>
     </variant>
   </group>
   <group>

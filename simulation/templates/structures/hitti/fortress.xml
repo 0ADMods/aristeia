@@ -24,7 +24,7 @@
     </Entities>
   </Trainer>
   <VisualActor>
-    <Actor>structures/hitites/fortress.xml</Actor>
+    <Actor>structures/hittites/fortress.xml</Actor>
   </VisualActor>
   <WallPiece>
     <Length>24.0</Length>

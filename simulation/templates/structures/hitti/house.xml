@@ -5,6 +5,6 @@
     <SpecificName>Pir</SpecificName>
   </Identity>
   <VisualActor>
-    <Actor>structures/hitites/house.xml</Actor>
+    <Actor>structures/hittites/house.xml</Actor>
   </VisualActor>
 </Entity>

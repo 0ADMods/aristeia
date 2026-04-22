@@ -19,7 +19,7 @@
           <X>-0.5</X>
           <Y>2.5</Y>
           <Z>-3.3</Z>
-          <Template>units/hitit/infantry_archer_e</Template>
+          <Template>units/hitti/infantry_archer_e</Template>
           <Angle>0.1</Angle>
       <Ejectable>false</Ejectable>
       </One>
@@ -30,6 +30,6 @@
     <RunMultiplier>2.875</RunMultiplier>
   </UnitMotion>
   <VisualActor>
-    <Actor>units/hitites/champion_chariot.xml</Actor>
+    <Actor>units/hittites/chariot_champion.xml</Actor>
   </VisualActor>
 </Entity>

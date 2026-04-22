@@ -2,7 +2,7 @@
 <Entity parent="template_structure_defensive_wall_short">
   <Footprint>
     <Square width="14.0" depth="7.0"/>
-    <Height>9.0</Height>
+    <Height>11.6</Height>
   </Footprint>
   <Identity>
     <Civ>hitti</Civ>
@@ -10,10 +10,13 @@
     <SelectionGroupName>structures/mycenae/wallset_stone</SelectionGroupName>
   </Identity>
   <Obstruction>
-    <Static width="13.0" depth="6.0"/>
+    <Static width="12" depth="6"/>
   </Obstruction>
+  <StatusBars>
+    <HeightOffset>12.6</HeightOffset>
+  </StatusBars>
   <VisualActor>
-    <Actor>structures/persians/wall_short.xml</Actor>
+    <Actor>structures/hittites/wall_short.xml</Actor>
   </VisualActor>
   <WallPiece>
     <Length>12.3</Length>

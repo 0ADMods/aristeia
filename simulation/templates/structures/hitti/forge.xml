@@ -6,6 +6,6 @@
     <History>.</History>
   </Identity>
   <VisualActor>
-    <Actor>structures/hitites/forge.xml</Actor>
+    <Actor>structures/hittites/forge.xml</Actor>
   </VisualActor>
 </Entity>

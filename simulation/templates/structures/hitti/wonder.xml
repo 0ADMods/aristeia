@@ -20,6 +20,6 @@
   </Obstruction>
   <VisualActor>
     <FoundationActor>structures/fndn_8x8.xml</FoundationActor>
-    <Actor>structures/mycenaeans/wonder.xml</Actor>
+    <Actor>structures/hittites/wonder.xml</Actor>
   </VisualActor>
 </Entity>

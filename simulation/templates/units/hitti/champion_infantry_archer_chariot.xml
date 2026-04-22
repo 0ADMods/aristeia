@@ -6,6 +6,6 @@
     <Icon>units/egyptian_champion_swordsman.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>units/hitites/infantry_archer_c.xml</Actor>
+    <Actor>units/hittites/infantry_archer_c.xml</Actor>
   </VisualActor>
 </Entity>

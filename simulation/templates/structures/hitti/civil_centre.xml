@@ -17,6 +17,6 @@
     </Entities>
   </Trainer>
   <VisualActor>
-    <Actor>structures/hitites/civic_center.xml</Actor>
+    <Actor>structures/hittites/civic_center.xml</Actor>
   </VisualActor>
 </Entity>

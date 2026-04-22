@@ -7,6 +7,6 @@
     <Entity>units/hitti/infantry_spearman_e</Entity>
   </Promotion>
   <VisualActor>
-    <Actor>units/hitites/infantry_spearman_a.xml</Actor>
+    <Actor>units/hittites/infantry_spearman_a.xml</Actor>
   </VisualActor>
 </Entity>

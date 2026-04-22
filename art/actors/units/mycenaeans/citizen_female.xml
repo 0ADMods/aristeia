@@ -3,12 +3,12 @@
   <castshadow/>
   <group>
     <variant frequency="1" file="biped/female_base_walk.xml" name="Base-Female">
-      <mesh>skeletal/new/f_dress.dae</mesh>
+      <mesh>skeletal/new/f_dress_02.dae</mesh>
       <props>
         <prop actor="props/units/heads/new/head_female_test.xml" attachpoint="head"/>
       </props>
       <textures>
-        <texture file="skeletal/mycenean/myce_woman.png" name="baseTex"/>
+        <texture file="skeletal/mycenean/f_01_01.png" name="baseTex"/>
         <texture file="default_norm.png" name="normTex"/>
         <texture file="null_black.dds" name="specTex"/>
       </textures>

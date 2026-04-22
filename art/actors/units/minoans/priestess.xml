@@ -6,9 +6,9 @@
       <animations>
         <animation file="biped/infantry/promotion.dae" name="heal" speed="100"/>
       </animations>
-      <mesh>skeletal/new/f_dress.dae</mesh>
+      <mesh>skeletal/new/f_dress_02.dae</mesh>
       <props>
-        <prop actor="props/units/heads/new/head_female_test.xml" attachpoint="head"/>
+        <prop actor="props/units/heads/new/head_female_minoan.xml" attachpoint="head"/>
         <prop actor="props/units/helmets/kart_healer_hat.xml" attachpoint="helmet"/>
         <prop actor="props/units/weapons/minoan_axe_01.xml" attachpoint="weapon_R"/>
         <prop actor="props/units/weapons/minoan_axe_01.xml" attachpoint="weapon_L"/>
@@ -18,7 +18,7 @@
   <group>
     <variant frequency="1" name="female_01">
       <textures>
-        <texture file="skeletal/mycenean/myce_woman.png" name="baseTex"/>
+        <texture file="skeletal/minoans/minoan_f_priestess.png" name="baseTex"/>
         <texture file="default_norm.png" name="normTex"/>
         <texture file="skeletal/hele/dress_female_spec.png" name="specTex"/>
       </textures>

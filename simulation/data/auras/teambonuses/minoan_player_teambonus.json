@@ -1,0 +1,10 @@
+{
+	"type": "global",
+	"affects": ["Trade"],
+	"affectedPlayers": ["ExclusiveMutualAlly"],
+	"modifications": [
+		{ "value": "Market/InternationalBonus", "multiply": 1.25 }
+	],
+	"auraName": "Minoan Trade Pact",
+	"auraDescription": "Allies +25% international trade bonus."
+}

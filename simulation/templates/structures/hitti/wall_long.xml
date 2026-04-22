@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_defensive_wall_long">
   <Footprint>
-    <Square width="38.5" depth="7.0"/>
-    <Height>9.0</Height>
+    <Square width="37.0" depth="7.0"/>
+    <Height>11.0</Height>
   </Footprint>
   <Identity>
     <Civ>hitti</Civ>
@@ -10,10 +10,97 @@
     <SelectionGroupName>structures/mycenae/wallset_stone</SelectionGroupName>
   </Identity>
   <Obstruction>
-    <Static width="37.0" depth="6.0"/>
+    <Static width="36.0" depth="6.0"/>
   </Obstruction>
+  <StatusBars>
+    <HeightOffset>12.6</HeightOffset>
+  </StatusBars>
+  <TurretHolder>
+    <TurretPoints>
+      <One>
+        <X>1.5</X>
+        <Y>10.6</Y>
+        <Z>1</Z>
+      </One>
+      <Two>
+        <X>-1.5</X>
+        <Y>10.6</Y>
+        <Z>1</Z>
+      </Two>
+      <Three>
+        <X>4.5</X>
+        <Y>10.6</Y>
+        <Z>1</Z>
+      </Three>
+      <Four>
+        <X>-4.5</X>
+        <Y>10.6</Y>
+        <Z>1</Z>
+      </Four>
+      <Five>
+        <X>7.5</X>
+        <Y>10.6</Y>
+        <Z>1</Z>
+      </Five>
+      <Six>
+        <X>-7.5</X>
+        <Y>10.6</Y>
+        <Z>1</Z>
+      </Six>
+      <Seven>
+        <X>10.5</X>
+        <Y>10.6</Y>
+        <Z>1</Z>
+      </Seven>
+      <Eight>
+        <X>-10.5</X>
+        <Y>10.6</Y>
+        <Z>1</Z>
+      </Eight>
+      <Nine>
+        <X>1.5</X>
+        <Y>10.6</Y>
+        <Z>-1</Z>
+      </Nine>
+      <Ten>
+        <X>-1.5</X>
+        <Y>10.6</Y>
+        <Z>-1</Z>
+      </Ten>
+      <Eleven>
+        <X>4.5</X>
+        <Y>10.6</Y>
+        <Z>-1</Z>
+      </Eleven>
+      <Twelve>
+        <X>-4.5</X>
+        <Y>10.6</Y>
+        <Z>-1</Z>
+      </Twelve>
+      <Thirteen>
+        <X>7.5</X>
+        <Y>10.6</Y>
+        <Z>-1</Z>
+      </Thirteen>
+      <Fourteen>
+        <X>-7.5</X>
+        <Y>10.6</Y>
+        <Z>-1</Z>
+      </Fourteen>
+      <Fifteen>
+        <X>10.5</X>
+        <Y>10.6</Y>
+        <Z>-1</Z>
+      </Fifteen>
+      <Sixteen>
+        <X>-10.5</X>
+        <Y>10.6</Y>
+        <Z>-1</Z>
+      </Sixteen>
+    </TurretPoints>
+  </TurretHolder>
   <VisualActor>
-    <Actor>structures/persians/wall_long.xml</Actor>
+    <Actor>structures/hittites/wall_long.xml</Actor>
   </VisualActor>
   <WallPiece>
     <Length>37.0</Length>

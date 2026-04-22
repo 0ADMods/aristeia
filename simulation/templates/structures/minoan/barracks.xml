@@ -23,6 +23,11 @@
   <Obstruction>
     <Static width="20.0" depth="20.0"/>
   </Obstruction>
+ <Trainer>
+    <Entities datatype="tokens">
+      units/{civ}/champion_chariot
+    </Entities>
+  </Trainer>
   <VisualActor>
     <Actor>structures/minoans/barracks.xml</Actor>
     <FoundationActor>structures/fndn_5x5.xml</FoundationActor>

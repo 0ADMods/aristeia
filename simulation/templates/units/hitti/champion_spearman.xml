@@ -6,6 +6,6 @@
     <Icon>units/theb/champion_infantry_swordsman.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>units/hitites/infantry_spearman_c.xml</Actor>
+    <Actor>units/hittites/infantry_spearman_c.xml</Actor>
   </VisualActor>
 </Entity>

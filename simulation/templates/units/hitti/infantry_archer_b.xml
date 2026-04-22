@@ -12,6 +12,6 @@
     <Entity>units/hitti/infantry_archer_a</Entity>
   </Promotion>
   <VisualActor>
-    <Actor>units/hitites/infantry_archer_b.xml</Actor>
+    <Actor>units/hittites/infantry_archer_b.xml</Actor>
   </VisualActor>
 </Entity>

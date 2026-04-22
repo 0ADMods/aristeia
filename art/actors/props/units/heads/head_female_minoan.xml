@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant>
+      <mesh>props/new/head_female_c.dae</mesh>
+      <textures>
+        <texture file="props/head/maur_fem_b_spec.png" name="specTex"/>
+        <texture file="default_norm.png" name="normTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="face_01">
+      <textures>
+        <texture file="props/head/minoan_fem_01.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="face_02">
+      <textures>
+        <texture file="props/head/minoan_fem_02.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="face_03">
+      <textures>
+        <texture file="props/head/minoan_fem_03.png" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <!-- <variant frequency="1" name="hair-brown black">
+      <color>153 145 129</color>
+    </variant> -->
+    <variant frequency="1" name="hair-black">
+      <color>8 8 8</color>
+    </variant>
+  </group>
+  <material>objectcolor_norm_spec.xml</material>
+</actor>

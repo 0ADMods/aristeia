@@ -6,8 +6,7 @@
   </Footprint>
   <Identity>
     <Civ>hitti</Civ>
-    
-    <GenericName>Achaeans Merchant</GenericName>
+    <GenericName>Hittite Merchant</GenericName>
     <Icon>units/hele/support_trader.png</Icon>
   </Identity>
   <VisualActor>
