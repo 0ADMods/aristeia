@@ -7,7 +7,11 @@
     <Civ>arcgreek</Civ>
     <Lang>greek</Lang>
     <GenericName>Greek Officer</GenericName>
+<<<<<<< HEAD
     <Icon>units/theb/champion_infantry_swordsman.png</Icon>
+=======
+    <Icon>units/spart/champion_infantry_sword.png</Icon>
+>>>>>>> origin/master
   </Identity>
   <TrainingRestrictions>
     <Category>Officer</Category>

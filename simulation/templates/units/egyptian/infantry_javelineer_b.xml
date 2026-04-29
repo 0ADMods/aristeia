@@ -5,7 +5,7 @@
     <GenericName>Chariot Runner</GenericName>
     <SpecificName>Peherer</SpecificName>
     <History>Chariot runners kept up a short distance behind the chariots as swift, mobile infantry auxiliaries. They could rescue the crews of crashed chariots as well as engage enemy chariots from a distance.</History>
-    <Icon>units/egyptian_infantry_javelinist.png</Icon>
+    <Icon>units/egyptian/infantry_javelinist.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/egyptian/infantry_javelineer_a</Entity>

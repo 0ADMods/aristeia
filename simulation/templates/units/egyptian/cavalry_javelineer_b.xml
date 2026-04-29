@@ -4,7 +4,7 @@
     <Civ>egyptian</Civ>
     <SelectionGroupName>units/egyptian/cavalry_javelineer_b</SelectionGroupName>
     <GenericName>Horseman</GenericName>
-    <Icon>units/egyptian_cavalry_javelinist.png</Icon>
+    <Icon>units/egyptian/cavalry_javelinist.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/egyptian/cavalry_javelineer_a</Entity>

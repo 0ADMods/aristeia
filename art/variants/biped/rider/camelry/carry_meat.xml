@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<variant name="carry_meat">
+  <animations>
+    <animation file="biped/rider/camelry/carry_meat.dae" name="Walk" speed="10"/>
+    <animation file="biped/rider/camelry/carry_meat_idle.dae" name="Idle" speed="80"/>
+  </animations>
+  <props>
+    <prop actor="props/units/shuttle_meat_male_R.xml" attachpoint="weapon_R"/>
+    <prop attachpoint="shield"/>
+    <prop attachpoint="weapon_bow"/>
+    <prop attachpoint="shield_arm"/>
+    <prop attachpoint="ammo"/>
+  </props>
+</variant>

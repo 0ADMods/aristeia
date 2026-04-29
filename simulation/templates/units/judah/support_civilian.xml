@@ -4,7 +4,7 @@
     <Civ>judah</Civ>
     <GenericName>Judahite Villager</GenericName>
     <Icon>units/athen/support_civilian.png</Icon>
-    <SelectionGroupName>units/judah/support_female_citizen</SelectionGroupName>
+    <SelectionGroupName>units/judah/support_civilian</SelectionGroupName>
   </Identity>
   <VisualActor>
     <Actor>units/persians/citizen_{phenotype}.xml</Actor>

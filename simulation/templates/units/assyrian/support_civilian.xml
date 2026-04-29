@@ -4,7 +4,7 @@
     <Civ>assyrian</Civ>
     <GenericName>Assyrian Villager</GenericName>
     <Icon>units/pers/support_civilian.png</Icon>
-    <SelectionGroupName>units/assyrian/support_female_citizen</SelectionGroupName>
+    <SelectionGroupName>units/assyrian/support_civilian</SelectionGroupName>
   </Identity>
   <VisualActor>
     <Actor>units/persians/citizen_{phenotype}.xml</Actor>

@@ -3,7 +3,7 @@
   <Identity>
     <Civ>egyptian</Civ>
     <GenericName>Egyptian Marine</GenericName>
-    <Icon>units/egyptian_infantry_spearman.png</Icon>
+    <Icon>units/egyptian/infantry_spearman.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/egyptian/champion_infantry_spearman.xml</Actor>

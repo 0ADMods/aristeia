@@ -58,6 +58,7 @@
       <death>attack/destruction/building_collapse_large.xml</death>
     </SoundGroups>
   </Sound>
+  <ProductionQueue/>
   <TerritoryDecay>
     <DecayRate>10</DecayRate>
   </TerritoryDecay>

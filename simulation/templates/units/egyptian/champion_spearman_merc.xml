@@ -4,7 +4,11 @@
     <Civ>egyptian</Civ>
     <Classes datatype="tokens">Mercenary</Classes>
     <GenericName>Ionian Heavy Spearman</GenericName>
+<<<<<<< HEAD
     <Icon>units/theb/champion_infantry_hoplite.png</Icon>
+=======
+    <Icon>units/egyptian/champion_swordsman.png</Icon>
+>>>>>>> origin/master
   </Identity>
   <VisualActor>
     <Actor>units/egyptian/champion_infantry_spearman_merc.xml</Actor>

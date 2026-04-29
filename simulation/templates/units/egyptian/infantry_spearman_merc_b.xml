@@ -3,7 +3,7 @@
   <Identity>
     <SelectionGroupName>units/egyptian/infantry_spearman_merc_b</SelectionGroupName>
     <GenericName>Nubian Spearman</GenericName>
-    <Icon>units/nubian_infantry_spearman.png</Icon>
+    <Icon>units/nubian/infantry_spearman.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/egyptian/infantry_spearman_merc_a</Entity>

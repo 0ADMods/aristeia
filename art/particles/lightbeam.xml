@@ -19,7 +19,7 @@
     <uniform name="size" min="1.0" max="1.0"/>
 
     <uniform name="color.r" min="0.9" max="1.0"/>
-    <copy name="color.g" min="0.9" max="1.0"/>
+    <copy name="color.g" from="color.r"/>
     <copy name="color.b" from="color.r"/>
 
 </particles>

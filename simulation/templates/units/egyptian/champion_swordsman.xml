@@ -4,7 +4,7 @@
     <Civ>egyptian</Civ>
     <SelectionGroupName>units/egyptian/infantry_swordsman</SelectionGroupName>
     <GenericName>Sherdan Guard</GenericName>
-    <Icon>units/egyptian_infantry_swordsman.png</Icon>
+    <Icon>units/egyptian/infantry_swordsman.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/egyptian/champion_infantry_swordsman.xml</Actor>
