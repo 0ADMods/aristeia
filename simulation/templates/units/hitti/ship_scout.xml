@@ -10,6 +10,6 @@
     <Icon>units/pers/ship_scout.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>structures/mycenaeans/ship_scout.xml</Actor>
+    <Actor>structures/hittites/ship_scout.xml</Actor>
   </VisualActor>
 </Entity>

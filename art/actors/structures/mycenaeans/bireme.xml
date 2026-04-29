@@ -35,7 +35,7 @@
         <prop actor="props/structures/hellenes/ship_oar_short_middle_left.xml" attachpoint="row_s_L_010"/>
         <prop actor="props/structures/hellenes/ship_oar_short_middle_left.xml" attachpoint="row_s_L_011"/>
         <prop actor="props/structures/hellenes/ship_oar_short_middle_left.xml" attachpoint="row_s_L_012"/>
-        <prop actor="props/structures/athenians/bireme_main_sail.xml" attachpoint="sail"/>
+        <prop actor="props/structures/mycenaeans/bireme_main_sail.xml" attachpoint="sail"/>
         <prop actor="props/structures/mycenaeans/ship_scout.xml" attachpoint="root"/>
         <prop actor="props/units/weapons/bolt_tower.xml" attachpoint="projectile"/>
       </props>

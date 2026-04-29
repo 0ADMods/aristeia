@@ -6,7 +6,7 @@
     <variant frequency="100" name="Base">
       <mesh>structural/hitites/ugarit_ship.dae</mesh>
       <props>
-        <prop actor="props/structures/persians/merchant_sail.xml" attachpoint="root"/>
+        <prop actor="props/structures/hittites/ships_sail.xml" attachpoint="root"/>
         <prop actor="props/structures/hellenes/ship_oar_short_middle_right.xml" attachpoint="row_R_001"/>
         <prop actor="props/structures/hellenes/ship_oar_short_middle_right.xml" attachpoint="row_R_002"/>
         <prop actor="props/structures/hellenes/ship_oar_short_middle_right.xml" attachpoint="row_R_003"/>
@@ -29,7 +29,7 @@
   <group>
     <variant frequency="0" name="garrisoned">
       <props>
-        <prop actor="props/special/common/garrison_flag_persians.xml" attachpoint="garrisoned" selectable="false"/>
+        <prop actor="props/special/common/garrison_flag_hitti.xml" attachpoint="garrisoned" selectable="false"/>
       </props>
     </variant>
     <variant frequency="1" name="ungarrisoned"/>

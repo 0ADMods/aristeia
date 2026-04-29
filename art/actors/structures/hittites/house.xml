@@ -14,7 +14,7 @@
 				<prop actor="props/structures/decals/dirt_2x2.xml" attachpoint="root"/>
 			</props>
 			<textures>
-				<texture file="structural/ao/hitites/house_01.png" name="aoTex"/>
+				<texture file="structural/ao/hitites/house_01_ao.png" name="aoTex"/>
 			</textures>
 		</variant>
 		<variant frequency="1" name="House 1a">
@@ -29,7 +29,7 @@
 				<prop actor="props/structures/decals/dirt_2x2.xml" attachpoint="root"/>
 			</props>
 			<textures>
-				<texture file="structural/ao/hitites/house_01.png" name="aoTex"/>
+				<texture file="structural/ao/hitites/house_01_ao.png" name="aoTex"/>
 			</textures>
 		</variant>
 		<variant frequency="1" name="House 2">
@@ -41,7 +41,7 @@
 				<prop actor="props/special/eyecandy/vase_iberians_a.xml" attachpoint="vase_2" maxheight="20" minheight="-20"/>
 			</props>
 			<textures>
-				<texture file="structural/ao/hitites/house_02.png" name="aoTex"/>
+				<texture file="structural/ao/hitites/house_02_ao.png" name="aoTex"/>
 			</textures>
 		</variant>
 		<variant frequency="1" name="House 2a">
@@ -56,7 +56,7 @@
 				<prop actor="props/structures/decals/dirt_2x2.xml" attachpoint="root"/>
 			</props>
 			<textures>
-				<texture file="structural/ao/hitites/house_02.png" name="aoTex"/>
+				<texture file="structural/ao/hitites/house_02_ao.png" name="aoTex"/>
 			</textures>
 		</variant>
 		<variant frequency="1" name="House 3">
@@ -71,7 +71,7 @@
 				<prop actor="props/special/eyecandy/basket_iber_a.xml" attachpoint="vase_5" maxheight="20" minheight="-20"/>
 			</props>
 			<textures>
-				<texture file="structural/ao/hitites/house_03.png" name="aoTex"/>
+				<texture file="structural/ao/hitites/house_03_ao.png" name="aoTex"/>
 			</textures>
 		</variant>
 		<variant frequency="1" name="House 3a">
@@ -86,7 +86,7 @@
 				<prop actor="props/structures/decals/dirt_2x2.xml" attachpoint="root"/>
 			</props>
 			<textures>
-				<texture file="structural/ao/hitites/house_03.png" name="aoTex"/>
+				<texture file="structural/ao/hitites/house_03_ao.png" name="aoTex"/>
 			</textures>
 		</variant>
 	</group>
@@ -112,5 +112,5 @@
 			</props>
 		</variant>
 	</group>
-	<material>player_trans_parallax_spec.xml</material>
+	<material>player_trans_ao_parallax_spec.xml</material>
 </actor>
