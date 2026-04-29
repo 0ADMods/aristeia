@@ -3,29 +3,27 @@
   <castshadow/>
   <float/>
   <group>
-    <variant frequency="1" name="base">
+    <variant frequency="1" name="Minoan Trireme">
       <mesh>structural/mino/ship_02.dae</mesh>
       <animations>
         <!-- Note: Ship attacks don't have dae animations, but animations are required to trigger sound effects. Perhaps in the future it should use the C++ code instead. -->
         <animation event="0.5" load="0.0" name="attack_ranged" speed="100"/>
       </animations>
       <props>
-         <prop actor="props/structures/hellenes/ship_oar_short_middle_right.xml" attachpoint="row_R_001"/>
+        <prop actor="props/structures/hellenes/ship_oar_short_middle_right.xml" attachpoint="row_R_001"/>
         <prop actor="props/structures/hellenes/ship_oar_short_middle_right.xml" attachpoint="row_R_002"/>
         <prop actor="props/structures/hellenes/ship_oar_short_middle_right.xml" attachpoint="row_R_003"/>
         <prop actor="props/structures/hellenes/ship_oar_short_middle_right.xml" attachpoint="row_R_004"/>
-        <prop actor="props/structures/hellenes/ship_oar_short_middle_right.xml" attachpoint="row_R_005"/>
-        <prop actor="props/structures/hellenes/ship_oar_short_middle_right.xml" attachpoint="row_R_006"/>
         <prop actor="props/structures/hellenes/ship_oar_short_middle_left.xml" attachpoint="row_L_001"/>
         <prop actor="props/structures/hellenes/ship_oar_short_middle_left.xml" attachpoint="row_L_002"/>
         <prop actor="props/structures/hellenes/ship_oar_short_middle_left.xml" attachpoint="row_L_003"/>
         <prop actor="props/structures/hellenes/ship_oar_short_middle_left.xml" attachpoint="row_L_004"/>
-        <prop actor="props/structures/hellenes/ship_oar_short_middle_left.xml" attachpoint="row_L_005"/>
-        <prop actor="props/structures/hellenes/ship_oar_short_middle_left.xml" attachpoint="row_L_006"/>
-        <prop actor="props/units/weapons/bolt_tower.xml" attachpoint="projectile"/>
+        <prop actor="props/structures/minoans/ship_scout_tent.xml" attachpoint="root"/>
+        <prop actor="props/structures/carthaginians/merchantship_cargo.xml" attachpoint="cargo" maxheight="-1.8" minheight="-1.9"/>
         <prop actor="props/structures/minoans/bireme_main_sail.xml" attachpoint="sail"/>
+        <prop actor="props/units/weapons/bolt_tower.xml" attachpoint="projectile"/>
       </props>
-      <textures>
+      <textures> 
         <texture file="structural/minoan_ship.png" name="baseTex"/>
         <texture file="structural/kush_bireme_spec.png" name="specTex"/>
         <texture file="structural/kush_bireme_norm.png" name="normTex"/>
