@@ -8,7 +8,7 @@
       </animations>
       <mesh>skeletal/new/f_dress_02.dae</mesh>
       <props>
-        <prop actor="props/units/heads/new/head_female_minoan.xml" attachpoint="head"/>
+        <prop actor="props/units/heads/head_female_minoan.xml" attachpoint="head"/>
         <prop actor="props/units/helmets/kart_healer_hat.xml" attachpoint="helmet"/>
         <prop actor="props/units/weapons/minoan_axe_01.xml" attachpoint="weapon_R"/>
         <prop actor="props/units/weapons/minoan_axe_01.xml" attachpoint="weapon_L"/>

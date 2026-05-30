@@ -5,7 +5,7 @@
     <variant file="biped/trunk_operator_right.xml" frequency="1" name="relax">
       <mesh>skeletal/new/m_tunic_short.dae</mesh>
       <props>
-        <prop actor="props/units/heads/new/head_hele_c.xml" attachpoint="head"/>
+        <prop actor="props/units/heads/new/head_hele_b.xml" attachpoint="head"/>
       </props>
       <textures>
         <texture file="default_norm.png" name="normTex"/>
