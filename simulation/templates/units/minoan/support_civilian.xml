@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="female_builder|template_unit_support_civilian">
+  <Identity>
+    <Civ>minoan</Civ>
+    <GenericName>Cretan Artisan</GenericName>
+    <History>Cretan artisans were skilled craftspeople who created intricate pottery, jewelry, and frescoes. They played a crucial role in the cultural and economic life of the Minoan civilization.</History>
+    <Icon>units/athen/support_civilian.png</Icon>
+    <SelectionGroupName>units/arcgreek/support_female_citizen</SelectionGroupName>
+  </Identity>
+  <VisualActor>
+    <Actor>units/minoans/citizen_{phenotype}.xml</Actor>
+  </VisualActor>
+</Entity>

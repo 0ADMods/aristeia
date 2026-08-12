@@ -1,0 +1,13 @@
+{
+	"genericName": "Cyclopean Walls",
+	"autoResearch": true,
+	"description": "The Mycenaeans built massive fortifications around their cities, with walls up to 10 meters thick in some places. These walls were made of large stone blocks and were designed to withstand attacks from enemy armies.",
+	"requirements": { "civ": "mycenae" },
+	"icon": "wooden_walls.png",
+	"tooltip": "City Walls +20% build time and +30% health.",
+	"modifications": [
+		{ "value": "Cost/BuildTime", "multiply": 1.2 },
+		{ "value": "Health/Max", "multiply": 1.3 }
+	],
+	"affects": ["Wall"]
+}

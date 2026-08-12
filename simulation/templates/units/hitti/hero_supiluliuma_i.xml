@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_hero_infantry_swordsman">
+  <Identity>
+    <Civ>hitti</Civ>
+    <GenericName>Supiluliuma I</GenericName> 
+    <History> Šuppiluliuma I (died c. 1322 BC), also Suppiluliuma or Suppiluliumas was an ancient Hittite king (r. c.1350–1322 BC).</History>
+    <Icon>units/athen/hero_pericles.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/hittites/hero_axeman_supiluliuma_i.xml</Actor>
+  </VisualActor>
+</Entity>

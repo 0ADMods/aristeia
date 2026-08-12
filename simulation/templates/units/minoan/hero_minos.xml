@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_hero_infantry_swordsman">
+  <Identity>
+    <Civ>minoan</Civ>
+    <Lang>greek</Lang>
+    <GenericName>Minos of Phaistos</GenericName>
+  </Identity>
+  <VisualActor>
+    <Actor>units/minoans/hero_infantry_swordsman_minos.xml</Actor>
+  </VisualActor>
+</Entity>

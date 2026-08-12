@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant file="biped/base_healer_male.xml">
+      <mesh>skeletal/new/m_dress_sleeves.dae</mesh>
+      <props>
+        <prop actor="props/units/heads/head_hittite_old.xml" attachpoint="head"/>
+        <prop actor="props/units/staff.xml" attachpoint="weapon_R"/>
+      </props>
+      <textures>
+        <texture file="skeletal/pers/robes_healer_01.png" name="baseTex"/>
+        <texture file="default_norm.png" name="normTex"/>
+        <texture file="null_black.dds" name="specTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="Idle"/>
+    <variant file="biped/gather_praise.xml"/>
+    <variant file="biped/death_infantry.xml"/>
+  </group>
+  <material>player_trans_norm_spec.xml</material>
+</actor>

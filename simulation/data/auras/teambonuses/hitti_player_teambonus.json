@@ -1,0 +1,13 @@
+{
+	"type": "global",
+	"affects": ["Cavalry"],
+	"affectedPlayers": ["MutualAlly"],
+	"modifications": [
+		{ "value": "Cost/Resources/food", "multiply": 0.8 },
+		{ "value": "Cost/Resources/wood", "multiply": 0.8 },
+		{ "value": "Cost/Resources/stone", "multiply": 0.8 },
+		{ "value": "Cost/Resources/metal", "multiply": 0.8 }
+	],
+	"auraName": "Hittites Cavalry",
+	"auraDescription": "Cavalry −20% resource costs and training time."
+}

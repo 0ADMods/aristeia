@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="chariot|template_unit_cavalry_melee_spearman">
+  <Identity>
+    <Civ>hitti</Civ>
+    <SelectionGroupName>units/hitit/cavalry_spearman_b</SelectionGroupName>
+    <GenericName>Chariot Spearman</GenericName>
+    <Icon>units/pers/cavalry_spearman.png</Icon>
+  </Identity>
+  <Promotion>
+    <Entity>units/hitti/cavalry_spearman_a</Entity>
+  </Promotion>
+  <VisualActor>
+    <Actor>units/hittites/chariot_spearman_b_m.xml</Actor>
+  </VisualActor>
+</Entity>

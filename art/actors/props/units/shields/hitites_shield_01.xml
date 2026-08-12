@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant name="Base">
+      <mesh>props/shields/hitites_shield_01.dae</mesh>
+      <props>
+        <prop actor="props/units/shields/hitites_shield_back.xml" attachpoint="root"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant name="Texture-Tower-1">
+      <textures><texture file="props/shield/hitites_rect_01_01.png" name="baseTex"/></textures>
+    </variant>
+    <variant name="Texture-Tower-2">
+      <textures><texture file="props/shield/hitites_rect_01_02.png" name="baseTex"/></textures>
+    </variant>
+    <variant name="Texture-Tower-3">
+      <textures><texture file="props/shield/hitites_rect_01_03.png" name="baseTex"/></textures>
+    </variant>
+  </group>
+  <group>
+    <variant name="Texture-Back">
+      <textures>
+        <texture file="default_norm.png" name="normTex"/>
+        <texture file="null_gray.dds" name="specTex"/>
+      </textures>
+    </variant>
+  </group>
+  <material>no_trans_norm_spec.xml</material>
+</actor>

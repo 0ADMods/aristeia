@@ -1,0 +1,79 @@
+{
+	"Code": "hitti",
+	"Culture": "Nesili",
+	"Music":
+	[
+		{"File":"Ib_ Al-Noor.ogg", "Type":"peace"},
+		{"File":"Drums of the Deep.ogg", "Type":"peace"}
+	],
+    "CivBonuses": [],
+    "TeamBonuses": [],
+	"WallSets":
+	[
+		"structures/hitti/wallset_stone"
+	],
+	"StartEntities":
+	[
+		{
+			"Template": "structures/hitti/civil_centre"
+		},
+		{
+			"Template": "units/hitti/support_civilian",
+			"Count": 4
+		},
+		{
+			"Template": "units/hitti/infantry_spearman_b",
+			"Count": 2
+		},
+		{
+			"Template": "units/hitti/infantry_archer_b",
+			"Count": 2
+		},
+		{
+			"Template": "units/hitti/cavalry_javelineer_b"
+		},
+		{
+			"Template": "units/hitti/support_slave"
+		}
+	],
+	"AINames":
+	[
+		"Labarna I",
+		"Hatusil I",
+		"Mursil I",
+		"Hantil I",
+		"Zidanta I",
+		"Ammuna",
+		"Huzziya I",
+		"Telepinu",
+		"Alluwamna",
+		"Tahurwaili",
+		"Hantil II",
+		"Zidanta II",
+		"Huzziya II",
+		"Tudália I/II",
+		"Tudália III",
+		"Supiluliuma I",
+		"Arnuanda II",
+		"Mursil II",
+		"Muatal II",
+		"Hatusil III",
+		"Tudália IV",
+		"Arnuanda III",
+		"Supiluliuma II",
+		"Kurunta",
+		"Piyamaradu",
+		"Tawagalawa",
+		"Nuvanza",
+		"Kantuzzili"
+	],
+	"SkirmishReplacements":
+	{
+		"skirmish/units/default_infantry_melee_b": "units/hitti/infantry_spearman_b",
+		"skirmish/units/default_infantry_ranged_b": "units/hitti/infantry_archer_b",
+		"skirmish/units/default_cavalry": "units/hitti/cavalry_javelineer_b",
+		"skirmish/units/special_starting_unit": "units/hitti/support_slave",
+		"skirmish/structures/default_house_5": "structures/{civ}/house"
+	},
+	"SelectableInGameSetup": true
+}

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="Spearman-Ready-Shield">
+      <mesh>skeletal/new/m_armor_naked.dae</mesh>
+      <props>
+        <prop actor="props/units/heads/new/head_dude.xml" attachpoint="head"/>
+        <prop actor="props/units/helmets/boar_tusk_helmet_h_minoan.xml" attachpoint="helmet"/>
+        <prop actor="props/units/shields/gerron_01.xml" attachpoint="shield"/>
+        <prop actor="props/units/weapons/bronze_sword_medit_01.xml" attachpoint="weapon_R"/>
+        <prop actor="props/units/weapons/sheath_xiphos_e.xml" attachpoint="sheath_01_R"/>
+        <prop actor="props/units/armor/greave_02_bronze_r.xml" attachpoint="leg_R"/>
+        <prop actor="props/units/armor/greave_02_bronze_l.xml" attachpoint="leg_L"/>
+      </props>
+      <textures>
+        <texture file="skeletal/minoans/minoan_armor_01.png" name="baseTex"/>
+        <texture file="skeletal/minoans/minoan_armor_01_norm.png" name="normTex"/>
+        <texture file="skeletal/minoans/minoan_armor_01_spec.png" name="specTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant file="biped/base_swordsman_shield_relax.xml"/>
+  </group>
+  <group>
+    <variant frequency="1" name="Idle"/>
+    <variant file="biped/attack_capture.xml"/>
+    <variant file="biped/attack_slaughter.xml"/>
+    <variant file="biped/death_infantry.xml"/>
+  </group>
+  <material>player_trans_norm_spec_helmet.xml</material>
+</actor>

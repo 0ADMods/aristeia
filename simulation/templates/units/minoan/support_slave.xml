@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="archaic_slave|template_unit_support_slave">
+  <Identity>
+    <Civ>minoan</Civ>
+  </Identity>
+</Entity>

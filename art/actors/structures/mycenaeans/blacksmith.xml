@@ -3,7 +3,7 @@
 	<castshadow/>
 	<group>
 		<variant frequency="100" name="scout tower">
-			<mesh>structural/mycenae_blacksmith.dae</mesh>
+			<mesh>structural/myce/blacksmith.dae</mesh>
 			<props>
 				<prop actor="props/structures/decals/celt_barracks.xml" attachpoint="root"/>
 				<prop actor="props/flora/grass_soft_small.xml" attachpoint="bush_1" maxheight="20" minheight="-20"/>
@@ -28,7 +28,7 @@
 		<variant frequency="100" name="Idle"/>
 		<variant name="garrisoned">
 			<props>
-				<prop actor="props/special/common/garrison_flag_hele.xml" attachpoint="garrisoned"/>
+				<prop actor="props/special/common/garrison_flag_mycenae.xml" attachpoint="garrisoned"/>
 			</props>
 		</variant>
 		<variant name="death">

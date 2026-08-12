@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_ranged_archer">
+  <Cost>
+    <Resources>
+      <food>25</food>
+      <metal>25</metal>
+    </Resources>
+  </Cost>
+  <Identity>
+    <Civ>minoan</Civ>
+    <SelectionGroupName>units/minoan/infantry_archer_b</SelectionGroupName>
+    <VisibleClasses datatype="tokens">Mercenary</VisibleClasses>
+    <GenericName>Cretan Archer</GenericName>
+    <SpecificName>Toxótēs Krētikós</SpecificName>
+    <History>Cretan archers were skilled warriors who served in the military of the Minoan civilization. They were known for their accuracy and use of composite bows.</History>
+        <Icon>units/athen/champion_ranged.png</Icon>
+  </Identity>
+  <Promotion>
+    <Entity>units/minoan/infantry_archer_a</Entity>
+  </Promotion>
+  <VisualActor>
+    <Actor>units/minoans/infantry_archer_b.xml</Actor>
+  </VisualActor>
+</Entity>

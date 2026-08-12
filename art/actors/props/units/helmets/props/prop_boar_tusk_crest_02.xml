@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="base">
+      <mesh>props/helmets/props/crest_high_anc_greek_02.dae</mesh>
+      <textures><texture file="props/helmet/props_helmets_anc_greek.png" name="baseTex"/></textures>
+    </variant>
+  </group>
+  <material>player_trans.xml</material>
+</actor>

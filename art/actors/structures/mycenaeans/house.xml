@@ -11,7 +11,7 @@
 				<prop actor="props/flora/bush_medit_sm_dry.xml" attachpoint="bush_4"/>
 			</props>
 			<textures>
-		<texture file="structural/mycenae_struct.png" name="baseTex"/>
+		        <texture file="structural/mycenae_struct.png" name="baseTex"/>
 				<texture file="structural/mycenae_struct_spec.png" name="specTex"/>
 				<texture file="structural/mycenae_struct_norm.png" name="normTex"/>
 			</textures>
@@ -19,16 +19,16 @@
 	</group>
 	<group>
 		<variant frequency="1" name="1">
-			<mesh>structural/mycenae_house_1.dae</mesh>
+			<mesh>structural/myce/house_1.dae</mesh>
 		</variant>
 		<variant frequency="1" name="2">
-			<mesh>structural/mycenae_house_2.dae</mesh>
+			<mesh>structural/myce/house_2.dae</mesh>
 		</variant>
 		<variant frequency="1" name="3">
-			<mesh>structural/mycenae_house_3.dae</mesh>
+			<mesh>structural/myce/house_3.dae</mesh>
 		</variant>
 		<variant frequency="1" name="4">
-			<mesh>structural/mycenae_house_4.dae</mesh>
+			<mesh>structural/myce/house_4.dae</mesh>
 		</variant>
 	</group>
 	<group>

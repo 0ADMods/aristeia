@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="base1">
+      <mesh>props/helmets/boar_tusk_helmet.dae</mesh>
+    </variant>
+   <variant frequency="1" name="base2">
+      <mesh>props/helmets/boar_tusk_helmet_02.dae</mesh>
+    </variant>
+     <variant frequency="1" name="base3">
+      <mesh>props/helmets/boar_tusk_helmet_03.dae</mesh>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="v1">
+      <textures>
+        <texture file="props/helmet/boar_tusk_helmet.png" name="baseTex"/>
+        <texture file="default_norm.png" name="normTex"/>
+        <texture file="null_black.dds" name="specTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="25" name="1">
+      <props>
+        <prop actor="props/units/helmets/props/celt_helmet_hair.xml" attachpoint="01"/>
+      </props>
+    </variant>
+    <variant frequency="25" name="2">
+      <props>
+        <prop actor="props/units/helmets/props/prop_boar_tusk_01.xml" attachpoint="01"/>
+      </props>
+    </variant>
+  </group>
+  <material>player_trans.xml</material>
+</actor>

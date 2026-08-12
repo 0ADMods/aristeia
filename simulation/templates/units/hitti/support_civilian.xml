@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="female_builder|template_unit_support_civilian">
+  <Identity>
+    <Civ>hitti</Civ>
+    <GenericName>Nesili farmers</GenericName>
+    <History>The Nesili were a group of people who lived in the region of Hatti in ancient Anatolia.</History>
+    <Icon>units/athen/support_civilian.png</Icon>
+    <SelectionGroupName>units/hitti/support_civilian</SelectionGroupName>
+  </Identity>
+  <VisualActor>
+    <Actor>units/persians/citizen_{phenotype}.xml</Actor>
+  </VisualActor>
+</Entity>

@@ -1,0 +1,13 @@
+{
+	"genericName": "Chariot Mastery",
+	"autoResearch": true,
+	"description": "The Hittites were renowned for their use of chariots in warfare.",
+	"requirements": { "civ": "hitti" },
+	"icon": "population.png",
+	"tooltip": "Chariots −30% training time and +30% health.",
+	"modifications": [
+		{ "value": "Cost/BuildTime", "multiply": 0.7 },
+		{ "value": "Health/Max", "multiply": 1.3 }
+	],
+	"affects": ["Chariot !Hero"]
+}

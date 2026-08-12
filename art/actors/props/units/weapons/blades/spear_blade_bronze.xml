@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="Base">
+      <textures>
+        <texture file="skeletal/mycenean/bronze_prop.png" name="baseTex"/>
+        <texture name="specTex" file="null_white.dds"/>
+        <texture file="default_norm.png" name="normTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="blade-a">
+      <mesh>props/spear_blade_a.dae</mesh>
+    </variant>
+    <variant frequency="1" name="blade-b">
+      <mesh>props/spear_blade_b.dae</mesh>
+    </variant>
+    <variant frequency="1" name="blade-c">
+      <mesh>props/spear_blade_c.dae</mesh>
+    </variant>
+  </group>
+  <material>no_trans_norm_spec.xml</material>
+</actor>

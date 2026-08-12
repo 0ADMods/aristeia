@@ -2,7 +2,7 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant frequency="1" name="Armenia Flag">
+    <variant frequency="1" name="Assyrian Flag">
       <animations>
         <animation file="mechanical/garrison_flag_idle.dae" name="Idle" speed="30"/>
       </animations>

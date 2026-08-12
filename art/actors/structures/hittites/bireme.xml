@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <float/>
+  <group>
+    <variant frequency="1" file="others/ships/pers_bireme_oars.xml" name="Persian bireme">
+      <mesh>structures/hittites/ship_arrow.dae</mesh>
+      <animations>
+        <!-- Note: Ship attacks don't have dae animations, but animations are required to trigger sound effects. Perhaps in the future it should use the C++ code instead. -->
+        <animation event="0.5" load="0.0" name="attack_ranged" speed="100"/>
+      </animations>
+      <props>
+        <prop actor="props/structures/hittites/ships_sail.xml" attachpoint="sail"/>
+        <prop actor="props/units/weapons/bolt_tower.xml" attachpoint="projectile"/>
+      </props>
+      <textures>
+        <texture file="structural/pers_bireme.png" name="baseTex"/>
+        <texture file="structural/pers_bireme_spec.png" name="specTex"/>
+        <texture file="structural/pers_bireme_norm.png" name="normTex"/>
+        <texture file="structural/ao/pers_bireme.png" name="aoTex"/>
+      </textures>
+    </variant>
+  </group>
+  <material>player_trans_ao_parallax_spec.xml</material>
+</actor>
